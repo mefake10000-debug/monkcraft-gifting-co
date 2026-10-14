@@ -1,0 +1,149 @@
+---
+description: Visual design system and art direction for Monkcraft Gifting Co
+alwaysApply: true
+---
+
+# MONKCRAFT VISUAL DESIGN RULE
+
+## Primary reference
+The primary visual reference is the "Hustlemad Website Re-Design (Corporate Gifting) 2023" on Behance, especially the provided screenshots reviewed for this project.
+
+The goal is NOT to copy layouts blindly, but to build an original Monkcraft visual system with the same level of polish, colourfulness, playfulness, illustration-led design, and premium creative direction.
+
+## Overall creative direction
+Design the website to feel:
+- colourful
+- playful
+- premium
+- clean
+- aesthetic
+- artistic
+- cartoon-illustrated
+- pictorial
+- modern
+- soft and rounded
+- highly polished
+- easy to navigate
+
+Avoid:
+- boring corporate visuals
+- generic SaaS layouts
+- stock-photo-heavy sections
+- random AI-looking imagery
+- overly serious enterprise styling
+- cluttered ecommerce grids
+- harsh, boxy, or sterile design
+- childish low-quality cartoon styling
+
+## Layout and composition
+- Use clean section-based storytelling.
+- Each homepage section should feel intentionally art-directed, like a mini poster or designed composition.
+- Use generous whitespace and breathable layouts.
+- Use asymmetry where helpful, but preserve clarity.
+- Use soft rounded containers, layered cards, floating decorative elements, and playful compositions.
+- Prioritize clean navigation and easy scanning.
+
+## Background and colour treatment
+Use soft pastel and cheerful brand-led colours inspired by the reference style:
+- light sky blue
+- mint / aqua
+- lemon yellow
+- coral / peach
+- lavender / purple
+- cream / off-white
+- dark navy / charcoal for grounding text and buttons
+
+Rules:
+- background colours should feel soft and uplifting
+- sections may use different colour themes while still feeling coherent
+- avoid dull grey-heavy layouts
+- avoid overusing dark backgrounds
+- use colour blocking intentionally
+
+## Typography
+- Headlines should feel bold, expressive, and memorable.
+- Support text should remain clean and readable.
+- Create strong hierarchy between headline, subheadline, body text, and button text.
+- Typography should contribute to the premium playful identity.
+- Avoid overly technical, cold, or generic typography choices.
+
+## Illustration and decorative style
+- Use illustration-led design language where appropriate.
+- Decorative visual elements may include:
+  - playful blobs
+  - soft shapes
+  - floating icons
+  - illustrated objects
+  - 3D/cartoon-style character or object treatment where suitable
+- Decorative artwork should feel intentional and high quality.
+- Do not use random AI-generated filler art.
+- If no approved final illustration assets exist yet, build sections so that illustrations can be added cleanly later.
+
+## Product imagery rules
+- Use only real Monkcraft product images for product displays.
+- Never fabricate product photos.
+- Product images should remain clean, visible, and respected.
+- Product sections should be visually rich but not so decorative that product clarity suffers.
+- Product cards should stay cleaner than marketing sections.
+
+## UI style
+- Rounded buttons
+- Soft shadows
+- Smooth spacing
+- Refined hover states
+- Clean cards
+- Elegant filter controls
+- Well-structured product grids
+- Premium but friendly interaction design
+
+## Page-specific visual intent
+
+### Landing page
+- Strong illustrated hero with minimal but powerful copy
+- clean brand logo strip
+- simple “what we do” section
+- category/gift idea section
+- FAQ
+- testimonials
+- strong CTA for “Book a Call” and personalized gifting support
+
+### Catalogue
+- clean but visually designed background system
+- strong filters and category navigation
+- 3 products per row where appropriate
+- neat product cards with consistent sizing
+- product detail interactions must remain clean and readable
+
+### Studio / Catalogue Builder
+- professional and clean
+- creative but more tool-like than the marketing homepage
+- still aligned with the same visual language
+- must feel polished and trustworthy
+
+### Company Store
+- premium, clean, modern
+- friendly and easy for employee use
+- should feel branded but not overly playful
+
+## UX priority
+No visual choice should make discovery harder.
+
+The customer journey must remain:
+- smooth
+- effortless
+- clear
+- trustworthy
+- conversion-friendly
+
+Always prefer clarity when a decorative choice hurts usability.
+
+## Implementation behaviour
+When generating UI:
+- explain how the section matches the visual rule
+- preserve consistency with prior approved work
+- do not invent missing product or brand assets
+- if illustration assets are needed and not yet available, clearly identify placeholders vs production-ready assets---
+alwaysApply: true
+---
+
+

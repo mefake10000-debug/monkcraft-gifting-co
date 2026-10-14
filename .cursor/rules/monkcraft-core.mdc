@@ -1,0 +1,37 @@
+---
+description: Core instructions for the Monkcraft Gifting Co platform
+alwaysApply: true
+---
+
+# MONKCRAFT GIFTING CO
+
+## Business
+Build a premium, India-focused corporate gifting platform supporting 4,000+ products, intelligent discovery, personalization, bulk ordering, and employee gifting stores.
+
+## Visual identity
+- Primary creative reference: Hustlemad Website Re-Design (Corporate Gifting) 2023 on Behance.
+- Create an original identity with similarly polished, colourful, playful, cartoon-illustrated art direction.
+- Avoid generic templates, stock photography, generic AI-generated images, and boring corporate aesthetics.
+- Use actual supplied product images and verified product information only.
+- Never invent prices, specifications, inventory, customer testimonials, or business claims.
+- A separate visual design rule will define detailed art direction later.
+
+## Customer experience
+- Prioritize effortless navigation, fast search, accessibility, responsiveness, and customer trust.
+- Support discovery by gifting occasion, quantity, budget, and customization needs.
+- Keep interfaces intuitive, refined, and visually consistent.
+
+## Development rules
+- The project owner is a beginner. Explain instructions simply.
+- Work on one small, clearly defined task at a time.
+- Present a plan before significant changes and wait for approval.
+- Inspect existing files before modifying them.
+- Never invent dependencies, APIs, or completed functionality.
+- Do not install packages, force updates, delete files, or deploy without approval.
+- Do not expose secrets or commit sensitive credentials.
+- Run relevant checks after changes and report actual results.
+- Preserve working functionality.
+- Recommend a Git checkpoint after each approved milestone.
+- Do not build unrequested pages or features.---
+alwaysApply: true
+---

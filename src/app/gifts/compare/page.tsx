@@ -4,7 +4,7 @@ import { CompareView } from "@/components/catalogue/CompareView";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getProductBySlug } from "@/data/catalogue/products";
-import { MAX_COMPARE } from "@/lib/compare";
+import { MAX_COMPARE } from "@/lib/compareConfig";
 import type { Product } from "@/data/catalogue/types";
 
 /** Request-time slug resolution; opt out of instant-navigation validation. */

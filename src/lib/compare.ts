@@ -8,11 +8,19 @@
  * into the client.
  */
 
-export const COMPARE_EVENT = "monkcraft:compare";
-export const MAX_COMPARE = 4;
+import {
+  COMPARE_EVENT,
+  COMPARE_STORAGE_KEY,
+  MAX_COMPARE,
+} from "./compareConfig";
 
-const STORAGE_KEY = "monkcraft-compare-v1";
+export {
+  COMPARE_EVENT,
+  COMPARE_STORAGE_KEY,
+  MAX_COMPARE,
+} from "./compareConfig";
 
+const STORAGE_KEY = COMPARE_STORAGE_KEY;
 export type CompareItem = {
   id: string;
   slug: string;

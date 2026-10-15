@@ -4,6 +4,7 @@ import type { BoxProductSnapshot } from "@/data/catalogue/boxTypes";
 import type { Product } from "@/data/catalogue/types";
 import { AddToBoxButton } from "@/components/box/AddToBoxButton";
 import { formatPricing } from "@/lib/pricing";
+import { CompareButton } from "./CompareButton";
 import { ShortlistButton } from "./ShortlistButton";
 
 type ProductCardProps = {
@@ -94,6 +95,11 @@ export function ProductCard({ product, shortlisted = false }: ProductCardProps) 
           snapshot={snapshot}
           initiallyShortlisted={shortlisted}
           className="product-card__shortlist"
+        />
+        <CompareButton
+          compact
+          snapshot={snapshot}
+          className="product-card__compare"
         />
       </div>
 

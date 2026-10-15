@@ -9,6 +9,8 @@ import {
   productToBoxSnapshot,
   productToSnapshot,
 } from "@/components/catalogue/ProductCard";
+import { CompareBar } from "@/components/catalogue/CompareBar";
+import { CompareButton } from "@/components/catalogue/CompareButton";
 import { ProductGallery } from "@/components/catalogue/ProductGallery";
 import { ShortlistButton } from "@/components/catalogue/ShortlistButton";
 import {
@@ -59,6 +61,7 @@ export default function ProductDetailPage({ params }: ProductPageProps) {
         <ProductDetailBody params={params} />
       </Suspense>
       <SiteFooter />
+      <CompareBar />
     </main>
   );
 }
@@ -183,6 +186,7 @@ async function ProductDetailBody({
 
           <div className="product-detail__actions">
             <ShortlistButton snapshot={productToSnapshot(product)} />
+            <CompareButton snapshot={productToSnapshot(product)} />
             <AddToBoxButton
               snapshot={productToBoxSnapshot(product)}
               variant="detail"

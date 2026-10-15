@@ -1,5 +1,6 @@
 import { CatalogueIntro } from "@/components/catalogue/CatalogueIntro";
 import { CatalogueShell } from "@/components/catalogue/CatalogueShell";
+import { CompareBar } from "@/components/catalogue/CompareBar";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import {
@@ -85,6 +86,7 @@ export default async function GiftsPage({ searchParams }: GiftsPageProps) {
         />
       </div>
       <SiteFooter />
+      <CompareBar />
     </main>
   );
 }

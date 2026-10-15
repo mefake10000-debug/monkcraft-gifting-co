@@ -9,7 +9,14 @@ import {
   buildBriefWhatsAppMessage,
   clearBrief,
   saveBriefProgramme,
+  writeBrief,
 } from "@/lib/brief";
+import {
+  buildBriefShareUrl,
+  decodeSharedBrief,
+  encodeSharedBrief,
+  SHARED_BRIEF_PARAM,
+} from "@/lib/briefShare";
 import {
   buildWorkspaceQuotationText,
   readBriefWorkspace,
@@ -21,9 +28,11 @@ import {
   validateEnquiryContact,
 } from "@/lib/enquiryValidation";
 import {
+  readShortlist,
   removeFromShortlist,
   setShortlistQuantity,
   shortlistTotalUnits,
+  writeShortlist,
 } from "@/lib/shortlist";
 
 type Step = "edit" | "prepared";
@@ -39,6 +48,23 @@ export function GiftingBrief() {
   const [prepText, setPrepText] = useState("");
   const [error, setError] = useState("");
   const [refreshing, setRefreshing] = useState(false);
+  const [shareState, setShareState] = useState<"idle" | "copied">("idle");
+  const [sharedPayload, setSharedPayload] = useState<ReturnType<
+    typeof decodeSharedBrief
+  >>(null);
+
+  // Detect an inbound shared brief (?brief=…) without clobbering this draft.
+  useEffect(() => {
+    const detect = () => {
+      const token = new URLSearchParams(window.location.search).get(
+        SHARED_BRIEF_PARAM,
+      );
+      if (!token) return;
+      const decoded = decodeSharedBrief(token);
+      if (decoded) setSharedPayload(decoded);
+    };
+    detect();
+  }, []);
 
   useEffect(() => {
     const sync = () => {
@@ -181,6 +207,57 @@ export function GiftingBrief() {
     }
   }
 
+  async function copyShareLink() {
+    if (!brief) return;
+    setError("");
+    try {
+      const token = encodeSharedBrief(brief, readShortlist());
+      const url = buildBriefShareUrl(token, window.location.origin);
+      await navigator.clipboard.writeText(url);
+      setShareState("copied");
+      window.setTimeout(() => setShareState("idle"), 2200);
+    } catch {
+      setError("Could not create a share link in this browser.");
+    }
+  }
+
+  function stripSharedParam() {
+    const url = new URL(window.location.href);
+    url.searchParams.delete(SHARED_BRIEF_PARAM);
+    window.history.replaceState({}, "", url.toString());
+  }
+
+  function importSharedBrief() {
+    if (!sharedPayload) return;
+    const { brief: incoming, products: incomingProducts } = sharedPayload;
+    writeBrief({
+      occasion: incoming.occasion,
+      audience: incoming.audience,
+      recipientCount: incoming.recipientCount,
+      budgetPerRecipient: incoming.budgetPerRecipient,
+      branding: incoming.branding,
+      packagingPrefs: incoming.packagingPrefs,
+      deliveryDate: incoming.deliveryDate,
+      deliveryLocation: incoming.deliveryLocation,
+      notes: incoming.notes,
+      contact: incoming.contact,
+      productIds: incomingProducts.map((item) => item.id),
+      fieldMode: "replace",
+      overwriteEmpty: true,
+    });
+    if (incomingProducts.length > 0) {
+      writeShortlist(incomingProducts);
+    }
+    setContact({ ...incoming.contact });
+    setSharedPayload(null);
+    stripSharedParam();
+  }
+
+  function dismissSharedBrief() {
+    setSharedPayload(null);
+    stripSharedParam();
+  }
+
   if (!snapshot || !brief) {
     return (
       <div
@@ -259,6 +336,13 @@ export function GiftingBrief() {
               >
                 Edit brief
               </button>
+              <button
+                type="button"
+                className="journey-btn journey-btn--ghost"
+                onClick={copyShareLink}
+              >
+                {shareState === "copied" ? "Link copied" : "Share brief"}
+              </button>
               <Link className="journey-btn journey-btn--ghost" href="/gifts">
                 Keep browsing
               </Link>
@@ -295,6 +379,13 @@ export function GiftingBrief() {
           </p>
         </div>
         <div className="journey-actions">
+          <button
+            type="button"
+            className="journey-btn journey-btn--ghost"
+            onClick={copyShareLink}
+          >
+            {shareState === "copied" ? "Link copied" : "Share brief"}
+          </button>
           <Link className="journey-btn journey-btn--ghost" href="/gifts">
             Browse gifts
           </Link>
@@ -303,6 +394,37 @@ export function GiftingBrief() {
           </Link>
         </div>
       </header>
+
+      {sharedPayload ? (
+        <div className="journey-callout brief-share-banner" role="status">
+          <p>
+            A shared gifting brief is available
+            {sharedPayload.products.length > 0
+              ? ` with ${sharedPayload.products.length} product${
+                  sharedPayload.products.length === 1 ? "" : "s"
+                }`
+              : ""}
+            . Import it over this browser&apos;s draft, or dismiss to keep what
+            you have.
+          </p>
+          <div className="journey-actions">
+            <button
+              type="button"
+              className="journey-btn"
+              onClick={importSharedBrief}
+            >
+              Import shared brief
+            </button>
+            <button
+              type="button"
+              className="journey-btn journey-btn--ghost"
+              onClick={dismissSharedBrief}
+            >
+              Dismiss
+            </button>
+          </div>
+        </div>
+      ) : null}
 
       {isEmpty ? (
         <div className="journey-callout" role="status">

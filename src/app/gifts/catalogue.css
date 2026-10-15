@@ -4749,3 +4749,18 @@
   letter-spacing: 0.02em;
   color: rgb(63 63 55 / 55%);
 }
+
+/* —— Shareable brief (Phase 5) —— */
+
+.brief-share-banner {
+  border: 1px solid var(--mc-royal-purple);
+  background: linear-gradient(
+    135deg,
+    rgb(246 237 204 / 60%) 0%,
+    rgb(237 227 245 / 75%) 100%
+  );
+}
+
+.brief-share-banner .journey-actions {
+  margin-top: 0.75rem;
+}

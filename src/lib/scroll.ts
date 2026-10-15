@@ -50,5 +50,16 @@ export function scrollToHash(hash: string, options?: { offset?: number }) {
   const el = document.getElementById(id);
   if (!el) return false;
   scrollToElement(el, { offset: options?.offset ?? 84 });
+  // Focus form fields / interactive targets (e.g. catalogue search #catalogue-q).
+  if (
+    el instanceof HTMLElement &&
+    (el.matches("input, textarea, select, button, a[href]") || el.tabIndex >= 0)
+  ) {
+    try {
+      el.focus({ preventScroll: true });
+    } catch {
+      /* ignore focus failures on non-focusable hosts */
+    }
+  }
   return true;
 }

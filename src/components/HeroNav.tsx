@@ -3,7 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useId, useState } from "react";
+import { HeaderTools } from "@/components/HeaderTools";
 import { briefNavCount } from "@/lib/briefWorkspace";
+import { boxProductCount, readBoxDraft } from "@/lib/box";
 import {
   PRIMARY_NAV,
   QUOTE_CTA,
@@ -14,16 +16,22 @@ import {
 export function HeroNav() {
   const [open, setOpen] = useState(false);
   const [briefCount, setBriefCount] = useState(0);
+  const [boxCount, setBoxCount] = useState(0);
   const panelId = useId();
   const pathname = "/";
 
   useEffect(() => {
-    const sync = () => setBriefCount(briefNavCount());
+    const sync = () => {
+      setBriefCount(briefNavCount());
+      setBoxCount(boxProductCount(readBoxDraft()));
+    };
     sync();
     window.addEventListener("monkcraft:brief", sync);
+    window.addEventListener("monkcraft:box", sync);
     window.addEventListener("storage", sync);
     return () => {
       window.removeEventListener("monkcraft:brief", sync);
+      window.removeEventListener("monkcraft:box", sync);
       window.removeEventListener("storage", sync);
     };
   }, []);
@@ -41,6 +49,13 @@ export function HeroNav() {
       document.body.style.overflow = previousOverflow;
     };
   }, [open]);
+
+  function primaryLabel(label: string) {
+    if (label === "Build a Box" && boxCount > 0) {
+      return `Build a Box (${boxCount})`;
+    }
+    return label;
+  }
 
   const quoteCta =
     briefCount > 0 ? QUOTE_CTA.activeLabel(briefCount) : QUOTE_CTA.emptyLabel;
@@ -65,9 +80,9 @@ export function HeroNav() {
             return (
               <li key={`${link.label}-${link.href}`}>
                 {href.startsWith("#") ? (
-                  <a href={href}>{link.label}</a>
+                  <a href={href}>{primaryLabel(link.label)}</a>
                 ) : (
-                  <Link href={href}>{link.label}</Link>
+                  <Link href={href}>{primaryLabel(link.label)}</Link>
                 )}
               </li>
             );
@@ -75,23 +90,43 @@ export function HeroNav() {
         </ul>
       </nav>
 
-      <Link className="hero__nav-cta" href={QUOTE_CTA.href}>
-        {quoteCta}
-      </Link>
+      <div className="hero__nav-end">
+        <div className="hero__nav-tools-desktop">
+          <HeaderTools pathname={pathname} />
+        </div>
 
-      <button
-        type="button"
-        className="hero__menu-toggle"
-        aria-expanded={open}
-        aria-controls={open ? panelId : undefined}
-        onClick={() => setOpen((value) => !value)}
-      >
-        <span className="hero__menu-toggle-label">{open ? "Close" : "Menu"}</span>
-        <span className="hero__menu-toggle-icon" aria-hidden="true">
-          <span />
-          <span />
-        </span>
-      </button>
+        {boxCount > 0 ? (
+          <Link
+            className="hero__nav-box"
+            href="/gifts/box"
+            title="Build a Box selections"
+          >
+            Box ({boxCount})
+          </Link>
+        ) : null}
+
+        <Link
+          className="hero__nav-cta"
+          href={QUOTE_CTA.href}
+          title="My Brief — your quotation workspace (not a checkout cart)"
+        >
+          {quoteCta}
+        </Link>
+
+        <button
+          type="button"
+          className="hero__menu-toggle"
+          aria-expanded={open}
+          aria-controls={open ? panelId : undefined}
+          onClick={() => setOpen((value) => !value)}
+        >
+          <span className="hero__menu-toggle-label">{open ? "Close" : "Menu"}</span>
+          <span className="hero__menu-toggle-icon" aria-hidden="true">
+            <span />
+            <span />
+          </span>
+        </button>
+      </div>
 
       {open ? (
         <div id={panelId} className="hero__mobile-panel hero__mobile-panel--open">
@@ -103,11 +138,11 @@ export function HeroNav() {
                   <li key={`m-${link.label}`}>
                     {href.startsWith("#") ? (
                       <a href={href} onClick={() => setOpen(false)}>
-                        {link.label}
+                        {primaryLabel(link.label)}
                       </a>
                     ) : (
                       <Link href={href} onClick={() => setOpen(false)}>
-                        {link.label}
+                        {primaryLabel(link.label)}
                       </Link>
                     )}
                   </li>
@@ -118,10 +153,7 @@ export function HeroNav() {
                 return (
                   <li key={`m-u-${link.label}`}>
                     {href.startsWith("#") ? (
-                      <a
-                        href={href}
-                        onClick={() => setOpen(false)}
-                      >
+                      <a href={href} onClick={() => setOpen(false)}>
                         {link.label === "My Brief" && briefCount > 0
                           ? `My Brief (${briefCount})`
                           : link.label}
@@ -137,6 +169,11 @@ export function HeroNav() {
                 );
               })}
             </ul>
+            <HeaderTools
+              pathname={pathname}
+              layout="mobile"
+              onNavigate={() => setOpen(false)}
+            />
             <Link
               className="hero__btn hero__btn--primary hero__mobile-cta"
               href={QUOTE_CTA.href}

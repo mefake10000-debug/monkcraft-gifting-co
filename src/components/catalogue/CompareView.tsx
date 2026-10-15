@@ -23,12 +23,23 @@ export function CompareView({ products }: CompareViewProps) {
   const router = useRouter();
   const [items, setItems] = useState<Product[]>(products);
   const [prevProducts, setPrevProducts] = useState<Product[]>(products);
+  const [fallbackSlugs, setFallbackSlugs] = useState<string[]>([]);
 
   // Resync when the server sends a new set (deep-link / navigation).
   if (products !== prevProducts) {
     setPrevProducts(products);
     setItems(products);
   }
+
+  // When opened without ?slugs=, fall back to whatever is queued locally.
+  useEffect(() => {
+    const detect = () => {
+      if (products.length > 0) return;
+      const stored = readCompare();
+      if (stored.length > 0) setFallbackSlugs(stored.map((item) => item.slug));
+    };
+    detect();
+  }, [products]);
 
   // Keep the table in sync when the tray removes an item.
   useEffect(() => {
@@ -68,7 +79,17 @@ export function CompareView({ products }: CompareViewProps) {
           button, then review them side by side here.
         </p>
         <div className="journey-actions">
-          <Link className="journey-btn" href="/gifts">
+          {fallbackSlugs.length > 0 ? (
+            <Link
+              className="journey-btn"
+              href={`/gifts/compare?slugs=${encodeURIComponent(
+                fallbackSlugs.join(","),
+              )}`}
+            >
+              Show my {fallbackSlugs.length} selected
+            </Link>
+          ) : null}
+          <Link className="journey-btn journey-btn--ghost" href="/gifts">
             Browse gifts
           </Link>
         </div>

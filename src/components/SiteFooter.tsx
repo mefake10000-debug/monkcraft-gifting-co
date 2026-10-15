@@ -6,6 +6,7 @@ const footerLinks = [
   { href: "/gifts", label: "Gifts catalogue" },
   { href: "/gifts/find", label: "Gift Finder" },
   { href: "/gifts/box", label: "Build a Box" },
+  { href: "/gifts/compare", label: "Compare gifts" },
   { href: "/studio", label: "Studio" },
   { href: "/company-stores", label: "Company Stores" },
   { href: "/gifts/brief", label: "My Brief" },

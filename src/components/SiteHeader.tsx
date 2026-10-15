@@ -4,8 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useId, useState } from "react";
+import { HeaderTools } from "@/components/HeaderTools";
 import { briefNavCount } from "@/lib/briefWorkspace";
 import { boxProductCount, readBoxDraft } from "@/lib/box";
+import { readCompare } from "@/lib/compare";
 import {
   isNavActive,
   PRIMARY_NAV,
@@ -22,6 +24,8 @@ export function SiteHeader() {
   const [shortlistCount, setShortlistCount] = useState(0);
   const [boxCount, setBoxCount] = useState(0);
   const [briefCount, setBriefCount] = useState(0);
+  const [compareCount, setCompareCount] = useState(0);
+  const [compareSlugs, setCompareSlugs] = useState<string[]>([]);
   const panelId = useId();
 
   useEffect(() => {
@@ -36,12 +40,16 @@ export function SiteHeader() {
       setShortlistCount(readShortlist().length);
       setBoxCount(boxProductCount(readBoxDraft()));
       setBriefCount(briefNavCount());
+      const compared = readCompare();
+      setCompareCount(compared.length);
+      setCompareSlugs(compared.map((item) => item.slug));
     };
     sync();
     const events = [
       "monkcraft:shortlist",
       "monkcraft:box",
       "monkcraft:brief",
+      "monkcraft:compare",
       "monkcraft:studio-branding",
       "monkcraft:studio-catalogue",
       "monkcraft:company-store-draft",
@@ -123,32 +131,66 @@ export function SiteHeader() {
                 </Link>
               </li>
             ) : null}
+            {compareCount > 1 ? (
+              <li>
+                <Link
+                  href={`/gifts/compare?slugs=${encodeURIComponent(
+                    compareSlugs.join(","),
+                  )}`}
+                  aria-current={
+                    pathname.startsWith("/gifts/compare") ? "page" : undefined
+                  }
+                >
+                  Compare ({compareCount})
+                </Link>
+              </li>
+            ) : null}
           </ul>
         </nav>
 
-        <Link
-          className="site-header__cta"
-          href={QUOTE_CTA.href}
-          aria-current={
-            pathname.startsWith("/gifts/brief") ? "page" : undefined
-          }
-        >
-          {quoteCta}
-        </Link>
+        <div className="site-header__end">
+          <div className="site-header__tools-desktop">
+            <HeaderTools pathname={pathname} />
+          </div>
 
-        <button
-          type="button"
-          className="site-header__menu-toggle"
-          aria-expanded={open}
-          aria-controls={open ? panelId : undefined}
-          onClick={() => setOpen((value) => !value)}
-        >
-          <span>{open ? "Close" : "Menu"}</span>
-          <span className="site-header__menu-icon" aria-hidden="true">
-            <span />
-            <span />
-          </span>
-        </button>
+          {boxCount > 0 ? (
+            <Link
+              className="site-header__box"
+              href="/gifts/box"
+              aria-current={
+                pathname.startsWith("/gifts/box") ? "page" : undefined
+              }
+              title="Build a Box selections"
+            >
+              Box ({boxCount})
+            </Link>
+          ) : null}
+
+          <Link
+            className="site-header__cta"
+            href={QUOTE_CTA.href}
+            aria-current={
+              pathname.startsWith("/gifts/brief") ? "page" : undefined
+            }
+            title="My Brief — your quotation workspace (not a checkout cart)"
+          >
+            {quoteCta}
+          </Link>
+
+          <button
+            type="button"
+            className="site-header__menu-toggle"
+            aria-expanded={open}
+            aria-controls={open ? panelId : undefined}
+            onClick={() => setOpen((value) => !value)}
+          >
+            <span>{open ? "Close" : "Menu"}</span>
+            <span className="site-header__menu-icon" aria-hidden="true">
+              <span />
+              <span />
+            </span>
+          </button>
+        </div>
 
         {open ? (
           <div id={panelId} className="site-header__mobile-panel">
@@ -193,7 +235,23 @@ export function SiteHeader() {
                     </Link>
                   </li>
                 ) : null}
+                {compareCount > 1 ? (
+                  <li>
+                    <Link
+                      href="/gifts/compare"
+                      onClick={() => setOpen(false)}
+                      className="site-header__mobile-utility"
+                    >
+                      Compare ({compareCount})
+                    </Link>
+                  </li>
+                ) : null}
               </ul>
+              <HeaderTools
+                pathname={pathname}
+                layout="mobile"
+                onNavigate={() => setOpen(false)}
+              />
               <Link
                 className="site-header__mobile-cta"
                 href={QUOTE_CTA.href}

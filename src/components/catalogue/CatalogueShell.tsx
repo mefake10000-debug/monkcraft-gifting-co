@@ -23,6 +23,7 @@ import type {
   Product,
 } from "@/data/catalogue/types";
 import { boxProductCount, readBoxDraft } from "@/lib/box";
+import { readCompare } from "@/lib/compare";
 import { scrollToElement, scrollToTop } from "@/lib/scroll";
 import { readShortlist, readShortlistIds } from "@/lib/shortlist";
 import { CatalogueEmpty } from "./CatalogueEmpty";
@@ -140,6 +141,7 @@ export function CatalogueShell({
   const [shortlistCount, setShortlistCount] = useState(0);
   const [shortlistIds, setShortlistIds] = useState<string[]>([]);
   const [boxCount, setBoxCount] = useState(0);
+  const [compareSlugsList, setCompareSlugsList] = useState<string[]>([]);
   /** Optimistic filters so rapid clicks don’t apply against a stale URL query. */
   const [draftQuery, setDraftQuery] = useState(query);
   const draftRef = useRef(query);
@@ -154,14 +156,17 @@ export function CatalogueShell({
       setShortlistCount(items.length);
       setShortlistIds(items.map((item) => item.id));
       setBoxCount(boxProductCount(readBoxDraft()));
+      setCompareSlugsList(readCompare().map((item) => item.slug));
     };
     sync();
     window.addEventListener("monkcraft:shortlist", sync);
     window.addEventListener("monkcraft:box", sync);
+    window.addEventListener("monkcraft:compare", sync);
     window.addEventListener("storage", sync);
     return () => {
       window.removeEventListener("monkcraft:shortlist", sync);
       window.removeEventListener("monkcraft:box", sync);
+      window.removeEventListener("monkcraft:compare", sync);
       window.removeEventListener("storage", sync);
     };
   }, []);
@@ -407,6 +412,16 @@ export function CatalogueShell({
             <Link className="catalogue-toolbar__shortlist" href="/gifts/shortlist">
               Shortlist{shortlistCount ? ` (${shortlistCount})` : ""}
             </Link>
+            {compareSlugsList.length > 0 ? (
+              <Link
+                className="catalogue-toolbar__shortlist"
+                href={`/gifts/compare?slugs=${encodeURIComponent(
+                  compareSlugsList.join(","),
+                )}`}
+              >
+                Compare ({compareSlugsList.length})
+              </Link>
+            ) : null}
           </div>
         </div>
 

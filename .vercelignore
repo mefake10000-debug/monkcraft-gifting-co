@@ -1,0 +1,19 @@
+# Keep Preview uploads lean; catalogue media is uploaded via public/catalogue-media
+# (symlink followed by Vercel CLI when present locally).
+
+.git
+.next
+node_modules
+tmp
+.tmp-pdf-slides
+.cursor
+agent-transcripts
+coverage
+*.tsbuildinfo
+
+# Heavy film preprod / working assets (not needed for site Preview)
+public/videos/**/preprod
+public/brand/illustration-concepts
+docs/image-overhaul
+docs/brand-film
+docs/design-references

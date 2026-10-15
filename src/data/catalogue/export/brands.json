@@ -1,0 +1,860 @@
+{
+  "schemaVersion": "2.0.0",
+  "brands": [
+    {
+      "slug": null,
+      "name": null,
+      "productCount": 50
+    },
+    {
+      "slug": "3s",
+      "name": "3S",
+      "productCount": 33
+    },
+    {
+      "slug": "adidas",
+      "name": "Adidas",
+      "productCount": 20
+    },
+    {
+      "slug": "agaro",
+      "name": "Agaro",
+      "productCount": 1
+    },
+    {
+      "slug": "allen-solly",
+      "name": "Allen Solly",
+      "productCount": 16
+    },
+    {
+      "slug": "ambrane",
+      "name": "Ambrane",
+      "productCount": 30
+    },
+    {
+      "slug": "american-tourister",
+      "name": "American Tourister",
+      "productCount": 18
+    },
+    {
+      "slug": "anupam",
+      "name": "Anupam",
+      "productCount": 14
+    },
+    {
+      "slug": "aquaminder",
+      "name": "Aquaminder",
+      "productCount": 12
+    },
+    {
+      "slug": "arctic-fox",
+      "name": "Arctic Fox",
+      "productCount": 19
+    },
+    {
+      "slug": "artiart",
+      "name": "Artiart",
+      "productCount": 28
+    },
+    {
+      "slug": "artistix",
+      "name": "Artistix",
+      "productCount": 12
+    },
+    {
+      "slug": "ashpveda",
+      "name": "Ashpveda",
+      "productCount": 13
+    },
+    {
+      "slug": "assembly",
+      "name": "Assembly",
+      "productCount": 33
+    },
+    {
+      "slug": "assembly-travel",
+      "name": "Assembly Travel",
+      "productCount": 23
+    },
+    {
+      "slug": "bell-weather",
+      "name": "Bell Weather",
+      "productCount": 2
+    },
+    {
+      "slug": "bioq",
+      "name": "Bioq",
+      "productCount": 58
+    },
+    {
+      "slug": "blaunkput",
+      "name": "Blaunkput",
+      "productCount": 11
+    },
+    {
+      "slug": "boat",
+      "name": "Boat",
+      "productCount": 21
+    },
+    {
+      "slug": "bombae",
+      "name": "Bombae",
+      "productCount": 1
+    },
+    {
+      "slug": "bombay-shaving-company",
+      "name": "Bombay Shaving Company",
+      "productCount": 23
+    },
+    {
+      "slug": "bombay-shaving",
+      "name": "bombay-shaving",
+      "productCount": 1
+    },
+    {
+      "slug": "borosil",
+      "name": "Borosil",
+      "productCount": 7
+    },
+    {
+      "slug": "bot-all",
+      "name": "Bot-All",
+      "productCount": 9
+    },
+    {
+      "slug": "bruk",
+      "name": "Bruk",
+      "productCount": 3
+    },
+    {
+      "slug": "chumbak",
+      "name": "Chumbak",
+      "productCount": 1
+    },
+    {
+      "slug": "chumbakdesign",
+      "name": "chumbakdesign",
+      "productCount": 24
+    },
+    {
+      "slug": "columbia",
+      "name": "Columbia",
+      "productCount": 25
+    },
+    {
+      "slug": "cookie-man",
+      "name": "Cookie man",
+      "productCount": 13
+    },
+    {
+      "slug": "cottsberry",
+      "name": "Cottsberry",
+      "productCount": 5
+    },
+    {
+      "slug": "craloft",
+      "name": "Craloft",
+      "productCount": 25
+    },
+    {
+      "slug": "daily-objects",
+      "name": "Daily Objects",
+      "productCount": 16
+    },
+    {
+      "slug": "deep-roots",
+      "name": "Deep Roots",
+      "productCount": 9
+    },
+    {
+      "slug": "dialogue",
+      "name": "Dialogue",
+      "productCount": 7
+    },
+    {
+      "slug": "digitek",
+      "name": "Digitek",
+      "productCount": 9
+    },
+    {
+      "slug": "eat-better",
+      "name": "Eat Better",
+      "productCount": 13
+    },
+    {
+      "slug": "elan",
+      "name": "Elan",
+      "productCount": 16
+    },
+    {
+      "slug": "ellementry",
+      "name": "Ellementry",
+      "productCount": 3
+    },
+    {
+      "slug": "eume",
+      "name": "EUME",
+      "productCount": 24
+    },
+    {
+      "slug": "eume-world",
+      "name": "EUME World",
+      "productCount": 1
+    },
+    {
+      "slug": "eveready",
+      "name": "Eveready",
+      "productCount": 5
+    },
+    {
+      "slug": "everyday-organizer",
+      "name": "Everyday Organizer",
+      "productCount": 14
+    },
+    {
+      "slug": "extra",
+      "name": "Extra",
+      "productCount": 8
+    },
+    {
+      "slug": "ferns-n-petals",
+      "name": "Ferns N Petals",
+      "productCount": 7
+    },
+    {
+      "slug": "ferrero-rocher",
+      "name": "Ferrero Rocher",
+      "productCount": 2
+    },
+    {
+      "slug": "forever-forest",
+      "name": "Forever Forest",
+      "productCount": 11
+    },
+    {
+      "slug": "fur-jaden",
+      "name": "Fur jaden",
+      "productCount": 68
+    },
+    {
+      "slug": "fuzo",
+      "name": "Fuzo",
+      "productCount": 127
+    },
+    {
+      "slug": "gift-hampers",
+      "name": "Gift Hampers",
+      "productCount": 20
+    },
+    {
+      "slug": "glasafe",
+      "name": "Glasafe",
+      "productCount": 23
+    },
+    {
+      "slug": "glow-gadgets",
+      "name": "Glow Gadgets",
+      "productCount": 8
+    },
+    {
+      "slug": "go-desi",
+      "name": "Go Desi",
+      "productCount": 12
+    },
+    {
+      "slug": "gods",
+      "name": "Gods",
+      "productCount": 24
+    },
+    {
+      "slug": "greys-blues",
+      "name": "Greys & Blues",
+      "productCount": 284
+    },
+    {
+      "slug": "hammer",
+      "name": "Hammer",
+      "productCount": 18
+    },
+    {
+      "slug": "happilo",
+      "name": "Happilo",
+      "productCount": 5
+    },
+    {
+      "slug": "happilo-international-private-limited",
+      "name": "Happilo International Private Limited",
+      "productCount": 20
+    },
+    {
+      "slug": "healthynutsy",
+      "name": "Healthynutsy",
+      "productCount": 13
+    },
+    {
+      "slug": "hidesign",
+      "name": "Hidesign",
+      "productCount": 6
+    },
+    {
+      "slug": "hummel",
+      "name": "Hummel",
+      "productCount": 44
+    },
+    {
+      "slug": "hyperfoods",
+      "name": "Hyperfoods",
+      "productCount": 31
+    },
+    {
+      "slug": "indian-terrain",
+      "name": "Indian Terrain",
+      "productCount": 13
+    },
+    {
+      "slug": "itsy-bitsy",
+      "name": "Itsy Bitsy",
+      "productCount": 23
+    },
+    {
+      "slug": "jack-jones",
+      "name": "Jack&Jones",
+      "productCount": 51
+    },
+    {
+      "slug": "jbl",
+      "name": "JBL",
+      "productCount": 12
+    },
+    {
+      "slug": "jockey",
+      "name": "Jockey",
+      "productCount": 25
+    },
+    {
+      "slug": "john-players",
+      "name": "John Players",
+      "productCount": 9
+    },
+    {
+      "slug": "jus-trufs",
+      "name": "Jus'trufs",
+      "productCount": 10
+    },
+    {
+      "slug": "kaco",
+      "name": "Kaco",
+      "productCount": 33
+    },
+    {
+      "slug": "kent",
+      "name": "Kent",
+      "productCount": 4
+    },
+    {
+      "slug": "lamy",
+      "name": "LAMY",
+      "productCount": 1
+    },
+    {
+      "slug": "lapcare",
+      "name": "Lapcare",
+      "productCount": 10
+    },
+    {
+      "slug": "lapis-bard",
+      "name": "Lapis Bard",
+      "productCount": 5
+    },
+    {
+      "slug": "lavie",
+      "name": "Lavie",
+      "productCount": 33
+    },
+    {
+      "slug": "leather-talks",
+      "name": "Leather Talks",
+      "productCount": 25
+    },
+    {
+      "slug": "levis",
+      "name": "Levis",
+      "productCount": 34
+    },
+    {
+      "slug": "lindt",
+      "name": "Lindt",
+      "productCount": 1
+    },
+    {
+      "slug": "logitech",
+      "name": "Logitech",
+      "productCount": 6
+    },
+    {
+      "slug": "loyka",
+      "name": "Loyka",
+      "productCount": 29
+    },
+    {
+      "slug": "marks-spencer",
+      "name": "Marks & Spencer",
+      "productCount": 17
+    },
+    {
+      "slug": "mcaffeine",
+      "name": "mCaffeine",
+      "productCount": 5
+    },
+    {
+      "slug": "mee-mee",
+      "name": "Mee Mee",
+      "productCount": 10
+    },
+    {
+      "slug": "mi",
+      "name": "MI",
+      "productCount": 3
+    },
+    {
+      "slug": "milton",
+      "name": "Milton",
+      "productCount": 13
+    },
+    {
+      "slug": "miss-players",
+      "name": "Miss Players",
+      "productCount": 9
+    },
+    {
+      "slug": "mivi",
+      "name": "Mivi",
+      "productCount": 23
+    },
+    {
+      "slug": "mokobara",
+      "name": "Mokobara",
+      "productCount": 25
+    },
+    {
+      "slug": "monkcraft",
+      "name": "Monkcraft",
+      "productCount": 578
+    },
+    {
+      "slug": "monte-carlo",
+      "name": "Monte Carlo",
+      "productCount": 18
+    },
+    {
+      "slug": "mts",
+      "name": "MTS",
+      "productCount": 1
+    },
+    {
+      "slug": "mypaperclip",
+      "name": "myPaperClip",
+      "productCount": 15
+    },
+    {
+      "slug": "nappa-dori",
+      "name": "NAPPA DORI",
+      "productCount": 25
+    },
+    {
+      "slug": "nedis",
+      "name": "Nedis",
+      "productCount": 4
+    },
+    {
+      "slug": "noise",
+      "name": "Noise",
+      "productCount": 26
+    },
+    {
+      "slug": "numic",
+      "name": "Numic",
+      "productCount": 32
+    },
+    {
+      "slug": "oblique",
+      "name": "Oblique",
+      "productCount": 89
+    },
+    {
+      "slug": "offikraft",
+      "name": "Offikraft",
+      "productCount": 50
+    },
+    {
+      "slug": "omay-foods",
+      "name": "Omay Foods",
+      "productCount": 24
+    },
+    {
+      "slug": "ooge",
+      "name": "Ooge",
+      "productCount": 37
+    },
+    {
+      "slug": "palo",
+      "name": "Palo",
+      "productCount": 4
+    },
+    {
+      "slug": "parker",
+      "name": "Parker",
+      "productCount": 4
+    },
+    {
+      "slug": "pashtush-india",
+      "name": "Pashtush India",
+      "productCount": 25
+    },
+    {
+      "slug": "pebel-lifeware",
+      "name": "Pebel Lifeware",
+      "productCount": 2
+    },
+    {
+      "slug": "pepe-jeans",
+      "name": "Pepe Jeans",
+      "productCount": 19
+    },
+    {
+      "slug": "pexpo",
+      "name": "Pexpo",
+      "productCount": 25
+    },
+    {
+      "slug": "philips",
+      "name": "Philips",
+      "productCount": 8
+    },
+    {
+      "slug": "phool",
+      "name": "Phool",
+      "productCount": 10
+    },
+    {
+      "slug": "pierre-cardin",
+      "name": "Pierre cardin",
+      "productCount": 1
+    },
+    {
+      "slug": "pigeon",
+      "name": "Pigeon",
+      "productCount": 7
+    },
+    {
+      "slug": "portronics",
+      "name": "Portronics",
+      "productCount": 78
+    },
+    {
+      "slug": "pot-and-bloom",
+      "name": "Pot and Bloom",
+      "productCount": 1
+    },
+    {
+      "slug": "power-plus",
+      "name": "Power Plus",
+      "productCount": 64
+    },
+    {
+      "slug": "prestige",
+      "name": "Prestige",
+      "productCount": 1
+    },
+    {
+      "slug": "puma",
+      "name": "Puma",
+      "productCount": 26
+    },
+    {
+      "slug": "rarejoy",
+      "name": "Rarejoy",
+      "productCount": 24
+    },
+    {
+      "slug": "ras",
+      "name": "RAS",
+      "productCount": 12
+    },
+    {
+      "slug": "redbolt",
+      "name": "RedBolt",
+      "productCount": 1
+    },
+    {
+      "slug": "reebok",
+      "name": "Reebok",
+      "productCount": 32
+    },
+    {
+      "slug": "remaxx",
+      "name": "Remaxx",
+      "productCount": 6
+    },
+    {
+      "slug": "rico",
+      "name": "Rico",
+      "productCount": 6
+    },
+    {
+      "slug": "rocwin",
+      "name": "Rocwin",
+      "productCount": 6
+    },
+    {
+      "slug": "s1-z6-web-gb-r0017-b01-wh-s1-z6r-a-r0022-s5",
+      "name": "S1 Z6 WEB GB R0017 B01 & WH- S1 Z6R A R0022 S5",
+      "productCount": 1
+    },
+    {
+      "slug": "s1-z6-web-gd-r0063-b01-wh-s2-z7-d-r0146-s5-s6",
+      "name": "S1 Z6 WEB GD R0063 B01 & WH- S2 Z7 D R0146 S5,S6",
+      "productCount": 1
+    },
+    {
+      "slug": "scarters-india-private-limited",
+      "name": "Scarters India Private Limited",
+      "productCount": 25
+    },
+    {
+      "slug": "schmancy-pack-pvt-ltd",
+      "name": "Schmancy Pack Pvt Ltd",
+      "productCount": 25
+    },
+    {
+      "slug": "scott",
+      "name": "Scott",
+      "productCount": 189
+    },
+    {
+      "slug": "selected-home",
+      "name": "Selected/Home",
+      "productCount": 3
+    },
+    {
+      "slug": "sheaffer",
+      "name": "Sheaffer",
+      "productCount": 9
+    },
+    {
+      "slug": "shopnooe",
+      "name": "ShopNooe",
+      "productCount": 51
+    },
+    {
+      "slug": "skross",
+      "name": "Skross",
+      "productCount": 9
+    },
+    {
+      "slug": "skullcandy",
+      "name": "Skullcandy",
+      "productCount": 13
+    },
+    {
+      "slug": "smoor",
+      "name": "Smoor",
+      "productCount": 6
+    },
+    {
+      "slug": "sockscarving",
+      "name": "SockScarving",
+      "productCount": 20
+    },
+    {
+      "slug": "sony",
+      "name": "Sony",
+      "productCount": 2
+    },
+    {
+      "slug": "sound-crush",
+      "name": "Sound Crush",
+      "productCount": 6
+    },
+    {
+      "slug": "stag-umbrella",
+      "name": "Stag Umbrella",
+      "productCount": 1
+    },
+    {
+      "slug": "stallion-barware",
+      "name": "Stallion Barware",
+      "productCount": 25
+    },
+    {
+      "slug": "stellers",
+      "name": "Stellers",
+      "productCount": 38
+    },
+    {
+      "slug": "stolt",
+      "name": "Stolt",
+      "productCount": 46
+    },
+    {
+      "slug": "stuffcool",
+      "name": "Stuffcool",
+      "productCount": 2
+    },
+    {
+      "slug": "swiss-military",
+      "name": "Swiss Military",
+      "productCount": 52
+    },
+    {
+      "slug": "targus",
+      "name": "Targus",
+      "productCount": 5
+    },
+    {
+      "slug": "the-backbencher",
+      "name": "The Backbencher",
+      "productCount": 55
+    },
+    {
+      "slug": "the-bare-bar",
+      "name": "THE BARE BAR",
+      "productCount": 20
+    },
+    {
+      "slug": "the-bare-bar-official",
+      "name": "THE BARE BAR OFFICIAL",
+      "productCount": 5
+    },
+    {
+      "slug": "the-daily-nut-co",
+      "name": "The Daily Nut Co",
+      "productCount": 1
+    },
+    {
+      "slug": "the-whole-truth",
+      "name": "The Whole Truth",
+      "productCount": 13
+    },
+    {
+      "slug": "theskinmantra",
+      "name": "Theskinmantra",
+      "productCount": 1
+    },
+    {
+      "slug": "toblerone",
+      "name": "Toblerone",
+      "productCount": 1
+    },
+    {
+      "slug": "tommy-hilfiger",
+      "name": "Tommy Hilfiger",
+      "productCount": 25
+    },
+    {
+      "slug": "trophyneeds",
+      "name": "TrophyNeeds",
+      "productCount": 26
+    },
+    {
+      "slug": "trusser",
+      "name": "Trusser",
+      "productCount": 15
+    },
+    {
+      "slug": "tucano",
+      "name": "Tucano",
+      "productCount": 6
+    },
+    {
+      "slug": "turtle",
+      "name": "Turtle",
+      "productCount": 5
+    },
+    {
+      "slug": "turtle-tales",
+      "name": "Turtle Tales",
+      "productCount": 25
+    },
+    {
+      "slug": "ucb",
+      "name": "UCB",
+      "productCount": 29
+    },
+    {
+      "slug": "ugaoo",
+      "name": "Ugaoo",
+      "productCount": 19
+    },
+    {
+      "slug": "ugaoo-store",
+      "name": "ugaoo store",
+      "productCount": 6
+    },
+    {
+      "slug": "urban-gear",
+      "name": "Urban Gear",
+      "productCount": 200
+    },
+    {
+      "slug": "van-heusen",
+      "name": "Van Heusen",
+      "productCount": 18
+    },
+    {
+      "slug": "vantora",
+      "name": "Vantora",
+      "productCount": 29
+    },
+    {
+      "slug": "vaya",
+      "name": "Vaya",
+      "productCount": 8
+    },
+    {
+      "slug": "venchi",
+      "name": "Venchi",
+      "productCount": 2
+    },
+    {
+      "slug": "wangari",
+      "name": "Wangari",
+      "productCount": 10
+    },
+    {
+      "slug": "wayona",
+      "name": "Wayona",
+      "productCount": 1
+    },
+    {
+      "slug": "wonderchef",
+      "name": "WonderChef",
+      "productCount": 26
+    },
+    {
+      "slug": "xech",
+      "name": "Xech",
+      "productCount": 29
+    },
+    {
+      "slug": "yoga-bar",
+      "name": "Yoga Bar",
+      "productCount": 7
+    },
+    {
+      "slug": "zebronicsb2b",
+      "name": "zebronicsb2b",
+      "productCount": 25
+    },
+    {
+      "slug": "zeel",
+      "name": "Zeel",
+      "productCount": 2
+    },
+    {
+      "slug": "zouk",
+      "name": "Zouk",
+      "productCount": 30
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monkcraft My Gifting Brief — ANIMATIC (NOT FINAL)</title>
+    <style>
+      :root {
+        --purple: #662f90;
+        --olive: #3f3f37;
+        --anti: #f1f2f2;
+        --lilac: #ede3f5;
+        --mint: #dcede6;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "DM Sans", system-ui, sans-serif;
+        background: var(--anti);
+        color: var(--olive);
+      }
+      header {
+        padding: 1rem 1.25rem;
+        background: var(--lilac);
+        border-bottom: 1px solid rgba(63, 63, 55, 0.12);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.25rem;
+        align-items: center;
+        justify-content: space-between;
+      }
+      h1 {
+        font-family: Fraunces, Georgia, serif;
+        font-size: 1.15rem;
+        margin: 0;
+        font-weight: 700;
+      }
+      .badge {
+        display: inline-block;
+        background: var(--purple);
+        color: var(--anti);
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        padding: 0.35rem 0.65rem;
+        border-radius: 999px;
+      }
+      .stage-wrap {
+        max-width: 1100px;
+        margin: 1.25rem auto;
+        padding: 0 1rem 2rem;
+      }
+      .stage {
+        position: relative;
+        aspect-ratio: 16 / 9;
+        background: #ddd;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 18px 40px rgba(63, 63, 55, 0.12);
+      }
+      .stage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .watermark {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        background: rgba(102, 47, 144, 0.92);
+        color: #fff;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        padding: 0.4rem 0.7rem;
+        border-radius: 8px;
+        z-index: 2;
+      }
+      .meta {
+        margin-top: 1rem;
+        display: grid;
+        gap: 0.75rem;
+        background: #fff;
+        border-radius: 16px;
+        padding: 1rem 1.15rem;
+        border: 1px solid rgba(63, 63, 55, 0.08);
+      }
+      .meta h2 {
+        font-family: Fraunces, Georgia, serif;
+        margin: 0;
+        font-size: 1.35rem;
+      }
+      .meta .time {
+        color: var(--purple);
+        font-weight: 700;
+        font-size: 0.9rem;
+      }
+      .meta .vo {
+        margin: 0;
+        line-height: 1.5;
+      }
+      .meta .ost {
+        margin: 0;
+        font-weight: 700;
+      }
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: center;
+        margin-top: 1rem;
+      }
+      button {
+        font: inherit;
+        border: 0;
+        border-radius: 999px;
+        padding: 0.65rem 1.1rem;
+        cursor: pointer;
+        background: var(--purple);
+        color: #fff;
+        font-weight: 600;
+      }
+      button.secondary {
+        background: var(--mint);
+        color: var(--olive);
+      }
+      button:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      .scrub {
+        flex: 1;
+        min-width: 180px;
+      }
+      .scrub input {
+        width: 100%;
+      }
+      .timeline {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 0.4rem;
+        margin-top: 1rem;
+      }
+      .timeline button {
+        border-radius: 12px;
+        padding: 0.55rem 0.35rem;
+        font-size: 0.72rem;
+        background: #fff;
+        color: var(--olive);
+        border: 1px solid rgba(63, 63, 55, 0.12);
+      }
+      .timeline button.active {
+        background: var(--purple);
+        color: #fff;
+        border-color: var(--purple);
+      }
+      .note {
+        margin-top: 1.25rem;
+        font-size: 0.85rem;
+        color: rgba(63, 63, 55, 0.75);
+        line-height: 1.45;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .stage img {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>My Gifting Brief</h1>
+        <p style="margin: 0.25rem 0 0; font-size: 0.85rem">
+          Timed board animatic · ~75s · Pre-production only
+        </p>
+      </div>
+      <span class="badge">ANIMATIC NOT FINAL</span>
+    </header>
+
+    <div class="stage-wrap">
+      <div class="stage">
+        <div class="watermark">ANIMATIC NOT FINAL</div>
+        <img id="board" alt="Animatic board" />
+      </div>
+
+      <div class="meta">
+        <div class="time" id="time"></div>
+        <h2 id="title"></h2>
+        <p class="ost" id="ost"></p>
+        <p class="vo" id="vo"></p>
+      </div>
+
+      <div class="controls">
+        <button id="play" type="button">Play animatic</button>
+        <button id="pause" class="secondary" type="button" disabled>Pause</button>
+        <button id="prev" class="secondary" type="button">Prev</button>
+        <button id="next" class="secondary" type="button">Next</button>
+        <div class="scrub">
+          <input id="seek" type="range" min="0" max="75" step="0.1" value="0" />
+        </div>
+        <span id="clock" style="font-variant-numeric: tabular-nums; min-width: 4.5rem"
+          >0:00</span
+        >
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+
+      <p class="note">
+        This viewer advances scene boards on the VO timeline. It is
+        <strong>not</strong> the finished commercial. Scene 08 uses a real
+        Monkcraft logo composite. Agnes VO/video was not generated (API key
+        missing). Docs:
+        <code>docs/brand-film/gifting-brief/</code>
+      </p>
+    </div>
+
+    <script>
+      const scenes = [
+        {
+          id: 1,
+          start: 0,
+          end: 8,
+          title: "Scene 01 — The challenge",
+          ost: "A lot to plan. One thoughtful gesture.",
+          vo: "Meet someone with a big task: welcoming a whole new team. A hundred and fifty people. One special occasion. And plenty of little details to figure out. What should go in their welcome gifts? What works for the budget? And how do you bring it all together?",
+          src: "scene-01-board.jpg",
+        },
+        {
+          id: 2,
+          start: 8,
+          end: 17,
+          title: "Scene 02 — Discover real gift ideas",
+          ost: "Discover gifts worth giving.",
+          vo: "That's where Monkcraft makes gifting easier. Start by exploring thoughtful gift ideas, from everyday essentials to beautifully curated merchandise.",
+          src: "scene-02-board.jpg",
+        },
+        {
+          id: 3,
+          start: 17,
+          end: 26,
+          title: "Scene 03 — Save your favourites",
+          ost: "See it. Love it. Add it.",
+          vo: "Found something you love? Save it straight to your Gifting Brief. Choose your favourites, imagine the perfect gift kit, and add the details that matter.",
+          src: "scene-03-board.jpg",
+        },
+        {
+          id: 4,
+          start: 26,
+          end: 36,
+          title: "Scene 04 — Bring the gift together",
+          ost: "Make it yours. · Illustrative planning scene",
+          vo: "Choose your favourites, imagine the perfect gift kit, and add the details that matter.",
+          src: "scene-04-board.jpg",
+        },
+        {
+          id: 5,
+          start: 36,
+          end: 47,
+          title: "Scene 05 — Tell us what matters",
+          ost: "All the important details. One simple brief. · Illustrative scenario",
+          vo: "Your occasion. Your quantities. Your budget. Your branding. Your packaging and delivery preferences.",
+          src: "scene-05-board.jpg",
+        },
+        {
+          id: 6,
+          start: 47,
+          end: 57,
+          title: "Scene 06 — Everything comes together",
+          ost: "Your gifting plan, beautifully organized.",
+          vo: "Everything comes together in one organized place, so you can review your plan and make changes as your ideas take shape.",
+          src: "scene-06-board.jpg",
+        },
+        {
+          id: 7,
+          start: 57,
+          end: 67,
+          title: "Scene 07 — From idea to enquiry",
+          ost: "Ready when you are. · Request a Quote · Book a Consultation",
+          vo: "And when you're happy with your brief, you're ready to request a quotation or discuss your gifting plans with Monkcraft. Less juggling. More thoughtful gifting.",
+          src: "scene-07-board.jpg",
+        },
+        {
+          id: 8,
+          start: 67,
+          end: 75,
+          title: "Scene 08 — Joyful ending",
+          ost: "MONKCRAFT GIFTING CO · Gifting, made joyful.",
+          vo: "Monkcraft Gifting Co. Gifting, made joyful.",
+          src: "scene-08-board.jpg",
+        },
+      ];
+
+      const board = document.getElementById("board");
+      const title = document.getElementById("title");
+      const ost = document.getElementById("ost");
+      const vo = document.getElementById("vo");
+      const time = document.getElementById("time");
+      const clock = document.getElementById("clock");
+      const seek = document.getElementById("seek");
+      const playBtn = document.getElementById("play");
+      const pauseBtn = document.getElementById("pause");
+      const timeline = document.getElementById("timeline");
+
+      let t = 0;
+      let playing = false;
+      let raf = 0;
+      let last = 0;
+      let sceneIndex = 0;
+
+      function fmt(sec) {
+        const s = Math.floor(sec);
+        const m = Math.floor(s / 60);
+        const r = String(s % 60).padStart(2, "0");
+        return m + ":" + r;
+      }
+
+      function sceneAt(sec) {
+        return scenes.find((sc) => sec >= sc.start && sec < sc.end) || scenes[scenes.length - 1];
+      }
+
+      function render(sec) {
+        const sc = sceneAt(sec);
+        sceneIndex = scenes.indexOf(sc);
+        if (board.getAttribute("src") !== sc.src) board.src = sc.src;
+        title.textContent = sc.title;
+        ost.textContent = sc.ost;
+        vo.textContent = 'VO: “‘ + sc.vo + '”';
+        time.textContent = fmt(sc.start) + "–" + fmt(sc.end);
+        clock.textContent = fmt(sec);
+        seek.value = String(sec);
+        [...timeline.children].forEach((btn, i) => {
+          btn.classList.toggle("active", i === sceneIndex);
+        });
+      }
+
+      function tick(now) {
+        if (!playing) return;
+        if (!last) last = now;
+        const dt = (now - last) / 1000;
+        last = now;
+        t = Math.min(75, t + dt);
+        render(t);
+        if (t >= 75) {
+          playing = false;
+          playBtn.disabled = false;
+          pauseBtn.disabled = true;
+          return;
+        }
+        raf = requestAnimationFrame(tick);
+      }
+
+      scenes.forEach((sc) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = "S" + String(sc.id).padStart(2, "0");
+        btn.addEventListener("click", () => {
+          t = sc.start;
+          render(t);
+        });
+        timeline.appendChild(btn);
+      });
+
+      playBtn.addEventListener("click", () => {
+        if (t >= 75) t = 0;
+        playing = true;
+        last = 0;
+        playBtn.disabled = true;
+        pauseBtn.disabled = false;
+        raf = requestAnimationFrame(tick);
+      });
+      pauseBtn.addEventListener("click", () => {
+        playing = false;
+        playBtn.disabled = false;
+        pauseBtn.disabled = true;
+        cancelAnimationFrame(raf);
+      });
+      document.getElementById("prev").addEventListener("click", () => {
+        const i = Math.max(0, sceneIndex - 1);
+        t = scenes[i].start;
+        render(t);
+      });
+      document.getElementById("next").addEventListener("click", () => {
+        const i = Math.min(scenes.length - 1, sceneIndex + 1);
+        t = scenes[i].start;
+        render(t);
+      });
+      seek.addEventListener("input", () => {
+        t = Number(seek.value);
+        render(t);
+      });
+
+      render(0);
+    </script>
+  </body>
+</html>

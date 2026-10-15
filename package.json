@@ -6,8 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "catalogue:validate": "node scripts/catalogue-validate.mjs",
+    "catalogue:report": "node scripts/catalogue-data-report.mjs",
+    "catalogue:category-audit": "node scripts/category-type-audit.mjs",
+    "launch:regression": "node scripts/launch-regression.mjs"
   },
+
   "dependencies": {
     "next": "16.4.0",
     "react": "19.3.0",

@@ -1,0 +1,502 @@
+/**
+ * Replaceable catalogue product source.
+ * Loads Monkcraft website-export (schema 2.0.0) from the local export path.
+ * Never invent SKUs, prices, or inventory beyond the export.
+ *
+ * Stable identity: product.id === SKU (unique in export). Slug is the URL key.
+ */
+
+import fs from "node:fs";
+import path from "node:path";
+
+import { getExportDataDir, getExportSchemaVersion } from "./exportPath";
+import { classifyProductType } from "./productType";
+import type {
+  Product,
+  ProductImage,
+  ProductImageRole,
+  ProductPricing,
+} from "./types";
+
+/** Optional hook so facets can invalidate without a circular import. */
+let onCatalogueCacheCleared: (() => void) | null = null;
+
+export function setCatalogueCacheClearedListener(
+  listener: (() => void) | null,
+): void {
+  onCatalogueCacheCleared = listener;
+}
+
+const PAGE_SIZE = 24;
+const EXPORT_SCHEMA = "2.0.0";
+
+type ExportImage = {
+  path: string;
+  role?: string;
+  alt?: string | null;
+  width?: number;
+  height?: number;
+  sortOrder?: number;
+};
+
+type ExportProduct = {
+  id?: string;
+  slug: string;
+  title: string;
+  sku: string;
+  brand?: string | { name?: string | null; slug?: string | null } | null;
+  shortDescription?: string | null;
+  description?: string | null;
+  category: { id?: string; slug: string; name: string };
+  subcategory: { slug: string; name: string };
+  pricing: {
+    amount: number | null;
+    currency: string;
+    gstBasis?: string | null;
+  };
+  availability?: {
+    status?: string;
+    moq?: number | null;
+    minimumOrderQuantity?: number | null;
+    dispatch?: string | null;
+  };
+  specifications?: Record<string, string | null | undefined> | null;
+  images?: ExportImage[];
+  createdAt?: string;
+  updatedAt?: string;
+};
+
+type ExportFile = {
+  schemaVersion?: string;
+  products: ExportProduct[];
+};
+
+type SegmentFile = {
+  segments: {
+    id: string;
+    sourceMatchedProductSlugs: string[];
+  }[];
+};
+
+export function slugifyFacet(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function resolveBrandName(
+  brand: ExportProduct["brand"],
+): string | undefined {
+  if (!brand) return undefined;
+  if (typeof brand === "string") {
+    const trimmed = brand.trim();
+    return trimmed || undefined;
+  }
+  const name = brand.name?.trim();
+  return name || undefined;
+}
+
+function normalizeCustomization(raw: string | null | undefined): string | undefined {
+  if (!raw?.trim()) return undefined;
+  const cleaned = raw.trim().replace(/\s+/g, " ");
+  const lower = cleaned.toLowerCase();
+  if (lower === "dtf" || lower === "dtf printing") return "DTF Printing";
+  if (lower === "u v printing" || lower === "uv printing") return "UV Printing";
+  return cleaned;
+}
+
+function toPublicImagePath(exportPath: string): string {
+  if (exportPath.startsWith("media/")) {
+    return `/catalogue-media/${exportPath.slice("media/".length)}`;
+  }
+  if (exportPath.startsWith("/")) return exportPath;
+  return `/catalogue-media/${exportPath}`;
+}
+
+function mapImageRole(role?: string): ProductImageRole {
+  const upper = (role || "").toUpperCase();
+  if (upper === "MASTER") return "MASTER";
+  if (upper === "ANGLE") return "ANGLE";
+  if (upper === "LIFESTYLE") return "LIFESTYLE";
+  if (upper === "SEQUENCE" || upper === "360") return "SEQUENCE";
+  return "OTHER";
+}
+
+function mapImages(product: ExportProduct): ProductImage[] {
+  const images = [...(product.images ?? [])];
+  images.sort((a, b) => {
+    const ao = a.sortOrder ?? 0;
+    const bo = b.sortOrder ?? 0;
+    if (ao !== bo) return ao - bo;
+    // Prefer MASTER first when sortOrder ties
+    const ar = mapImageRole(a.role);
+    const br = mapImageRole(b.role);
+    if (ar === "MASTER" && br !== "MASTER") return -1;
+    if (br === "MASTER" && ar !== "MASTER") return 1;
+    return 0;
+  });
+
+  return images.map((img, index) => ({
+    src: toPublicImagePath(img.path),
+    alt: img.alt?.trim() || `${product.title} — image ${index + 1}`,
+    role: mapImageRole(img.role),
+    sortOrder: img.sortOrder ?? index,
+    width: img.width,
+    height: img.height,
+  }));
+}
+
+/**
+ * Fixed price only when amount is a verified positive number.
+ * Missing / zero / non-finite amounts become quote — never treated as ₹0 in budget filters.
+ */
+function mapPricing(product: ExportProduct): ProductPricing {
+  const amount = product.pricing?.amount;
+  if (amount == null || !Number.isFinite(amount) || amount <= 0) {
+    return { kind: "quote", label: "Quote on request" };
+  }
+  return {
+    kind: "fixed",
+    amountInr: amount,
+    gstBasis: product.pricing.gstBasis ?? null,
+  };
+}
+
+function mapAttributes(product: ExportProduct): { label: string; value: string }[] {
+  const specs = product.specifications ?? {};
+  const rows: { label: string; value: string }[] = [];
+  for (const [label, value] of Object.entries(specs)) {
+    if (value == null || String(value).trim() === "") continue;
+    rows.push({ label, value: String(value) });
+  }
+  return rows;
+}
+
+function specValue(
+  product: ExportProduct,
+  key: string,
+): string | undefined {
+  const raw = product.specifications?.[key];
+  if (raw == null) return undefined;
+  const trimmed = String(raw).trim();
+  return trimmed || undefined;
+}
+
+function resolveMoq(product: ExportProduct): number | undefined {
+  const availability = product.availability;
+  if (!availability) return undefined;
+  const raw =
+    availability.minimumOrderQuantity ?? availability.moq ?? undefined;
+  if (raw == null || !Number.isFinite(raw) || raw <= 0) return undefined;
+  return Math.floor(raw);
+}
+
+/**
+ * Canonical product id = SKU when present (unique in export).
+ * Falls back to explicit export id, then slug. Changing this breaks shortlist/box drafts.
+ */
+export function resolveProductId(product: ExportProduct): string {
+  const sku = product.sku?.trim();
+  if (sku) return sku;
+  const id = product.id?.trim();
+  if (id) return id;
+  return product.slug;
+}
+
+function buildKeywords(parts: (string | undefined)[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const part of parts) {
+    if (!part) continue;
+    const token = part.trim().toLowerCase();
+    if (!token || seen.has(token)) continue;
+    seen.add(token);
+    out.push(token);
+  }
+  return out;
+}
+
+function loadExportProducts(): ExportProduct[] {
+  const filePath = path.join(getExportDataDir(), "products.json");
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+  const raw = fs.readFileSync(filePath, "utf8");
+  const data = JSON.parse(raw) as ExportFile;
+  return data.products ?? [];
+}
+
+function loadSourceMatchIndex(): Map<string, string[]> {
+  const filePath = path.join(getExportDataDir(), "gifting-segments.json");
+  const index = new Map<string, string[]>();
+  if (!fs.existsSync(filePath)) return index;
+
+  const data = JSON.parse(fs.readFileSync(filePath, "utf8")) as SegmentFile;
+  for (const segment of data.segments ?? []) {
+    for (const slug of segment.sourceMatchedProductSlugs ?? []) {
+      const list = index.get(slug) ?? [];
+      if (!list.includes(segment.id)) list.push(segment.id);
+      index.set(slug, list);
+    }
+  }
+  return index;
+}
+
+let cachedProducts: Product[] | null = null;
+let cachedBySlug: Map<string, Product> | null = null;
+let cachedById: Map<string, Product> | null = null;
+
+function buildCatalogue(): Product[] {
+  const exportProducts = loadExportProducts();
+  const occasionBySlug = loadSourceMatchIndex();
+  const schemaVersion = getExportSchemaVersion() || EXPORT_SCHEMA;
+
+  const products: Product[] = exportProducts.map((ep) => {
+    const customization = normalizeCustomization(
+      specValue(ep, "Customization Type"),
+    );
+    const brandingOptions = customization
+      ? [slugifyFacet(customization)]
+      : [];
+
+    const colour = specValue(ep, "Color");
+    const material = specValue(ep, "Material");
+    const colours = colour ? [colour] : [];
+    const materials = material ? [material] : [];
+
+    const typeInfo = classifyProductType({
+      name: ep.title,
+      categorySlug: ep.category.slug,
+      categoryName: ep.category.name,
+      subcategorySlug: ep.subcategory.slug,
+      subcategoryName: ep.subcategory.name,
+    });
+
+    return {
+      id: resolveProductId(ep),
+      slug: ep.slug,
+      sku: ep.sku,
+      name: ep.title,
+      summary: (ep.shortDescription || ep.description || "").trim() || ep.title,
+      description: ep.description?.trim() || undefined,
+      brandName: resolveBrandName(ep.brand),
+      images: mapImages(ep),
+      occasions: occasionBySlug.get(ep.slug) ?? [],
+      categoryId: ep.category.id || ep.category.slug,
+      categorySlug: ep.category.slug,
+      categoryName: ep.category.name,
+      subcategorySlug: ep.subcategory.slug,
+      subcategoryName: ep.subcategory.name,
+      filterCategorySlug: typeInfo.filterCategorySlug,
+      filterCategoryName: typeInfo.filterCategoryName,
+      productTypeId: typeInfo.typeId,
+      productTypeLabel: typeInfo.typeLabel,
+      productTypeConfidence: typeInfo.confidence,
+      productTypeRuleId: typeInfo.ruleId,
+      sourceCategoryLabel: ep.category.name,
+      sourceSubcategoryLabel: ep.subcategory.name,
+      customization,
+      brandingOptions,
+      colours,
+      colourIds: colours.map(slugifyFacet),
+      materials,
+      materialIds: materials.map(slugifyFacet),
+      keywords: buildKeywords([
+        ep.title,
+        ep.sku,
+        resolveBrandName(ep.brand),
+        ep.category.name,
+        ep.subcategory.name,
+        customization,
+        colour,
+        material,
+        specValue(ep, "Product Code"),
+      ]),
+      minQuantity: resolveMoq(ep),
+      dispatchTimeline: ep.availability?.dispatch?.trim() || undefined,
+      availabilityStatus: ep.availability?.status,
+      pricing: mapPricing(ep),
+      attributes: mapAttributes(ep),
+      relatedIds: [],
+      featured: false,
+      createdAt: ep.createdAt,
+      updatedAt: ep.updatedAt,
+      source: {
+        system: "website-export",
+        schemaVersion,
+        exportSlug: ep.slug,
+      },
+    };
+  });
+
+  // Related ids: ranked same-subcategory then same FILTER type (exclude self)
+  const bySub = new Map<string, Product[]>();
+  const byCat = new Map<string, Product[]>();
+  for (const p of products) {
+    const sk = `${p.filterCategorySlug}/${p.subcategorySlug}`;
+    const subList = bySub.get(sk) ?? [];
+    subList.push(p);
+    bySub.set(sk, subList);
+    const catList = byCat.get(p.filterCategorySlug) ?? [];
+    catList.push(p);
+    byCat.set(p.filterCategorySlug, catList);
+  }
+
+  for (const p of products) {
+    p.relatedIds = rankRelatedCandidates(p, bySub, byCat, 4).map((x) => x.id);
+  }
+
+  return products;
+}
+
+function sharedOccasionCount(a: Product, b: Product): number {
+  if (a.occasions.length === 0 || b.occasions.length === 0) return 0;
+  const set = new Set(a.occasions);
+  let count = 0;
+  for (const id of b.occasions) {
+    if (set.has(id)) count += 1;
+  }
+  return count;
+}
+
+function keywordOverlapScore(a: Product, b: Product): number {
+  if (a.keywords.length === 0 || b.keywords.length === 0) return 0;
+  const set = new Set(a.keywords);
+  let hits = 0;
+  for (const key of b.keywords) {
+    if (set.has(key)) hits += 1;
+  }
+  return Math.min(hits, 6);
+}
+
+function rankRelatedCandidates(
+  product: Product,
+  bySub: Map<string, Product[]>,
+  byCat: Map<string, Product[]>,
+  limit: number,
+): Product[] {
+  const sk = `${product.filterCategorySlug}/${product.subcategorySlug}`;
+  const seen = new Set<string>([product.id]);
+  const pool: Product[] = [];
+
+  for (const candidate of bySub.get(sk) ?? []) {
+    if (seen.has(candidate.id)) continue;
+    seen.add(candidate.id);
+    pool.push(candidate);
+  }
+  for (const candidate of byCat.get(product.filterCategorySlug) ?? []) {
+    if (seen.has(candidate.id)) continue;
+    seen.add(candidate.id);
+    pool.push(candidate);
+  }
+
+  return pool
+    .map((candidate) => {
+      let score = 0;
+      if (candidate.subcategorySlug === product.subcategorySlug) score += 50;
+      else score += 20;
+      score += sharedOccasionCount(product, candidate) * 8;
+      score += keywordOverlapScore(product, candidate) * 3;
+      if (candidate.availabilityStatus === "OUT") score -= 80;
+      if (candidate.images.length === 0) score -= 10;
+      return { candidate, score };
+    })
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return a.candidate.name.localeCompare(b.candidate.name);
+    })
+    .slice(0, limit)
+    .map((row) => row.candidate);
+}
+
+/** Clear in-memory caches (used by import validation / tests). */
+export function clearCatalogueCache(): void {
+  cachedProducts = null;
+  cachedBySlug = null;
+  cachedById = null;
+  onCatalogueCacheCleared?.();
+}
+
+export function getAllProducts(): Product[] {
+  if (!cachedProducts) {
+    cachedProducts = buildCatalogue();
+  }
+  return cachedProducts;
+}
+
+export function getProductBySlug(slug: string): Product | undefined {
+  if (!cachedBySlug) {
+    cachedBySlug = new Map(getAllProducts().map((p) => [p.slug, p]));
+  }
+  return cachedBySlug.get(slug);
+}
+
+export function getProductById(id: string): Product | undefined {
+  if (!cachedById) {
+    cachedById = new Map(getAllProducts().map((p) => [p.id, p]));
+  }
+  return cachedById.get(id);
+}
+
+/** Compact related set for PDP — max 4; UI may hide extras on small screens. */
+export function getRelatedProducts(product: Product, limit = 4): Product[] {
+  const capped = Math.min(Math.max(limit, 0), 4);
+  const ids = product.relatedIds ?? [];
+  const fromIds = ids
+    .map((id) => getProductById(id))
+    .filter((p): p is Product => Boolean(p))
+    .filter((p) => p.availabilityStatus !== "OUT")
+    .slice(0, capped);
+  if (fromIds.length >= capped) return fromIds;
+
+  // Fallback if cache predates ranked relatedIds
+  const need = capped - fromIds.length;
+  const seen = new Set(fromIds.map((p) => p.id).concat(product.id));
+  const extras = getAllProducts()
+    .filter(
+      (p) =>
+        !seen.has(p.id) &&
+        p.filterCategorySlug === product.filterCategorySlug &&
+        p.availabilityStatus !== "OUT",
+    )
+    .sort((a, b) => {
+      const aSub = a.subcategorySlug === product.subcategorySlug ? 1 : 0;
+      const bSub = b.subcategorySlug === product.subcategorySlug ? 1 : 0;
+      if (aSub !== bSub) return bSub - aSub;
+      return a.name.localeCompare(b.name);
+    })
+    .slice(0, need);
+  return [...fromIds, ...extras];
+}
+
+export function getCataloguePageSize(): number {
+  return PAGE_SIZE;
+}
+
+export function isCataloguePopulated(): boolean {
+  return getAllProducts().length > 0;
+}
+
+export function getCatalogueStats() {
+  const products = getAllProducts();
+  const withFixedPrice = products.filter((p) => p.pricing.kind === "fixed");
+  const withMoq = products.filter((p) => typeof p.minQuantity === "number");
+  return {
+    productCount: products.length,
+    withImages: products.filter((p) => p.images.length > 0).length,
+    withFixedPrice: withFixedPrice.length,
+    withMoq: withMoq.length,
+    source: "website-export" as const,
+    schemaVersion: getExportSchemaVersion() || EXPORT_SCHEMA,
+    exportDataDir: getExportDataDir(),
+  };
+}
+
+/** Verified unit price for budget math — never treat quote/unknown as in-budget. */
+export function verifiedUnitPriceInr(product: Product): number | null {
+  if (product.pricing.kind !== "fixed") return null;
+  const amount = product.pricing.amountInr;
+  if (!Number.isFinite(amount) || amount <= 0) return null;
+  return amount;
+}

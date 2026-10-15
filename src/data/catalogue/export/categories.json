@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2.0.0",
+  "categories": [
+    {
+      "id": "C1",
+      "code": "C1",
+      "name": "Executive Writing",
+      "slug": "executive-writing",
+      "path": "executive-writing",
+      "sortOrder": 1,
+      "productCount": 456,
+      "subcategoryCount": 4,
+      "dataFile": "by-category/executive-writing.json"
+    },
+    {
+      "id": "C2",
+      "code": "C2",
+      "name": "Drinkware & Barware",
+      "slug": "drinkware-barware",
+      "path": "drinkware-barware",
+      "sortOrder": 2,
+      "productCount": 460,
+      "subcategoryCount": 5,
+      "dataFile": "by-category/drinkware-barware.json"
+    },
+    {
+      "id": "C3",
+      "code": "C3",
+      "name": "Tech & Gadgets",
+      "slug": "tech-gadgets",
+      "path": "tech-gadgets",
+      "sortOrder": 3,
+      "productCount": 364,
+      "subcategoryCount": 4,
+      "dataFile": "by-category/tech-gadgets.json"
+    },
+    {
+      "id": "C4",
+      "code": "C4",
+      "name": "Bags & Travel",
+      "slug": "bags-travel",
+      "path": "bags-travel",
+      "sortOrder": 4,
+      "productCount": 806,
+      "subcategoryCount": 4,
+      "dataFile": "by-category/bags-travel.json"
+    },
+    {
+      "id": "C5",
+      "code": "C5",
+      "name": "Apparel & Lifestyle",
+      "slug": "apparel-lifestyle",
+      "path": "apparel-lifestyle",
+      "sortOrder": 5,
+      "productCount": 938,
+      "subcategoryCount": 4,
+      "dataFile": "by-category/apparel-lifestyle.json"
+    },
+    {
+      "id": "C6",
+      "code": "C6",
+      "name": "Wellness & Organic",
+      "slug": "wellness-organic",
+      "path": "wellness-organic",
+      "sortOrder": 6,
+      "productCount": 36,
+      "subcategoryCount": 3,
+      "dataFile": "by-category/wellness-organic.json"
+    },
+    {
+      "id": "C7",
+      "code": "C7",
+      "name": "Eco-Friendly",
+      "slug": "eco-friendly",
+      "path": "eco-friendly",
+      "sortOrder": 7,
+      "productCount": 33,
+      "subcategoryCount": 2,
+      "dataFile": "by-category/eco-friendly.json"
+    },
+    {
+      "id": "C8",
+      "code": "C8",
+      "name": "Hampers & Gifting",
+      "slug": "hampers-gifting",
+      "path": "hampers-gifting",
+      "sortOrder": 8,
+      "productCount": 673,
+      "subcategoryCount": 4,
+      "dataFile": "by-category/hampers-gifting.json"
+    },
+    {
+      "id": "C9",
+      "code": "C9",
+      "name": "Office & Stationery",
+      "slug": "office-stationery",
+      "path": "office-stationery",
+      "sortOrder": 9,
+      "productCount": 379,
+      "subcategoryCount": 4,
+      "dataFile": "by-category/office-stationery.json"
+    },
+    {
+      "id": "C10",
+      "code": "C10",
+      "name": "Awards & Trophies",
+      "slug": "awards-trophies",
+      "path": "awards-trophies",
+      "sortOrder": 10,
+      "productCount": 83,
+      "subcategoryCount": 4,
+      "dataFile": "by-category/awards-trophies.json"
+    },
+    {
+      "id": "C11",
+      "code": "C11",
+      "name": "Packaging",
+      "slug": "packaging",
+      "path": "packaging",
+      "sortOrder": 11,
+      "productCount": 29,
+      "subcategoryCount": 2,
+      "dataFile": "by-category/packaging.json"
+    }
+  ]
+}

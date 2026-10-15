@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local / heavy artefacts (not for git)
+/tmp/
+/.tmp-pdf-slides/
+# Never commit catalogue media (~804MB). Keep as local symlink; CLI Preview uses a staging copy.
+/public/catalogue-media
+/public/catalogue-media/

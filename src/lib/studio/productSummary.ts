@@ -1,0 +1,24 @@
+import type { Product } from "@/data/catalogue/types";
+import type { StudioProductSummary } from "@/data/catalogue/studioTypes";
+import { formatPricing } from "@/lib/pricing";
+
+export function toStudioProductSummary(product: Product): StudioProductSummary {
+  const image = product.images[0];
+  return {
+    id: product.id,
+    slug: product.slug,
+    sku: product.sku,
+    name: product.name,
+    summary: product.summary,
+    imageSrc: image?.src,
+    imageAlt: image?.alt,
+    categoryName: product.categoryName,
+    subcategoryName: product.subcategoryName,
+    customization: product.customization,
+    minQuantity: product.minQuantity,
+    priceLabel: formatPricing(product.pricing),
+    amountInr:
+      product.pricing.kind === "fixed" ? product.pricing.amountInr : undefined,
+    attributes: product.attributes.slice(0, 8),
+  };
+}

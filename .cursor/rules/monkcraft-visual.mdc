@@ -5,145 +5,74 @@ alwaysApply: true
 
 # MONKCRAFT VISUAL DESIGN RULE
 
-## Primary reference
-The primary visual reference is the "Hustlemad Website Re-Design (Corporate Gifting) 2023" on Behance, especially the provided screenshots reviewed for this project.
+## Reference priority (mandatory)
 
-The goal is NOT to copy layouts blindly, but to build an original Monkcraft visual system with the same level of polish, colourfulness, playfulness, illustration-led design, and premium creative direction.
+Full detail: `docs/monkcraft-reference-direction.md`
+
+1. **Merchandise & marketing imagery:** swag.com — primary benchmark for product photography presentation, merch compositions, category cards, storefront clarity (never copy Swag artwork).
+2. **Colour / editorial energy:** Hustlemad Website Re-Design (Corporate Gifting) 2023 on Behance + `docs/design-references/` — typography, pastel blocking, section rhythm only; do not let Behance character/layout language dominate asset briefs.
+3. **Business framing:** hustlemad.com — corporate gifting services and B2B journeys.
+
+Build an **original Monkcraft** identity. The approved homepage hero (`monkcraft-hero-v5.jpg`) is the quality benchmark — preserve its artwork and composition.
 
 ## Overall creative direction
-Design the website to feel:
-- colourful
-- playful
-- premium
-- clean
-- aesthetic
-- artistic
-- cartoon-illustrated
-- pictorial
-- modern
-- soft and rounded
-- highly polished
-- easy to navigate
 
-Avoid:
-- boring corporate visuals
-- generic SaaS layouts
-- stock-photo-heavy sections
-- random AI-looking imagery
-- overly serious enterprise styling
-- cluttered ecommerce grids
-- harsh, boxy, or sterile design
-- childish low-quality cartoon styling
+Feel: colourful, playful, premium, clean, pictorial, soft/rounded, highly polished, easy to navigate.
+
+Avoid: boring corporate, generic SaaS, stock-photo-led pages, random AI filler, childish low-quality cartoons, harsh sterile UI, cluttered ecommerce grids.
 
 ## Layout and composition
-- Use clean section-based storytelling.
-- Each homepage section should feel intentionally art-directed, like a mini poster or designed composition.
-- Use generous whitespace and breathable layouts.
-- Use asymmetry where helpful, but preserve clarity.
-- Use soft rounded containers, layered cards, floating decorative elements, and playful compositions.
-- Prioritize clean navigation and easy scanning.
 
-## Background and colour treatment
-Use soft pastel and cheerful brand-led colours inspired by the reference style:
-- light sky blue
-- mint / aqua
-- lemon yellow
-- coral / peach
-- lavender / purple
-- cream / off-white
-- dark navy / charcoal for grounding text and buttons
+- Each major section is a mini poster: intentional colour, type, and imagery — not a repeated equal-card template.
+- Vary composition across the page (bento, featured bands, split panels, discovery strips) while keeping one system.
+- Use asymmetry and rhythm; preserve clarity and generous whitespace.
+- Soft rounded containers and refined depth are fine; do not default to endless identical pastel rectangles.
 
-Rules:
-- background colours should feel soft and uplifting
-- sections may use different colour themes while still feeling coherent
-- avoid dull grey-heavy layouts
-- avoid overusing dark backgrounds
-- use colour blocking intentionally
+## Background and colour
+
+Official core: Royal Purple `#662F90`, Black Olive `#3F3F37`, Anti-Flash White `#F1F2F2`.
+
+Supporting pastels (documented in design system): mist lilac, sage mint, powder blue, warm apricot, buttercream, dusty rose.
+
+- Soft, uplifting colour blocking; sections may shift theme and stay coherent.
+- Avoid dull grey-heavy layouts and overusing dark backgrounds.
+- Product/discovery UI stays cleaner than marketing compositions.
 
 ## Typography
-- Headlines should feel bold, expressive, and memorable.
-- Support text should remain clean and readable.
-- Create strong hierarchy between headline, subheadline, body text, and button text.
-- Typography should contribute to the premium playful identity.
-- Avoid overly technical, cold, or generic typography choices.
 
-## Illustration and decorative style
-- Use illustration-led design language where appropriate.
-- Decorative visual elements may include:
-  - playful blobs
-  - soft shapes
-  - floating icons
-  - illustrated objects
-  - 3D/cartoon-style character or object treatment where suitable
-- Decorative artwork should feel intentional and high quality.
-- Do not use random AI-generated filler art.
-- If no approved final illustration assets exist yet, build sections so that illustrations can be added cleanly later.
+- **Fraunces** for expressive display / section headlines.
+- **DM Sans** for navigation, body, buttons, and interface text.
+- Strong hierarchy; avoid cold generic default stacks as the brand voice.
 
-## Product imagery rules
-- Use only real Monkcraft product images for product displays.
-- Never fabricate product photos.
-- Product images should remain clean, visible, and respected.
-- Product sections should be visually rich but not so decorative that product clarity suffers.
-- Product cards should stay cleaner than marketing sections.
+## Imagery and illustration
 
-## UI style
-- Rounded buttons
-- Soft shadows
-- Smooth spacing
-- Refined hover states
-- Clean cards
-- Elegant filter controls
-- Well-structured product grids
-- Premium but friendly interaction design
+- Merchandise-led: real Monkcraft product / approved scene imagery only.
+- Prioritize **swag.com-quality product presentation** for merch and marketing imagery; keep Monkcraft colours/type; Behance is secondary colour/editorial energy only.
+- Never fabricate product photos, logos, testimonials, prices, or inventory.
+- No childish SVG doodles, emoji decoration, or meaningless floating art.
+- If assets are missing, build layouts that accept them later and label gaps — do not invent inferior substitutes.
 
-## Page-specific visual intent
+## UI and motion
 
-### Landing page
-- Strong illustrated hero with minimal but powerful copy
-- clean brand logo strip
-- simple “what we do” section
-- category/gift idea section
-- FAQ
-- testimonials
-- strong CTA for “Book a Call” and personalized gifting support
+- Rounded buttons, soft shadows, refined hover/focus, clear tap targets.
+- Motion supports hierarchy and interaction; respect `prefers-reduced-motion`.
+- Every major CTA must lead somewhere meaningful (real section, honest handoff, or future route that is not faked as live).
 
-### Catalogue
-- clean but visually designed background system
-- strong filters and category navigation
-- 3 products per row where appropriate
-- neat product cards with consistent sizing
-- product detail interactions must remain clean and readable
+## Page-specific intent
 
-### Studio / Catalogue Builder
-- professional and clean
-- creative but more tool-like than the marketing homepage
-- still aligned with the same visual language
-- must feel polished and trustworthy
+### Landing
+Hero → optional brand strip (hidden until real logos) → distinctive What We Do → category / gift-idea discovery → consultation/enquiry → FAQ → footer. Testimonials only with verified content.
 
-### Company Store
-- premium, clean, modern
-- friendly and easy for employee use
-- should feel branded but not overly playful
+### Catalogue / Studio / Company Store
+Anticipate swag.com-scale discovery and tool clarity; keep marketing playfulness dialed to the surface (Studio/Store more tool-like). Do not invent catalogue data in homepage milestones.
 
 ## UX priority
-No visual choice should make discovery harder.
 
-The customer journey must remain:
-- smooth
-- effortless
-- clear
-- trustworthy
-- conversion-friendly
-
-Always prefer clarity when a decorative choice hurts usability.
+Clarity and conversion beat decoration. Journey must stay smooth, effortless, clear, and trustworthy.
 
 ## Implementation behaviour
-When generating UI:
-- explain how the section matches the visual rule
-- preserve consistency with prior approved work
-- do not invent missing product or brand assets
-- if illustration assets are needed and not yet available, clearly identify placeholders vs production-ready assets---
-alwaysApply: true
----
 
-
+- Prefer decisive design choices over asking for approval on ordinary spacing/colour details.
+- Preserve approved hero and completed honest work.
+- When generating UI, stay consistent with `docs/monkcraft-reference-direction.md` and the design system.
+- Report genuine asset or business dependencies instead of fabricating them.

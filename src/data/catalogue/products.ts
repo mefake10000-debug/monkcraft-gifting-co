@@ -163,12 +163,59 @@ function mapPricing(product: ExportProduct): ProductPricing {
   };
 }
 
+/** Spec labels that are export/metadata noise — not useful on the PDP. */
+const HIDDEN_SPEC_LABELS = new Set(
+  [
+    "stock update date",
+    "stock updated date",
+    "last stock update",
+    "export date",
+    "synced at",
+    "last synced",
+  ].map((s) => s.toLowerCase()),
+);
+
+/**
+ * Drop internal date metadata and clearly invalid / far-future date values
+ * so PDPs do not show raw export hygiene issues (audit D08).
+ */
+function sanitizeSpecValue(label: string, value: string): string | null {
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  if (HIDDEN_SPEC_LABELS.has(label.trim().toLowerCase())) return null;
+
+  const looksLikeDate =
+    /date|updated|synced/i.test(label) ||
+    /^\d{1,2}\s+\w+\s+\d{4}$/i.test(trimmed) ||
+    /^\d{4}-\d{2}-\d{2}/.test(trimmed);
+
+  if (!looksLikeDate) return trimmed;
+
+  const parsed = Date.parse(trimmed);
+  if (Number.isNaN(parsed)) {
+    // Keep non-ISO human strings that aren't clearly dates; drop unparsable "dates"
+    if (/date|updated|synced/i.test(label)) return null;
+    return trimmed;
+  }
+
+  const ms = parsed;
+  const now = Date.now();
+  // Hide dates more than ~1 year in the future (common export/timezone glitch)
+  if (ms > now + 366 * 24 * 60 * 60 * 1000) return null;
+  // Hide absurdly old placeholders
+  if (ms < Date.UTC(1990, 0, 1)) return null;
+
+  return trimmed;
+}
+
 function mapAttributes(product: ExportProduct): { label: string; value: string }[] {
   const specs = product.specifications ?? {};
   const rows: { label: string; value: string }[] = [];
   for (const [label, value] of Object.entries(specs)) {
-    if (value == null || String(value).trim() === "") continue;
-    rows.push({ label, value: String(value) });
+    if (value == null) continue;
+    const cleaned = sanitizeSpecValue(label, String(value));
+    if (!cleaned) continue;
+    rows.push({ label, value: cleaned });
   }
   return rows;
 }

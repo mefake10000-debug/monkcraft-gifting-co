@@ -138,7 +138,11 @@ export function BrandingCanvas({
           />
         ) : (
           <div className="studio-canvas__empty" role="status">
-            Select a catalogue product to begin the mockup.
+            <p className="studio-canvas__empty-title">Start with a product</p>
+            <p>
+              Search the live catalogue on the right, pick one SKU, then upload
+              your logo. This preview is conceptual — not a print proof.
+            </p>
           </div>
         )}
 

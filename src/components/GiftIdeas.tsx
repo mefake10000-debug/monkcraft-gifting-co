@@ -25,9 +25,8 @@ export function GiftIdeas() {
             </h2>
             <p className="gift-ideas__lede">
               Explore gifting directions for Indian teams. Browse the live
-              catalogue by occasion, build a gift box, shortlist products, then
-              prepare a quotation brief — or start a consultation and we&apos;ll
-              curate with you.
+              catalogue by occasion, then gather picks in My Brief when you are
+              ready to quote.
             </p>
           </div>
         </header>
@@ -79,13 +78,13 @@ export function GiftIdeas() {
                       <Link className="gift-ideas__cta" href={catalogueHref}>
                         Browse catalogue
                       </Link>
-                      <Link
-                        className="gift-ideas__cta gift-ideas__cta--secondary"
-                        href={enquireHref}
-                      >
-                        Ask us to curate
-                      </Link>
                     </div>
+                    <p className="gift-ideas__curate-hint">
+                      Prefer a curated shortlist?{" "}
+                      <Link href={enquireHref}>Talk to Monkcraft</Link>
+                      {" · "}
+                      <Link href="/gifts/brief">Open My Brief</Link>
+                    </p>
                   </div>
                 </div>
               </li>

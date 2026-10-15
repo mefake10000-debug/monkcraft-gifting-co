@@ -215,8 +215,23 @@ export function getBoxProductQuantity(id: string, draft?: BoxDraft) {
   return source.products.find((item) => item.id === id)?.quantityPerBox ?? 0;
 }
 
-function boxLineMinQuantity(minQuantity?: number) {
-  return minQuantity && minQuantity > 0 ? minQuantity : 1;
+/** Units inside one gift kit — always at least 1. Never use supplier MOQ here. */
+function boxQtyPerBoxFloor() {
+  return 1;
+}
+
+/**
+ * Supplier minimum order quantity applies to total units across the programme
+ * (qty-per-box × number of boxes), not as a forced per-kit fill.
+ */
+export function programmeUnitTotal(
+  quantityPerBox: number,
+  numberOfBoxes: number,
+) {
+  return (
+    Math.max(boxQtyPerBoxFloor(), Math.floor(quantityPerBox) || 1) *
+    Math.max(1, Math.floor(numberOfBoxes) || 1)
+  );
 }
 
 export function addToBox(
@@ -224,8 +239,8 @@ export function addToBox(
   quantityPerBox = 1,
 ): BoxDraft {
   const draft = readBoxDraft();
-  const min = boxLineMinQuantity(snapshot.minQuantity);
-  const qty = Math.max(min, Math.floor(quantityPerBox) || min);
+  const floor = boxQtyPerBoxFloor();
+  const requested = Math.max(floor, Math.floor(quantityPerBox) || floor);
   const existing = draft.products.find((item) => item.id === snapshot.id);
   // Already in box: keep quantity; adjust via Build a Box qty controls (no silent +1).
   if (existing) {
@@ -242,8 +257,8 @@ export function addToBox(
       priceLabel: snapshot.priceLabel,
       amountInr: snapshot.amountInr,
       quantityPerBox: snapshot.quantityPerBox
-        ? Math.max(min, Math.floor(snapshot.quantityPerBox))
-        : qty,
+        ? Math.max(floor, Math.floor(snapshot.quantityPerBox))
+        : requested,
       categoryName: snapshot.categoryName,
       minQuantity: snapshot.minQuantity,
     },
@@ -264,14 +279,14 @@ export function removeFromBox(id: string): BoxDraft {
 
 export function setBoxProductQuantity(id: string, quantityPerBox: number): BoxDraft {
   const draft = readBoxDraft();
+  const floor = boxQtyPerBoxFloor();
   writeBoxDraft({
     ...draft,
     products: draft.products.map((item) => {
       if (item.id !== id) return item;
-      const min = boxLineMinQuantity(item.minQuantity);
       return {
         ...item,
-        quantityPerBox: Math.max(min, Math.floor(quantityPerBox) || min),
+        quantityPerBox: Math.max(floor, Math.floor(quantityPerBox) || floor),
       };
     }),
   });
@@ -538,7 +553,7 @@ export function stepIndex(step: BoxStep) {
 export function canEnterStep(draft: BoxDraft, step: BoxStep): boolean {
   const target = stepIndex(step);
   if (target <= 0) return true;
-  // Packaging must be chosen (including honest pending) before later steps
+  // Packaging must be chosen (including honest pending / explicit skip) before later steps
   if (!draft.packaging && target >= stepIndex("products")) return false;
   if (target >= stepIndex("customize") && draft.products.length === 0) {
     return false;
@@ -549,7 +564,9 @@ export function canEnterStep(draft: BoxDraft, step: BoxStep): boolean {
     if (draft.customization.numberOfBoxes < 1) return false;
   }
   if (target >= stepIndex("quote")) {
-    // Review is informational; quote needs the same core fields
+    // Soft-gate Quote: packaging + products + customize fields (audit D06)
+    if (!draft.packaging) return false;
+    if (draft.products.length === 0) return false;
     return canEnterStep(draft, "review");
   }
   return true;

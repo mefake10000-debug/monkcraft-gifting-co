@@ -144,7 +144,11 @@ export function readBriefWorkspace(
     hasCompanyStoreContent,
     studioRouteAvailable: routes.studio,
     companyStoreRouteAvailable: routes.companyStores,
-    missing: getBriefMissingDetails(brief, products),
+    missing: getBriefMissingDetails(brief, products, {
+      hasLiveBoxProducts: hasBoxContent && box.products.length > 0,
+      liveBoxNumberOfBoxes: box.customization.numberOfBoxes,
+      liveBoxBudgetPerBox: box.customization.budgetPerBox,
+    }),
     selectionCount,
     linkedSourceCount: briefLinkedSourceCount(brief),
   };

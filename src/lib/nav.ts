@@ -28,10 +28,10 @@ export const UTILITY_NAV: NavLink[] = [
   { href: "/#enquire", label: "Contact", match: "none", secondary: true },
 ];
 
-/** Primary header CTA — quotation path. */
+/** Primary header CTA — My Brief is the only quote hub. */
 export const QUOTE_CTA = {
   href: "/gifts/brief",
-  emptyLabel: "Get a Quote",
+  emptyLabel: "My Brief",
   activeLabel: (count: number) => `My Brief (${count})`,
 } as const;
 

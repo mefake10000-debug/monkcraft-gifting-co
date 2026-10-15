@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Local staging / evidence artefacts (never linted or shipped):
+    "tmp/**",
+    "tmp-audit/**",
+    "docs/**",
   ]),
 ]);
 

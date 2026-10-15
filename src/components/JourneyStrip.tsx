@@ -20,7 +20,7 @@ const steps = [
     title: "Quote",
     text: "Open My Brief, gather everything in one place, then prepare a quotation request.",
     href: "/gifts/brief",
-    cta: "Get a Quote",
+    cta: "Open My Brief",
   },
 ] as const;
 

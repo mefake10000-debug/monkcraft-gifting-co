@@ -342,79 +342,67 @@ function ConsultationForm({
           </h2>
           <p className="consultation__lede">
             {isCompanyStore
-              ? "Share team size, branding goals, merchandise scope, and any access or allowance ideas. A Monkcraft specialist will help shape a Company Store proposal — this form does not provision a live store."
-              : "Share quantities, timelines, branding needs, and budget bands. Prepare a quotation enquiry here, or build a fuller brief from your shortlist and box."}
+              ? "Share team size, branding goals, and merchandise scope. This form prepares an enquiry — it does not provision a live store."
+              : "Share quantities, timeline, branding, and budget. Use the form, or open My Brief if you already have a shortlist or box."}
           </p>
-          <ul className="consultation__points">
-            {isCompanyStore ? (
-              <>
-                <li>Branded employee merchandise experience</li>
-                <li>Catalogue curation and store rules guidance</li>
-                <li>Clear next steps toward a store proposal</li>
-              </>
-            ) : (
-              <>
-                <li>Curated options for your occasion and brand</li>
-                <li>Guidance on customisation and fulfilment</li>
-                <li>Request a Quote · Book a Call · WhatsApp when configured</li>
-              </>
-            )}
-          </ul>
           {selectedCategory || productSlug || isCompanyStore ? (
             <p className="consultation__selected" role="status">
               {isCompanyStore ? (
                 <>
-                  Interest: <strong>Company Store</strong>. You can also draft a
-                  proposed store at /company-stores/configure.{" "}
+                  Interest: <strong>Company Store</strong>
+                  {" · "}
+                  <Link href="/company-stores/configure">
+                    Open store configurator
+                  </Link>
+                  .{" "}
                 </>
               ) : null}
               {selectedCategory ? (
                 <>
-                  Selected gift idea: <strong>{selectedCategory.title}</strong>.{" "}
+                  Gift idea: <strong>{selectedCategory.title}</strong>.{" "}
                 </>
               ) : null}
               {productSlug ? (
                 <>
-                  Product interest: <strong>{productSlug}</strong>.{" "}
-                </>
-              ) : null}
-              {!isCompanyStore ? (
-                <>
-                  Prefer catalogue selections? Continue in{" "}
-                  <Link href="/gifts/brief">My Gifting Brief</Link>.
+                  Product: <strong>{productSlug}</strong>.{" "}
                 </>
               ) : null}
             </p>
-          ) : (
-            <p className="consultation__selected" role="status">
-              Already shortlisting products? Open{" "}
-              <Link href="/gifts/brief">My Gifting Brief</Link> so your
-              selections stay attached to the quote. Preparing this form also
-              includes any shortlist or box draft saved in this browser.
-            </p>
-          )}
-          <p className="consultation__note">
-            {channels.hasLiveChannel
-              ? `After you prepare your enquiry you can copy it${
-                  channels.hasEnquiryEmail ? ", open email" : ""
-                }${channels.hasBookingUrl ? ", book a consultation" : ""}${
-                  channels.hasWhatsApp ? ", or continue on WhatsApp" : ""
-                }. Online automatic submission is not connected yet.`
-              : "Inbox routing, booking, and WhatsApp are not configured yet. Submitting prepares a ready-to-send enquiry you can copy and share with the Monkcraft team."}
-          </p>
-          {channels.hasBookingUrl && channels.bookingUrl ? (
-            <p className="consultation__note">
-              Prefer a scheduled call?{" "}
+          ) : null}
+          <div className="consultation__story-actions">
+            {!isCompanyStore ? (
+              <Link className="journey-btn" href="/gifts/brief">
+                Open My Brief
+              </Link>
+            ) : (
+              <Link className="journey-btn" href="/company-stores/configure">
+                Open store configurator
+              </Link>
+            )}
+            {channels.hasBookingUrl && channels.bookingUrl ? (
               <a
+                className="journey-btn journey-btn--ghost"
                 href={channels.bookingUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {heroConsultCtaLabel(channels)}
               </a>
-              .
-            </p>
-          ) : null}
+            ) : (
+              <a className="journey-btn journey-btn--ghost" href="#enquiry-name">
+                Prepare enquiry
+              </a>
+            )}
+          </div>
+          <p className="consultation__note">
+            {channels.hasLiveChannel
+              ? `After preparing, you can copy${
+                  channels.hasEnquiryEmail ? ", email" : ""
+                }${channels.hasBookingUrl ? ", book a call" : ""}${
+                  channels.hasWhatsApp ? ", or use WhatsApp" : ""
+                }. Online auto-submit is not connected yet.`
+              : "Email, booking, and WhatsApp are not configured yet — prepare a ready-to-copy enquiry below."}
+          </p>
         </div>
 
         <div className="consultation__panel">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BrandVideoBand } from "@/components/BrandVideoBand";
 
 /**
  * What We Do — PDF deck slides 2–5 (full poster frames).
@@ -61,40 +62,31 @@ export function WhatWeDo() {
       aria-labelledby="what-we-do-heading"
     >
       <div className="what-we-do__inner">
-        <div className="what-we-do__lead">
-          <header className="what-we-do__intro">
-            <p className="what-we-do__eyebrow">What we do</p>
-            <h2 id="what-we-do-heading" className="what-we-do__heading">
-              Big ideas.{" "}
-              <span className="what-we-do__heading-accent">Thoughtful gifts.</span>
-            </h2>
-            <p className="what-we-do__lede">
-              From everyday appreciation to unforgettable milestones, we make
-              corporate gifting feel personal, creative, and effortless.
-            </p>
-          </header>
+        <header className="what-we-do__intro what-we-do__intro--solo">
+          <p className="what-we-do__eyebrow">What we do</p>
+          <h2 id="what-we-do-heading" className="what-we-do__heading">
+            Big ideas.{" "}
+            <span className="what-we-do__heading-accent">Thoughtful gifts.</span>
+          </h2>
+          <p className="what-we-do__lede">
+            Watch the short film, then open a service path — catalogue, Studio,
+            kits, or Company Stores. Slide art carries the story; each card has
+            one clear next step.
+          </p>
+        </header>
+      </div>
 
-          <figure className="what-we-do__video">
-            <div className="what-we-do__video-frame">
-              <video
-                controls
-                playsInline
-                preload="metadata"
-                poster="/videos/monkcraft-what-we-do-brand-film-poster.jpg"
-                aria-label="Monkcraft What we do brand film"
-              >
-                <source
-                  src="/videos/monkcraft-what-we-do-brand-film.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-            <figcaption className="what-we-do__video-caption">
-              A short look at corporate gifting, merch, kits, and company stores.
-            </figcaption>
-          </figure>
-        </div>
+      <BrandVideoBand
+        title="What we do"
+        durationLabel="About 80 seconds"
+        caption="Corporate gifting, custom merch, kits, and company stores — one short film."
+        src="/videos/monkcraft-what-we-do-brand-film.mp4"
+        poster="/videos/monkcraft-what-we-do-brand-film-poster.jpg"
+        tone="lilac"
+        ariaLabel="Monkcraft What we do brand film"
+      />
 
+      <div className="what-we-do__inner what-we-do__inner--posters">
         <ul className="what-we-do__posters">
           {services.map((service) => (
             <li

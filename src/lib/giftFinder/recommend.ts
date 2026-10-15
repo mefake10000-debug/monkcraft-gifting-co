@@ -26,6 +26,19 @@ const NEAR_BUDGET_FACTOR = 1.25;
 /** Soft floor: prefer gifts that use a meaningful share of budget. */
 const BUDGET_SWEET_SPOT_MIN = 0.35;
 
+/**
+ * Parse a positive recipient / programme quantity from free-form finder input.
+ * Returns null when unknown — never invents a count.
+ */
+export function parseRecipientCount(raw: string): number | null {
+  const trimmed = String(raw ?? "").trim();
+  if (!trimmed) return null;
+  const match = trimmed.match(/\d+/);
+  if (!match) return null;
+  const n = Number.parseInt(match[0], 10);
+  return Number.isFinite(n) && n > 0 ? n : null;
+}
+
 function asStringArray(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
   return value
@@ -268,8 +281,34 @@ function scoreProduct(
     }
   }
 
-  if (product.minQuantity && product.minQuantity > 1) {
-    notes.push(`Minimum order quantity: ${product.minQuantity}`);
+  // MOQ vs recipients — use real catalogue minQuantity only; never invent.
+  const recipients = parseRecipientCount(requirements.recipientCount);
+  const moq =
+    typeof product.minQuantity === "number" &&
+    Number.isFinite(product.minQuantity) &&
+    product.minQuantity > 0
+      ? Math.floor(product.minQuantity)
+      : null;
+  let moqExceedsRecipients = false;
+
+  if (moq != null && moq > 1) {
+    if (recipients != null && moq > recipients) {
+      moqExceedsRecipients = true;
+      // Strong demotion: not a good fit for the stated programme size.
+      score -= Math.min(90, 36 + (moq - recipients) * 3);
+      reasons.push({
+        code: "moq",
+        label: `MOQ ${moq} exceeds your ${recipients} recipients`,
+      });
+      // Shown via the moq reason on the card — avoid duplicate note text.
+    } else if (recipients != null) {
+      score += 8;
+      notes.push(`Minimum order quantity: ${moq}`);
+    } else {
+      notes.push(`Minimum order quantity: ${moq}`);
+    }
+  } else if (recipients != null && (moq == null || moq <= 1)) {
+    score += 4;
   }
 
   // Hard reject: clearly over budget with no other rescue path as match
@@ -329,6 +368,11 @@ function scoreProduct(
     tier = budgetTier === "in" ? "match" : tier;
   }
 
+  // After all tier restores: MOQ above recipient count is never a primary match.
+  if (moqExceedsRecipients) {
+    tier = "alternative";
+  }
+
   // Baseline name stability tie-breaker applied later
   if (reasons.length === 0 && tier === "match") {
     reasons.push({
@@ -377,6 +421,10 @@ function explain(
       `budget ≤ ₹${requirements.budgetPerRecipientInr.toLocaleString("en-IN")} / recipient`,
     );
   }
+  const recipients = parseRecipientCount(requirements.recipientCount);
+  if (recipients != null) {
+    parts.push(`recipients: ${recipients} (MOQ must fit)`);
+  }
   if (requirements.categorySlugs.length > 0) {
     const labels = getCategoryFacets()
       .filter((f) => requirements.categorySlugs.includes(f.id))
@@ -388,7 +436,11 @@ function explain(
     return `No verified products matched (${scope}). Try broadening filters or book a consultation.`;
   }
   if (matchCount === 0) {
-    return `No exact matches for ${scope}. Showing near alternatives that partly fit — original requirements kept.`;
+    const moqHint =
+      recipients != null
+        ? " Products whose catalogue MOQ exceeds your recipient count are listed as alternatives, not recommended matches."
+        : "";
+    return `No exact matches for ${scope}. Showing near alternatives that partly fit — original requirements kept.${moqHint}`;
   }
   return `Ranked ${matchCount} match${matchCount === 1 ? "" : "es"} from the verified catalogue (${scope}). Scoring is deterministic — not generative AI.`;
 }

@@ -1,48 +1,46 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BrandVideoBand } from "@/components/BrandVideoBand";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
+/** How-it-works slides from PDF — title/copy live in the artwork */
 const howSteps = [
   {
     id: "merchandise",
     title: "1. Merchandise selection",
-    copy: "It starts with curation. You select approved, high-quality products from the Monkcraft catalogue to build your bespoke Company Store.",
     tone: "lilac",
     image: {
       src: "/marketing/company-stores/cs-merchandise-selection-v3.jpg",
-      alt: "Selecting curated products from the Monkcraft catalogue for a company store",
+      alt: "1. Merchandise selection — curated products for a company store",
     },
   },
   {
     id: "access",
     title: "2. Employee access",
-    copy: "Secure, organisation-specific access. Employees enter your dedicated storefront via work emails or private invitations. Production access is configured when your store is provisioned — this demo does not authenticate employees.",
     tone: "mint",
     image: {
       src: "/marketing/company-stores/cs-employee-access-v3.jpg",
-      alt: "Employee access invite for a private company storefront",
+      alt: "2. Employee access — private company storefront invite",
     },
   },
   {
     id: "ordering",
     title: "3. Ordering & fulfilment",
-    copy: "Employees select their approved merchandise. We handle the rest, with fulfilment and delivery logistics planned with Monkcraft — we do not invent live shipping guarantees here.",
     tone: "blue",
     image: {
       src: "/marketing/company-stores/cs-ordering-fulfilment-v3.jpg",
-      alt: "Ordering and fulfilment flow from storefront selection to delivery",
+      alt: "3. Ordering & fulfilment — from storefront selection to delivery",
     },
   },
   {
     id: "branding",
     title: "4. Store branding",
-    copy: "Make it unmistakably yours. Customize your digital storefront with your company logo, brand colours, and a warm welcome message.",
     tone: "apricot",
     image: {
       src: "/marketing/company-stores/cs-store-branding-v3.jpg",
-      alt: "Branding a company storefront with logo, colours, and welcome message",
+      alt: "4. Store branding — logo, colours, and welcome message",
     },
   },
 ] as const;
@@ -65,10 +63,8 @@ export default function CompanyStoresLandingPage() {
               Branded merchandise stores for your company.
             </h1>
             <p className="cs-landing__lede">
-              Dedicated, brilliantly branded merchandise experiences for your
-              organisation. Empower your team to choose exactly what they want —
-              from a curated set of approved products, not another public
-              catalogue.
+              A private store for approved company merchandise — so your team
+              can choose what they want without another public catalogue.
             </p>
             <div className="cs-landing__actions">
               <Link
@@ -121,48 +117,41 @@ export default function CompanyStoresLandingPage() {
             demo.
           </p>
 
-          <div className="cs-how">
-            <figure className="cs-video">
-              <div className="cs-video__frame">
-                <video
-                  controls
-                  playsInline
-                  preload="metadata"
-                  poster="/videos/monkcraft-company-store-brief-poster.jpg"
-                  aria-label="How a Monkcraft Company Store works"
-                >
-                  <source
-                    src="/videos/monkcraft-company-store-brief.mp4"
-                    type="video/mp4"
-                  />
-                </video>
-              </div>
-              <figcaption className="cs-video__caption">
-                Short walkthrough — merchandise, access, and branded
-                fulfilment.
-              </figcaption>
-            </figure>
+          <BrandVideoBand
+            title="How it works"
+            durationLabel="About 60 seconds"
+            src="/videos/monkcraft-company-store-brief.mp4"
+            poster="/videos/monkcraft-company-store-brief-poster.jpg"
+            tone="apricot"
+            ariaLabel="How a Monkcraft Company Store works"
+          />
 
-            <div className="cs-grid cs-grid--2">
-              {howSteps.map((step) => (
-                <article
-                  key={step.id}
-                  className={`cs-tile cs-tile--${step.tone} cs-tile--poster`}
-                >
-                  {/* PDF slide already includes step title + copy */}
-                  <h3 className="visually-hidden">{step.title}</h3>
-                  <div className="cs-tile__media cs-tile__media--poster">
-                    <Image
-                      src={step.image.src}
-                      alt={step.image.alt}
-                      fill
-                      sizes="(max-width: 720px) 100vw, 28rem"
-                      style={{ objectFit: "contain", objectPosition: "center" }}
-                    />
-                  </div>
-                </article>
-              ))}
-            </div>
+          <div className="cs-grid cs-grid--2 cs-how-posters">
+            {howSteps.map((step) => (
+              <article
+                key={step.id}
+                className={`cs-tile cs-tile--${step.tone} cs-tile--poster`}
+              >
+                <div className="cs-tile__media cs-tile__media--poster">
+                  <Image
+                    src={step.image.src}
+                    alt={step.image.alt}
+                    fill
+                    sizes="(max-width: 720px) 100vw, 28rem"
+                    style={{ objectFit: "contain", objectPosition: "center" }}
+                  />
+                </div>
+                <div className="cs-how-poster__footer">
+                  <h3 className="cs-how-poster__title">{step.title}</h3>
+                  <Link
+                    className="cs-how-poster__cta"
+                    href="/company-stores/configure"
+                  >
+                    Try in configurator
+                  </Link>
+                </div>
+              </article>
+            ))}
           </div>
         </section>
 

@@ -188,10 +188,19 @@ export function CatalogueBuilder({
             Choose genuine catalogue products. Your selection stays while you
             edit branding. Import from shortlist anytime.
           </p>
+          {orderedProducts.length === 0 ? (
+            <div className="studio-empty-guide" role="status">
+              <p className="studio-empty-guide__title">Next step</p>
+              <p>
+                Search and add at least one product, or pull from your shortlist.
+                Then continue to brand and preview.
+              </p>
+            </div>
+          ) : null}
           <div className="studio-inline-actions">
             <button
               type="button"
-              className="journey-btn journey-btn--ghost"
+              className="journey-btn"
               onClick={() => {
                 const ids = readShortlist().map((item) => item.id);
                 if (ids.length === 0) {
@@ -205,6 +214,9 @@ export function CatalogueBuilder({
             >
               Add from shortlist
             </button>
+            <Link className="journey-btn journey-btn--ghost" href="/gifts">
+              Browse catalogue
+            </Link>
             <Link className="journey-btn journey-btn--ghost" href="/gifts/shortlist">
               Open shortlist
             </Link>
@@ -269,16 +281,13 @@ export function CatalogueBuilder({
                 </li>
               ))}
             </ul>
-          ) : (
-            <p className="studio-picker__status" role="status">
-              No products selected yet.
-            </p>
-          )}
+          ) : null}
 
           <ProductPicker
             mode="multi"
             selectedIds={draft.productIds}
-            heading="Search & add"
+            heading="Search & add products"
+            emptyHint="Search the live catalogue, then add SKUs to this white-label list."
             onSelect={(product) => {
               if (draft.productIds.includes(product.id)) return;
               applyPatch({ productIds: [...draft.productIds, product.id] });
@@ -607,8 +616,8 @@ export function CatalogueBuilder({
             >
               Sync to gifting brief
             </button>
-            <Link className="journey-btn" href="/gifts/brief">
-              Request a Quote
+            <Link className="journey-btn journey-btn--outline" href="/gifts/brief">
+              Open My Brief
             </Link>
             <Link className="journey-btn journey-btn--ghost" href="/#enquire">
               Talk to Monkcraft

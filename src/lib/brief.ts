@@ -503,14 +503,23 @@ export type BriefMissingItem = {
   severity: "required" | "recommended";
 };
 
+export type BriefLiveContext = {
+  /** Live Build a Box draft has products (even if not yet written to brief.sources). */
+  hasLiveBoxProducts?: boolean;
+  liveBoxNumberOfBoxes?: number;
+  liveBoxBudgetPerBox?: string;
+};
+
 export function getBriefMissingDetails(
   brief: GiftingBriefDraft,
   products: ShortlistItem[],
+  live?: BriefLiveContext,
 ): BriefMissingItem[] {
   const missing: BriefMissingItem[] = [];
   const hasProducts =
     products.length > 0 ||
     Boolean(brief.sources.box?.productCount) ||
+    Boolean(live?.hasLiveBoxProducts) ||
     Boolean(brief.sources.studioBranding?.productId) ||
     Boolean(brief.sources.studioCatalogue?.productIds.length) ||
     Boolean(brief.sources.companyStore?.productCount);
@@ -529,14 +538,22 @@ export function getBriefMissingDetails(
       severity: "required",
     });
   }
-  if (!brief.recipientCount.trim() && !brief.sources.box?.numberOfBoxes) {
+  const hasBoxCount =
+    Boolean(brief.sources.box?.numberOfBoxes) ||
+    (typeof live?.liveBoxNumberOfBoxes === "number" &&
+      live.liveBoxNumberOfBoxes >= 1 &&
+      Boolean(live.hasLiveBoxProducts));
+  if (!brief.recipientCount.trim() && !hasBoxCount) {
     missing.push({
       id: "recipientCount",
       label: "Recipient count or number of boxes",
       severity: "recommended",
     });
   }
-  if (!brief.budgetPerRecipient.trim() && !brief.sources.box?.budgetPerBox) {
+  const hasBoxBudget =
+    Boolean(brief.sources.box?.budgetPerBox?.trim()) ||
+    Boolean(live?.liveBoxBudgetPerBox?.trim());
+  if (!brief.budgetPerRecipient.trim() && !hasBoxBudget) {
     missing.push({
       id: "budget",
       label: "Target budget",

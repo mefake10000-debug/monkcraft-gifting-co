@@ -119,7 +119,12 @@ export function CatalogueShell({
   fromBox = false,
 }: CatalogueShellProps) {
   const products = Array.isArray(productsProp) ? productsProp : [];
-  const query = normalizeCatalogueQuery(queryProp);
+  // Memoize: normalizeCatalogueQuery returns a new object each call; putting an
+  // unstable `query` in an effect dep caused a max-update-depth loop.
+  const query = useMemo(
+    () => normalizeCatalogueQuery(queryProp),
+    [queryProp],
+  );
   const occasionFacets = asFacetList(occasionFacetsProp);
   const categoryFacets = asFacetList(categoryFacetsProp);
   const brandingFacets = asFacetList(brandingFacetsProp);
@@ -173,7 +178,9 @@ export function CatalogueShell({
     }
     pendingHrefRef.current = null;
     draftRef.current = query;
-    setDraftQuery(query);
+    setDraftQuery((prev) =>
+      buildCatalogueHref(prev, path) === href ? prev : query,
+    );
   }, [query, path, isPending]);
 
   useEffect(() => {
@@ -217,14 +224,40 @@ export function CatalogueShell({
 
   const activeCount = countActiveFilters(draftQuery);
 
-  function updateQuery(patch: Partial<CatalogueQuery>) {
+  function scrollResultsIntoView() {
+    const reduce =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const target = document.getElementById("catalogue-results");
+    if (target) {
+      target.scrollIntoView({
+        behavior: reduce ? "auto" : "smooth",
+        block: "start",
+      });
+      return;
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: reduce ? "auto" : "smooth" });
+  }
+
+  function updateQuery(
+    patch: Partial<CatalogueQuery>,
+    options?: { scrollToResults?: boolean },
+  ) {
     const next = applyQueryPatch(draftRef.current, patch);
     draftRef.current = next;
     setDraftQuery(next);
     const href = buildCatalogueHref(next, path);
     pendingHrefRef.current = href;
+    const shouldScroll =
+      options?.scrollToResults === true ||
+      ("page" in patch && typeof patch.page === "number");
     startTransition(() => {
       router.replace(href, { scroll: false });
+      if (shouldScroll) {
+        // After the URL updates, bring the grid back into view so “Next”
+        // never looks like a no-op at the bottom of a long page.
+        window.setTimeout(scrollResultsIntoView, 60);
+      }
     });
   }
 
@@ -293,7 +326,9 @@ export function CatalogueShell({
       }
     >
       <aside className="catalogue-shell__sidebar" aria-label="Catalogue filters">
-        <CatalogueFilters idPrefix="desktop" {...filterProps} />
+        <div className="catalogue-shell__sidebar-inner">
+          <CatalogueFilters idPrefix="desktop" {...filterProps} />
+        </div>
       </aside>
 
       <div
@@ -543,18 +578,25 @@ export function CatalogueShell({
           <nav className="catalogue-pagination" aria-label="Catalogue pages">
             <button
               type="button"
-              disabled={page <= 1 || isPending}
-              onClick={() => updateQuery({ page: page - 1 })}
+              disabled={page <= 1}
+              aria-busy={isPending || undefined}
+              onClick={() =>
+                updateQuery({ page: page - 1 }, { scrollToResults: true })
+              }
             >
               Previous
             </button>
             <span>
               Page {page} of {totalPages}
+              {isPending ? " · loading…" : ""}
             </span>
             <button
               type="button"
-              disabled={page >= totalPages || isPending}
-              onClick={() => updateQuery({ page: page + 1 })}
+              disabled={page >= totalPages}
+              aria-busy={isPending || undefined}
+              onClick={() =>
+                updateQuery({ page: page + 1 }, { scrollToResults: true })
+              }
             >
               Next
             </button>
@@ -570,7 +612,7 @@ export function CatalogueShell({
             <Link href="/gifts/box">
               Build a Box{boxCount ? ` (${boxCount})` : ""}
             </Link>
-            <Link href="/gifts/brief">Get a Quote</Link>
+            <Link href="/gifts/brief">Open My Brief</Link>
           </div>
         </div>
       </div>
@@ -649,6 +691,8 @@ function CatalogueFilters({
         id={`${idPrefix}-category`}
         title="Product type"
         defaultOpen
+        showAll
+        className="catalogue-filters__group--product-type"
         selectedCount={query.categories.length}
         facets={categoryFacets}
         selected={query.categories}
@@ -759,16 +803,21 @@ function BudgetFilterFields({
   const [maxText, setMaxText] = useState(
     budgetMaxInr != null ? String(budgetMaxInr) : "",
   );
+  const [prevMin, setPrevMin] = useState(budgetMinInr);
+  const [prevMax, setPrevMax] = useState(budgetMaxInr);
   const minTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const maxTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => {
+  // Resync the debounce buffer when the value changes elsewhere (URL/draft).
+  // Render-time derivation keeps this out of an effect (react-hooks safe).
+  if (budgetMinInr !== prevMin) {
+    setPrevMin(budgetMinInr);
     setMinText(budgetMinInr != null ? String(budgetMinInr) : "");
-  }, [budgetMinInr]);
-
-  useEffect(() => {
+  }
+  if (budgetMaxInr !== prevMax) {
+    setPrevMax(budgetMaxInr);
     setMaxText(budgetMaxInr != null ? String(budgetMaxInr) : "");
-  }, [budgetMaxInr]);
+  }
 
   useEffect(() => {
     return () => {
@@ -814,10 +863,14 @@ function BudgetFilterFields({
     <div className={`catalogue-filters__group${hasBudget ? " is-open" : ""}`}>
       <details open={hasBudget ? true : undefined}>
         <summary className="catalogue-filters__budget-summary">
-          Budget (₹ per unit)
-          {hasBudget ? (
-            <span className="catalogue-filters__badge">On</span>
-          ) : null}
+          <span className="catalogue-filters__toggle-label">
+            Budget (₹ per unit)
+          </span>
+          <span className="catalogue-filters__toggle-meta">
+            {hasBudget ? (
+              <span className="catalogue-filters__badge">On</span>
+            ) : null}
+          </span>
         </summary>
         <div className="catalogue-filters__budget">
           <label>
@@ -863,6 +916,8 @@ function FacetGroup({
   defaultOpen = false,
   selectedCount = 0,
   searchable = false,
+  showAll: showAllFacets = false,
+  className = "",
 }: {
   id: string;
   title: string;
@@ -872,15 +927,21 @@ function FacetGroup({
   defaultOpen?: boolean;
   selectedCount?: number;
   searchable?: boolean;
+  /** When true, list every facet (no “Show more” truncation). */
+  showAll?: boolean;
+  className?: string;
 }) {
   const [open, setOpen] = useState(defaultOpen || selectedCount > 0);
   const [needle, setNeedle] = useState("");
-  const [showAll, setShowAll] = useState(false);
+  const [expanded, setExpanded] = useState(showAllFacets);
+  const [prevSelectedCount, setPrevSelectedCount] = useState(selectedCount);
 
   // Keep groups with active selections visible after URL/draft updates.
-  useEffect(() => {
-    if (selectedCount > 0) setOpen(true);
-  }, [selectedCount]);
+  // Render-time derivation (react-hooks safe) instead of an effect.
+  if (selectedCount !== prevSelectedCount) {
+    setPrevSelectedCount(selectedCount);
+    if (selectedCount > 0 && !open) setOpen(true);
+  }
 
   const safeFacets = useMemo(
     () => (Array.isArray(facets) ? facets : []),
@@ -896,14 +957,27 @@ function FacetGroup({
     );
   }, [safeFacets, needle]);
 
-  const visible = showAll
-    ? filtered
-    : filtered.slice(0, FACET_VISIBLE_LIMIT);
+  const visible =
+    showAllFacets || expanded
+      ? filtered
+      : filtered.slice(0, FACET_VISIBLE_LIMIT);
   const hiddenCount = filtered.length - visible.length;
-  const showSearch = searchable && safeFacets.length > FACET_VISIBLE_LIMIT;
+  const showSearch =
+    searchable &&
+    (showAllFacets
+      ? safeFacets.length > 10
+      : safeFacets.length > FACET_VISIBLE_LIMIT);
 
   return (
-    <div className={`catalogue-filters__group${open ? " is-open" : ""}`}>
+    <div
+      className={[
+        "catalogue-filters__group",
+        open ? "is-open" : "",
+        className,
+      ]
+        .filter(Boolean)
+        .join(" ")}
+    >
       <button
         type="button"
         className="catalogue-filters__toggle"
@@ -911,13 +985,13 @@ function FacetGroup({
         aria-controls={id}
         onClick={() => setOpen((value) => !value)}
       >
-        <span className="catalogue-filters__toggle-label">
-          {title}
+        <span className="catalogue-filters__toggle-label">{title}</span>
+        <span className="catalogue-filters__toggle-meta">
           {selectedCount > 0 ? (
             <span className="catalogue-filters__badge">{selectedCount}</span>
           ) : null}
+          <span className="catalogue-filters__chevron" aria-hidden="true" />
         </span>
-        <span className="catalogue-filters__chevron" aria-hidden="true" />
       </button>
 
       <div
@@ -935,7 +1009,7 @@ function FacetGroup({
               value={needle}
               onChange={(event) => {
                 setNeedle(event.target.value);
-                setShowAll(true);
+                if (!showAllFacets) setExpanded(true);
               }}
               aria-label={`Search ${title}`}
             />
@@ -962,20 +1036,23 @@ function FacetGroup({
               <li className="catalogue-filters__empty">No matches</li>
             ) : null}
           </ul>
-          {hiddenCount > 0 ? (
+          {!showAllFacets && hiddenCount > 0 ? (
             <button
               type="button"
               className="catalogue-filters__more"
-              onClick={() => setShowAll(true)}
+              onClick={() => setExpanded(true)}
             >
               Show {hiddenCount} more
             </button>
           ) : null}
-          {showAll && filtered.length > FACET_VISIBLE_LIMIT && !needle.trim() ? (
+          {!showAllFacets &&
+          expanded &&
+          filtered.length > FACET_VISIBLE_LIMIT &&
+          !needle.trim() ? (
             <button
               type="button"
               className="catalogue-filters__more"
-              onClick={() => setShowAll(false)}
+              onClick={() => setExpanded(false)}
             >
               Show less
             </button>

@@ -131,9 +131,9 @@ export function StudioShell({
           <p className="studio-shell__eyebrow">Monkcraft Studio</p>
           <h1>Creative workspace</h1>
           <p className="studio-shell__lede">
-            Place a logo on genuine product photos for a conceptual preview, or
-            assemble a white-label catalogue PDF in the browser. Drafts stay on
-            this device — exports are not print proofs.
+            {mode === "customize"
+              ? "Pick a real catalogue product, place your logo, then export a conceptual PNG or send the draft to My Brief."
+              : "Select products, add your brand name, then use browser Print → Save as PDF. No fake PDF engine — drafts stay on this device."}
           </p>
         </div>
 

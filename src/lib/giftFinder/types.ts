@@ -46,6 +46,7 @@ export type GiftFinderMatchReason = {
     | "preference"
     | "availability"
     | "near-budget"
+    | "moq"
     | "partial";
   label: string;
 };

@@ -33,6 +33,12 @@ export function FinderMatchCard({
       product.pricing.kind === "fixed" ? product.pricing.amountInr : undefined,
   };
 
+  const moqReasons = reasons.filter((r) => r.code === "moq");
+  const displayReasons = reasons
+    .filter((r) => r.code !== "moq")
+    .slice(0, 3);
+  const displayNotes = notes.slice(0, 2);
+
   return (
     <article
       className={`finder-match${tier === "alternative" ? " finder-match--alt" : ""}`}
@@ -67,35 +73,47 @@ export function FinderMatchCard({
       </div>
 
       <div className="finder-match__body">
-        {tier === "alternative" ? (
-          <p className="finder-match__tier">Alternative</p>
-        ) : null}
-        {product.categoryName ? (
-          <p className="finder-match__type">{product.categoryName}</p>
-        ) : null}
-        <h3 className="finder-match__title">
-          <Link href={`/gifts/${product.slug}`}>{product.name}</Link>
-        </h3>
-        <p className="finder-match__price">{priceLabel}</p>
+        <div className="finder-match__meta">
+          {tier === "alternative" ? (
+            <p className="finder-match__tier">Alternative</p>
+          ) : null}
+          {product.categoryName ? (
+            <p className="finder-match__type">{product.categoryName}</p>
+          ) : null}
+          <h3 className="finder-match__title">
+            <Link href={`/gifts/${product.slug}`} title={product.name}>
+              {product.name}
+            </Link>
+          </h3>
+          <p className="finder-match__price">{priceLabel}</p>
+        </div>
 
-        <ul className="finder-match__reasons">
-          {reasons.slice(0, 3).map((reason) => (
-            <li key={`${product.id}-${reason.code}-${reason.label}`}>
-              {reason.label}
-            </li>
-          ))}
-        </ul>
+        {displayReasons.length > 0 ? (
+          <ul className="finder-match__reasons">
+            {displayReasons.map((reason) => (
+              <li key={`${product.id}-${reason.code}-${reason.label}`}>
+                {reason.label}
+              </li>
+            ))}
+          </ul>
+        ) : null}
 
-        {notes.length > 0 ? (
-          <ul className="finder-match__notes">
-            {notes.slice(0, 2).map((note) => (
+        {moqReasons.length > 0 || displayNotes.length > 0 ? (
+          <ul className="finder-match__notes" role="note">
+            {moqReasons.map((reason) => (
+              <li key={`${product.id}-moq-${reason.label}`}>{reason.label}</li>
+            ))}
+            {displayNotes.map((note) => (
               <li key={`${product.id}-${note}`}>{note}</li>
             ))}
           </ul>
         ) : null}
 
         <div className="finder-match__actions">
-          <Link className="journey-btn journey-btn--ghost" href={`/gifts/${product.slug}`}>
+          <Link
+            className="journey-btn journey-btn--ghost"
+            href={`/gifts/${product.slug}`}
+          >
             Details
           </Link>
           <AddToBoxButton snapshot={boxSnapshot} variant="card" />

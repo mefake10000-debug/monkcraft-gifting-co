@@ -300,6 +300,18 @@ export function BrandingEditor({
 
         <section className="studio-tool-block" aria-labelledby="studio-product-heading">
           <h2 id="studio-product-heading">1. Product</h2>
+          {!product ? (
+            <div className="studio-empty-guide" role="status">
+              <p className="studio-empty-guide__title">Next step</p>
+              <p>
+                Search below and choose one product photo. That unlocks logo
+                upload and export.
+              </p>
+              <Link className="journey-btn journey-btn--ghost" href="/gifts">
+                Browse full catalogue
+              </Link>
+            </div>
+          ) : null}
           {product ? (
             <div className="studio-selected-product">
               <p className="studio-selected-product__name">{product.name}</p>
@@ -334,6 +346,8 @@ export function BrandingEditor({
             <ProductPicker
               mode="single"
               selectedIds={[]}
+              heading="Search & select a product"
+              emptyHint="Type a name, SKU, or category — results come from the live Monkcraft catalogue."
               onSelect={(item) =>
                 applyPatch({ productId: item.id, productSlug: item.slug })
               }
@@ -348,7 +362,7 @@ export function BrandingEditor({
 
         <section className="studio-tool-block" aria-labelledby="studio-logo-heading">
           <h2 id="studio-logo-heading">2. Logo</h2>
-          <label className="studio-file" htmlFor={fileInputId}>
+          <label className="studio-file studio-file--primary" htmlFor={fileInputId}>
             <span>{draft.logo ? "Replace logo" : "Upload logo"}</span>
             <input
               id={fileInputId}
@@ -362,8 +376,7 @@ export function BrandingEditor({
             />
           </label>
           <p className="studio-hint">
-            PNG, JPG, WebP, or SVG · max 400KB · stored in this browser only.
-            SVG is shown as an image, never injected as code.
+            PNG, JPG, WebP, or SVG · max 400KB · this browser only.
           </p>
           {draft.logo ? (
             <div className="studio-logo-meta">
@@ -393,10 +406,15 @@ export function BrandingEditor({
           ) : null}
         </section>
 
-        <section className="studio-tool-block" aria-labelledby="studio-adjust-heading">
+        <section className="studio-tool-block studio-tool-block--compact" aria-labelledby="studio-adjust-heading">
           <h2 id="studio-adjust-heading">3. Adjust</h2>
           <label className="studio-range">
-            <span>Size</span>
+            <span className="studio-range__label">
+              Size
+              <span className="studio-range__value">
+                {Math.round(draft.transform.scale * 100)}%
+              </span>
+            </span>
             <input
               type="range"
               min={0.08}
@@ -414,7 +432,12 @@ export function BrandingEditor({
             />
           </label>
           <label className="studio-range">
-            <span>Rotation</span>
+            <span className="studio-range__label">
+              Rotation
+              <span className="studio-range__value">
+                {Math.round(draft.transform.rotation)}°
+              </span>
+            </span>
             <input
               type="range"
               min={-180}
@@ -481,21 +504,20 @@ export function BrandingEditor({
             </button>
           </div>
           <p className="studio-hint">
-            Drag the logo on desktop or touch devices. Arrow keys nudge when the
-            logo is focused.
+            Drag to move · arrow keys nudge when focused.
           </p>
         </section>
 
         <section className="studio-tool-block" aria-labelledby="studio-export-heading">
           <h2 id="studio-export-heading">4. Export & enquiry</h2>
-          <div className="studio-inline-actions studio-inline-actions--wrap">
+          <div className="studio-export-actions">
             <button
               type="button"
               className="journey-btn"
               disabled={exportBusy || !product?.imageSrc}
               onClick={() => void handleExport()}
             >
-              {exportBusy ? "Exporting…" : "Download preview PNG"}
+              {exportBusy ? "Exporting…" : "Download PNG"}
             </button>
             <button
               type="button"
@@ -509,10 +531,10 @@ export function BrandingEditor({
               className="journey-btn journey-btn--ghost"
               onClick={handlePrepareEnquiry}
             >
-              {copied ? "Copied for enquiry" : "Copy enquiry brief"}
+              {copied ? "Copied" : "Copy enquiry"}
             </button>
-            <Link className="journey-btn" href="/gifts/brief">
-              Request a Quote
+            <Link className="journey-btn journey-btn--outline" href="/gifts/brief">
+              Open My Brief
             </Link>
             <Link className="journey-btn journey-btn--ghost" href="/#enquire">
               Talk to Monkcraft
@@ -524,9 +546,8 @@ export function BrandingEditor({
             </p>
           ) : null}
           <p className="studio-hint">
-            Download exports the product image with your logo placement — not
-            the surrounding Studio UI. Logo files stay in this browser until you
-            send them separately.
+            PNG exports the product + logo only. Logos stay in this browser until
+            you send them.
           </p>
           <button
             type="button"

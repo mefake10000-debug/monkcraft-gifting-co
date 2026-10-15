@@ -57,11 +57,9 @@ export function AddToBoxButton({
         aria-pressed={active}
         onClick={() => {
           if (active) return;
-          const min =
-            snapshot.minQuantity && snapshot.minQuantity > 0
-              ? snapshot.minQuantity
-              : 1;
-          addToBox(snapshot, min);
+          // Qty-per-box starts at 1. Supplier MOQ is a programme-wide floor,
+          // not units stuffed into every kit (audit D01).
+          addToBox(snapshot, 1);
           setQty(getBoxProductQuantity(snapshot.id));
           setJustAdded(true);
           window.setTimeout(() => setJustAdded(false), 2500);
@@ -75,7 +73,7 @@ export function AddToBoxButton({
       </button>
       {active || justAdded ? (
         <Link className="add-to-box__continue" href="/gifts/box">
-          Continue box
+          {justAdded ? "Added · Continue box" : "Continue box"}
         </Link>
       ) : null}
     </div>

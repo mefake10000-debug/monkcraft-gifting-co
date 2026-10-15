@@ -67,7 +67,7 @@ Until approved, UI keeps honest “pending confirmation” copy — do not inven
 
 | Need | Placement | Specs | Type | Notes |
 |------|-----------|-------|------|-------|
-| Verified client / partner logos | Homepage brand marquee (`BrandLogoMarquee`) | SVG or PNG, height **64–80px** (@2x), transparent | Logo | Marquee stays **hidden** until real logos are supplied |
+| Verified client / partner logos | Homepage brand marquee (`BrandLogoMarquee`) | SVG or PNG, height **64–80px** (@2x), transparent | Logo | Until files land in `public/brands/`, strip shows **typography-only** real catalogue brand names (see `public/brands/README.md`) |
 | Verified testimonials (optional) | Homepage only if content is real | Portrait **400×400** optional | Photo | Never invent quotes |
 | Studio mockup scene improvements | `/studio` branding canvas | Product-aligned masters only | Product photo | Conceptual watermark remains until print proofing exists |
 | Company Store demo hero / empty shelf art | `/company-stores` landing aside | Soft scene **1600×1000** | Editorial illustration or scene photo | Optional; pastel blocks currently work |

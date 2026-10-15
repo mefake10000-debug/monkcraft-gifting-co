@@ -421,19 +421,16 @@ export function GiftingBrief() {
               {snapshot.hasBoxContent ? (
                 <p>
                   {snapshot.box.products.length} product
-                  {snapshot.box.products.length === 1 ? "" : "s"} ·{" "}
+                  {snapshot.box.products.length === 1 ? "" : "s"}
+                  {" · "}
                   {snapshot.box.customization.numberOfBoxes} box
                   {snapshot.box.customization.numberOfBoxes === 1 ? "" : "es"}
-                  {snapshot.box.packaging
-                    ? ` · packaging noted`
-                    : " · packaging TBD"}
-                  {brief.sources.box ? " · linked" : ""}
                 </p>
               ) : (
                 <p>No box draft yet.</p>
               )}
             </div>
-            <Link href="/gifts/box">
+            <Link className="brief-link-card__cta" href="/gifts/box">
               {snapshot.hasBoxContent ? "Review box" : "Start Build a Box"}
             </Link>
           </li>
@@ -443,14 +440,9 @@ export function GiftingBrief() {
               <h3>Studio branding</h3>
               {snapshot.hasBrandingContent ? (
                 <p>
-                  Mockup draft
-                  {snapshot.branding.productSlug
-                    ? ` · /gifts/${snapshot.branding.productSlug}`
-                    : ""}
                   {snapshot.branding.logo
-                    ? ` · logo ${snapshot.branding.logo.fileName}`
-                    : " · no logo file"}
-                  {brief.sources.studioBranding ? " · linked" : ""}
+                    ? `Mockup with ${snapshot.branding.logo.fileName}`
+                    : "Mockup draft · logo not attached"}
                 </p>
               ) : (
                 <p>
@@ -461,7 +453,7 @@ export function GiftingBrief() {
               )}
             </div>
             {snapshot.studioRouteAvailable ? (
-              <Link href="/studio">
+              <Link className="brief-link-card__cta" href="/studio">
                 {snapshot.hasBrandingContent ? "Open Studio" : "Customize in Studio"}
               </Link>
             ) : (
@@ -474,17 +466,19 @@ export function GiftingBrief() {
               <h3>White-label catalogue</h3>
               {snapshot.hasCatalogueContent ? (
                 <p>
-                  {snapshot.catalogue.title || "Untitled draft"} ·{" "}
+                  {snapshot.catalogue.title || "Untitled draft"}
+                  {" · "}
                   {snapshot.catalogue.productIds.length} product
                   {snapshot.catalogue.productIds.length === 1 ? "" : "s"}
-                  {brief.sources.studioCatalogue ? " · linked" : ""}
                 </p>
               ) : (
                 <p>No reseller catalogue draft yet.</p>
               )}
             </div>
             {snapshot.studioRouteAvailable ? (
-              <Link href="/studio">Open Studio catalogue</Link>
+              <Link className="brief-link-card__cta" href="/studio">
+                Open Studio catalogue
+              </Link>
             ) : (
               <span className="brief-link-card__muted">Coming soon</span>
             )}
@@ -497,10 +491,10 @@ export function GiftingBrief() {
                 <p>
                   {snapshot.companyStore.identity.storeName ||
                     snapshot.companyStore.identity.companyName ||
-                    "Untitled store"}{" "}
-                  · {snapshot.companyStore.productIds.length} product
+                    "Untitled store"}
+                  {" · "}
+                  {snapshot.companyStore.productIds.length} product
                   {snapshot.companyStore.productIds.length === 1 ? "" : "s"}
-                  {brief.sources.companyStore ? " · linked" : ""}
                 </p>
               ) : (
                 <p>
@@ -511,7 +505,7 @@ export function GiftingBrief() {
               )}
             </div>
             {snapshot.companyStoreRouteAvailable ? (
-              <Link href="/company-stores">
+              <Link className="brief-link-card__cta" href="/company-stores">
                 {snapshot.hasCompanyStoreContent
                   ? "Review store draft"
                   : "Explore Company Stores"}

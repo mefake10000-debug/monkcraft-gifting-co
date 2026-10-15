@@ -18,11 +18,9 @@ export function CatalogueIntro() {
             quotation brief.
           </p>
         </div>
-        <nav className="catalogue-intro__links" aria-label="Catalogue journey">
-          <Link href="/gifts/find">Gift Finder</Link>
-          <Link href="/gifts/box">Build a Box</Link>
+        <nav className="catalogue-intro__links" aria-label="Related tools">
           <Link href="/studio">Studio</Link>
-          <Link href="/gifts/brief">Get a Quote</Link>
+          <Link href="/gifts/brief">My Brief</Link>
         </nav>
       </div>
     </section>

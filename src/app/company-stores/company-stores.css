@@ -241,20 +241,12 @@
 .cs-overview__media {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1920 / 1071;
   overflow: hidden;
   border-radius: 1.35rem;
-  background: var(--mc-mist-lilac);
+  background: #fff;
   border: 1px solid color-mix(in srgb, var(--mc-black-olive) 8%, transparent);
   box-shadow: 0 12px 32px rgba(63, 63, 55, 0.08);
-}
-
-.cs-overview__caption {
-  margin: 0;
-  max-width: 40rem;
-  font-size: 0.9rem;
-  line-height: 1.45;
-  color: color-mix(in srgb, var(--mc-black-olive) 72%, transparent);
 }
 
 .cs-tile {
@@ -275,10 +267,20 @@
   grid-template-rows: auto 1fr;
 }
 
+.cs-tile--poster {
+  padding: 0;
+  overflow: hidden;
+}
+
 .cs-tile__media {
   position: relative;
   aspect-ratio: 16 / 9;
   background: #eee;
+}
+
+.cs-tile__media--poster {
+  aspect-ratio: 1920 / 1071;
+  background: #fff;
 }
 
 .cs-tile__body {
@@ -324,82 +326,61 @@
   background: #fff;
 }
 
-/* Mobile / tablet: compact portrait player, then tiles */
-.cs-how {
-  display: grid;
-  gap: 1.5rem;
-  align-items: start;
+/* Video uses shared .brand-video-band; posters sit in a simple grid below */
+.cs-how-posters {
+  margin-top: 1.5rem;
 }
 
-.cs-video {
-  margin: 0;
+.cs-how-poster__footer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 0.65rem;
-  width: 100%;
-  box-sizing: border-box;
+  justify-content: space-between;
+  gap: 0.55rem 0.85rem;
+  margin-top: 0.75rem;
+  padding: 0 0.15rem;
 }
 
-.cs-video__frame {
-  position: relative;
-  width: min(100%, 16rem);
-  aspect-ratio: 9 / 16;
-  overflow: hidden;
-  border-radius: 1.15rem;
-  background: #111;
-  box-shadow: 0 10px 28px rgba(63, 63, 55, 0.12);
-}
-
-.cs-video__frame video {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  background: #111;
-}
-
-.cs-video__caption {
+.cs-how-poster__title {
   margin: 0;
-  max-width: 22rem;
-  text-align: center;
-  font-size: 0.85rem;
-  line-height: 1.4;
-  color: color-mix(in srgb, var(--mc-black-olive) 70%, transparent);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--mc-black-olive);
 }
 
-/* Desktop only: viewport-fit portrait player + tiles (no stretched empty stage) */
-@media (min-width: 900px) {
-  .cs-how {
-    grid-template-columns: max-content minmax(0, 1fr);
-    gap: 2rem 2.5rem;
-    align-items: center;
-  }
+.cs-how-poster__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--mc-royal-purple);
+  background: #fff;
+  color: var(--mc-royal-purple);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
 
-  .cs-video {
-    width: max-content;
-    max-width: none;
-    justify-self: start;
-    padding: 0.75rem;
-    border-radius: 1.4rem;
-    background: color-mix(in srgb, var(--mc-buttercream) 75%, #fff);
-    border: 1px solid color-mix(in srgb, var(--mc-black-olive) 8%, transparent);
-  }
+.cs-how-poster__cta:hover {
+  background: var(--mc-mist-lilac, rgb(102 47 144 / 8%));
+}
 
-  .cs-video__frame {
-    /* Size from viewport height only — avoid width:100% (blows out the grid column) */
-    width: min(20rem, calc(min(54vh, 30rem) * 9 / 16));
-    aspect-ratio: 9 / 16;
-    height: auto;
-    border-radius: 1.15rem;
-    box-shadow: 0 14px 36px rgba(63, 63, 55, 0.12);
-  }
+.cs-section .brand-video-band {
+  margin: 1.25rem 0 0;
+}
 
-  .cs-video__caption {
-    max-width: 20rem;
-    font-size: 0.86rem;
-  }
+.cs-section .brand-video-band__stage {
+  border-radius: 1.35rem;
+  min-height: clamp(20rem, 42vw, 30rem);
+}
+
+.cs-section .brand-video-band__caption {
+  display: none;
 }
 
 .cs-steps {

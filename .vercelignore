@@ -1,5 +1,13 @@
-# Keep Preview uploads lean; catalogue media is uploaded via public/catalogue-media
-# (symlink followed by Vercel CLI when present locally).
+# Keep uploads lean. public/catalogue-media is a local symlink to
+# ../../monkcraft/website-export/media (~804MB). With --archive=tgz the
+# symlink is packed literally and Vercel rejects it as invalid on the build host.
+#
+# Production media: stage a deploy dir that copies real files (cp -RL) into
+# public/catalogue-media, remove the public/catalogue-media line from THAT
+# stage's .vercelignore, then:
+#   vercel deploy --prod --yes --archive=tgz --scope monkcraft1
+# from the stage. Do not deploy --archive from the repo root while the
+# symlink exclusion is active (images will be missing).
 
 .git
 .next
@@ -10,6 +18,9 @@ tmp
 agent-transcripts
 coverage
 *.tsbuildinfo
+
+# Local-only catalogue media symlink (breaks --archive=tgz deploys from repo root)
+public/catalogue-media
 
 # Heavy film preprod / working assets (not needed for site Preview)
 public/videos/**/preprod

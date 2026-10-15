@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { RouteScroll } from "@/components/RouteScroll";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { AddToBoxButton } from "@/components/box/AddToBoxButton";
@@ -16,19 +17,21 @@ import {
   getProductBySlug,
   getRelatedProducts,
 } from "@/data/catalogue/products";
-import { formatPricing } from "@/lib/pricing";
+import { formatGstBasis, formatPricing } from "@/lib/pricing";
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
 };
 
-/** Sample params only — full catalogue is served on demand (4k+ SKUs). */
+/** Sample params only — full catalogue is served on demand (4k+ SKUs).
+ *  dynamicParams defaults to true; explicit export is incompatible with cacheComponents. */
 export async function generateStaticParams() {
   const products = getAllProducts();
   if (products.length === 0) {
     return [{ slug: "__awaiting-inventory__" }];
   }
-  return products.slice(0, 24).map((product) => ({ slug: product.slug }));
+  // Warm a larger first wave so View / related links feel instant.
+  return products.slice(0, 120).map((product) => ({ slug: product.slug }));
 }
 
 export async function generateMetadata({ params }: ProductPageProps) {
@@ -46,6 +49,7 @@ export async function generateMetadata({ params }: ProductPageProps) {
 export default function ProductDetailPage({ params }: ProductPageProps) {
   return (
     <main className="catalogue-page">
+      <RouteScroll />
       <SiteHeader />
       <Suspense
         fallback={
@@ -80,7 +84,7 @@ async function ProductDetailBody({
         </p>
         <div className="product-missing__actions">
           <Link href="/gifts">Back to gifts</Link>
-          <Link href="/gifts/brief">Request a Quote</Link>
+          <Link href="/gifts/brief">Open My Brief</Link>
         </div>
       </section>
     );
@@ -110,7 +114,11 @@ async function ProductDetailBody({
       />
 
       <div className="product-detail__layout">
-        <ProductGallery images={product.images} productName={product.name} />
+        <ProductGallery
+          key={product.slug}
+          images={product.images}
+          productName={product.name}
+        />
 
         <div className="product-detail__info">
           <p className="product-detail__type">
@@ -124,10 +132,11 @@ async function ProductDetailBody({
           <p className="product-detail__summary">{product.summary}</p>
           <p className="product-detail__price">
             {formatPricing(product.pricing)}
-            {product.pricing.kind === "fixed" && product.pricing.gstBasis ? (
+            {product.pricing.kind === "fixed" &&
+            formatGstBasis(product.pricing.gstBasis) ? (
               <span className="product-detail__gst">
                 {" "}
-                · GST {product.pricing.gstBasis}
+                · {formatGstBasis(product.pricing.gstBasis)}
               </span>
             ) : null}
           </p>
@@ -145,7 +154,9 @@ async function ProductDetailBody({
             <p className="product-detail__stock">Currently marked out of stock</p>
           ) : null}
 
-          {product.description ? (
+          {product.description &&
+          product.description.trim().toLowerCase() !==
+            product.summary.trim().toLowerCase() ? (
             <p className="product-detail__description">{product.description}</p>
           ) : null}
 
@@ -178,14 +189,14 @@ async function ProductDetailBody({
               snapshot={productToBoxSnapshot(product)}
               variant="detail"
             />
-            <Link className="product-detail__quote" href="/gifts/brief">
-              Get a Quote
-            </Link>
             <Link
               className="product-detail__studio"
               href={`/studio?mode=customize&product=${encodeURIComponent(product.slug)}&from=product`}
             >
               Customize in Studio
+            </Link>
+            <Link className="product-detail__quote" href="/gifts/brief">
+              Open My Brief
             </Link>
           </div>
         </div>

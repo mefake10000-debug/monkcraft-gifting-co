@@ -12,6 +12,7 @@ export {
 } from "./types";
 
 export { parseBudgetInr } from "./budget";
+export { parseRecipientCount, recommendGifts } from "./recommend";
 export { PREFERENCE_PRESETS, BRANDING_OPTIONS } from "./presets";
 export {
   GIFT_FINDER_AI_STATUS,

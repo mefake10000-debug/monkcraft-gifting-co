@@ -73,7 +73,7 @@ export function ShortlistView() {
         </div>
         <div className="journey-actions">
           <Link className="journey-btn" href="/gifts/brief">
-            Get a Quote
+            Open My Brief
           </Link>
           <Link
             className="journey-btn journey-btn--ghost"
@@ -160,7 +160,7 @@ export function ShortlistView() {
           Studio catalogue
         </Link>
         <Link className="journey-btn" href="/gifts/brief">
-          Get a Quote
+          Open My Brief
         </Link>
       </div>
     </div>

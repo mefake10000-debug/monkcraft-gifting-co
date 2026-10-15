@@ -7,7 +7,7 @@ const footerLinks = [
   { href: "/gifts/box", label: "Build a Box" },
   { href: "/studio", label: "Studio" },
   { href: "/company-stores", label: "Company Stores" },
-  { href: "/gifts/brief", label: "Get a Quote" },
+  { href: "/gifts/brief", label: "My Brief" },
   { href: "/#gift-ideas", label: "Gift ideas" },
   { href: "/#enquire", label: "Consultation" },
   { href: "/#faq", label: "FAQ" },
@@ -44,11 +44,11 @@ export function SiteFooter() {
 
         <div className="site-footer__cta">
           <p className="site-footer__cta-label">Ready to plan a programme?</p>
-          <Link className="site-footer__button" href="/#enquire">
-            Talk to Monkcraft
+          <Link className="site-footer__button" href="/gifts/brief">
+            Open My Brief
           </Link>
-          <Link className="site-footer__button site-footer__button--ghost" href="/gifts/brief">
-            Request a Quote
+          <Link className="site-footer__button site-footer__button--ghost" href="/#enquire">
+            Talk to Monkcraft
           </Link>
           <p className="site-footer__legal">
             Legal pages and a public contact email will appear here once supplied.

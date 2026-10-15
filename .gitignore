@@ -43,6 +43,11 @@ next-env.d.ts
 # local / heavy artefacts (not for git)
 /tmp/
 /.tmp-pdf-slides/
+# Audit crawl evidence (traces/screenshots, ~74MB) — reports are kept, raw evidence is not
+/docs/audits/evidence/
+/tmp-audit/
+# Stray nested build output
+/monkcraft-gifting-co/
 # Never commit catalogue media (~804MB). Keep as local symlink; CLI Preview uses a staging copy.
 /public/catalogue-media
 /public/catalogue-media/

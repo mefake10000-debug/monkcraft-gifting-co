@@ -1,9 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  BrandLogoMarquee,
-  type BrandLogoItem,
-} from "@/components/BrandLogoMarquee";
+import { BrandLogoMarquee } from "@/components/BrandLogoMarquee";
 import { Consultation } from "@/components/Consultation";
 import { Faq } from "@/components/Faq";
 import { GiftIdeas } from "@/components/GiftIdeas";
@@ -11,9 +8,18 @@ import { HeroNav } from "@/components/HeroNav";
 import { JourneyStrip } from "@/components/JourneyStrip";
 import { SiteFooter } from "@/components/SiteFooter";
 import { WhatWeDo } from "@/components/WhatWeDo";
+import { getHomepagePartnerBrands } from "@/data/partnerBrands";
 
-/** Partner logos — leave empty until approved brand assets are supplied */
-const partnerBrands: BrandLogoItem[] = [];
+/**
+ * Catalogue brand scroll (BrandLogoMarquee).
+ *
+ * Top brands by catalogue volume (`src/data/partnerBrands.ts`). No verified
+ * partner logo files exist yet under `public/brands/` — until they do, the
+ * strip shows real brand names in type only (no invented marks). Drop
+ * `{slug}-logo.svg|png|webp` into `public/brands/` (see README there);
+ * `public/brand/` is Monkcraft’s own marks only — do not reuse those here.
+ */
+const partnerBrands = getHomepagePartnerBrands();
 
 export default function Home() {
   return (

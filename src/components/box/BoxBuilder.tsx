@@ -32,8 +32,28 @@ import {
   updateBoxContact,
   updateBoxCustomization,
   writeBoxDraft,
+  addToBox,
 } from "@/lib/box";
+import { SHORTLIST_EVENT, readShortlist } from "@/lib/shortlist";
+import type { ShortlistItem } from "@/data/catalogue/types";
 import { buildWhatsAppPrefillMessage } from "@/lib/whatsapp";
+
+function useShortlistItems(): ShortlistItem[] {
+  const [items, setItems] = useState<ShortlistItem[]>([]);
+
+  useEffect(() => {
+    const sync = () => setItems(readShortlist());
+    sync();
+    window.addEventListener(SHORTLIST_EVENT, sync);
+    window.addEventListener("storage", sync);
+    return () => {
+      window.removeEventListener(SHORTLIST_EVENT, sync);
+      window.removeEventListener("storage", sync);
+    };
+  }, []);
+
+  return items;
+}
 
 function useBoxDraft() {
   const [draft, setDraft] = useState<BoxDraft | null>(null);
@@ -341,6 +361,7 @@ function StepGuide({
 
 export function BoxBuilder() {
   const draft = useBoxDraft();
+  const shortlistItems = useShortlistItems();
   const [error, setError] = useState("");
   const [prepText, setPrepText] = useState("");
   const [logoError, setLogoError] = useState("");
@@ -363,6 +384,26 @@ export function BoxBuilder() {
   const productCount = draft.products.length;
   const units = boxUnitsPerBox(draft);
   const boxes = draft.customization.numberOfBoxes;
+
+  const shortlistAddable = shortlistItems.filter(
+    (item) => !draft.products.some((product) => product.id === item.id),
+  );
+
+  function onAddShortlistToBox() {
+    if (shortlistItems.length === 0) return;
+    for (const item of shortlistItems) {
+      addToBox({
+        id: item.id,
+        slug: item.slug,
+        name: item.name,
+        imageSrc: item.imageSrc,
+        priceLabel: item.priceLabel,
+        minQuantity: item.minQuantity,
+        categoryName: item.categoryName,
+      });
+    }
+    setBoxStep("products");
+  }
 
   function goNext(next: BoxStep, guardMessage?: string) {
     setError("");
@@ -720,6 +761,15 @@ export function BoxBuilder() {
                     ? "Browse catalogue to add"
                     : "Add more from catalogue"}
                 </Link>
+                {shortlistAddable.length > 0 ? (
+                  <button
+                    type="button"
+                    className="journey-btn journey-btn--ghost"
+                    onClick={onAddShortlistToBox}
+                  >
+                    Add shortlist ({shortlistAddable.length})
+                  </button>
+                ) : null}
                 {productCount > 0 ? (
                   <button
                     type="button"

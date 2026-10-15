@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useState } from "react";
+import { Reveal } from "@/components/Reveal";
 
 const faqs = [
   {
@@ -36,7 +37,7 @@ export function Faq() {
   return (
     <section id="faq" className="faq" aria-labelledby="faq-heading">
       <div className="faq__inner">
-        <header className="faq__intro">
+        <Reveal as="header" className="faq__intro">
           <p className="faq__eyebrow">FAQ</p>
           <h2 id="faq-heading" className="faq__heading">
             Questions teams usually ask
@@ -45,7 +46,7 @@ export function Faq() {
             Straight answers for corporate gifting decisions — without invented
             claims or placeholder metrics.
           </p>
-        </header>
+        </Reveal>
 
         <div className="faq__list">
           {faqs.map((item, index) => {
@@ -54,8 +55,9 @@ export function Faq() {
             const isOpen = openIndex === index;
 
             return (
-              <div
+              <Reveal
                 key={item.q}
+                delayMs={index * 40}
                 className={`faq__item${isOpen ? " faq__item--open" : ""}`}
               >
                 <h3 className="faq__question">
@@ -82,7 +84,7 @@ export function Faq() {
                 >
                   <p>{item.a}</p>
                 </div>
-              </div>
+              </Reveal>
             );
           })}
         </div>

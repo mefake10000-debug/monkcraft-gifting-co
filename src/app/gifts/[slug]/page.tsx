@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { RouteScroll } from "@/components/RouteScroll";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { AddToBoxButton } from "@/components/box/AddToBoxButton";
@@ -49,7 +48,6 @@ export async function generateMetadata({ params }: ProductPageProps) {
 export default function ProductDetailPage({ params }: ProductPageProps) {
   return (
     <main className="catalogue-page">
-      <RouteScroll />
       <SiteHeader />
       <Suspense
         fallback={

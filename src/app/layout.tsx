@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, Fraunces } from "next/font/google";
+import { HashScroll } from "@/components/HashScroll";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -28,7 +29,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${fraunces.variable} ${dmSans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <script
+          // Enables the scroll-reveal hidden state only when JS runs and the
+          // user allows motion. Runs before paint (no flash) and leaves content
+          // fully visible when JS is disabled or reduced-motion is set.
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('mc-motion')}}catch(e){}",
+          }}
+        />
+        <HashScroll />
+        {children}
+      </body>
     </html>
   );
 }

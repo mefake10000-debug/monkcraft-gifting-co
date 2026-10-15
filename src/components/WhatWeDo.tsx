@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BrandVideoBand } from "@/components/BrandVideoBand";
+import { Reveal } from "@/components/Reveal";
 
 /**
  * What We Do — PDF deck slides 2–5 (full poster frames).
@@ -62,7 +63,10 @@ export function WhatWeDo() {
       aria-labelledby="what-we-do-heading"
     >
       <div className="what-we-do__inner">
-        <header className="what-we-do__intro what-we-do__intro--solo">
+        <Reveal
+          as="header"
+          className="what-we-do__intro what-we-do__intro--solo"
+        >
           <p className="what-we-do__eyebrow">What we do</p>
           <h2 id="what-we-do-heading" className="what-we-do__heading">
             Big ideas.{" "}
@@ -73,7 +77,7 @@ export function WhatWeDo() {
             kits, or Company Stores. Slide art carries the story; each card has
             one clear next step.
           </p>
-        </header>
+        </Reveal>
       </div>
 
       <BrandVideoBand
@@ -88,9 +92,11 @@ export function WhatWeDo() {
 
       <div className="what-we-do__inner what-we-do__inner--posters">
         <ul className="what-we-do__posters">
-          {services.map((service) => (
-            <li
+          {services.map((service, index) => (
+            <Reveal
+              as="li"
               key={service.id}
+              delayMs={index * 70}
               id={service.id === "company-stores" ? "company-stores" : undefined}
               className={`what-we-do__poster what-we-do__poster--${service.tone}`}
             >
@@ -109,7 +115,7 @@ export function WhatWeDo() {
                   <span className="visually-hidden"> — {service.title}</span>
                 </Link>
               </div>
-            </li>
+            </Reveal>
           ))}
         </ul>
       </div>

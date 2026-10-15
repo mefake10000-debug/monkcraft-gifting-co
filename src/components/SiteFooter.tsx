@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Reveal } from "@/components/Reveal";
 
 const footerLinks = [
   { href: "/gifts", label: "Gifts catalogue" },
@@ -17,7 +18,7 @@ export function SiteFooter() {
   return (
     <footer className="site-footer" id="contact">
       <div className="site-footer__inner">
-        <div className="site-footer__brand">
+        <Reveal variant="fade" className="site-footer__brand">
           <Link href="/" aria-label="Monkcraft home">
             <Image
               src="/brand/Monkcraft-White-Horizontal.png"
@@ -30,9 +31,9 @@ export function SiteFooter() {
           <p className="site-footer__tagline">
             Premium corporate gifting for modern Indian teams.
           </p>
-        </div>
+        </Reveal>
 
-        <nav className="site-footer__nav" aria-label="Footer">
+        <Reveal as="nav" variant="fade" delayMs={80} className="site-footer__nav" aria-label="Footer">
           <ul>
             {footerLinks.map((link) => (
               <li key={link.href}>
@@ -40,9 +41,9 @@ export function SiteFooter() {
               </li>
             ))}
           </ul>
-        </nav>
+        </Reveal>
 
-        <div className="site-footer__cta">
+        <Reveal variant="fade" delayMs={160} className="site-footer__cta">
           <p className="site-footer__cta-label">Ready to plan a programme?</p>
           <Link className="site-footer__button" href="/gifts/brief">
             Open My Brief
@@ -55,7 +56,7 @@ export function SiteFooter() {
             Online enquiry delivery activates when a verified inbox, booking URL,
             or WhatsApp number is configured.
           </p>
-        </div>
+        </Reveal>
       </div>
     </footer>
   );

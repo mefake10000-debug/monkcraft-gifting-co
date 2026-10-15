@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Reveal } from "@/components/Reveal";
 import { giftCategories } from "@/data/giftCategories";
 
 /**
@@ -14,7 +15,7 @@ export function GiftIdeas() {
       aria-labelledby="gift-ideas-heading"
     >
       <div className="gift-ideas__inner">
-        <header className="gift-ideas__intro">
+        <Reveal as="header" className="gift-ideas__intro">
           <p className="gift-ideas__eyebrow">Gift ideas</p>
           <div className="gift-ideas__intro-row">
             <h2 id="gift-ideas-heading" className="gift-ideas__heading">
@@ -29,17 +30,19 @@ export function GiftIdeas() {
               ready to quote.
             </p>
           </div>
-        </header>
+        </Reveal>
 
         <ul className="gift-ideas__grid">
-          {giftCategories.map((category) => {
+          {giftCategories.map((category, index) => {
             const enquireHref = `/?gift=${category.id}#enquire`;
             const catalogueHref =
               category.cataloguePath ?? `/gifts?occasion=${category.id}`;
 
             return (
-              <li
+              <Reveal
+                as="li"
                 key={category.id}
+                delayMs={(index % 3) * 80}
                 className={`gift-ideas__card gift-ideas__card--${category.tone}`}
               >
                 <div className="gift-ideas__card-link">
@@ -87,7 +90,7 @@ export function GiftIdeas() {
                     </p>
                   </div>
                 </div>
-              </li>
+              </Reveal>
             );
           })}
         </ul>

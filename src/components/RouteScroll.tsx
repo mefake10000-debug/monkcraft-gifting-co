@@ -1,28 +1,31 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import { scrollToTop } from "@/lib/scroll";
 
-/** Scroll window to top when the gifts product slug changes. */
+/**
+ * Scroll window to top when navigating between gift routes
+ * (catalogue ↔ PDP ↔ finder / box / brief / shortlist).
+ *
+ * Catalogue filter updates keep the same pathname, so they are left alone —
+ * CatalogueShell handles scrolling the results grid when needed.
+ */
 export function RouteScroll() {
   const pathname = usePathname();
+  const prevPathRef = useRef<string | null>(null);
 
   useEffect(() => {
-    if (!pathname?.startsWith("/gifts/")) return;
-    // Skip tool routes that keep their own scroll position
-    if (
-      pathname.startsWith("/gifts/box") ||
-      pathname.startsWith("/gifts/brief") ||
-      pathname.startsWith("/gifts/find") ||
-      pathname.startsWith("/gifts/shortlist") ||
-      pathname === "/gifts"
-    ) {
-      return;
-    }
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    window.scrollTo({ top: 0, left: 0, behavior: reduce ? "auto" : "smooth" });
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
+    if (!pathname?.startsWith("/gifts")) return;
+
+    const prev = prevPathRef.current;
+    prevPathRef.current = pathname;
+
+    // First paint of this layout: browser / Next already lands near top.
+    // Avoid a redundant smooth scroll on hard loads.
+    if (prev === null || prev === pathname) return;
+
+    scrollToTop({ smooth: true });
   }, [pathname]);
 
   return null;

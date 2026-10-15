@@ -1514,6 +1514,26 @@
     clamp(3rem, 6vw, 5rem);
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .product-detail,
+  .journey-page {
+    animation: mc-surface-enter 0.42s var(--mc-ease, cubic-bezier(0.22, 1, 0.36, 1))
+      both;
+  }
+}
+
+@keyframes mc-surface-enter {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 12px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .product-missing {
   max-width: 40rem;
 }

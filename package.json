@@ -10,6 +10,7 @@
     "catalogue:validate": "node scripts/catalogue-validate.mjs",
     "catalogue:report": "node scripts/catalogue-data-report.mjs",
     "catalogue:category-audit": "node scripts/category-type-audit.mjs",
+    "brands:logos": "node scripts/check-partner-brand-logos.mjs",
     "launch:regression": "node scripts/launch-regression.mjs"
   },
 

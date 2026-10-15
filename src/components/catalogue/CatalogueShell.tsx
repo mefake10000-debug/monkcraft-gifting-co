@@ -23,6 +23,7 @@ import type {
   Product,
 } from "@/data/catalogue/types";
 import { boxProductCount, readBoxDraft } from "@/lib/box";
+import { scrollToElement, scrollToTop } from "@/lib/scroll";
 import { readShortlist, readShortlistIds } from "@/lib/shortlist";
 import { CatalogueEmpty } from "./CatalogueEmpty";
 import { ProductCard } from "./ProductCard";
@@ -225,18 +226,13 @@ export function CatalogueShell({
   const activeCount = countActiveFilters(draftQuery);
 
   function scrollResultsIntoView() {
-    const reduce =
-      typeof window !== "undefined" &&
-      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const target = document.getElementById("catalogue-results");
     if (target) {
-      target.scrollIntoView({
-        behavior: reduce ? "auto" : "smooth",
-        block: "start",
-      });
+      // Offset clears the sticky site header (matches scroll-margin-top).
+      scrollToElement(target, { smooth: true, offset: 84 });
       return;
     }
-    window.scrollTo({ top: 0, left: 0, behavior: reduce ? "auto" : "smooth" });
+    scrollToTop({ smooth: true });
   }
 
   function updateQuery(

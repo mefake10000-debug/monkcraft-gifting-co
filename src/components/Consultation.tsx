@@ -8,6 +8,7 @@ import {
   type GiftCategory,
 } from "@/data/giftCategories";
 import { ConversionChannels } from "@/components/conversion/ConversionChannels";
+import { Reveal } from "@/components/Reveal";
 import {
   getContactChannels,
   heroConsultCtaLabel,
@@ -321,7 +322,7 @@ function ConsultationForm({
       aria-labelledby="consultation-heading"
     >
       <div className="consultation__inner">
-        <div className="consultation__story">
+        <Reveal variant="left" className="consultation__story">
           <p className="consultation__eyebrow">Consultation</p>
           <h2 id="consultation-heading" className="consultation__heading">
             {isCompanyStore ? (
@@ -403,9 +404,9 @@ function ConsultationForm({
                 }. Online auto-submit is not connected yet.`
               : "Email, booking, and WhatsApp are not configured yet — prepare a ready-to-copy enquiry below."}
           </p>
-        </div>
+        </Reveal>
 
-        <div className="consultation__panel">
+        <Reveal variant="right" delayMs={80} className="consultation__panel">
           {status === "idle" ? (
             <form className="consultation__form" onSubmit={onSubmit} noValidate>
               {selectedCategory ? (
@@ -623,7 +624,7 @@ function ConsultationForm({
               />
             </div>
           )}
-        </div>
+        </Reveal>
       </div>
     </section>
   );

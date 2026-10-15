@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Reveal } from "@/components/Reveal";
 
 const steps = [
   {
@@ -29,7 +30,7 @@ export function JourneyStrip() {
   return (
     <section className="journey-strip" aria-labelledby="journey-strip-heading">
       <div className="journey-strip__inner">
-        <header className="journey-strip__intro">
+        <Reveal as="header" className="journey-strip__intro">
           <p className="journey-strip__eyebrow">How it works</p>
           <h2 id="journey-strip-heading" className="journey-strip__heading">
             From idea to quotation brief.
@@ -39,10 +40,15 @@ export function JourneyStrip() {
             brief. Online delivery activates only when Monkcraft configures a
             verified channel.
           </p>
-        </header>
+        </Reveal>
         <ol className="journey-strip__steps">
-          {steps.map((step) => (
-            <li key={step.n} className="journey-strip__step">
+          {steps.map((step, index) => (
+            <Reveal
+              as="li"
+              key={step.n}
+              delayMs={index * 80}
+              className="journey-strip__step"
+            >
               <span className="journey-strip__n" aria-hidden="true">
                 {step.n}
               </span>
@@ -51,7 +57,7 @@ export function JourneyStrip() {
               <Link className="journey-strip__link" href={step.href}>
                 {step.cta}
               </Link>
-            </li>
+            </Reveal>
           ))}
         </ol>
       </div>

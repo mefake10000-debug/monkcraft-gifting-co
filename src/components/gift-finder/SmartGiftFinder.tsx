@@ -40,6 +40,7 @@ import {
   bookingCtaLabel,
   getContactChannels,
 } from "@/lib/contactConfig";
+import { scrollToElement } from "@/lib/scroll";
 import { FinderMatchCard } from "./FinderMatchCard";
 
 export type SmartGiftFinderProps = {
@@ -247,6 +248,12 @@ export function SmartGiftFinder({
           fieldMode: "merge-nonempty",
         });
         setBriefSynced(true);
+        window.setTimeout(() => {
+          scrollToElement(document.getElementById("finder-results"), {
+            smooth: true,
+            offset: 84,
+          });
+        }, 60);
       } catch {
         setError("Could not load recommendations. Please try again.");
       } finally {
@@ -609,7 +616,7 @@ export function SmartGiftFinder({
           ) : null}
 
           {phase === "results" && result ? (
-            <div className="finder__results">
+            <div id="finder-results" className="finder__results">
               <div className="finder__results-banner" role="status">
                 <p>{result.meta.explanation}</p>
                 {result.meta.missingHints.length > 0 ? (

@@ -18,10 +18,18 @@ import { readShortlist } from "@/lib/shortlist";
 export function SiteHeader() {
   const pathname = usePathname() || "/";
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const [shortlistCount, setShortlistCount] = useState(0);
   const [boxCount, setBoxCount] = useState(0);
   const [briefCount, setBriefCount] = useState(0);
   const panelId = useId();
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   useEffect(() => {
     const sync = () => {
@@ -74,7 +82,7 @@ export function SiteHeader() {
     briefCount > 0 ? QUOTE_CTA.activeLabel(briefCount) : QUOTE_CTA.emptyLabel;
 
   return (
-    <header className="site-header">
+    <header className={`site-header${scrolled ? " is-scrolled" : ""}`}>
       <div className="site-header__inner">
         <Link className="site-header__logo" href="/" aria-label="Monkcraft home">
           <Image

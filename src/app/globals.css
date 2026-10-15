@@ -1181,7 +1181,16 @@ body {
   width: max-content;
   align-items: center;
   gap: 0;
-  animation: brand-marquee-scroll 40s linear infinite;
+  /* Slightly slower + GPU layer for a calmer, less stuttery crawl */
+  animation: brand-marquee-scroll 52s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.brand-marquee__viewport:hover .brand-marquee__track,
+.brand-marquee__viewport:focus-within .brand-marquee__track {
+  animation-play-state: paused;
 }
 
 .brand-marquee__group {
@@ -1198,7 +1207,7 @@ body {
   }
 
   .brand-marquee__track {
-    animation-duration: 48s;
+    animation-duration: 64s;
   }
 }
 
@@ -1253,11 +1262,11 @@ body {
 
 @keyframes brand-marquee-scroll {
   from {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
 
   to {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -2485,8 +2494,74 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Anchor targets clear the sticky header */
+:where([id]) {
+  scroll-margin-top: 5.25rem;
+}
+
+/* —— Scroll reveal system ——
+   Hidden state is gated behind `html.mc-motion`, which is added by a
+   pre-paint script ONLY when JS runs and motion is allowed. If JS fails
+   (or reduced-motion is set) content stays fully visible — no blank page. */
+html.mc-motion .mc-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity var(--mc-duration-slow) var(--mc-ease),
+    transform var(--mc-duration-slow) var(--mc-ease);
+  will-change: opacity, transform;
+}
+
+html.mc-motion .mc-reveal--fade {
+  transform: none;
+}
+
+html.mc-motion .mc-reveal--scale {
+  transform: scale(0.97);
+}
+
+html.mc-motion .mc-reveal--left {
+  transform: translateX(-20px);
+}
+
+html.mc-motion .mc-reveal--right {
+  transform: translateX(20px);
+}
+
+html.mc-motion .mc-reveal.is-inview {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+/* Header settles (subtle elevation) once the page has scrolled */
+.site-header {
+  transition:
+    background-color var(--mc-duration) var(--mc-ease),
+    box-shadow var(--mc-duration) var(--mc-ease),
+    border-color var(--mc-duration) var(--mc-ease);
+}
+
+.site-header.is-scrolled {
+  background: rgb(255 255 255 / 92%);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgb(63 63 55 / 10%);
+  border-bottom-color: var(--mc-border-subtle);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  html.mc-motion .mc-reveal,
+  html.mc-motion .mc-reveal.is-inview {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .site-header {
+    transition: none;
   }
 }

@@ -2,6 +2,16 @@
 
 Drop **verified original brand logo files** here. Do not AI-generate, invent SVG wordmarks, or use product photos as logos.
 
+## How to add logos (beginner)
+
+1. Get the **official** logo file from the brand (or your licensed supplier pack) — SVG preferred, or PNG/WebP with a transparent background.
+2. Rename it to match the brand’s **slug** below, for example: `portronics-logo.svg`
+3. Put that file in this folder: `public/brands/`
+4. Refresh the homepage. Matching brands switch from text name → real logo automatically. No code edit needed.
+5. Check progress anytime: `node scripts/check-partner-brand-logos.mjs`
+
+Accepted filenames per brand: `{slug}-logo.svg|png|webp` or `{slug}.svg|png|webp`.
+
 ## Inventory (2026-10-15)
 
 | Metric | Count |
@@ -14,17 +24,10 @@ Drop **verified original brand logo files** here. Do not AI-generate, invent SVG
 Full brand list + product counts: `src/data/catalogue/export/brands.json`  
 Homepage candidates + empty `logoSrc` slots: `src/data/partnerBrands.ts`
 
-## Filename convention
+## Filename convention — top 20 homepage strip
 
-Place each approved logo as one of:
-
-- `{slug}-logo.svg` (preferred) or `{slug}-logo.png` / `{slug}-logo.webp`
-- or `{slug}.svg` / `{slug}.png` / `{slug}.webp`
-
-Examples for the current homepage strip:
-
-| Brand | Suggested file |
-|-------|----------------|
+| Brand | Drop this file into `public/brands/` |
+|-------|--------------------------------------|
 | Greys & Blues | `greys-blues-logo.svg` |
 | Urban Gear | `urban-gear-logo.svg` |
 | Scott | `scott-logo.svg` |
@@ -45,6 +48,8 @@ Examples for the current homepage strip:
 | Ooge | `ooge-logo.svg` |
 | Levis | `levis-logo.svg` |
 | 3S | `3s-logo.svg` |
+
+(`.png` or `.webp` also work if you use the same name with that extension.)
 
 ## Specs
 

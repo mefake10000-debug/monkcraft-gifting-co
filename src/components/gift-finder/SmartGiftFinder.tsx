@@ -628,6 +628,33 @@ export function SmartGiftFinder({
                 ) : null}
               </div>
 
+              <div className="finder__stats">
+                <div className="finder__stat">
+                  <span className="finder__stat-value">
+                    {result.meta.considered.toLocaleString("en-IN")}
+                  </span>
+                  <span className="finder__stat-label">Products considered</span>
+                </div>
+                <div className="finder__stat">
+                  <span className="finder__stat-value">
+                    {result.meta.matchCount}
+                  </span>
+                  <span className="finder__stat-label">Strong matches</span>
+                </div>
+                <div className="finder__stat">
+                  <span className="finder__stat-value">
+                    {result.meta.alternativeCount}
+                  </span>
+                  <span className="finder__stat-label">Near alternatives</span>
+                </div>
+                <div className="finder__stat">
+                  <span className="finder__stat-value">
+                    {result.meta.budgetApplied ? "Yes" : "No"}
+                  </span>
+                  <span className="finder__stat-label">Budget filter applied</span>
+                </div>
+              </div>
+
               {result.matches.length === 0 &&
               result.alternatives.length === 0 ? (
                 <div className="finder__empty">

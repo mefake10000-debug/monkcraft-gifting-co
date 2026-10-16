@@ -1562,13 +1562,13 @@ body {
   display: flex;
   flex-shrink: 0;
   align-items: center;
-  gap: clamp(2rem, 5vw, 3.5rem);
-  padding: 1.25rem clamp(1.5rem, 4vw, 3rem);
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+  padding: 0.75rem clamp(1.25rem, 3vw, 2.25rem);
 }
 
 @media (min-width: 900px) {
   .brand-marquee__group {
-    padding-block: 1.5rem;
+    padding-block: 0.9rem;
   }
 
   .brand-marquee__track {
@@ -1585,8 +1585,8 @@ body {
   transition: opacity 0.2s ease, transform 0.2s ease;
   text-decoration: none;
   color: inherit;
-  min-height: 4rem;
-  padding: 0.45rem 0.65rem;
+  min-height: 3rem;
+  padding: 0.3rem 0.45rem;
   border: 1px solid rgb(63 63 55 / 9%);
   border-radius: 0.65rem;
   background: #fff;
@@ -1606,16 +1606,16 @@ body {
 
 .brand-marquee__image {
   width: auto;
-  height: 2.5rem;
-  max-width: 9rem;
+  height: 1.75rem;
+  max-width: 7rem;
   object-fit: contain;
   filter: none;
 }
 
 @media (min-width: 900px) {
   .brand-marquee__image {
-    height: 3rem;
-    max-width: 10rem;
+    height: 2rem;
+    max-width: 7.5rem;
   }
 }
 
@@ -1885,12 +1885,12 @@ body {
 
 .brand-video-band__frame {
   position: relative;
-  width: min(100%, 76rem);
+  width: min(100%, 82rem);
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  border-radius: 1.25rem;
+  border-radius: 1rem;
   background: #241b2a;
-  box-shadow: 0 18px 48px rgb(0 0 0 / 35%);
+  box-shadow: 0 16px 44px rgb(0 0 0 / 28%);
 }
 
 .brand-video-band__frame video {
@@ -1941,6 +1941,19 @@ body {
   background: transparent;
 }
 
+.brand-video-band--responsive .brand-video-band__stage {
+  min-height: clamp(24rem, 48vw, 42rem);
+}
+
+.brand-video-band--responsive .brand-video-band__player {
+  gap: 0.75rem;
+}
+
+.brand-video-band--responsive .brand-video-band__frame {
+  width: min(100%, 78rem);
+  aspect-ratio: 16 / 9;
+}
+
 @media (max-width: 719px) {
   .brand-video-band__stage {
     min-height: auto;
@@ -1961,6 +1974,15 @@ body {
     width: min(100%, 25rem, calc((100dvh - 8rem) * 9 / 16));
     aspect-ratio: 9 / 16;
     border-radius: 1rem;
+  }
+
+  .brand-video-band--responsive .brand-video-band__stage {
+    min-height: auto;
+  }
+
+  .brand-video-band--responsive .brand-video-band__frame {
+    width: min(100%, 25rem, calc((100dvh - 8rem) * 9 / 16));
+    aspect-ratio: 9 / 16;
   }
 
   .brand-video-band__frame video {

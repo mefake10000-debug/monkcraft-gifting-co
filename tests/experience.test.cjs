@@ -71,7 +71,8 @@ test('favourites are saved independently from quote-list selections',()=>{
 test('homepage thoughtful-gifts section keeps the brand film alongside its story',()=>{
  const section=fs.readFileSync(path.join(process.cwd(),'src/components/WhatWeDo.tsx'),'utf8');
  assert.match(section,/BrandVideoBand/);
- assert.match(section,/monkcraft-what-we-do-brand-film\.mp4/);
+ assert.match(section,/monkcraft-what-we-do-mobile\.mp4/);
+ assert.match(section,/monkcraft-what-we-do-desktop\.mp4/);
  assert.match(section,/Thoughtful gifts, made personal\./);
 });
 test('header gives catalog search a compact, accessible search icon',()=>{
@@ -225,11 +226,20 @@ test('Build a Box estimates packaging by product variety and includes dispatch i
 test('homepage brand scroll uses verified image marks and links to catalogue results',()=>{
  const {getHomepagePartnerBrands}=require('../src/data/partnerBrands.ts');
  const brands=getHomepagePartnerBrands();
- assert.ok(brands.length>=10);
+ assert.equal(brands.length,28);
+ assert.equal(brands[0].name,'Nooe');
+ assert.equal(brands.at(-1).name,'Bombay Shaving Company');
  for(const brand of brands){
   assert.ok(brand.href,`${brand.name} is actionable`);
-  assert.ok(brand.src,`${brand.name} uses a verified logo`);
-  assert.ok(fs.existsSync(path.join(process.cwd(),'public',brand.src.replace(/^\//,'')),`${brand.name} logo file exists`));
+  if(brand.src) assert.ok(fs.existsSync(path.join(process.cwd(),'public',brand.src.replace(/^\//,'')),`${brand.name} logo file exists`));
   assert.match(brand.href,/^\/gifts\?q=/);
  }
+});
+test('company stores landing pairs the brand film with the responsive brief film',()=>{
+ const page=fs.readFileSync(path.join(process.cwd(),'src/app/company-stores/page.tsx'),'utf8');
+ assert.match(page,/company-store-brand-film/);
+ assert.match(page,/company-store-brief/);
+ assert.match(page,/monkcraft-what-we-do-mobile\.mp4/);
+ assert.match(page,/monkcraft-company-store-brief-mobile\.mp4/);
+ assert.match(page,/monkcraft-company-store-brief-desktop\.mp4/);
 });

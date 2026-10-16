@@ -117,10 +117,25 @@ export default function CompanyStoresLandingPage() {
           </p>
 
           <BrandVideoBand
+            id="company-store-brand-film"
+            title="The Monkcraft brand film"
+            durationLabel="The story behind a thoughtful gift"
+            src="/videos/monkcraft-what-we-do-mobile.mp4"
+            desktopSrc="/videos/monkcraft-what-we-do-desktop.mp4"
+            poster="/videos/monkcraft-what-we-do-mobile-poster.jpg"
+            desktopPoster="/videos/monkcraft-what-we-do-desktop-poster.jpg"
+            tone="lilac"
+            ariaLabel="The Monkcraft story, from choosing a gift to making it personal"
+          />
+
+          <BrandVideoBand
+            id="company-store-brief"
             title="How it works"
-            durationLabel="About 60 seconds"
-            src="/videos/monkcraft-company-store-brief.mp4"
-            poster="/videos/monkcraft-company-store-brief-poster.jpg"
+            durationLabel="The Company Store brief"
+            src="/videos/monkcraft-company-store-brief-mobile.mp4"
+            desktopSrc="/videos/monkcraft-company-store-brief-desktop.mp4"
+            poster="/videos/monkcraft-company-store-brief-mobile-poster.jpg"
+            desktopPoster="/videos/monkcraft-company-store-brief-desktop-poster.jpg"
             tone="apricot"
             ariaLabel="How a Monkcraft Company Store works"
           />

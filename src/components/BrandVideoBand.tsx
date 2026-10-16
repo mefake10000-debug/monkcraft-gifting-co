@@ -20,8 +20,7 @@ type BrandVideoBandProps = {
 };
 
 /**
- * Swag-inspired full-width play band: large play control + title,
- * poster stage, then a responsive player that uses the available screen well.
+ * Swag-inspired full-width play band with responsive portrait/landscape playback.
  */
 export function BrandVideoBand({
   id,
@@ -103,11 +102,12 @@ export function BrandVideoBand({
                 ref={videoRef}
                 controls
                 playsInline
-                preload="auto"
+                preload="none"
                 poster={activePoster}
                 aria-label={ariaLabel}
               >
                 <source src={activeSrc} type="video/mp4" />
+                Your browser does not support video playback.
               </video>
             </div>
             <button

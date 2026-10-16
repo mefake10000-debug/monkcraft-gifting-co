@@ -9,8 +9,8 @@ import catalogueBrands from "@/data/catalogue/export/brands.json";
  * Unnamed / null brand rows are excluded.
  *
  * `logoSrc` is resolved only from verified files in `public/brands/` — never
- * invent logos. When a verified mark is unavailable, show the catalogue's
- * published brand name as plain text so buyers can still browse every brand.
+ * invent logos. The homepage selection below includes the brands requested for
+ * its scroller; brands without a verified image use their supplied name.
  */
 
 export type PartnerBrandCandidate = {
@@ -55,15 +55,59 @@ export function resolveBrandLogoSrc(slug: string): string | undefined {
   return verifiedLogoFiles[slug];
 }
 
-/** Wire every catalogue brand into the marquee without inventing missing marks. */
+const REQUESTED_HOMEPAGE_BRANDS: { name: string; searchName?: string }[] = [
+  { name: "Nooe", searchName: "ShopNooe" },
+  { name: "Adidas" },
+  { name: "Reebok" },
+  { name: "United Colors of Benetton" },
+  { name: "Jack in Jones", searchName: "Jack&Jones" },
+  { name: "Assembly" },
+  { name: "Columbia" },
+  { name: "Jockey" },
+  { name: "Mukubaara" },
+  { name: "Napa Dori" },
+  { name: "Tommy Hilfiger" },
+  { name: "Yumi" },
+  { name: "American Tourist", searchName: "American Tourister" },
+  { name: "Alan Solly", searchName: "Allen Solly" },
+  { name: "My Paperclip", searchName: "myPaperClip" },
+  { name: "Cookie Man", searchName: "Cookie man" },
+  { name: "Engine Terrain", searchName: "Indian Terrain" },
+  { name: "The Whole Truth" },
+  { name: "Bloppung" },
+  { name: "JBL" },
+  { name: "Marshall" },
+  { name: "Philips" },
+  { name: "Borussel" },
+  { name: "Smur" },
+  { name: "Kent" },
+  { name: "Farrosa" },
+  { name: "Sony" },
+  { name: "Bombay Shaving Company" },
+];
+
+const REQUESTED_BRAND_LOGOS: Record<string, string> = {
+  Adidas: "/brands/adidas-logo.svg",
+  Reebok: "/brands/reebok-logo.svg",
+  JBL: "/brands/jbl-logo.svg",
+  Sony: "/brands/sony-logo.svg",
+};
+
+/** Keep the homepage selection intentional and in the order requested. */
 export function getHomepagePartnerBrands(): BrandLogoItem[] {
-  return HOMEPAGE_PARTNER_BRAND_CANDIDATES.flatMap((brand) => {
-    const src = brand.logoSrc ?? resolveBrandLogoSrc(brand.slug);
-    if (!src) return [];
-    return [{
-      name: brand.name,
-      ...(src ? { src } : {}),
-      href: `/gifts?q=${encodeURIComponent(brand.name)}`,
-    }];
+  return REQUESTED_HOMEPAGE_BRANDS.map(({ name, searchName = name }) => {
+    const catalogueBrand = HOMEPAGE_PARTNER_BRAND_CANDIDATES.find(
+      (brand) => brand.name.toLowerCase() === searchName.toLowerCase(),
+    );
+    const src = catalogueBrand
+      ? catalogueBrand.logoSrc ?? resolveBrandLogoSrc(catalogueBrand.slug)
+      : undefined;
+    const logo = src ?? REQUESTED_BRAND_LOGOS[name];
+
+    return {
+      name,
+      ...(logo ? { src: logo } : {}),
+      href: `/gifts?q=${encodeURIComponent(searchName)}`,
+    };
   });
 }

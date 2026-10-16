@@ -1,9 +1,9 @@
 # Catalogue brand marks
 
-The homepage scroller includes every named brand in the 169-brand catalogue.
-Brands with a locally verified logo use that asset; brands without one appear
-as plain-text names until an official mark is collected. Each entry links to
-that brand's products. Plain text is never presented as a logo.
+The homepage scroller includes the brands selected for the landing page in
+`src/data/partnerBrands.ts`. Brands with a locally verified logo use that
+asset; brands without one appear as plain-text names. Each entry links to a
+catalogue search. Plain text is never presented as a logo.
 
 ## Add a logo
 

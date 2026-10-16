@@ -49,7 +49,7 @@ export default function Home() {
 
       <BrandLogoMarquee
         brands={partnerBrands}
-        ariaLabel={`Browse all ${partnerBrands.length} catalogue brands`}
+        ariaLabel={`Browse all ${partnerBrands.length} featured brands`}
       />
       <WhatWeDo />
       <GiftIdeas />

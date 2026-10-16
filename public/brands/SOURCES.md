@@ -23,3 +23,7 @@ mark is published. Retrieved 15 October 2026.
 | STOLT | `stolt-logo.png` | [stolt.in](https://www.stolt.in/) |
 | The Backbencher | `the-backbencher-logo.png` | [thebackbencher.co.in](https://thebackbencher.co.in/) |
 | Urban Gear | `urban-gear-logo.png` | [urbangear.in](https://www.urbangear.in/) |
+| Adidas | `adidas-logo.svg` | Simple Icons v15 vector ([source](https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/adidas.svg)); brand artwork remains owned by adidas |
+| Reebok | `reebok-logo.svg` | Simple Icons v15 vector ([source](https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/reebok.svg)); brand artwork remains owned by Reebok |
+| JBL | `jbl-logo.svg` | Simple Icons v15 vector ([source](https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/jbl.svg)); brand artwork remains owned by JBL |
+| Sony | `sony-logo.svg` | Simple Icons v15 vector ([source](https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/sony.svg)); brand artwork remains owned by Sony |

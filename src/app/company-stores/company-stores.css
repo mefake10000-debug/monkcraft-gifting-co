@@ -375,12 +375,22 @@
 }
 
 .cs-section .brand-video-band__stage {
-  border-radius: 1.35rem;
-  min-height: clamp(20rem, 42vw, 30rem);
+  border-radius: 0;
+  min-height: clamp(23rem, 32.5vw, 32rem);
 }
 
 .cs-section .brand-video-band__caption {
   display: none;
+}
+
+@media (max-width: 719px) {
+  .cs-section .brand-video-band__stage {
+    min-height: clamp(27rem, 116vw, 34rem);
+  }
+
+  .cs-section .brand-video-band__stage--playing {
+    min-height: auto;
+  }
 }
 
 .cs-steps {

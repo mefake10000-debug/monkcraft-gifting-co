@@ -1758,33 +1758,27 @@ body {
 
 .brand-video-band__stage {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(15rem, 0.82fr) minmax(0, 1.18fr);
+  display: flex;
   align-items: center;
-  gap: clamp(1.5rem, 4vw, 4rem);
-  width: min(100%, 82rem);
-  min-height: clamp(24rem, 39vw, 34rem);
-  margin-inline: auto;
-  padding: clamp(1.75rem, 4vw, 3.5rem);
+  justify-content: flex-start;
+  width: 100vw;
+  max-width: 100vw;
+  min-height: clamp(23rem, 32.5vw, 32rem);
+  margin-left: calc(50% - 50vw);
+  padding: clamp(2rem, 4vw, 3.5rem) max(clamp(2rem, 7vw, 5.5rem), calc((100vw - 82rem) / 2));
   overflow: hidden;
-  border-radius: clamp(1.25rem, 2vw, 2rem);
+  border-radius: 0;
   background-color: #24182b;
-  background-size: cover;
-  background-position: right center;
-  background-repeat: no-repeat;
   isolation: isolate;
 }
 
-.brand-video-band__art {
+.brand-video-band__visual {
   position: absolute;
   z-index: -2;
   inset: 0;
-  background-image: inherit;
   background-size: cover;
   background-position: center;
-  filter: blur(34px) saturate(0.84);
-  opacity: 0.38;
-  transform: scale(1.08);
+  background-repeat: no-repeat;
 }
 
 .brand-video-band--lilac .brand-video-band__stage {
@@ -1802,18 +1796,17 @@ body {
 .brand-video-band__wash {
   position: absolute;
   z-index: -1;
-  inset: 0 42% 0 0;
+  inset: 0;
   pointer-events: none;
-  background:
-    linear-gradient(90deg, rgb(34 21 45 / 97%) 0%, rgb(43 26 56 / 93%) 70%, rgb(43 26 56 / 0%) 100%);
+  background: linear-gradient(90deg, rgb(34 21 45 / 96%) 0%, rgb(43 26 56 / 86%) 36%, rgb(43 26 56 / 36%) 64%, rgb(43 26 56 / 8%) 100%);
 }
 
 .brand-video-band--apricot .brand-video-band__wash {
-  background: linear-gradient(90deg, rgb(59 38 29 / 97%) 0%, rgb(72 46 34 / 93%) 70%, rgb(72 46 34 / 0%) 100%);
+  background: linear-gradient(90deg, rgb(59 38 29 / 95%) 0%, rgb(72 46 34 / 84%) 36%, rgb(72 46 34 / 34%) 64%, rgb(72 46 34 / 8%) 100%);
 }
 
 .brand-video-band--mint .brand-video-band__wash {
-  background: linear-gradient(90deg, rgb(27 49 42 / 97%) 0%, rgb(34 62 53 / 93%) 70%, rgb(34 62 53 / 0%) 100%);
+  background: linear-gradient(90deg, rgb(27 49 42 / 95%) 0%, rgb(34 62 53 / 84%) 36%, rgb(34 62 53 / 34%) 64%, rgb(34 62 53 / 8%) 100%);
 }
 
 .brand-video-band__play {
@@ -1821,11 +1814,10 @@ body {
   z-index: 1;
   display: flex;
   align-items: center;
-  gap: 1.1rem;
-  align-self: stretch;
-  justify-self: stretch;
+  gap: 1rem;
+  max-width: min(100%, 39rem);
   margin: 0;
-  padding: clamp(0.75rem, 1.5vw, 1.25rem) 0;
+  padding: 0.5rem 0;
   border: 0;
   background: transparent;
   color: #fff;
@@ -1875,13 +1867,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.75rem;
-  max-width: 27rem;
+  gap: 0.65rem;
+  max-width: 30rem;
 }
 
 .brand-video-band__title {
   font-family: var(--font-display);
-  font-size: clamp(1.8rem, 3.25vw, 3rem);
+  font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 800;
   line-height: 1.02;
   letter-spacing: -0.035em;
@@ -1890,27 +1882,11 @@ body {
   text-shadow: 0 2px 18px rgb(0 0 0 / 24%);
 }
 
-.brand-video-band__meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.55rem 0.9rem;
-}
-
 .brand-video-band__duration {
   font-family: var(--font-ui);
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: rgb(255 255 255 / 78%);
-}
-
-.brand-video-band__watch {
-  font-family: var(--font-ui);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #fff;
+  font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+  font-weight: 600;
+  color: rgb(255 255 255 / 86%);
 }
 
 .brand-video-band__player {
@@ -1927,6 +1903,7 @@ body {
 .brand-video-band__stage--playing {
   display: flex;
   justify-content: center;
+  padding-inline: 1.25rem;
 }
 
 .brand-video-band__stage--playing .brand-video-band__wash {
@@ -1992,7 +1969,7 @@ body {
 }
 
 .brand-video-band--responsive .brand-video-band__stage {
-  min-height: clamp(24rem, 39vw, 34rem);
+  min-height: clamp(23rem, 32.5vw, 32rem);
 }
 
 .brand-video-band--responsive .brand-video-band__player {
@@ -2007,32 +1984,29 @@ body {
 @media (max-width: 719px) {
   .brand-video-band__stage {
     display: flex;
-    min-height: clamp(25rem, 112vw, 35rem);
+    min-height: clamp(27rem, 116vw, 34rem);
     align-items: flex-end;
-    padding: 1.25rem;
-    background-size: cover;
-    background-position: center top;
-    border-radius: 1.15rem;
+    padding: 1.5rem 1.25rem;
+    border-radius: 0;
   }
 
-  .brand-video-band__art {
-    filter: blur(22px) saturate(0.82);
-    opacity: 0.34;
+  .brand-video-band__visual {
+    background-position: center top;
   }
 
   .brand-video-band__wash,
   .brand-video-band--apricot .brand-video-band__wash,
   .brand-video-band--mint .brand-video-band__wash {
-    inset: 42% 0 0;
-    background: linear-gradient(0deg, rgb(34 21 45 / 98%) 0%, rgb(43 26 56 / 84%) 64%, rgb(43 26 56 / 0%) 100%);
+    inset: 0;
+    background: linear-gradient(0deg, rgb(34 21 45 / 96%) 0%, rgb(43 26 56 / 78%) 38%, rgb(43 26 56 / 16%) 76%, rgb(43 26 56 / 4%) 100%);
   }
 
   .brand-video-band--apricot .brand-video-band__wash {
-    background: linear-gradient(0deg, rgb(59 38 29 / 98%) 0%, rgb(72 46 34 / 84%) 64%, rgb(72 46 34 / 0%) 100%);
+    background: linear-gradient(0deg, rgb(59 38 29 / 96%) 0%, rgb(72 46 34 / 78%) 38%, rgb(72 46 34 / 16%) 76%, rgb(72 46 34 / 4%) 100%);
   }
 
   .brand-video-band--mint .brand-video-band__wash {
-    background: linear-gradient(0deg, rgb(27 49 42 / 98%) 0%, rgb(34 62 53 / 84%) 64%, rgb(34 62 53 / 0%) 100%);
+    background: linear-gradient(0deg, rgb(27 49 42 / 96%) 0%, rgb(34 62 53 / 78%) 38%, rgb(34 62 53 / 16%) 76%, rgb(34 62 53 / 4%) 100%);
   }
 
   .brand-video-band__play {
@@ -2043,6 +2017,7 @@ body {
 
   .brand-video-band__stage--playing {
     min-height: auto;
+    padding: 1rem;
   }
 
   .brand-video-band__copy {
@@ -2065,16 +2040,8 @@ body {
     border-left-width: 0.75rem;
   }
 
-  .brand-video-band__meta {
-    gap: 0.35rem 0.6rem;
-  }
-
   .brand-video-band__duration {
     font-size: 0.8rem;
-  }
-
-  .brand-video-band__watch {
-    font-size: 0.67rem;
   }
 
   .brand-video-band--fit-content .brand-video-band__stage {
@@ -2094,10 +2061,9 @@ body {
   }
 
   .brand-video-band--responsive .brand-video-band__stage {
-    min-height: clamp(25rem, 112vw, 35rem);
+    min-height: clamp(27rem, 116vw, 34rem);
     align-items: flex-end;
-    padding: 1.25rem;
-    border-radius: 1rem;
+    padding: 1.5rem 1.25rem;
   }
 
   .brand-video-band--responsive .brand-video-band__stage--playing {

@@ -71,9 +71,12 @@ export function BrandVideoBand({
     >
       <div
         className={`brand-video-band__stage${playing ? " brand-video-band__stage--playing" : ""}`}
-        style={{ backgroundImage: `url(${activePoster})` }}
       >
-        <div className="brand-video-band__art" aria-hidden="true" />
+        <div
+          className="brand-video-band__visual"
+          style={{ backgroundImage: `url(${activePoster})` }}
+          aria-hidden="true"
+        />
         <div className="brand-video-band__wash" aria-hidden="true" />
 
         {!playing ? (
@@ -90,10 +93,7 @@ export function BrandVideoBand({
               <span id={titleId} className="brand-video-band__title">
                 {title}
               </span>
-              <span className="brand-video-band__meta">
-                <span className="brand-video-band__duration">{durationLabel}</span>
-                <span className="brand-video-band__watch">Watch the film</span>
-              </span>
+              <span className="brand-video-band__duration">{durationLabel}</span>
             </span>
           </button>
         ) : (

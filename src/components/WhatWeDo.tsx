@@ -76,12 +76,12 @@ export function WhatWeDo() {
         </Reveal>
         <BrandVideoBand
           id="brand-film"
-          title="See the story behind the gift"
-          durationLabel="The Monkcraft brand film"
+          title="Watch the film"
+          durationLabel="The Monkcraft brand story · 1 min"
           src="/videos/monkcraft-what-we-do-mobile.mp4"
           desktopSrc="/videos/monkcraft-what-we-do-desktop.mp4"
           poster="/videos/monkcraft-what-we-do-mobile-poster.jpg"
-          desktopPoster="/videos/monkcraft-what-we-do-desktop-poster.jpg"
+          desktopPoster="/videos/monkcraft-what-we-do-desktop-hook.jpg"
           tone="lilac"
           ariaLabel="The Monkcraft story, from choosing a gift to making it personal"
         />

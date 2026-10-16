@@ -1,8 +1,49 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BrandVideoBand } from "@/components/BrandVideoBand";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+
+/** The original visual walkthrough tiles stay part of the landing page. */
+const howSteps = [
+  {
+    id: "merchandise",
+    title: "1. Merchandise selection",
+    tone: "lilac",
+    image: {
+      src: "/marketing/company-stores/cs-merchandise-selection-v3.jpg",
+      alt: "1. Merchandise selection — curated products for a company store",
+    },
+  },
+  {
+    id: "access",
+    title: "2. Employee access",
+    tone: "mint",
+    image: {
+      src: "/marketing/company-stores/cs-employee-access-v3.jpg",
+      alt: "2. Employee access — private company storefront invite",
+    },
+  },
+  {
+    id: "ordering",
+    title: "3. Ordering & fulfilment",
+    tone: "blue",
+    image: {
+      src: "/marketing/company-stores/cs-ordering-fulfilment-v3.jpg",
+      alt: "3. Ordering & fulfilment — from storefront selection to delivery",
+    },
+  },
+  {
+    id: "branding",
+    title: "4. Store branding",
+    tone: "apricot",
+    image: {
+      src: "/marketing/company-stores/cs-store-branding-v3.jpg",
+      alt: "4. Store branding — logo, colours, and welcome message",
+    },
+  },
+] as const;
 
 export default function CompanyStoresLandingPage() {
   return (
@@ -74,6 +115,70 @@ export default function CompanyStoresLandingPage() {
             <li><span>04</span><h3>We brand and deliver</h3><p>They enter a delivery address; we personalise the products and ship to them.</p></li>
           </ol>
           <Link className="cs-btn cs-btn--primary" href="/company-stores/configure">Explore the store demo</Link>
+        </section>
+
+        <section className="cs-section" aria-labelledby="cs-how-heading">
+          <h2 id="cs-how-heading" className="cs-section__title">
+            How a Company Store works
+          </h2>
+          <p className="cs-section__lede">
+            From curating the merchandise to branding, employee ordering, and
+            delivery, each part of the store is shaped around your programme.
+          </p>
+          <BrandVideoBand
+            id="company-store-brief"
+            title="Watch the film"
+            durationLabel="The Company Store brief · 57 sec"
+            src="/videos/monkcraft-company-store-brief-mobile.mp4"
+            desktopSrc="/videos/monkcraft-company-store-brief-desktop.mp4"
+            poster="/videos/monkcraft-company-store-brief-mobile-poster.jpg"
+            desktopPoster="/videos/monkcraft-company-store-brief-desktop-hook.jpg"
+            tone="apricot"
+            ariaLabel="How a Monkcraft Company Store works"
+          />
+          <div className="cs-grid cs-grid--2 cs-how-posters">
+            {howSteps.map((step) => (
+              <article
+                key={step.id}
+                className={`cs-tile cs-tile--${step.tone} cs-tile--poster`}
+              >
+                <div className="cs-tile__media cs-tile__media--poster">
+                  <Image
+                    src={step.image.src}
+                    alt={step.image.alt}
+                    fill
+                    sizes="(max-width: 720px) 100vw, 28rem"
+                    style={{ objectFit: "contain", objectPosition: "center" }}
+                  />
+                </div>
+                <div className="cs-how-poster__footer">
+                  <h3 className="cs-how-poster__title">{step.title}</h3>
+                  <Link
+                    className="cs-how-poster__cta"
+                    href="/company-stores/configure"
+                  >
+                    Design this step
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="cs-section" aria-labelledby="cs-journey-heading">
+          <h2 id="cs-journey-heading" className="cs-section__title">
+            From interest to proposal
+          </h2>
+          <p className="cs-section__lede">
+            Start with a sample or tell us your requirements. Both paths lead
+            to a reviewed proposal before your store goes live.
+          </p>
+          <ol className="cs-steps">
+            <li><div><h3>Understand &amp; request</h3><p>Share company goals, team size, merchandise range, and employee credit allowance via the consultation enquiry.</p></div></li>
+            <li><div><h3>Configure a draft</h3><p>Set your store identity, select the 1–30 catalogue products, and note ordering rules.</p></div></li>
+            <li><div><h3>Preview as an employee</h3><p>Browse the curated collection, add products to the bag, and try the delivery details flow.</p></div></li>
+            <li><div><h3>Review and prepare</h3><p>Agree the final programme and fulfilment details with Monkcraft before the store goes live.</p></div></li>
+          </ol>
         </section>
 
         <section className="cs-cta-band" aria-labelledby="cs-request-heading">

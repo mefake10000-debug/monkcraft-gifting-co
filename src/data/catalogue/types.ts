@@ -11,6 +11,8 @@ export type ProductImage = {
   src: string;
   alt: string;
   role?: ProductImageRole;
+  /** Source option represented by this image when the supplier labels one. */
+  variantKey?: string;
   /** Display order (0 = primary/master when present). */
   sortOrder?: number;
   width?: number;
@@ -90,6 +92,8 @@ export type Product = {
   colourIds: string[];
   /** Number of same-description colour options shown behind this catalogue card. */
   colourVariantCount?: number;
+  /** Supplier variants that have a matching source image in the product gallery. */
+  colourOptions?: { label: string; imageIndex: number }[];
   /** Verified material labels from export specs (may be empty). */
   materials: string[];
   materialIds: string[];

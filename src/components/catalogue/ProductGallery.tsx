@@ -14,11 +14,12 @@ import type { ProductImage } from "@/data/catalogue/types";
 type ProductGalleryProps = {
   images: ProductImage[];
   productName: string;
+  colourOptions?: { label: string; imageIndex: number }[];
 };
 
 const SWIPE_THRESHOLD_PX = 40;
 
-export function ProductGallery({ images, productName }: ProductGalleryProps) {
+export function ProductGallery({ images, productName, colourOptions = [] }: ProductGalleryProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [loadedSrc, setLoadedSrc] = useState<string | null>(null);
   const [zoomOpen, setZoomOpen] = useState(false);
@@ -137,6 +138,24 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
         ) : null}
         <span className="product-detail__zoom-hint">Tap to view full size</span>
       </button>
+
+      {colourOptions.length > 1 ? (
+        <div className="product-gallery-colours" role="group" aria-label="Choose a colour">
+          <span>Colour</span>
+          <div>
+            {colourOptions.map((option) => (
+              <button
+                key={`${option.label}-${option.imageIndex}`}
+                type="button"
+                aria-pressed={safeIndex === option.imageIndex}
+                onClick={() => goTo(option.imageIndex)}
+              >
+                {option.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
 
       {zoomOpen ? (
         <div

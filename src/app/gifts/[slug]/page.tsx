@@ -115,6 +115,7 @@ async function ProductDetailBody({
           key={product.slug}
           images={product.images}
           productName={product.name}
+          colourOptions={product.colourOptions}
         />
 
         <div className="product-detail__info">

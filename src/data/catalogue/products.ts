@@ -33,6 +33,7 @@ const EXPORT_SCHEMA = "2.0.0";
 type ExportImage = {
   path: string;
   role?: string;
+  variantKey?: string | null;
   alt?: string | null;
   width?: number;
   height?: number;
@@ -137,14 +138,20 @@ function mapImages(product: ExportProduct): ProductImage[] {
     return 0;
   });
 
-  return images.map((img, index) => ({
-    src: toPublicImagePath(img.path),
-    alt: img.alt?.trim() || `${product.title} — image ${index + 1}`,
-    role: mapImageRole(img.role),
-    sortOrder: img.sortOrder ?? index,
-    width: img.width,
-    height: img.height,
-  }));
+  return images.map((img, index) => {
+    const variantKey = img.variantKey ?? undefined;
+    return {
+      src: toPublicImagePath(img.path),
+      alt: img.alt?.trim() || (variantKey
+        ? `${product.title} — ${variantKey}`
+        : `${product.title} — image ${index + 1}`),
+      role: mapImageRole(img.role),
+      variantKey,
+      sortOrder: img.sortOrder ?? index,
+      width: img.width,
+      height: img.height,
+    };
+  });
 }
 
 /**
@@ -308,8 +315,13 @@ function buildCatalogue(): Product[] {
       : [];
 
     const colour = specValue(ep, "Color");
+    const availableColour = specValue(ep, "Available Color");
+    const variantImageColours = specValue(ep, "Variant Image Colors");
     const material = specValue(ep, "Material");
-    const colours = colour ? [colour] : [];
+    const colours = (colour || availableColour)
+      ?.split(/\s*,\s*/)
+      .map((value) => value.trim())
+      .filter(Boolean) ?? [];
     const materials = material ? [material] : [];
 
     const typeInfo = classifyProductType({
@@ -347,6 +359,13 @@ function buildCatalogue(): Product[] {
       brandingOptions,
       colours,
       colourIds: colours.map(slugifyFacet),
+      colourOptions: variantImageColours
+        ? variantImageColours.split(/\s*,\s*/).filter(Boolean).flatMap((label) => {
+            const imageIndex = mapImages(ep).findIndex((image) => image.variantKey === label);
+            return imageIndex >= 0 ? [{ label, imageIndex }] : [];
+          })
+        : undefined,
+      colourVariantCount: colours.length > 1 ? colours.length : undefined,
       materials,
       materialIds: materials.map(slugifyFacet),
       keywords: buildKeywords([

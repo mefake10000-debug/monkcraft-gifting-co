@@ -59,7 +59,6 @@ export function readStoreOrderDraft(): StoreOrderDraft {
         parsed.deliveryAddress && typeof parsed.deliveryAddress === "object"
           ? parsed.deliveryAddress
           : undefined,
-      employeeId: typeof parsed.employeeId === "string" ? parsed.employeeId : undefined,
       updatedAt: String(parsed.updatedAt ?? ""),
     };
   } catch {
@@ -79,8 +78,6 @@ export function writeStoreOrderDraft(
       variants: Array.isArray(line.variants) ? line.variants : [],
     })),
     notes: String(draft.notes ?? ""),
-    deliveryAddress: draft.deliveryAddress,
-    employeeId: draft.employeeId,
     updatedAt: new Date().toISOString(),
   };
   window.localStorage.setItem(ORDER_KEY, JSON.stringify(next));
@@ -197,7 +194,6 @@ export function prepareStoreOrderRequest(input: {
   lines: StoreOrderLine[];
   notes: string;
   deliveryAddress?: StoreOrderDraft["deliveryAddress"];
-  employeeId?: string;
   rulesLabel: string;
 }): StoreOrderRequest {
   const request: StoreOrderRequest = {
@@ -207,7 +203,6 @@ export function prepareStoreOrderRequest(input: {
     lines: input.lines,
     notes: input.notes,
     deliveryAddress: input.deliveryAddress,
-    employeeId: input.employeeId,
     estimatedTotalInr: storeOrderEstimatedTotal(input.lines),
     rulesLabel: input.rulesLabel,
   };

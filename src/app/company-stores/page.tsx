@@ -60,7 +60,7 @@ export default function CompanyStoresLandingPage() {
           <div>
             <p className="cs-landing__eyebrow">Company Stores</p>
             <h1 className="cs-landing__title">
-              Branded merchandise stores for your company.
+              A brilliant branded merchandise experience.
             </h1>
             <p className="cs-landing__lede">
               A dedicated, branded merchandise experience, shaped around your
@@ -82,21 +82,6 @@ export default function CompanyStoresLandingPage() {
             </div>
           </div>
         </header>
-
-        <section className="cs-store-art" aria-labelledby="cs-store-art-heading">
-          <Image
-            src="/marketing/company-stores/company-store-value-v1.png"
-            alt="A branded employee merchandise store across laptop and phone"
-            fill
-            priority
-            sizes="(max-width: 900px) 100vw, 72rem"
-            style={{ objectFit: "cover", objectPosition: "center" }}
-          />
-          <div className="cs-store-art__copy">
-            <p className="cs-landing__eyebrow">Your company store</p>
-            <h2 id="cs-store-art-heading">A brilliant branded merchandise experience.</h2>
-          </div>
-        </section>
 
         <section className="cs-section" aria-labelledby="cs-how-heading">
           <h2 id="cs-how-heading" className="cs-section__title">

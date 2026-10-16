@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import { SiteFooter } from "@/components/SiteFooter";
 import { EmployeeProductDetail } from "@/components/company-store/EmployeeProductDetail";
 
 /** Dynamic slug; opt out of instant-navigation validation (Next.js Cache Components). */
@@ -20,6 +21,7 @@ export default function CompanyStoreProductPreviewPage({ params }: Props) {
       >
         <PreviewBody params={params} />
       </Suspense>
+      <SiteFooter />
     </>
   );
 }

@@ -90,7 +90,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
       quantity,
       variants,
     });
-    setStatus("Added to draft order.");
+    setStatus("Added to your bag.");
   }
 
   if (!ready || (!product && !missing)) {
@@ -241,7 +241,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
               className="cs-btn cs-btn--primary"
               onClick={addToDraft}
             >
-              Add to draft order
+                Add to bag
             </button>
             <Link
               className="cs-btn cs-btn--ghost"

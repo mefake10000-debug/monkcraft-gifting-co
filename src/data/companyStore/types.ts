@@ -98,7 +98,18 @@ export type StoreOrderDraft = {
   version: 1;
   lines: StoreOrderLine[];
   notes: string;
+  deliveryAddress?: StoreDeliveryAddress;
   updatedAt: string;
+};
+
+export type StoreDeliveryAddress = {
+  fullName: string;
+  phone: string;
+  line1: string;
+  line2: string;
+  city: string;
+  state: string;
+  postalCode: string;
 };
 
 /**
@@ -111,6 +122,7 @@ export type StoreOrderRequest = {
   status: "draft-prepared";
   lines: StoreOrderLine[];
   notes: string;
+  deliveryAddress?: StoreDeliveryAddress;
   estimatedTotalInr: number | null;
   rulesLabel: string;
 };

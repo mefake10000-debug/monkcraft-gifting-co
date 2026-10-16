@@ -55,6 +55,10 @@ export function readStoreOrderDraft(): StoreOrderDraft {
       version: 1,
       lines: Array.isArray(parsed.lines) ? parsed.lines.filter(isLine) : [],
       notes: String(parsed.notes ?? ""),
+      deliveryAddress:
+        parsed.deliveryAddress && typeof parsed.deliveryAddress === "object"
+          ? parsed.deliveryAddress
+          : undefined,
       updatedAt: String(parsed.updatedAt ?? ""),
     };
   } catch {
@@ -189,6 +193,7 @@ export function writeStoreOrderRequests(requests: StoreOrderRequest[]) {
 export function prepareStoreOrderRequest(input: {
   lines: StoreOrderLine[];
   notes: string;
+  deliveryAddress?: StoreOrderDraft["deliveryAddress"];
   rulesLabel: string;
 }): StoreOrderRequest {
   const request: StoreOrderRequest = {
@@ -197,6 +202,7 @@ export function prepareStoreOrderRequest(input: {
     status: "draft-prepared",
     lines: input.lines,
     notes: input.notes,
+    deliveryAddress: input.deliveryAddress,
     estimatedTotalInr: storeOrderEstimatedTotal(input.lines),
     rulesLabel: input.rulesLabel,
   };

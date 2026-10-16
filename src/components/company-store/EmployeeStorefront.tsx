@@ -29,6 +29,9 @@ export function EmployeeStorefront() {
   const [order, setOrder] = useState(readStoreOrderDraft());
   const [prepStatus, setPrepStatus] = useState("");
   const [prepError, setPrepError] = useState("");
+  const [deliveryAddress, setDeliveryAddress] = useState({
+    fullName: "", phone: "", line1: "", line2: "", city: "", state: "", postalCode: "",
+  });
 
   useEffect(() => {
     const sync = () => setOrder(readStoreOrderDraft());
@@ -117,6 +120,17 @@ export function EmployeeStorefront() {
       return;
     }
     if (
+      !deliveryAddress.fullName.trim() ||
+      !deliveryAddress.phone.trim() ||
+      !deliveryAddress.line1.trim() ||
+      !deliveryAddress.city.trim() ||
+      !deliveryAddress.state.trim() ||
+      !deliveryAddress.postalCode.trim()
+    ) {
+      setPrepError("Add your name, phone, and complete delivery address to continue.");
+      return;
+    }
+    if (
       ordering.maxItemsPerOrder != null &&
       order.lines.length > ordering.maxItemsPerOrder
     ) {
@@ -151,11 +165,12 @@ export function EmployeeStorefront() {
     prepareStoreOrderRequest({
       lines: order.lines,
       notes: order.notes,
+      deliveryAddress,
       rulesLabel,
     });
     clearStoreOrderDraft();
     setPrepStatus(
-      "Draft order request prepared and saved locally for the admin demo inbox. No real order was submitted.",
+      "Demo checkout complete. Your order summary and delivery details were saved in this browser; no real order was submitted.",
     );
   }
 
@@ -215,6 +230,7 @@ export function EmployeeStorefront() {
       <section className="cs-storefront__hero">
         <h2>{draft.identity.storeName || "Your merch store"}</h2>
         <p>{draft.identity.welcomeMessage}</p>
+        <p className="cs-store-credit">Company-funded allowance <strong>{ordering.allowanceCapInr != null ? formatInrAmount(ordering.allowanceCapInr) : "configured for your programme"}</strong></p>
       </section>
 
       {draft.productIds.length === 0 ? (
@@ -301,10 +317,10 @@ export function EmployeeStorefront() {
             )}
           </div>
 
-          <aside className="cs-cart" aria-label="Draft order">
-            <h2>Draft order</h2>
+          <aside className="cs-cart" aria-label="Your bag and delivery details">
+            <h2>Your bag</h2>
             <div className="cs-rules-box">
-              <strong>Draft rules — not a live balance</strong>
+              <strong>Company-funded allowance · demo preview</strong>
               {rulesLabel}
               {ordering.allowanceMode === "allowance-cap" &&
               ordering.allowanceCapInr != null ? (
@@ -385,12 +401,25 @@ export function EmployeeStorefront() {
             )}
 
             <p style={{ margin: "0 0 0.75rem", fontWeight: 600 }}>
-              Estimated total:{" "}
+              Estimated catalogue value:{" "}
               {estimated != null ? formatInrAmount(estimated) : "Quote items"}
             </p>
 
+            <div className="cs-checkout-fields">
+              <h3 className="cs-checkout-heading">Delivery details</h3>
+              <div className="cs-address-grid">
+                <label>Full name<input autoComplete="name" required value={deliveryAddress.fullName} onChange={(e) => setDeliveryAddress({...deliveryAddress, fullName:e.target.value})} /></label>
+                <label>Phone<input type="tel" autoComplete="tel" required value={deliveryAddress.phone} onChange={(e) => setDeliveryAddress({...deliveryAddress, phone:e.target.value})} /></label>
+                <label className="cs-address-grid__wide">Address<input autoComplete="street-address" required value={deliveryAddress.line1} onChange={(e) => setDeliveryAddress({...deliveryAddress, line1:e.target.value})} /></label>
+                <label className="cs-address-grid__wide">Apartment, suite, etc. <span>(optional)</span><input autoComplete="address-line2" value={deliveryAddress.line2} onChange={(e) => setDeliveryAddress({...deliveryAddress, line2:e.target.value})} /></label>
+                <label>City<input autoComplete="address-level2" required value={deliveryAddress.city} onChange={(e) => setDeliveryAddress({...deliveryAddress, city:e.target.value})} /></label>
+                <label>State<input autoComplete="address-level1" required value={deliveryAddress.state} onChange={(e) => setDeliveryAddress({...deliveryAddress, state:e.target.value})} /></label>
+                <label className="cs-address-grid__wide">PIN code<input autoComplete="postal-code" inputMode="numeric" required value={deliveryAddress.postalCode} onChange={(e) => setDeliveryAddress({...deliveryAddress, postalCode:e.target.value})} /></label>
+              </div>
+            </div>
+
             <div className="cs-field" style={{ marginBottom: "0.75rem" }}>
-              <label htmlFor="store-order-notes">Request notes</label>
+              <label htmlFor="store-order-notes">Order notes <span>(optional)</span></label>
               <textarea
                 id="store-order-notes"
                 rows={2}
@@ -422,7 +451,7 @@ export function EmployeeStorefront() {
                 className="cs-btn cs-btn--primary cs-btn--small"
                 onClick={prepareRequest}
               >
-                Prepare order request
+                Continue to demo checkout
               </button>
               <button
                 type="button"
@@ -433,8 +462,8 @@ export function EmployeeStorefront() {
               </button>
             </div>
             <p className="cs-field__hint" style={{ marginTop: "0.75rem" }}>
-              Preparing a request saves a local draft for the configurator inbox.
-              It does not place a real order or charge anyone.
+              Your demo checkout saves a preview order and address in this browser.
+              No live credits are deducted and no shipment is created.
             </p>
           </aside>
         </div>

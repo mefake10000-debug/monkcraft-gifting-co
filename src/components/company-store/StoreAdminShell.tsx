@@ -1013,6 +1013,14 @@ function OrdersPanel() {
                   </li>
                 ))}
               </ul>
+              {req.deliveryAddress ? (
+                <p className="cs-field__hint" style={{ margin: "0.65rem 0 0" }}>
+                  Deliver to: {req.deliveryAddress.fullName} · {req.deliveryAddress.line1}
+                  {req.deliveryAddress.line2 ? `, ${req.deliveryAddress.line2}` : ""}, {req.deliveryAddress.city}, {req.deliveryAddress.state} {req.deliveryAddress.postalCode}
+                  {req.deliveryAddress.phone ? ` · ${req.deliveryAddress.phone}` : ""}
+                </p>
+              ) : null}
+              {req.notes ? <p className="cs-field__hint">Order notes: {req.notes}</p> : null}
             </li>
           ))}
         </ul>

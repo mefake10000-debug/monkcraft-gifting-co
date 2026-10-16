@@ -42,3 +42,38 @@ test('curated brand import has sourced product details and useful image gallerie
     }
   }
 });
+
+test('every advertised colour is selectable through its matching product image', () => {
+  const Module = require('node:module');
+  const previousResolve = Module._resolveFilename;
+  Module._resolveFilename = function (request, ...args) {
+    return previousResolve.call(this, request.startsWith('@/')
+      ? path.resolve(__dirname, '../src', request.slice(2))
+      : request, ...args);
+  };
+  require.extensions['.ts'] = (module, filename) => {
+    const ts = require('typescript');
+    module._compile(ts.transpileModule(fs.readFileSync(filename, 'utf8'), {
+      compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020, esModuleInterop: true },
+    }).outputText, filename);
+  };
+  const { getAllProducts } = require('../src/data/catalogue/products.ts');
+  const imported = getAllProducts().filter((product) =>
+    product.images.some((image) => image.src.startsWith('/catalogue-import/products/')));
+  for (const product of imported) {
+    for (const option of product.colourOptions || []) {
+      assert.ok(product.images[option.imageIndex], `${product.slug} colour ${option.label} needs an image`);
+      const image = product.images[option.imageIndex];
+      assert.ok(
+        image.variantKey?.split(/\s*\/\s*/).some((part) => part.trim().toLowerCase() === option.label.toLowerCase()),
+        `${product.slug} colour ${option.label} must select its matching image`,
+      );
+      assert.ok(fs.existsSync(path.resolve(__dirname, `../public${image.src}`)), `${product.slug} colour ${option.label} asset missing`);
+    }
+  }
+  const carryMug = imported.find((product) => product.slug === 'fellow-carter-carry-water-bottle');
+  assert.ok(carryMug?.colourOptions && carryMug.colourOptions.length >= 5, 'Carter Carry colours should resolve despite size-prefixed Shopify labels');
+  const galleryCss = fs.readFileSync(path.resolve(__dirname, '../src/app/gifts/catalogue.css'), 'utf8');
+  assert.match(galleryCss, /var\(--mc-mist-lilac\)/, 'product image background should use the approved Mist Lilac token');
+  assert.match(galleryCss, /var\(--mc-powder-blue\)/, 'product image background should use the approved Powder Blue token');
+});

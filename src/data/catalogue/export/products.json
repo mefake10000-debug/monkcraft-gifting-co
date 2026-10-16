@@ -539951,26 +539951,6 @@
           "height": 1200,
           "format": "jpeg",
           "sha256": "7b866167255f78060beeb68a3806fdb1f39009bbb58e5aa9de8e267720c9e3b4"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-memory-calendar-verified-03.jpg",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "jpeg",
-          "sha256": "3f686c6e52f3bbedbe3e6b865429fc2153ccc115d146112a738328c625c18a23"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-memory-calendar-verified-04.jpg",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "jpeg",
-          "sha256": "7c426c7980cc907dc97a45d6f90f0c42bd92588b2ecbd42c68a3f261765e4e0a"
         }
       ],
       "dataQuality": {
@@ -540291,26 +540271,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "5dbe4668f8d6b1cf300d0bdf269ca3a260d971d78e6aeb3f75c78073da025575"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-delta-passport-holder-with-pen-slot-verified-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "56e3a0d2e128f19abc4673faad706d852f130e2c4541dd542bab4d2121192b9f"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-delta-passport-holder-with-pen-slot-verified-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "3431fb471d2760412f4fcb853d03a01f2cb50a5213be6162f1a21e597c48bc34"
         }
       ],
       "dataQuality": {
@@ -540591,26 +540551,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "632a79034f9fb87daa78c8c9c887c337fe3e64bea4cfa22e8959d7c5377e255c"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-2-in-1-rubber-wood-game-box-tic-tac-toe-and-brainvita-set-verified-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "655a7153b8c70feaac69f19d30fec5466431cff20ae6db5f824a5434d9878a5b"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-2-in-1-rubber-wood-game-box-tic-tac-toe-and-brainvita-set-verified-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "1e1a0a90f4c7731d0bb155328ebee249777e137182666b20f21f8a28c0ef9f72"
         }
       ],
       "dataQuality": {
@@ -542721,7 +542661,8 @@
         "Available Size": "20 oz, 32 oz",
         "Available Color": "Hazy Blue, Desert Rose, Stone Blue, Matte White, Matte Black, Smoke Green, Sand Dune, Sienna, Peri Twinkle, Mint Chip, Matte Grey, Matte Black + Polished Steel, Matte White + Polished Steel",
         "Catalogue Import Batch": "curated-corporate-gifting-2026-10",
-        "Source Display Price": "USD 39.95"
+        "Source Display Price": "USD 39.95",
+        "Variant Image Colors": "Hazy Blue, Desert Rose, Matte White, Matte Black, Smoke Green, Sienna, Matte Grey"
       },
       "variants": [
         {
@@ -543008,14 +542949,74 @@
       },
       "images": [
         {
-          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle.webp",
+          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle-color-00.png",
           "role": "MASTER",
-          "variantKey": "Primary",
+          "variantKey": "Hazy Blue",
           "sortOrder": 0,
-          "width": 1200,
-          "height": 1200,
-          "format": "webp",
-          "sha256": "dc23e94dfb820c6c5f6a18e5cda9c84610ff5c63c4a5b636dc690d6ad885fc77"
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "87b5f058e22f77231241db0b1b40c70b38127e3311eeb3f8d0a1702f15619a3d"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle-color-01.png",
+          "role": "MASTER",
+          "variantKey": "Desert Rose",
+          "sortOrder": 1,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "720e632a4623b2291dd644a3d6495e31985eb25cf22a99f45a6f040cf6e74d00"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle-color-02.png",
+          "role": "MASTER",
+          "variantKey": "Matte White",
+          "sortOrder": 2,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "52c2280c7c005312920853a14de6b5e17cb821d7a62ea965254cd9d1b24958c8"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle-color-03.png",
+          "role": "MASTER",
+          "variantKey": "Matte Black",
+          "sortOrder": 3,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "b1bd6ab8a55db77fedc837ee40121f62311a4f4319e374862190ded7b75f23c5"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle-color-04.png",
+          "role": "MASTER",
+          "variantKey": "Smoke Green",
+          "sortOrder": 4,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "b1c027a9af3928b3098137be50e62bb8e0c3bfdedf15513750cda349d0c0e491"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle-color-05.png",
+          "role": "MASTER",
+          "variantKey": "Sienna",
+          "sortOrder": 5,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "fcdce923df058807a885b58c1cad124f25e20373baa00f06a2b02896d52b8757"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-carry-water-bottle-color-06.png",
+          "role": "MASTER",
+          "variantKey": "Matte Grey",
+          "sortOrder": 6,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "f6859975a273caaddd83ea0e89bf0d293a507b1fc1b91ba865765dbf898149ae"
         }
       ],
       "dataQuality": {
@@ -543066,7 +543067,8 @@
         "Available Size": "16 oz, 20 oz",
         "Available Color": "Desert Rose, Hazy Blue, Mint Chip, Sienna, Sand Dune, Smoke Green, Peri Twinkle, Matte White, Stone Blue, Matte Black, Matte Grey",
         "Catalogue Import Batch": "curated-corporate-gifting-2026-10",
-        "Source Display Price": "USD 34.95"
+        "Source Display Price": "USD 34.95",
+        "Variant Image Colors": "Desert Rose, Hazy Blue, Sienna, Matte White, Matte Black, Matte Grey"
       },
       "variants": [
         {
@@ -543395,14 +543397,64 @@
       },
       "images": [
         {
-          "path": "/catalogue-import/products/fellow-carter-cold-tumbler.webp",
+          "path": "/catalogue-import/products/fellow-carter-cold-tumbler-color-00.png",
           "role": "MASTER",
-          "variantKey": "Primary",
+          "variantKey": "Desert Rose",
           "sortOrder": 0,
-          "width": 1200,
-          "height": 1200,
-          "format": "webp",
-          "sha256": "9efb97142daed7fbe6329cd4d59075530259bd9a4fcc7022ada17ecedaf37d8c"
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "720e632a4623b2291dd644a3d6495e31985eb25cf22a99f45a6f040cf6e74d00"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-cold-tumbler-color-01.png",
+          "role": "MASTER",
+          "variantKey": "Hazy Blue",
+          "sortOrder": 1,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "87b5f058e22f77231241db0b1b40c70b38127e3311eeb3f8d0a1702f15619a3d"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-cold-tumbler-color-02.png",
+          "role": "MASTER",
+          "variantKey": "Sienna",
+          "sortOrder": 2,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "4a91c4fb141ba6fc4121b8b663dc0a029bcd9454c361c0b57e6372d33b80c4f2"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-cold-tumbler-color-03.png",
+          "role": "MASTER",
+          "variantKey": "Matte White",
+          "sortOrder": 3,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "52c2280c7c005312920853a14de6b5e17cb821d7a62ea965254cd9d1b24958c8"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-cold-tumbler-color-04.png",
+          "role": "MASTER",
+          "variantKey": "Matte Black",
+          "sortOrder": 4,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "b1bd6ab8a55db77fedc837ee40121f62311a4f4319e374862190ded7b75f23c5"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-cold-tumbler-color-05.png",
+          "role": "MASTER",
+          "variantKey": "Matte Grey",
+          "sortOrder": 5,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "f6859975a273caaddd83ea0e89bf0d293a507b1fc1b91ba865765dbf898149ae"
         }
       ],
       "dataQuality": {
@@ -543849,7 +543901,8 @@
         "Available Size": "12 oz, 8 oz, 16 oz",
         "Available Color": "Coral Crush, Electric Cobalt, Lemon Zest, Sporty Green, Desert Rose, Sand Dune, Hazy Blue, Sienna, Stone Blue, Cargo Green, Smoke Green, Peri Twinkle, Mint Chip, Matte Black, Matte Grey, Matte White, Really Red, Crawly, Morning Coffee",
         "Catalogue Import Batch": "curated-corporate-gifting-2026-10",
-        "Source Display Price": "USD 29.95"
+        "Source Display Price": "USD 29.95",
+        "Variant Image Colors": "Desert Rose, Sand Dune, Hazy Blue, Sienna, Stone Blue, Smoke Green, Peri Twinkle, Mint Chip"
       },
       "variants": [
         {
@@ -544402,14 +544455,84 @@
       },
       "images": [
         {
-          "path": "/catalogue-import/products/fellow-carter-move-mug.webp",
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-00.png",
           "role": "MASTER",
-          "variantKey": "Primary",
+          "variantKey": "Desert Rose",
           "sortOrder": 0,
-          "width": 1200,
-          "height": 1200,
-          "format": "webp",
-          "sha256": "700d600ce2adfd9a8465c41b19809b6878c2a91bf5b7c220d0aa205c140456d8"
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "5e23a6819e167582cbec1d1321d157d99e3e2ac0015e25fd7dc6166b8b298589"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-01.png",
+          "role": "MASTER",
+          "variantKey": "Sand Dune",
+          "sortOrder": 1,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "663617d7b715fdad365a92059aa4b94a95e33bf68a64d9fa243b1327ab9adc9e"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-02.png",
+          "role": "MASTER",
+          "variantKey": "Hazy Blue",
+          "sortOrder": 2,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "661bba1aaa28b2b13de62919033341fdafcb8508b6b4c51075b3b278abab6513"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-03.png",
+          "role": "MASTER",
+          "variantKey": "Sienna",
+          "sortOrder": 3,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "d1fb8f3e3d06fdfb7a74d5cb0ebd3eefa611b49e0c3432423a0cdb5a5501be29"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-04.png",
+          "role": "MASTER",
+          "variantKey": "Stone Blue",
+          "sortOrder": 4,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "8f7d1c3bbdd348062839d3f3d3b1c12268afd0ce759059ca7a133380f0bfa7ec"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-05.png",
+          "role": "MASTER",
+          "variantKey": "Smoke Green",
+          "sortOrder": 5,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "e04a57349448220a943048c4b7efd71e80be2e39c840e197a96f02f5b82d04b8"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-06.png",
+          "role": "MASTER",
+          "variantKey": "Peri Twinkle",
+          "sortOrder": 6,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "75712b24312d6531f2c0331c766f71d79bf248bed09ec466f6772416a85d5523"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-carter-move-mug-color-07.png",
+          "role": "MASTER",
+          "variantKey": "Mint Chip",
+          "sortOrder": 7,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "800e81be68fe770286644510cd1b781666a634469b360229bc0dac6d6d7ea88b"
         }
       ],
       "dataQuality": {
@@ -544715,7 +544838,8 @@
         "Available Model": "Pro, Pro Studio Edition",
         "Available Color": "Woodland + Walnut, Desert Rose + Maple, Sesame + Maple, Hazy Blue + Maple, Matte Black, Matte Black + Walnut, Matte White, Stone Blue + Walnut, Matte White + Maple, Smoke Green + Maple",
         "Catalogue Import Batch": "curated-corporate-gifting-2026-10",
-        "Source Display Price": "USD 199.95"
+        "Source Display Price": "USD 199.95",
+        "Variant Image Colors": "Woodland + Walnut, Sesame + Maple"
       },
       "variants": [
         {
@@ -544904,14 +545028,24 @@
       },
       "images": [
         {
-          "path": "/catalogue-import/products/fellow-stagg-ekg-electric-pour-over-kettle.webp",
+          "path": "/catalogue-import/products/fellow-stagg-ekg-electric-pour-over-kettle-color-00.png",
           "role": "MASTER",
-          "variantKey": "Primary",
+          "variantKey": "Woodland + Walnut",
           "sortOrder": 0,
-          "width": 1200,
-          "height": 1200,
-          "format": "webp",
-          "sha256": "b594c361bcc2f7055c58472f6e1794ec86c53bbcde1ede665350ad15dff53e65"
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "952d097dd8aa6ff0b00f32a7778ea6265efcb625d2bfb705329a634d72e2db55"
+        },
+        {
+          "path": "/catalogue-import/products/fellow-stagg-ekg-electric-pour-over-kettle-color-01.png",
+          "role": "MASTER",
+          "variantKey": "Sesame + Maple",
+          "sortOrder": 1,
+          "width": 1560,
+          "height": 1951,
+          "format": "png",
+          "sha256": "1fdd33819c869935a1320273d41c77dfff2ffc6e141e5da0f86b68bee6219d85"
         }
       ],
       "dataQuality": {
@@ -547765,26 +547899,6 @@
           "height": 1200,
           "format": "jpeg",
           "sha256": "94f00790f70b7b6af4539045a13f59970af6c7504f330dcd834121ba12b93f65"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-sleek-calendar-holder-03.jpg",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "jpeg",
-          "sha256": "10638f12e0267ae5ad3c6f346c2e3a8efc2abf1901fc748840a5533506078146"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-sleek-calendar-holder-04.jpg",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "jpeg",
-          "sha256": "e0fe87e9b8634e0485d5f13d609994c22cb091d1d9afe68722b3a9b63105918c"
         }
       ],
       "dataQuality": {
@@ -547979,26 +548093,6 @@
           "height": 1200,
           "format": "jpeg",
           "sha256": "0f1d6b0e240913704959e404499c10501ea53519e0ae2d9876d20536f7ea9016"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-calendar-frame-03.jpg",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "jpeg",
-          "sha256": "0d303248ab69883fb6164ff9a27382b8cdedf6b6f07973a436842834a5c55c58"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-calendar-frame-04.jpg",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "jpeg",
-          "sha256": "bed26c0ce3ab0ffbb433f51c759330f9f488c0e75321afcbbb06e0315f5f9d5a"
         }
       ],
       "dataQuality": {
@@ -548193,26 +548287,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "9600208ff91526bbea3fae35c12610870adab793e46303f2eb694f2e98b3944e"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-pouch-travel-1-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "9247294db3d4f6a1bdf86f89adb09f32bb585f9ea5250d6bca9fc81af32889d5"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-pouch-travel-1-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "b57d35732c529b2a1ad19a99b24276bf0fafe3dc814933ebc9a5607d47cc2788"
         }
       ],
       "dataQuality": {
@@ -548407,26 +548481,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "f58601102bc940958845af922c9513acc922039172d95a36b5901d4d3627e3a3"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-t-light-holder-mandala-set-of-2-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "73110bd820a28c34ed6027514366e37f5a8c67cdcb16ab98b91fa658ab053361"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-t-light-holder-mandala-set-of-2-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "38914c658b794c8a692e1d5c1b858eff29ffcf6fccf9b522001759450bc2a4e0"
         }
       ],
       "dataQuality": {
@@ -548815,26 +548869,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "3c82a5083ad627d4462a9a5e286a15aeb5763f21697ea607860c12b6dc7b1785"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-compact-slim-tic-tac-toe-travel-friendly-game-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "91b31c4a2ab396886f18e18dcf0c5025379a40a415db3ac3a618b6537d8d5d67"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-compact-slim-tic-tac-toe-travel-friendly-game-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "7df56300eded92e33e93cf8c255cba2b25de65955e1ea05573cac1d40e636e86"
         }
       ],
       "dataQuality": {
@@ -549029,26 +549063,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "2143d098ab1d5a0a41706b506f46555a31abe1bd87c5f3439e9495b48f168f6d"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-leather-journal-a6-raw-press-lock-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "13518ed8e3478fd91e51fef3e28717376a8023e8eeac69e0401aee5b9cc15484"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-leather-journal-a6-raw-press-lock-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "5c278e6ac56b8a5e92deec62ddc45878f9398238f9c2979d9aee365031ffd941"
         }
       ],
       "dataQuality": {
@@ -549243,26 +549257,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "98d415e0bfdc2a22178e7ca0030716fcc8f2cd0c6d4bd3834ba1bb37f77c8a30"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-leather-journal-a5-raw-press-lock-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "979fcdd067efa55a053345de2a688fc7b2e8dcd69db7ccb829e65415fc31cd63"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-leather-journal-a5-raw-press-lock-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "f2cee4f243410e3f614754610e9a3c5a9c542a974e7a79849a4190eaeb1539f1"
         }
       ],
       "dataQuality": {
@@ -549457,26 +549451,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "4162a591ad21759c495113f4533184622bc488b90790ce0130886cd1c4b14f79"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-mobile-stand-rubber-wood-2-piece-set-plain-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "eda4583c997f2b4673f2d82460a09368ffd456db37e3371267ca4e09b31bbfc9"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-mobile-stand-rubber-wood-2-piece-set-plain-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "0f897e580f1cbd26f0c4a4073b6c2727fa16511f9994c56d1b88c704586203dd"
         }
       ],
       "dataQuality": {
@@ -549671,26 +549645,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "9226d98a91fa65cf48b23da24fd12a9b6a9060d610180b9461ee8341a42c23dd"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-roll-up-basic-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "6fb262cd83efa11aa91c7dd12eba2789038e87de6413fad156ba1b0dbc760051"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-roll-up-basic-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "c48c2fc3a4e6b4c8197439fa2f61672ab673a47ac4f93ab674cb5866536a0a26"
         }
       ],
       "dataQuality": {
@@ -549885,26 +549839,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "36e95ff62ad267c17e2f904f6265b2cd3af252f84250d857de93c247ad53c8f3"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-card-holder-dual-sided-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "43dd40f87bc26ff018858ad066a9b8b3ee64bdde28f481c09188db1138567e4b"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-card-holder-dual-sided-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "5e3f7a6d54d5561954fe9359983e821b6c0e58474222e98f764d997c17df74ac"
         }
       ],
       "dataQuality": {
@@ -550099,26 +550033,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "b5fb1343f8d88d33f95eb98adcef1bc02fceabe4e23d7ebe9a8e9986ae4c4599"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-card-holder-soft-edge-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "4abef53821cbb1a85cb8f5b6b3d93abe16104efb13969390926c17f26a47e288"
-        },
-        {
-          "path": "/catalogue-import/products/lattice-lane-card-holder-soft-edge-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "03f9e949c06000c688864777c3d08e5aa81e7003c57ae46da519d342b78fb0b6"
         }
       ],
       "dataQuality": {
@@ -551735,26 +551649,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "22b8733a4929952ca839b731ec076d3286537a4e76201f22b495967623fd2d66"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-matcha-set-06.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 6,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "969494f1e8f0966c73d09235b611cef2fe4d6c9a87d29c26dc1cbaec7cfaf0c0"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-matcha-set-07.jpg",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 7,
-          "width": 1200,
-          "height": 1200,
-          "format": "jpeg",
-          "sha256": "93577546f88f3e67ce1e1320941478fb0fc40539409d95a4c332d9abec142772"
         }
       ],
       "dataQuality": {
@@ -552075,26 +551969,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "0caddebc3dbce6059ea3ec1dc94fb414554cab513ea7f38cfe63daffdf4c8175"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-aiden-precision-coffee-maker-06.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 6,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "9b943fae303b898588a5c45d03824e584327b638d4697eebb6027c14df95ef24"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-aiden-precision-coffee-maker-07.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 7,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "7cba7f6248f71eafc6f58ada7d26e64e16b22a2720eb0b67cd9c7e801dc23780"
         }
       ],
       "dataQuality": {
@@ -552736,26 +552610,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "e209a14bf640181cf48cc6949522d2026aedd4db62e9534c85c0d6cfb0028371"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-carter-slide-mug-06.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 6,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "9efd95cea9cb5adcc830343e6a28e77000eeba11416e039f8b47d7bf78b0da9c"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-carter-slide-mug-07.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 7,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "db32035627fe53db61b95db9d282d7edef2de438f18001b6c42116db15284838"
         }
       ],
       "dataQuality": {
@@ -552993,26 +552847,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "398d558a66c38473de22f449d5ca330603921faa571ccc71f2b3e73a75883564"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-the-picnic-tumbler-set-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "a2b70653cf405b2fd01950c0171e358fc28e2338e6528b350eb844150008500a"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-the-picnic-tumbler-set-05.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 5,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "0e8697b728469b69cb6907edafe083415623feacfdf8b37dc282d039e0111e3d"
         }
       ],
       "dataQuality": {
@@ -553207,26 +553041,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "97268ad484677174928e6879a3c4d0ee13a88f906ba1a23abff6a1ddbf1759fb"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-carter-infuser-set-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "5710ce366d157a522f10f83263245c610f40a30cd64405ff8b2d0f0b71c0ab4c"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-carter-infuser-set-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "baacd270ecf41fefd4516e285b37a11baf0b7600499e80b2d92aa900679e5725"
         }
       ],
       "dataQuality": {
@@ -553448,26 +553262,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "92d0ca3e211ff176cb40a847eaa22d9b5fa9c9f26396e62e69a2acc5d7ca2810"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-ode-brew-grinder-gen-2-02.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 2,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "1bd04fcd589254813ecce5771a95a537dcb5d9073f1d786113474fabca6b5cda"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-ode-brew-grinder-gen-2-03.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 3,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "ea7312f561f6d08d6bb303919e616b7b5f75701479dd0c3332c57126b31a6947"
         }
       ],
       "dataQuality": {
@@ -553704,26 +553498,6 @@
           "height": 1200,
           "format": "png",
           "sha256": "7a62aaf687660203d59ed87f3caad98bb8c14c789219bbbd5bfbd62ab1ecaf7a"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-clyde-electric-kettle-04.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 4,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "6342f69d17c35e11ce2afbcec2e02106665296e6ef1faec0b964d858b4f93340"
-        },
-        {
-          "path": "/catalogue-import/products/fellow-clyde-electric-kettle-05.png",
-          "role": "ANGLE",
-          "variantKey": "Primary",
-          "sortOrder": 5,
-          "width": 1200,
-          "height": 1200,
-          "format": "png",
-          "sha256": "752dc88c03842523c62ea383e1e2d5375ea4b40c73ae813efca4fa0e01124809"
         }
       ],
       "dataQuality": {

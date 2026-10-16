@@ -237,6 +237,40 @@ function specValue(
   return trimmed || undefined;
 }
 
+function normalizeColourLabel(value: string): string {
+  return value.trim().split(/\s*\/\s*/).at(-1)?.trim().toLocaleLowerCase() ?? "";
+}
+
+function mapColourOptions(
+  product: ExportProduct,
+  images: ProductImage[],
+): { label: string; imageIndex: number }[] {
+  const sourceLabels = specValue(product, "Variant Image Colors")
+    ?.split(/\s*,\s*/)
+    .filter(Boolean) ?? [];
+  const options: { label: string; imageIndex: number }[] = [];
+  const seen = new Set<string>();
+
+  for (const sourceLabel of sourceLabels) {
+    const cleanLabel = sourceLabel.split(/\s*\/\s*/).at(-1)?.trim() ?? sourceLabel;
+    const normalized = normalizeColourLabel(cleanLabel);
+    if (!normalized || seen.has(normalized)) continue;
+
+    const imageIndex = images.findIndex((image) => {
+      const key = image.variantKey?.trim();
+      if (!key || key.toLocaleLowerCase() === "primary") return false;
+      if (key.trim().toLocaleLowerCase() === sourceLabel.trim().toLocaleLowerCase()) return true;
+      return key.split(/\s*\/\s*/).some((part) => part.trim().toLocaleLowerCase() === normalized);
+    });
+    if (imageIndex < 0) continue;
+
+    seen.add(normalized);
+    options.push({ label: cleanLabel, imageIndex });
+  }
+
+  return options;
+}
+
 function resolveMoq(product: ExportProduct): number | undefined {
   const availability = product.availability;
   if (!availability) return undefined;
@@ -318,6 +352,10 @@ function buildCatalogue(): Product[] {
     const availableColour = specValue(ep, "Available Color");
     const variantImageColours = specValue(ep, "Variant Image Colors");
     const material = specValue(ep, "Material");
+    const images = mapImages(ep);
+    const colourOptions = variantImageColours
+      ? mapColourOptions(ep, images)
+      : [];
     const colours = (colour || availableColour)
       ?.split(/\s*,\s*/)
       .map((value) => value.trim())
@@ -340,7 +378,7 @@ function buildCatalogue(): Product[] {
       summary: (ep.shortDescription || ep.description || "").trim() || ep.title,
       description: ep.description?.trim() || undefined,
       brandName: resolveBrandName(ep.brand),
-      images: mapImages(ep),
+      images,
       occasions: occasionBySlug.get(ep.slug) ?? [],
       categoryId: ep.category.id || ep.category.slug,
       categorySlug: ep.category.slug,
@@ -359,12 +397,7 @@ function buildCatalogue(): Product[] {
       brandingOptions,
       colours,
       colourIds: colours.map(slugifyFacet),
-      colourOptions: variantImageColours
-        ? variantImageColours.split(/\s*,\s*/).filter(Boolean).flatMap((label) => {
-            const imageIndex = mapImages(ep).findIndex((image) => image.variantKey === label);
-            return imageIndex >= 0 ? [{ label, imageIndex }] : [];
-          })
-        : undefined,
+      colourOptions: colourOptions.length ? colourOptions : undefined,
       colourVariantCount: colours.length > 1 ? colours.length : undefined,
       materials,
       materialIds: materials.map(slugifyFacet),

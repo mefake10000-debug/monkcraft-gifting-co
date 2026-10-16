@@ -9,8 +9,8 @@ import catalogueBrands from "@/data/catalogue/export/brands.json";
  * Unnamed / null brand rows are excluded.
  *
  * `logoSrc` is resolved only from verified files in `public/brands/` — never
- * invent logos. The homepage selection below includes the brands requested for
- * its scroller; brands without a verified image use their supplied name.
+ * invent logos. The marquee preserves its original partner set and appends
+ * requested brands when a verified local mark is available.
  */
 
 export type PartnerBrandCandidate = {
@@ -55,7 +55,7 @@ export function resolveBrandLogoSrc(slug: string): string | undefined {
   return verifiedLogoFiles[slug];
 }
 
-const REQUESTED_HOMEPAGE_BRANDS: { name: string; searchName?: string }[] = [
+export const REQUESTED_HOMEPAGE_BRANDS: { name: string; searchName?: string }[] = [
   { name: "Nooe", searchName: "ShopNooe" },
   { name: "Adidas" },
   { name: "Reebok" },
@@ -64,10 +64,10 @@ const REQUESTED_HOMEPAGE_BRANDS: { name: string; searchName?: string }[] = [
   { name: "Assembly" },
   { name: "Columbia" },
   { name: "Jockey" },
-  { name: "Mukubaara" },
-  { name: "Napa Dori" },
+  { name: "Mukubaara", searchName: "Mokobara" },
+  { name: "Napa Dori", searchName: "NAPPA DORI" },
   { name: "Tommy Hilfiger" },
-  { name: "Yumi" },
+  { name: "Eumi" },
   { name: "American Tourist", searchName: "American Tourister" },
   { name: "Alan Solly", searchName: "Allen Solly" },
   { name: "My Paperclip", searchName: "myPaperClip" },
@@ -93,21 +93,83 @@ const REQUESTED_BRAND_LOGOS: Record<string, string> = {
   Sony: "/brands/sony-logo.svg",
 };
 
-/** Keep the homepage selection intentional and in the order requested. */
-export function getHomepagePartnerBrands(): BrandLogoItem[] {
-  return REQUESTED_HOMEPAGE_BRANDS.map(({ name, searchName = name }) => {
-    const catalogueBrand = HOMEPAGE_PARTNER_BRAND_CANDIDATES.find(
-      (brand) => brand.name.toLowerCase() === searchName.toLowerCase(),
-    );
-    const src = catalogueBrand
-      ? catalogueBrand.logoSrc ?? resolveBrandLogoSrc(catalogueBrand.slug)
-      : undefined;
-    const logo = src ?? REQUESTED_BRAND_LOGOS[name];
+const ORIGINAL_BRAND_ITEMS: { name: string; slug: string; searchName: string }[] = [
+  { name: "Urban Gear", slug: "urban-gear", searchName: "Urban Gear" },
+  { name: "bioQ", slug: "bioq", searchName: "bioQ" },
+  { name: "FUZO", slug: "fuzo", searchName: "FUZO" },
+  { name: "The Backbencher", slug: "the-backbencher", searchName: "The Backbencher" },
+  { name: "Fur Jaden", slug: "fur-jaden", searchName: "Fur Jaden" },
+  { name: "Levi's", slug: "levis", searchName: "Levis" },
+  { name: "Offikraft", slug: "offikraft", searchName: "Offikraft" },
+  { name: "Oblique", slug: "oblique", searchName: "Oblique" },
+  { name: "Power Plus", slug: "power-plus", searchName: "Power Plus" },
+  { name: "3S", slug: "3s", searchName: "3S" },
+  { name: "Ooge", slug: "ooge", searchName: "Ooge" },
+  { name: "Stolt", slug: "stolt", searchName: "Stolt" },
+  { name: "Stellers", slug: "stellers", searchName: "Stellers" },
+  { name: "Portronics", slug: "portronics", searchName: "Portronics" },
+  { name: "Jack&Jones", slug: "jack-jones", searchName: "Jack&Jones" },
+  { name: "Swiss Military", slug: "swiss-military", searchName: "Swiss Military" },
+  { name: "Hummel", slug: "hummel", searchName: "Hummel" },
+];
 
-    return {
-      name,
-      ...(logo ? { src: logo } : {}),
-      href: `/gifts?q=${encodeURIComponent(searchName)}`,
-    };
-  });
+/** Official-site candidates are documentation only until logo assets are reviewed. */
+export const PENDING_BRAND_LOGO_CANDIDATES: { name: string; source?: string }[] = [
+  { name: "Nooe" },
+  { name: "United Colors of Benetton", source: "https://www.benetton.com/" },
+  { name: "Assembly", source: "https://assemblylabel.com/" },
+  { name: "Columbia", source: "https://www.columbia.com/" },
+  { name: "Jockey", source: "https://www.jockey.in/" },
+  { name: "Mukubaara — possible match: Mokobara", source: "https://mokobara.com/" },
+  { name: "Napa Dori — possible match: NAPPA DORI", source: "https://www.nappadori.com/" },
+  { name: "Tommy Hilfiger", source: "https://in.tommy.com/" },
+  { name: "Eumi" },
+  { name: "American Tourist — possible match: American Tourister", source: "https://americantourister.in/" },
+  { name: "Alan Solly — possible match: Allen Solly", source: "https://allensolly.abfrl.in/" },
+  { name: "My Paperclip" },
+  { name: "Cookie Man" },
+  { name: "Engine Terrain — possible match: Indian Terrain", source: "https://indianterrain.com/" },
+  { name: "The Whole Truth", source: "https://thewholetruthfoods.com/" },
+  { name: "Bloppung" },
+  { name: "Marshall", source: "https://www.marshall.com/" },
+  { name: "Philips", source: "https://www.philips.co.in/" },
+  { name: "Borussel" },
+  { name: "Smur" },
+  { name: "Kent", source: "https://www.kent.co.in/" },
+  { name: "Farrosa" },
+  { name: "Bombay Shaving Company", source: "https://bombayshavingcompany.com/" },
+];
+
+function findCatalogueBrand(searchName: string) {
+  return HOMEPAGE_PARTNER_BRAND_CANDIDATES.find(
+    (brand) => brand.name.toLowerCase() === searchName.toLowerCase(),
+  );
+}
+
+function toBrandItem(name: string, searchName: string, logo?: string): BrandLogoItem {
+  const catalogueBrand = findCatalogueBrand(searchName);
+  return {
+    name,
+    ...(logo || (catalogueBrand && resolveBrandLogoSrc(catalogueBrand.slug))
+      ? { src: logo ?? resolveBrandLogoSrc(catalogueBrand!.slug) }
+      : {}),
+    href: `/gifts?q=${encodeURIComponent(searchName)}`,
+  };
+}
+
+/** Keep the original set and add requested marks, deduplicating Jack&Jones. */
+export function getHomepagePartnerBrands(): BrandLogoItem[] {
+  const originals = ORIGINAL_BRAND_ITEMS.map(({ name, slug, searchName }) =>
+    toBrandItem(name, searchName, resolveBrandLogoSrc(slug)),
+  );
+  const originalKeys = new Set(originals.map((brand) => brand.name.toLowerCase().replace(/[^a-z0-9]/g, "")));
+  const additions = REQUESTED_HOMEPAGE_BRANDS
+    .filter(({ name, searchName = name }) => {
+      const matchKey = name.toLowerCase().replace(/[^a-z0-9]/g, "");
+      const searchKey = searchName.toLowerCase().replace(/[^a-z0-9]/g, "");
+      return !originalKeys.has(matchKey) && !originalKeys.has(searchKey);
+    })
+    .map(({ name, searchName = name }) => toBrandItem(name, searchName, REQUESTED_BRAND_LOGOS[name]));
+
+  return [...originals, ...additions];
 }

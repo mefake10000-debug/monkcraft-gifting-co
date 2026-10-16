@@ -4,10 +4,7 @@ import type { CSSProperties } from "react";
 
 export type BrandLogoItem = {
   name: string;
-  /**
-   * Verified logo under /public (e.g. /brands/{slug}-logo.svg).
-   * Omit for typography-only interim — never invent or fake a mark.
-   */
+  /** Verified logo mark under /public (e.g. /brands/{slug}-logo.svg). */
   src?: string;
   href?: string;
 };
@@ -27,19 +24,15 @@ function BrandLogoMark({
   /** Set false for the duplicated loop track (aria-hidden, non-focusable) */
   interactive?: boolean;
 }) {
-  const content = brand.src ? (
+  const content = (
     <Image
       className="brand-marquee__image"
-      src={brand.src}
+      src={brand.src!}
       alt={interactive && !brand.href ? brand.name : ""}
       width={140}
       height={48}
-      sizes="(max-width: 640px) 100px, 140px"
+      sizes="(max-width: 640px) 64px, 80px"
     />
-  ) : (
-    <span className="brand-marquee__name" aria-hidden={!interactive}>
-      {brand.name}
-    </span>
   );
 
   if (interactive && brand.href) {
@@ -71,28 +64,30 @@ export function BrandLogoMarquee({
   ariaLabel = "Brands in our catalogue",
   className,
 }: BrandLogoMarqueeProps) {
-  if (brands.length === 0) {
+  // A logo-only row should never substitute a text wordmark for a missing mark.
+  const logoBrands = brands.filter((brand) => Boolean(brand.src));
+  if (logoBrands.length === 0) {
     return null;
   }
 
-  const hasAnyLogo = brands.some((brand) => Boolean(brand.src));
   const trackClassName = [
     "brand-marquee",
-    hasAnyLogo ? "brand-marquee--logos" : "brand-marquee--names",
+    "brand-marquee--logos",
     className,
   ]
     .filter(Boolean)
     .join(" ");
   const trackStyle = {
-    "--brand-marquee-duration": `${Math.max(64, brands.length * 1.5)}s`,
+    "--brand-marquee-duration": `${Math.max(42, logoBrands.length * 2.2)}s`,
   } as CSSProperties;
+  const shouldLoop = logoBrands.length >= 8;
 
   return (
     <section className={trackClassName} aria-label={ariaLabel}>
       <div className="brand-marquee__viewport">
-        <div className="brand-marquee__track" style={trackStyle}>
+        <div className={`brand-marquee__track${shouldLoop ? "" : " brand-marquee__track--static"}`} style={trackStyle}>
           <div className="brand-marquee__group">
-            {brands.map((brand) => (
+            {logoBrands.map((brand) => (
               <BrandLogoMark
                 key={`a-${brand.name}-${brand.src ?? "name"}`}
                 brand={brand}
@@ -100,15 +95,17 @@ export function BrandLogoMarquee({
             ))}
           </div>
           {/* Duplicate for seamless loop; hidden from AT */}
-          <div className="brand-marquee__group" aria-hidden="true">
-            {brands.map((brand) => (
-              <BrandLogoMark
-                key={`b-${brand.name}-${brand.src ?? "name"}`}
-                brand={brand}
-                interactive={false}
-              />
-            ))}
-          </div>
+          {shouldLoop && (
+            <div className="brand-marquee__group" aria-hidden="true">
+              {logoBrands.map((brand) => (
+                <BrandLogoMark
+                  key={`b-${brand.name}-${brand.src ?? "name"}`}
+                  brand={brand}
+                  interactive={false}
+                />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </section>

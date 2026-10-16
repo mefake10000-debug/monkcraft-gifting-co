@@ -89,8 +89,24 @@ export const REQUESTED_HOMEPAGE_BRANDS: { name: string; searchName?: string }[] 
 const REQUESTED_BRAND_LOGOS: Record<string, string> = {
   Adidas: "/brands/adidas-logo.svg",
   Reebok: "/brands/reebok-logo.svg",
+  "United Colors of Benetton": "/brands/benetton-logo.svg",
+  Assembly: "/brands/assembly-logo.svg",
+  Jockey: "/brands/jockey-logo.png",
+  Mukubaara: "/brands/mokobara-logo.svg",
+  "Tommy Hilfiger": "/brands/tommy-hilfiger-logo.png",
+  Eumi: "/brands/eume-logo.png",
+  "American Tourist": "/brands/american-tourister-logo.webp",
+  "Alan Solly": "/brands/allen-solly-logo.png",
+  "My Paperclip": "/brands/my-paperclip-logo.png",
+  "Cookie Man": "/brands/cookie-man-logo.png",
+  "Engine Terrain": "/brands/indian-terrain-logo.png",
+  "The Whole Truth": "/brands/whole-truth-logo.svg",
   JBL: "/brands/jbl-logo.svg",
+  Marshall: "/brands/marshall-logo.png",
+  Philips: "/brands/philips-logo.svg",
+  Kent: "/brands/kent-logo.svg",
   Sony: "/brands/sony-logo.svg",
+  "Bombay Shaving Company": "/brands/bombay-shaving-company-logo.png",
 };
 
 const ORIGINAL_BRAND_ITEMS: { name: string; slug: string; searchName: string }[] = [
@@ -113,31 +129,15 @@ const ORIGINAL_BRAND_ITEMS: { name: string; slug: string; searchName: string }[]
   { name: "Hummel", slug: "hummel", searchName: "Hummel" },
 ];
 
-/** Official-site candidates are documentation only until logo assets are reviewed. */
+/** Identities/assets still needing confirmation; these stay out of the logo strip. */
 export const PENDING_BRAND_LOGO_CANDIDATES: { name: string; source?: string }[] = [
   { name: "Nooe" },
-  { name: "United Colors of Benetton", source: "https://www.benetton.com/" },
-  { name: "Assembly", source: "https://assemblylabel.com/" },
   { name: "Columbia", source: "https://www.columbia.com/" },
-  { name: "Jockey", source: "https://www.jockey.in/" },
-  { name: "Mukubaara — possible match: Mokobara", source: "https://mokobara.com/" },
-  { name: "Napa Dori — possible match: NAPPA DORI", source: "https://www.nappadori.com/" },
-  { name: "Tommy Hilfiger", source: "https://in.tommy.com/" },
-  { name: "Eumi" },
-  { name: "American Tourist — possible match: American Tourister", source: "https://americantourister.in/" },
-  { name: "Alan Solly — possible match: Allen Solly", source: "https://allensolly.abfrl.in/" },
-  { name: "My Paperclip" },
-  { name: "Cookie Man" },
-  { name: "Engine Terrain — possible match: Indian Terrain", source: "https://indianterrain.com/" },
-  { name: "The Whole Truth", source: "https://thewholetruthfoods.com/" },
+  { name: "Napa Dori", source: "https://www.nappadori.com/" },
   { name: "Bloppung" },
-  { name: "Marshall", source: "https://www.marshall.com/" },
-  { name: "Philips", source: "https://www.philips.co.in/" },
   { name: "Borussel" },
   { name: "Smur" },
-  { name: "Kent", source: "https://www.kent.co.in/" },
   { name: "Farrosa" },
-  { name: "Bombay Shaving Company", source: "https://bombayshavingcompany.com/" },
 ];
 
 function findCatalogueBrand(searchName: string) {

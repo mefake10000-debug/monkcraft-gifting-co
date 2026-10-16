@@ -75,6 +75,19 @@ test('homepage thoughtful-gifts section keeps the brand film alongside its story
  assert.match(section,/monkcraft-what-we-do-desktop\.mp4/);
  assert.match(section,/Thoughtful gifts, made personal\./);
 });
+test('homepage brand marquee renders every requested brand only when its verified mark exists',()=>{
+ const brands=require('../src/data/partnerBrands.ts');
+ const items=brands.getHomepagePartnerBrands();
+ for(const requested of brands.REQUESTED_HOMEPAGE_BRANDS){
+  const key=requested.name.toLowerCase().replace(/[^a-z0-9]/g,'');
+  const item=items.find(candidate=>candidate.name.toLowerCase().replace(/[^a-z0-9]/g,'')===key || (requested.searchName && candidate.name.toLowerCase().replace(/[^a-z0-9]/g,'')===requested.searchName.toLowerCase().replace(/[^a-z0-9]/g,'')));
+  assert.ok(item,`${requested.name} should stay in the homepage list`);
+  if(item.src) assert.ok(fs.existsSync(path.join(process.cwd(),'public',item.src)),`${requested.name} should use a verified local logo asset`);
+ }
+ assert.equal(items.filter(item=>item.name==='Jack&Jones'||item.name==='Jack in Jones').length,1);
+ assert.ok(brands.REQUESTED_HOMEPAGE_BRANDS.filter(requested=>items.some(item=>item.src&&(item.name===requested.name || item.name===requested.searchName))).length>=18,'verified marks should cover the requested brand set');
+ assert.equal(items.length,44,'keep the original brands and requested brands, deduplicating Jack&Jones');
+});
 test('header gives catalog search a compact, accessible search icon',()=>{
  const header=fs.readFileSync(path.join(process.cwd(),'src/components/SiteHeader.tsx'),'utf8');
  assert.match(header,/site-header__search/);
@@ -226,20 +239,22 @@ test('Build a Box estimates packaging by product variety and includes dispatch i
 test('homepage brand scroll uses verified image marks and links to catalogue results',()=>{
  const {getHomepagePartnerBrands}=require('../src/data/partnerBrands.ts');
  const brands=getHomepagePartnerBrands();
- assert.equal(brands.length,28);
- assert.equal(brands[0].name,'Nooe');
- assert.equal(brands.at(-1).name,'Bombay Shaving Company');
+ assert.equal(brands.length,44);
+ assert.equal(brands[0].name,'Urban Gear');
+  assert.equal(brands.at(-1).name,'Bombay Shaving Company');
+ assert.equal(brands.filter(brand=>brand.src).length,37);
  for(const brand of brands){
   assert.ok(brand.href,`${brand.name} is actionable`);
   if(brand.src) assert.ok(fs.existsSync(path.join(process.cwd(),'public',brand.src.replace(/^\//,'')),`${brand.name} logo file exists`));
   assert.match(brand.href,/^\/gifts\?q=/);
  }
 });
-test('company stores landing pairs the brand film with the responsive brief film',()=>{
+test('company stores landing shows only its responsive brief film',()=>{
  const page=fs.readFileSync(path.join(process.cwd(),'src/app/company-stores/page.tsx'),'utf8');
- assert.match(page,/company-store-brand-film/);
  assert.match(page,/company-store-brief/);
- assert.match(page,/monkcraft-what-we-do-mobile\.mp4/);
+ assert.match(page,/monkcraft-company-store-brief-mobile\.mp4/);
+ assert.doesNotMatch(page,/company-store-brand-film/);
+ assert.doesNotMatch(page,/monkcraft-what-we-do-mobile\.mp4/);
  assert.match(page,/monkcraft-company-store-brief-mobile\.mp4/);
  assert.match(page,/monkcraft-company-store-brief-desktop\.mp4/);
 });

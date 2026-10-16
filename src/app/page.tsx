@@ -16,6 +16,7 @@ import { getHomepagePartnerBrands } from "@/data/partnerBrands";
  * Catalogue brands with verified marks (`src/data/partnerBrands.ts`).
  */
 const partnerBrands = getHomepagePartnerBrands();
+const visibleBrandCount = partnerBrands.filter((brand) => brand.src).length;
 
 export default function Home() {
   return (
@@ -49,7 +50,7 @@ export default function Home() {
 
       <BrandLogoMarquee
         brands={partnerBrands}
-        ariaLabel={`Browse all ${partnerBrands.length} featured brands`}
+        ariaLabel={`Browse ${visibleBrandCount} featured brand logos`}
       />
       <WhatWeDo />
       <GiftIdeas />

@@ -27,3 +27,19 @@ mark is published. Retrieved 15 October 2026.
 | Reebok | `reebok-logo.svg` | Simple Icons v15 vector ([source](https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/reebok.svg)); brand artwork remains owned by Reebok |
 | JBL | `jbl-logo.svg` | Simple Icons v15 vector ([source](https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/jbl.svg)); brand artwork remains owned by JBL |
 | Sony | `sony-logo.svg` | Simple Icons v15 vector ([source](https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/sony.svg)); brand artwork remains owned by Sony |
+| United Colors of Benetton | `benetton-logo.svg` | [Benetton](https://world.benetton.com/) |
+| Assembly | `assembly-logo.svg` | [Assembly Label](https://assemblylabel.com/) |
+| Jockey | `jockey-logo.png` | [Jockey India](https://www.jockey.in/) |
+| Mokobara (listed as Mukubaara) | `mokobara-logo.svg` | [Mokobara](https://mokobara.com/) |
+| Tommy Hilfiger | `tommy-hilfiger-logo.png` | [Tommy Hilfiger India](https://in.tommy.com/) |
+| EUME (listed as Eumi) | `eume-logo.png` | [EUME](https://eumeworld.com/) |
+| American Tourister (listed as American Tourist) | `american-tourister-logo.webp` | [American Tourister India](https://americantourister.in/) |
+| Allen Solly (listed as Alan Solly) | `allen-solly-logo.png` | [Allen Solly](https://allensolly.abfrl.in/) |
+| My Paperclip | `my-paperclip-logo.png` | [My Paperclip](https://mypaperclip.in/) |
+| Cookie Man | `cookie-man-logo.png` | [Cookie Man India](https://cookiemanindia.com/) |
+| Indian Terrain (listed as Engine Terrain) | `indian-terrain-logo.png` | [Indian Terrain](https://indianterrain.com/) |
+| The Whole Truth | `whole-truth-logo.svg` | [The Whole Truth](https://thewholetruthfoods.com/) |
+| Marshall | `marshall-logo.png` | [Marshall](https://www.marshall.com/) |
+| Philips | `philips-logo.svg` | [Philips India](https://www.philips.co.in/) |
+| Kent | `kent-logo.svg` | [KENT](https://www.kent.co.in/) |
+| Bombay Shaving Company | `bombay-shaving-company-logo.png` | [Bombay Shaving Company](https://bombayshavingcompany.com/) |

@@ -98,25 +98,6 @@ export default function CompanyStoresLandingPage() {
           </div>
         </section>
 
-        <section className="cs-store-flow" aria-labelledby="cs-store-flow-title">
-          <div className="cs-store-flow__heading">
-            <p className="cs-landing__eyebrow">Simple by design</p>
-            <h2 id="cs-store-flow-title">A brilliant branded merchandise experience.</h2>
-            <p>
-              You choose the products and set the credit allowance. Your employees
-              get a familiar online store, then we brand, pack, and deliver their
-              choices to the address they provide.
-            </p>
-          </div>
-          <ol className="cs-store-flow__steps">
-            <li><span>01</span><h3>Choose the range</h3><p>You and our team agree a focused collection of 1–30 products.</p></li>
-            <li><span>02</span><h3>Set employee credits</h3><p>Choose the credit amount employees can redeem against the collection.</p></li>
-            <li><span>03</span><h3>Shop and redeem</h3><p>Employees browse the branded store and choose products within their allowance.</p></li>
-            <li><span>04</span><h3>We brand and deliver</h3><p>They enter a delivery address; we personalise the products and ship to them.</p></li>
-          </ol>
-          <Link className="cs-btn cs-btn--primary" href="/company-stores/configure">Explore the store demo</Link>
-        </section>
-
         <section className="cs-section" aria-labelledby="cs-how-heading">
           <h2 id="cs-how-heading" className="cs-section__title">
             How a Company Store works

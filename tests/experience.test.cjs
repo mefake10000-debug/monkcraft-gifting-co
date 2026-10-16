@@ -84,9 +84,9 @@ test('homepage brand marquee renders every requested brand only when its verifie
   assert.ok(item,`${requested.name} should stay in the homepage list`);
   if(item.src) assert.ok(fs.existsSync(path.join(process.cwd(),'public',item.src)),`${requested.name} should use a verified local logo asset`);
  }
- assert.equal(items.filter(item=>item.name==='Jack&Jones'||item.name==='Jack in Jones').length,1);
+ assert.equal(items.filter(item=>item.name.toLowerCase().replace(/[^a-z0-9]/g,'')==='jackjones').length,1);
  assert.ok(brands.REQUESTED_HOMEPAGE_BRANDS.filter(requested=>items.some(item=>item.src&&(item.name===requested.name || item.name===requested.searchName))).length>=18,'verified marks should cover the requested brand set');
- assert.equal(items.length,44,'keep the original brands and requested brands, deduplicating Jack&Jones');
+ assert.equal(items.length,160,'include HustleMad, Monkcraft, and retained brands without duplicates');
 });
 test('header gives catalog search a compact, accessible search icon',()=>{
  const header=fs.readFileSync(path.join(process.cwd(),'src/components/SiteHeader.tsx'),'utf8');
@@ -239,14 +239,27 @@ test('Build a Box estimates packaging by product variety and includes dispatch i
 test('homepage brand scroll uses verified image marks and links to catalogue results',()=>{
  const {getHomepagePartnerBrands}=require('../src/data/partnerBrands.ts');
  const brands=getHomepagePartnerBrands();
- assert.equal(brands.length,44);
- assert.equal(brands[0].name,'Urban Gear');
-  assert.equal(brands.at(-1).name,'Bombay Shaving Company');
- assert.equal(brands.filter(brand=>brand.src).length,37);
+ assert.ok(brands.length>=145);
+ assert.equal(brands[0].name,'Monkcraft');
+ assert.ok(brands.some(brand=>brand.name==='Bombay Shaving Company'));
+ assert.ok(brands.filter(brand=>brand.src).length>=128);
  for(const brand of brands){
   assert.ok(brand.href,`${brand.name} is actionable`);
   if(brand.src) assert.ok(fs.existsSync(path.join(process.cwd(),'public',brand.src.replace(/^\//,'')),`${brand.name} logo file exists`));
-  assert.match(brand.href,/^\/gifts\?q=/);
+  if(brand.name==='Monkcraft') assert.equal(brand.href,'/');
+  else assert.match(brand.href,/^\/gifts\?q=/);
+ }
+});
+test('homepage brand scroll includes HustleMad-sourced D2C marks and the Monkcraft mark',()=>{
+ const brands=require('../src/data/partnerBrands.ts').getHomepagePartnerBrands();
+ assert.equal(brands.filter(brand=>brand.source==='hustlemad').length,128);
+ const monkcraft=brands.find(brand=>brand.name==='Monkcraft');
+ assert.ok(monkcraft,'Monkcraft belongs in the marquee');
+ assert.equal(monkcraft.src,'/brand/Monkcraft-Black-Horizontal.png');
+ assert.equal(monkcraft.href,'/');
+ for(const brand of brands.filter(item=>item.source==='hustlemad')){
+  assert.ok(brand.src&&fs.existsSync(path.join(process.cwd(),'public',brand.src)),`${brand.name} logo is locally hosted`);
+  assert.ok(brand.href&&brand.href.startsWith('/gifts?q='),`${brand.name} links to its brand catalogue`);
  }
 });
 test('company stores landing shows only its responsive brief film',()=>{

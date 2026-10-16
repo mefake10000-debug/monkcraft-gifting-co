@@ -7,6 +7,7 @@ export type BrandLogoItem = {
   /** Verified logo mark under /public (e.g. /brands/{slug}-logo.svg). */
   src?: string;
   href?: string;
+  source?: "hustlemad";
 };
 
 export type BrandLogoMarqueeProps = {

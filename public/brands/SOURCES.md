@@ -1,5 +1,13 @@
 # Logo source record
 
+The 128 D2C and retail brand marks under `public/brands/hustlemad/` were
+retrieved from HustleMad's public brand-logo feed on 17 October 2026. Their
+source names, order, and local paths are recorded in
+`src/data/hustlemadBrandLogos.json`.
+
+Feed: [HustleMad](https://www.hustlemad.com/) ·
+Logo API: `https://apis.hustlemad.com/brandLogo`
+
 Logo files are stored locally; the app does not hotlink to third-party image
 servers. Each source below is the brand's official site, where the corresponding
 mark is published. Retrieved 15 October 2026.

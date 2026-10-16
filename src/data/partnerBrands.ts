@@ -1,5 +1,6 @@
 import type { BrandLogoItem } from "@/components/BrandLogoMarquee";
 import catalogueBrands from "@/data/catalogue/export/brands.json";
+import hustlemadBrandLogos from "@/data/hustlemadBrandLogos.json";
 
 /**
  * Homepage partner / catalogue-brand strip candidates.
@@ -8,9 +9,9 @@ import catalogueBrands from "@/data/catalogue/export/brands.json";
  * House brand `monkcraft` is excluded (platform, not a partner mark).
  * Unnamed / null brand rows are excluded.
  *
- * `logoSrc` is resolved only from verified files in `public/brands/` — never
- * invent logos. The marquee preserves its original partner set and appends
- * requested brands when a verified local mark is available.
+ * Existing catalogue brand lookup remains available for search surfaces.
+ * Homepage marks are resolved only from verified local files or HustleMad's
+ * supplied logo feed; no marks are fabricated.
  */
 
 export type PartnerBrandCandidate = {
@@ -157,19 +158,32 @@ function toBrandItem(name: string, searchName: string, logo?: string): BrandLogo
   };
 }
 
-/** Keep the original set and add requested marks, deduplicating Jack&Jones. */
+/** Show HustleMad's marks with Monkcraft and the retained original/requested set. */
 export function getHomepagePartnerBrands(): BrandLogoItem[] {
-  const originals = ORIGINAL_BRAND_ITEMS.map(({ name, slug, searchName }) =>
-    toBrandItem(name, searchName, resolveBrandLogoSrc(slug)),
-  );
-  const originalKeys = new Set(originals.map((brand) => brand.name.toLowerCase().replace(/[^a-z0-9]/g, "")));
-  const additions = REQUESTED_HOMEPAGE_BRANDS
-    .filter(({ name, searchName = name }) => {
-      const matchKey = name.toLowerCase().replace(/[^a-z0-9]/g, "");
-      const searchKey = searchName.toLowerCase().replace(/[^a-z0-9]/g, "");
-      return !originalKeys.has(matchKey) && !originalKeys.has(searchKey);
-    })
+  const hustleMadBrands: BrandLogoItem[] = hustlemadBrandLogos.map(({ name, src, source }) => ({
+    name,
+    src,
+    source: source as "hustlemad",
+    href: `/gifts?q=${encodeURIComponent(name)}`,
+  }));
+  const brandKey = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const hustleMadKeys = new Set(hustleMadBrands.map((brand) => brandKey(brand.name)));
+  const originalOnly = ORIGINAL_BRAND_ITEMS
+    .filter(({ name, searchName }) => !hustleMadKeys.has(brandKey(name)) && !hustleMadKeys.has(brandKey(searchName)))
+    .map(({ name, searchName, slug }) => toBrandItem(name, searchName, resolveBrandLogoSrc(slug)));
+  const includedKeys = new Set([...hustleMadBrands, ...originalOnly].map((brand) => brandKey(brand.name)));
+  const requestedOnly = REQUESTED_HOMEPAGE_BRANDS
+    .filter(({ name, searchName = name }) => !includedKeys.has(brandKey(name)) && !includedKeys.has(brandKey(searchName)))
     .map(({ name, searchName = name }) => toBrandItem(name, searchName, REQUESTED_BRAND_LOGOS[name]));
 
-  return [...originals, ...additions];
+  return [
+    {
+      name: "Monkcraft",
+      src: "/brand/Monkcraft-Black-Horizontal.png",
+      href: "/",
+    },
+    ...hustleMadBrands,
+    ...originalOnly,
+    ...requestedOnly,
+  ];
 }

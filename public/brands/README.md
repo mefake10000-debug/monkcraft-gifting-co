@@ -1,9 +1,11 @@
-# Catalogue brand marks
+# Homepage brand marks
 
-The homepage scroller includes the brands selected for the landing page in
-`src/data/partnerBrands.ts`. Brands with a locally verified logo use that
-asset; brands without one appear as plain-text names. Each entry links to a
-catalogue search. Plain text is never presented as a logo.
+The homepage marquee includes the 128 logo marks supplied by HustleMad's
+public brand-logo feed, plus Monkcraft and retained catalogue/requested marks
+that are not in that feed. HustleMad images are hosted locally in
+`public/brands/hustlemad/`; each links to that brand's matching catalogue
+search. Monkcraft's own mark links to the homepage. The imported names, paths,
+and order are recorded in `src/data/hustlemadBrandLogos.json`.
 
 ## Add a logo
 

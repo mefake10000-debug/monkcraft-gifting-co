@@ -20,7 +20,7 @@ type BrandVideoBandProps = {
 };
 
 /**
- * Swag-inspired full-width play band with responsive portrait/landscape playback.
+ * Swag-inspired video feature with responsive portrait/landscape playback.
  */
 export function BrandVideoBand({
   id,
@@ -70,9 +70,10 @@ export function BrandVideoBand({
       aria-labelledby={titleId}
     >
       <div
-        className="brand-video-band__stage"
+        className={`brand-video-band__stage${playing ? " brand-video-band__stage--playing" : ""}`}
         style={{ backgroundImage: `url(${activePoster})` }}
       >
+        <div className="brand-video-band__art" aria-hidden="true" />
         <div className="brand-video-band__wash" aria-hidden="true" />
 
         {!playing ? (
@@ -83,16 +84,16 @@ export function BrandVideoBand({
             aria-label={`Play video: ${ariaLabel}`}
           >
             <span className="brand-video-band__play-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" width="48" height="48" focusable="false">
-                <circle cx="24" cy="24" r="23" fill="#ffffff" />
-                <path d="M19 15.5v17l14-8.5-14-8.5z" fill="#662F90" />
-              </svg>
+              <span className="brand-video-band__play-triangle" />
             </span>
             <span className="brand-video-band__copy">
               <span id={titleId} className="brand-video-band__title">
                 {title}
               </span>
-              <span className="brand-video-band__duration">{durationLabel}</span>
+              <span className="brand-video-band__meta">
+                <span className="brand-video-band__duration">{durationLabel}</span>
+                <span className="brand-video-band__watch">Watch the film</span>
+              </span>
             </span>
           </button>
         ) : (

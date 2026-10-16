@@ -1750,10 +1750,7 @@ body {
   opacity: 0.9;
 }
 
-/*
-  Brand video band — Swag-inspired full-width play strip.
-  Portrait film plays large with object-fit:contain (clarity over crop).
-*/
+/* Swag-inspired video hook: editorial copy paired with a clear landscape frame. */
 .brand-video-band {
   width: 100%;
   margin: 0;
@@ -1761,53 +1758,62 @@ body {
 
 .brand-video-band__stage {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(15rem, 0.82fr) minmax(0, 1.18fr);
   align-items: center;
-  justify-content: flex-start;
-  /* Swag-scale full-bleed play strip */
-  min-height: clamp(22rem, 48vw, 36rem);
-  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 5vw, 4.5rem);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  width: min(100%, 82rem);
+  min-height: clamp(24rem, 39vw, 34rem);
+  margin-inline: auto;
+  padding: clamp(1.75rem, 4vw, 3.5rem);
   overflow: hidden;
-  background-color: var(--mc-royal-purple);
+  border-radius: clamp(1.25rem, 2vw, 2rem);
+  background-color: #24182b;
   background-size: cover;
-  background-position: center right;
+  background-position: right center;
   background-repeat: no-repeat;
+  isolation: isolate;
+}
+
+.brand-video-band__art {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: blur(34px) saturate(0.84);
+  opacity: 0.38;
+  transform: scale(1.08);
 }
 
 .brand-video-band--lilac .brand-video-band__stage {
-  background-color: #662f90;
+  background-color: #2d1a3e;
 }
 
 .brand-video-band--apricot .brand-video-band__stage {
-  background-color: #d4895a;
+  background-color: #4b3025;
 }
 
 .brand-video-band--mint .brand-video-band__stage {
-  background-color: #4a7d6c;
+  background-color: #203d34;
 }
 
 .brand-video-band__wash {
   position: absolute;
-  inset: 0;
+  z-index: -1;
+  inset: 0 42% 0 0;
   pointer-events: none;
   background:
-    linear-gradient(
-      105deg,
-      rgb(102 47 144 / 92%) 0%,
-      rgb(102 47 144 / 72%) 38%,
-      rgb(102 47 144 / 28%) 68%,
-      rgb(102 47 144 / 8%) 100%
-    );
+    linear-gradient(90deg, rgb(34 21 45 / 97%) 0%, rgb(43 26 56 / 93%) 70%, rgb(43 26 56 / 0%) 100%);
 }
 
 .brand-video-band--apricot .brand-video-band__wash {
-  background: linear-gradient(
-    105deg,
-    rgb(212 137 90 / 92%) 0%,
-    rgb(212 137 90 / 70%) 40%,
-    rgb(212 137 90 / 25%) 70%,
-    rgb(212 137 90 / 6%) 100%
-  );
+  background: linear-gradient(90deg, rgb(59 38 29 / 97%) 0%, rgb(72 46 34 / 93%) 70%, rgb(72 46 34 / 0%) 100%);
+}
+
+.brand-video-band--mint .brand-video-band__wash {
+  background: linear-gradient(90deg, rgb(27 49 42 / 97%) 0%, rgb(34 62 53 / 93%) 70%, rgb(34 62 53 / 0%) 100%);
 }
 
 .brand-video-band__play {
@@ -1815,9 +1821,11 @@ body {
   z-index: 1;
   display: flex;
   align-items: center;
-  gap: 1.15rem;
+  gap: 1.1rem;
+  align-self: stretch;
+  justify-self: stretch;
   margin: 0;
-  padding: 0.35rem 0.5rem 0.35rem 0.35rem;
+  padding: clamp(0.75rem, 1.5vw, 1.25rem) 0;
   border: 0;
   background: transparent;
   color: #fff;
@@ -1828,7 +1836,7 @@ body {
 }
 
 .brand-video-band__play:hover {
-  transform: translateY(-2px);
+  transform: translateX(4px);
 }
 
 .brand-video-band__play:focus-visible {
@@ -1840,47 +1848,89 @@ body {
   display: grid;
   place-items: center;
   flex: 0 0 auto;
-  width: clamp(5.25rem, 9vw, 7rem);
-  height: clamp(5.25rem, 9vw, 7rem);
-  filter: drop-shadow(0 12px 28px rgb(0 0 0 / 28%));
+  width: clamp(3.5rem, 5vw, 4.75rem);
+  height: clamp(3.5rem, 5vw, 4.75rem);
+  border: 1px solid rgb(255 255 255 / 62%);
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 22%);
+  transition: transform 0.2s var(--mc-ease), background 0.2s var(--mc-ease);
 }
 
-.brand-video-band__play-icon svg {
-  width: 100%;
-  height: 100%;
+.brand-video-band__play:hover .brand-video-band__play-icon {
+  transform: scale(1.06);
+  background: #f4e9ff;
+}
+
+.brand-video-band__play-triangle {
+  width: 0;
+  height: 0;
+  margin-left: 0.2rem;
+  border-top: 0.65rem solid transparent;
+  border-bottom: 0.65rem solid transparent;
+  border-left: 0.95rem solid #662f90;
 }
 
 .brand-video-band__copy {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  align-items: flex-start;
+  gap: 0.75rem;
+  max-width: 27rem;
 }
 
 .brand-video-band__title {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4.5vw, 3.25rem);
+  font-size: clamp(1.8rem, 3.25vw, 3rem);
   font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
   color: #fff;
-  text-shadow: 0 2px 18px rgb(0 0 0 / 25%);
+  text-wrap: balance;
+  text-shadow: 0 2px 18px rgb(0 0 0 / 24%);
+}
+
+.brand-video-band__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.9rem;
 }
 
 .brand-video-band__duration {
   font-family: var(--font-ui);
-  font-size: clamp(1.05rem, 2vw, 1.35rem);
-  font-weight: 600;
-  color: rgb(255 255 255 / 92%);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: rgb(255 255 255 / 78%);
+}
+
+.brand-video-band__watch {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .brand-video-band__player {
   position: relative;
   z-index: 1;
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.85rem;
   width: 100%;
+}
+
+.brand-video-band__stage--playing {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-video-band__stage--playing .brand-video-band__wash {
+  opacity: 0;
 }
 
 .brand-video-band__frame {
@@ -1942,7 +1992,7 @@ body {
 }
 
 .brand-video-band--responsive .brand-video-band__stage {
-  min-height: clamp(24rem, 48vw, 42rem);
+  min-height: clamp(24rem, 39vw, 34rem);
 }
 
 .brand-video-band--responsive .brand-video-band__player {
@@ -1956,8 +2006,75 @@ body {
 
 @media (max-width: 719px) {
   .brand-video-band__stage {
+    display: flex;
+    min-height: clamp(25rem, 112vw, 35rem);
+    align-items: flex-end;
+    padding: 1.25rem;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 1.15rem;
+  }
+
+  .brand-video-band__art {
+    filter: blur(22px) saturate(0.82);
+    opacity: 0.34;
+  }
+
+  .brand-video-band__wash,
+  .brand-video-band--apricot .brand-video-band__wash,
+  .brand-video-band--mint .brand-video-band__wash {
+    inset: 42% 0 0;
+    background: linear-gradient(0deg, rgb(34 21 45 / 98%) 0%, rgb(43 26 56 / 84%) 64%, rgb(43 26 56 / 0%) 100%);
+  }
+
+  .brand-video-band--apricot .brand-video-band__wash {
+    background: linear-gradient(0deg, rgb(59 38 29 / 98%) 0%, rgb(72 46 34 / 84%) 64%, rgb(72 46 34 / 0%) 100%);
+  }
+
+  .brand-video-band--mint .brand-video-band__wash {
+    background: linear-gradient(0deg, rgb(27 49 42 / 98%) 0%, rgb(34 62 53 / 84%) 64%, rgb(34 62 53 / 0%) 100%);
+  }
+
+  .brand-video-band__play {
+    align-items: flex-end;
+    gap: 0.9rem;
+    padding: 0;
+  }
+
+  .brand-video-band__stage--playing {
     min-height: auto;
-    padding: 1.25rem 1rem;
+  }
+
+  .brand-video-band__copy {
+    gap: 0.5rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .brand-video-band__title {
+    font-size: clamp(1.6rem, 7.4vw, 2.25rem);
+  }
+
+  .brand-video-band__play-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .brand-video-band__play-triangle {
+    border-top-width: 0.5rem;
+    border-bottom-width: 0.5rem;
+    border-left-width: 0.75rem;
+  }
+
+  .brand-video-band__meta {
+    gap: 0.35rem 0.6rem;
+  }
+
+  .brand-video-band__duration {
+    font-size: 0.8rem;
+  }
+
+  .brand-video-band__watch {
+    font-size: 0.67rem;
   }
 
   .brand-video-band--fit-content .brand-video-band__stage {
@@ -1977,7 +2094,16 @@ body {
   }
 
   .brand-video-band--responsive .brand-video-band__stage {
+    min-height: clamp(25rem, 112vw, 35rem);
+    align-items: flex-end;
+    padding: 1.25rem;
+    border-radius: 1rem;
+  }
+
+  .brand-video-band--responsive .brand-video-band__stage--playing {
     min-height: auto;
+    align-items: center;
+    padding: 1rem;
   }
 
   .brand-video-band--responsive .brand-video-band__frame {

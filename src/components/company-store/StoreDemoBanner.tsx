@@ -17,10 +17,11 @@ export function StoreDemoBanner({
       <p>
         <strong>{label}</strong>
         {" — "}
-        Local browser draft only. No live auth, payments, inventory holds, or
-        real order submission.
+        {context === "employee"
+          ? "No live accounts, credit deductions, or shipments."
+          : "Preview only. No live accounts, credit deductions, inventory, or shipments."}
       </p>
-      <Link href="/company-stores">About Company Stores</Link>
+      {context !== "employee" ? <Link href="/company-stores">About Company Stores</Link> : null}
     </div>
   );
 }

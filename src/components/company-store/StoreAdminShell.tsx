@@ -32,10 +32,7 @@ import {
   writeCompanyStoreDraft,
 } from "@/lib/companyStore/draft";
 import { syncCompanyStoreDraftToBrief } from "@/lib/companyStore/briefSync";
-import {
-  buildCompanyStoreEnquiryText,
-  buildCompanyStoreRulesLabel,
-} from "@/lib/companyStore/enquiry";
+import { buildCompanyStoreEnquiryText } from "@/lib/companyStore/enquiry";
 import {
   clearStoreOrderRequests,
   readStoreOrderRequests,
@@ -48,6 +45,12 @@ import {
   readStudioLogoAsAsset,
 } from "@/lib/studio/logo";
 import { formatInrAmount } from "@/lib/pricing";
+import {
+  createDemoEmployee,
+  readDemoEmployee,
+  saveDemoEmployee,
+  type CompanyStoreDemoEmployee,
+} from "@/lib/companyStore/employeeProfile";
 
 const VIEWS = [
   { id: "overview", label: "Overview" },
@@ -57,6 +60,13 @@ const VIEWS = [
   { id: "preview", label: "Employee preview" },
   { id: "orders", label: "Draft order requests" },
   { id: "summary", label: "Configuration summary" },
+] as const;
+
+const SETUP_STEPS = [
+  { id: "branding", label: "Store identity", hint: "Name and brand your store" },
+  { id: "merchandise", label: "Product range", hint: "Curate 1–30 products" },
+  { id: "rules", label: "Credits & delivery", hint: "Agree how ordering works" },
+  { id: "preview", label: "Employee experience", hint: "Preview and create access" },
 ] as const;
 
 type ViewId = (typeof VIEWS)[number]["id"];
@@ -71,6 +81,13 @@ export function StoreAdminShell() {
   const viewParam = searchParams.get("view");
   const view: ViewId = isView(viewParam) ? viewParam : "overview";
   const { draft, ready } = useStoreDraft();
+  const activeStep = SETUP_STEPS.findIndex((step) => step.id === view);
+  const completedSteps = [
+    Boolean(draft.identity.companyName || draft.identity.storeName),
+    draft.productIds.length > 0 && draft.productIds.length <= 30,
+    draft.rules.ordering.allowanceMode !== "none",
+    false,
+  ];
 
   function setView(next: ViewId) {
     const params = new URLSearchParams(searchParams.toString());
@@ -94,52 +111,51 @@ export function StoreAdminShell() {
         <header className="cs-admin__header">
           <div>
             <p className="cs-landing__eyebrow" style={{ marginBottom: "0.35rem" }}>
-              Company Store configurator
+              Monkcraft · Company Stores
             </p>
-            <h1>Draft a proposed store</h1>
-            <p>
-              For Monkcraft reps and prospective customers. Everything saves in
-              this browser only — not a provisioned live store.
-            </p>
+            <h1>Build your company store</h1>
+            <p>Agree the brand, product range, and employee allowance in four simple steps.</p>
           </div>
           <div className="cs-landing__actions">
             <Link className="cs-btn cs-btn--ghost cs-btn--small" href="/company-stores">
-              Landing
+              About Company Stores
             </Link>
             <Link
               className="cs-btn cs-btn--primary cs-btn--small"
               href="/company-stores/preview"
             >
-              Open employee preview
+              Preview store
             </Link>
           </div>
         </header>
 
-        <div className="cs-admin__layout">
-          <nav className="cs-admin__nav" aria-label="Store admin sections">
-            {VIEWS.map((item) => (
-              <button
-                key={item.id}
-                type="button"
-                aria-current={view === item.id ? "true" : undefined}
-                onClick={() => setView(item.id)}
-              >
-                {item.label}
-              </button>
-            ))}
-          </nav>
+        <div className="cs-admin__stepper" aria-label="Store setup progress">
+          {SETUP_STEPS.map((item, index) => (
+            <button
+              key={item.id}
+              type="button"
+              className={activeStep === index ? "is-current" : completedSteps[index] ? "is-complete" : ""}
+              aria-current={activeStep === index ? "step" : undefined}
+              onClick={() => setView(item.id)}
+            >
+              <span className="cs-admin__step-number">{completedSteps[index] ? "✓" : `0${index + 1}`}</span>
+              <span><strong>{item.label}</strong><small>{item.hint}</small></span>
+            </button>
+          ))}
+        </div>
 
+        <div className="cs-admin__layout">
           <div className="cs-admin__panel">
             {!ready ? (
-              <p>Loading draft…</p>
+              <p>Loading store brief…</p>
             ) : view === "overview" ? (
               <OverviewPanel draft={draft} onNavigate={setView} />
             ) : view === "branding" ? (
-              <BrandingPanel />
+              <BrandingPanel onSaved={() => setView("merchandise")} />
             ) : view === "merchandise" ? (
               <MerchandisePanel draft={draft} />
             ) : view === "rules" ? (
-              <RulesPanel />
+              <RulesPanel onSaved={() => setView("preview")} />
             ) : view === "preview" ? (
               <PreviewPanel draft={draft} />
             ) : view === "orders" ? (
@@ -147,7 +163,43 @@ export function StoreAdminShell() {
             ) : (
               <SummaryPanel draft={draft} />
             )}
+            {ready && activeStep >= 0 ? (
+              <div className="cs-admin__step-actions">
+                <button
+                  type="button"
+                  className="cs-btn cs-btn--ghost"
+                  onClick={() => setView(activeStep === 0 ? "overview" : SETUP_STEPS[activeStep - 1].id)}
+                >
+                  {activeStep === 0 ? "Back to overview" : "Back"}
+                </button>
+                {activeStep < SETUP_STEPS.length - 1 && activeStep !== 0 && activeStep !== 2 ? (
+                  <button
+                    type="button"
+                    className="cs-btn cs-btn--primary"
+                    disabled={activeStep === 1 && draft.productIds.length === 0}
+                    onClick={() => setView(SETUP_STEPS[activeStep + 1].id)}
+                  >
+                    Continue to {SETUP_STEPS[activeStep + 1].label}
+                    <span aria-hidden="true"> →</span>
+                  </button>
+                ) : null}
+              </div>
+            ) : null}
           </div>
+
+          <aside className="cs-admin__summary" aria-label="Store brief summary">
+            <p className="cs-admin__summary-kicker">Your store brief</p>
+            <h2>{draft.identity.companyName || "New company store"}</h2>
+            <dl>
+              <div><dt>Store name</dt><dd>{draft.identity.storeName || "To be decided"}</dd></div>
+              <div><dt>Products</dt><dd>{draft.productIds.length} of 30 selected</dd></div>
+              <div><dt>Employee allowance</dt><dd>{draft.rules.ordering.allowanceCapInr ? formatInrAmount(draft.rules.ordering.allowanceCapInr) : "To be agreed"}</dd></div>
+              <div><dt>Access</dt><dd>{draft.rules.access.requireWorkEmail ? "Work email" : "To be agreed"}</dd></div>
+            </dl>
+            <p className="cs-admin__summary-note">Your progress saves in this browser as you go.</p>
+            <Link href="/company-stores/configure?view=orders" className="cs-admin__secondary-link">View demo orders</Link>
+            <Link href="/company-stores/configure?view=summary" className="cs-admin__secondary-link">View store summary</Link>
+          </aside>
         </div>
       </div>
     </div>
@@ -161,73 +213,34 @@ function OverviewPanel({
   draft: CompanyStoreDraft;
   onNavigate: (view: ViewId) => void;
 }) {
-  const name =
-    draft.identity.storeName ||
-    draft.identity.companyName ||
-    "Untitled store draft";
+  const complete = [
+    Boolean(draft.identity.companyName || draft.identity.storeName),
+    draft.productIds.length > 0,
+    draft.rules.ordering.allowanceMode !== "none",
+  ].filter(Boolean).length;
 
   return (
-    <div>
-      <h2>Store overview</h2>
-      <p className="cs-panel-lede">
-        Snapshot of your local draft. No employee accounts, revenue, or live
-        analytics are shown — those need a production backend.
-      </p>
-      <div className="cs-stat-row">
-        <div className="cs-stat">
-          <strong>{draft.productIds.length}</strong>
-          <span>Products selected</span>
-        </div>
-        <div className="cs-stat">
-          <strong>{draft.categories.length}</strong>
-          <span>Store categories</span>
-        </div>
-        <div className="cs-stat">
-          <strong>
-            {draft.identity.logo ? "Logo" : "No logo"}
-          </strong>
-          <span>Draft branding</span>
-        </div>
+    <div className="cs-admin-overview">
+      <div className="cs-admin-welcome">
+        <p className="cs-admin-welcome__eyebrow">Your store, thoughtfully set up</p>
+        <h2>Let’s build a store your people will love to use.</h2>
+        <p>We’ll agree the brand, choose a focused collection, set the employee allowance, and review the shopping experience together.</p>
+        <button type="button" className="cs-btn cs-btn--primary" onClick={() => onNavigate("branding")}>Start the store brief <span aria-hidden="true">→</span></button>
       </div>
-      <article className="cs-tile">
-        <h3>{name}</h3>
-        <p>
-          {draft.identity.storeTitle || "No store title yet."}{" "}
-          {draft.updatedAt
-            ? `Last saved ${new Date(draft.updatedAt).toLocaleString("en-IN")}.`
-            : "Not saved yet."}
-        </p>
-        <p className="cs-field__hint" style={{ marginTop: "0.65rem" }}>
-          Rules: {buildCompanyStoreRulesLabel(draft)}
-        </p>
-      </article>
-      <div className="cs-actions">
-        <button
-          type="button"
-          className="cs-btn cs-btn--primary cs-btn--small"
-          onClick={() => onNavigate("branding")}
-        >
-          Edit branding
-        </button>
-        <button
-          type="button"
-          className="cs-btn cs-btn--secondary cs-btn--small"
-          onClick={() => onNavigate("merchandise")}
-        >
-          Select merchandise
-        </button>
-        <Link
-          className="cs-btn cs-btn--ghost cs-btn--small"
-          href="/company-stores/preview"
-        >
-          Employee preview
-        </Link>
+      <div className="cs-admin-welcome__progress">
+        <div><strong>{complete} of 3</strong><span>store decisions captured</span></div>
+        <div className="cs-admin-welcome__track"><span style={{ width: `${(complete / 3) * 100}%` }} /></div>
+      </div>
+      <div className="cs-admin-welcome__checklist">
+        <button type="button" onClick={() => onNavigate("branding")}><span>{draft.identity.companyName || draft.identity.storeName ? "✓" : "1"}</span><span><strong>Make it yours</strong><small>Company, store name and brand details</small></span><span aria-hidden="true">→</span></button>
+        <button type="button" onClick={() => onNavigate("merchandise")}><span>{draft.productIds.length ? "✓" : "2"}</span><span><strong>Curate the collection</strong><small>{draft.productIds.length ? `${draft.productIds.length} products selected` : "Choose 1 to 30 products"}</small></span><span aria-hidden="true">→</span></button>
+        <button type="button" onClick={() => onNavigate("rules")}><span>{draft.rules.ordering.allowanceMode !== "none" ? "✓" : "3"}</span><span><strong>Agree the programme</strong><small>Employee credits, access and delivery</small></span><span aria-hidden="true">→</span></button>
       </div>
     </div>
   );
 }
 
-function BrandingPanel() {
+function BrandingPanel({ onSaved }: { onSaved: () => void }) {
   const { draft } = useStoreDraft();
   const [error, setError] = useState("");
   const [status, setStatus] = useState("");
@@ -257,6 +270,7 @@ function BrandingPanel() {
       },
     });
     setStatus("Branding draft saved in this browser.");
+    onSaved();
   }
 
   async function onLogo(file: File | null) {
@@ -395,7 +409,7 @@ function BrandingPanel() {
         ) : null}
         <div className="cs-actions">
           <button type="submit" className="cs-btn cs-btn--primary">
-            Save branding draft
+            Save and continue
           </button>
         </div>
       </form>
@@ -461,6 +475,10 @@ function MerchandisePanel({ draft }: { draft: CompanyStoreDraft }) {
   }
 
   function addProduct(product: StudioProductSummary) {
+    if (draft.productIds.length >= 30) {
+      setError("A Company Store can include up to 30 products. Remove one to add another.");
+      return;
+    }
     addStoreProduct(product.id, draft.categories[0]?.id);
     setStatus(`Added “${product.name}”.`);
   }
@@ -481,10 +499,10 @@ function MerchandisePanel({ draft }: { draft: CompanyStoreDraft }) {
 
   return (
     <div>
-      <h2>Merchandise</h2>
+      <h2>Choose the product range</h2>
       <p className="cs-panel-lede">
-        Search the genuine Monkcraft catalogue and organise selections into store
-        categories. No invented products or stock levels.
+        Build a focused collection of 1–30 products with your Monkcraft partner.
+        Employees will only see the products selected here.
       </p>
 
       <form className="cs-search-row" onSubmit={search}>
@@ -542,10 +560,10 @@ function MerchandisePanel({ draft }: { draft: CompanyStoreDraft }) {
                   <button
                     type="button"
                     className="cs-btn cs-btn--primary cs-btn--small"
-                    disabled={inStore}
+                    disabled={inStore || draft.productIds.length >= 30}
                     onClick={() => addProduct(product)}
                   >
-                    {inStore ? "Added" : "Add"}
+                    {inStore ? "Added" : draft.productIds.length >= 30 ? "Range full" : "Add"}
                   </button>
                 </div>
               </li>
@@ -555,7 +573,7 @@ function MerchandisePanel({ draft }: { draft: CompanyStoreDraft }) {
       ) : null}
 
       <h3 style={{ fontFamily: "var(--font-display)", margin: "0 0 0.75rem" }}>
-        Selected for this store ({selected.length})
+        Selected for this store ({selected.length} / 30)
       </h3>
       {selected.length === 0 ? (
         <div className="cs-empty">
@@ -682,7 +700,7 @@ function MerchandisePanel({ draft }: { draft: CompanyStoreDraft }) {
   );
 }
 
-function RulesPanel() {
+function RulesPanel({ onSaved }: { onSaved: () => void }) {
   const { draft } = useStoreDraft();
   const formId = useId();
   const [status, setStatus] = useState("");
@@ -732,6 +750,7 @@ function RulesPanel() {
       },
     });
     setStatus("Draft rules saved. These are configuration notes — not live enforcement.");
+    onSaved();
   }
 
   const o = draft.rules.ordering;
@@ -739,13 +758,16 @@ function RulesPanel() {
 
   return (
     <div>
-      <h2>Access &amp; purchasing rules</h2>
+      <h2>Set credits and delivery</h2>
       <p className="cs-panel-lede">
-        <span className="cs-chip cs-chip--draft">Draft rules</span>{" "}
-        Configuration for a proposed store only. This demo does not enforce
-        security, payments, or real allowance balances.
+        Agree the employee experience together. These are planning details for
+        the store proposal and do not represent a live credit balance yet.
       </p>
       <form className="cs-form-grid" onSubmit={onSave}>
+        <section className="cs-rule-section">
+          <h3>Who can shop</h3>
+          <p>Keep the store for your people and the products selected for this programme.</p>
+        </section>
         <div className="cs-field">
           <label className="cs-check">
             <input
@@ -799,6 +821,10 @@ function RulesPanel() {
             />
           </div>
         </div>
+        <section className="cs-rule-section">
+          <h3>Employee credits and ordering</h3>
+          <p>Decide how much each employee can redeem and any limits that keep ordering simple.</p>
+        </section>
         <div className="cs-field">
           <label htmlFor={`${formId}-allowance`}>Allowance / funding mode</label>
           <select
@@ -806,9 +832,9 @@ function RulesPanel() {
             name="allowanceMode"
             defaultValue={o.allowanceMode}
           >
-            <option value="none">None / employee-funded discussion</option>
-            <option value="company-funded">Company-funded (draft)</option>
-            <option value="allowance-cap">Allowance cap (draft INR)</option>
+            <option value="none">To be agreed</option>
+            <option value="company-funded">Company-funded products</option>
+            <option value="allowance-cap">Set a per-employee allowance</option>
           </select>
         </div>
         <div className="cs-field">
@@ -852,6 +878,10 @@ function RulesPanel() {
             rows={2}
           />
         </div>
+        <section className="cs-rule-section">
+          <h3>Delivery</h3>
+          <p>Employees can provide their address at checkout; we brand, pack, and ship their order.</p>
+        </section>
         <div className="cs-field">
           <label htmlFor={`${formId}-delivery`}>Delivery preference</label>
           <select
@@ -881,7 +911,7 @@ function RulesPanel() {
         ) : null}
         <div className="cs-actions">
           <button type="submit" className="cs-btn cs-btn--primary">
-            Save draft rules
+            Save and continue
           </button>
         </div>
       </form>
@@ -891,18 +921,64 @@ function RulesPanel() {
 
 function PreviewPanel({ draft }: { draft: CompanyStoreDraft }) {
   const [device, setDevice] = useState<"desktop" | "mobile">("desktop");
+  const [employeeName, setEmployeeName] = useState("");
+  const [employeeEmail, setEmployeeEmail] = useState("");
+  const [employee, setEmployee] = useState<CompanyStoreDemoEmployee | null>(null);
+  const [employeeError, setEmployeeError] = useState("");
+  const [copied, setCopied] = useState(false);
   const title =
     draft.identity.storeName ||
     draft.identity.companyName ||
     "Untitled store";
 
+  useEffect(() => {
+    let active = true;
+    queueMicrotask(() => {
+      if (active) setEmployee(readDemoEmployee());
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  function createEmployee() {
+    setEmployeeError("");
+    try {
+      const nextEmployee = createDemoEmployee(employeeName, employeeEmail);
+      saveDemoEmployee(nextEmployee);
+      setEmployee(nextEmployee);
+    } catch (error) {
+      setEmployeeError(error instanceof Error ? error.message : "Could not create the employee preview.");
+    }
+  }
+
+  async function copyEmployeeId() {
+    if (!employee) return;
+    try {
+      await navigator.clipboard.writeText(employee.id);
+      setCopied(true);
+    } catch {
+      setEmployeeError("Could not copy the employee ID.");
+    }
+  }
+
   return (
     <div>
-      <h2>Employee-facing preview</h2>
+      <h2>Create employee access</h2>
       <p className="cs-panel-lede">
-        Opens the employee storefront demo with your draft branding and
-        merchandise. Clearly labelled as preview — not a live private store.
+        Add one employee to see how the curated store and allowance appear from
+        their side. This creates a unique demo profile in this browser.
       </p>
+      <div className="cs-employee-create">
+        <div className="cs-form-grid cs-form-grid--2">
+          <div className="cs-field"><label htmlFor="demo-employee-name">Employee name</label><input id="demo-employee-name" autoComplete="name" value={employeeName} onChange={(event) => setEmployeeName(event.target.value)} placeholder="e.g. Aanya Shah" /></div>
+          <div className="cs-field"><label htmlFor="demo-employee-email">Work email</label><input id="demo-employee-email" type="email" autoComplete="email" value={employeeEmail} onChange={(event) => setEmployeeEmail(event.target.value)} placeholder="name@company.com" /></div>
+        </div>
+        {employeeError ? <p className="cs-error" role="alert">{employeeError}</p> : null}
+        <div className="cs-actions"><button type="button" className="cs-btn cs-btn--primary" onClick={createEmployee}>{employee ? "Generate another preview profile" : "Create employee preview"}</button></div>
+        {employee ? <div className="cs-employee-card"><div><span className="cs-admin__summary-kicker">Unique demo employee ID</span><strong>{employee.id}</strong><small>{employee.name} · {employee.email}</small></div><button type="button" className="cs-btn cs-btn--ghost cs-btn--small" onClick={copyEmployeeId}>{copied ? "Copied" : "Copy ID"}</button></div> : null}
+        <p className="cs-field__hint">Demo profiles are saved only in this browser. Real employee accounts and invitation emails require authentication and backend setup.</p>
+      </div>
       <div className="cs-device-toggle" role="group" aria-label="Preview width">
         <button
           type="button"
@@ -1000,6 +1076,7 @@ function OrdersPanel() {
                   ? ` · est. ${formatInrAmount(req.estimatedTotalInr)}`
                   : " · total on quote"}
               </h3>
+              {req.employeeId ? <p className="cs-field__hint">Employee preview ID: {req.employeeId}</p> : null}
               <p className="cs-field__hint" style={{ margin: "0 0 0.5rem" }}>
                 {req.rulesLabel}
               </p>

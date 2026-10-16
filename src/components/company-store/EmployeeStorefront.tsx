@@ -19,6 +19,7 @@ import {
 import { useStoreDraft } from "@/lib/companyStore/useStoreDraft";
 import { fetchStudioProducts } from "@/lib/studio/fetchProducts";
 import { formatInrAmount } from "@/lib/pricing";
+import { readDemoEmployee, type CompanyStoreDemoEmployee } from "@/lib/companyStore/employeeProfile";
 
 export function EmployeeStorefront() {
   const { draft, ready } = useStoreDraft();
@@ -29,16 +30,24 @@ export function EmployeeStorefront() {
   const [order, setOrder] = useState(readStoreOrderDraft());
   const [prepStatus, setPrepStatus] = useState("");
   const [prepError, setPrepError] = useState("");
-  const [deliveryAddress, setDeliveryAddress] = useState({
-    fullName: "", phone: "", line1: "", line2: "", city: "", state: "", postalCode: "",
-  });
+  const [deliveryAddress, setDeliveryAddress] = useState(() =>
+    readStoreOrderDraft().deliveryAddress ?? {
+      fullName: "", phone: "", line1: "", line2: "", city: "", state: "", postalCode: "",
+    },
+  );
+  const [employee, setEmployee] = useState<CompanyStoreDemoEmployee | null>(null);
 
   useEffect(() => {
+    let active = true;
+    queueMicrotask(() => {
+      if (active) setEmployee(readDemoEmployee());
+    });
     const sync = () => setOrder(readStoreOrderDraft());
     sync();
     window.addEventListener(STORE_ORDER_EVENT, sync);
     window.addEventListener("storage", sync);
     return () => {
+      active = false;
       window.removeEventListener(STORE_ORDER_EVENT, sync);
       window.removeEventListener("storage", sync);
     };
@@ -111,6 +120,19 @@ export function EmployeeStorefront() {
   const estimated = storeOrderEstimatedTotal(order.lines);
   const rulesLabel = buildCompanyStoreRulesLabel(draft);
   const ordering = draft.rules.ordering;
+  const bagCount = order.lines.reduce((sum, line) => sum + line.quantity, 0);
+
+  function updateDeliveryAddress(field: keyof typeof deliveryAddress, value: string) {
+    const nextAddress = { ...deliveryAddress, [field]: value };
+    setDeliveryAddress(nextAddress);
+    writeStoreOrderDraft({ ...readStoreOrderDraft(), deliveryAddress: nextAddress });
+  }
+
+  function updateOrderNotes(value: string) {
+    const nextOrder = { ...readStoreOrderDraft(), notes: value, employeeId: employee?.id ?? order.employeeId };
+    setOrder(nextOrder);
+    writeStoreOrderDraft(nextOrder);
+  }
 
   function prepareRequest() {
     setPrepError("");
@@ -166,6 +188,7 @@ export function EmployeeStorefront() {
       lines: order.lines,
       notes: order.notes,
       deliveryAddress,
+      employeeId: employee?.id ?? order.employeeId,
       rulesLabel,
     });
     clearStoreOrderDraft();
@@ -216,21 +239,18 @@ export function EmployeeStorefront() {
               </p>
             </div>
           </div>
-          <div className="cs-landing__actions">
-            <Link
-              className="cs-btn cs-btn--ghost cs-btn--small"
-              href="/company-stores/configure"
-            >
-              Back to configurator
-            </Link>
-          </div>
+          <nav className="cs-storefront__actions" aria-label="Shop navigation">
+            {employee ? <p>Hi, <strong>{employee.name.split(" ")[0]}</strong><span className="cs-storefront__employee-id">ID {employee.id}</span></p> : null}
+            <a className="cs-storefront__bag-link" href="#store-bag">Your bag <span>{bagCount}</span></a>
+          </nav>
         </div>
       </header>
 
       <section className="cs-storefront__hero">
-        <h2>{draft.identity.storeName || "Your merch store"}</h2>
+        <p className="cs-storefront__eyebrow">{draft.identity.companyName || "Company Store"}</p>
+        <h2>{employee ? `Welcome, ${employee.name.split(" ")[0]}` : draft.identity.storeTitle || draft.identity.storeName || "Your merch store"}</h2>
         <p>{draft.identity.welcomeMessage}</p>
-        <p className="cs-store-credit">Company-funded allowance <strong>{ordering.allowanceCapInr != null ? formatInrAmount(ordering.allowanceCapInr) : "configured for your programme"}</strong></p>
+        <div className="cs-storefront__welcome-meta"><span>{products.length} curated products</span><span>{ordering.allowanceCapInr != null ? `Your allowance · ${formatInrAmount(ordering.allowanceCapInr)}` : "Chosen for your team"}</span></div>
       </section>
 
       {draft.productIds.length === 0 ? (
@@ -317,28 +337,12 @@ export function EmployeeStorefront() {
             )}
           </div>
 
-          <aside className="cs-cart" aria-label="Your bag and delivery details">
+          <aside id="store-bag" className="cs-cart" aria-label="Your bag and delivery details">
             <h2>Your bag</h2>
-            <div className="cs-rules-box">
-              <strong>Company-funded allowance · demo preview</strong>
-              {rulesLabel}
-              {ordering.allowanceMode === "allowance-cap" &&
-              ordering.allowanceCapInr != null ? (
-                <p style={{ margin: "0.5rem 0 0" }}>
-                  Cap reference: {formatInrAmount(ordering.allowanceCapInr)}
-                </p>
-              ) : null}
-              {ordering.requireApproval ? (
-                <p style={{ margin: "0.35rem 0 0" }}>
-                  Approval would be required in a provisioned store.
-                </p>
-              ) : null}
-            </div>
+            <div className="cs-rules-box"><strong>{ordering.allowanceCapInr != null ? `Your allowance · ${formatInrAmount(ordering.allowanceCapInr)}` : "Selected for your team"}</strong><span>{rulesLabel}</span></div>
 
             {order.lines.length === 0 ? (
-              <p className="cs-field__hint">
-                Your draft cart is empty. Open a product to add items.
-              </p>
+              <div className="cs-bag-empty"><span aria-hidden="true">＋</span><p>Your bag is ready when you are.</p><small>Choose something from the collection to get started.</small></div>
             ) : (
               <ul className="cs-cart__list">
                 {order.lines.map((line) => (
@@ -388,6 +392,7 @@ export function EmployeeStorefront() {
                       <button
                         type="button"
                         className="cs-btn cs-btn--ghost cs-btn--small"
+                        aria-label={`Remove ${line.name} from your bag`}
                         onClick={() =>
                           removeStoreOrderLine(line.productId, line.variants)
                         }
@@ -400,7 +405,7 @@ export function EmployeeStorefront() {
               </ul>
             )}
 
-            <p style={{ margin: "0 0 0.75rem", fontWeight: 600 }}>
+            {order.lines.length > 0 ? <><p className="cs-cart__total">
               Estimated catalogue value:{" "}
               {estimated != null ? formatInrAmount(estimated) : "Quote items"}
             </p>
@@ -408,13 +413,13 @@ export function EmployeeStorefront() {
             <div className="cs-checkout-fields">
               <h3 className="cs-checkout-heading">Delivery details</h3>
               <div className="cs-address-grid">
-                <label>Full name<input autoComplete="name" required value={deliveryAddress.fullName} onChange={(e) => setDeliveryAddress({...deliveryAddress, fullName:e.target.value})} /></label>
-                <label>Phone<input type="tel" autoComplete="tel" required value={deliveryAddress.phone} onChange={(e) => setDeliveryAddress({...deliveryAddress, phone:e.target.value})} /></label>
-                <label className="cs-address-grid__wide">Address<input autoComplete="street-address" required value={deliveryAddress.line1} onChange={(e) => setDeliveryAddress({...deliveryAddress, line1:e.target.value})} /></label>
-                <label className="cs-address-grid__wide">Apartment, suite, etc. <span>(optional)</span><input autoComplete="address-line2" value={deliveryAddress.line2} onChange={(e) => setDeliveryAddress({...deliveryAddress, line2:e.target.value})} /></label>
-                <label>City<input autoComplete="address-level2" required value={deliveryAddress.city} onChange={(e) => setDeliveryAddress({...deliveryAddress, city:e.target.value})} /></label>
-                <label>State<input autoComplete="address-level1" required value={deliveryAddress.state} onChange={(e) => setDeliveryAddress({...deliveryAddress, state:e.target.value})} /></label>
-                <label className="cs-address-grid__wide">PIN code<input autoComplete="postal-code" inputMode="numeric" required value={deliveryAddress.postalCode} onChange={(e) => setDeliveryAddress({...deliveryAddress, postalCode:e.target.value})} /></label>
+                <label>Full name<input autoComplete="name" required value={deliveryAddress.fullName} onChange={(e) => updateDeliveryAddress("fullName",e.target.value)} /></label>
+                <label>Phone<input type="tel" autoComplete="tel" required value={deliveryAddress.phone} onChange={(e) => updateDeliveryAddress("phone",e.target.value)} /></label>
+                <label className="cs-address-grid__wide">Address<input autoComplete="street-address" required value={deliveryAddress.line1} onChange={(e) => updateDeliveryAddress("line1",e.target.value)} /></label>
+                <label className="cs-address-grid__wide">Apartment, suite, etc. <span>(optional)</span><input autoComplete="address-line2" value={deliveryAddress.line2} onChange={(e) => updateDeliveryAddress("line2",e.target.value)} /></label>
+                <label>City<input autoComplete="address-level2" required value={deliveryAddress.city} onChange={(e) => updateDeliveryAddress("city",e.target.value)} /></label>
+                <label>State<input autoComplete="address-level1" required value={deliveryAddress.state} onChange={(e) => updateDeliveryAddress("state",e.target.value)} /></label>
+                <label className="cs-address-grid__wide">PIN code<input autoComplete="postal-code" inputMode="numeric" required value={deliveryAddress.postalCode} onChange={(e) => updateDeliveryAddress("postalCode",e.target.value)} /></label>
               </div>
             </div>
 
@@ -424,12 +429,7 @@ export function EmployeeStorefront() {
                 id="store-order-notes"
                 rows={2}
                 value={order.notes}
-                onChange={(event) =>
-                  writeStoreOrderDraft({
-                    ...order,
-                    notes: event.target.value,
-                  })
-                }
+                onChange={(event) => updateOrderNotes(event.target.value)}
                 placeholder="Delivery preference, sizing notes…"
               />
             </div>
@@ -465,6 +465,7 @@ export function EmployeeStorefront() {
               Your demo checkout saves a preview order and address in this browser.
               No live credits are deducted and no shipment is created.
             </p>
+            </> : null}
           </aside>
         </div>
       )}

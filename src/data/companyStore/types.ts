@@ -92,13 +92,14 @@ export type StoreOrderLine = {
 
 /**
  * Employee draft cart — local preview only.
- * Never stores private employee identity.
+ * Stores demo-only employee identity and delivery details in this browser.
  */
 export type StoreOrderDraft = {
   version: 1;
   lines: StoreOrderLine[];
   notes: string;
   deliveryAddress?: StoreDeliveryAddress;
+  employeeId?: string;
   updatedAt: string;
 };
 
@@ -123,6 +124,7 @@ export type StoreOrderRequest = {
   lines: StoreOrderLine[];
   notes: string;
   deliveryAddress?: StoreDeliveryAddress;
+  employeeId?: string;
   estimatedTotalInr: number | null;
   rulesLabel: string;
 };

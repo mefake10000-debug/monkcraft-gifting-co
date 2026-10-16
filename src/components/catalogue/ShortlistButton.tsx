@@ -1,11 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { ShortlistSnapshot } from "@/lib/shortlist";
 import {
   isShortlisted,
   readShortlist,
   toggleShortlist,
+  addToShortlist,
+  removeFromShortlist,
 } from "@/lib/shortlist";
 
 type ShortlistButtonProps = {
@@ -20,6 +22,9 @@ export function ShortlistButton({
   className,
 }: ShortlistButtonProps) {
   const [active, setActive] = useState(initiallyShortlisted);
+  const [feedback, setFeedback] = useState<string | null>(null);
+  const [error, setError] = useState('');
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const sync = () => setActive(isShortlisted(snapshot.id, readShortlist()));
@@ -29,10 +34,12 @@ export function ShortlistButton({
     return () => {
       window.removeEventListener("monkcraft:shortlist", sync);
       window.removeEventListener("storage", sync);
+      if (timer.current) clearTimeout(timer.current);
     };
   }, [snapshot.id]);
 
   return (
+    <>
     <button
       type="button"
       className={[
@@ -45,16 +52,24 @@ export function ShortlistButton({
       aria-pressed={active}
       aria-label={
         active
-          ? `Remove ${snapshot.name} from shortlist`
-          : `Save ${snapshot.name} to shortlist`
+          ? `Remove ${snapshot.name} from cart`
+          : `Add ${snapshot.name} to cart`
       }
       onClick={() => {
-        const next = toggleShortlist(snapshot);
-        setActive(next.some((item) => item.id === snapshot.id));
+        try {
+          const next = toggleShortlist(snapshot);
+          const saved = next.some((item) => item.id === snapshot.id);
+          setActive(saved); setFeedback(saved ? 'Saved' : 'Removed'); setError('');
+          if(timer.current) clearTimeout(timer.current);
+          timer.current = setTimeout(() => setFeedback(null), 5000);
+        } catch { setError('Could not save. Please try again.'); }
       }}
     >
       <span aria-hidden="true">{active ? "★" : "☆"}</span>
-      <span className="shortlist-btn__label">{active ? "Saved" : "Save"}</span>
+      <span className="shortlist-btn__label">{active ? "In cart" : "Add to cart"}</span>
     </button>
+    {feedback && <span className="save-feedback" role="status">{feedback} <button type="button" onClick={() => {try {if(active) removeFromShortlist(snapshot.id); else addToShortlist(snapshot);setActive(!active);setFeedback(null);} catch {setError('Could not undo. Please try again.');}}}>Undo</button></span>}
+    {error && <span className="save-feedback" role="alert">{error}</span>}
+    </>
   );
 }

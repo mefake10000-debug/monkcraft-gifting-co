@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C1",
+    "code": "C1",
+    "name": "Executive Writing",
+    "slug": "executive-writing",
+    "path": "executive-writing",
+    "sortOrder": 1
+  },
+  "productCount": 456,
+  "subcategoryCount": 4,
+  "subcategories": [
+    {
+      "id": "C1:desk-companions",
+      "categoryId": "C1",
+      "name": "Desk Companions",
+      "slug": "desk-companions",
+      "path": "executive-writing/desk-companions",
+      "sortOrder": 1,
+      "productCount": 133,
+      "dataFile": "by-subcategory/executive-writing/desk-companions.json"
+    },
+    {
+      "id": "C1:journals",
+      "categoryId": "C1",
+      "name": "Journals",
+      "slug": "journals",
+      "path": "executive-writing/journals",
+      "sortOrder": 2,
+      "productCount": 62,
+      "dataFile": "by-subcategory/executive-writing/journals.json"
+    },
+    {
+      "id": "C1:notebooks",
+      "categoryId": "C1",
+      "name": "Notebooks",
+      "slug": "notebooks",
+      "path": "executive-writing/notebooks",
+      "sortOrder": 3,
+      "productCount": 134,
+      "dataFile": "by-subcategory/executive-writing/notebooks.json"
+    },
+    {
+      "id": "C1:pens",
+      "categoryId": "C1",
+      "name": "Pens",
+      "slug": "pens",
+      "path": "executive-writing/pens",
+      "sortOrder": 4,
+      "productCount": 127,
+      "dataFile": "by-subcategory/executive-writing/pens.json"
+    }
+  ]
+}

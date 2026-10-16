@@ -1,0 +1,2466 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C10",
+    "code": "C10",
+    "name": "Awards & Trophies",
+    "slug": "awards-trophies",
+    "path": "awards-trophies",
+    "sortOrder": 10
+  },
+  "subcategory": {
+    "id": "C10:certificates-frames",
+    "categoryId": "C10",
+    "name": "Certificates & Frames",
+    "slug": "certificates-frames",
+    "path": "awards-trophies/certificates-frames",
+    "sortOrder": 1
+  },
+  "categoryProductCount": 83,
+  "productCount": 23,
+  "products": [
+    {
+      "slug": "antlia-photo-frame-with-clock",
+      "title": "Antlia Photo Frame with Clock",
+      "sku": "MGC-4237",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Photo frame with clock for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Antlia photo frame for branded gifting.",
+      "shortDescription": "Photo frame with clock for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Antlia photo frame for branded gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4237",
+        "Stock Update Date": "28 Aug 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Dimensions": "(L*W*H) 22.5 x 1.3 x 17.5 cm",
+        "Frame Material": "ABS plastic",
+        "Product Code": "MGC-4237"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 325.0,
+        "amountMinorUnits": 32500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 325.0,
+            "amountMinorUnits": 32500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613528
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/antlia-photo-frame-with-clock/0-master-4c0f6d7d9459.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "82bfd3a49b7ddd0ab8e1bbb8effb29ece73b17b648399a7982efbeb37d99689c"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/antlia-photo-frame-with-clock/1-angle-9b9120053f8b.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antlia Photo Frame with Clock – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e2f34bf1b85fd7e08c7cccf42435569e6b44e3bde010343d711dfcb5855a9aed"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/antlia-photo-frame-with-clock/2-angle-abab2478bc3d.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antlia Photo Frame with Clock – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4fbc51ca12ae612ddb070828d32098abe26f5d4bcab556aff0623a17422dc82a"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/antlia-photo-frame-with-clock/3-lifestyle-a28d4861b9df.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Antlia Photo Frame with Clock – Lifestyle View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "adfb14e5bffab3386caa4cb2aa9b64d72c8adf037959c72cc50ccd33bd718278"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/antlia-photo-frame-with-clock/4-angle-21f74d024187.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antlia Photo Frame with Clock – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c5f92aa51516917c11f851ba37d72a9adfb2b5e440902af8799aa63a6aada0ed"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/antlia-photo-frame-with-clock/5-angle-77b9be432aab.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antlia Photo Frame with Clock – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b90fd24d647f2cf0e926661cea13b740f69d4a398f3a69737445f44053dec61b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "auriga-photo-frame-with-clock",
+      "title": "Auriga Photo Frame with Clock",
+      "sku": "MGC-4238",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Photo frame with clock for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Auriga photo frame for branded gifting.",
+      "shortDescription": "Photo frame with clock for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Auriga photo frame for branded gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4238",
+        "Stock Update Date": "28 Aug 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Dimensions": "(L*W*H)  21 x 1.5 x 12.5 cm",
+        "Frame Material": "ABS plastic",
+        "Product Code": "MGC-4238"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 335.0,
+        "amountMinorUnits": 33500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 335.0,
+            "amountMinorUnits": 33500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613531
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/auriga-photo-frame-with-clock/0-master-ef0522e0dbf6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "838086cc60552c0fb9beb81ffc507547edd0131fcadbbb2f0e2b245a07694ee9"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/auriga-photo-frame-with-clock/1-angle-f7cccf4027ac.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Auriga Photo Frame with Clock – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fabaef629fb5f1a13c4253cee56c0672a96a81c4060514c317a52669c8081589"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/auriga-photo-frame-with-clock/2-angle-95f84f49a64e.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Auriga Photo Frame with Clock – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4b7cf7d3949646b725ac75f16a2a4857eaee47e4dd381943a724dfb62eb35650"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/auriga-photo-frame-with-clock/3-angle-c3b20495bb19.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Auriga Photo Frame with Clock – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7a34654eb9b150aadb41981be911a1e4120d321cc1843b1a4f2597b7c4f646cc"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/auriga-photo-frame-with-clock/4-lifestyle-22527edf792b.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Auriga Photo Frame with Clock – Lifestyle View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5db62a07b3a700dedbcc1606f723435c93dbae8d3dee1397e1889c977b2cb529"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/auriga-photo-frame-with-clock/5-angle-bf09a11229f6.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Auriga Photo Frame with Clock – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "28d25d0a2d7d020d3ec8de880d294dc6524e9631c37f5e4c9317c9f3413e4446"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "certificate-with-frame-cf-04",
+      "title": "Certificate With Frame - CF 04",
+      "sku": "MGC-4255",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom framed certificate for employee recognition, corporate awards, and annual day gifting — personalized certificate with premium frame for offices.",
+      "shortDescription": "Custom framed certificate for employee recognition, corporate awards, and annual day gifting — personalized certificate with premium frame for offices.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4255",
+        "Stock Availability": "99999",
+        "Product Code": "MGC-4255"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 300.0,
+        "amountMinorUnits": 30000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 300.0,
+            "amountMinorUnits": 30000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613581
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "$undefined"
+      },
+      "images": [],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants",
+          "images"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-10-x-10-0-75-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | 10\" x 10\" | 0.75” Frame",
+      "sku": "MGC-4245",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, 10×10, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, 10×10, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4245",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4245"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 355.0,
+        "amountMinorUnits": 35500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 355.0,
+            "amountMinorUnits": 35500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613551
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-10-x-10-0-75-frame/0-master-53561a6e7af9.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4c8bc41bfe257573a3c8f4c354a64f47843a24e3b390f04fc9c60237bb2f8a4f"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-10-x-10-0-75-frame/1-angle-6fc8cdf64f95.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate 10x10 0.75 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1fddd8039951159ae245c10d9b72e14e4494afab76d6f3aeeec9206b15d92610"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-10-x-10-1-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | 10\" x 10\" | 1” Frame",
+      "sku": "MGC-4246",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, 10×10, 1-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, 10×10, 1-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4246",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4246"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 355.0,
+        "amountMinorUnits": 35500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 355.0,
+            "amountMinorUnits": 35500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613556
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-10-x-10-1-frame/0-master-6abfb0fcfef5.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "87675f602ea2cab9e3a97772e4537cacfa1569089a3bff55cd37daf72210c8c5"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-10-x-10-1-frame/1-angle-08284f96b671.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate 10x10 1 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f68530d8b5016afb50bde2d91e270dc8616dc364dad988e89ff3b9efd854c18f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-6-x-6-0-75-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | 6\" x 6\" | 0.75” Frame",
+      "sku": "MGC-4244",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, 6×6, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, 6×6, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4244",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4244"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 255.0,
+        "amountMinorUnits": 25500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 255.0,
+            "amountMinorUnits": 25500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613549
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-6-x-6-0-75-frame/0-master-71ab86080645.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "db513cf1dc303dc31054fa54155b335af4e0618fc09b97062774e5e82e9ab863"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-6-x-6-0-75-frame/1-angle-26d5ac645b88.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate 6x6 0.75 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e1c23e664ca152594e741e98fa1ae5e6a1090b60c0ec992d020c0b5ec227d29"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-a3-0-75-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | A3 | 0.75” Frame",
+      "sku": "MGC-4250",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, A3, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, A3, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4250",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4250"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 505.0,
+        "amountMinorUnits": 50500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 505.0,
+            "amountMinorUnits": 50500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613567
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a3-0-75-frame/0-master-eb346079d39a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "aa1260125e31ecb7a1d98b1f1a67b6739eb6e45584cf1d7f5d2a0eab7e5c7789"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a3-0-75-frame/1-angle-52c1d73cb96d.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate A3 0.75 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f1f81caf471ec40fbebcce64c504613f176f6e6c4114142a5a3b266063f89371"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-a3-1-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | A3 | 1” Frame",
+      "sku": "MGC-4251",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, A3, 1-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, A3, 1-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4251",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4251"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 505.0,
+        "amountMinorUnits": 50500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 505.0,
+            "amountMinorUnits": 50500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613569
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a3-1-frame/0-master-4906444ce917.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "9d69a38c544be6ebaf840c5103dd6550e9e26eba5637ad0e69ccf25b256f7d63"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a3-1-frame/1-angle-b98996d3d58a.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate A3 1 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "30558db9cf9f08c486afb81ff95cf9252030a82d00eda3b737bdac084992bca4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-a4-0-75-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | A4 | 0.75” Frame",
+      "sku": "MGC-4247",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, A4, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, A4, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4247",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4247"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 365.0,
+        "amountMinorUnits": 36500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 365.0,
+            "amountMinorUnits": 36500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613559
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a4-0-75-frame/0-master-31112fbd6af1.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "502626c4b7f66380e500141d74677bd50b18d5c298fe3c7960ab2e54d3e33baa"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a4-0-75-frame/1-angle-09263e4692e8.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate A4 0.75 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b381f5e00333c43bcff3e7b65ac12dfab506bb0528cb4fac0a6a9bdc1d927226"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-a4-1-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | A4 | 1” Frame",
+      "sku": "MGC-4248",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, A4, 1-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, A4, 1-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4248",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4248"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 365.0,
+        "amountMinorUnits": 36500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 365.0,
+            "amountMinorUnits": 36500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613562
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a4-1-frame/0-master-bc8a02f38231.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "319d238b20c0947e4a757c822cc00d80e8f7426dcfe6f4c7d990bd3e43a4113f"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a4-1-frame/1-angle-855aa0d2826a.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate A4 1 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "516f808d8d879d8b3fdd2a93e1aaf10df78fa5df6fd48158e395ceb8102335b3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-a5-0-75-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | A5 | 0.75” Frame",
+      "sku": "MGC-4249",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom-made photo frame and framed certificate, A5, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "shortDescription": "Custom-made photo frame and framed certificate, A5, 0.75-inch frame — for corporate awards, recognition, and Diwali gifting. Premium option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4249",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4249"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 365.0,
+        "amountMinorUnits": 36500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 365.0,
+            "amountMinorUnits": 36500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613564
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a5-0-75-frame/0-master-ad92c389154f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8e7f38bbde601f8d177bf4de698fe146acb14d298f3c0afdb4f51379d5aadd83"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a5-0-75-frame/1-angle-09263e4692e8.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Photo Frame Framed Certificate A5 0.75 Inch – Alternate View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b381f5e00333c43bcff3e7b65ac12dfab506bb0528cb4fac0a6a9bdc1d927226"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-made-photo-frame-framed-certificate-a6-0-5-frame",
+      "title": "Custom-Made Photo Frame / Framed Certificate | A6 | 0.5” Frame",
+      "sku": "MGC-4243",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Monkcraft custom-made A6 photo frame, 0.5\" border — ideal for certificates and branded displays. Affordable corporate gift for annual day and bulk orders.",
+      "shortDescription": "Monkcraft custom-made A6 photo frame, 0.5\" border — ideal for certificates and branded displays. Affordable corporate gift for annual day and bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4243",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Polymer",
+        "Product Code": "MGC-4243"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 185.0,
+        "amountMinorUnits": 18500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 185.0,
+            "amountMinorUnits": 18500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613546
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a6-0-5-frame/0-master-c463fc696235.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "ab14330d32f13fb5ee92d79f4b24137515d3850e37ac2c31e8da4793d26bd9b0"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-made-photo-frame-framed-certificate-a6-0-5-frame/1-angle-cd7bc86a5d00.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Photo Frame A6 0.5 inch Border – Side View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "7fb2ea0e1bc4eee5c3a9ac2674641ba7a272c28efd22eec7dd9bb5b5f49618b2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-printed-certificate-a4",
+      "title": "Custom-Printed Certificate | A4",
+      "sku": "MGC-4242",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Monkcraft custom-printed A4 certificate with lamination — branded award for milestones and events. Affordable employee gift for annual day and bulk orders.",
+      "shortDescription": "Monkcraft custom-printed A4 certificate with lamination — branded award for milestones and events. Affordable employee gift for annual day and bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4242",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Paper",
+        "Product Code": "MGC-4242"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 110.0,
+        "amountMinorUnits": 11000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 110.0,
+            "amountMinorUnits": 11000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613543
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-printed-certificate-a4/0-master-9bdbf8d7c802.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8fe49f316f15d8dc8b41886607eea37a962efca24e9faf03a2e6c2f8f162edf1"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-printed-certificate-a4/1-angle-410dfde767f2.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom-Printed Certificate A4 – Detail View",
+          "sortOrder": 1,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8dcb3203de18553e3571808c0aaf6456f65c33325196a2f533aa96a6760e35d4"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-printed-certificate-a4/2-angle-66ed808e9b18.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom-Printed Certificate A4 – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3ddf65551f6882ccad7fe0e6dcbbc7346d83cfb5f1cf35b6fbf8c843c1c6fb4f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "custom-printed-certificate-a5",
+      "title": "Custom-Printed Certificate | A5",
+      "sku": "MGC-4241",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Monkcraft custom-printed A5 certificate with lamination — branded award for milestones and events. Affordable employee gift for annual day and bulk orders.",
+      "shortDescription": "Monkcraft custom-printed A5 certificate with lamination — branded award for milestones and events. Affordable employee gift for annual day and bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4241",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Paper",
+        "Product Code": "MGC-4241"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 35.0,
+        "amountMinorUnits": 3500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 35.0,
+            "amountMinorUnits": 3500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613541
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-printed-certificate-a5/0-master-208a1664224e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ed9d0e80fa8200c65f7f0736a6d58fd4a2d9894a65f109c916245d00dcfa4520"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-printed-certificate-a5/1-angle-8cf114edcbb2.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom-Printed Certificate A5 – Detail View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3bf05b00a0761868745c3b23bd4302d8a5bd7d999087252a66bb7dda888efd69"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/custom-printed-certificate-a5/2-angle-5b131589880c.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom-Printed Certificate A5 – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "54054811c49b1b4d59ddeada295fa65a492ea9ad0d0fe02c898fb821063aab71"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "employee-recognition-miniature",
+      "title": "Employee Recognition Miniature",
+      "sku": "MGC-4253",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Recognition miniature for corporate rewards, annual day gifting, and client appreciation — premium Monkcraft employee recognition desk figurine.",
+      "shortDescription": "Recognition miniature for corporate rewards, annual day gifting, and client appreciation — premium Monkcraft employee recognition desk figurine.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4253",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF Frame",
+        "Product Code": "MGC-4253"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2805.0,
+        "amountMinorUnits": 280500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2805.0,
+            "amountMinorUnits": 280500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613576
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/employee-recognition-miniature/0-master-8575b430e20f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "13a24e6e169f45bd9ca6a9ab3a219e6cff33c23bc4b090feca4ee42c80b90656"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/employee-recognition-miniature/1-angle-f0d2d26b85cf.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Employee Recognition Miniature – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "09528b7b77db08a1d74540f0e41acfb38919d61bf6d09d08d1df456d31dd13d0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "forever-forest-border-frame-6-x-6-mdf-frame-with-preserved-moss-border",
+      "title": "Forever Forest Border Frame- 6\"x 6\" MDF Frame with Preserved Moss Border",
+      "sku": "MGC-4240",
+      "brand": {
+        "name": "Forever Forest",
+        "slug": "forever-forest"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Forever Forest Border Frame- 6\"x 6\" MDF Frame with Preserved Moss Border — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Forever Forest Border Frame- 6\"x 6\" MDF Frame with Preserved Moss Border — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4240",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Forever Forest",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Dimensions": "15.24 W × 15.24 H cm",
+        "Product Code": "MGC-4240"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 455.0,
+        "amountMinorUnits": 45500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 455.0,
+            "amountMinorUnits": 45500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613537
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-border-frame-6-x-6-mdf-frame-with-preserved-moss-border/0-master-0f98b2e32121.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f195cb86ec0c58a62d2ea496c2fe60935e1288057311cfb2a88c15062242e6c9"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-border-frame-6-x-6-mdf-frame-with-preserved-moss-border/1-angle-88b1215990d7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f3d41b59b55a96705e0040e10e4d8611d9a701cdcbffad3e3047f1effa9577a4"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-border-frame-6-x-6-mdf-frame-with-preserved-moss-border/2-angle-dcfeb88e0962.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4c61f8508f99bd3a83ba331cd68348c9da526a3bf94b73063c07a365e2011d7c"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-border-frame-6-x-6-mdf-frame-with-preserved-moss-border/3-angle-b41c6260a795.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b04d15aaefa42cf8647c784e7e9ce8037342f87b913e38681f416a5beace0328"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-border-frame-6-x-6-mdf-frame-with-preserved-moss-border/4-angle-49b4e117859a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f004d63bde3c8eda4ce0ff18e9c831fdde6c07591491e783d7b0b640d23241c8"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-border-frame-6-x-6-mdf-frame-with-preserved-moss-border/5-angle-3ea5fc85e8f5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0b5bbbe760476e6a70c6d438d4f80ed33883fdc87c7ad3bb0d60b2dd58b6bae4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "forever-forest-natures-stage-magnetic-frame",
+      "title": "Forever Forest Nature's Stage Magnetic Frame",
+      "sku": "MGC-4239",
+      "brand": {
+        "name": "Forever Forest",
+        "slug": "forever-forest"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Magnetic photo frame for corporate gifting, employee welcome kits, and bulk gifting — premium Forever Forest Nature's Stage magnetic frame.",
+      "shortDescription": "Magnetic photo frame for corporate gifting, employee welcome kits, and bulk gifting — premium Forever Forest Nature's Stage magnetic frame.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4239",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Forever Forest",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Dimensions": "10.16 W x 10.16 H cm",
+        "Product Code": "MGC-4239"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 175.0,
+        "amountMinorUnits": 17500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 175.0,
+            "amountMinorUnits": 17500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613533
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-natures-stage-magnetic-frame/0-master-3180a232b0a0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "23f8447057657cb2f78731a9aad291e6d11a341cd48002f764fd3ebbb09dc095"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-natures-stage-magnetic-frame/1-angle-6c7262ac0daf.webp",
+          "role": "ANGLE",
+          "variantKey": "Forever Forest Nature's Stage Magnetic Frame – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3e6f5fe8f02ec4cbde690fe0f24a45ee71d523045d603fa304ae902a84c4f296"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-natures-stage-magnetic-frame/2-angle-b204102d2117.webp",
+          "role": "ANGLE",
+          "variantKey": "Forever Forest Nature's Stage Magnetic Frame – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1ce1dd375bc7320bc32bff014e7263964d941764c3b53c7e9daaa8cb566d03e9"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/forever-forest-natures-stage-magnetic-frame/3-angle-789d184e2b2f.webp",
+          "role": "ANGLE",
+          "variantKey": "Forever Forest Nature's Stage Magnetic Frame – Side View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e3c0a76f0fa5f2e98d17027376c91cead2a79806a93089a7a92da7cbd4c19155"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "logo-branded-miniature",
+      "title": "Logo Branded Miniature",
+      "sku": "MGC-4252",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Logo branded miniature for corporate gifting, client appreciation, and employee rewards — premium Monkcraft custom logo branded desk miniature.",
+      "shortDescription": "Logo branded miniature for corporate gifting, client appreciation, and employee rewards — premium Monkcraft custom logo branded desk miniature.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4252",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF Frame",
+        "Product Code": "MGC-4252"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2405.0,
+        "amountMinorUnits": 240500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2405.0,
+            "amountMinorUnits": 240500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613572
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/logo-branded-miniature/0-master-0c3838892c4f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f204cbd76a51265ecd7de018044d7a2286db191bdff908d648f322cee8fb4770"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/logo-branded-miniature/1-angle-21dc86a40875.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Logo Branded Miniature – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "46a2e857e8f0089e3f3c4a96947f67674dec1b2a526a4ef6f2cedcea740b2620"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "mensa-photo-frame",
+      "title": "Mensa Photo Frame",
+      "sku": "MGC-4235",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Mensa photo frame for branded and bulk gifting.",
+      "shortDescription": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Mensa photo frame for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4235",
+        "Stock Update Date": "28 Aug 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Dimensions": "(L*W*H)  22.5 x 1 x 17.3 cm",
+        "Frame Material": "MDF with Plexi Glass Lamination & Chrome Plated Virgin Plastic Ring",
+        "Product Code": "MGC-4235"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 225.0,
+        "amountMinorUnits": 22500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 225.0,
+            "amountMinorUnits": 22500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613521
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/mensa-photo-frame/0-master-8768dae0fba9.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b069d55dfcc6c5eb9981553b1560272b165fbab9c6736b97e6f86f05f9d4d009"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/mensa-photo-frame/1-angle-448105f85bda.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mensa Photo Frame – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "eeabc55efa2814c5ba6e3eadff81471f114d8147492ae7f2f007c63dc0bded25"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/mensa-photo-frame/2-angle-f1f672c3f4fb.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mensa Photo Frame – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "776facccd08df28f03b758a0a18413fd1b2a3c8967c77e4247e8ece674e9f772"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/mensa-photo-frame/3-angle-944b7b3d89a9.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mensa Photo Frame – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f7879b39c409bf9e5759a33d033d3d15cbb7c6e463ec5373e202e7c5e825b9b5"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/mensa-photo-frame/4-angle-f604e8dc5c8f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mensa Photo Frame – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "58287803839547b9cdf70ea14c8ce87963e7ed8c02365ecb959cc18c6fac9a1d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "phoenix-photo-frame",
+      "title": "Phoenix Photo Frame",
+      "sku": "MGC-4233",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Phoenix photo frame for branded and bulk gifting.",
+      "shortDescription": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Phoenix photo frame for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4233",
+        "Stock Update Date": "28 Aug 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Dimensions": "(L*W*H) 22.5 x 1.5 x 17.5 cm",
+        "Frame Material": "ABS plastic",
+        "Product Code": "MGC-4233"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 215.0,
+        "amountMinorUnits": 21500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 215.0,
+            "amountMinorUnits": 21500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613515
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/phoenix-photo-frame/0-master-fd92caab64b5.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b092fad88054ee902677c24783dff750654df170f412b3c1f824682f521f84b5"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/phoenix-photo-frame/1-angle-2952785b7c97.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Phoenix Photo Frame – Alternate Front View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7215f27a76c545c1e5421e2b49f4275015cbc5745fc0cab9bbc0de03f06ef3de"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/phoenix-photo-frame/2-angle-f7a6fd81ef06.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Phoenix Photo Frame – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fe1dd3d8958ccd9cae6353394ff3f1eda58d0536a4aa283291ab2a6f6568394d"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/phoenix-photo-frame/3-lifestyle-091c20ccda84.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Phoenix Photo Frame – Lifestyle View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2d6c1234b90e927fdb1f64a38d8fdf5da467da99b18cd8e9569d2788f14c1778"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/phoenix-photo-frame/4-angle-4a538c169473.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Phoenix Photo Frame – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "279cbc3e6f421aac104b7822832cef261a1ec00db26b879358b0c07d8e203f49"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/phoenix-photo-frame/5-angle-4d453fa8e5b2.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Phoenix Photo Frame – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ff820194642b1c6a23de7c3b37bdf019153253a4e18aaf1d6788fae6733df7dd"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "pyxis-photo-frame",
+      "title": "Pyxis Photo Frame",
+      "sku": "MGC-4234",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Pyxis photo frame for branded and bulk gifting.",
+      "shortDescription": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Pyxis photo frame for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4234",
+        "Stock Update Date": "28 Aug 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Dimensions": "(L*W*H) 21.5 x 1.3 x 16.5 cm",
+        "Frame Material": "ABS plastic",
+        "Product Code": "MGC-4234"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 215.0,
+        "amountMinorUnits": 21500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 215.0,
+            "amountMinorUnits": 21500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613517
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/pyxis-photo-frame/0-master-a1670e9eb933.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a005d03a283c8c62e149eeab796c65a31807ce8d182da6825838b718ca1830bb"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/pyxis-photo-frame/1-angle-746ac8a6c1fd.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Pyxis Photo Frame – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ce80095ea74a5bd6cff34bceaab6bdd280b9b02624c8bc0637a2808469315fcd"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/pyxis-photo-frame/2-angle-008c7655a9e1.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Pyxis Photo Frame – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7db5f4b2fdcf382b0426f0aa71fd4347ec6e4085e2585e7d897c930cc1c8ec19"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/pyxis-photo-frame/3-angle-352eb95f4697.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Pyxis Photo Frame – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "078e0323242d41f4e4e9cf4075d216ad208c55c8881b256d68190d32ce7d0c11"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/pyxis-photo-frame/4-lifestyle-b701e2ae644e.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Pyxis Photo Frame – Lifestyle View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fee024a51cb6b7e76bbe14f7ed5ee0d7add083403b1e24bbd6ea900ce7d63e62"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/pyxis-photo-frame/5-angle-15aecc069994.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Pyxis Photo Frame – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "678fcab1048695173bc1f1611e5ba84ec865c5110afdbf865e73ab99175cd89d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "the-ceo-work-desk-miniature",
+      "title": "The CEO Work desk Miniature",
+      "sku": "MGC-4254",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Work desk miniature for corporate gifting, executive rewards, and client appreciation — premium Monkcraft CEO work desk figurine for office desks.",
+      "shortDescription": "Work desk miniature for corporate gifting, executive rewards, and client appreciation — premium Monkcraft CEO work desk figurine for office desks.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4254",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF Frame",
+        "Product Code": "MGC-4254"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 7205.0,
+        "amountMinorUnits": 720500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 7205.0,
+            "amountMinorUnits": 720500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613579
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/the-ceo-work-desk-miniature/0-master-deea817b07ff.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9f9516a3bda0f9788c7da07e60ce72f98aae56d33c1bb9b69af9e771db0f4079"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/the-ceo-work-desk-miniature/1-angle-b5fecc8cbb26.webp",
+          "role": "ANGLE",
+          "variantKey": "CEO Work Desk Miniature – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ea9f5faaa7b875ef5587fe518edf4fa2d7ad1e210d2748a76bff644790d51453"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    },
+    {
+      "slug": "tucana-photo-frame",
+      "title": "Tucana Photo Frame",
+      "sku": "MGC-4236",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Tucana photo frame for branded and bulk gifting.",
+      "shortDescription": "Photo frame for corporate gifting, employee desk gifts, and client appreciation — affordable 3S Tucana photo frame for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4236",
+        "Stock Update Date": "28 Aug 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "Engraving",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Dimensions": "(L*W*H) 24 x 1.3 x 19 cm",
+        "Frame Material": "ABS plastic With Veneer Ring",
+        "Product Code": "MGC-4236"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613525
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/certificates-frames/tucana-photo-frame/0-master-d1e2f5a814e8.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cfa3fa163c24fd8d6d59c028044866db53003e0b8d5fc105cb6f1dbaf4330ed7"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/tucana-photo-frame/1-angle-a130602b9c3b.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Tucana Photo Frame – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5a510b2fd8648064b82ceb801ad64804e574d57d85809cfb91467f33e82f625c"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/tucana-photo-frame/2-angle-d5ae1e94e15f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Tucana Photo Frame – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "16a05176dee69280d21930cd44e39ce7f0e0c1a113e90d4ffe55598f82e3df78"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/tucana-photo-frame/3-angle-c0d5ad8142df.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Tucana Photo Frame – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "76520a7e5c83d20907a44bbbff12bcc02c0cdceca33a8b4e54d156ee8443b74f"
+        },
+        {
+          "path": "media/products/awards-trophies/certificates-frames/tucana-photo-frame/4-angle-5cd0983ba8d7.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Tucana Photo Frame – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "67212967fa37fb8e5ad8ee4e42bcc7449f6adb4bd91506a40df975cc0eaa06ab"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:certificates-frames",
+        "categoryId": "C10",
+        "name": "Certificates & Frames",
+        "slug": "certificates-frames",
+        "path": "awards-trophies/certificates-frames",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "awards-trophies/certificates-frames"
+    }
+  ]
+}

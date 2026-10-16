@@ -1,0 +1,1869 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C3",
+    "code": "C3",
+    "name": "Tech & Gadgets",
+    "slug": "tech-gadgets",
+    "path": "tech-gadgets",
+    "sortOrder": 3
+  },
+  "subcategory": {
+    "id": "C3:wearables",
+    "categoryId": "C3",
+    "name": "Wearables",
+    "slug": "wearables",
+    "path": "tech-gadgets/wearables",
+    "sortOrder": 4
+  },
+  "categoryProductCount": 364,
+  "productCount": 13,
+  "products": [
+    {
+      "slug": "boat-lunar-orbit-smart-watch-black",
+      "title": "Boat Lunar Orbit Smart Watch- Black",
+      "sku": "MGC-1071",
+      "brand": {
+        "name": "Boat",
+        "slug": "boat"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — affordable Boat Lunar Orbit with fitness tracking and Black strap.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — affordable Boat Lunar Orbit with fitness tracking and Black strap.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1071",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Boat",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Dimensions": "4.7 x 10.2 x 12 cm",
+        "Product Code": "MGC-1071"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1855.0,
+        "amountMinorUnits": 185500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1855.0,
+            "amountMinorUnits": 185500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604163
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/0-master-4f51195711b2.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4fbd10e18a93bdb153af7d5958a098e05f1fb2c0f877ac4648178d4ecabe8e52"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/1-angle-2c0cbf15049c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "993c3f73efeb12828c009dd10ae2cfee347eb021e948370c74c6e6196f1963cd"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/2-angle-cbe49c2b833e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d29bdd7c9653dc1ab983337e3257c3cc4dfb159cd1413fa91da2bea0b21362ff"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/3-angle-5ba48f5b4885.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7984929ca09917910650bbc13e59e5a898e1da1ab0d731db35c6fe0d78bb0b98"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/4-angle-eb6286ac145d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0a458f2b810a2229dd62747c99ec3b6397f216f648e534e6ce2fbf691e7fdf5b"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/5-angle-40ee0cd9fe42.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5c737b3b3353c5cab53ed2ce9d4fe28c828e8d2e709a8c683d4a3c4578819c46"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/6-angle-921b1656fd9b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f734fe67e15f346cd63f76110a91f91dddd88a57592e93f8f326c81485dc337d"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/7-angle-ce22c6cd37c2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4cab9a84846908bdce84e7bae77e216268cf7c15d36d6381adbb1bd2ba3ef408"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/8-angle-f8f60ac1e978.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b71c6bfd883dc7e7f3c8b40bf5a79ed5c2be0e060645b74107c81033f1a22d9f"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-black/9-angle-e403c2646f3b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cb33f6408c335a57bd598cc569d98659feb038b0d5c1632ff1cdc0378a078f4e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "boat-lunar-orbit-smart-watch-blue",
+      "title": "Boat Lunar Orbit Smart Watch- Blue",
+      "sku": "MGC-1072",
+      "brand": {
+        "name": "Boat",
+        "slug": "boat"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — affordable Boat Lunar Orbit with fitness tracking and Blue strap.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — affordable Boat Lunar Orbit with fitness tracking and Blue strap.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1072",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Boat",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Dimensions": "4.7 x 10.2 x 12 cm",
+        "Product Code": "MGC-1072"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1855.0,
+        "amountMinorUnits": 185500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1855.0,
+            "amountMinorUnits": 185500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604166
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/0-master-f0820f1dacfc.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b0effa35b85ed83cf85ae4592b31d8b587c17fa714214fb5af9032270d0e2baa"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/1-angle-7b0921bb86b4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5b4e9f37b0656d83be31ee092748a1832c6aed3cd4acd813e354b48282a372ea"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/2-angle-99240dd3498c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0c39d4207c1b1a22c66de741507ce5c0fa5d707d48a11de17d8df5a1fbd4f935"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/3-angle-2ddecf71326b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "50130369dbc544d6cf770b716092b4655ca99382605ec3e5dd373f369958be29"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/4-angle-a6abba355aae.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1f3b2b200b677a9d4b995ca34cc48e42e22d905255d065de4331dcb6e10cc27a"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/5-angle-cbe49c2b833e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d29bdd7c9653dc1ab983337e3257c3cc4dfb159cd1413fa91da2bea0b21362ff"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/6-angle-eb6286ac145d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0a458f2b810a2229dd62747c99ec3b6397f216f648e534e6ce2fbf691e7fdf5b"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/7-angle-ce22c6cd37c2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4cab9a84846908bdce84e7bae77e216268cf7c15d36d6381adbb1bd2ba3ef408"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/8-angle-921b1656fd9b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f734fe67e15f346cd63f76110a91f91dddd88a57592e93f8f326c81485dc337d"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-blue/9-angle-f8f60ac1e978.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b71c6bfd883dc7e7f3c8b40bf5a79ed5c2be0e060645b74107c81033f1a22d9f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "boat-lunar-orbit-smart-watch-grey",
+      "title": "Boat Lunar Orbit Smart Watch- Grey",
+      "sku": "MGC-1073",
+      "brand": {
+        "name": "Boat",
+        "slug": "boat"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — affordable Boat Lunar Orbit with fitness tracking and Grey strap.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — affordable Boat Lunar Orbit with fitness tracking and Grey strap.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1073",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Boat",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Dimensions": "4.7 x 10.2 x 12 cm",
+        "Product Code": "MGC-1073"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1855.0,
+        "amountMinorUnits": 185500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1855.0,
+            "amountMinorUnits": 185500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604168
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/0-master-111db5aeacf6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c85ee495e5a0e9ce1cbb3879fdda891f9347020e404f535bbc22ae2dc0a7acaa"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/1-angle-143f79e68ac8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d4effbc6f8284f571434a5f8ae16842414f524b67a141ecf07d45dd0a78d8efe"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/2-angle-f4cbc924d38b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "582e8cc003010fd5fe95017a1e3697f31a2614ac1cc7673609419adc5b4f821b"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/3-angle-ab94d77378d8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0835aa664e6db9e8eadace2af3eb065dfcc955a4a8bbfac0a76babef8471a3c9"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/4-angle-cbe49c2b833e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d29bdd7c9653dc1ab983337e3257c3cc4dfb159cd1413fa91da2bea0b21362ff"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/5-angle-a6abba355aae.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1f3b2b200b677a9d4b995ca34cc48e42e22d905255d065de4331dcb6e10cc27a"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/6-angle-eb6286ac145d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0a458f2b810a2229dd62747c99ec3b6397f216f648e534e6ce2fbf691e7fdf5b"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/7-angle-921b1656fd9b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f734fe67e15f346cd63f76110a91f91dddd88a57592e93f8f326c81485dc337d"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/8-angle-f8f60ac1e978.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b71c6bfd883dc7e7f3c8b40bf5a79ed5c2be0e060645b74107c81033f1a22d9f"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-grey/9-angle-ce22c6cd37c2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4cab9a84846908bdce84e7bae77e216268cf7c15d36d6381adbb1bd2ba3ef408"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "boat-lunar-orbit-smart-watch-peach",
+      "title": "Boat Lunar Orbit Smart Watch- Peach",
+      "sku": "MGC-1074",
+      "brand": {
+        "name": "Boat",
+        "slug": "boat"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee tech kits, and bulk gifting — affordable Boat Lunar Orbit with health tracking and Peach strap.",
+      "shortDescription": "Smartwatch for corporate gifting, employee tech kits, and bulk gifting — affordable Boat Lunar Orbit with health tracking and Peach strap.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1074",
+        "Country of Origin": "India",
+        "Color": "Peach",
+        "Brand": "Boat",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Dimensions": "4.7 x 10.2 x 12 cm",
+        "Product Code": "MGC-1074"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1855.0,
+        "amountMinorUnits": 185500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1855.0,
+            "amountMinorUnits": 185500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604171
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/0-master-50ef7999ac3a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5b426197c2bb1e9b28cfda1e90aa37a2f02ef4a36e6169fa6fbc2e1a134d4c80"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/1-angle-fd91731920d4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "db579d688bf7a2e5838d2c494dc5f5eaf968187e12d3a124be679fd7a8bc67b8"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/2-angle-c5b189f05bcd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f73d77d5fac85ae307677d5b35cd91ef701e5d012f9fecdf784e950b5b4c1604"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/3-angle-90e9024fc19e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3685dbf1b04fc6d0d1f8666f8f91bbcc1af4462aead2750a8a3bbc275faccd0c"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/4-angle-40ee0cd9fe42.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5c737b3b3353c5cab53ed2ce9d4fe28c828e8d2e709a8c683d4a3c4578819c46"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/5-angle-921b1656fd9b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f734fe67e15f346cd63f76110a91f91dddd88a57592e93f8f326c81485dc337d"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/6-angle-ce22c6cd37c2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4cab9a84846908bdce84e7bae77e216268cf7c15d36d6381adbb1bd2ba3ef408"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/7-angle-81694a767bf0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "90eca2a88406aa826821b0b3baedee5042619c5df74f069101b4542b36246598"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/boat-lunar-orbit-smart-watch-peach/8-angle-e403c2646f3b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cb33f6408c335a57bd598cc569d98659feb038b0d5c1632ff1cdc0378a078f4e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "fuzo-fluid-bluetooth-neckband-black",
+      "title": "Fuzo Fluid Bluetooth Neckband- Black",
+      "sku": "MGC-1075",
+      "brand": {
+        "name": "Fuzo",
+        "slug": "fuzo"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Fuzo Fluid Bluetooth Neckband in black — a premium wireless audio accessory for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Fuzo Fluid Bluetooth Neckband in black — a premium wireless audio accessory for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1075",
+        "Stock Update Date": "17 Aug 2026",
+        "Color": "Black",
+        "Brand": "Fuzo",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "Out of Stock",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-1075"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 665.0,
+        "amountMinorUnits": 66500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 665.0,
+            "amountMinorUnits": 66500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604176
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/fuzo-fluid-bluetooth-neckband-black/0-master-38508a7cce0a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "23a29173c91119dca912d957b3f472a514935b16a77e7eece91d081335e6a42a"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/fuzo-fluid-bluetooth-neckband-black/1-angle-f48d354adfe3.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Fluid Bluetooth Neckband Black – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fabe23fd0f4fce510c7d7fa4fc5bed770aff78c37e301a0a7cc67d25b10fe9ab"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/fuzo-fluid-bluetooth-neckband-black/2-angle-6d9be18e5719.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Fluid Bluetooth Neckband Black – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fe7f6027a77b4bbb3cd838e332ee4f3d15ce39aa0c15ee4a737bd430b9e64028"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "fuzo-fluid-bluetooth-neckband-grey",
+      "title": "Fuzo Fluid Bluetooth Neckband- Grey",
+      "sku": "MGC-1076",
+      "brand": {
+        "name": "Fuzo",
+        "slug": "fuzo"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Fuzo Fluid Bluetooth Neckband in grey — a premium wireless audio accessory for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Fuzo Fluid Bluetooth Neckband in grey — a premium wireless audio accessory for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1076",
+        "Stock Update Date": "17 Aug 2026",
+        "Color": "Black",
+        "Brand": "Fuzo",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "Out of Stock",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-1076"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 665.0,
+        "amountMinorUnits": 66500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 665.0,
+            "amountMinorUnits": 66500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604178
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/fuzo-fluid-bluetooth-neckband-grey/0-master-ced829db3daa.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "37149cc5d2bb383afb2633a231ef7fa1c5c74d5ea411e64c0474b7636809d24d"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/fuzo-fluid-bluetooth-neckband-grey/1-angle-2679b288bc75.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Fluid Bluetooth Neckband Grey – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fe82ffd7107ef963376ccee54a7dc4f9d6f9fb3b5817cb8a29e80560d151f0f4"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/fuzo-fluid-bluetooth-neckband-grey/2-angle-1569fdbb21ae.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Fluid Bluetooth Neckband Grey – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "32370dd0dfe2204a3b7d7363cca12be22fe5427e972ab537147371b2394ca2b7"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "noise-canvas-elite-watch-black",
+      "title": "Noise Canvas Elite Watch-Black",
+      "sku": "MGC-1080",
+      "brand": {
+        "name": "Noise",
+        "slug": "noise"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Canvas Elite smartwatch in Black.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Canvas Elite smartwatch in Black.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1080",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Noise",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Metal",
+        "Water Resistant": "Yes",
+        "Product Code": "MGC-1080"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2445.0,
+        "amountMinorUnits": 244500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2445.0,
+            "amountMinorUnits": 244500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604188
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-canvas-elite-watch-black/0-master-4c9d6ea8e9e6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb6d954f24bf3e8cc67068fc051348cb85f85f0b80e38be8ac68510427d5af08"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-canvas-elite-watch-black/1-angle-6d2c36f4ffa2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "df67e5ea8748fc6176995b4f158c05790a2488e3448b16a1a38a6860acd0fd1b"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-canvas-elite-watch-black/2-angle-1871ec75dfd2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e86aa4406b51b7524429a33e34dc2223dd6cd664ebd8f3f5dec4d9ff23a51868"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-canvas-elite-watch-black/3-angle-a8225e403501.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2a2d3b982f3fbc4a2e59f52333df07c10f9b11ae5979d25f4b72c1cba7de182a"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-canvas-elite-watch-black/4-angle-bfb19f95bef3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "61a61f0dad557001f120bddfd41e96eca2111878866b8f8e9e517e4d73f19b4b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "noise-grand-2-watch-black",
+      "title": "Noise Grand 2 Watch-Black",
+      "sku": "MGC-1079",
+      "brand": {
+        "name": "Noise",
+        "slug": "noise"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Grand 2 smartwatch in Black.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Grand 2 smartwatch in Black.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1079",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Noise",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Silicon",
+        "Water Resistant": "Yes",
+        "Product Code": "MGC-1079"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1765.0,
+        "amountMinorUnits": 176500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1765.0,
+            "amountMinorUnits": 176500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604186
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-grand-2-watch-black/0-master-580c8a68fe6b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f1bf76393a336ca0ac37d862551a8239dbe044c264dcab1e82a27babebafbe8b"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-grand-2-watch-black/1-angle-f5e085124754.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0bdd29a446b2552265dedbfbacb77473eb5237bdcf02436adcd0f3124c2f0ae8"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-grand-2-watch-black/2-angle-26d3aec5bec7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "98eb03a446e7476788bce13e1120788451c30012a0e83a0771958ff05d54427d"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-grand-2-watch-black/3-angle-4aff9c3521f7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d79818c368e603338ade25e003cb42ac2445b8d5edb62868ac1ed3cdf46652ab"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-grand-2-watch-black/4-angle-fe77e79d8526.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d0d44a405c2407fd80e2b6acfc0c0de7e9b9b28b8dfaadb8b749951a01aed7d5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "noise-halo-watch-brown",
+      "title": "Noise Halo Watch-Brown",
+      "sku": "MGC-1082",
+      "brand": {
+        "name": "Noise",
+        "slug": "noise"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Halo smartwatch in Brown.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Halo smartwatch in Brown.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1082",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "Noise",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel Build",
+        "Water Resistant": "Yes",
+        "Product Code": "MGC-1082"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3135.0,
+        "amountMinorUnits": 313500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3135.0,
+            "amountMinorUnits": 313500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604196
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-halo-watch-brown/0-master-d857146e59ed.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "671646cce83cdde9ad099e68be4ba53e33a0bc36a84346caa275273e7da98421"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-halo-watch-brown/1-angle-7114e457a833.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9eb46f5d300d75af34467e9940e90ce8f5fc91427f68d6df0e6e6122c2636c39"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-halo-watch-brown/2-angle-6427e14b1db3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a7b905c6b8eb325d152418cbbfe3c74034dad1f7f59cf1c70ef1a6d9ccd96777"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-halo-watch-brown/3-angle-72b3c399ca8b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a69f2a02b366e5e751ca0cae0c53925b0e4705f0eb937a03f1e2f09c91c42ffa"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-halo-watch-brown/4-angle-c0892698eff0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a67a26c86f969d38408c8e7ccb7fcae72c5b2193087d33a28de5f0dad3eb577a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "noise-neckband-airwave-black",
+      "title": "Noise Neckband Airwave- Black",
+      "sku": "MGC-1078",
+      "brand": {
+        "name": "Noise",
+        "slug": "noise"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Neckband earphones for corporate gifting, employee rewards, and bulk tech gifting — affordable Noise Airwave wireless neckband earphones in black.",
+      "shortDescription": "Neckband earphones for corporate gifting, employee rewards, and bulk tech gifting — affordable Noise Airwave wireless neckband earphones in black.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1078",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Noise",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-1078"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1255.0,
+        "amountMinorUnits": 125500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1255.0,
+            "amountMinorUnits": 125500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604184
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/0-master-e9339247a59e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "776314e6e48b6ec6a784f7043db468353871d085a8cd8fae44ca69c14862419b"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/1-angle-93eed87d2084.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Alternate View",
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d2d90178aac72294223e33e65f14c10fdaaefbec469871fd2cb30338aa6e94eb"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/2-angle-1d22ccbf2c8a.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Side View",
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2eee2c4e416b8128af9ced6f7726de116da6c6da19ce41533950532ba12c3646"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/3-angle-ccf434b5fa02.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Detail View",
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "163964323e7f9406517ac091856f8fcb48b399e3cd0d084dea64bdf216107a85"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/4-angle-cb09e29a7c33.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Close-up View",
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3fca942eb3a57b0d34d27ff22d4b7f2a0e798aa44b8c7e1303f40200a432108a"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/5-angle-0c2169030d4b.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Feature View",
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "10d46a8f7996c964d8afc9125597d5fe2e5cdf13e0e5eb3f1011b870fe218ce9"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/6-angle-6798c9444ecb.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Back View",
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a8d485a86043f9f78550db060dc18ee0eb96d6ff233aaa1cd0303aa82e664b87"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/7-lifestyle-46014ea9381a.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cae04a334bf97c336e14e1fc2e1a56ae960a0e90cac702a1810636de0bc4108a"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/8-angle-2084d3131f12.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Package View",
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ad474285675c79602e66ed8e71c95ba962f5a42ee6f5eabf9987c1c21fe599bf"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-neckband-airwave-black/9-angle-842844316d82.webp",
+          "role": "ANGLE",
+          "variantKey": "Noise Neckband Airwave Earphones Black – Specification View",
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b8d09e6c88036fca20733fbf8e2f3dee7266f1ccc81f6ec9e64383ba86f45ee5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "noise-pluse-4-watch-grey",
+      "title": "Noise Pulse 4 Watch-Grey",
+      "sku": "MGC-1081",
+      "brand": {
+        "name": "Noise",
+        "slug": "noise"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Pulse 4 smartwatch in Grey.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Pulse 4 smartwatch in Grey.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1081",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Noise",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Silicon",
+        "Water Resistant": "Yes",
+        "Product Code": "MGC-1081"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2985.0,
+        "amountMinorUnits": 298500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2985.0,
+            "amountMinorUnits": 298500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604193
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-pluse-4-watch-grey/0-master-ec378253aa40.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f1b28ef828dab79f020a70ced643de92ec96e9987a99a5e6ba43da8a4abaa597"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-pluse-4-watch-grey/1-angle-520e7a672941.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "340024b3ef167f7c1304d7f787ba28936d36ed60be7a276649f1b78e85777b22"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-pluse-4-watch-grey/2-angle-8c6b9c3847eb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "050798b40d2e7dcffdb86486a66d8cc3d423dacd897cb59a8d64d3d4ae05e2b0"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-pluse-4-watch-grey/3-angle-651fc58402e7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b1fac8c3d25471dc9e614e82d5a68435144c1782c395a0242671a677a59ddd5e"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-pluse-4-watch-grey/4-angle-0a3da68fffeb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "de7262c031321d6d401a0f5e5bdeba4b92d8ce38f944ee2abce0ef309d0e22d0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "noise-victor-2-watch-blue",
+      "title": "Noise Victor 2 Watch-Blue",
+      "sku": "MGC-1083",
+      "brand": {
+        "name": "Noise",
+        "slug": "noise"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Victor 2 smartwatch in Blue.",
+      "shortDescription": "Smartwatch for corporate gifting, employee welcome kits, and bulk tech gifting — premium Noise Victor 2 smartwatch in Blue.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1083",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Noise",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Silicon",
+        "Water Resistant": "Yes",
+        "Product Code": "MGC-1083"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3285.0,
+        "amountMinorUnits": 328500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3285.0,
+            "amountMinorUnits": 328500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604198
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-victor-2-watch-blue/0-master-eac7e66b0a67.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d8f3eb0d2c00ede537e2781dbb52043737863d0f60e321ecc6bc6aa4ef060e56"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-victor-2-watch-blue/1-angle-975d8fa223f0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1cd4fd27da46b83773e3776bc027c02847d795b722c4985c7694d8da29beaeb7"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/noise-victor-2-watch-blue/2-angle-c0006144dd38.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9e82bef0233388571bba1e5413934ba2b38c485ae4b4fb6afaa28ea236018a8c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    },
+    {
+      "slug": "creed-ultra-smart-watch",
+      "title": "Nu Republic Creed Ultra Smart Watch",
+      "sku": "MGC-1077",
+      "brand": {
+        "name": "Gods",
+        "slug": "gods"
+      },
+      "category": {
+        "id": "C3",
+        "code": "C3",
+        "name": "Tech & Gadgets",
+        "slug": "tech-gadgets",
+        "path": "tech-gadgets",
+        "sortOrder": 3
+      },
+      "description": "MY TIME IS NOW Nu Republic’s Creed Ultra smartwatch offers a perfect blend of new-age tech and world-class styles, assured to make you the star of your pack. So, go ahead and make them stare!",
+      "shortDescription": "MY TIME IS NOW Nu Republic’s Creed Ultra smartwatch offers a perfect blend of new-age tech and world-class styles, assured to make you the star of your pack. So, go ahead and make them stare!",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1077",
+        "Product Code": "MGC-1077"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3599.0,
+        "amountMinorUnits": 359900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3599.0,
+            "amountMinorUnits": 359900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896604181
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/0-master-68d5f2c64412.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "53e7f7735c62553a08633eb8de64d2533e02b326ba50eedad5c23ab6c97860d4"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/1-angle-67db124dd647.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 500,
+          "height": 400,
+          "format": "webp",
+          "sha256": "e887bbc373582c907edd6d13013729c684748dac271f059344b418fb23ce4c51"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/2-angle-9b8428195e9f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 857,
+          "format": "webp",
+          "sha256": "39b8ef2715c3f95afb3d1dcfbc35f84f130e4f7e2ee13854068a25343baf0fec"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/3-angle-8bcdd8739b6c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 800,
+          "format": "webp",
+          "sha256": "ddef9aa5cbdbaab3811b05e4110fc71a47f9368ab231b2e7ec26e6cc7bc30f7d"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/4-angle-280b134ee8c8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "86804c266923789ba9c497100ef4cb2a49482bd2ce1e814eb0e36eed8de17572"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/5-angle-1226c82e042d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 598,
+          "height": 584,
+          "format": "webp",
+          "sha256": "cb8e86a8a9cfb04bacf793a9848f9fb1d7926842cc9b4d09c10ed0861dc66b8e"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/6-angle-48aede3da732.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 540,
+          "height": 495,
+          "format": "webp",
+          "sha256": "115fe3e426dc2959387630359eef56785f4405ff04a66c73812cb542a3e48a80"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/7-angle-3d55a101df99.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "171d49931f96089585a2cd4d6254b77d7aa02820de53dbf68c68abd30b6a56ea"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/8-angle-8aac04724dba.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 781,
+          "height": 663,
+          "format": "webp",
+          "sha256": "64166fd6d00d5c157f5d622233b59499c35ff1ccf6a268bfcaf4b7d34dea8cb2"
+        },
+        {
+          "path": "media/products/tech-gadgets/wearables/creed-ultra-smart-watch/9-angle-7c8984e5d32b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "bfbadda2f64d66b610dfcb00e372b8f4af761c51f80237a3b0a1ee4f845c7f17"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C3:wearables",
+        "categoryId": "C3",
+        "name": "Wearables",
+        "slug": "wearables",
+        "path": "tech-gadgets/wearables",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "tech-gadgets/wearables"
+    }
+  ]
+}

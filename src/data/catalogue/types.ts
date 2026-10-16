@@ -88,6 +88,8 @@ export type Product = {
   colours: string[];
   /** Slug ids paired with `colours` for URL filters. */
   colourIds: string[];
+  /** Number of same-description colour options shown behind this catalogue card. */
+  colourVariantCount?: number;
   /** Verified material labels from export specs (may be empty). */
   materials: string[];
   materialIds: string[];
@@ -119,6 +121,7 @@ export type CatalogueQuery = {
   occasions: string[];
   categories: string[];
   subcategories: string[];
+  brands: string[];
   brandings: string[];
   colours: string[];
   materials: string[];
@@ -144,6 +147,7 @@ export type CatalogueFacet = {
 
 /** Snapshot stored with shortlist so selections survive refresh without a DB. */
 export type ShortlistItem = {
+  amountInr?: number;
   id: string;
   slug: string;
   name: string;
@@ -251,6 +255,7 @@ export type GiftingBriefDraft = {
   branding: string;
   packagingPrefs: string;
   deliveryDate: string;
+  dispatchType: "single-city" | "multi-point" | "international" | "unsure";
   /** City/region or multi-address notes */
   deliveryLocation: string;
   notes: string;

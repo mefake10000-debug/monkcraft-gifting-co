@@ -1,0 +1,2117 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C9",
+    "code": "C9",
+    "name": "Office & Stationery",
+    "slug": "office-stationery",
+    "path": "office-stationery",
+    "sortOrder": 9
+  },
+  "subcategory": {
+    "id": "C9:office-essentials",
+    "categoryId": "C9",
+    "name": "Office Essentials",
+    "slug": "office-essentials",
+    "path": "office-stationery/office-essentials",
+    "sortOrder": 2
+  },
+  "categoryProductCount": 379,
+  "productCount": 20,
+  "products": [
+    {
+      "slug": "colossal-earth-day-visionbook-a5-100-pages",
+      "title": "Colossal Earth Day VisionBook| A5 | 100 Pages",
+      "sku": "MGC-4166",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Colossal Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Colossal Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4166",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4166"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613315
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/colossal-earth-day-visionbook-a5-100-pages/0-master-b9ce23d6c47f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "648d8692ac68b8007aed7a3c2353af60e551b4d91feb8f1e6b22be4e822d9b09"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/colossal-earth-day-visionbook-a5-100-pages/1-angle-b91e8f462bb9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "de93d4498a765f3bca1d60f7c3cef72974014edab51895c0950ca6221cb52fd8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "custom-made-id-card-paper-with-pouch-8-5-x-5-3-cm",
+      "title": "Custom-Made ID Card | Paper with Pouch | 8.5 x 5.3 Cm",
+      "sku": "MGC-4154",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Monkcraft custom-made paper ID card with pouch, credit card size 8.5x5.3 cm — affordable branded ID for corporate joining kits and bulk office use.",
+      "shortDescription": "Monkcraft custom-made paper ID card with pouch, credit card size 8.5x5.3 cm — affordable branded ID for corporate joining kits and bulk office use.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4154",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "300 GSM Paper",
+        "Product Code": "MGC-4154"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 15.0,
+        "amountMinorUnits": 1500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 15.0,
+            "amountMinorUnits": 1500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613284
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/custom-made-id-card-paper-with-pouch-8-5-x-5-3-cm/0-master-4619c77582e8.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "ea5812165e50236c7871fae40015f01caec8bd7ab9811a36e72841e846748377"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "custom-made-id-card-paper-with-pouch-a6",
+      "title": "Custom-Made ID Card | Paper with Pouch | A6",
+      "sku": "MGC-4156",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Monkcraft custom-made paper ID card with pouch, A6 size — affordable branded employee ID for corporate joining kits, events, and bulk office use.",
+      "shortDescription": "Monkcraft custom-made paper ID card with pouch, A6 size — affordable branded employee ID for corporate joining kits, events, and bulk office use.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4156",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "300 GSM Paper",
+        "Product Code": "MGC-4156"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 25.0,
+        "amountMinorUnits": 2500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 25.0,
+            "amountMinorUnits": 2500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613288
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/custom-made-id-card-paper-with-pouch-a6/0-master-a9faaadb39ba.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1001,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "92dbf6e060eff5ed12def8e856a29b60f8a7794c302bf9744fc27a0c8d355ec0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "ecolog-earth-day-visionbook-a5-100-pages",
+      "title": "EcoLog Earth Day VisionBook| A5 | 100 Pages",
+      "sku": "MGC-4167",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "EcoLog Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "EcoLog Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4167",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4167"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613318
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/ecolog-earth-day-visionbook-a5-100-pages/0-master-bb3412027f4f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cc00e2c9108d1e97c39d426aa4942dd0af6b0ebdb86d2e5a16811c46f7746577"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/ecolog-earth-day-visionbook-a5-100-pages/1-angle-8e78b1c87edf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "71f5010dfa2eef9b2966f2c2ad08751a4ffa03d981812cbe0befd8be220fc2cd"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "everyday-plantable-calendar-mdf-stand-3-5-x5",
+      "title": "Everyday Plantable Calendar MDF Stand 3.5\"x5\"",
+      "sku": "MGC-4151",
+      "brand": {
+        "name": "Bioq",
+        "slug": "bioq"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Plantable calendar for corporate gifting, new joiner welcome kits, and eco gifting — affordable Bioq everyday plantable calendar MDF stand.",
+      "shortDescription": "Plantable calendar for corporate gifting, new joiner welcome kits, and eco gifting — affordable Bioq everyday plantable calendar MDF stand.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4151",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Bioq",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Material": "Seed Paper with MDF Stand",
+        "Product Code": "MGC-4151"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 305.0,
+        "amountMinorUnits": 30500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 305.0,
+            "amountMinorUnits": 30500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613275
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 200,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/0-master-e26149836518.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f5eee2feadc37b73a1f02b2c1c7869e69a1e2bd62627c607d6564c2e7c83d4ad"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/1-angle-580289d9d347.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a7bc69daac0fb89b99c092184ce55fc769c4e0a6e7611c3791da3aa69a85ac1c"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/2-angle-8eed0f9b7a1b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4247c663cef1c22eb0f79cf892d33d9376f330dfa4acdbf360d1aca99bfb0ed9"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/3-angle-27f7797c618c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b16f2ae085325750c88810f4c1d2a537889f6c04d3bf6719d6382293ae4a5e74"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/4-angle-be93d3fa7b10.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f22cb28a0363e3dc7f871c1ca6979c3843abe32b3d8a1dc896f25bd025895982"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/5-angle-47426d601c81.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c3bfaf546acdc0c7e5d8c48e44d2d14675beb89bc32a988a8569b2f4b04ba999"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/6-angle-abe14e3af4df.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f6007aec0a867cd9f439249d039bbe8b8b1eaaaa512ad450d11092c136387746"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-mdf-stand-3-5-x5/7-angle-bf8fa041076d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9aea55e45e07aa6c68d9446d3bc56e2555b48bcb8f022a47465d1695131d6cb7"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "everyday-plantable-calendar-wooden-plate-stand-5-x7",
+      "title": "Everyday Plantable Calendar Wooden Plate Stand 5\"x7\"",
+      "sku": "MGC-4153",
+      "brand": {
+        "name": "Bioq",
+        "slug": "bioq"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Plantable calendar for corporate gifting, new joiner welcome kits, and eco-friendly bulk gifting — affordable Bioq plantable calendar wooden stand 5x7.",
+      "shortDescription": "Plantable calendar for corporate gifting, new joiner welcome kits, and eco-friendly bulk gifting — affordable Bioq plantable calendar wooden stand 5x7.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4153",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Bioq",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Material": "Seed Paper with Wooden Plate Stand",
+        "Dimensions": "Calender : 3.5\"x5\"",
+        "Product Code": "MGC-4153"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 545.0,
+        "amountMinorUnits": 54500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 545.0,
+            "amountMinorUnits": 54500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613281
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 200,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/0-master-4618fc664040.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "75b1f90f7a396897867e65de63deda3580ae1737ac642875d0b2f62ff4474c8c"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/1-angle-de843245ea08.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d79804e02ef285ef0027fdffeb9793a6fc6c80b929ae1299e909f5ced743e45e"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/2-angle-fba7f51b10aa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "52327d985d933d6744596b1708177496179ef8aba8e584be6fe300494b4775b3"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/3-angle-c1f912bc9f4a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "30fac588e9e4281eaca378fa1a85d3c33883ce0d14cc46164bd33886e53ff31f"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/4-angle-0640b5ce81b9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "81dd522815c275c3c01dcc728ef3750de2f2e92820bb8e04bbd59e6ebd1c31bd"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/5-angle-5e2dd03ee04a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a74989c5d0c11db2ea0ec9c6cc6c8eba90c36bafbc15903fb38007bd32586817"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/6-angle-716095e4321c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "805202cd0cf02fb373838c14981745587638ed898f1d72454615decb31303f82"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/7-angle-f593a8ac51b1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fd54c3c2897111634e89eab6c311f893ce604712c438465a33eaf862f9936003"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/8-angle-e7a0d4a8a910.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "75845c4100ded2ebbbb58f20b49c92e6811423e3c716eada0419b99b3e3e449a"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/everyday-plantable-calendar-wooden-plate-stand-5-x7/9-angle-6a8e9589be1c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9235b8318b0aa482d5da9eb74bbc9f29cc340dd89688584be7b03cc9f1993f26"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "greenscape-earth-day-visionbook-a5-100-pages",
+      "title": "Greenscape Earth Day VisionBook| A5 | 100 Pages",
+      "sku": "MGC-4168",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Greenscape Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Greenscape Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4168",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4168"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613322
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/greenscape-earth-day-visionbook-a5-100-pages/0-master-c6dc8964762f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d1a321097f7e1cc48b5c5c97fb0a1d6275adabaa3e2c7f4289542f3b76dba6a8"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/greenscape-earth-day-visionbook-a5-100-pages/1-angle-68e1052cad71.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "629df7c3a83947b272e5124218c6f1633c0a627f72879ee0f4273ba412ab717c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "holi-energy-celebration-visionbook-a5-100-pages",
+      "title": "Holi Energy Celebration- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-4158",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Holi Energy Celebration- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Energy Celebration- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4158",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4158"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613293
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-energy-celebration-visionbook-a5-100-pages/0-master-ef8909902093.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7a9b9b51a78dd3c643adeab626071431b7796cb34e0d0c01153044a1178c1b23"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-energy-celebration-visionbook-a5-100-pages/2-angle-e7b764339394.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b9e88ecb2564fdab6befacfd0cf0d259f0b5f08c6e0560226054e6ea7d20d58"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "holi-full-rang-splash-visionbook-a5-100-pages",
+      "title": "Holi Full Rang Splash- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-4159",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Holi Full Rang Splash- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Full Rang Splash- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4159",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4159"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613296
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-full-rang-splash-visionbook-a5-100-pages/1-angle-c3b01d3e3e04.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9145591dc50b723c982039656dd26b3fae87c5d04add7abb4ed11a14910a71f1"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-full-rang-splash-visionbook-a5-100-pages/2-angle-e7b764339394.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b9e88ecb2564fdab6befacfd0cf0d259f0b5f08c6e0560226054e6ea7d20d58"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "holi-mode-on-visionbook-a5-100-pages",
+      "title": "Holi Mode ON- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-4160",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Holi Mode ON- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Mode ON- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4160",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4160"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613299
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-mode-on-visionbook-a5-100-pages/1-angle-711b355c0a5f.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0eece0506b2b5d0c10da5bf2703df85ce0496094b5767727791abe264503464d"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-mode-on-visionbook-a5-100-pages/2-angle-e7b764339394.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b9e88ecb2564fdab6befacfd0cf0d259f0b5f08c6e0560226054e6ea7d20d58"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "holi-team-spirit-colour-visionbook-a5-100-pages",
+      "title": "Holi Team Spirit Colour- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-4161",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Holi Team Spirit Colour- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Team Spirit Colour- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4161",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4161"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613303
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-team-spirit-colour-visionbook-a5-100-pages/1-angle-a48bd5b0816a.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9a23920859ccf451dba347c102d3917c12964020828e89069740924e455fe9b5"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-team-spirit-colour-visionbook-a5-100-pages/2-angle-e7b764339394.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b9e88ecb2564fdab6befacfd0cf0d259f0b5f08c6e0560226054e6ea7d20d58"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "holi-too-cool-to-stay-visionbook-a5-100-pages",
+      "title": "Holi Too Cool To Stay- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-4162",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Holi Too Cool To Stay- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Too Cool To Stay- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4162",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4162"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613305
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-too-cool-to-stay-visionbook-a5-100-pages/1-angle-9198dfda3d11.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "03f5b89c033ff51febc7e2bfa42715b7435cf28d4ca62d4328e14041503a0b14"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-too-cool-to-stay-visionbook-a5-100-pages/2-angle-e7b764339394.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b9e88ecb2564fdab6befacfd0cf0d259f0b5f08c6e0560226054e6ea7d20d58"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "holi-unplanned-unfiltered-unstoppable-visionbook-a5-100-pages",
+      "title": "Holi Unplanned. Unfiltered. Unstoppable- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-4163",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Holi Unplanned. Unfiltered. Unstoppable- Visionbook| A5 | 100 Pages",
+      "shortDescription": "Holi Unplanned. Unfiltered. Unstoppable- Visionbook| A5 | 100 Pages",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4163",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4163"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613308
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-unplanned-unfiltered-unstoppable-visionbook-a5-100-pages/1-angle-586a87b4d7e9.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6b515a20aadfcbc0b258da7a94beec0c9cd65ff8ec0082be4f0a8bf5d1b4bb6e"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/holi-unplanned-unfiltered-unstoppable-visionbook-a5-100-pages/2-angle-e7b764339394.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b9e88ecb2564fdab6befacfd0cf0d259f0b5f08c6e0560226054e6ea7d20d58"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "ignite-visionbook-a5-100-pages",
+      "title": "Ignite- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-4164",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Ignite- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Ignite- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4164",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "White",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Product Code": "MGC-4164"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613310
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/ignite-visionbook-a5-100-pages/2-angle-da89c5829b52.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "18809f8ef0eafe25462884416c36142b592ae5adbb5d41970bee8616d9fcbdd3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "momentum-visionbook-a5-160-pages",
+      "title": "Momentum- Visionbook | A5 | 160 Pages",
+      "sku": "MGC-4165",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Momentum- Visionbook | A5 | 160 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Momentum- Visionbook | A5 | 160 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4165",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "White",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Product Code": "MGC-4165"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 345.0,
+        "amountMinorUnits": 34500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 345.0,
+            "amountMinorUnits": 34500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613313
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/momentum-visionbook-a5-160-pages/2-angle-da89c5829b52.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "18809f8ef0eafe25462884416c36142b592ae5adbb5d41970bee8616d9fcbdd3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "pro-plantable-calendar-wooden-easel-stand-3-5-x5",
+      "title": "Pro Plantable Calendar Wooden easel stand 3.5\"x5\"",
+      "sku": "MGC-4152",
+      "brand": {
+        "name": "Bioq",
+        "slug": "bioq"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Plantable calendar for corporate gifting, new joiner welcome kits, and eco gifting — affordable Bioq pro plantable wooden easel stand.",
+      "shortDescription": "Plantable calendar for corporate gifting, new joiner welcome kits, and eco gifting — affordable Bioq pro plantable wooden easel stand.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4152",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Bioq",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Material": "Seed Paper with Wooden Stand",
+        "Product Code": "MGC-4152"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 315.0,
+        "amountMinorUnits": 31500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 315.0,
+            "amountMinorUnits": 31500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613278
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 200,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/0-master-ce6873132ba6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3e219151e4d78d238ddc5bef24000a4655d9cac88b8140cecabe3ef90bf954be"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/1-angle-e61b13389374.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e8e8eeb82aa90a3be1dcd6a5a68dee74321fcdc801d5f0ae2635d21878bf2de4"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/2-angle-dc65c460f133.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "201f2f37f9a1dfed2881bcdb8db01accffc85566af7a9d376b91b15577e4c9a4"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/3-angle-33f057ef0d0a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2ed48671c3147167cf0f5dc038710ed1325bd0c710d9368d1f69af5b4a7144c1"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/4-angle-63b80f1d1490.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "738fcb51d624486d94aad3669cee84144cce757cc8801cd38e8508b971fb8312"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/5-angle-3a75946398de.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "20378b77872161a3fee0acc127e4898a86de1024f9dc4249c4e16c13c7ea2b74"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/6-angle-aa1a750be828.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5b5a46e207f162e4888dfb9f5689b758f685b98ec69ec581842ef3e40cb16d62"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/7-angle-dc22ed6e46f3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "83cad37846ea53d30a09daef6c5fc94420463c7f8fe1a40a238176052fd04788"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/8-angle-d79614eb84bd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "70761f7474bd79ee607d7a26c9d89b0ba64b2a14d35999d5ff439eefc0417fb4"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/pro-plantable-calendar-wooden-easel-stand-3-5-x5/9-angle-967f60fd6ec9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fd4552c7c58b209346e1f70ea40d3eae5423d033ec5f27e89d6d092db3a51662"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "revive-earth-day-visionbook-a5-100-pages",
+      "title": "Revive Earth Day VisionBook| A5 | 100 Pages",
+      "sku": "MGC-4169",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Revive Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Revive Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4169",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4169"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613325
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/revive-earth-day-visionbook-a5-100-pages/0-master-9ea227fb8f57.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "60be13549d172541b0f14d3ce819dec4dd715958be5f93bc286ddd49e719c53e"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/revive-earth-day-visionbook-a5-100-pages/1-angle-6df3107bbc57.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e5df2ee7001712a5645ec440d87a64ef31f0e66c4e9e28a3e2aaaea7cdf6d438"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "rooted-earth-day-visionbook-a5-100-pages",
+      "title": "Rooted Earth Day VisionBook| A5 | 100 Pages",
+      "sku": "MGC-4170",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Rooted Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Rooted Earth Day VisionBook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4170",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-4170"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613327
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/rooted-earth-day-visionbook-a5-100-pages/0-master-4186c34f2489.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "89dc736dbf80073a260a4476dd1c84906b8f706627ebf7fcf785728569b75687"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/rooted-earth-day-visionbook-a5-100-pages/1-angle-2fa0dea11a2e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "11291833bc3996c398bf09b92dcdd6063f20b057100ad2f979a1e8ce3768e95a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "wrist-band-custom-printed-paper-25-mm",
+      "title": "Wrist Band | Custom-Printed paper | 25 mm",
+      "sku": "MGC-4155",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Custom-printed paper wrist band for corporate events, employee access control, and bulk gifting — affordable Monkcraft 25mm branded option.",
+      "shortDescription": "Custom-printed paper wrist band for corporate events, employee access control, and bulk gifting — affordable Monkcraft 25mm branded option.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4155",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Paper",
+        "Closure Type": "Paper Sticker",
+        "Dimensions": "2.5 Cm",
+        "Product Code": "MGC-4155"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 15.0,
+        "amountMinorUnits": 1500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 15.0,
+            "amountMinorUnits": 1500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613286
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/wrist-band-custom-printed-paper-25-mm/0-master-00ee2bf5ceda.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d356d70f2c14a9cffc169b9999ac2e721eb9640c9b9214215e5e525bba414d79"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/wrist-band-custom-printed-paper-25-mm/1-angle-8218e31c0f91.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Printed Paper Wrist Band 25mm – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "8b8467636151933098c8a8a47193869d04f07e0a54cf6b1f562b27e58ab80bc8"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/wrist-band-custom-printed-paper-25-mm/2-angle-6cfaa0e7f7d5.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Custom Printed Paper Wrist Band 25mm – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1001,
+          "format": "webp",
+          "sha256": "bfa89bb00907eba1c1712c29b7604ed06be1baa30fe06403b005ac6fe57eb8d6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    },
+    {
+      "slug": "wrist-band-nylon-with-clip-20-mm",
+      "title": "Wrist Band | Nylon with clip | 20 mm",
+      "sku": "MGC-4157",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Nylon wrist band with clip for corporate events, employee gifting, and bulk branded orders — affordable Monkcraft 20mm customizable design.",
+      "shortDescription": "Nylon wrist band with clip for corporate events, employee gifting, and bulk branded orders — affordable Monkcraft 20mm customizable design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4157",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Nylon",
+        "Closure Type": "Clip",
+        "Dimensions": "2 Cm",
+        "Product Code": "MGC-4157"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 45.0,
+        "amountMinorUnits": 4500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 45.0,
+            "amountMinorUnits": 4500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613290
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/office-essentials/wrist-band-nylon-with-clip-20-mm/0-master-bd05052dc8c7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "633d4ce3ab7e8baef7ae405aaa715234af3a97a439267d6cdc82c7b37db604e4"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/wrist-band-nylon-with-clip-20-mm/1-angle-5d3269a54128.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Nylon Wrist Band 20mm – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0e1ba5f9af5a467aa6dd88e74c56663e943881a1b3633e1c616622492b542ae6"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/wrist-band-nylon-with-clip-20-mm/2-angle-c9ecf8094c9b.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Nylon Wrist Band 20mm – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ef8d750c3910fe749eb60537b102f1b2cbc0fa8f69abf1440c3e3ce368167327"
+        },
+        {
+          "path": "media/products/office-stationery/office-essentials/wrist-band-nylon-with-clip-20-mm/3-angle-8703b70a94a2.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft Nylon Wrist Band 20mm – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "339d72960db98f608c847719cfee9750fac986da97c4359574268dd480418bd0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:office-essentials",
+        "categoryId": "C9",
+        "name": "Office Essentials",
+        "slug": "office-essentials",
+        "path": "office-stationery/office-essentials",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "office-stationery/office-essentials"
+    }
+  ]
+}

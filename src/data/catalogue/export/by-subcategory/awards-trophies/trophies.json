@@ -1,0 +1,5411 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C10",
+    "code": "C10",
+    "name": "Awards & Trophies",
+    "slug": "awards-trophies",
+    "path": "awards-trophies",
+    "sortOrder": 10
+  },
+  "subcategory": {
+    "id": "C10:trophies",
+    "categoryId": "C10",
+    "name": "Trophies",
+    "slug": "trophies",
+    "path": "awards-trophies/trophies",
+    "sortOrder": 4
+  },
+  "categoryProductCount": 83,
+  "productCount": 50,
+  "products": [
+    {
+      "slug": "acrylic-led-table-name-board-trophy",
+      "title": "Acrylic LED Table Name Board Trophy",
+      "sku": "MGC-4193",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Acrylic LED Table Name Board Trophy — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Acrylic LED Table Name Board Trophy — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4193",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Natural Brown",
+        "Brand": "Monkcraft",
+        "Customization Type": "Engraving",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic + Wooden Base",
+        "Product Code": "MGC-4193"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1075.0,
+        "amountMinorUnits": 107500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1075.0,
+            "amountMinorUnits": 107500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613396
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/acrylic-led-table-name-board-trophy/0-master-ac3405a83101.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cf4b3480181e837e50cada51878ee6f5355a4ad40e0afbdcf9fae80f95a5972f"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/acrylic-led-table-name-board-trophy/1-angle-39f675804320.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "84ac87f804ea47149855fe5b22ec44be6b4ceb1506afa52ef660b8d0097f807b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "algol-trophy",
+      "title": "Algol Trophy",
+      "sku": "MGC-4184",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Algol trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Algol trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4184",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF",
+        "Dimensions": "(L*W*H)  24 x 2 x 17 cm",
+        "Product Code": "MGC-4184"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 680.0,
+        "amountMinorUnits": 68000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 680.0,
+            "amountMinorUnits": 68000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613369
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/algol-trophy/0-master-6000742e476a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ddac3b43def87717e5140d22e5c936cec359e7ab56704139ba7d48ab5f7e5dba"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/algol-trophy/1-angle-45665aef688c.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Algol Trophy – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2eface7d163f84c29c8a6780ea457491450c0dd3fd832e08cf30090fccef303c"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/algol-trophy/2-lifestyle-e42ca08afef1.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Algol Trophy – Lifestyle View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5d5623035c87cc063dc97f8c76b7d47a91bffd824f7765aa3310dbba2472c682"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "alkaid-trophy",
+      "title": "Alkaid Trophy",
+      "sku": "MGC-4190",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Alkaid trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Alkaid trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4190",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  10 x 8 x 22  cm",
+        "Product Code": "MGC-4190"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1075.0,
+        "amountMinorUnits": 107500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1075.0,
+            "amountMinorUnits": 107500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613387
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/alkaid-trophy/0-master-656ab125ce5e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "eddf5d8f0169472dc4398d0a6a821724bc0951a77772dd01f164ff7ca7ca98ca"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/alkaid-trophy/1-angle-91bf7fe48b0d.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Alkaid Trophy – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5a99694c7a564768910dbc2f17e1d569513a7085535ab263fd5b2fdfd7fa26b6"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/alkaid-trophy/2-angle-e1deff293802.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Alkaid Trophy – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7a99cd80151487c1c76e1e8d85ed3cf8028e0b2f636cb49191b3df0dad087856"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/alkaid-trophy/3-lifestyle-36a7dc6b61ba.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Alkaid Trophy – Lifestyle View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0583ef53e697d970b0c19c211c43f005770c0986326266f069f37715aea69fcc"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/alkaid-trophy/4-angle-c48d69528d25.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Alkaid Trophy – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "45ebc3c02d38fa9a8c906ec90e3a3649c501394170d20fdf386d1c9126c8dfc5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "alpha-dorado-trophy-black-with-silver",
+      "title": "Alpha Dorado Trophy-Black with Silver",
+      "sku": "MGC-4205",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Recognition trophy for employee awards, corporate events, and bulk gifting — premium TrophyNeeds black and silver design with custom branding.",
+      "shortDescription": "Recognition trophy for employee awards, corporate events, and bulk gifting — premium TrophyNeeds black and silver design with custom branding.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4205",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "11",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "27 x 5.5 x 10 cms",
+        "Product Code": "MGC-4205"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 918.0,
+        "amountMinorUnits": 91800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 918.0,
+            "amountMinorUnits": 91800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613431
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/alpha-dorado-trophy-black-with-silver/0-master-f2dc956db25b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b647aadc1e3c44984e9d5172de8ba2fe5cb9121a6b3af0f0d4e4667d876a9c52"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/alpha-dorado-trophy-black-with-silver/1-angle-2d9731c6bee3.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Alpha Dorado Trophy Black with Silver – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3b5000eef0fa6f9e26fb86c76e600cffd3f8b9f66394a2254809c02e9364a977"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "alpheratz-trophy-brown-with-gold",
+      "title": "Alpheratz Trophy-Brown with Gold",
+      "sku": "MGC-4213",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Alpheratz Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Alpheratz Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4213",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "19",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "28.5 x 14.5 x 2.5 cms",
+        "Product Code": "MGC-4213"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1665.0,
+        "amountMinorUnits": 166500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1665.0,
+            "amountMinorUnits": 166500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613455
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/alpheratz-trophy-brown-with-gold/0-master-298c95dea2d2.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d662d06ec33868a967800135845ce87c962691ce126f984839f3251fd5d3a9d6"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/alpheratz-trophy-brown-with-gold/1-angle-5501e9e08b0c.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Alpheratz Trophy Brown Gold – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a7ccace24362f1bf91937ad7c5b48f0d7d029cddbbfccfb8a805fa8ec561f915"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/alpheratz-trophy-brown-with-gold/2-angle-d5d7cdd82d48.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Alpheratz Trophy Brown Gold – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7effa0d59c36bcd41e4b6450347f97b38bbdd5faec971072332c44e2d7165c5b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "altair-trophy",
+      "title": "Altair Trophy",
+      "sku": "MGC-4187",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Altair trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Altair trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4187",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  9 x 5 x 24  cm",
+        "Product Code": "MGC-4187"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 925.0,
+        "amountMinorUnits": 92500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 925.0,
+            "amountMinorUnits": 92500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613378
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/altair-trophy/0-master-66f032861ff4.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a3291c9f0552942025b709f7d40c3798e357f83fe74d307a65152b81cd2b7c29"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/altair-trophy/1-angle-92461c5b14f2.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Altair Trophy – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "96247ae7f84f56eeb9b2c7453bb9a80fb74f0b0f49bd877424b778dc17f04fa1"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/altair-trophy/2-angle-fc59c9f0329d.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Altair Trophy – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f477b24e5e8ecd8e81ef6a9ee0ffc7ecc9ed48defa556150c50a1715c9d34d0a"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/altair-trophy/3-angle-1e24db4f1bc2.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Altair Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d1e7a66eb2f997f2ca3997c0802e97c12ff37cdd1a2bad34c0f6375b46c975ff"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "antares-trophy",
+      "title": "Antares Trophy",
+      "sku": "MGC-4191",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Antares trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Antares trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4191",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  9 x 5 x 24  cm",
+        "Product Code": "MGC-4191"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1075.0,
+        "amountMinorUnits": 107500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1075.0,
+            "amountMinorUnits": 107500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613389
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/antares-trophy/0-master-c35e94d3b58e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e2c04728ddfa372bd1430c55c6af8d079a6c7611f7a1852c284b3a81fe09d74f"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/antares-trophy/1-angle-dd76bf1c2a61.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antares Trophy – Alternate Front View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "47a33a968d905d43b184e591784b8063cd878c594e3e071ab3b81c64ed4b931b"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/antares-trophy/2-angle-345acdd1278a.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antares Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "380011493a7e5af67afa0be5a537a620251d51c2e2d2da4b8ea55af0e91d1d66"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/antares-trophy/3-angle-26125a4e1a71.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antares Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bda34ab0975dac30df585125f04c5f3024ab003db8d48f0c165d8dec16460804"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/antares-trophy/4-lifestyle-9de058bd8cb5.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Antares Trophy – Lifestyle View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6ecdc93f2846e095c97dfc588d2083f1224c07c3f020ebf68f82d3590f1451c1"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/antares-trophy/5-angle-a09e6e96de35.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Antares Trophy – Group View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "486e35fc78db76f105107fb95c9c559b494e79369fd061a5f9fccd28d2016513"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "aquarius-trophy-brown-with-gold",
+      "title": "Aquarius Trophy-Brown with Gold",
+      "sku": "MGC-4204",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Aquarius Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Aquarius Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4204",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "27",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "29.5 x 13 x 5.7 cms",
+        "Product Code": "MGC-4204"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 890.0,
+        "amountMinorUnits": 89000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 890.0,
+            "amountMinorUnits": 89000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613429
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/aquarius-trophy-brown-with-gold/0-master-907441e5a657.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "563ccdcdef6cb2eeee96d1f054a5d6b70e686b807a45228cc0615c8081d0a447"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/aquarius-trophy-brown-with-gold/1-angle-3940a31ca888.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Aquarius Trophy Brown Gold – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "33c0155f8dcbabee3a53853ed91cdfaf306d6c6c75b5eaeac014331095150d0d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "aquila-trophy-white",
+      "title": "Aquila Trophy-White",
+      "sku": "MGC-4224",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Award trophy for corporate events, employee recognition, and client gifting — premium TrophyNeeds white design with personalised branding.",
+      "shortDescription": "Award trophy for corporate events, employee recognition, and client gifting — premium TrophyNeeds white design with personalised branding.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4224",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "7",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "27.5 x 22.5 x 4.5 cms",
+        "Product Code": "MGC-4224"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3956.0,
+        "amountMinorUnits": 395600,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3956.0,
+            "amountMinorUnits": 395600,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613483
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/aquila-trophy-white/0-master-3dc50a4e0dcf.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "477c18aec58fa54293007ffb8e53a2474a29957b2bf0545d80679d4229c92b09"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/aquila-trophy-white/1-angle-41b5cd9f6ba5.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Aquila Trophy White – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "933f845c6cfbff55ea357c394a6af3b9da7f0cf3f36574e20355e7e7efb24f4d"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/aquila-trophy-white/2-angle-111f9413d3a6.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Aquila Trophy White – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e01af63c54710c37e56791ffae07add71247be4a8989961c46cc318e50aa919"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/aquila-trophy-white/3-angle-69a3a9427dbb.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Aquila Trophy White – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6ffd4b665069a5c20222743d4d7428cd75a643aa14a853a404d9478be80681da"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "auriga-trophy-black",
+      "title": "Auriga Trophy-Black",
+      "sku": "MGC-4219",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Auriga Trophy in Black — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Auriga Trophy in Black — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4219",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "26",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "21.5 x 17.5 x 4 cms",
+        "Product Code": "MGC-4219"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2010.0,
+        "amountMinorUnits": 201000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2010.0,
+            "amountMinorUnits": 201000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613470
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/auriga-trophy-black/0-master-f3c5d48fbd77.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c6de648d60802aadccf69a09d31a64e62f251dd57f51358f2ae810a6e3a140b8"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/auriga-trophy-black/1-angle-16cfcbb5b058.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Auriga Trophy Black – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "98c951ee81c7cf40b2387c9dd80f392c2d93fdd68870ba9c4af51a33e50cadcb"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/auriga-trophy-black/2-angle-a3a7d89f0269.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Auriga Trophy Black – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "20789856bf4420eb1de660a79854f27e3ce58988f8b6576305ef74f91d2c10a1"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/auriga-trophy-black/3-angle-04f726719d00.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Auriga Trophy Black – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6571efde89fc3edce68c57f996abc201b4301342f8175b812c9f986d55e39c28"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/auriga-trophy-black/4-angle-7af1d9af50c2.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Auriga Trophy Black – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "adc7aa297371629b27391bf30acc8e90c599e44bdb366a82e9b4868ca2d25119"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/auriga-trophy-black/5-angle-01ed2e0ff4f4.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Auriga Trophy Black – Close-up View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1fbb0c112a2140425ff0ebeb2ef01f1f196fe6ba77988f1620f96558485bd9e4"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/auriga-trophy-black/6-angle-bf5113aa9afc.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Auriga Trophy Black – Base View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0fb6d0689c44ddea02599bc15cbb2480446ae52f6dcb0c044a3efef164c3b876"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "bellatrix-trophy",
+      "title": "Bellatrix Trophy",
+      "sku": "MGC-4176",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Bellatrix trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Bellatrix trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4176",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF",
+        "Dimensions": "(L*W*H)  13 x 5 x 25 cm",
+        "Product Code": "MGC-4176"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 415.0,
+        "amountMinorUnits": 41500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 415.0,
+            "amountMinorUnits": 41500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613345
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/bellatrix-trophy/0-master-28edf5da62d1.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7a74faa807a2fbeaf46cec2ef6ddd16a75192f4acf72f392c73b27e0ea520306"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/bellatrix-trophy/1-lifestyle-0c57795d1ecb.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Bellatrix Trophy – Lifestyle View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d24abe0d18455fc61def533281ca621adeb1670177e848cac38b3ef15d7d7d32"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/bellatrix-trophy/2-angle-25ca54aef603.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Bellatrix Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6f14d66f3ce5881fe6243fe705479873409d2fdf3c01631560b273d1d0a41881"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/bellatrix-trophy/3-angle-5a06126cfca6.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Bellatrix Trophy – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c5f0d3a7cda6d0c1c3542a1cf4f31987f60392ecf5eeac8fa124de08254b9204"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/bellatrix-trophy/4-angle-0ddb5b79b83f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Bellatrix Trophy – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a72cee6846abc3aeb072d691ba0f9bdf84d2d11d08e3f1edc16fcb9758aa0a0b"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/bellatrix-trophy/5-angle-9e259811854f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Bellatrix Trophy – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4ce637f62cb5aced747cebb9dc8423fec0daada0febd69eb35a0115823f716de"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "canis-major-trophy-black-with-gold",
+      "title": "Canis Major Trophy-Black with Gold",
+      "sku": "MGC-4208",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Canis Major Trophy in Black with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Canis Major Trophy in Black with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4208",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "17",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "25.5 x 11.4 x 3.3 cms",
+        "Product Code": "MGC-4208"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1520.0,
+        "amountMinorUnits": 152000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1520.0,
+            "amountMinorUnits": 152000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613441
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/canis-major-trophy-black-with-gold/0-master-1e0295983487.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "98b921fefa9cebcbca5474412af54e62024f076f185d929a11979fa28de52b96"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/canis-major-trophy-black-with-gold/1-angle-40e9eb499aa2.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Canis Major Trophy Black Gold – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "83ea7de5b4479d9cffa418b51ce33a7fd8e3fba779cc8011b1a6148255b40c40"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "capella-trophy",
+      "title": "Capella Trophy",
+      "sku": "MGC-4183",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Capella trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Capella trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4183",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF With Chrome Plated Virgin ABS Ring",
+        "Dimensions": "(L*W*H)  19 x 2 x 19 cm",
+        "Product Code": "MGC-4183"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 675.0,
+        "amountMinorUnits": 67500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 675.0,
+            "amountMinorUnits": 67500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613367
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/capella-trophy/0-master-ead01f8a924f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "874c85c4dd635d76c96e3a2885b865a9679e14adfd5d5bd4be1ef719d78f6d94"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/capella-trophy/1-lifestyle-76154a874c07.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Capella Trophy – Lifestyle View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "99225507406fde5306f8efcaa92339e7a989d7a008b577db4a790aded6c9260a"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/capella-trophy/2-angle-0d96eac75b5b.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Capella Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a04c3c6d26f03161858f89f214d8aa8d3ad84a95b0c64face96600ddf279b5d1"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/capella-trophy/4-angle-975486e0af6f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Capella Trophy – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d2a2cbc5c76289aa237626b6d385b5c2a1e8f869514aea1adc22ed5ee90607de"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "castor-trophy",
+      "title": "Castor Trophy",
+      "sku": "MGC-4180",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Castor trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Castor trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4180",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF With Chrome Plated Virgin ABS Ring",
+        "Dimensions": "(L*W*H)  25.5 x 2 x 17.5 cm",
+        "Product Code": "MGC-4180"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 595.0,
+        "amountMinorUnits": 59500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 595.0,
+            "amountMinorUnits": 59500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613357
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/castor-trophy/0-master-3479279d1e66.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "908406e6b3238249b2901d5676f478240379b75ae2276f0df15f24df022f6e07"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/castor-trophy/1-angle-71b45f7061b5.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Castor Trophy – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cd2aefdae58a4cc1818a926bc52e2d7409b9f59b3ab3063235160fe68d4bb4a0"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/castor-trophy/2-angle-11c914a58f56.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Castor Trophy – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "aac33013a7781aa43cb6aab90f0fe70235dd4169055e5a2afaaea659c74b82cf"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/castor-trophy/3-angle-556d93d64c3d.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Castor Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb08ba3c6236e69391eed34100eebc3df73c7996c088e6b2261e37cb95d3d92a"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/castor-trophy/4-angle-786a185cb322.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Castor Trophy – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1dec83f4a7696c707a8d3fc2608c178ca2274475a23b986a561c5872dbd357b7"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "celestial-star-award-white",
+      "title": "Celestial Star Award- White",
+      "sku": "MGC-4201",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Celestial Star Award in white — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "shortDescription": "TrophyNeeds Celestial Star Award in white — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4201",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Plastic",
+        "Dimensions": "(L*W*H) 10 x 3.5  x 26",
+        "Product Code": "MGC-4201"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 285.0,
+        "amountMinorUnits": 28500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 285.0,
+            "amountMinorUnits": 28500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613420
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/celestial-star-award-white/0-master-e9aaabf2eba0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "95cea1fd58e0f2bb737c9927ee743aae24a0081031885bd5a0cd61d90c7de67c"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/celestial-star-award-white/1-angle-31ddbce8d02c.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Celestial Star Award White – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5eb7f23a60ee9400d3d812ebf628c7d162232997e6cfe15d1280fc1e7d99f017"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/celestial-star-award-white/2-angle-04ca974e39ae.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Celestial Star Award White – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5556097205d9933442bddd3c1719cc2d4074bfa3f808160aa9cb366016825953"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "columba-trophy-brown",
+      "title": "Columba Trophy-Brown",
+      "sku": "MGC-4215",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Columba Trophy in Brown — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Columba Trophy in Brown — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4215",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "25 x 20 x 2 cms",
+        "Product Code": "MGC-4215"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1758.0,
+        "amountMinorUnits": 175800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1758.0,
+            "amountMinorUnits": 175800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613461
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/columba-trophy-brown/0-master-101815e4ba63.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b9cd6f400cc75ad47bffb8292d04b6c0262f03326c490f5bc4cee347fe2bed15"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "cosmic-trophy-8-inch",
+      "title": "Cosmic Trophy - 8 inch",
+      "sku": "MGC-4202",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for corporate awards, employee recognition, and annual day celebrations — premium TrophyNeeds Cosmic Trophy, 8-inch customizable award.",
+      "shortDescription": "Trophy for corporate awards, employee recognition, and annual day celebrations — premium TrophyNeeds Cosmic Trophy, 8-inch customizable award.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4202",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "22H x 3W x 5L cms",
+        "Product Code": "MGC-4202"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 550.0,
+        "amountMinorUnits": 55000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 550.0,
+            "amountMinorUnits": 55000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613423
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/cosmic-trophy-8-inch/1-angle-dc2fb082c0f1.webp",
+          "role": "MASTER",
+          "variantKey": "TrophyNeeds Cosmic Trophy 8 Inch – Side View",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4b4696432e03dfd2096e5b9eaa98abc9d5d550b03a479ffaa6000ea6eeb28675"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/cosmic-trophy-8-inch/2-angle-a55bbc22d989.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Cosmic Trophy 8 Inch – Back View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d2535722b26b3d9773139395ad664b3a15c87492a2fc591e7ee4bdecbdb28323"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "cygnus-trophy-brown",
+      "title": "Cygnus Trophy-Brown",
+      "sku": "MGC-4214",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Corporate award trophy for employee appreciation and annual day gifting — premium TrophyNeeds brown design with custom logo engraving.",
+      "shortDescription": "Corporate award trophy for employee appreciation and annual day gifting — premium TrophyNeeds brown design with custom logo engraving.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4214",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "22",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "25 x 9.5 x 3.4 cms",
+        "Product Code": "MGC-4214"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1695.0,
+        "amountMinorUnits": 169500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1695.0,
+            "amountMinorUnits": 169500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613458
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/cygnus-trophy-brown/0-master-f44584970a2a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "72743cd2fa887ead592d008a9f5bbd2066587973f78f99f8ba5ca7a065a026b4"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/cygnus-trophy-brown/1-angle-d3a601e3cec0.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Cygnus Trophy Brown – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fd0a171005fde87b627905fe7ebfe86dc9ce1c26b17dd0ee1dc14a4f04e10696"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "gacrux-trophy",
+      "title": "Gacrux Trophy",
+      "sku": "MGC-4181",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Gacrux trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Gacrux trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4181",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  11 x 4 x 25  cm",
+        "Product Code": "MGC-4181"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 615.0,
+        "amountMinorUnits": 61500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 615.0,
+            "amountMinorUnits": 61500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613361
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/gacrux-trophy/0-master-a7b7d6005181.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "25ac55b3641eeb17c8f65f230541dfac02bd1306d511e8417907035a47a223a5"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/gacrux-trophy/1-lifestyle-cb8f488762ff.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Gacrux Trophy – Lifestyle View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5e8fef8661b937b22ff7518aeccc371c4221c725ad9f87ffd902c79ec46514ae"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/gacrux-trophy/2-angle-d483547ba343.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Gacrux Trophy – Alternate View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "213f9e18c1fdcfba8038a97b878f2486658a183f92e87337804f9820c63447bb"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/gacrux-trophy/3-angle-77d5cc77d2ce.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Gacrux Trophy – Side View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ef70298c844a7b0c53974ee5641c2021bfa4249952f05e68a75ca74f875c3ec5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "gemini-trophy-brown-with-black",
+      "title": "Gemini Trophy-Brown with Black",
+      "sku": "MGC-4220",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Gemini Trophy in Brown with Black — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Gemini Trophy in Brown with Black — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4220",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "24",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "30.5 x 9.5 x 9.5 cms",
+        "Product Code": "MGC-4220"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2255.0,
+        "amountMinorUnits": 225500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2255.0,
+            "amountMinorUnits": 225500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613472
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/gemini-trophy-brown-with-black/0-master-874dda51f623.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "57b266f4652322314de76b6b47ea1eb4d6210ed6f20a0875d92945f4e9b79c79"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/gemini-trophy-brown-with-black/1-angle-2c07fc925d3b.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Gemini Trophy Brown Black – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f67251849eb271af4f681315151c0733366a1272c14cbad3ba8dfa7b5b8b65b1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "la-superba-trophy-black-with-silver",
+      "title": "La Superba Trophy-Black with Silver",
+      "sku": "MGC-4203",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Corporate recognition trophy for client gifting and annual day ceremonies — premium TrophyNeeds black and silver design with custom branding.",
+      "shortDescription": "Corporate recognition trophy for client gifting and annual day ceremonies — premium TrophyNeeds black and silver design with custom branding.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4203",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "24",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "20 x 10 x 5.5 cms",
+        "Product Code": "MGC-4203"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 708.0,
+        "amountMinorUnits": 70800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 708.0,
+            "amountMinorUnits": 70800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613426
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/la-superba-trophy-black-with-silver/0-master-0d3606be1264.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ce789f52180220eec816a503c3775ad689d2ff758a9f4f5d97d48ce57de0df97"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/la-superba-trophy-black-with-silver/1-angle-798b58801f1e.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds La Superba Trophy Black with Silver – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d018fd478c21f48c1477d2d625ad8f263a69c45dbf923b1687fee0b7188e2c38"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "leo-trophy-black-with-gold",
+      "title": "Leo Trophy-Black with Gold",
+      "sku": "MGC-4206",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Leo Trophy in black with gold — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "shortDescription": "TrophyNeeds Leo Trophy in black with gold — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4206",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "41",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Wood",
+        "Dimensions": "24.5 x 11.5 x 3.3 cms",
+        "Product Code": "MGC-4206"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1455.0,
+        "amountMinorUnits": 145500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1455.0,
+            "amountMinorUnits": 145500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613435
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/leo-trophy-black-with-gold/0-master-2a2a3c4ed231.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "63f14af065dae682b828de980f02a7a485513f406e55321c7cbfdd4408691fba"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "leo-trophy-white-with-gold",
+      "title": "Leo Trophy-White with Gold",
+      "sku": "MGC-4207",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Leo Trophy in white with gold — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "shortDescription": "TrophyNeeds Leo Trophy in white with gold — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4207",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Wood",
+        "Dimensions": "24.5 x 11.5 x 3.3 cms",
+        "Product Code": "MGC-4207"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1455.0,
+        "amountMinorUnits": 145500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1455.0,
+            "amountMinorUnits": 145500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613438
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/leo-trophy-white-with-gold/0-master-09892223e157.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d8cae0db740284c95ac6eda20f1975647c7bb4bbf0be5e3dba2b0bb15e87a1c4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "lota-trophy",
+      "title": "Lota Trophy",
+      "sku": "MGC-4179",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Lota trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Lota trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4179",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF",
+        "Dimensions": "(L*W*H)  24 x 2 x 20 cm",
+        "Product Code": "MGC-4179"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 525.0,
+        "amountMinorUnits": 52500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 525.0,
+            "amountMinorUnits": 52500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613353
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/lota-trophy/0-master-1a70213e4b23.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f3e4c3aa0e35224f2397769761037c1df67a9daa5f27ad8fbc45135f97413a2c"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/lota-trophy/1-angle-5002046cb34d.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Lota Trophy – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "931b853006fd319cf67f1bf3c55b14d3773a6043220dd20567dc565c534ee96a"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/lota-trophy/2-angle-b2bee648c233.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Lota Trophy – Group View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "51312e233fe91e5ff00a19ff905ccdd956d54bf313f5079f44d552a30e6769b9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "luminous-vanguard-award-white",
+      "title": "Luminous Vanguard Award-White",
+      "sku": "MGC-4199",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Luminous Vanguard Award in white — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "shortDescription": "TrophyNeeds Luminous Vanguard Award in white — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4199",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic",
+        "Dimensions": "(L*W*H) 10 x 3.5  x 18",
+        "Product Code": "MGC-4199"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 185.0,
+        "amountMinorUnits": 18500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 185.0,
+            "amountMinorUnits": 18500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613412
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/luminous-vanguard-award-white/0-master-4cb3df0b918b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fbf317777c6f38a320a76b729e348037434a3432285cefe4537edb4d9dd397eb"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/luminous-vanguard-award-white/1-angle-b61f732f4f5f.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Luminous Vanguard Award White – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c41ad07218cac6bba6d0012009ab16d82b2aa82c5921434c3dfeecd98fc0e552"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/luminous-vanguard-award-white/2-angle-8ea6afab60df.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Luminous Vanguard Award White – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a3fa73182d946989de5ca1ff3566af0d1e944889d228d66fc7ae81b8e531a42b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "mimosa-trophy",
+      "title": "Mimosa Trophy",
+      "sku": "MGC-4178",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Mimosa trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Mimosa trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4178",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF",
+        "Dimensions": "(L*W*H)  18 x 4.5 x 23 cm",
+        "Product Code": "MGC-4178"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 515.0,
+        "amountMinorUnits": 51500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 515.0,
+            "amountMinorUnits": 51500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613350
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/mimosa-trophy/0-master-2ff235abcd47.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "58aa85568f02bda2d1cea36d5cb740d9f13a32117e5b88d8c76fa8480539ee9d"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mimosa-trophy/1-angle-0d18737ad763.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mimosa Trophy – Alternate Front View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1bc3a5bad963d53a58f93c64413c27e374810f6b755aeeceb953e07e05038c88"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mimosa-trophy/2-angle-f3e1293b6ad7.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mimosa Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d3fe7bd3963427d9e9d179de6d0e8f03021de0a5e2e9110ab0f5cef354cae329"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mimosa-trophy/3-angle-4c467a5f5817.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mimosa Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8609cc2de5e8fc81f61ad29b30568f924c0db5b861832275cfa7b30b16a900da"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mimosa-trophy/4-lifestyle-92fc32c8a69c.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Mimosa Trophy – Lifestyle View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e11cefc715dff47f7d0d809cd24fdb1eb0fa7d3388fac784a8325be62aa29bc4"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mimosa-trophy/5-angle-470d9348aaf6.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Mimosa Trophy – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3bb3697276d98fb61d35ddf69d8eddca43e0b8f9c43198ebbffd94bd0b4ef645"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "mira-trophy-brown-with-gold",
+      "title": "Mira Trophy-Brown with Gold",
+      "sku": "MGC-4216",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Mira Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Mira Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4216",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "42",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "26.5 x 15 x 5 cms",
+        "Product Code": "MGC-4216"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1779.0,
+        "amountMinorUnits": 177900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1779.0,
+            "amountMinorUnits": 177900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613463
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/mira-trophy-brown-with-gold/0-master-b9746c4c3b5a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ee2b7b185e9a19ac1dc52b1e05fd23e8344471fef78a69dabaf8ac2ec39cc99d"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mira-trophy-brown-with-gold/1-angle-4c9a663ebf50.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Mira Trophy Brown Gold – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "136cf7b7ab4c8caa55b6efcafdba928e94bc2e22a3d4094109f0015f55ffd258"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "mizar-trophy-brown-with-gold",
+      "title": "Mizar Trophy-Brown with Gold",
+      "sku": "MGC-4223",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Mizar Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Mizar Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4223",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "26",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "26.8 x 12 x 3.4 cms",
+        "Product Code": "MGC-4223"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2640.0,
+        "amountMinorUnits": 264000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2640.0,
+            "amountMinorUnits": 264000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613479
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/mizar-trophy-brown-with-gold/0-master-d16466cc2e36.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d4319f5ce933395cc64dce2859655b9ea30a48b9d9fe8349caac507dcf443763"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mizar-trophy-brown-with-gold/1-angle-fa9760b9b43b.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Mizar Trophy Brown Gold – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "75415f8259f87dc31be1095c65e57564bcd1f30b121f98ed33424c31fc9f2ce0"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/mizar-trophy-brown-with-gold/2-angle-f25c845bdb77.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Mizar Trophy Brown Gold – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "36fe335a688280add283d01cdc78ac44728b3d685587dc5c6fb250aa601b5bbf"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "nashira-trophy-brown-with-gold",
+      "title": "Nashira Trophy-Brown with Gold",
+      "sku": "MGC-4221",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Nashira Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Nashira Trophy in Brown with Gold — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4221",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "27",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "25.6 x 7 x 7 cms",
+        "Product Code": "MGC-4221"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2304.0,
+        "amountMinorUnits": 230400,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2304.0,
+            "amountMinorUnits": 230400,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613474
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/nashira-trophy-brown-with-gold/0-master-0faced9dd714.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "764882ffa48ba5eff8bc80024e69d3a66bf43364106d43dfc24ba8a5ef1a9e5d"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/nashira-trophy-brown-with-gold/1-angle-8df550447568.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Nashira Trophy Brown Gold – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9090f0716abb7ea937fe68450eccb3112e99ec922e1b18bba1817e585f0b160d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "numeric-trophy-10",
+      "title": "Numeric Trophy (10)",
+      "sku": "MGC-4194",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Numeric Trophy (10) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Numeric Trophy (10) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4194",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic",
+        "Dimensions": "18 (W), 16 (H), 4 (D) Cms",
+        "Product Code": "MGC-4194"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1155.0,
+        "amountMinorUnits": 115500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1155.0,
+            "amountMinorUnits": 115500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613399
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-10/0-master-767bddd6c63b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c49e43660b16b9e5ae4994fd7c6059cbeee93d3f0d59a99beab01d1e492ff295"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-10/1-angle-29207636273a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c244e0ae10ccb6d57ae8cb6d62851b1ed1a8dee4292a99f97f21baf7131a31a2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "numeric-trophy-15",
+      "title": "Numeric Trophy (15)",
+      "sku": "MGC-4196",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Numeric Trophy (15) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Numeric Trophy (15) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4196",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic",
+        "Dimensions": "18 (W), 16 (H), 4 (D) Cms",
+        "Product Code": "MGC-4196"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1495.0,
+        "amountMinorUnits": 149500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1495.0,
+            "amountMinorUnits": 149500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613405
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-15/0-master-ad1ad20e7f5c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e7e33f14cd423ac4354ec20995e21efe95483a70587ba4081675e7d04d941a60"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-15/1-angle-33a754c08fa4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8fa1ffa2522acff9d5ac686578594568219328aa6413e0c2cc42cde578271d34"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "numeric-trophy-20",
+      "title": "Numeric Trophy (20)",
+      "sku": "MGC-4197",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Numeric Trophy (20) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Numeric Trophy (20) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4197",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic",
+        "Dimensions": "18 (W), 16 (H), 4 (D) Cms",
+        "Product Code": "MGC-4197"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1495.0,
+        "amountMinorUnits": 149500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1495.0,
+            "amountMinorUnits": 149500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613407
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-20/0-master-81a3db91a108.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "77fc2b8f1a4b3664345837543430f14e4e5e0f44aed701d0609a8b377e714d30"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-20/1-angle-0df37f9e3e4e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "480f6b3c993d07f5dad94cad08b713d3063c87db5c97f5fb826ab55b066701e3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "numeric-trophy-25",
+      "title": "Numeric Trophy (25)",
+      "sku": "MGC-4198",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Numeric Trophy (25) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Numeric Trophy (25) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4198",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic",
+        "Dimensions": "18 (W), 16 (H), 4 (D) Cms",
+        "Product Code": "MGC-4198"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1495.0,
+        "amountMinorUnits": 149500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1495.0,
+            "amountMinorUnits": 149500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613409
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-25/0-master-dcc145478e69.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8e6db2cb1c2b60aef451591a01a43bb957fe53485085d61dab2241afc4e6a9c8"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-25/1-angle-cc0e8680b9e4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "12cc9cf975506f68f289b953e6a6c02f43f671edf6359658f0e54d5173b04e94"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "numeric-trophy-5",
+      "title": "Numeric Trophy (5)",
+      "sku": "MGC-4195",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Numeric Trophy (5) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Numeric Trophy (5) — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4195",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic",
+        "Dimensions": "18 (W), 16 (H), 4 (D) Cms",
+        "Product Code": "MGC-4195"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1155.0,
+        "amountMinorUnits": 115500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1155.0,
+            "amountMinorUnits": 115500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613402
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/numeric-trophy-5/1-angle-a58de6ea4950.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4d9909bf57b83fb14dfc67be7fa754607dd179f203fdd348c637e0eb1403d275"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "omicron-leonis-subra-trophy-black-with-brown",
+      "title": "Omicron Leonis_ Subra Trophy-Black with Brown",
+      "sku": "MGC-4222",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Subra Trophy in Black with Brown — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Subra Trophy in Black with Brown — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4222",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "26",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "20 x 21.5 x 4 cms",
+        "Product Code": "MGC-4222"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2325.0,
+        "amountMinorUnits": 232500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2325.0,
+            "amountMinorUnits": 232500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613477
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/omicron-leonis-subra-trophy-black-with-brown/0-master-590c764a08c6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7a02eea6cf9729ec9c6503167b6aaac33bfd09423d9a31bfcafd448f19724676"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/omicron-leonis-subra-trophy-black-with-brown/1-angle-f16c1cd73171.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Subra Trophy Black Brown – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "df245bea0de5e3eab174bde822a17bc0552197ddc3c94786886d04c05d276106"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "pegasus-trophy-black-with-brown",
+      "title": "Pegasus Trophy-Black with Brown",
+      "sku": "MGC-4212",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Pegasus Trophy in Black with Brown — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Pegasus Trophy in Black with Brown — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4212",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "28",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "23 x 9.5 x 4 cms",
+        "Product Code": "MGC-4212"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1632.0,
+        "amountMinorUnits": 163200,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1632.0,
+            "amountMinorUnits": 163200,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613451
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/pegasus-trophy-black-with-brown/0-master-203ce4179904.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "df88a33f17e2e93da54afb7e2b08fc5d58b2b5236ddaca6b9fe16973eff7b47b"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/pegasus-trophy-black-with-brown/1-angle-06e82903b387.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Pegasus Trophy Black Brown – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "248f9bdbfe665356f39deb516afd0c3c46d6161720a492015affec3df1993044"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "polaris-trophy",
+      "title": "Polaris Trophy",
+      "sku": "MGC-4188",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Polaris trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Polaris trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4188",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  7.5 x 7.5 x 22  cm",
+        "Product Code": "MGC-4188"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 925.0,
+        "amountMinorUnits": 92500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 925.0,
+            "amountMinorUnits": 92500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613381
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy/0-master-d89291a2def8.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "de7733aff197a91d0ac64ffe76161295b0be47516fe53597e0e89434a548643f"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy/1-angle-ecea259466bd.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Polaris Trophy – Alternate Front View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "53114c660add019b6b3b789cac52a8e8e85ccd93b713cea34b84d4458f901f90"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy/2-angle-63bdfd2030d5.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Polaris Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c69bf9c8b22604ca76e75d524899f67bb35cd1cc90ef901864cdb0361168306f"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy/3-angle-e998822802ad.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Polaris Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9a8576b26900813c91be91ff1a1a488c537667ad81a1220bf531ad85948e2d56"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy/4-angle-03d5f47ab1cd.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Polaris Trophy – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "be5a262ef8aad7df95398c541ca4b9cd05415bcad5411c687692507e37525183"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy/5-angle-a3da6f371ee1.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Polaris Trophy – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9352da18baa54f0a9137dba9f12dc7f2466fdc1cfc3b583006a1ee5049b17a63"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "polaris-trophy-black-with-brown",
+      "title": "Polaris Trophy-Black with Brown",
+      "sku": "MGC-4209",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Polaris Trophy in Black with Brown — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Polaris Trophy in Black with Brown — engraved award for milestones. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4209",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "9",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "19.5 x 10.4 x 4.3 cms",
+        "Product Code": "MGC-4209"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1548.0,
+        "amountMinorUnits": 154800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1548.0,
+            "amountMinorUnits": 154800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613443
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy-black-with-brown/0-master-8d07c9bf5ad3.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "38ebe37a4368c17196377216572b626ca65b9cd1f4c2972551d9b46d2575e561"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/polaris-trophy-black-with-brown/1-angle-fc73e388b303.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Polaris Trophy Black Brown – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9e61991b6d0077ec8a0c18ff70cf859c33418fe66b107082bf0f39006db9dd79"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "portable-acrylic-mobile-stand",
+      "title": "Portable Acrylic Mobile Stand",
+      "sku": "MGC-4200",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Portable Acrylic Mobile Stand — an affordable desk accessory for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "TrophyNeeds Portable Acrylic Mobile Stand — an affordable desk accessory for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4200",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic",
+        "Product Code": "MGC-4200"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 225.0,
+        "amountMinorUnits": 22500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 225.0,
+            "amountMinorUnits": 22500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613417
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants",
+          "images"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "procyon-trophy",
+      "title": "Procyon Trophy",
+      "sku": "MGC-4185",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Procyon trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Procyon trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4185",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  16 x 4 x 18.5  cm",
+        "Product Code": "MGC-4185"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 725.0,
+        "amountMinorUnits": 72500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 725.0,
+            "amountMinorUnits": 72500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613371
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/procyon-trophy/0-master-acddda87f779.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8c40c4a13b7aecfbf037e2d06ab94551a6f698ef9b5072d45a411342bc25ab64"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/procyon-trophy/1-angle-4d7f06bc9abd.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Procyon Trophy – Group View",
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0b3b8143e8c4353df89dcf004cfd5350309358455314501088fa7a627540f774"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/procyon-trophy/2-angle-f9b10fa6796f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Procyon Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0f8b48fc0a6b4d9bbf8325f73a3c44e45f4ee230e3a98e8aedc44ff1050c7212"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/procyon-trophy/3-angle-48d414bd5aa3.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Procyon Trophy – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "74a35b3e9307a67b2694ca4abadd03bb6f0d4b5e84d00a1c5f7d215ee82dcd41"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "regulus-trophy",
+      "title": "Regulus Trophy",
+      "sku": "MGC-4175",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Regulus trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Regulus trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4175",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF With Chrome Plated Virgin ABS Ring",
+        "Dimensions": "(L*W*H)  17 x 2 x 17  cm",
+        "Product Code": "MGC-4175"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 395.0,
+        "amountMinorUnits": 39500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 395.0,
+            "amountMinorUnits": 39500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613343
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/regulus-trophy/0-master-8f1b4e4eee71.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "88270462bf68b694b368a6598cbe5ce151d98a7dd8bc8384a7dd1cc7346feb5e"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/regulus-trophy/1-angle-9e342572544f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Regulus Trophy – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fe267d2da0028d510e2e8132151c0bd45c35618cdda60b2f3f8418530c301a16"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/regulus-trophy/2-angle-6d7203ec8f43.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Regulus Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f13c94b024d73e340b0fcbd652cb9f1e77ef17f63b7b42690e1b749609cf91a5"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/regulus-trophy/3-angle-534fc5e35150.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Regulus Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8e9bdfd9c39331711673b973278e6b422c6f63ba071061c60bb4748d1c3b7ec5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "regulus-trophy-brown-with-black",
+      "title": "Regulus Trophy-Brown with Black",
+      "sku": "MGC-4210",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Regulus Trophy in Brown with Black — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds Regulus Trophy in Brown with Black — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4210",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "21.5 x 10.5 x 4.5 cms",
+        "Product Code": "MGC-4210"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1548.0,
+        "amountMinorUnits": 154800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1548.0,
+            "amountMinorUnits": 154800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613446
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/regulus-trophy-brown-with-black/0-master-5d6cbcd83a76.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "28305b1228251f9ea51231ec3f431c49be177bb2d9688803b984176ca70a393a"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/regulus-trophy-brown-with-black/1-angle-e37e39028e8e.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Regulus Trophy Brown Black – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7fa6987a308f4152c428825a2b650abfdd2efe83c8d565b519069219a83f3cdc"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "rho-trophy",
+      "title": "Rho Trophy",
+      "sku": "MGC-4182",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Rho trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Rho trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4182",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF",
+        "Dimensions": "(L*W*H)  23x 3.5 x 25.5 cm",
+        "Product Code": "MGC-4182"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 625.0,
+        "amountMinorUnits": 62500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 625.0,
+            "amountMinorUnits": 62500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613364
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/0-master-1c3369a8d508.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cc9f6a6a70335e7e33525b0a39c84cb0e5a77bd3e360783c22aeabdc78088423"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/1-angle-cbe6c054b358.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rho Trophy – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "02760e639884a14a01aac1774c7fb217d58767075d1323455f57da98a851d9b4"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/2-lifestyle-36263efe8bf9.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Rho Trophy – Lifestyle View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "679c4bbf6993dd369034f98b4083dd557c592eac7ddd3024761c1b97c4d98241"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/3-angle-8736463cca21.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rho Trophy – Side View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "78073a0ec1e42c488881add3bc79785530ac553a04b85aba09aad9992c5f6d3d"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/4-angle-ab3785997f07.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rho Trophy – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b5d52c37373d681679456c5347809724db08209a342fd7d931aab18e7fe960ea"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/5-angle-5652ccb87247.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rho Trophy – Detail View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b6f847b4b02165ed694c72eebdd90191dacd3fb49bb5bdea7ac0abf854ae5e4d"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/6-angle-dca2a6fc409a.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rho Trophy – Close-up View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "042fb6720bc46994a601fd16c46df7d0f96cc24f80fabb1350a9a096a6cc277f"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rho-trophy/7-angle-d8f23ee2893a.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rho Trophy – Model View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c430c90fe213cc2e27794229f1bf5d564dc6493027082c1f76df04e12fd80fe9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "rigel-trophy",
+      "title": "Rigel Trophy",
+      "sku": "MGC-4186",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Rigel trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Rigel trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4186",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  16 x 4 x 19  cm",
+        "Product Code": "MGC-4186"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 775.0,
+        "amountMinorUnits": 77500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 775.0,
+            "amountMinorUnits": 77500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613374
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/rigel-trophy/0-master-13a4a3c2a2f4.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9289743032f733a6559aa7131079b5b0d66798fd77e8dbc778a56644f6e13114"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rigel-trophy/1-angle-67e8d1574ca4.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rigel Trophy – Alternate Front View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "332da938620ee6d8d472106f7a184c3d4a8c64422696470323cd229887cfd375"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rigel-trophy/2-angle-191f27c23290.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rigel Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "07d31d663035ae90136fa5cf11212c348ac655a698b091d4852f42f221ff8959"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rigel-trophy/3-angle-59f44b43f1ab.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rigel Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "479bcdfc1770fac8bb6a8c597b3a46c91039391b58210aaf209aee31f34a49d0"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rigel-trophy/4-angle-b5cb43db1ac2.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Rigel Trophy – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "52c8e8b61351c413ba46ddb0d13fee9c8cffc9a4c6573e8f098cc9627cbec5b4"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/rigel-trophy/5-lifestyle-1d2c3e91fe4b.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Rigel Trophy – Lifestyle View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8dac843e8dff72dd9e9b38e867df54dea4482fc0f545c5bb92f275c14f3e6c63"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "salm-trophy-black-with-brown",
+      "title": "SALM Trophy-Black with Brown",
+      "sku": "MGC-4211",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds SALM Trophy in Black with Brown — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "shortDescription": "TrophyNeeds SALM Trophy in Black with Brown — engraved award for milestones and recognition. Premium corporate gift for annual day and employee rewards.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4211",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "4",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "22 x 10.5 x 4.5 cms",
+        "Product Code": "MGC-4211"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1548.0,
+        "amountMinorUnits": 154800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1548.0,
+            "amountMinorUnits": 154800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613449
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 25,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/salm-trophy-black-with-brown/0-master-7a44aea77b13.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5e02c56c901fa56210363eab74ffc1f75aa6aae0a286c5593f41fbb77c4d3108"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/salm-trophy-black-with-brown/1-angle-3edfc666220d.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds SALM Trophy Black Brown – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ea6e2c68a3a9458fa81b12996fc26a75a90d15eb277fdc3d7187935cae61ccc3"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/salm-trophy-black-with-brown/2-angle-21e3f0965237.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds SALM Trophy Black Brown – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "978a02918d7b0d3cab8810ce11d595686a53f7735ad1f3ac990eea7a5de02b65"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "schedar-trophy",
+      "title": "Schedar Trophy",
+      "sku": "MGC-4189",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Schedar trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Schedar trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4189",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  8 x 8 x 25.5  cm",
+        "Product Code": "MGC-4189"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1015.0,
+        "amountMinorUnits": 101500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1015.0,
+            "amountMinorUnits": 101500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613385
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/schedar-trophy/0-master-37c3ffbb695f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "674f918356de18025df408c418395d20531f1e4159891f8a93aeb82d73802bec"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/schedar-trophy/1-angle-3f55f5a13f7b.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Schedar Trophy – Alternate Front View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "549b4acb05ee1e1879d0e8988687ffa3df5f261d38c9551e4bc54b494b79a4e4"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/schedar-trophy/2-angle-031d44ff3af5.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Schedar Trophy – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "095ca1f0272586969934bd7f9baf63874bf5e8bf4fe338929a5c26c6e46a99f1"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/schedar-trophy/3-angle-a91ed24093b4.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Schedar Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "295a63faf036065a543cc53db393612b29be38c7a2d25430cd6e67a802ff42cf"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/schedar-trophy/5-angle-3f3da7cfa91c.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Schedar Trophy – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "455b3b2c8d1e1e48d0015a185d618f9ffde8adf47d0167c51a6e3d84ceeb5b17"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "sirius-trophy-brown-with-gold-45-l",
+      "title": "Sirius Trophy-Brown with Gold- 45 L",
+      "sku": "MGC-4218",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "TrophyNeeds Sirius Trophy in brown with gold — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "shortDescription": "TrophyNeeds Sirius Trophy in brown with gold — an affordable recognition award for corporate events, employee appreciation and annual day gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4218",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "Foil Sheet Printing",
+        "Stock Availability": "9",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Wood",
+        "Dimensions": "27.5 x 11.5 x 3.5 cms",
+        "Product Code": "MGC-4218"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1885.0,
+        "amountMinorUnits": 188500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1885.0,
+            "amountMinorUnits": 188500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613468
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/sirius-trophy-brown-with-gold-45-l/0-master-ca3b5a73bf03.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8f59826e42d7e4b2f87918e2809e2d5258da3ce63d6d4a43b2c0e677d705178a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "spica-trophy",
+      "title": "Spica Trophy",
+      "sku": "MGC-4177",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Spica trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Spica trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4177",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF With Chrome Plated Virgin ABS Ring",
+        "Dimensions": "(L*W*H)  16 x 1.5 x 16  cm",
+        "Product Code": "MGC-4177"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 445.0,
+        "amountMinorUnits": 44500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 445.0,
+            "amountMinorUnits": 44500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613348
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/0-master-ecc3bd316a56.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3bdd7f86fcee8680354fcf0a2a885368a7652f334f90495238fc377723b16ddc"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/1-angle-7c7ef3839537.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Spica Trophy – Alternate Group View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4c2bc3f98ad81422fb7d34902e47ce5df3d91aa2bc1c424de381d351f55374bc"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/2-angle-21b8d41c1274.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Spica Trophy – Front View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4c19134f473b1db41d48a7bc13da8a9e6e8eca4ac5d759114610e8b896c2d303"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/3-angle-5c71f140874f.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Spica Trophy – Side View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5b9e3518dab4ec3e7d690eec8f0de99f826486ca08b0cf40218a995cf223aae6"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/4-angle-03b32eac674e.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Spica Trophy – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f3e5d119e382dcaa8abe6ae47af3f5cec1ad520659a8cb7505b17da0a477d9d1"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/5-lifestyle-16d26b8e78f6.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Spica Trophy – Lifestyle View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fe18fe6362b71f60327c3449075b2319c3a6e62092f8a7e3d0d8fde0aac2546a"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/6-lifestyle-d783b411c71a.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "3S Spica Trophy – Alternate Lifestyle View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "154f651ececb924106ee5869ac7cd5a789e0fa76643f204446887d3f1e688470"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/7-angle-c04919f5625d.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Spica Trophy – Model View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d0d8066f4600547e0d11447967795742bb0ce10b142220325dca5ef88ec897a8"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/spica-trophy/8-angle-cb0a19548269.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Spica Trophy – Detail View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "861c9d1c081303bece95b03dc5c81dc311fe54fade364c815c75d77ec6499f2c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "upsilon-scorpii-trophy-brown",
+      "title": "Upsilon Scorpii Trophy-Brown",
+      "sku": "MGC-4217",
+      "brand": {
+        "name": "TrophyNeeds",
+        "slug": "trophyneeds"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Corporate award trophy for employee recognition and bulk gifting — premium TrophyNeeds brown design with custom logo engraving available.",
+      "shortDescription": "Corporate award trophy for employee recognition and bulk gifting — premium TrophyNeeds brown design with custom logo engraving available.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4217",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "TrophyNeeds",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "27",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Wood",
+        "Dimensions": "24 x 9.5 x 3.3 cms",
+        "Product Code": "MGC-4217"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1835.0,
+        "amountMinorUnits": 183500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1835.0,
+            "amountMinorUnits": 183500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613465
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/upsilon-scorpii-trophy-brown/0-master-bb0052ed5399.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7512633145e033236a362ee57c2d0c514e84cac033b444fd4e3fa309c3d6da55"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/upsilon-scorpii-trophy-brown/1-angle-f44cddad2dfa.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Upsilon Scorpii Trophy Brown – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6f4fa3d8d107e6203f1b8ffa2c4c4ae5c25ff94b04b0d6636d77dcd665ffaeac"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/upsilon-scorpii-trophy-brown/2-angle-61e80d2cf92f.webp",
+          "role": "ANGLE",
+          "variantKey": "TrophyNeeds Upsilon Scorpii Trophy Brown – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c6eeefcb054259ba7048cb668762c00316d764097e15d082f3c8304389e18fec"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    },
+    {
+      "slug": "vega-trophy",
+      "title": "Vega Trophy",
+      "sku": "MGC-4192",
+      "brand": {
+        "name": "3S",
+        "slug": "3s"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Vega trophy for branded and bulk gifting.",
+      "shortDescription": "Trophy for employee recognition, corporate awards, and annual day celebrations — affordable 3S Vega trophy for branded and bulk gifting.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4192",
+        "Stock Update Date": "28 Jun 2025",
+        "Country of Origin": "India",
+        "Brand": "3S",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "10",
+        "Dispatch Timeline": "15 to 20 Working Days",
+        "Material": "MDF & Wood",
+        "Dimensions": "(L*W*H)  9 x 7.5 x 25  cm",
+        "Product Code": "MGC-4192"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1075.0,
+        "amountMinorUnits": 107500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1075.0,
+            "amountMinorUnits": 107500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613392
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "15 to 20 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/trophies/vega-trophy/0-master-c90181904a63.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4ee988338bb4d7744a7f68ad4714faac31c27f8eb2a6b57743336f6d693258c1"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/vega-trophy/1-angle-47cd34fcb901.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Vega Trophy – Side View",
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8b9c5c8a63aa05932be3192f44ba48710527028ee5e23fb6fc451f381a7422e3"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/vega-trophy/2-angle-ae7c10844e79.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Vega Trophy – Alternate View",
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "02b70e42f4ddea600cdb0d0525eb96ce99195c79c7f072d7d2de2c5d399a7bbc"
+        },
+        {
+          "path": "media/products/awards-trophies/trophies/vega-trophy/3-angle-1471631497c1.webp",
+          "role": "ANGLE",
+          "variantKey": "3S Vega Trophy – Back View",
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6a0b1f77ad9b0f1d6dda22d18e30d927b56ea810290b41c7376c7172020809cb"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:trophies",
+        "categoryId": "C10",
+        "name": "Trophies",
+        "slug": "trophies",
+        "path": "awards-trophies/trophies",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "awards-trophies/trophies"
+    }
+  ]
+}

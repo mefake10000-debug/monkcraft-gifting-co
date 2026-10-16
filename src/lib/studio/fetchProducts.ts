@@ -9,6 +9,7 @@ type SearchResponse = {
 
 export async function fetchStudioProducts(options: {
   q?: string;
+  category?: string;
   ids?: string[];
   slug?: string;
   limit?: number;
@@ -18,6 +19,7 @@ export async function fetchStudioProducts(options: {
   if (options.slug) params.set("slug", options.slug);
   if (options.ids?.length) params.set("ids", options.ids.join(","));
   if (options.q) params.set("q", options.q);
+  if (options.category) params.set("category", options.category);
   if (options.limit) params.set("limit", String(options.limit));
 
   const res = await fetch(`/api/catalogue/search?${params.toString()}`, {

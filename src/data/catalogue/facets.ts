@@ -42,6 +42,7 @@ type SegmentsFile = {
 };
 
 let cachedCategories: CatalogueFacet[] | null = null;
+let cachedBrands: CatalogueFacet[] | null = null;
 let cachedOccasions: CatalogueFacet[] | null = null;
 let cachedBranding: CatalogueFacet[] | null = null;
 let cachedColours: CatalogueFacet[] | null = null;
@@ -50,11 +51,30 @@ let cachedSubcategories: Map<string, CatalogueFacet[]> | null = null;
 
 export function clearFacetCaches(): void {
   cachedCategories = null;
+  cachedBrands = null;
   cachedOccasions = null;
   cachedBranding = null;
   cachedColours = null;
   cachedMaterials = null;
   cachedSubcategories = null;
+}
+
+/** Catalogue manufacturer / label filter, ranked by available product count. */
+export function getBrandFacets(): CatalogueFacet[] {
+  if (cachedBrands) return cachedBrands;
+  const counts = new Map<string, { label: string; count: number }>();
+  for (const product of getAllProducts()) {
+    const label = product.brandName?.trim();
+    if (!label) continue;
+    const id = slugifyFacet(label);
+    const value = counts.get(id);
+    if (value) value.count += 1;
+    else counts.set(id, { label, count: 1 });
+  }
+  cachedBrands = [...counts.entries()]
+    .map(([id, { label, count }]) => ({ id, label, count }))
+    .sort((a, b) => (b.count ?? 0) - (a.count ?? 0) || a.label.localeCompare(b.label));
+  return cachedBrands;
 }
 
 export function getCategoryFacets(): CatalogueFacet[] {

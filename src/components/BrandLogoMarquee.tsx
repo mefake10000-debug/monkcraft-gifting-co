@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import type { CSSProperties } from "react";
 
 export type BrandLogoItem = {
   name: string;
@@ -29,7 +31,7 @@ function BrandLogoMark({
     <Image
       className="brand-marquee__image"
       src={brand.src}
-      alt={interactive ? brand.name : ""}
+      alt={interactive && !brand.href ? brand.name : ""}
       width={140}
       height={48}
       sizes="(max-width: 640px) 100px, 140px"
@@ -42,26 +44,19 @@ function BrandLogoMark({
 
   if (interactive && brand.href) {
     return (
-      <a
+      <Link
         className="brand-marquee__item"
         href={brand.href}
-        target="_blank"
-        rel="noopener noreferrer"
+        aria-label={`Browse ${brand.name} gifts`}
       >
         {content}
-        {brand.src ? (
-          <span className="brand-marquee__sr-only">{brand.name}</span>
-        ) : null}
-      </a>
+      </Link>
     );
   }
 
   return (
     <div className="brand-marquee__item">
       {content}
-      {interactive && brand.src ? (
-        <span className="brand-marquee__sr-only">{brand.name}</span>
-      ) : null}
     </div>
   );
 }
@@ -69,10 +64,7 @@ function BrandLogoMark({
 /**
  * Horizontal brand marquee (homepage catalogue-brand scroll).
  *
- * Renders nothing when `brands` is empty.
- * Items with `src` show verified logos; items without `src` show the real
- * brand name in type only (no fake logo shapes). Drop files in
- * `public/brands/` — see README there and `src/data/partnerBrands.ts`.
+ * Renders only supplied logo marks; each one links to catalogue search.
  */
 export function BrandLogoMarquee({
   brands = [],
@@ -91,11 +83,14 @@ export function BrandLogoMarquee({
   ]
     .filter(Boolean)
     .join(" ");
+  const trackStyle = {
+    "--brand-marquee-duration": `${Math.max(64, brands.length * 1.5)}s`,
+  } as CSSProperties;
 
   return (
     <section className={trackClassName} aria-label={ariaLabel}>
       <div className="brand-marquee__viewport">
-        <div className="brand-marquee__track">
+        <div className="brand-marquee__track" style={trackStyle}>
           <div className="brand-marquee__group">
             {brands.map((brand) => (
               <BrandLogoMark

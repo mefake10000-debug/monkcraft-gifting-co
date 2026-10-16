@@ -1,0 +1,5240 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C2",
+    "code": "C2",
+    "name": "Drinkware & Barware",
+    "slug": "drinkware-barware",
+    "path": "drinkware-barware",
+    "sortOrder": 2
+  },
+  "subcategory": {
+    "id": "C2:barware",
+    "categoryId": "C2",
+    "name": "Barware",
+    "slug": "barware",
+    "path": "drinkware-barware/barware",
+    "sortOrder": 1
+  },
+  "categoryProductCount": 460,
+  "productCount": 37,
+  "products": [
+    {
+      "slug": "acrylic-coaster-with-foam-round-10-5-cm-dia",
+      "title": "Acrylic Coaster with Foam | Round | 10.5 Cm Dia",
+      "sku": "MGC-0789",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft acrylic coaster round 10.5cm with foam base.",
+      "shortDescription": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft acrylic coaster round 10.5cm with foam base.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0789",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "10.5 cms Dia x 0.3 cms",
+        "Product Code": "MGC-0789"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 195.0,
+        "amountMinorUnits": 19500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 195.0,
+            "amountMinorUnits": 19500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603235
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/acrylic-coaster-with-foam-round-10-5-cm-dia/0-master-966f0a4165e2.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b48bdb5f474845e8bae7e19f999f6f8896fbc1200485ed4baff0dc69d74d4fe0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "acrylic-coaster-with-foam-round-9-cm-dia",
+      "title": "Acrylic Coaster with Foam | Round | 9 Cm Dia",
+      "sku": "MGC-0790",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft acrylic coaster round 9cm with foam base.",
+      "shortDescription": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft acrylic coaster round 9cm with foam base.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0790",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "9 cms Dia x 0.3 cms",
+        "Product Code": "MGC-0790"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 195.0,
+        "amountMinorUnits": 19500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 195.0,
+            "amountMinorUnits": 19500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603238
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/acrylic-coaster-with-foam-round-9-cm-dia/0-master-85f91bfa5f69.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4b2bb709effa9b05aa8aeae8a0ef909d4da6792aa15ecdc6de91278dd9eb21cd"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "acrylic-coaster-with-foam-square-10-5-x-10-5-cm",
+      "title": "Acrylic Coaster with Foam | Square | 10.5 x 10.5 Cm",
+      "sku": "MGC-0791",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft square acrylic coaster 10.5cm with foam.",
+      "shortDescription": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft square acrylic coaster 10.5cm with foam.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0791",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "10.5 x 10.5 x 0.3 cms",
+        "Product Code": "MGC-0791"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 195.0,
+        "amountMinorUnits": 19500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 195.0,
+            "amountMinorUnits": 19500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603241
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/acrylic-coaster-with-foam-square-10-5-x-10-5-cm/0-master-4b8930a18ff6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fd8bcd0fcce3eeedaba537fcc568b3a0b0b06c0efaab80fc4a28f45dc178de53"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "acrylic-coaster-with-foam-square-9-x-9-cm",
+      "title": "Acrylic Coaster with Foam | Square | 9 x 9 Cm",
+      "sku": "MGC-0792",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft acrylic coaster square 9x9cm with foam base.",
+      "shortDescription": "Acrylic coaster for corporate desk gifting, client welcome kits, and office accessories — affordable Monkcraft acrylic coaster square 9x9cm with foam base.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0792",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "9 x 9 x 0.3 cms",
+        "Product Code": "MGC-0792"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 195.0,
+        "amountMinorUnits": 19500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 195.0,
+            "amountMinorUnits": 19500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603244
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/acrylic-coaster-with-foam-square-9-x-9-cm/0-master-6d7755528fab.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "428dda4e89c40a588331c2d251f1720ea80de13b75ea8b227ede7a7de50b2307"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "borosil-gourmet-plus-glass-lunchbox-set-of-7pcs",
+      "title": "Borosil Gourmet Plus Glass Lunchbox Set of 7pcs",
+      "sku": "MGC-0768",
+      "brand": {
+        "name": "Borosil",
+        "slug": "borosil"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glass lunchbox set for corporate meal gifting, employee welcome kits, and office gifts — affordable Borosil Gourmet Plus 7-piece BPA-free glass set.",
+      "shortDescription": "Glass lunchbox set for corporate meal gifting, employee welcome kits, and office gifts — affordable Borosil Gourmet Plus 7-piece BPA-free glass set.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0768",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "Borosil",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0768"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1615.0,
+        "amountMinorUnits": 161500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1615.0,
+            "amountMinorUnits": 161500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603173
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/borosil-gourmet-plus-glass-lunchbox-set-of-7pcs/0-master-725ec9a9f30a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "65345319cba69568758eb4a299aa552ef928a15a9d4b3f6617d0fbc7d8659583"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/borosil-gourmet-plus-glass-lunchbox-set-of-7pcs/1-angle-ebcc3af4f9ad.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3cc10c631252a98a1fde3e8adcf6949ca76adf1db0b99e88a111098b9de57d73"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/borosil-gourmet-plus-glass-lunchbox-set-of-7pcs/2-angle-adfbacc8a064.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "17231088295522c4a85711d1e30ec340218e0a6f02e5b581ff8bf2868698e224"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/borosil-gourmet-plus-glass-lunchbox-set-of-7pcs/3-angle-3323f692be89.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5347ebbd6a4b5965ef149fb17af40af4bfa674c0c3d8738aea12fb9855bd95fc"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/borosil-gourmet-plus-glass-lunchbox-set-of-7pcs/4-angle-487b9a89312e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "73698ade50db41b0bf4d10a60eb73a3119539e9ef5ef664de5b1afdb580cfdce"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/borosil-gourmet-plus-glass-lunchbox-set-of-7pcs/5-angle-1d7be327b532.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d699bd49277f83274a2aad5f0cb231fcfaae30503094b5d78a7996fcabb6c6c6"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/borosil-gourmet-plus-glass-lunchbox-set-of-7pcs/6-angle-014dd1655556.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1d7b38026983076c6ef13e380acbcd43b11cbdc95424ab39bd4695e04f4077ce"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "fresh-grip-lunch-box-grey-320ml",
+      "title": "Fresh Grip Lunch Box-Grey-320ml",
+      "sku": "MGC-0771",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 320ml with air-tight seal and microwave-safe design.",
+      "shortDescription": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 320ml with air-tight seal and microwave-safe design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0771",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Closure Type": "Clip",
+        "Product Code": "MGC-0771"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 465.0,
+        "amountMinorUnits": 46500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 465.0,
+            "amountMinorUnits": 46500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603184
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-grey-320ml/0-master-404ef408cd6f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "dec428b2cd94048d7c5c591561f3e215c7484dc1773475902b626c8bb931f870"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-grey-320ml/3-angle-b488b2b32b22.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Grey 320ml – Detail View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5b9520200538608efac1f423326d9f77fe6ff8a0a49a42f869ed86007aa0f66a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "fresh-grip-lunch-box-grey-520ml",
+      "title": "Fresh Grip Lunch Box-Grey-520ml",
+      "sku": "MGC-0774",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 520ml with air-tight seal and microwave-safe design.",
+      "shortDescription": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 520ml with air-tight seal and microwave-safe design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0774",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Closure Type": "Clip",
+        "Product Code": "MGC-0774"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 555.0,
+        "amountMinorUnits": 55500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 555.0,
+            "amountMinorUnits": 55500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603191
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-grey-520ml/4-angle-b488b2b32b22.webp",
+          "role": "MASTER",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Grey 520ml – Characteristics View",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5b9520200538608efac1f423326d9f77fe6ff8a0a49a42f869ed86007aa0f66a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "fresh-grip-lunch-box-ice-blue-320ml",
+      "title": "Fresh Grip Lunch Box-Ice Blue-320ml",
+      "sku": "MGC-0772",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 320ml with air-tight seal and microwave-safe design.",
+      "shortDescription": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 320ml with air-tight seal and microwave-safe design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0772",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Ice Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Closure Type": "Clip",
+        "Product Code": "MGC-0772"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 465.0,
+        "amountMinorUnits": 46500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 465.0,
+            "amountMinorUnits": 46500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603186
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-ice-blue-320ml/5-angle-726e4e169257.webp",
+          "role": "MASTER",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Ice Blue 320ml – Size Reference View",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "893f05e2927c7512ed83ad5b025e3e80687c54900cb94320406d057fcfff085d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "fresh-grip-lunch-box-ice-blue-520ml",
+      "title": "Fresh Grip Lunch Box-Ice Blue-520ml",
+      "sku": "MGC-0775",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 520ml with air-tight seal and microwave-safe design.",
+      "shortDescription": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 520ml with air-tight seal and microwave-safe design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0775",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Ice Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Closure Type": "Clip",
+        "Product Code": "MGC-0775"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 555.0,
+        "amountMinorUnits": 55500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 555.0,
+            "amountMinorUnits": 55500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603193
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-ice-blue-520ml/5-angle-726e4e169257.webp",
+          "role": "MASTER",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Ice Blue 520ml – Size Reference View",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "893f05e2927c7512ed83ad5b025e3e80687c54900cb94320406d057fcfff085d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "fresh-grip-lunch-box-teal-blue-320ml",
+      "title": "Fresh Grip Lunch Box-Teal Blue-320ml",
+      "sku": "MGC-0773",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 320ml with air-tight seal and microwave-safe design.",
+      "shortDescription": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 320ml with air-tight seal and microwave-safe design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0773",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Closure Type": "Clip",
+        "Product Code": "MGC-0773"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 465.0,
+        "amountMinorUnits": 46500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 465.0,
+            "amountMinorUnits": 46500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603188
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/0-master-a38a39141acc.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "df37ca4624375c76081ac0b603eb91f2c1cd64897de8f58dbdef3e7b1680c2be"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/1-angle-b3b32f454c36.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1168360590ee307887cc7a8da51ca91c4c022ffca9e3d334a756fcf1d7dea2d0"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/2-angle-2e6846d24dcf.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Dimensions View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "122dab0726542bb508a9b8ab0e555c41cb16540aeeaeb9ec955b920b7f689aaf"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/3-angle-baddc9d7f8a4.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Features View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "310807d219099abdfde9c08f194654dceebdbe6118bb04a27d74dc670e6491b5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/4-angle-64b6cbad2176.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2453fba611e3aad7b4396bceff26ab153fb831619eaf5e09a8fbc4877d4f1c14"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/5-angle-8d734c607b8c.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Air Tight Seal View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7cfc1f5b0a756d1710d5bb5fd5e46ffc86f106395b80236bbcbbfe1812cd2ce7"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/6-angle-55d09e87c15b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Spill Proof Lid View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bf773880827d3e6475d030ff1af565ed3c91bbdf9f4cc6db4218f5e03cecd591"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/7-angle-754ee68e2ffd.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Alternate View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b93579c888c815f77be2513de939231948ad3582a6645d316bb3a42030921abe"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-320ml/8-angle-02362c343cc9.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 320ml – Microwave Safe View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b92e6b6a2ef39d44ff03f83a3ec50939128ca38d3006693ee7054d32314300cf"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "fresh-grip-lunch-box-teal-blue-520ml",
+      "title": "Fresh Grip Lunch Box-Teal Blue-520ml",
+      "sku": "MGC-0776",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 520ml with air-tight seal and microwave-safe design.",
+      "shortDescription": "Lunch box for employee welcome kits, corporate gifting, and bulk gifting — premium Glasafe Fresh Grip 520ml with air-tight seal and microwave-safe design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0776",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Closure Type": "Clip",
+        "Product Code": "MGC-0776"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 555.0,
+        "amountMinorUnits": 55500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 555.0,
+            "amountMinorUnits": 55500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603196
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/0-master-faf5a6e33c1f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f4afdea4fc6cf5b3fe3d7bbd019537db540a2aaf81e8942e92dc19edf7676aeb"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/1-angle-b3b32f454c36.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1168360590ee307887cc7a8da51ca91c4c022ffca9e3d334a756fcf1d7dea2d0"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/2-angle-75f824488450.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Dimensions View",
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fac689725964a04f715a29bb21beb6b01534bcfddd32d98cb55553b4097a7c03"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/3-angle-baddc9d7f8a4.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Features View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "310807d219099abdfde9c08f194654dceebdbe6118bb04a27d74dc670e6491b5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/4-angle-64b6cbad2176.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2453fba611e3aad7b4396bceff26ab153fb831619eaf5e09a8fbc4877d4f1c14"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/5-angle-8d734c607b8c.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Air Tight Seal View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7cfc1f5b0a756d1710d5bb5fd5e46ffc86f106395b80236bbcbbfe1812cd2ce7"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/6-angle-754ee68e2ffd.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Alternate View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b93579c888c815f77be2513de939231948ad3582a6645d316bb3a42030921abe"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/7-angle-02362c343cc9.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Microwave Safe View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b92e6b6a2ef39d44ff03f83a3ec50939128ca38d3006693ee7054d32314300cf"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/fresh-grip-lunch-box-teal-blue-520ml/8-angle-55d09e87c15b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Fresh Grip Lunch Box Teal Blue 520ml – Spill Proof Lid View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bf773880827d3e6475d030ff1af565ed3c91bbdf9f4cc6db4218f5e03cecd591"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-carry-and-go-combo-1-blue",
+      "title": "Glasafe Carry And Go Combo 1-Blue",
+      "sku": "MGC-0780",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Carry and Go Combo 1 in blue — a premium on-the-go meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Carry and Go Combo 1 in blue — a premium on-the-go meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0780",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0780"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1715.0,
+        "amountMinorUnits": 171500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1715.0,
+            "amountMinorUnits": 171500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603208
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/0-master-429a0110cb97.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "86f27ea48586ab7ee0af187e3affd4a87a542aaa3d3669e7859b0a26ff9cd485"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/1-angle-bb9cb5f85a35.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3f8d4ef3aeb3830c071cf1e87b49a93c214dbb993c554114514e98cc93a3a39d"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/2-angle-c340e86de133.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Blue – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a645706575e20fb315753a591b586cf32da3fefb3e291e6704ce2c60b2455979"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/3-angle-aaf4f9476a26.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Blue – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "36cd9571d59a8a7538bdc9fcd6d104fd0cc97ba8921a3aaeb3d3aac2b5c18093"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/4-angle-c54da5be8610.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Blue – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4082a710947ea5c0c5d1b96e8e142cbb932008899bd0a23829e025bb3bda0cc5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/5-angle-6b1f4397a279.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Blue – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5dfce38d889b8d64b908d5344e7af42d3f73d7703c59873ac64f668436903d09"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/6-angle-95955f93b35c.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Blue – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c522e723f3f60db49b987b72cec213dab35bbd5937dca8c4d36f0ab715fa9dc8"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-blue/7-lifestyle-9df18a2e0638.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1ac4e92280929d2fd0bdd7d93e70bfacdeab763920ca7d36d7659474220436cc"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-carry-and-go-combo-1-grey",
+      "title": "Glasafe Carry And Go Combo 1-Grey",
+      "sku": "MGC-0781",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Carry and Go Combo 1 in grey — a premium on-the-go meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Carry and Go Combo 1 in grey — a premium on-the-go meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0781",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0781"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1715.0,
+        "amountMinorUnits": 171500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1715.0,
+            "amountMinorUnits": 171500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603210
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/0-master-5fbf9dea77a1.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "33a9066ece458459ba616867fdc1d0d7cdfa370c288eef67f1e7cb0af0cd108f"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/1-angle-4f75c4427489.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e2677b7a799b9b1ef52e37064305d09d3a4f5ebf460f681f031ad1126fefc8a8"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/2-angle-2a22f8e9ed23.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "74c7242892110815ac956315ad90950189b01ed6d1e0c7146af583e90d33c119"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/3-angle-180542c41830.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c5f9ab1da74788244eb302c3b0e18176f8c3fcb134e742df120852c516f08e4e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/4-angle-dfebdf10889b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "24a33e76a4a89682bc50420e33a0df217074356dd7a2983cde75505359d0a113"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/5-angle-06177e6cc631.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f7fc7c223efec3e6ceb7246a6411dad4cc468a025b9cea4aeecf948cc6384c85"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/6-angle-8c1aab2c5ea5.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fdc130917489a3bdf3190cf25b5f832bea272aee12353cec2d2411342379ed7a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/7-lifestyle-8a3767821da3.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "27b0b65bbca7e596d752be45c9629e97b8eb17dd756e4901122f6a7cb39966fa"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/8-angle-6c473b44362b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Component View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5ddd008bd2070a9bc2f59b601f3da5433d096401a885de30d3260ce432e3c220"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-grey/9-angle-96cbe5ad8fbf.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Grey – Top View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "13824ef13de83a62aa71b2eeabffe314d8fbe9bdf9d3a6840a1ecc9cccb7d408"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-carry-and-go-combo-1-sky-blue",
+      "title": "Glasafe Carry And Go Combo 1-Sky Blue",
+      "sku": "MGC-0782",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Carry and Go Combo 1 in sky blue — a premium on-the-go meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Carry and Go Combo 1 in sky blue — a premium on-the-go meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0782",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Sky Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0782"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1715.0,
+        "amountMinorUnits": 171500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1715.0,
+            "amountMinorUnits": 171500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603214
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/0-master-70d2051dc80c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "711d075de5bf4b4eba78e3723ec3224edf730003ef4a7260d13cefbec5c8d7c3"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/1-angle-89c0ee3343a3.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Sky Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3afcfb5a770193c2dd8fd4c9561e26df6e9fa653e9e3758c60ee11a1f2295d4a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/2-angle-cd0466963898.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Sky Blue – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f1e5ca9a2c34c60569138d5f97cb8e109012f28721b0b60925aa684e71f94546"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/3-angle-01e2a99e94af.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Sky Blue – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e9b1a04139adecc89268dca39dff9b297270d3aae96c64914344c439a2433fd5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/4-angle-2ff7bb0f1848.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Sky Blue – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0c30207222e017f58515491a8206bda27577fce7e992af7638f4f7ccc1b23bea"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/5-angle-7fc64568553e.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Sky Blue – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "509b9fcde5ad0e93519154f2b7af1fea51115b1f2ccf84a28b769ab1157717a3"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/6-angle-44bedce3496b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Sky Blue – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b9e16cb9930e9a83c53f0dae72118a47a4dd87be39248feb8648e50485013e64"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-carry-and-go-combo-1-sky-blue/7-lifestyle-20129ea2b937.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Carry and Go Combo 1 Sky Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b8a3bea4876b691525205618737bb6ff0cfebec674f6995571354b3907b0c8c5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-desk-munch-combo-lunch-bag",
+      "title": "Glasafe Desk Munch Combo Lunch Bag- Sky Blue",
+      "sku": "MGC-0777",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Desk Munch Combo Lunch Bag — a premium office meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Desk Munch Combo Lunch Bag — a premium office meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0777",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Sky Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0777"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1655.0,
+        "amountMinorUnits": 165500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1655.0,
+            "amountMinorUnits": 165500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603200
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/0-master-d3ccccfd484d.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "89185f5c77536f32531d4a43786d9d80fd0f53cd9318951296eed386a76ce193"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/1-angle-55742667aac8.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e82e3c4a1eab8fcff321805afc8e3074958958417476073d7b220d6d523b03a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/2-angle-89c0ee3343a3.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3afcfb5a770193c2dd8fd4c9561e26df6e9fa653e9e3758c60ee11a1f2295d4a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/3-angle-cd0466963898.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f1e5ca9a2c34c60569138d5f97cb8e109012f28721b0b60925aa684e71f94546"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/4-angle-01e2a99e94af.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e9b1a04139adecc89268dca39dff9b297270d3aae96c64914344c439a2433fd5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/5-angle-2ff7bb0f1848.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0c30207222e017f58515491a8206bda27577fce7e992af7638f4f7ccc1b23bea"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/6-angle-20129ea2b937.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b8a3bea4876b691525205618737bb6ff0cfebec674f6995571354b3907b0c8c5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/7-lifestyle-44bedce3496b.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b9e16cb9930e9a83c53f0dae72118a47a4dd87be39248feb8648e50485013e64"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/8-angle-7fc64568553e.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Bag Detail View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "509b9fcde5ad0e93519154f2b7af1fea51115b1f2ccf84a28b769ab1157717a3"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag/9-angle-62d9a65a0884.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag – Component View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0835acf6ba3b6b01d44bd3a8fda0c00ae73ac2058af282eb3fa7f3b83a176a5e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-desk-munch-combo-lunch-bag-blue",
+      "title": "Glasafe Desk Munch Combo Lunch Bag-Blue",
+      "sku": "MGC-0778",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Desk Munch Combo Lunch Bag in blue — a premium office meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Desk Munch Combo Lunch Bag in blue — a premium office meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0778",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0778"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1655.0,
+        "amountMinorUnits": 165500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1655.0,
+            "amountMinorUnits": 165500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603203
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/0-master-b55d8da4d0b3.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bf7aff19ea8d3962286f1ada22e7e14185f6632323d8ee1757d2fcef364556ed"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/1-angle-bb9cb5f85a35.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3f8d4ef3aeb3830c071cf1e87b49a93c214dbb993c554114514e98cc93a3a39d"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/2-angle-95955f93b35c.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c522e723f3f60db49b987b72cec213dab35bbd5937dca8c4d36f0ab715fa9dc8"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/3-angle-c340e86de133.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a645706575e20fb315753a591b586cf32da3fefb3e291e6704ce2c60b2455979"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/4-angle-6b1f4397a279.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5dfce38d889b8d64b908d5344e7af42d3f73d7703c59873ac64f668436903d09"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/5-angle-c54da5be8610.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4082a710947ea5c0c5d1b96e8e142cbb932008899bd0a23829e025bb3bda0cc5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/6-angle-9df18a2e0638.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1ac4e92280929d2fd0bdd7d93e70bfacdeab763920ca7d36d7659474220436cc"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/7-lifestyle-aaf4f9476a26.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "36cd9571d59a8a7538bdc9fcd6d104fd0cc97ba8921a3aaeb3d3aac2b5c18093"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/8-angle-2bbefa7355d2.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Component View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1f622fbb0055826408c645e5196a041c1c56c7c8e88a6c91072d7bf6c515dccd"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-blue/9-angle-ec9191f2e7ad.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Blue – Top View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a1e7db21c95fe212856b17b7ff6626650ed5387ece31184836735c6fbf1edfc6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-desk-munch-combo-lunch-bag-grey",
+      "title": "Glasafe Desk Munch Combo Lunch Bag-Grey",
+      "sku": "MGC-0779",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Desk Munch Combo Lunch Bag in grey — a premium office meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Desk Munch Combo Lunch Bag in grey — a premium office meal kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0779",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0779"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1655.0,
+        "amountMinorUnits": 165500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1655.0,
+            "amountMinorUnits": 165500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603206
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/0-master-b237b33a6bef.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d42b51bca77d7ef95750ce818f0abde3e392f60bcad2b19a2dce640caefdfb87"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/1-angle-4f75c4427489.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e2677b7a799b9b1ef52e37064305d09d3a4f5ebf460f681f031ad1126fefc8a8"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/2-angle-2a22f8e9ed23.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "74c7242892110815ac956315ad90950189b01ed6d1e0c7146af583e90d33c119"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/3-angle-180542c41830.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c5f9ab1da74788244eb302c3b0e18176f8c3fcb134e742df120852c516f08e4e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/4-angle-dfebdf10889b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "24a33e76a4a89682bc50420e33a0df217074356dd7a2983cde75505359d0a113"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/5-angle-06177e6cc631.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f7fc7c223efec3e6ceb7246a6411dad4cc468a025b9cea4aeecf948cc6384c85"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/6-angle-8c1aab2c5ea5.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fdc130917489a3bdf3190cf25b5f832bea272aee12353cec2d2411342379ed7a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/7-lifestyle-8a3767821da3.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "27b0b65bbca7e596d752be45c9629e97b8eb17dd756e4901122f6a7cb39966fa"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/8-angle-6c473b44362b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Component View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5ddd008bd2070a9bc2f59b601f3da5433d096401a885de30d3260ce432e3c220"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-desk-munch-combo-lunch-bag-grey/9-angle-96cbe5ad8fbf.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Desk Munch Combo Lunch Bag Grey – Top View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "13824ef13de83a62aa71b2eeabffe314d8fbe9bdf9d3a6840a1ecc9cccb7d408"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-eat-light-combo-blue",
+      "title": "Glasafe Eat Light Combo-Blue",
+      "sku": "MGC-0783",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Eat Light Combo in blue — a premium healthy lifestyle kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Eat Light Combo in blue — a premium healthy lifestyle kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0783",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0783"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1715.0,
+        "amountMinorUnits": 171500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1715.0,
+            "amountMinorUnits": 171500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603218
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/0-master-429a0110cb97.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "86f27ea48586ab7ee0af187e3affd4a87a542aaa3d3669e7859b0a26ff9cd485"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/1-angle-bb9cb5f85a35.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3f8d4ef3aeb3830c071cf1e87b49a93c214dbb993c554114514e98cc93a3a39d"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/2-angle-95955f93b35c.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c522e723f3f60db49b987b72cec213dab35bbd5937dca8c4d36f0ab715fa9dc8"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/3-angle-c340e86de133.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Open View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a645706575e20fb315753a591b586cf32da3fefb3e291e6704ce2c60b2455979"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/4-angle-aaf4f9476a26.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Contents View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "36cd9571d59a8a7538bdc9fcd6d104fd0cc97ba8921a3aaeb3d3aac2b5c18093"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/5-angle-6b1f4397a279.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5dfce38d889b8d64b908d5344e7af42d3f73d7703c59873ac64f668436903d09"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/6-angle-9df18a2e0638.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1ac4e92280929d2fd0bdd7d93e70bfacdeab763920ca7d36d7659474220436cc"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/7-lifestyle-c54da5be8610.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4082a710947ea5c0c5d1b96e8e142cbb932008899bd0a23829e025bb3bda0cc5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/8-angle-9e5be76e2191.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Component View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9c43a2c6f1b10af3a5b2adaf48a45c3b4dec63a43582d3ca05e98d25859b98c9"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-blue/9-angle-564d7960e1e3.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Blue – Top View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "910e9e95fb65bdf997657d46b5880c9aba3a0f1d3af4f61e684d355b10082190"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-eat-light-combo-grey",
+      "title": "Glasafe Eat Light Combo-Grey",
+      "sku": "MGC-0784",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Eat Light Combo in grey — a premium healthy lifestyle kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Eat Light Combo in grey — a premium healthy lifestyle kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0784",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0784"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1715.0,
+        "amountMinorUnits": 171500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1715.0,
+            "amountMinorUnits": 171500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603222
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/0-master-e4aaa259828b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b543f8853407d33301ed236b05b1423fe0d83c8e2c906813a10f46a024aa84cc"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/1-angle-4f75c4427489.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e2677b7a799b9b1ef52e37064305d09d3a4f5ebf460f681f031ad1126fefc8a8"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/2-angle-180542c41830.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c5f9ab1da74788244eb302c3b0e18176f8c3fcb134e742df120852c516f08e4e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/3-angle-06177e6cc631.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Open View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f7fc7c223efec3e6ceb7246a6411dad4cc468a025b9cea4aeecf948cc6384c85"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/4-angle-2a22f8e9ed23.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Contents View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "74c7242892110815ac956315ad90950189b01ed6d1e0c7146af583e90d33c119"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/5-angle-dfebdf10889b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "24a33e76a4a89682bc50420e33a0df217074356dd7a2983cde75505359d0a113"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/6-angle-8c1aab2c5ea5.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fdc130917489a3bdf3190cf25b5f832bea272aee12353cec2d2411342379ed7a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/7-lifestyle-8a3767821da3.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "27b0b65bbca7e596d752be45c9629e97b8eb17dd756e4901122f6a7cb39966fa"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/8-angle-6c473b44362b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Component View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5ddd008bd2070a9bc2f59b601f3da5433d096401a885de30d3260ce432e3c220"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-grey/9-angle-96cbe5ad8fbf.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Grey – Top View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "13824ef13de83a62aa71b2eeabffe314d8fbe9bdf9d3a6840a1ecc9cccb7d408"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-eat-light-combo-sky-blue",
+      "title": "Glasafe Eat Light Combo-Sky Blue",
+      "sku": "MGC-0785",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Eat Light Combo in sky blue — a premium healthy lifestyle kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Eat Light Combo in sky blue — a premium healthy lifestyle kit for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0785",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Sky Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0785"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1715.0,
+        "amountMinorUnits": 171500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1715.0,
+            "amountMinorUnits": 171500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603224
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/0-master-70d2051dc80c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "711d075de5bf4b4eba78e3723ec3224edf730003ef4a7260d13cefbec5c8d7c3"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/1-angle-89c0ee3343a3.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3afcfb5a770193c2dd8fd4c9561e26df6e9fa653e9e3758c60ee11a1f2295d4a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/2-angle-cd0466963898.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f1e5ca9a2c34c60569138d5f97cb8e109012f28721b0b60925aa684e71f94546"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/3-angle-01e2a99e94af.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e9b1a04139adecc89268dca39dff9b297270d3aae96c64914344c439a2433fd5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/4-angle-2ff7bb0f1848.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0c30207222e017f58515491a8206bda27577fce7e992af7638f4f7ccc1b23bea"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/5-angle-7fc64568553e.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "509b9fcde5ad0e93519154f2b7af1fea51115b1f2ccf84a28b769ab1157717a3"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/6-angle-44bedce3496b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Back View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b9e16cb9930e9a83c53f0dae72118a47a4dd87be39248feb8648e50485013e64"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/7-lifestyle-20129ea2b937.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b8a3bea4876b691525205618737bb6ff0cfebec674f6995571354b3907b0c8c5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/8-angle-9e5be76e2191.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Component View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9c43a2c6f1b10af3a5b2adaf48a45c3b4dec63a43582d3ca05e98d25859b98c9"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-eat-light-combo-sky-blue/9-angle-564d7960e1e3.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Eat Light Combo Sky Blue – Top View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "910e9e95fb65bdf997657d46b5880c9aba3a0f1d3af4f61e684d355b10082190"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "glasafe-grip-n-go-lunch-bag",
+      "title": "Glasafe Grip N Go Lunch Bag",
+      "sku": "MGC-0786",
+      "brand": {
+        "name": "Glasafe",
+        "slug": "glasafe"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Glasafe Grip N Go Lunch Bag — a premium office meal carrier for corporate gifting, employee welcome kits and branded bulk orders.",
+      "shortDescription": "Glasafe Grip N Go Lunch Bag — a premium office meal carrier for corporate gifting, employee welcome kits and branded bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0786",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Glasafe",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Silicone Sleeve",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0786"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2495.0,
+        "amountMinorUnits": 249500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2495.0,
+            "amountMinorUnits": 249500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603227
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/0-master-9dbaa452f67f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "60e226a093677fe8f2435683a7835e2706230b935e272ab98454a2d5983aa017"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/1-angle-9e5be76e2191.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9c43a2c6f1b10af3a5b2adaf48a45c3b4dec63a43582d3ca05e98d25859b98c9"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/2-angle-564d7960e1e3.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Open View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "910e9e95fb65bdf997657d46b5880c9aba3a0f1d3af4f61e684d355b10082190"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/3-angle-aa985ce8567b.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Contents View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "97eababdab2da62ecbe9a9d4d92c6a9a090a153af7f470a4e3c63a46739b5678"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/4-angle-5454566c7a8e.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Detail View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e7d91e650c4aab27a96ebfc685ef86485788396ee0ab2560559266f9f91ab6dd"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/5-angle-5ff14611f32d.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Back View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "dce9b4ea7c3ea414b89c1587a2954e361377b668401e5ff544eaea627aa2f913"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/6-angle-c340e86de133.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Alternate View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a645706575e20fb315753a591b586cf32da3fefb3e291e6704ce2c60b2455979"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/7-lifestyle-62d9a65a0884.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0835acf6ba3b6b01d44bd3a8fda0c00ae73ac2058af282eb3fa7f3b83a176a5e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/8-angle-cb93d96666d9.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Grip Detail View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9d9477e9e672613087e77b376c777c6eeaf4113a3c129ffe8b8fc621b52b5560"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/glasafe-grip-n-go-lunch-bag/9-angle-ea6a8953b55e.webp",
+          "role": "ANGLE",
+          "variantKey": "Glasafe Grip N Go Lunch Bag – Handle View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "60a7237d73d04e8f3a8304d160d2e3592971d3d89816ec0897fc0c3e4c3853e9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "kent-kettle-multicooker-cum-steamer",
+      "title": "Kent Kettle Multicooker Cum Steamer",
+      "sku": "MGC-0787",
+      "brand": {
+        "name": "Kent",
+        "slug": "kent"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Multicooker kettle for corporate kitchen gifting, employee welcome kits, and office gifts — affordable Kent Kettle with steam, boil, and cook functions.",
+      "shortDescription": "Multicooker kettle for corporate kitchen gifting, employee welcome kits, and office gifts — affordable Kent Kettle with steam, boil, and cook functions.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0787",
+        "Country of Origin": "India",
+        "Brand": "Kent",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel Inner Pot & Transparent Glass Lid",
+        "Capacity in Ltrs": "1.2L",
+        "Product Code": "MGC-0787"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1595.0,
+        "amountMinorUnits": 159500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1595.0,
+            "amountMinorUnits": 159500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603229
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/0-master-4946a22b6bb4.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7b9846fdebde61b1918518f96e369a7fe7993dd200d9ff3fb33e6c69eaffd873"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/1-angle-38351689641a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "90913db221e87733f4a964be1e0e6545f327ec3bb3237466065d9088f85759a9"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/2-angle-c903ee517791.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "208fa188d560308d45a6f2bc606ef3c4ab1fe80a910ecc8dfc8f7de2298b5b07"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/3-angle-3d32364ed2c5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "82b2aa9a5e384c47ff86945eb4e3d08ab0ed56181ff1a494923b8e9fb4aaf060"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/4-angle-77c3354e3a42.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2307c1e854656ba8497fa96b611e511fd9d9b3448afd7efee4997527f96b1276"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/5-angle-38d63da1c2dc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "730d2d7076dfe6be1bf5c0ddae32b1ce7a19f63cec29be06bccb661ad1bc0089"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/6-angle-7e1bdc5080bc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "900933b84619bcb54c5ec5ea3ae51cf24a28b6fc1317cc08946c667416eae9ce"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/7-angle-02c059f3f61d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6e0cc49233e2cdc4775d480a53bcef3b957d52fd7fd06c5ce389de3ade9edecc"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/8-angle-8fd9968b866e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e348bc788bb2fb832149ffe1badbaf438ceca82d2b6ed4c8569b61e91d68124c"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/kent-kettle-multicooker-cum-steamer/9-angle-3dd3174f3690.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d8598e46ea40da500470f7de4e40cb727718e861d7d9221d8f65b01a9bdbc224"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "magnetic-cork-planter-natural-brown",
+      "title": "Magnetic Cork Planter- Natural Brown",
+      "sku": "MGC-0767",
+      "brand": {
+        "name": "Bioq",
+        "slug": "bioq"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Cork magnetic planter for corporate gifting, office desk greenery, and eco-friendly bulk gifting — affordable Bioq magnetic cork planter natural brown.",
+      "shortDescription": "Cork magnetic planter for corporate gifting, office desk greenery, and eco-friendly bulk gifting — affordable Bioq magnetic cork planter natural brown.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0767",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Bioq",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Dimensions": "Magnetic Cork Holder :(L*W*H) 2 x 2 x 3 Inches,   Glass Tube : Dia 1\"xHeight 4\"",
+        "Product Code": "MGC-0767"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 355.0,
+        "amountMinorUnits": 35500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 355.0,
+            "amountMinorUnits": 35500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603170
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/0-master-90d314a1fff7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "83e2349ad35f7b2fe4c92815e100d50c13bfacb3409aa623cf0ab6e670277574"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/1-lifestyle-957af053729e.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Magnetic Cork Planter Natural Brown – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d83b5464b0fdd9dd4f444bbf9a88be3dc4776c9876b1d4c0fb6409bce547582b"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/2-lifestyle-82c786d93a65.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Magnetic Cork Planter Natural Brown – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4be7481322a16aee93ffcef1e89bb5050e4bdd1feacff9c5fa9f561272640afa"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/3-lifestyle-bff94156cbe7.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Magnetic Cork Planter Natural Brown – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "02e566c12363e994fed57c513780cfcea6c99ba0fe346a3181f9b352e8588c9d"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/4-lifestyle-5b6cac9b46b7.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Magnetic Cork Planter Natural Brown – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "de808ca1889c7abe0b8b0c3500d587c03f89ccaeef841e4a94345b31284395d4"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/5-lifestyle-1205f7d7f289.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Magnetic Cork Planter Natural Brown – Top View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f90259bec8222c2c551c478739734b7ebeaab48a343580c156ee7d5f63ad20c6"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/6-lifestyle-4744e43b1fc1.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Magnetic Cork Planter Natural Brown – Lifestyle View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1604ea03437095edfc5d66f758c800db218ae482589f3f5ab1244f37df32b6a6"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/magnetic-cork-planter-natural-brown/7-lifestyle-10c1dc7f15c1.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Magnetic Cork Planter Natural Brown – In-Use View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "44ce439691fff893bc108b53de11c6ee622f09c4d59f3931e691d95c4e6c0eb8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "ripple-blinder-blue-2000mah",
+      "title": "Ripple Blender- Blue- 2000mAh",
+      "sku": "MGC-0769",
+      "brand": {
+        "name": "Fuzo",
+        "slug": "fuzo"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Fuzo Ripple portable blender in Blue, 2000mAh — USB rechargeable, compact for daily use. Affordable corporate gift for employee kits and bulk orders.",
+      "shortDescription": "Fuzo Ripple portable blender in Blue, 2000mAh — USB rechargeable, compact for daily use. Affordable corporate gift for employee kits and bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0769",
+        "Stock Update Date": "7 Oct 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Fuzo",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "In Stock",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Glass",
+        "Product Code": "MGC-0769"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1085.0,
+        "amountMinorUnits": 108500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1085.0,
+            "amountMinorUnits": 108500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603177
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/0-master-2454c7a7c4ca.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "70bf268f203c4dc12d59b3aeb7d5891a76ff7f5ce9e241cf19cc22a5ff281bf5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/1-angle-2f5aebc98419.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3185b10fa64b926e7d55d82a664677f6cd686211d9ca46935c367b698681571a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/2-angle-e3861fdf8fc6.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "487264985b3a25fef1b336b3e61b3904e2998993be2498cb229a45c8c6878313"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/3-angle-916cf2fd095a.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "74210880fbbb454e82d0ffca26db5a93009d9c85d165b51f33e7b33534fa841b"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/4-angle-521d4d2762a6.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Feature View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "27af961e1d826276e5b542ad9ee1790dd13e87e4c4edec55459294405df31369"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/5-angle-b69ec7ce7375.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ebec793b7b7710d9f6f565305c9af726b12b46a8f2d6de3e78446b06fc73c008"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/6-lifestyle-13075c679307.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Fuzo Ripple Blender Blue – In Use View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0766325fa9e5d8c05cdef1deaaf5a4c6d382de8ab974190c1ca7b4630a0d348e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/7-lifestyle-b34fc226cf73.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8c66ecb0a748000ddfa6b83f020d861878492b107aefc52de350c2b1768d07c1"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/8-angle-984aee485dcb.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Close-Up View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c72a404f83dab48d148d9d593fa2e75de9835746270fc4d7b0f5101ba6b55990"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-blue-2000mah/9-angle-c9961ff47b89.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Blue – Product Detail",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2039fa80aabefeff0d5ba25684066c617ea904abdff09740a67a8ff728bddec5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "ripple-blinder-green-2000mah",
+      "title": "Ripple Blender- Green- 2000mAh",
+      "sku": "MGC-0770",
+      "brand": {
+        "name": "Fuzo",
+        "slug": "fuzo"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Fuzo Ripple portable blender in Green, 2000mAh — USB rechargeable, compact for daily use. Affordable corporate gift for employee kits and bulk orders.",
+      "shortDescription": "Fuzo Ripple portable blender in Green, 2000mAh — USB rechargeable, compact for daily use. Affordable corporate gift for employee kits and bulk orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0770",
+        "Stock Update Date": "7 Oct 2026",
+        "Country of Origin": "India",
+        "Color": "Green",
+        "Brand": "Fuzo",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "12",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Glass",
+        "Product Code": "MGC-0770"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1085.0,
+        "amountMinorUnits": 108500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1085.0,
+            "amountMinorUnits": 108500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603181
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/0-master-612792018065.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3cc4e62ae39187aea56c883ce4d5420a06f8bdcf9c9c848e0dc317909ef2e268"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/1-angle-5514b715666e.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Green – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bde77337c8d5be0baa9d2c2ae2b708ba97d1d1f402dcccba0c21a4c675bbca41"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/2-angle-468f01b2401c.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Green – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bed319bfa3c311a3342e676d756454b1f398321952a5a4319248fdb43993b023"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/3-angle-9f6308eaa005.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Green – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5e63f74711f1ea3ed739733d802d27d9ae39b987b8d873e445ab9193bd905d6c"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/4-angle-28164a541193.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Green – Feature View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "031bb58fde5e962a0bd0710225191d90a3d9fb169462d01ee892ff23c0c5bcf8"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/5-angle-c9961ff47b89.webp",
+          "role": "ANGLE",
+          "variantKey": "Fuzo Ripple Blender Green – Alternate View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2039fa80aabefeff0d5ba25684066c617ea904abdff09740a67a8ff728bddec5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/6-lifestyle-637ff019b2bf.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Fuzo Ripple Blender Green – In Use View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "20b3fc47f86b017ca2220eb737fe0c6dfae328fb36314b34135c85b525da31e9"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/ripple-blinder-green-2000mah/7-lifestyle-6933f5495ea7.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Fuzo Ripple Blender Green – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "997073a6757bdf885ae8fa0bf4af2bfeb03da535880e1a85dc0da4de2a02d4da"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "single-plain-cork-coaster-natural-brown",
+      "title": "Single Plain Cork Coaster- Natural Brown",
+      "sku": "MGC-0766",
+      "brand": {
+        "name": "Bioq",
+        "slug": "bioq"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Cork coaster for corporate gifting, office desk accessories, and eco-friendly bulk gifting — affordable Bioq cork coaster in natural brown.",
+      "shortDescription": "Cork coaster for corporate gifting, office desk accessories, and eco-friendly bulk gifting — affordable Bioq cork coaster in natural brown.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0766",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Bioq",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Material": "Cork",
+        "Dimensions": "Cork Coaster : (L*W*H) (10.1 x 10.1 X 0.5)cm",
+        "Product Code": "MGC-0766"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 125.0,
+        "amountMinorUnits": 12500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 125.0,
+            "amountMinorUnits": 12500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603167
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/single-plain-cork-coaster-natural-brown/0-master-e62af91d8088.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "06037aabb82959d9b4b8323e764882e4ca59ece0f7ce4bf4193a3a4adee7da66"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/single-plain-cork-coaster-natural-brown/1-lifestyle-0d4cdd75961c.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Bioq Single Plain Cork Coaster Natural Brown – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "07cb1446f9b615d0cc50c886956d325ed1193bafa60442674effe90307dba980"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "wonderchef-french-press-coffee-tea-maker-350ml",
+      "title": "Wonderchef French Press Coffee & Tea Maker- 350ml",
+      "sku": "MGC-0793",
+      "brand": {
+        "name": "WonderChef",
+        "slug": "wonderchef"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Coffee maker for corporate gifting, employee welcome kits, and home office gifting — premium WonderChef French Press Coffee & Tea Maker, 350ml.",
+      "shortDescription": "Coffee maker for corporate gifting, employee welcome kits, and home office gifting — premium WonderChef French Press Coffee & Tea Maker, 350ml.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0793",
+        "Stock Update Date": "5 Jun 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "WonderChef",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Borosilicate Glass Carafe",
+        "Product Code": "MGC-0793"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 855.0,
+        "amountMinorUnits": 85500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 855.0,
+            "amountMinorUnits": 85500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603246
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-french-press-coffee-tea-maker-350ml/0-master-1d90d780253c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3bf85e2ba26bfc61ee7a706cea9f17039245043de18dc98540cc273387833475"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-french-press-coffee-tea-maker-350ml/1-angle-a8e5eccd3194.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef French Press Coffee Tea Maker 350ml – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "70f2406744dfc73886bd1d29dcd67643300116d10e0eb41fc9e58908dddbcfce"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-french-press-coffee-tea-maker-350ml/2-angle-b6114354c221.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef French Press Coffee Tea Maker 350ml – Detail View",
+          "sortOrder": 2,
+          "width": 1023,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "997f191cea5af44d712ace2dce9f4b982940d4e7b08f27bc1a47c9b815aefc5d"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-french-press-coffee-tea-maker-350ml/3-angle-1bc2b07212eb.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef French Press Coffee Tea Maker 350ml – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "256ef55bc9570b7406bcdd60d8114bb8e6082faafed60a2adc5dbcdb63dc002c"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-french-press-coffee-tea-maker-350ml/4-angle-2ce0187870bf.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef French Press Coffee Tea Maker 350ml – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cab8e7e26ee1db3996d88073b132e39da926aa08a74e5b245ce91473208c96e4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "wonderchef-onyx-brew-coffee-maker-black",
+      "title": "Wonderchef Onyx Brew Coffee Maker- Black",
+      "sku": "MGC-0795",
+      "brand": {
+        "name": "WonderChef",
+        "slug": "wonderchef"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Wonderchef Onyx Brew Coffee Maker- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Wonderchef Onyx Brew Coffee Maker- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0795",
+        "Color": "Black",
+        "Brand": "WonderChef",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0795"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1935.0,
+        "amountMinorUnits": 193500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1935.0,
+            "amountMinorUnits": 193500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603251
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-onyx-brew-coffee-maker-black/0-master-9088a0530668.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "434b39ec1fab2960667c94fbd5edbde52185c050b3c5a4bbdc4db4f8abe0e241"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-onyx-brew-coffee-maker-black/1-angle-2757c9e5895c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a154470367ec52f16931755db8f98bbf608fbc9bfcbc9dc3c26da2fb0cc9e90f"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-onyx-brew-coffee-maker-black/2-angle-6b30c36a9678.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1162cb0a6ff4cc7382596b662ab36735e467f320b3f96e0a54494bb56398dbe1"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-onyx-brew-coffee-maker-black/3-angle-0dac22875ae2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ea9e51094b9912c47f64e2d1153009582e7cded209ac8e6d5719240764f20865"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-onyx-brew-coffee-maker-black/4-angle-766503753764.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "add2c729daa83ba254418781ff439a4f956f32395fd37b8a18defe6193c8109d"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-onyx-brew-coffee-maker-black/5-angle-f07036fd74f7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3113f6e58a4921982e1a210fb59ddd1d9dda41ed323c160823d44293ed8c380f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "wonderchef-regenta-espresso-coffee-maker-5-bar-with-steamer",
+      "title": "Wonderchef Regenta Espresso Coffee Maker- 5-bar with Steamer",
+      "sku": "MGC-0798",
+      "brand": {
+        "name": "WonderChef",
+        "slug": "wonderchef"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Espresso maker for corporate gifting, employee welcome kits, and home office gifting — premium WonderChef Regenta 5-bar espresso coffee maker with steamer.",
+      "shortDescription": "Espresso maker for corporate gifting, employee welcome kits, and home office gifting — premium WonderChef Regenta 5-bar espresso coffee maker with steamer.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0798",
+        "Stock Update Date": "5 Jun 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "WonderChef",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-0798"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 4725.0,
+        "amountMinorUnits": 472500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 4725.0,
+            "amountMinorUnits": 472500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603265
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-regenta-espresso-coffee-maker-5-bar-with-steamer/0-master-a218f305de95.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "580534b1206a14d567d302869cc7f6f90584933d61c8b32b05a16ce4f118d100"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-regenta-espresso-coffee-maker-5-bar-with-steamer/1-angle-ec41d0ff2f23.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef Regenta Espresso Coffee Maker 5-Bar – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cf053fbdd47879ab93cde4cbc5c8647230c9d1853f885ce6f0502b0efc80973a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-regenta-espresso-coffee-maker-5-bar-with-steamer/2-angle-4ce25ed287d2.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef Regenta Espresso Coffee Maker 5-Bar – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "defd6a2f66efd2098acbdcc05416cb197c8d73578cab53092c338306ad570fe2"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-regenta-espresso-coffee-maker-5-bar-with-steamer/3-angle-fa953cac0ba9.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef Regenta Espresso Coffee Maker 5-Bar – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b8d89622e39dc4a746c1eb5907b6e7f9e16261a63f2e0c817f042e90dbfd8a27"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-regenta-espresso-coffee-maker-5-bar-with-steamer/4-angle-f4ca24e74e04.webp",
+          "role": "ANGLE",
+          "variantKey": "WonderChef Regenta Espresso Coffee Maker 5-Bar – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a47f3ddd5381c336a51116d4ee78abbdb0ae0fb9bb85f3e6a784d844358165c9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "wonderchef-valencia-non-stick-cookware-4-piece-set",
+      "title": "Wonderchef Valencia Non-Stick Cookware 4 Piece Set",
+      "sku": "MGC-0797",
+      "brand": {
+        "name": "WonderChef",
+        "slug": "wonderchef"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Wonderchef Valencia Non-Stick Cookware 4 Piece Set — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Wonderchef Valencia Non-Stick Cookware 4 Piece Set — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0797",
+        "Country of Origin": "India",
+        "Color": "Purple",
+        "Brand": "WonderChef",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Aluminum, Bakelite, Ceramic, Metal, Tempered Glass",
+        "Capacity in Ltrs": "0.5",
+        "Product Code": "MGC-0797"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3385.0,
+        "amountMinorUnits": 338500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3385.0,
+            "amountMinorUnits": 338500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603262
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/0-master-fc7abe375306.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cf3bfd64f5aa2cf642607e1fce2a1992c73234dde231700964a65c44aa1452b3"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/1-angle-4b3d47b1ecd7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "12a62cfd566e84e0d4eaeede4be489af7f4cc03ca90f989d1f4652cf1d48ac0f"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/2-angle-ee1ee59ef9d5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "dbcbdbf276d957e48118ef6ca3cc969cdd055eb74608f4996c3cf88bd0fe5df9"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/3-angle-4fa6cf5f5dec.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "34b3fa03717e15897b4e6abb56994369f974baf6da8724e803dad9320bc3d8f9"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/4-angle-37ca7b21487e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1099,
+          "height": 1099,
+          "format": "webp",
+          "sha256": "08324abd933737b8973eb83ed676aea234edbd7230db0dbc322f883059954a87"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/5-angle-302b91538147.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "7aa10376e35bdaae394f9a430aa08170186c036bf221dd906ed9cd6fc6f22285"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/6-angle-d0db147074c4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "7f4e13870fc6139d7ef7ba9331ba37f1b191dde066582c99054eec564f7615e6"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-valencia-non-stick-cookware-4-piece-set/7-angle-3a92f7f7bd25.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "864bc9ad0f5c331a877ef4aa2b5725eee01ec46c01a1a42ca6ad71a67ad6ee09"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "wonderchef-veneto-brew-coffee-machine-black-600ml",
+      "title": "Wonderchef Veneto Brew Coffee Machine- Black- 600ml",
+      "sku": "MGC-0794",
+      "brand": {
+        "name": "WonderChef",
+        "slug": "wonderchef"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Wonderchef Veneto Brew Coffee Machine- Black- 600ml — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Wonderchef Veneto Brew Coffee Machine- Black- 600ml — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0794",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "WonderChef",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0794"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1525.0,
+        "amountMinorUnits": 152500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1525.0,
+            "amountMinorUnits": 152500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603249
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-black-600ml/0-master-b20c59303f18.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7971595644a8e6f69f69c165125d8c5c135af47c7fec0dd632e8b5e23a8b5cec"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-black-600ml/1-angle-e656637c5364.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1a210f0fa05280d37e4cad129923195c28521018a0bb2960ff82ad63971a0b94"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-black-600ml/2-angle-b9a15078268a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c3580bc4b81b650ace51e7cb6ac9c9604558ae2b20c685f75c0439eb21b905e4"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-black-600ml/3-angle-fbca8b1b90c2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f98dd2e6b7ef30583ce95d13cb96213229a9c90c034d6ffc40fbdebec922788a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-black-600ml/4-angle-b5cd94eaaafb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b5170dedb21a87c03028d75f74cb90a444bae87eae332b12b2eddcd6ab246569"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-black-600ml/5-angle-9cd1b0540a87.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ef207afe6fd57567f7cc267274be03e0ea5e41a9ac93f6452dbf1d75a74fe4b1"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-black-600ml/6-angle-9ba1c12fefc8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "79baf8f9806c43d2796be560468c9fba5e8c97ef79bafe72275541050f50dcb1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "wonderchef-veneto-brew-coffee-machine-600ml-cream",
+      "title": "Wonderchef Veneto Brew Coffee Machine-600ml- Cream",
+      "sku": "MGC-0796",
+      "brand": {
+        "name": "WonderChef",
+        "slug": "wonderchef"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Wonderchef Veneto Brew Coffee Machine-600ml- Cream — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Wonderchef Veneto Brew Coffee Machine-600ml- Cream — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0796",
+        "Color": "Cream",
+        "Brand": "WonderChef",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0796"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1935.0,
+        "amountMinorUnits": 193500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1935.0,
+            "amountMinorUnits": 193500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603258
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-600ml-cream/0-master-99acb382ff00.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "728598dc8806b3a0418a6143f98bb51dd8ec41eb55553cc930cc9cc58456f56e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-600ml-cream/1-angle-3d2c35b5f682.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fb5768d66dc78f09b91ba6b530ef84dcd2b6fc624d2ac06d4804e38f8545f875"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-600ml-cream/2-angle-9efe9d53d9c6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e858e8fda2d1da0369052a0e0b0167d29b4bedde590c0ceadf36fe495fa02bb5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/wonderchef-veneto-brew-coffee-machine-600ml-cream/3-angle-c0ebb77f0e28.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cc724c6a683224ab2c7038e9d77f036bc995cca745e5da142e216de8d216a9c3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "xech-solaris-digital-clock-from-the-future-blue-8e5f",
+      "title": "Xech Solaris Digital Clock from the Future- Blue",
+      "sku": "MGC-0802",
+      "brand": {
+        "name": "Xech",
+        "slug": "xech"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Digital clock for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris futuristic digital clock in Blue.",
+      "shortDescription": "Digital clock for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris futuristic digital clock in Blue.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0802",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Blue",
+        "Brand": "Xech",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Glass, ABS",
+        "Product Code": "MGC-0802"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2185.0,
+        "amountMinorUnits": 218500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2185.0,
+            "amountMinorUnits": 218500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603278
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/0-master-ef7c7da966e3.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0d2e4d6019d9c2872c47b9d51885a744f17d21c8e37b8370e74aafb1cf84c54a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/1-angle-5fa6de985fb9.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Side View",
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d6b95c179214b1f62e50697a9250ceffa61d474cd1f6ab5118401729b84f01f1"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/2-angle-815b264562f4.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "71a7dba773f100c02ec3f70f5c72d8b5eaa3ae00acbd6572775f49b514605e09"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/3-angle-3f514eb44fad.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "58d150b9c1c8ec0ebc7660c3e4617f81ae25ad92cce577a420f05a49aa0ae31a"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/4-angle-78f8d81b309c.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2f269b9f2a747018d97242edc1dbfb05dae7b9215328f6b253b2147427f8685c"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/5-angle-128da25e0672.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Pack View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8d1ff61a6163ea25a8ce9366178ece005daaea62fa82f8a398cff6be9c59b0ed"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/6-angle-0ce26db5d02c.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Feature View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "63142a375fca33daeeec564b4e7e88fd5b1e55842f1462ebdf985a4acbe75b27"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/7-lifestyle-845a44548baf.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e608e93619729c567030b16b93b4ca11a7169a87156c026d8bb746df35a2c7b4"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/8-angle-73b7d5bba01e.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Extra View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "31538cfbbb359f8de102e229be0c4aef01802a1e33d9d8b8bee1d720f03982a1"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-digital-clock-from-the-future-blue-8e5f/9-angle-d39ee29d812d.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris Digital Clock Blue – Usage View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "54fc83092ad77dc7d1e18396d419adf25b1fd451aebdaa21c22e9b6d9230257f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "xech-solaris-x-desktop-clock-speaker-earth-blue-1012",
+      "title": "Xech Solaris X Desktop Clock Speaker- Earth- Blue",
+      "sku": "MGC-0799",
+      "brand": {
+        "name": "Xech",
+        "slug": "xech"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Clock speaker for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris X Earth desktop clock speaker in Blue.",
+      "shortDescription": "Clock speaker for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris X Earth desktop clock speaker in Blue.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0799",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Blue",
+        "Brand": "Xech",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Glass, ABS",
+        "Product Code": "MGC-0799"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1675.0,
+        "amountMinorUnits": 167500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1675.0,
+            "amountMinorUnits": 167500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603268
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/0-master-d5a0cd0b5838.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "beb9dfd5b937518014605a4a84ef1079e30842ee55621234b9ed1092af374278"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/1-angle-04208f966ae4.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Earth Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8073e9e8d7596279e46b138d12b78269d16dc5edf101dc1057d006ad9a7a025c"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/2-angle-c347be068835.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Earth Blue – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "700c57024dd3464c9cef92991750f42d0667dc24db65f6c4e41f73a0916f44a4"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/3-angle-9b0cc4159f05.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Earth Blue – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "01490055b0bf5ba324c2b71bfe94398a9e9a4aff771e97f04cc26382f4cfab50"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/4-angle-11f1aa1c7159.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Earth Blue – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8326ea44ee922ea885d3ecd69c905ee2fa827a05e94592f4ec20b4c94060088f"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/5-angle-ad5b033f349b.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Earth Blue – Pack View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e6333b2ff4ba2844dcf8168fd50bbb70fa9159b7a306aee414d6e811fe33f73e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/6-angle-92f461a3c878.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Earth Blue – Feature View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb05708d8725a982eb225998d2ce9ca32f9e01e6befcda5fb60d2fdedf39fefd"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-earth-blue-1012/7-lifestyle-4d5c40a2377c.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Earth Blue – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "13fe921dfdb69910ec0fbe912a4465033b868d87bcb7e5529a939df38b0be760"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e",
+      "title": "Xech Solaris X Desktop Clock Speaker- Mars- Orange",
+      "sku": "MGC-0800",
+      "brand": {
+        "name": "Xech",
+        "slug": "xech"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Clock speaker for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris X Mars desktop clock speaker in Orange.",
+      "shortDescription": "Clock speaker for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris X Mars desktop clock speaker in Orange.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0800",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Orange",
+        "Brand": "Xech",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Glass, ABS",
+        "Product Code": "MGC-0800"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1675.0,
+        "amountMinorUnits": 167500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1675.0,
+            "amountMinorUnits": 167500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603271
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/0-master-6d44d8df5541.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "db1294228c60fc58628de12873833171c6cfd73dfbd09971bb4b44ab0f8b1bbf"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/1-angle-52c4032efb4a.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "33145315a7abaf1ca66774e86f847ef815b7bd800b6bab08a733b9eedcfa554c"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/2-angle-9111d497a380.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7b4efbcfe3863faf20f85f433b9aae5f36bad5d023229ca178ca4d48160bcc04"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/3-angle-25fe02464819.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0bee16406d4537db69b5a645783e566cf9f306235e6a8e7e1b3133fb0b0deef4"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/4-angle-2197642295f7.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e95d386df2c21aa30b83710af365cd114e40457270275082922b1fae54b098d1"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/5-angle-1c76ad6a956d.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Pack View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "de65f03be29a050a9b485b0398e5cfd962236cfa4219f2dc060eeaed7c2936c4"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/6-angle-a0b128a08160.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Feature View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5236bff758b9a199b8631fe2d2802922b8761ef736de703017db3e4ec5cf48e7"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/7-lifestyle-5ddc609e6c2d.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7d2159baab0268ab1155ae48d39e4d005a8a9100c941718c2dddd0fcda569510"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/8-angle-92f461a3c878.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Extra View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb05708d8725a982eb225998d2ce9ca32f9e01e6befcda5fb60d2fdedf39fefd"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-mars-orange-fe0e/9-angle-367fb3d57427.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Mars Orange – Usage View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "84796d78f389cadd8c40ca24b667a3406321390d4d28eef919962f33619df340"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c",
+      "title": "Xech Solaris X Desktop Clock Speaker- Moon- Grey",
+      "sku": "MGC-0801",
+      "brand": {
+        "name": "Xech",
+        "slug": "xech"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Clock speaker for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris X Moon desktop clock speaker in Grey.",
+      "shortDescription": "Clock speaker for corporate gifting, employee welcome kits, and bulk tech gifting — premium Xech Solaris X Moon desktop clock speaker in Grey.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0801",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Grey",
+        "Brand": "Xech",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Glass, ABS",
+        "Product Code": "MGC-0801"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1675.0,
+        "amountMinorUnits": 167500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1675.0,
+            "amountMinorUnits": 167500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603274
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/0-master-1e7804cb4776.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ef7e6f26244cb99ea8abfa143dcc014d1c80953a01ceb173c96006c37aab546b"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/1-angle-ed3778f0c6b9.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fb23b8cd4d9be7b2473ed0c7c63606fd1229ed5858d0b476985c406930b11aeb"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/2-angle-f2c896bc5b1b.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "23144382b9cee96161bbff1e9f929e707c37058ae79630fac18819cbe6532bf5"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/3-angle-0424623fec01.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d32bebb57c47e968c1315dd9283cfa83251ddec21872730e3250cb09ebc0d2d3"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/4-angle-fa99606d76d2.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fe5d61998322f3d70598b5034823c4c32737149f995af366f3b4cfd6582a5a6c"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/5-angle-41db1a07596a.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Pack View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "aca1bb3339dc34ab46bf3f02462fb4758f941b4cb88bae9f226ce2f3af295561"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/6-angle-195a8aadbaed.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Feature View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d1aa052fa911ec20e38a27993de46cd9b9ea077ace334d50001e8a0ce39b1d9b"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/7-lifestyle-ddc8dcf76451.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Lifestyle View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "69947bee439aee6459f64445a32188955ce95f0f6d976bd1b9d2096616bb1a8e"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/8-angle-92f461a3c878.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Extra View",
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb05708d8725a982eb225998d2ce9ca32f9e01e6befcda5fb60d2fdedf39fefd"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xech-solaris-x-desktop-clock-speaker-moon-grey-ca3c/9-angle-5cb142faa617.webp",
+          "role": "ANGLE",
+          "variantKey": "Xech Solaris X Desktop Clock Speaker Moon Grey – Usage View",
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "67d076b8fc9baa84030a471727631e0276271018d0f65def40e531149f209f36"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    },
+    {
+      "slug": "xoxo-sip-play-coaster",
+      "title": "XOXO Sip & Play Coaster",
+      "sku": "MGC-0788",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Coaster for corporate gifting, employee welcome kits, and bulk gifting — affordable Monkcraft XOXO Sip & Play coaster.",
+      "shortDescription": "Coaster for corporate gifting, employee welcome kits, and bulk gifting — affordable Monkcraft XOXO Sip & Play coaster.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0788",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Natural Cork",
+        "Brand": "Monkcraft",
+        "Customization Type": "Engraving",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "MDF",
+        "Dimensions": "10L x 9.4W x 0.8H cm",
+        "Product Code": "MGC-0788"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896603232
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/barware/xoxo-sip-play-coaster/0-master-18f0424a2ebf.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5c8c1159f866d37b23113fd108a83f74501550be6d305cd5556163eeb379d3b2"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xoxo-sip-play-coaster/1-angle-601da84eabc0.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft XOXO Sip & Play Coaster – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "41396158a6e6aea26c027d378b902089cb24f30644f3d7685160bc38500d8d18"
+        },
+        {
+          "path": "media/products/drinkware-barware/barware/xoxo-sip-play-coaster/3-angle-efbf28bc36ff.webp",
+          "role": "ANGLE",
+          "variantKey": "Monkcraft XOXO Sip & Play Coaster – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "beb9d5e952c13c91ffb1b89930be72910e9fc7d9db31efce46140afb0bbccf12"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:barware",
+        "categoryId": "C2",
+        "name": "Barware",
+        "slug": "barware",
+        "path": "drinkware-barware/barware",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "drinkware-barware/barware"
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C9",
+    "code": "C9",
+    "name": "Office & Stationery",
+    "slug": "office-stationery",
+    "path": "office-stationery",
+    "sortOrder": 9
+  },
+  "subcategory": {
+    "id": "C9:notebooks-planners",
+    "categoryId": "C9",
+    "name": "Notebooks & Planners",
+    "slug": "notebooks-planners",
+    "path": "office-stationery/notebooks-planners",
+    "sortOrder": 1
+  },
+  "categoryProductCount": 379,
+  "productCount": 4,
+  "products": [
+    {
+      "slug": "diwali-glow-gather-customized-notebook",
+      "title": "Diwali Glow & Gather Customized Notebook",
+      "sku": "MGC-4174",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Customized notebook for diwali gifting, employee joining kits, and corporate gifting — affordable Monkcraft Diwali Glow & Gather with premium paper.",
+      "shortDescription": "Customized notebook for diwali gifting, employee joining kits, and corporate gifting — affordable Monkcraft Diwali Glow & Gather with premium paper.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4174",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-4174"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 195.0,
+        "amountMinorUnits": 19500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 195.0,
+            "amountMinorUnits": 19500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613340
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/notebooks-planners/diwali-glow-gather-customized-notebook/0-master-494b69a0f49e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9fb4f3ac4f86df069180fbce658c6c32a4438c36f73fdc302e191dc37894f50d"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/diwali-glow-gather-customized-notebook/1-angle-1dcba08a54f5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c274886daea6bf187bb8f54bcfe1031058172b584170ce64fae2c1cc468d2198"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/diwali-glow-gather-customized-notebook/2-angle-da89c5829b52.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "18809f8ef0eafe25462884416c36142b592ae5adbb5d41970bee8616d9fcbdd3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:notebooks-planners",
+        "categoryId": "C9",
+        "name": "Notebooks & Planners",
+        "slug": "notebooks-planners",
+        "path": "office-stationery/notebooks-planners",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "office-stationery/notebooks-planners"
+    },
+    {
+      "slug": "flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets",
+      "title": "Flintstone Notebook 4-in1 Gift Set- White with Black A5- 72 Sheets",
+      "sku": "MGC-4173",
+      "brand": {
+        "name": "Fuzo",
+        "slug": "fuzo"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "Fuzo Flintstone Notebook 4-in-1 Gift Set in white with black, A5 — premium notebook gift set for office. Affordable corporate gift or joining kit.",
+      "shortDescription": "Fuzo Flintstone Notebook 4-in-1 Gift Set in white with black, A5 — premium notebook gift set for office. Affordable corporate gift or joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4173",
+        "Stock Update Date": "8 Oct 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Fuzo",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "5370",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-4173"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 455.0,
+        "amountMinorUnits": 45500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 455.0,
+            "amountMinorUnits": 45500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613335
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/0-master-eee016815241.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "97019052c06335b71ad6778f908d55cb97c8f539655615758af7366483139d93"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/1-angle-f53b84af919a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7af6c84781eef1d8f43aed056645317c53a8426221217f383a2a6ec220ce1ad1"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/2-angle-fcfb46ffb15d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4afd980864a7a9af403beb39dbdbd97e9f401d2878af3b07a57f812778753e39"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/3-angle-c9fb35b89cbf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3e64b8be357b28eb92501ae12983e3893682cf4d86ac2b4a8fd341f22c81604e"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/4-angle-ba23070e6c7e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "656d478a9ab150bd59395f3fe83710e5572f7350eb75c3b67bba59fbbcf234e0"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/5-angle-5558ff43df89.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b1b0e259eea254dc6cc046d8e76ea618d384315c88ec7aa13aa3d96edeb89a82"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/6-angle-faa3a0618680.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "787686741d5632dd87ea4d3be5817cde1a06529effce71f915f4fa83ecf251ae"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/7-angle-5dc51f90341c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "46cbdda906f40146289d954b7ab582da41c827f6bc56c79959de94cb45e37648"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/8-angle-134985b34fa1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6ef37ae5fb989ac1ba3ebb6a8f407079821d89daab5f5aae7e42aa641dbd0b8b"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/flintstone-notebook-4-in1-gift-set-white-with-black-a5-72-sheets/9-angle-c898579cb0ec.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f4827536ff7ef36bad15cb1fd5a564cdfe2aac800e6806ee205a67251dfbbb51"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:notebooks-planners",
+        "categoryId": "C9",
+        "name": "Notebooks & Planners",
+        "slug": "notebooks-planners",
+        "path": "office-stationery/notebooks-planners",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "office-stationery/notebooks-planners"
+    },
+    {
+      "slug": "fluct-notebook-black-a5-160-pages",
+      "title": "Fluct Notebook - Black - A5 - 160 Pages",
+      "sku": "MGC-4171",
+      "brand": {
+        "name": "Anupam",
+        "slug": "anupam"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "A5 notebook for corporate gifting, employee welcome kits, and bulk stationery gifting — affordable Anupam Fluct a5 notebook in black with 160 pages.",
+      "shortDescription": "A5 notebook for corporate gifting, employee welcome kits, and bulk stationery gifting — affordable Anupam Fluct a5 notebook in black with 160 pages.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4171",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Anupam",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "24 Hrs Delivery",
+        "Material": "Paper",
+        "GSM": "80",
+        "Product Code": "MGC-4171"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 175.0,
+        "amountMinorUnits": 17500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 175.0,
+            "amountMinorUnits": 17500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613330
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "24 Hrs Delivery"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/notebooks-planners/fluct-notebook-black-a5-160-pages/1-angle-92e528de4d34.webp",
+          "role": "MASTER",
+          "variantKey": "Anupam Fluct A5 Notebook Black – Alternate View",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9f3059b1a4a64c0bb3aa4ad16fed88c83eea65f9d970f32865c2f86a6fd03c37"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:notebooks-planners",
+        "categoryId": "C9",
+        "name": "Notebooks & Planners",
+        "slug": "notebooks-planners",
+        "path": "office-stationery/notebooks-planners",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "office-stationery/notebooks-planners"
+    },
+    {
+      "slug": "fluct-notebook-white-a5-160-pages",
+      "title": "Fluct Notebook - White - A5 - 160 Pages",
+      "sku": "MGC-4172",
+      "brand": {
+        "name": "Anupam",
+        "slug": "anupam"
+      },
+      "category": {
+        "id": "C9",
+        "code": "C9",
+        "name": "Office & Stationery",
+        "slug": "office-stationery",
+        "path": "office-stationery",
+        "sortOrder": 9
+      },
+      "description": "A5 notebook for corporate gifting, employee welcome kits, and bulk stationery gifting — affordable Anupam Fluct a5 notebook in white with 160 pages.",
+      "shortDescription": "A5 notebook for corporate gifting, employee welcome kits, and bulk stationery gifting — affordable Anupam Fluct a5 notebook in white with 160 pages.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4172",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Anupam",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "24 Hrs Delivery",
+        "Material": "Paper",
+        "GSM": "80",
+        "Product Code": "MGC-4172"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 225.0,
+        "amountMinorUnits": 22500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 225.0,
+            "amountMinorUnits": 22500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613332
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "24 Hrs Delivery"
+      },
+      "images": [
+        {
+          "path": "media/products/office-stationery/notebooks-planners/fluct-notebook-white-a5-160-pages/0-master-2a9e30431617.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9aac77e7ef7cd89cc42bbda67920b32d4b4c31137846149ed29a6b643fa04c98"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/fluct-notebook-white-a5-160-pages/1-angle-34d553c031dc.webp",
+          "role": "ANGLE",
+          "variantKey": "Anupam Fluct A5 Notebook White – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "63eff25c6f292473d9e4c44aff397ead1e0b4ffdabbda5982e2b6976a204cb00"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/fluct-notebook-white-a5-160-pages/2-angle-b2c6fa10f696.webp",
+          "role": "ANGLE",
+          "variantKey": "Anupam Fluct A5 Notebook White – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9247492988072b41bfabf82acdba3e2e206364be8993bda7fc3eadb3c7ffbc00"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/fluct-notebook-white-a5-160-pages/3-angle-b45da1640760.webp",
+          "role": "ANGLE",
+          "variantKey": "Anupam Fluct A5 Notebook White – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "dcea9ab884f0f790b95a0dc78c32699e6b772267872a28685d6166f9489f98f5"
+        },
+        {
+          "path": "media/products/office-stationery/notebooks-planners/fluct-notebook-white-a5-160-pages/4-angle-2c2deae0dcb4.webp",
+          "role": "ANGLE",
+          "variantKey": "Anupam Fluct A5 Notebook White – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0ca5d4619da572f550c0c55d828f8171cda7d05a1ad5d5e13f62ab1b4ed4f6d5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C9:notebooks-planners",
+        "categoryId": "C9",
+        "name": "Notebooks & Planners",
+        "slug": "notebooks-planners",
+        "path": "office-stationery/notebooks-planners",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "office-stationery/notebooks-planners"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "2.0.0",
+  "categoryAssets": [
+    {
+      "categoryId": "C11",
+      "categorySlug": "packaging",
+      "assets": [
+        {
+          "fileName": "kraft-paper-pack.svg",
+          "path": "media/packaging/illustrations/kraft-paper-pack.svg",
+          "format": "svg"
+        },
+        {
+          "fileName": "reusable-tote.svg",
+          "path": "media/packaging/illustrations/reusable-tote.svg",
+          "format": "svg"
+        },
+        {
+          "fileName": "rigid-gift-box.svg",
+          "path": "media/packaging/illustrations/rigid-gift-box.svg",
+          "format": "svg"
+        },
+        {
+          "fileName": "state-closed.svg",
+          "path": "media/packaging/illustrations/state-closed.svg",
+          "format": "svg"
+        },
+        {
+          "fileName": "state-open.svg",
+          "path": "media/packaging/illustrations/state-open.svg",
+          "format": "svg"
+        },
+        {
+          "fileName": "state-wrapped.svg",
+          "path": "media/packaging/illustrations/state-wrapped.svg",
+          "format": "svg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0.0",
+  "segment": {
+    "id": "eid",
+    "label": "Eid",
+    "parentId": "seasonal-gifting",
+    "sortOrder": 12,
+    "criteria": "Direct matches require Eid, Ramadan, Ramzan, or Iftar wording. Generic non-food candidates are review-only and do not imply halal or religious suitability.",
+    "sourceMatchedProductCount": 0,
+    "reviewCandidateCount": 12,
+    "coverageStatus": "review-candidates-only",
+    "sourceMatchedProductSlugs": [],
+    "reviewCandidateProductSlugs": [
+      "ambrane-pp-129-10000mah-powerbank-blue",
+      "capri-notebook-black-a5-96-sheets",
+      "fluct-journal-a5-notebook-brown-160-pages",
+      "globe-trotter-travel-kit-black",
+      "hummel-odense-15-6-laptop-sleeve-tan",
+      "journeyluxe-compression-packing-cubes-travel-organizer-for-men-and-women-black-8-pcs",
+      "korsa-premium-notebook-brown-a5-96-sheets",
+      "ooge-charge-air-trio-3-in-1-wireless-charger-phone-grey",
+      "pigeon-brewster-coffee-maker",
+      "plain-snapdot-pin-badge",
+      "pro-i-laptop-backpack-black-12l",
+      "square-vase-2-layer-bamboo-plant"
+    ]
+  },
+  "sourceMatchedProductSlugs": [],
+  "reviewCandidateProductSlugs": [
+    "ambrane-pp-129-10000mah-powerbank-blue",
+    "capri-notebook-black-a5-96-sheets",
+    "fluct-journal-a5-notebook-brown-160-pages",
+    "globe-trotter-travel-kit-black",
+    "hummel-odense-15-6-laptop-sleeve-tan",
+    "journeyluxe-compression-packing-cubes-travel-organizer-for-men-and-women-black-8-pcs",
+    "korsa-premium-notebook-brown-a5-96-sheets",
+    "ooge-charge-air-trio-3-in-1-wireless-charger-phone-grey",
+    "pigeon-brewster-coffee-maker",
+    "plain-snapdot-pin-badge",
+    "pro-i-laptop-backpack-black-12l",
+    "square-vase-2-layer-bamboo-plant"
+  ]
+}

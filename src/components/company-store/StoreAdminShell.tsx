@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { CatalogueBrowseLink } from "@/components/catalogue/BackToResults";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   useEffect,
@@ -501,9 +502,7 @@ function MerchandisePanel({ draft }: { draft: CompanyStoreDraft }) {
         >
           {loading ? "Searching…" : "Search"}
         </button>
-        <Link className="cs-btn cs-btn--ghost cs-btn--small" href="/gifts">
-          Open full catalogue
-        </Link>
+        <CatalogueBrowseLink className="cs-btn cs-btn--ghost cs-btn--small" label="Open full catalogue" />
       </form>
       {error ? (
         <p className="cs-error" role="alert">

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "2.0.0",
+  "counts": {
+    "products": 4257,
+    "categories": 11,
+    "namedBrands": 170,
+    "productImageRecords": 21892,
+    "productsWithImages": 4149,
+    "productsWithoutImages": 108,
+    "unlinkedImageFiles": 145,
+    "unlinkedProductFolders": 18,
+    "packagingIllustrations": 6,
+    "cataloguePdfs": 5,
+    "productsNeedingReview": 792,
+    "subcategories": 40,
+    "packagingProducts": 29
+  },
+  "fieldCoverage": [
+    {
+      "field": "brand.name",
+      "present": 4207,
+      "missing": 50
+    },
+    {
+      "field": "brand.slug",
+      "present": 4207,
+      "missing": 50
+    },
+    {
+      "field": "description",
+      "present": 4257,
+      "missing": 0
+    },
+    {
+      "field": "shortDescription",
+      "present": 4257,
+      "missing": 0
+    },
+    {
+      "field": "brandLine",
+      "present": 0,
+      "missing": 4257
+    },
+    {
+      "field": "pricing.amount",
+      "present": 4257,
+      "missing": 0
+    },
+    {
+      "field": "pricing.mrpAmount",
+      "present": 0,
+      "missing": 4257
+    },
+    {
+      "field": "pricing.gstBasis",
+      "present": 3620,
+      "missing": 637
+    },
+    {
+      "field": "pricing.taxRatePct",
+      "present": 0,
+      "missing": 4257
+    },
+    {
+      "field": "availability.status",
+      "present": 4257,
+      "missing": 0
+    },
+    {
+      "field": "availability.minimumOrderQuantity",
+      "present": 3620,
+      "missing": 637
+    },
+    {
+      "field": "availability.dispatch",
+      "present": 3620,
+      "missing": 637
+    },
+    {
+      "field": "specifications",
+      "present": 4257,
+      "missing": 0
+    },
+    {
+      "field": "variants",
+      "present": 0,
+      "missing": 4257
+    },
+    {
+      "field": "images",
+      "present": 4149,
+      "missing": 108
+    },
+    {
+      "field": "taxonomy.category",
+      "present": 4257,
+      "missing": 0
+    },
+    {
+      "field": "taxonomy.subcategory",
+      "present": 4257,
+      "missing": 0
+    }
+  ],
+  "contentPolicy": [
+    "Product titles, descriptions, specifications, prices, and taxonomy are carried over from the existing catalogue data.",
+    "When a full description is missing, the existing short description is used verbatim; no product claims were added.",
+    "Unconfirmed source values remain null; empty arrays mean there are no source records for that field.",
+    "145 image files have no matching product record and are isolated under media/unlinked-products.",
+    "Category and subcategory names/slugs are preserved from the catalogue and represented through a parent-linked canonical taxonomy.",
+    "No product was reclassified; category and subcategory IDs and paths are deterministic export identifiers.",
+    "The Packaging category contains 29 standalone box products moved from Gift Sets based on their product titles/descriptions; multi-item gift hampers remain in Hampers & Gifting."
+  ],
+  "taxonomyAudit": {
+    "categories": 11,
+    "subcategories": 40,
+    "classifiedProducts": 4257,
+    "productsMissingCategory": 0,
+    "productsMissingSubcategory": 0,
+    "conflictingCategoryDefinitions": 0,
+    "conflictingSubcategoryDefinitions": 0,
+    "categoryOrder": "Numeric category-code order (C1 through C11).",
+    "subcategoryOrder": "Alphabetical by subcategory name within each category.",
+    "pathTemplate": "<category-slug>/<subcategory-slug>",
+    "subcategoryIdentity": "Category code plus subcategory slug; identical subcategory slugs in different categories remain distinct.",
+    "packagingProducts": 29,
+    "productsMovedToPackaging": 29
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C3",
+    "code": "C3",
+    "name": "Tech & Gadgets",
+    "slug": "tech-gadgets",
+    "path": "tech-gadgets",
+    "sortOrder": 3
+  },
+  "productCount": 364,
+  "subcategoryCount": 4,
+  "subcategories": [
+    {
+      "id": "C3:audio",
+      "categoryId": "C3",
+      "name": "Audio",
+      "slug": "audio",
+      "path": "tech-gadgets/audio",
+      "sortOrder": 1,
+      "productCount": 154,
+      "dataFile": "by-subcategory/tech-gadgets/audio.json"
+    },
+    {
+      "id": "C3:chargers",
+      "categoryId": "C3",
+      "name": "Chargers",
+      "slug": "chargers",
+      "path": "tech-gadgets/chargers",
+      "sortOrder": 2,
+      "productCount": 96,
+      "dataFile": "by-subcategory/tech-gadgets/chargers.json"
+    },
+    {
+      "id": "C3:desk-tech",
+      "categoryId": "C3",
+      "name": "Desk Tech",
+      "slug": "desk-tech",
+      "path": "tech-gadgets/desk-tech",
+      "sortOrder": 3,
+      "productCount": 101,
+      "dataFile": "by-subcategory/tech-gadgets/desk-tech.json"
+    },
+    {
+      "id": "C3:wearables",
+      "categoryId": "C3",
+      "name": "Wearables",
+      "slug": "wearables",
+      "path": "tech-gadgets/wearables",
+      "sortOrder": 4,
+      "productCount": 13,
+      "dataFile": "by-subcategory/tech-gadgets/wearables.json"
+    }
+  ]
+}

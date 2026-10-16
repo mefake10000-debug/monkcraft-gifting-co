@@ -6,23 +6,20 @@
 export type BoxStep =
   | "packaging"
   | "products"
-  | "customize"
   | "review"
   | "quote";
 
 export const BOX_STEPS: BoxStep[] = [
-  "packaging",
   "products",
-  "customize",
+  "packaging",
   "review",
   "quote",
 ];
 
 export const BOX_STEP_LABELS: Record<BoxStep, string> = {
-  packaging: "Packaging",
   products: "Products",
-  customize: "Customize",
   review: "Review",
+  packaging: "Packaging",
   quote: "Quote",
 };
 
@@ -36,6 +33,7 @@ export type PackagingOption = {
   /** Only set when a verified price exists */
   priceLabel?: string;
   imageSrc?: string;
+  packagingKind?: "box" | "tote";
 };
 
 export type PackagingChoice =
@@ -52,6 +50,7 @@ export type PackagingChoice =
       dimensionsLabel?: string;
       priceLabel?: string;
       imageSrc?: string;
+      packagingKind?: "box" | "tote";
     };
 
 /** Product line inside one gift box (qty is per box, not programme total). */
@@ -88,6 +87,7 @@ export type BoxCustomization = {
   budgetPerBox: string;
   packagingInstructions: string;
   deliveryRequirements: string;
+  dispatchType: "single-city" | "multi-point" | "international" | "";
 };
 
 export type BoxContact = {
@@ -116,4 +116,6 @@ export type BoxPriceEstimate = {
   pricedLineCount: number;
   unpricedLineCount: number;
   allLinesPriced: boolean;
+  packagingPerBoxInr: number | null;
+  packagingTotalInr: number | null;
 };

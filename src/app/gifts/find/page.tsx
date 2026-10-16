@@ -1,5 +1,4 @@
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { CompareBar } from "@/components/catalogue/CompareBar";
 import { SmartGiftFinder } from "@/components/gift-finder/SmartGiftFinder";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -38,7 +37,6 @@ export default function GiftFinderPage() {
         />
       </div>
       <SiteFooter />
-      <CompareBar />
     </main>
   );
 }

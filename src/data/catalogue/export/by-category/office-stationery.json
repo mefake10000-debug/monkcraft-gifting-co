@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C9",
+    "code": "C9",
+    "name": "Office & Stationery",
+    "slug": "office-stationery",
+    "path": "office-stationery",
+    "sortOrder": 9
+  },
+  "productCount": 379,
+  "subcategoryCount": 4,
+  "subcategories": [
+    {
+      "id": "C9:notebooks-planners",
+      "categoryId": "C9",
+      "name": "Notebooks & Planners",
+      "slug": "notebooks-planners",
+      "path": "office-stationery/notebooks-planners",
+      "sortOrder": 1,
+      "productCount": 4,
+      "dataFile": "by-subcategory/office-stationery/notebooks-planners.json"
+    },
+    {
+      "id": "C9:office-essentials",
+      "categoryId": "C9",
+      "name": "Office Essentials",
+      "slug": "office-essentials",
+      "path": "office-stationery/office-essentials",
+      "sortOrder": 2,
+      "productCount": 20,
+      "dataFile": "by-subcategory/office-stationery/office-essentials.json"
+    },
+    {
+      "id": "C9:organisers",
+      "categoryId": "C9",
+      "name": "Organisers",
+      "slug": "organisers",
+      "path": "office-stationery/organisers",
+      "sortOrder": 3,
+      "productCount": 72,
+      "dataFile": "by-subcategory/office-stationery/organisers.json"
+    },
+    {
+      "id": "C9:stationery",
+      "categoryId": "C9",
+      "name": "Stationery",
+      "slug": "stationery",
+      "path": "office-stationery/stationery",
+      "sortOrder": 4,
+      "productCount": 283,
+      "dataFile": "by-subcategory/office-stationery/stationery.json"
+    }
+  ]
+}

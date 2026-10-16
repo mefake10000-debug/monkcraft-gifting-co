@@ -4,9 +4,8 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
 export const metadata = {
-  title: "Shortlist | Monkcraft Gifts",
-  description:
-    "Review shortlisted Monkcraft gifts, set quantities, and continue to your gifting brief.",
+  title: "Cart | Monkcraft Gifts",
+  description: "Review bulk product quantities and send your cart to Monkcraft for price verification and approval.",
 };
 
 export default function ShortlistPage() {
@@ -18,7 +17,7 @@ export default function ShortlistPage() {
           items={[
             { label: "Home", href: "/" },
             { label: "Gifts", href: "/gifts" },
-            { label: "Shortlist" },
+            { label: "Cart" },
           ]}
         />
         <ShortlistView />

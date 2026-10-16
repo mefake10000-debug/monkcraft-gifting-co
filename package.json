@@ -11,9 +11,9 @@
     "catalogue:report": "node scripts/catalogue-data-report.mjs",
     "catalogue:category-audit": "node scripts/category-type-audit.mjs",
     "brands:logos": "node scripts/check-partner-brand-logos.mjs",
-    "launch:regression": "node scripts/launch-regression.mjs"
+    "launch:regression": "node scripts/launch-regression.mjs",
+    "test": "node --test tests/*.test.cjs"
   },
-
   "dependencies": {
     "next": "16.4.0",
     "react": "19.3.0",

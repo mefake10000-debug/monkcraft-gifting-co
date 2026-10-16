@@ -4,22 +4,22 @@ import { Reveal } from "@/components/Reveal";
 const steps = [
   {
     n: "01",
-    title: "Discover",
-    text: "Browse the catalogue or use Gift Finder to match occasion and budget.",
+    title: "Choose gifts",
+    text: "Browse by occasion, product type, budget or brand. Add the pieces that fit your team.",
     href: "/gifts",
     cta: "Browse gifts",
   },
   {
     n: "02",
-    title: "Shape",
-    text: "Build a box, shortlist products, or mock branding in Studio.",
+    title: "Make it yours",
+    text: "Add your branding, choose packaging and share delivery details. Build a box with one of each selected product to start.",
     href: "/gifts/box",
     cta: "Build a Box",
   },
   {
     n: "03",
     title: "Quote",
-    text: "Open My Brief, gather everything in one place, then prepare a quotation request.",
+    text: "Send your selections to Monkcraft for a tailored quote. Once approved, the team will share a payment link.",
     href: "/gifts/brief",
     cta: "Open My Brief",
   },
@@ -36,9 +36,8 @@ export function JourneyStrip() {
             From idea to quotation brief.
           </h2>
           <p className="journey-strip__lede">
-            Everything you select stays in this browser until you prepare a
-            brief. Online delivery activates only when Monkcraft configures a
-            verified channel.
+            Choose a direction, shape the details, then review a clear quote
+            with the Monkcraft team before you place your order.
           </p>
         </Reveal>
         <ol className="journey-strip__steps">

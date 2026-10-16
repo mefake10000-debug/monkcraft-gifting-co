@@ -1,6 +1,5 @@
-import fs from "node:fs";
-import path from "node:path";
 import type { BrandLogoItem } from "@/components/BrandLogoMarquee";
+import catalogueBrands from "@/data/catalogue/export/brands.json";
 
 /**
  * Homepage partner / catalogue-brand strip candidates.
@@ -9,9 +8,9 @@ import type { BrandLogoItem } from "@/components/BrandLogoMarquee";
  * House brand `monkcraft` is excluded (platform, not a partner mark).
  * Unnamed / null brand rows are excluded.
  *
- * `logoSrc` is resolved at runtime from verified files in `public/brands/` only —
- * never invent or AI-generate logos. Until files land, the marquee shows
- * typography-only real brand names.
+ * `logoSrc` is resolved only from verified files in `public/brands/` — never
+ * invent logos. When a verified mark is unavailable, show the catalogue's
+ * published brand name as plain text so buyers can still browse every brand.
  */
 
 export type PartnerBrandCandidate = {
@@ -22,59 +21,49 @@ export type PartnerBrandCandidate = {
   logoSrc?: string;
 };
 
-/** Top catalogue brands by volume (third-party), for the homepage strip. */
-export const HOMEPAGE_PARTNER_BRAND_CANDIDATES: PartnerBrandCandidate[] = [
-  { slug: "greys-blues", name: "Greys & Blues", productCount: 284 },
-  { slug: "urban-gear", name: "Urban Gear", productCount: 200 },
-  { slug: "scott", name: "Scott", productCount: 189 },
-  { slug: "fuzo", name: "Fuzo", productCount: 127 },
-  { slug: "oblique", name: "Oblique", productCount: 89 },
-  { slug: "portronics", name: "Portronics", productCount: 78 },
-  { slug: "fur-jaden", name: "Fur jaden", productCount: 68 },
-  { slug: "power-plus", name: "Power Plus", productCount: 64 },
-  { slug: "bioq", name: "Bioq", productCount: 58 },
-  { slug: "the-backbencher", name: "The Backbencher", productCount: 55 },
-  { slug: "swiss-military", name: "Swiss Military", productCount: 52 },
-  { slug: "jack-jones", name: "Jack&Jones", productCount: 51 },
-  { slug: "shopnooe", name: "ShopNooe", productCount: 51 },
-  { slug: "offikraft", name: "Offikraft", productCount: 50 },
-  { slug: "stolt", name: "Stolt", productCount: 46 },
-  { slug: "hummel", name: "Hummel", productCount: 44 },
-  { slug: "stellers", name: "Stellers", productCount: 38 },
-  { slug: "ooge", name: "Ooge", productCount: 37 },
-  { slug: "levis", name: "Levis", productCount: 34 },
-  { slug: "3s", name: "3S", productCount: 33 },
-];
+/** All named catalogue brands except Monkcraft, ordered by product volume. */
+export const HOMEPAGE_PARTNER_BRAND_CANDIDATES: PartnerBrandCandidate[] =
+  catalogueBrands.brands
+    .filter(
+      (brand): brand is { slug: string; name: string; productCount: number } =>
+        Boolean(brand.slug && brand.name && brand.slug !== "monkcraft"),
+    )
+    .map(({ slug, name, productCount }) => ({ slug, name, productCount }))
+    .sort((a, b) => b.productCount - a.productCount || a.name.localeCompare(b.name));
 
-const LOGO_EXTENSIONS = ["svg", "png", "webp"] as const;
-
-/**
- * Look for a verified logo file under public/brands/.
- * Accepted names: `{slug}-logo.{ext}` or `{slug}.{ext}`.
- */
+/** Brand logo paths are explicit so no filesystem code enters page bundles. */
 export function resolveBrandLogoSrc(slug: string): string | undefined {
-  const dir = path.join(process.cwd(), "public", "brands");
-  if (!fs.existsSync(dir)) return undefined;
-
-  const filenames = LOGO_EXTENSIONS.flatMap((ext) => [
-    `${slug}-logo.${ext}`,
-    `${slug}.${ext}`,
-  ]);
-
-  for (const filename of filenames) {
-    if (fs.existsSync(path.join(dir, filename))) {
-      return `/brands/${filename}`;
-    }
-  }
-  return undefined;
+  const verifiedLogoFiles: Record<string, string> = {
+    "urban-gear": "/brands/urban-gear-logo.png",
+    "bioq": "/brands/bioq-logo.svg",
+    "fuzo": "/brands/fuzo-logo.webp",
+    "the-backbencher": "/brands/the-backbencher-logo.png",
+    "fur-jaden": "/brands/fur-jaden-logo-black.png",
+    "levis": "/brands/levis-logo.png",
+    "offikraft": "/brands/offikraft-logo.png",
+    "oblique": "/brands/oblique-logo.png",
+    "power-plus": "/brands/power-plus-logo.png",
+    "3s": "/brands/3s-logo.png",
+    "ooge": "/brands/ooge-logo.jpg",
+    "stolt": "/brands/stolt-logo.png",
+    "stellers": "/brands/stellers-logo.png",
+    "portronics": "/brands/portronics-logo-blacktext.png",
+    "jack-jones": "/brands/jack-jones-logo.png",
+    "swiss-military": "/brands/swiss-military-logo.png",
+    "hummel": "/brands/hummel-logo.svg",
+  };
+  return verifiedLogoFiles[slug];
 }
 
-/** Wire homepage marquee: real logo when file exists, else name-only. */
+/** Wire every catalogue brand into the marquee without inventing missing marks. */
 export function getHomepagePartnerBrands(): BrandLogoItem[] {
-  return HOMEPAGE_PARTNER_BRAND_CANDIDATES.map((brand) => {
+  return HOMEPAGE_PARTNER_BRAND_CANDIDATES.flatMap((brand) => {
     const src = brand.logoSrc ?? resolveBrandLogoSrc(brand.slug);
-    return src
-      ? { name: brand.name, src }
-      : { name: brand.name };
+    if (!src) return [];
+    return [{
+      name: brand.name,
+      ...(src ? { src } : {}),
+      href: `/gifts?q=${encodeURIComponent(brand.name)}`,
+    }];
   });
 }

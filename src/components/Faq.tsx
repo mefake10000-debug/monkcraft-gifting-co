@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Is there a full online catalogue yet?",
-    a: "Yes — browse the live gifts catalogue at /gifts (thousands of verified products). Shortlist items, set quantities, build a gifting brief, then prepare a quotation message. Monkcraft Studio at /studio lets you preview branding on products and assemble a white-label client catalogue. Company Stores at /company-stores offers a demo configurator and employee preview — not a live private commerce platform yet.",
+    a: "Yes — browse the live gifts catalogue at /gifts (thousands of products). Add items to your cart, set quantities, then send them to Monkcraft for price verification and approval. Monkcraft Studio at /studio lets you preview branding on products and assemble a client catalogue. Company Stores at /company-stores offers a demo configurator and employee preview — not a live private commerce platform yet.",
   },
   {
     q: "How do Company Stores work?",

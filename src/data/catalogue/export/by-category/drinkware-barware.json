@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C2",
+    "code": "C2",
+    "name": "Drinkware & Barware",
+    "slug": "drinkware-barware",
+    "path": "drinkware-barware",
+    "sortOrder": 2
+  },
+  "productCount": 460,
+  "subcategoryCount": 5,
+  "subcategories": [
+    {
+      "id": "C2:barware",
+      "categoryId": "C2",
+      "name": "Barware",
+      "slug": "barware",
+      "path": "drinkware-barware/barware",
+      "sortOrder": 1,
+      "productCount": 37,
+      "dataFile": "by-subcategory/drinkware-barware/barware.json"
+    },
+    {
+      "id": "C2:bottles",
+      "categoryId": "C2",
+      "name": "Bottles",
+      "slug": "bottles",
+      "path": "drinkware-barware/bottles",
+      "sortOrder": 2,
+      "productCount": 124,
+      "dataFile": "by-subcategory/drinkware-barware/bottles.json"
+    },
+    {
+      "id": "C2:coffee",
+      "categoryId": "C2",
+      "name": "Coffee",
+      "slug": "coffee",
+      "path": "drinkware-barware/coffee",
+      "sortOrder": 3,
+      "productCount": 114,
+      "dataFile": "by-subcategory/drinkware-barware/coffee.json"
+    },
+    {
+      "id": "C2:mugs",
+      "categoryId": "C2",
+      "name": "Mugs",
+      "slug": "mugs",
+      "path": "drinkware-barware/mugs",
+      "sortOrder": 4,
+      "productCount": 166,
+      "dataFile": "by-subcategory/drinkware-barware/mugs.json"
+    },
+    {
+      "id": "C2:tumblers",
+      "categoryId": "C2",
+      "name": "Tumblers",
+      "slug": "tumblers",
+      "path": "drinkware-barware/tumblers",
+      "sortOrder": 5,
+      "productCount": 19,
+      "dataFile": "by-subcategory/drinkware-barware/tumblers.json"
+    }
+  ]
+}

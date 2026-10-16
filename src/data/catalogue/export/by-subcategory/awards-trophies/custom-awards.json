@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C10",
+    "code": "C10",
+    "name": "Awards & Trophies",
+    "slug": "awards-trophies",
+    "path": "awards-trophies",
+    "sortOrder": 10
+  },
+  "subcategory": {
+    "id": "C10:custom-awards",
+    "categoryId": "C10",
+    "name": "Custom Awards",
+    "slug": "custom-awards",
+    "path": "awards-trophies/custom-awards",
+    "sortOrder": 2
+  },
+  "categoryProductCount": 83,
+  "productCount": 2,
+  "products": [
+    {
+      "slug": "forever-forest-tile-panorama",
+      "title": "Forever Forest Tile Panorama",
+      "sku": "MGC-4256",
+      "brand": {
+        "name": "Forever Forest",
+        "slug": "forever-forest"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Forever Forest Tile Panorama — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Forever Forest Tile Panorama — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4256",
+        "Country of Origin": "India",
+        "Color": "Natual Brown",
+        "Brand": "Forever Forest",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Dimensions": "20.32 W x 10.16 H cm",
+        "Product Code": "MGC-4256"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 615.0,
+        "amountMinorUnits": 61500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 615.0,
+            "amountMinorUnits": 61500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613584
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/custom-awards/forever-forest-tile-panorama/0-master-9db169a83d1d.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e3ba6f056da5c2be658dc0cd0745214ae7a1b9617f2cfa34cf9f118cfa37e214"
+        },
+        {
+          "path": "media/products/awards-trophies/custom-awards/forever-forest-tile-panorama/1-angle-04be0db2c2f2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a589e9bce3414a174e4ac8a79fe0708daecc74c884ead19689eac31ab43f54c1"
+        },
+        {
+          "path": "media/products/awards-trophies/custom-awards/forever-forest-tile-panorama/2-angle-470b8a74ebe4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "88ec95935316be53621420462793713544ff8daf2ad6b993509e4d6fae11060b"
+        },
+        {
+          "path": "media/products/awards-trophies/custom-awards/forever-forest-tile-panorama/3-angle-ad02a652399c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bf16fa147524507b54c4fac1cec9c800b9cafb97e0507e019652d990cd4d8946"
+        },
+        {
+          "path": "media/products/awards-trophies/custom-awards/forever-forest-tile-panorama/4-angle-068905eac079.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e924bf54da8d4659bd28ce738ac00770ce3e6e17f3bd7d5d281665389ba800ed"
+        },
+        {
+          "path": "media/products/awards-trophies/custom-awards/forever-forest-tile-panorama/5-angle-91b3419a95e6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "37318a97e06881fe2c5171cd255b52f848a8f9d21811f8f80429661d38e8ce81"
+        },
+        {
+          "path": "media/products/awards-trophies/custom-awards/forever-forest-tile-panorama/6-angle-72cf45cf82fd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5d676b415c0103936feb7852d8a77c7076ebd6ed35a0afc1bc1e56c07342e847"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:custom-awards",
+        "categoryId": "C10",
+        "name": "Custom Awards",
+        "slug": "custom-awards",
+        "path": "awards-trophies/custom-awards",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "awards-trophies/custom-awards"
+    },
+    {
+      "slug": "kn-trophies-kn-816",
+      "title": "KN Trophies (KN-816",
+      "sku": "MGC-4257",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Custom trophy award for employee recognition, corporate events, and annual day gifting — KN-816 engraved trophy for bulk corporate orders.",
+      "shortDescription": "Custom trophy award for employee recognition, corporate events, and annual day gifting — KN-816 engraved trophy for bulk corporate orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4257",
+        "Stock Availability": "99999",
+        "Product Code": "MGC-4257"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2485.0,
+        "amountMinorUnits": 248500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2485.0,
+            "amountMinorUnits": 248500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613586
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "$undefined"
+      },
+      "images": [],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants",
+          "images"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:custom-awards",
+        "categoryId": "C10",
+        "name": "Custom Awards",
+        "slug": "custom-awards",
+        "path": "awards-trophies/custom-awards",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "awards-trophies/custom-awards"
+    }
+  ]
+}

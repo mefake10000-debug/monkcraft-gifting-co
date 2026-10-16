@@ -34,6 +34,7 @@ export {
 
 export {
   getCategoryFacets,
+  getBrandFacets,
   getSubcategoryFacets,
   getOccasionFacets,
   getBrandingFacets,

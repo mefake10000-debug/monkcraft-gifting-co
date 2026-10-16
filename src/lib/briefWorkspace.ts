@@ -157,6 +157,31 @@ export function readBriefWorkspace(
 /** Pull live drafts into brief.sources before quotation prep (merge-safe). */
 export async function refreshBriefLinksFromLiveDrafts(): Promise<GiftingBriefDraft> {
   const box = readBoxDraft();
+  const brandingDraft = readBrandingDraft();
+  const catalogueDraft = readCatalogueDraft();
+  const storeDraft = readCompanyStoreDraft();
+  const before = readBrief();
+  const oldBox = before.sources.box;
+  const clearedBoxFields: import('@/lib/brief').BriefPatch = {};
+  if (!boxHasContent(box) && oldBox) {
+    const ownedFields = {
+      occasion: oldBox.occasion,
+      budgetPerRecipient: oldBox.budgetPerBox ? `${oldBox.budgetPerBox} per box` : '',
+      branding: oldBox.brandingRequirements,
+      packagingPrefs: oldBox.packagingSummary,
+      deliveryLocation: oldBox.deliveryRequirements,
+    };
+    for (const [key, value] of Object.entries(ownedFields)) {
+      const field = key as keyof typeof ownedFields;
+      if (before[field] === value) clearedBoxFields[field] = '';
+    }
+  }
+  patchBrief({...clearedBoxFields, fieldMode: 'replace', sources: {
+    ...(!boxHasContent(box) ? {box: null} : {}),
+    ...(!brandingHasContent(brandingDraft) ? {studioBranding: null} : {}),
+    ...(!catalogueHasContent(catalogueDraft) ? {studioCatalogue: null} : {}),
+    ...(!companyStoreHasContent(storeDraft) ? {companyStore: null} : {}),
+  }});
   if (boxHasContent(box)) {
     syncBoxDraftToBrief(box);
   }

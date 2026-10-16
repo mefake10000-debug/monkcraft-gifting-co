@@ -1,12 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { BackToResults } from "@/components/catalogue/BackToResults";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useState } from "react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import type { StudioMode } from "@/data/catalogue/studioTypes";
-import { readBrandingDraft } from "@/lib/studio/brandingDraft";
-import { readCatalogueDraft } from "@/lib/studio/catalogueDraft";
 import { BrandingEditor } from "./BrandingEditor";
 import { CatalogueBuilder } from "./CatalogueBuilder";
 
@@ -25,7 +23,7 @@ function returnTarget(
     return { href: "/gifts/box", label: "Back to Build a Box" };
   }
   if (from === "shortlist") {
-    return { href: "/gifts/shortlist", label: "Back to shortlist" };
+    return { href: "/gifts/shortlist", label: "Back to cart" };
   }
   if (from === "product") {
     if (productSlug) {
@@ -34,7 +32,7 @@ function returnTarget(
         label: "Back to product",
       };
     }
-    return { href: "/gifts", label: "Back to gifts" };
+    return { href: "/gifts", label: "Back to catalog" };
   }
   return null;
 }
@@ -48,48 +46,8 @@ export function StudioShell({
   const router = useRouter();
   // Mode is URL-driven; local mirror only updates via intentional switcher actions.
   const mode = initialMode;
-  const [brandingDirty, setBrandingDirty] = useState(false);
-  const [catalogueDirty, setCatalogueDirty] = useState(false);
-
-  useEffect(() => {
-    const sync = () => {
-      setBrandingDirty(readBrandingDraft().dirty);
-      setCatalogueDirty(readCatalogueDraft().dirty);
-    };
-    sync();
-    window.addEventListener("monkcraft:studio-branding", sync);
-    window.addEventListener("monkcraft:studio-catalogue", sync);
-    window.addEventListener("storage", sync);
-    return () => {
-      window.removeEventListener("monkcraft:studio-branding", sync);
-      window.removeEventListener("monkcraft:studio-catalogue", sync);
-      window.removeEventListener("storage", sync);
-    };
-  }, []);
-
-  const activeDirty = mode === "customize" ? brandingDirty : catalogueDirty;
-
-  useEffect(() => {
-    if (!activeDirty) return;
-    const onBeforeUnload = (event: BeforeUnloadEvent) => {
-      event.preventDefault();
-      event.returnValue = "";
-    };
-    window.addEventListener("beforeunload", onBeforeUnload);
-    return () => window.removeEventListener("beforeunload", onBeforeUnload);
-  }, [activeDirty]);
-
-  const switchMode = useCallback(
-    (next: StudioMode) => {
+  const switchMode = (next: StudioMode) => {
       if (next === mode) return;
-      const leavingDirty =
-        mode === "customize" ? brandingDirty : catalogueDirty;
-      if (leavingDirty) {
-        const ok = window.confirm(
-          "You have unsaved changes in this Studio tool. Switch anyway? Your last saved draft stays in this browser; unsaved edits in the current session may be lost if you clear them later.",
-        );
-        if (!ok) return;
-      }
       const params = new URLSearchParams();
       params.set("mode", next);
       if (next === "customize" && productSlug) {
@@ -100,17 +58,7 @@ export function StudioShell({
         params.set("fromShortlist", "1");
       }
       router.replace(`/studio?${params.toString()}`, { scroll: false });
-    },
-    [
-      brandingDirty,
-      catalogueDirty,
-      from,
-      mode,
-      productSlug,
-      router,
-      seedFromShortlist,
-    ],
-  );
+  };
 
   const back = returnTarget(from, productSlug);
 
@@ -132,20 +80,19 @@ export function StudioShell({
           <h1>Creative workspace</h1>
           <p className="studio-shell__lede">
             {mode === "customize"
-              ? "Pick a real catalogue product, place your logo, then export a conceptual PNG or send the draft to My Brief."
-              : "Select products, add your brand name, then use browser Print → Save as PDF. No fake PDF engine — drafts stay on this device."}
+              ? "Choose a catalogue product, check logo placement and branding notes, then add it to your cart for production review."
+              : "Build a branded product selection from your cart. Download a clean PDF with one indicative price per item."}
           </p>
         </div>
 
         <div
           className="studio-switcher"
-          role="tablist"
+          role="group"
           aria-label="Studio tools"
         >
           <button
             type="button"
-            role="tab"
-            aria-selected={mode === "customize"}
+            aria-pressed={mode === "customize"}
             className={
               mode === "customize"
                 ? "studio-switcher__tab studio-switcher__tab--active"
@@ -154,14 +101,10 @@ export function StudioShell({
             onClick={() => switchMode("customize")}
           >
             Customize a Product
-            {brandingDirty ? (
-              <span className="studio-switcher__dot" aria-label="Unsaved changes" />
-            ) : null}
           </button>
           <button
             type="button"
-            role="tab"
-            aria-selected={mode === "catalogue"}
+            aria-pressed={mode === "catalogue"}
             className={
               mode === "catalogue"
                 ? "studio-switcher__tab studio-switcher__tab--active"
@@ -170,24 +113,21 @@ export function StudioShell({
             onClick={() => switchMode("catalogue")}
           >
             Build a Catalogue
-            {catalogueDirty ? (
-              <span className="studio-switcher__dot" aria-label="Unsaved changes" />
-            ) : null}
           </button>
         </div>
+        <p className="studio-shell__save-note">Your Studio drafts save in this browser as you work. You can switch tools without losing them.</p>
 
         <nav className="studio-shell__links" aria-label="Studio related journeys">
           {back ? <Link href={back.href}>{back.label}</Link> : null}
-          <Link href="/gifts">Gifts catalogue</Link>
-          <Link href="/gifts/box">Build a Box</Link>
-          <Link href="/gifts/shortlist">Shortlist</Link>
-          <Link href="/gifts/brief">My Gifting Brief</Link>
+          <BackToResults label="Continue browsing catalog" />
+          <Link href="/gifts/shortlist">Open cart</Link>
+
         </nav>
       </header>
 
       <div
         className="studio-shell__body"
-        role="tabpanel"
+        role="region"
         aria-label={
           mode === "customize" ? "Customize a Product" : "Build a Catalogue"
         }
@@ -197,12 +137,10 @@ export function StudioShell({
             initialProductSlug={productSlug}
             returnHref={back?.href}
             returnLabel={back?.label}
-            onDirtyChange={setBrandingDirty}
           />
         ) : (
           <CatalogueBuilder
             seedFromShortlist={seedFromShortlist}
-            onDirtyChange={setCatalogueDirty}
           />
         )}
       </div>

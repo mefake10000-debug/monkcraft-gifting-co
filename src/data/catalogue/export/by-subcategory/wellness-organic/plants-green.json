@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C6",
+    "code": "C6",
+    "name": "Wellness & Organic",
+    "slug": "wellness-organic",
+    "path": "wellness-organic",
+    "sortOrder": 6
+  },
+  "subcategory": {
+    "id": "C6:plants-green",
+    "categoryId": "C6",
+    "name": "Plants & Green",
+    "slug": "plants-green",
+    "path": "wellness-organic/plants-green",
+    "sortOrder": 1
+  },
+  "categoryProductCount": 36,
+  "productCount": 1,
+  "products": [
+    {
+      "slug": "womens-yoga-pilates-studio-socks-green",
+      "title": "Women's Yoga/Pilates Studio Socks- Green",
+      "sku": "MGC-3060",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "shortDescription": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3060",
+        "Product Code": "MGC-3060"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609869
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/plants-green/womens-yoga-pilates-studio-socks-green/0-master-6ab062487564.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "ddfb8865dcc985d6cc19bb57834d6f34cb9d97b5d8ac6bacd02ee42ed54b0b5a"
+        },
+        {
+          "path": "media/products/wellness-organic/plants-green/womens-yoga-pilates-studio-socks-green/1-angle-cad2da370170.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "5fc4dcbbfafaf98479e5faf0bfdd4ed121118db1eabf681f4f859e2a5fb03272"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:plants-green",
+        "categoryId": "C6",
+        "name": "Plants & Green",
+        "slug": "plants-green",
+        "path": "wellness-organic/plants-green",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "wellness-organic/plants-green"
+    }
+  ]
+}

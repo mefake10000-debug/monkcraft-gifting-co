@@ -24,7 +24,7 @@ export const giftCategories: GiftCategory[] = [
     id: "employee-onboarding",
     title: "Employee Onboarding",
     blurb:
-      "Make day one unforgettable. Welcoming new hires with coordinated kits packed with essentials that spark immediate connection.",
+      "Welcome each new colleague with useful branded essentials, thoughtful packaging and a note that feels personal.",
     tone: "mint",
     image: {
       src: "/categories/employee-onboarding-v3.jpg",
@@ -36,7 +36,7 @@ export const giftCategories: GiftCategory[] = [
     id: "client-appreciation",
     title: "Client Appreciation",
     blurb:
-      "Acknowledge your most valuable business relationships with elegant, thoughtful gifts that leave a lasting impression of excellence.",
+      "Thank clients and partners with considered gifts selected for the relationship, occasion and budget.",
     tone: "lilac",
     image: {
       src: "/categories/client-appreciation-v3.jpg",
@@ -49,7 +49,7 @@ export const giftCategories: GiftCategory[] = [
     id: "festive-gifting",
     title: "Festive Gifting",
     blurb:
-      "Celebrate the season with premium hampers. From elegant ribbons to personalized greeting cards, we make corporate festivities joyful.",
+      "Mark Diwali and other festive moments with ready-to-gift hampers, personal messages and delivery planned for your teams.",
     tone: "apricot",
     image: {
       src: "/categories/festive-gifting-v3.jpg",
@@ -61,7 +61,7 @@ export const giftCategories: GiftCategory[] = [
     id: "events-conferences",
     title: "Events & Conferences",
     blurb:
-      "Stand out in the crowd. Premium branded giveaways, curated event merchandise, and comprehensive conference kits for every attendee.",
+      "Prepare useful, on-brand welcome kits and event merchandise for conferences, launches and team gatherings.",
     tone: "blue",
     image: {
       src: "/categories/events-conferences-v3.jpg",
@@ -74,7 +74,7 @@ export const giftCategories: GiftCategory[] = [
     id: "rewards-recognition",
     title: "Rewards & Recognition",
     blurb:
-      "Honor achievements and celebrate milestones. Appreciation gifts that show your team their hard work truly matters.",
+      "Recognise milestones and great work with gifts that suit the person, moment and programme budget.",
     tone: "buttercream",
     image: {
       src: "/categories/rewards-recognition-v3.jpg",
@@ -86,13 +86,13 @@ export const giftCategories: GiftCategory[] = [
     id: "custom-merchandise",
     title: "Custom Merchandise",
     blurb:
-      "Bring your brand to life every day. Personalized apparel, drinkware, and bags tailored perfectly to your unique campaigns.",
+      "Put your identity on apparel, drinkware and everyday essentials with branding options confirmed for each product.",
     tone: "rose",
     image: {
       src: "/categories/custom-merchandise-v3.jpg",
       alt: "Custom merchandise studio with backpack, jacket, and mug",
     },
-    cataloguePath: "/gifts?category=drinkware-barware",
+    cataloguePath: "/gifts?category=apparel-lifestyle,bags-travel,drinkware-barware",
   },
 ];
 

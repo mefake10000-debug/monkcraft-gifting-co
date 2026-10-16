@@ -1,81 +1,13 @@
-"use client";
-
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import type { BoxProductSnapshot } from "@/data/catalogue/boxTypes";
-import {
-  addToBox,
-  getBoxProductQuantity,
-  readBoxDraft,
-} from "@/lib/box";
-
-type AddToBoxButtonProps = {
-  snapshot: BoxProductSnapshot;
-  className?: string;
-  /** Compact card style vs detail-page style */
-  variant?: "card" | "detail";
-};
-
-export function AddToBoxButton({
-  snapshot,
-  className,
-  variant = "card",
-}: AddToBoxButtonProps) {
-  const [qty, setQty] = useState(0);
-  const [justAdded, setJustAdded] = useState(false);
-
-  useEffect(() => {
-    const sync = () => {
-      const draft = readBoxDraft();
-      setQty(getBoxProductQuantity(snapshot.id, draft));
-    };
-    sync();
-    window.addEventListener("monkcraft:box", sync);
-    window.addEventListener("storage", sync);
-    return () => {
-      window.removeEventListener("monkcraft:box", sync);
-      window.removeEventListener("storage", sync);
-    };
-  }, [snapshot.id]);
-
-  const active = qty > 0;
-
-  return (
-    <div
-      className={[
-        "add-to-box",
-        variant === "detail" ? "add-to-box--detail" : "add-to-box--card",
-        active ? "add-to-box--active" : "",
-        className,
-      ]
-        .filter(Boolean)
-        .join(" ")}
-    >
-      <button
-        type="button"
-        className="add-to-box__btn"
-        aria-pressed={active}
-        onClick={() => {
-          if (active) return;
-          // Qty-per-box starts at 1. Supplier MOQ is a programme-wide floor,
-          // not units stuffed into every kit (audit D01).
-          addToBox(snapshot, 1);
-          setQty(getBoxProductQuantity(snapshot.id));
-          setJustAdded(true);
-          window.setTimeout(() => setJustAdded(false), 2500);
-        }}
-      >
-        {active
-          ? `In box (${qty}/box)`
-          : justAdded
-            ? "Added"
-            : "Add to Box"}
-      </button>
-      {active || justAdded ? (
-        <Link className="add-to-box__continue" href="/gifts/box">
-          {justAdded ? "Added · Continue box" : "Continue box"}
-        </Link>
-      ) : null}
-    </div>
-  );
+'use client';
+import Link from 'next/link';
+import {useEffect,useRef,useState} from 'react';
+import type {BoxProductSnapshot} from '@/data/catalogue/boxTypes';
+import {addToBox,getBoxProductQuantity,readBoxDraft,removeFromBox} from '@/lib/box';
+export function AddToBoxButton({snapshot,className,variant='card'}:{snapshot:BoxProductSnapshot;className?:string;variant?:'card'|'detail'}) {
+ const [qty,setQty]=useState(0);const [justAdded,setJustAdded]=useState(false);const [error,setError]=useState('');const timer=useRef<ReturnType<typeof setTimeout>|null>(null);
+ useEffect(()=>{const sync=()=>setQty(getBoxProductQuantity(snapshot.id,readBoxDraft()));sync();window.addEventListener('monkcraft:box',sync);window.addEventListener('storage',sync);return ()=>{window.removeEventListener('monkcraft:box',sync);window.removeEventListener('storage',sync);if(timer.current)clearTimeout(timer.current);};},[snapshot.id]);
+ return <div className={`add-to-box ${variant==='detail'?'add-to-box--detail':''} ${qty?'add-to-box--active':''} ${className??''}`}>
+ {qty?<Link className="add-to-box__btn" href="/gifts/box" aria-label={`Edit ${snapshot.name} in box`}>Edit box</Link>:<button type="button" className="add-to-box__btn" onClick={()=>{try{addToBox(snapshot,1);setQty(1);setJustAdded(true);setError('');if(timer.current)clearTimeout(timer.current);timer.current=setTimeout(()=>setJustAdded(false),5000);}catch{setError('Could not save. Please try again.');}}}>Add to Box</button>}
+ {justAdded&&qty>0&&<span className="selection-feedback" role="status">Added <button type="button" onClick={()=>{try{removeFromBox(snapshot.id);setQty(0);setJustAdded(false);}catch{setError('Could not undo. Please try again.');}}}>Undo</button></span>}{error&&<span role="alert">{error}</span>}
+ </div>;
 }

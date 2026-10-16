@@ -71,13 +71,13 @@ export default function CompanyStoresLandingPage() {
                 className="cs-btn cs-btn--primary"
                 href="/?interest=company-store#enquire"
               >
-                Request a Company Store
+                Discuss your store
               </Link>
               <Link
                 className="cs-btn cs-btn--secondary"
                 href="/company-stores/configure"
               >
-                Open store configurator
+                Design a sample store
               </Link>
             </div>
           </div>
@@ -111,10 +111,9 @@ export default function CompanyStoresLandingPage() {
             How a Company Store works
           </h2>
           <p className="cs-section__lede">
-            Four clear steps from curation to branded storefront. Exact
-            fulfilment SLAs and live authentication are scoped with Monkcraft
-            when your store is provisioned — they are not claimed as live on this
-            demo.
+            Pick products and access rules, preview the employee experience,
+            then send the draft to Monkcraft for a proposal. Fulfilment and
+            authentication are confirmed for each programme.
           </p>
 
           <BrandVideoBand
@@ -147,7 +146,7 @@ export default function CompanyStoresLandingPage() {
                     className="cs-how-poster__cta"
                     href="/company-stores/configure"
                   >
-                    Try in configurator
+                    Design this step
                   </Link>
                 </div>
               </article>
@@ -160,8 +159,8 @@ export default function CompanyStoresLandingPage() {
             From interest to proposal
           </h2>
           <p className="cs-section__lede">
-            A practical corporate journey — request first, then shape a draft
-            with a Monkcraft specialist.
+            Start with a sample or tell us your requirements. Both paths lead
+            to a reviewed proposal before your store goes live.
           </p>
           <ol className="cs-steps">
             <li>
@@ -207,9 +206,8 @@ export default function CompanyStoresLandingPage() {
           <div>
             <h2 id="cs-request-heading">Ready to talk about a store?</h2>
             <p>
-              Request a Company Store through the same consultation flow used for
-              gifting programmes. Inbox routing is not automated yet — you will
-              get a ready-to-send enquiry to share with Monkcraft.
+              Tell us about the people, products and ordering rules you need.
+              We will review your brief and reply with a scoped proposal.
             </p>
           </div>
           <div className="cs-landing__actions">
@@ -217,20 +215,20 @@ export default function CompanyStoresLandingPage() {
               className="cs-btn cs-btn--primary"
               href="/?interest=company-store#enquire"
             >
-              Request a Company Store
+              Send store requirements
             </Link>
             <Link
               className="cs-btn cs-btn--secondary"
               href="/gifts"
             >
-              Browse catalogue
+              Explore products first
             </Link>
           </div>
         </section>
 
         <p className="cs-note" style={{ marginTop: "1.5rem" }}>
           Related tools:{" "}
-          <Link href="/gifts">Gifts catalogue</Link>
+          <Link href="/gifts">Product catalog</Link>
           {" · "}
           <Link href="/gifts/box">Build a Box</Link>
           {" · "}

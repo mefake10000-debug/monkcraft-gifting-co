@@ -84,6 +84,7 @@ export function parseCatalogueQuery(
     ...parseListParam(searchParams, "type"),
   ].filter((v, i, arr) => arr.indexOf(v) === i);
   const subcategories = parseListParam(searchParams, "subcategory");
+  const brands = parseListParam(searchParams, "brand");
   const brandings = parseListParam(searchParams, "branding");
   const colours = [
     ...parseListParam(searchParams, "colour"),
@@ -113,6 +114,7 @@ export function parseCatalogueQuery(
     occasions,
     categories,
     subcategories,
+    brands,
     brandings,
     colours,
     materials,
@@ -131,6 +133,7 @@ export function countActiveFilters(query: CatalogueQuery): number {
   count += query.occasions.length;
   count += query.categories.length;
   count += query.subcategories.length;
+  count += query.brands.length;
   count += query.brandings.length;
   count += query.colours.length;
   count += query.materials.length;
@@ -155,6 +158,7 @@ export function buildCatalogueHref(
   if (next.subcategories.length) {
     params.set("subcategory", next.subcategories.join(","));
   }
+  if (next.brands.length) params.set("brand", next.brands.join(","));
   if (next.brandings.length) params.set("branding", next.brandings.join(","));
   if (next.colours.length) params.set("colour", next.colours.join(","));
   if (next.materials.length) params.set("material", next.materials.join(","));
@@ -182,6 +186,7 @@ export function emptyCatalogueQuery(): CatalogueQuery {
     occasions: [],
     categories: [],
     subcategories: [],
+    brands: [],
     brandings: [],
     colours: [],
     materials: [],
@@ -192,4 +197,12 @@ export function emptyCatalogueQuery(): CatalogueQuery {
     shortlistIds: [],
     page: 1,
   };
+}
+
+/** Budget inputs commit as one range; never silently swap an inverted edit. */
+export function parseBudgetRange(minText: string, maxText: string): {valid: boolean; min: number | null; max: number | null} {
+  const min = minText.trim() ? Number(minText) : null;
+  const max = maxText.trim() ? Number(maxText) : null;
+  const positiveWhole = (value: number | null) => value === null || (Number.isFinite(value) && Number.isInteger(value) && value > 0);
+  return {valid: positiveWhole(min) && positiveWhole(max) && !(min !== null && max !== null && min > max), min, max};
 }

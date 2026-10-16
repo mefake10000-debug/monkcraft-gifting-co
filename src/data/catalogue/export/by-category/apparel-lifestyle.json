@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C5",
+    "code": "C5",
+    "name": "Apparel & Lifestyle",
+    "slug": "apparel-lifestyle",
+    "path": "apparel-lifestyle",
+    "sortOrder": 5
+  },
+  "productCount": 938,
+  "subcategoryCount": 4,
+  "subcategories": [
+    {
+      "id": "C5:accessories",
+      "categoryId": "C5",
+      "name": "Accessories",
+      "slug": "accessories",
+      "path": "apparel-lifestyle/accessories",
+      "sortOrder": 1,
+      "productCount": 196,
+      "dataFile": "by-subcategory/apparel-lifestyle/accessories.json"
+    },
+    {
+      "id": "C5:formal",
+      "categoryId": "C5",
+      "name": "Formal",
+      "slug": "formal",
+      "path": "apparel-lifestyle/formal",
+      "sortOrder": 2,
+      "productCount": 12,
+      "dataFile": "by-subcategory/apparel-lifestyle/formal.json"
+    },
+    {
+      "id": "C5:polos-tees",
+      "categoryId": "C5",
+      "name": "Polos & Tees",
+      "slug": "polos-tees",
+      "path": "apparel-lifestyle/polos-tees",
+      "sortOrder": 3,
+      "productCount": 727,
+      "dataFile": "by-subcategory/apparel-lifestyle/polos-tees.json"
+    },
+    {
+      "id": "C5:scarves-stoles",
+      "categoryId": "C5",
+      "name": "Scarves & Stoles",
+      "slug": "scarves-stoles",
+      "path": "apparel-lifestyle/scarves-stoles",
+      "sortOrder": 4,
+      "productCount": 3,
+      "dataFile": "by-subcategory/apparel-lifestyle/scarves-stoles.json"
+    }
+  ]
+}

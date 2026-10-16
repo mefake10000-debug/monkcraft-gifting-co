@@ -1,16 +1,9 @@
+import { HOMEPAGE_OCCASION_MAP } from "@/data/catalogue/facets";
+import { getContextualFacets } from "@/data/catalogue/query";
 import { CatalogueIntro } from "@/components/catalogue/CatalogueIntro";
 import { CatalogueShell } from "@/components/catalogue/CatalogueShell";
-import { CompareBar } from "@/components/catalogue/CompareBar";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import {
-  getBrandingFacets,
-  getCategoryFacets,
-  getColourFacets,
-  getMaterialFacets,
-  getOccasionFacets,
-  HOMEPAGE_OCCASION_MAP,
-} from "@/data/catalogue/facets";
 import { isCataloguePopulated } from "@/data/catalogue/products";
 import {
   parseCatalogueQuery,
@@ -21,9 +14,10 @@ import {
 export const instant = false;
 
 export const metadata = {
-  title: "Gifts Catalogue | Monkcraft Gifting Co",
+  title: "Corporate Gift Catalogs for Indian Teams | Monkcraft",
   description:
-    "Discover corporate gifts by occasion, category and branding. Shortlist favourites and prepare a Monkcraft quotation brief.",
+    "Explore corporate gifts, employee welcome kits, custom merchandise and client hampers for Indian teams. Build a cart and verify bulk pricing with Monkcraft.",
+  alternates: { canonical: "/gifts" },
 };
 
 type GiftsPageProps = {
@@ -56,6 +50,7 @@ export default async function GiftsPage({ searchParams }: GiftsPageProps) {
   const params = await searchParams;
   const query = applyHomepageMapping(parseCatalogueQuery(params));
   const result = queryCatalogue(query);
+  const facets = getContextualFacets(result.query);
   const fromParam = params.from;
   const fromBox =
     fromParam === "box" ||
@@ -76,17 +71,17 @@ export default async function GiftsPage({ searchParams }: GiftsPageProps) {
           pageSize={result.pageSize}
           totalPages={result.totalPages}
           query={result.query}
-          occasionFacets={getOccasionFacets()}
-          categoryFacets={getCategoryFacets()}
-          brandingFacets={getBrandingFacets()}
-          colourFacets={getColourFacets()}
-          materialFacets={getMaterialFacets()}
+          occasionFacets={facets.occasions}
+          categoryFacets={facets.categories}
+          brandFacets={facets.brands}
+          brandingFacets={facets.brandings}
+          colourFacets={facets.colours}
+          materialFacets={facets.materials}
           cataloguePopulated={isCataloguePopulated()}
           fromBox={fromBox}
         />
       </div>
       <SiteFooter />
-      <CompareBar />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { CatalogueBrowseLink } from "@/components/catalogue/BackToResults";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import type {
   BrandingDraft,
@@ -307,9 +308,7 @@ export function BrandingEditor({
                 Search below and choose one product photo. That unlocks logo
                 upload and export.
               </p>
-              <Link className="journey-btn journey-btn--ghost" href="/gifts">
-                Browse full catalogue
-              </Link>
+              <CatalogueBrowseLink className="journey-btn journey-btn--ghost" label="Browse full catalogue" />
             </div>
           ) : null}
           {product ? (

@@ -23,10 +23,11 @@ export function validateEnquiryContact(
 
   if (!name) errors.name = "Add your name.";
   if (!company) errors.company = "Add your company.";
-  if (!email) {
-    errors.email = "Add a work email.";
-  } else if (!looksLikeEmail(email)) {
+  if (email && !looksLikeEmail(email)) {
     errors.email = "Enter a valid work email.";
+  }
+  if (!email && !phone) {
+    errors.phone = "Add an email or phone number so Monkcraft can reply.";
   }
   if (options?.requirePhone && !phone) {
     errors.phone = "Add a phone number.";

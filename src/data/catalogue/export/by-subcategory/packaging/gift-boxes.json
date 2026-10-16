@@ -1,0 +1,3223 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C11",
+    "code": "C11",
+    "name": "Packaging",
+    "slug": "packaging",
+    "path": "packaging",
+    "sortOrder": 11
+  },
+  "subcategory": {
+    "id": "C11:gift-boxes",
+    "categoryId": "C11",
+    "name": "Gift Boxes",
+    "slug": "gift-boxes",
+    "path": "packaging/gift-boxes",
+    "sortOrder": 2
+  },
+  "categoryProductCount": 29,
+  "productCount": 27,
+  "products": [
+    {
+      "slug": "custom-made-corrugated-gift-box-navy-blue-medium",
+      "title": "Custom-Made Corrugated Gift Box- Navy Blue- Medium",
+      "sku": "MGC-3296",
+      "brand": {
+        "name": "Extra",
+        "slug": "extra"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Custom-Made Corrugated Gift Box- Navy Blue- Medium — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Custom-Made Corrugated Gift Box- Navy Blue- Medium — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3296",
+        "Stock Update Date": "6 Oct 2025",
+        "Color": "Navy Blue",
+        "Brand": "Extra",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3296"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610588
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 3,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-navy-blue-medium/1-angle-ab9bb991b71c.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bab4ed4200dc5f0c2ce04510cbc387da3162419db8ea35a253fe65dbc3413ed6"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-navy-blue-medium/2-angle-aec6d585875b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e710b36e0067ba6fb72cc3c07cfac16034bb5d99a98313aac479cf0e3f1c1e9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "custom-made-corrugated-gift-box-black-large",
+      "title": "Custom-Made Corrugated Gift Box-Black-Large",
+      "sku": "MGC-3299",
+      "brand": {
+        "name": "Extra",
+        "slug": "extra"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Black, Large size.",
+      "shortDescription": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Black, Large size.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3299",
+        "Stock Update Date": "6 Oct 2025",
+        "Color": "Black",
+        "Brand": "Extra",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3299"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 205.0,
+        "amountMinorUnits": 20500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 205.0,
+            "amountMinorUnits": 20500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610598
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-large/0-master-a7ab78d6ee32.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "96308c4b640e7dbb7ada90c37a98f7eb938635bb02429ab7b26d612d600088f1"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-large/1-angle-1339b857ea50.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Black Large – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "38cc1d5e7c5d457ecfa13370c3db6ce44abcad353544705acf8548be4b13d968"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-large/2-angle-55ad69121ea3.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Black Large – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7d510d561e64e97557708f10c65a6b7f8cf2c86bda95100709f20b76969ef7bf"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "custom-made-corrugated-gift-box-black-medium",
+      "title": "Custom-Made Corrugated Gift Box-Black-Medium",
+      "sku": "MGC-3297",
+      "brand": {
+        "name": "Extra",
+        "slug": "extra"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Black, Medium size.",
+      "shortDescription": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Black, Medium size.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3297",
+        "Stock Update Date": "6 Oct 2025",
+        "Color": "Black",
+        "Brand": "Extra",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "24 Hrs Delivery",
+        "Product Code": "MGC-3297"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610592
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "24 Hrs Delivery"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-medium/0-master-a7ab78d6ee32.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "96308c4b640e7dbb7ada90c37a98f7eb938635bb02429ab7b26d612d600088f1"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-medium/1-angle-1339b857ea50.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Black Medium – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "38cc1d5e7c5d457ecfa13370c3db6ce44abcad353544705acf8548be4b13d968"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-medium/2-angle-55ad69121ea3.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Black Medium – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7d510d561e64e97557708f10c65a6b7f8cf2c86bda95100709f20b76969ef7bf"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "custom-made-corrugated-gift-box-blue-large",
+      "title": "Custom-Made Corrugated Gift Box-Blue-Large",
+      "sku": "MGC-3300",
+      "brand": {
+        "name": "Extra",
+        "slug": "extra"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Blue, Large size.",
+      "shortDescription": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Blue, Large size.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3300",
+        "Stock Update Date": "6 Oct 2025",
+        "Color": "Blue",
+        "Brand": "Extra",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "24 Hrs Delivery",
+        "Product Code": "MGC-3300"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 205.0,
+        "amountMinorUnits": 20500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 205.0,
+            "amountMinorUnits": 20500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610600
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "24 Hrs Delivery"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-blue-large/1-angle-ab9bb991b71c.webp",
+          "role": "MASTER",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Blue Large – Side View",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bab4ed4200dc5f0c2ce04510cbc387da3162419db8ea35a253fe65dbc3413ed6"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-blue-large/2-angle-aec6d585875b.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Blue Large – Detail View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e710b36e0067ba6fb72cc3c07cfac16034bb5d99a98313aac479cf0e3f1c1e9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "custom-made-corrugated-gift-box-red-large",
+      "title": "Custom-Made Corrugated Gift Box-Red-Large",
+      "sku": "MGC-3301",
+      "brand": {
+        "name": "Extra",
+        "slug": "extra"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Red, Large size.",
+      "shortDescription": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Red, Large size.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3301",
+        "Stock Update Date": "6 Oct 2025",
+        "Color": "Red",
+        "Brand": "Extra",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "24 Hrs Delivery",
+        "Product Code": "MGC-3301"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 205.0,
+        "amountMinorUnits": 20500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 205.0,
+            "amountMinorUnits": 20500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610603
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "24 Hrs Delivery"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-large/0-master-e44fe92f7c9f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c658645e3fe5aa19b065967023ae7c2fee43730ed980d9efbda4f40efc422558"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-large/1-angle-e3178d445178.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Red Large – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "318211a8ccf1605549125ff3c56aa7b7f1624b8085ecf7d29b79b0e63f60fd10"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-large/2-angle-b43f2d690efa.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Red Large – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c54a00fd1e7d03415568d9ae27c7c177ef082fad8f09613d0d3defec06620384"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "custom-made-corrugated-gift-box-red-medium",
+      "title": "Custom-Made Corrugated Gift Box-Red-Medium",
+      "sku": "MGC-3298",
+      "brand": {
+        "name": "Extra",
+        "slug": "extra"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Red, Medium size.",
+      "shortDescription": "Gift box for corporate gifting, employee welcome kits, and bulk gifting — affordable Extra corrugated gift box in Red, Medium size.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3298",
+        "Stock Update Date": "6 Oct 2025",
+        "Color": "Red",
+        "Brand": "Extra",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "300",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3298"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 165.0,
+        "amountMinorUnits": 16500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 165.0,
+            "amountMinorUnits": 16500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610595
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-medium/0-master-e44fe92f7c9f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c658645e3fe5aa19b065967023ae7c2fee43730ed980d9efbda4f40efc422558"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-medium/1-angle-e3178d445178.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Red Medium – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "318211a8ccf1605549125ff3c56aa7b7f1624b8085ecf7d29b79b0e63f60fd10"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-medium/2-angle-b43f2d690efa.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Custom-Made Corrugated Gift Box Red Medium – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c54a00fd1e7d03415568d9ae27c7c177ef082fad8f09613d0d3defec06620384"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "favour-box-floral",
+      "title": "Favour Box",
+      "sku": "MGC-3631",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3631",
+        "Product Code": "MGC-3631"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611662
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/favour-box-floral/0-master-66f6fc34c4d5.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "07f28ce72e435425652b1108bbfee1996989b7cc7cdd670405df521c778e369c"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/favour-box-floral/1-angle-b243d5c65f41.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "4e1c4455f17b98e6ff43bc61d89193ed0478395b8b35e2527744d9a5920e91c4"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/favour-box-floral/2-angle-12135fb19ad5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a8e9247d607b313c97ec38d9aae498c632a39ba3b415766b1bfd0c35f1d19aed"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/favour-box-floral/3-angle-e68bb5255175.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "430d49ff7167121d7311a3b658c30c9a26b334d090fd7ada378b3bd28b3ce04d"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/favour-box-floral/4-angle-3c4762cfe694.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "454e17b5b0b59864f01e66aac1c7e737a939e619b341dacdafda4a5d78a91b18"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "kintsugi-design-favor-box-size-8x8x3-5cm",
+      "title": "Favour Box",
+      "sku": "MGC-3635",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our Youtube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our Youtube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3635",
+        "Product Code": "MGC-3635"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 150.0,
+        "amountMinorUnits": 15000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 150.0,
+            "amountMinorUnits": 15000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611674
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/kintsugi-design-favor-box-size-8x8x3-5cm/0-master-4d2ea9e06297.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "b05e1c9b5304d697826188eded272182a84ddda600b9cdc616763a7e9d2c5caa"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/kintsugi-design-favor-box-size-8x8x3-5cm/1-angle-a328138e007a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "94a886c96104e730b86d4f7d8d905c3aff5c93616efc24e5be71d5457147c195"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/kintsugi-design-favor-box-size-8x8x3-5cm/2-angle-b8ce42a9629d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "e4c6b453f4f7357b48123470639527e06dc8ce6ac85a6d357078ad61794d075e"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/kintsugi-design-favor-box-size-8x8x3-5cm/3-angle-33bf1f8212dd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "e68528b7ee2d2ed54300ebb5eae72532d881409523a57b24780f5183922ed1aa"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/kintsugi-design-favor-box-size-8x8x3-5cm/4-angle-8512a6202dc0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "772b484795f49c90ef24ef5fe90d543fb7e05ea82bbb1b7d67769a66e1bba88b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "wrap-style-favor-box-8x8x3-5cm-pink-ornamental",
+      "title": "Favour Box",
+      "sku": "MGC-3632",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3632",
+        "Product Code": "MGC-3632"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611665
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-pink-ornamental/0-master-a0f493b9367d.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "b491329f28f84e2ab035f6ee4c0c5336b01f58ef3f78202ad46a5e344a59d7f3"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-pink-ornamental/1-angle-8371c5eecd3f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "b0132ea179da99fab8ad5363ca3068bffad281396bd8c2bd669c8faa326dcbe9"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-pink-ornamental/2-angle-7e53f2cadbec.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "98a468999c9b64e7786e1dee5e32d61497c8d6ff2cbefcf88978ec7af525e0c7"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-pink-ornamental/3-angle-d3e27f5d14e0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "22cfbd6bbcd2c3c9434eb1d8c03e40b687d24a70aca92648301d1eab65d594bc"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-pink-ornamental/4-angle-6b093fa3aa28.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "f7ed66386a66eb5af75be6bca4124580dd925fe3868396e67f502c9af7076146"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "wrap-style-favor-box-8x8x3-5cm-white",
+      "title": "Favour Box",
+      "sku": "MGC-3630",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3630",
+        "Product Code": "MGC-3630"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611656
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-white/0-master-3face9efe3b5.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "71fb711ae9eb2a620b7c04082ac7f6f2cbb0e82f061ed5c0456cb432a679f722"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-white/1-angle-cde10125e44d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "5c423d58ab3c30082141c017adaca360e57812a1830eea6fb6113299085811be"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-white/2-angle-03ca07911753.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "18bf29808e4b7cf25d86a96a2f0a2d27688fd81a9a75792ca7d0c1a452ceed58"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-white/3-angle-64d1e7f68fd9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "abfdcbb582a51b3436558a02752aad0b4d2cf1293d2743cf95fbce5721614f8a"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-white/4-angle-94309f07415a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "cce66b7a5511821a9ccf131141638684ae6735170461e92fa32f0fe4fe4813fe"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-white/5-angle-e0cd48433360.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "ae685309908b1b609ece2b616771cd82ee5b5f1551c75c50b16e6d0bc8e0728c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "wrap-style-favor-box-pastels-8x8x3-5cm-black",
+      "title": "Favour Box",
+      "sku": "MGC-3634",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3634",
+        "Product Code": "MGC-3634"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611671
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-black/0-master-0f3f16230de4.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "96728002d4657cb4d2693d6dd46029380deda24b0bceddc3a255b92d4cba0d05"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-black/1-angle-e1efe4ad3502.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "28fd0e5525c92cea4bd412904857bad920007f27ca60e65fc005d480e69977ca"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-black/2-angle-aa187255a111.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "4301c4dcbe25360b4754823fc952a6e548495a556ee23183ed2bdf164c9ead47"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-black/3-angle-d43159cbfc8c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "026eb557a19fdd07644bd5756ec9f891c013014627efaf9f2a231232925298d8"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-black/4-angle-63b4da49d4ac.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "7ba84aced739146de561df674bb178b6fbb1e093edb0f696584de0ebc43d1332"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "wrap-style-favor-box-pastels-8x8x3-5cm-mint",
+      "title": "Favour Box",
+      "sku": "MGC-3629",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3629",
+        "Product Code": "MGC-3629"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611653
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-mint/0-master-b8da3941b752.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "99e015040b13553c2659cc29fbb368c1921d1375c184244e1eb014a60cd3b80d"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-mint/1-angle-aa6040b6d3e2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "b1636daf982d83b6fff5d9e07b743af094966c2672849fdf40f5ed20bdcb7ea0"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-mint/2-angle-72a95b380a28.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "07820b79cbad686b26a284308a03a4fa3ea1770a73adfc4d15518cda4404a203"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-mint/3-angle-a12b739d809f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "842a39c508038e49e19aac22eafa187cd53fe710f68cbe1b33ff85d72f1aa757"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-mint/4-angle-dc53ad10cc63.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "16ef2dadebcea678a3bacfe149f8611980d55c1a2c955cd68d830f24e9f69f70"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-mint/5-angle-f541a3209383.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "95b9e062b3a2e103dc8bae3802d407892f72a857af35b9b35a992157ea26245f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "wrap-style-favor-box-pastels-8x8x3-5cm-pink",
+      "title": "Favour Box",
+      "sku": "MGC-3633",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3633",
+        "Product Code": "MGC-3633"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611669
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-pink/0-master-cf72b5ceb2a3.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "b5ff1d1ce1df037cd5163bf9802073ad94a5dad87fc3d22dc19fcafba491a469"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-pink/1-angle-c5bf0fa210e3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "91c096f098778b17de21afbd7c6c415aca208280943ba59ac8c19fc2c5dfe216"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-pink/2-angle-3f7fce09d977.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "51a2d5cf9a76e4a51983c22b666c5821c27b64e9e4575d50f4387715842d9489"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-pink/3-angle-f09a7579ac22.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "bc9ce4cc6a8378e80217fa6d3d31fcbe844969ffd0d71054a723cb79e2b3fdc2"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-pink/4-angle-5628ce9c86b4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "0f11dc7519165fcfe2f34799d4151b87857056ac110fbbe0b3bc54f707d4939d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "wrap-style-favor-box-pastels-8x8x3-5cm-red",
+      "title": "Favour Box",
+      "sku": "MGC-3628",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "shortDescription": "One Box. Many Uses. Use these for: Chocolates Single Cookie Fashion Accessory Jewellery Souvenir Coins/ Currency All Gift Items *The above mentioned uses depends on the size of the items. Pan India &amp; International Delivery. Easy to open, close and deliver. NOTE-For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3628",
+        "Product Code": "MGC-3628"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611651
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-red/0-master-486d491813c7.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "3b30386803631e83d80a92a15b497d9556e499ef2e2959f5ace23e92a8f189bc"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-red/1-angle-2614aef79d62.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "0e524c582197e49c969f9b50ccb689dfaab28dbc8ede046ad42807c71926ca2b"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-red/2-angle-e1c83eb6edc7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "449bfb6d0d54a68608a32bfbba1ffb6869e8af12a6fef201ba9b6afefe78aa21"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-red/3-angle-4b976592b51d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "1b1b89900de045072009f69c64857d02f7535d50f228073a5c788a6f52204e58"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-red/4-angle-7ea5daef4460.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "7b840c8055465cf6ee9b69a99a7325321048cd6288d782d25de936c6e8f5ef5d"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-red/5-angle-3889c4ff0b9d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "5b2436452810b84da82de20b718cbd070b99c0e37faf0c4bc4f4d5ebb4293f0f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "handle-hamper-box-blue-bauble",
+      "title": "Handle Hamper Box",
+      "sku": "MGC-3636",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "\"One Box. Many Uses Use these boxes for: Jars Candles Gift box Cupcakes Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3l",
+      "shortDescription": "\"One Box. Many Uses Use these boxes for: Jars Candles Gift box Cupcakes Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, the boxes delivered are unfolded/flat for the customers. Please see our YouTube link to know how to fold these boxes. https://www.youtube.com/channel/UC6tLva4fTAd38QK3l",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3636",
+        "Product Code": "MGC-3636"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 222.5,
+        "amountMinorUnits": 22250,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 222.5,
+            "amountMinorUnits": 22250,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611677
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/handle-hamper-box-blue-bauble/0-master-258e7a85c2a7.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "13de998bb458bb91c7b7e6569bd3425ab51d0791a3104df29ccdbd901051c464"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/handle-hamper-box-blue-bauble/1-angle-639811bd80e6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "792f68432931abd2e30cdb4dd63b2a697747b1ec32c3839d9fd627c7b6031533"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/handle-hamper-box-blue-bauble/2-angle-728a90d2004f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "6caeb6a28f83863858d3833480ab04a819358a865edf345d87e86a7a28fda71c"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/handle-hamper-box-blue-bauble/3-angle-3d448cbef4b9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "13e6c45d6e6528fa4270d9a016864a4c64503faf56eb8a081ac5636904353992"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/handle-hamper-box-blue-bauble/4-angle-65eace79cd60.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "92785f3160d79a58e847f6fd764e4a387347f038fa753ca179fc222c8cb8595e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "jhilmil-gift-box-rectangular",
+      "title": "Jhilmil Gift Box - Rectangular",
+      "sku": "MGC-3280",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Our gift box is designed with love, to carry a whole lotta celebrations &amp; good vibes.",
+      "shortDescription": "Our gift box is designed with love, to carry a whole lotta celebrations &amp; good vibes.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3280",
+        "Product Code": "MGC-3280"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 239.0,
+        "amountMinorUnits": 23900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 239.0,
+            "amountMinorUnits": 23900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610538
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/jhilmil-gift-box-rectangular/0-master-25bf5c3b48f7.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d763029d020354d1795e9b22a32566ab29e5130938db0ea404c773c13fcef2db"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/jhilmil-gift-box-rectangular/1-angle-3b04af913b0b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1405522e6a04754d00a32608f784dcf62e9f270fb23662d6df7d11383342f239"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/jhilmil-gift-box-rectangular/2-angle-7f5af9525d74.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "956a69044886b490db3b60cb9778885f8acc5feba0e764c64cd53ec5940d6074"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/jhilmil-gift-box-rectangular/3-angle-34d5186ec620.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a295f24776cd7ac14c53ca3bc646dbc5182bb34a21dad133becfe093c2518e14"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/jhilmil-gift-box-rectangular/4-angle-e62c6d24277e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8cf044a5b95ada59e2655c91c7debfc1be3d3b88753eede00d9413dc8a0d7d35"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/jhilmil-gift-box-rectangular/5-angle-96b7383d45e1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e299f8bc84380fac67bd6b7d38ce0c294328ad7538ccc932a44b265f16c11709"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3647",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "shortDescription": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3647",
+        "Product Code": "MGC-3647"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 700.0,
+        "amountMinorUnits": 70000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 700.0,
+            "amountMinorUnits": 70000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611718
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box/0-master-688146c27f8c.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "24019a9684ef6dfd18ed167d3a66283ea5a895e5eeb69a9d74824c0bcaf8b773"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box/1-angle-eddec74b36a6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a6d7761bb06c16cc25e5d36adce7f34c6c6fb53d449b90af9b3c21faa67b8c88"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box/2-angle-14aebd061f7d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "74cb7e537948dc0b075428d8a83420451fa181393740b39774bef8cd1f944975"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box/3-angle-c7db231b9615.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "af7a4747d4d89c9867a231927c48dcf7d44fdaebf634b57c71e0fd03b50dc419"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box/4-angle-028cd4bbe445.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "faebc7e7c505f17732e1608e9a2d0d5952183c9ae440068c872501dca9214490"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-8x8x2-mint",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3645",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "shortDescription": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3645",
+        "Product Code": "MGC-3645"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 700.0,
+        "amountMinorUnits": 70000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 700.0,
+            "amountMinorUnits": 70000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611711
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/0-master-04ecf4258b73.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "9923de5946dbe34c13e49bcc09d7c8bc0b7f6405857ad3a3c756bc473b0eb837"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/1-angle-3911273a8373.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "0438fb79a0bf6dd4a392bb10f3502912458d77de1d250cbed6afa63bbacd6e99"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/2-angle-01996748fb2f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a3fd760ccd8b99d642ab094047436a2c90cd3fad35305ee122a8212499f9bd21"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/3-angle-08502e9d9c06.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "aac3f12b3bb9b9c8970389ed8a4d49d01528d666896d250d8780a93237173cde"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/4-angle-14f5a2f6096d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "12d9eb23b74731b3371c999175c60e0e9eb167f03cb4703dbfc3305badad5012"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/5-angle-b16729411a5b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "d9bc100f0de998ac709c4157f94fa27808b3395bddeea6f1dd42da72040e47ad"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/6-angle-f78ca45e03b1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "9c0701b21b1f108121dcf576d61bd347ac87b41b54fa5ae030e01170c81a93d4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-8x8x2-pink",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3646",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "shortDescription": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3646",
+        "Product Code": "MGC-3646"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 700.0,
+        "amountMinorUnits": 70000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 700.0,
+            "amountMinorUnits": 70000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611714
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/0-master-10638fe8af71.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "4db92d838d95f798d32564ac6af51bb080c1663f34099a664730bdd32baa397c"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/1-angle-072939aac72d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "bd447ce3a7a4893040645e9299a5048c14b792fd849588294aa8f3ee3decb711"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/2-angle-7e27384ff2c4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "705dd99ea90c7fdcb77496b7ca83e65afecabf03ae3621aeec537f8cbbb0b9f5"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/3-angle-afe215ee7529.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "578c5d29762bcf20d0e943695cdda217452c01c89e451f6d5c2822a32a6fac60"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/4-angle-b2bfff21f9dc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "438f8262a16b6c8672c50ba0ab7c9e726f9b9a9290443ce41da52dc5a643eef9"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/5-angle-a8ba6cfb806f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "339a443f156a2bec42d49e794097d2fd6f01ec10b1e487b2d452a9765552488d"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/6-angle-80fa8513ed61.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a54454054145ea8be2c6f5e37fb901e0bf2edda8b7f1db68316d85254090e13f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-8x8x2-red",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3644",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "shortDescription": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3644",
+        "Product Code": "MGC-3644"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 700.0,
+        "amountMinorUnits": 70000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 700.0,
+            "amountMinorUnits": 70000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611708
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/0-master-4a7307f2d7e2.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "24c9eb281bb32acd2c4c3179e9a99d20ba8bb02ab09aa7c01cededa5a87f4d1c"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/1-angle-9e281d1f23e3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "ae2118512c89191a041db4dd69a9caf3930e7987f119f30ce270b5865873e3e6"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/2-angle-dfbb05818861.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "94ed1394071d1cdd71f75a07ce565ec8a732b5193931a23d2be24e53a4fea525"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/3-angle-79b09cb402de.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "aa4a1a163fd965520d4543948c08ec2e0a950c26514049303d27a6833b472135"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/4-angle-09dbb616a79d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "2e929403fb6fc3b362ddee2d84b093378961060c374928bcd418724762002289"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/5-angle-6adf568bc290.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "2a0c36c4a9448f69d4fbfec1f6ee28972a744a90b71600055861e7cafffdae20"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/6-angle-fdf88c1d90a7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "1c540ef62ad156272a0e553792408d38ff53f2400af84066449ca45c1599fde3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-8x8x2-white",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3641",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "shortDescription": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3641",
+        "Product Code": "MGC-3641"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 600.0,
+        "amountMinorUnits": 60000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 600.0,
+            "amountMinorUnits": 60000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611694
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/0-master-4faa3ccb3681.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "6bd8aa1a64b56d3d3ad5622ce8ebf7f6713f9388f335d5ed34f7f944c143c9a9"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/1-angle-9c1271f826ba.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "6ff7f44bfbb700b743378c47e19ee64698d8ef4bebe91c4ecde8173bb02d6628"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/2-angle-ed3a71418bae.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "e302c51019558990f7a713023435f3c3a8df559e31460d4022f82cdf68ca040c"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/3-angle-2554b2447272.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "5cd36f2bfc1e276ebc938d35c26b26f907633d7fae64a936bb5195fa738205d6"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/4-angle-3478a76f7609.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a42ed8b3ba1817caba8748d82e3787130ac7ad9dd120d51470d24696b49867c9"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/5-angle-044255d8cc89.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "8a78bb6936688d80118111879166e7028fd65caf856bfa68ec2c8fc3b591a9ab"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/6-angle-ddd314e53300.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "4b337efeaa86b4da1a6410c461e3e8aa2b21fc3370ae00d78da41802fb231335"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-8x8x2-yellow",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3643",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "shortDescription": "One Box. Many UsesÂ¬Â¨âˆšÂ¢â€šÃ‡Â¨ Use these boxes for: * Brownies - Can hold up to 9 brownies * Cookies - Can hold up to 16 cookies * Donuts - Can hold up to 4 donuts * Mithai - Up to 500 GMS Non-bakery usage: * Candles * Soaps * Gift box * Souvenirs * Stationery * Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3643",
+        "Product Code": "MGC-3643"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 700.0,
+        "amountMinorUnits": 70000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 700.0,
+            "amountMinorUnits": 70000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611705
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/0-master-927a023c1f9f.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "71d6d9b12c6fb0f23554b97c3352007e1f5f3347d4723e8c7736f34911e5b116"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/1-angle-494abfb462ce.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "884f94038d6579bfcf1a0b6e852e002115e725779a4363746c0ca42ac44fb273"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/2-angle-10cb6fc94cd9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "476e4f28f8ce93b3f2ad9cef70ad313bbe380b2c1fbef4d8b6f2e2369fa0ea05"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/3-angle-89e20eb3eebb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "39b51b304be76b808ca1d13ca23c01ac168e212e08ee6f99965aa74ce9e966c1"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/4-angle-9cb254183d32.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "d99df66ae5fdcb34249173773b2bcd0b547917494afa6793f512d5bad5256f27"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/5-angle-68e47683ed7e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "12dda652f0999e5a49b36f9291b0ed8ff9945f83ca72130551826393f1973f91"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/6-angle-77b6962ad759.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "fc58d98f7cc1c08a0dbe7798ab1db9649a25a964da0fe38fe3b1821a2806778a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-blue-bauble",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3638",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "\"One Box. Many Uses Use these boxes for: Mithai - Up to 500 GMS Brownies - Can hold up to 9 brownies Cookies - Can hold up to 16 cookies Donuts - Can hold up to 4 donuts Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, ",
+      "shortDescription": "\"One Box. Many Uses Use these boxes for: Mithai - Up to 500 GMS Brownies - Can hold up to 9 brownies Cookies - Can hold up to 16 cookies Donuts - Can hold up to 4 donuts Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3638",
+        "Product Code": "MGC-3638"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 337.5,
+        "amountMinorUnits": 33750,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 337.5,
+            "amountMinorUnits": 33750,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611686
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-blue-bauble/0-master-49ec31a86e6f.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "18efabb467c83a52c3544773fe942b4ea748f90ed987a0449fb4f69799db052c"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-blue-bauble/1-angle-2f27326bce52.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "7ae43a49442274adf9defdc697af33bcea65d7f3aa8d3eb6ffa29b7716906732"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-blue-bauble/2-angle-14c6054808c4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a250dd534b23ca110504a590a3bd50be955a6989646fc1b9f700685b463ea31e"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-blue-bauble/3-angle-078e50f04ba4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "3209a7b9952862185fd76726d156db8db6a0126e888d10ebfad0115f45882abd"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-blue-bauble/4-angle-a54465292f34.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "53971a116a5e84fa1c19804a711d9be845a52cc223cd57a2f68f5edb45828c04"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-copy-copy",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3642",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "\"One Box. Many Uses Use these boxes for: Mithai - Up to 500 GMS Brownies - Can hold up to 9 brownies Cookies - Can hold up to 16 cookies Donuts - Can hold up to 4 donuts Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, ",
+      "shortDescription": "\"One Box. Many Uses Use these boxes for: Mithai - Up to 500 GMS Brownies - Can hold up to 9 brownies Cookies - Can hold up to 16 cookies Donuts - Can hold up to 4 donuts Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3642",
+        "Product Code": "MGC-3642"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 675.0,
+        "amountMinorUnits": 67500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 675.0,
+            "amountMinorUnits": 67500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611701
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-copy-copy/0-master-5635bb717c4a.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5ec78dca20cd199e6930ae3952b279863d76f976cc7781a48b63421e8c59bb6c"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-copy-copy/1-angle-1895b26856ee.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "df596705b4e8c59fff9d01353a624833fb429afdd309d52ad76b01422c136ee5"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-copy-copy/2-angle-aa25b59a0671.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8a141ca94ab3468bf67782274f2f1ac1245ffd237f7eb8c3af32e280ef889013"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-copy-copy/3-angle-cac2a791461a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "bb100ef85d11b2edd63e7504367a5d060117de8bf5167c690dacfe7bed3f885e"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-copy-copy/4-angle-03b68447cf0c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b3ec7531e30c8660f9330d8fed439c8d97a6e4c89193cbc6419d5a878714eb44"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "lid-with-tray-hamper-box-red-ornamental",
+      "title": "Lid with Tray Hamper Box",
+      "sku": "MGC-3639",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "\"One Box. Many Uses Use these boxes for: Mithai - Up to 500 GMS Brownies - Can hold up to 9 brownies Cookies - Can hold up to 16 cookies Donuts - Can hold up to 4 donuts Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, ",
+      "shortDescription": "\"One Box. Many Uses Use these boxes for: Mithai - Up to 500 GMS Brownies - Can hold up to 9 brownies Cookies - Can hold up to 16 cookies Donuts - Can hold up to 4 donuts Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery Apparel Advantages of Schmancy Boxes: *Secure locking system *Easy to open, close and deliver. *Pan India &amp; International Delivery. The above mentioned uses depends on the size of the item. NOTE - For the ease of delivery and to ensure the product is not damaged, ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3639",
+        "Product Code": "MGC-3639"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 337.5,
+        "amountMinorUnits": 33750,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 337.5,
+            "amountMinorUnits": 33750,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611689
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-red-ornamental/0-master-1d7382112f33.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "35d7a7b385747e361ef1b652f723b633f950aece0b6ff457d2093d1e8cdff316"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-red-ornamental/1-angle-8a2e07b6965d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "e1bb66d0f74b63f8ab4430284a71144402f19dfdd4c6af8b9c1fcb01168458fe"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-red-ornamental/2-angle-71bbd7fd8fe7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "836516ec278ae02f6bdb4e6b36d2999e64f5a29ec8f878179c0688e1bb3ea0b7"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-red-ornamental/3-angle-22a5a876f630.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "6ba058de86da2f9f170807fb0b4fc7ab90a5272d5b7c3423164bd5d4a2c2a5c1"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/lid-with-tray-hamper-box-red-ornamental/4-angle-6a410f18a75f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "487aa98bd067b66b92fb6bc78d7de7567ecfe039312b40466d589024bce15805"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "top-andamp-amp-bottom-gift-box-shredded-paper-blue-l",
+      "title": "Top & Bottom Gift Box + Shredded Paper-blue-L",
+      "sku": "MGC-3302",
+      "brand": {
+        "name": "Extra",
+        "slug": "extra"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Stylish blue top & bottom gift box with shredded paper fill — ideal for corporate gifting, employee joining kits and premium branded packaging.",
+      "shortDescription": "Stylish blue top & bottom gift box with shredded paper fill — ideal for corporate gifting, employee joining kits and premium branded packaging.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3302",
+        "Brand": "Extra",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "2000",
+        "Dispatch Timeline": "24 Hrs Delivery",
+        "Product Code": "MGC-3302"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 320.0,
+        "amountMinorUnits": 32000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 320.0,
+            "amountMinorUnits": 32000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610606
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "24 Hrs Delivery"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/top-andamp-amp-bottom-gift-box-shredded-paper-blue-l/0-master-21f5e5ade788.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5a45a8f35a80800726f0fb6570881d7f28c018862e1214b3dc99a7656f48b548"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/top-andamp-amp-bottom-gift-box-shredded-paper-blue-l/1-angle-024ab531c75b.webp",
+          "role": "ANGLE",
+          "variantKey": "Extra Top & Bottom Gift Box Blue – Interior View",
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e89febabe5e5a707febed28e134332982696ed5bcaf2e3bfae85c2c99a4441c4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    },
+    {
+      "slug": "top-bottom-box-with-paper-slots-black-m",
+      "title": "Top&Bottom Box With Paper Slots- Black- M",
+      "sku": "MGC-3461",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Top&Bottom Box With Paper Slots- Black- M — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Top&Bottom Box With Paper Slots- Black- M — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3461",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3461"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 500.0,
+        "amountMinorUnits": 50000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 500.0,
+            "amountMinorUnits": 50000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611112
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/gift-boxes/top-bottom-box-with-paper-slots-black-m/0-master-672b95e9bb48.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ec6ede46883cb606ae751ddc345f64adae6780a0e81e19ed67bee27afe2680e8"
+        },
+        {
+          "path": "media/products/packaging/gift-boxes/top-bottom-box-with-paper-slots-black-m/1-angle-07dec84d092a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d5fab405b612457fa55f0d63cb502afff9012bf7479954fe7efb989824b0d9f0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:gift-boxes",
+        "categoryId": "C11",
+        "name": "Gift Boxes",
+        "slug": "gift-boxes",
+        "path": "packaging/gift-boxes",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "packaging/gift-boxes"
+    }
+  ]
+}

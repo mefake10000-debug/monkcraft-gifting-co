@@ -16,6 +16,7 @@ type CompareButtonProps = {
   className?: string;
   /** Icon-only overlay button for product cards. */
   compact?: boolean;
+  selectionControl?: boolean;
 };
 
 export function CompareButton({
@@ -23,6 +24,7 @@ export function CompareButton({
   initiallyCompared = false,
   className,
   compact = false,
+  selectionControl = false,
 }: CompareButtonProps) {
   const [active, setActive] = useState(initiallyCompared);
   const [full, setFull] = useState(false);
@@ -48,6 +50,18 @@ export function CompareButton({
       ? `Compare list is full (${MAX_COMPARE})`
       : `Add ${snapshot.name} to comparison`;
 
+  const select = () => {
+    const next = toggleCompare(snapshot);
+    setActive(next.some((item) => item.id === snapshot.id));
+  };
+
+  if (selectionControl) {
+    return <label className={`compare-choice ${className ?? ''}`}>
+      <input type="checkbox" checked={active} disabled={full} aria-label={label} onChange={select}/>
+      <span>{active ? 'Selected' : 'Compare'}</span>
+    </label>;
+  }
+
   return (
     <button
       type="button"
@@ -63,10 +77,7 @@ export function CompareButton({
       aria-label={label}
       title={label}
       disabled={full}
-      onClick={() => {
-        const next = toggleCompare(snapshot);
-        setActive(next.some((item) => item.id === snapshot.id));
-      }}
+      onClick={select}
     >
       <span aria-hidden="true">{active ? "✓" : "+"}</span>
       {compact ? null : (

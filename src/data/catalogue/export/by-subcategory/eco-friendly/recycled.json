@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C7",
+    "code": "C7",
+    "name": "Eco-Friendly",
+    "slug": "eco-friendly",
+    "path": "eco-friendly",
+    "sortOrder": 7
+  },
+  "subcategory": {
+    "id": "C7:recycled",
+    "categoryId": "C7",
+    "name": "Recycled",
+    "slug": "recycled",
+    "path": "eco-friendly/recycled",
+    "sortOrder": 1
+  },
+  "categoryProductCount": 33,
+  "productCount": 1,
+  "products": [
+    {
+      "slug": "eco-go-plus-pen-natural-brown",
+      "title": "Eco Go plus Pen- Natural Brown",
+      "sku": "MGC-3061",
+      "brand": {
+        "name": "Stolt",
+        "slug": "stolt"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Stolt Eco Go Plus Pen in natural brown — an eco-friendly office pen for corporate gifting, employee joining kits and sustainable branded gifts.",
+      "shortDescription": "Stolt Eco Go Plus Pen in natural brown — an eco-friendly office pen for corporate gifting, employee joining kits and sustainable branded gifts.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3061",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Natural Brown",
+        "Brand": "Stolt",
+        "Customization Type": "U V Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Recycled paper",
+        "Closure Type": "Cap with steel clip",
+        "Product Code": "MGC-3061"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 75.0,
+        "amountMinorUnits": 7500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 75.0,
+            "amountMinorUnits": 7500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609872
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/recycled/eco-go-plus-pen-natural-brown/1-lifestyle-d686c770a9ab.webp",
+          "role": "MASTER",
+          "variantKey": "Stolt Eco Go Plus Pen Natural Brown – Side View",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f79ca25361b0680eb91619461ab31b3090005efb696ec0ecee73af5359616f40"
+        },
+        {
+          "path": "media/products/eco-friendly/recycled/eco-go-plus-pen-natural-brown/2-lifestyle-73f691112daf.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Stolt Eco Go Plus Pen Natural Brown – Cap Detail View",
+          "sortOrder": 1,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "8df5adefa0092d02ad0af32905ad40a23abac49891d54544ff5c360e1203d6ce"
+        },
+        {
+          "path": "media/products/eco-friendly/recycled/eco-go-plus-pen-natural-brown/3-lifestyle-ab4b6189dcb0.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Stolt Eco Go Plus Pen Natural Brown – Alternate View",
+          "sortOrder": 2,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "1afa2627bf35484dd1f57efa3218cb8684e6368be853335f91a44d151742ae12"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:recycled",
+        "categoryId": "C7",
+        "name": "Recycled",
+        "slug": "recycled",
+        "path": "eco-friendly/recycled",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "eco-friendly/recycled"
+    }
+  ]
+}

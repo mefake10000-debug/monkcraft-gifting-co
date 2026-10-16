@@ -1,0 +1,533 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C5",
+    "code": "C5",
+    "name": "Apparel & Lifestyle",
+    "slug": "apparel-lifestyle",
+    "path": "apparel-lifestyle",
+    "sortOrder": 5
+  },
+  "subcategory": {
+    "id": "C5:scarves-stoles",
+    "categoryId": "C5",
+    "name": "Scarves & Stoles",
+    "slug": "scarves-stoles",
+    "path": "apparel-lifestyle/scarves-stoles",
+    "sortOrder": 4
+  },
+  "categoryProductCount": 938,
+  "productCount": 3,
+  "products": [
+    {
+      "slug": "pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1",
+      "title": "Pashtush His And Her Set Of 100% Pure Wool Printed Stole and Shawl With Wooden Chester Box, Multicolour",
+      "sku": "MGC-2827",
+      "brand": {
+        "name": "Pashtush India",
+        "slug": "pashtush-india"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Luxury Premium Box Comes with “His and Her” Labelled Bands. Elegant, classy and sophisticated gifting idea. Batch code PH 9999 SKU: 224426 Size: –100 cm x 200 cm Generic name -Shawl Net Quantity – 1 N Customer care is reachable at care@pashtush.com, +91 77196 21780 Manufactured and packed by Pashtush India Private Limited, Golden Temple Road , Amritsar, PIN 143001, Punjab, India Manufactured on 1 July 2021 Country of Origin - India Dry Clean Recommended. Batch code PH 11899 SKU: 201149 Size: - 1",
+      "shortDescription": "Luxury Premium Box Comes with “His and Her” Labelled Bands. Elegant, classy and sophisticated gifting idea. Batch code PH 9999 SKU: 224426 Size: –100 cm x 200 cm Generic name -Shawl Net Quantity – 1 N Customer care is reachable at care@pashtush.com, +91 77196 21780 Manufactured and packed by Pashtush India Private Limited, Golden Temple Road , Amritsar, PIN 143001, Punjab, India Manufactured on 1 July 2021 Country of Origin - India Dry Clean Recommended. Batch code PH 11899 SKU: 201149 Size: - 1",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2827",
+        "Product Code": "MGC-2827"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 209.99,
+        "amountMinorUnits": 20999,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 209.99,
+            "amountMinorUnits": 20999,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609197
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/0-master-aabb0fff9ca0.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4cf01ab38ed0710ba7c3f2d18f987b7cc3d3ba12baddb974a4cbbfcd7d373f2a"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/1-angle-1710b5d1ef33.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 957,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c794dec8dc44c418df8cc81cfe07f367bc848b03d95a8d81e5cfc94963f0f8bb"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/2-angle-1a6dddeb9c3e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ca721722107b2c9fd2625c3a932686a0671c9bd49af2bd5cefc0ecee78ba488c"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/3-angle-e0fa5865f52d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 809,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d6fd49444395f5bb2221485089c13215b7d0f715386abb3ea56a1a2f0a54da4c"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/4-angle-2b78cfd7223a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e6058499060eff8fdd91f32cc852d9003efca4720542f033d39a6af0d71bab68"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/5-angle-204cf0b8ad24.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6c2c2b534d413986892c3abf647ebe80da3145d99e832dc4f2bef7823f3e582a"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/6-angle-994b94ca9591.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 890,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "eee7891c21cbdfac4cd410e9073f3b60512268beab5110d1ec8cc93bfccfbea2"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/7-angle-aab7b3bc2c2c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fd75912a661c51907c2cca855190c306403fe1346c4d7bfdd6f7253fb59b8b89"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/8-angle-5489e75ba05f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 743,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "28dd2f0a4387a20c59dd1f679550fbbc8a21a61283b6f3a2ff845c7335f5f5ce"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shawl-with-wooden-chester-box-multicolour-1/9-angle-83de7e6a7633.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 826,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "82560a043f05b1d1f6f8c50a0b446829c43bce484b8f1672c147427a98359a14"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:scarves-stoles",
+        "categoryId": "C5",
+        "name": "Scarves & Stoles",
+        "slug": "scarves-stoles",
+        "path": "apparel-lifestyle/scarves-stoles",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "apparel-lifestyle/scarves-stoles"
+    },
+    {
+      "slug": "pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1",
+      "title": "Pashtush His And Her Set Of 100% Pure Wool Printed Stole and Shikaardar Shawl With Wooden Chester Box, Multicolour and Red",
+      "sku": "MGC-2828",
+      "brand": {
+        "name": "Pashtush India",
+        "slug": "pashtush-india"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Luxury Premium Box Comes with “His and Her” Labelled Bands. Elegant, classy and sophisticated gifting idea. Batch code PH 9999 SKU: 224426 Size: –100 cm x 200 cm Generic name -Shawl Net Quantity – 1 N Customer care is reachable at care@pashtush.com, +91 77196 21780 Manufactured and packed by Pashtush India Private Limited, Golden Temple Road , Amritsar, PIN 143001, Punjab, India Manufactured on 1 July 2021 Country of Origin - India Dry Clean Recommended. Batch code PH 13999 SKU: 211310 Size: - 1",
+      "shortDescription": "Luxury Premium Box Comes with “His and Her” Labelled Bands. Elegant, classy and sophisticated gifting idea. Batch code PH 9999 SKU: 224426 Size: –100 cm x 200 cm Generic name -Shawl Net Quantity – 1 N Customer care is reachable at care@pashtush.com, +91 77196 21780 Manufactured and packed by Pashtush India Private Limited, Golden Temple Road , Amritsar, PIN 143001, Punjab, India Manufactured on 1 July 2021 Country of Origin - India Dry Clean Recommended. Batch code PH 13999 SKU: 211310 Size: - 1",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2828",
+        "Product Code": "MGC-2828"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 224.99,
+        "amountMinorUnits": 22499,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 224.99,
+            "amountMinorUnits": 22499,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609200
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/0-master-096481605905.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "266d077b433e768eb7ba380346a588d6099985fdd71cf693a2a0398fc679e6a7"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/1-angle-1710b5d1ef33.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 957,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c794dec8dc44c418df8cc81cfe07f367bc848b03d95a8d81e5cfc94963f0f8bb"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/2-angle-1a6dddeb9c3e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ca721722107b2c9fd2625c3a932686a0671c9bd49af2bd5cefc0ecee78ba488c"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/3-angle-e0fa5865f52d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 809,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d6fd49444395f5bb2221485089c13215b7d0f715386abb3ea56a1a2f0a54da4c"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/4-angle-2b78cfd7223a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e6058499060eff8fdd91f32cc852d9003efca4720542f033d39a6af0d71bab68"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/5-angle-204cf0b8ad24.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6c2c2b534d413986892c3abf647ebe80da3145d99e832dc4f2bef7823f3e582a"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/6-angle-994b94ca9591.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 890,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "eee7891c21cbdfac4cd410e9073f3b60512268beab5110d1ec8cc93bfccfbea2"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/7-angle-aab7b3bc2c2c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fd75912a661c51907c2cca855190c306403fe1346c4d7bfdd6f7253fb59b8b89"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/8-angle-5489e75ba05f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 743,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "28dd2f0a4387a20c59dd1f679550fbbc8a21a61283b6f3a2ff845c7335f5f5ce"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-his-and-her-set-of-100-pure-wool-printed-stole-and-shikaardar-shawl-with-wooden-chester-box-multicolour-and-red-1/9-angle-5f0144910449.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 844,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c2767ecb9ea3865c3af99c97fe87b097dd219d1d14c0ee767e699d7acac0f70e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:scarves-stoles",
+        "categoryId": "C5",
+        "name": "Scarves & Stoles",
+        "slug": "scarves-stoles",
+        "path": "apparel-lifestyle/scarves-stoles",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "apparel-lifestyle/scarves-stoles"
+    },
+    {
+      "slug": "pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2",
+      "title": "Pashtush Women'S Antique Scarf, Extra Soft Bamboo, Peacock Green",
+      "sku": "MGC-2826",
+      "brand": {
+        "name": "Pashtush India",
+        "slug": "pashtush-india"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Batch code PH 2999 SKU: 207344 Size: –70 cm x 200 cm Generic name -Shawl Net Quantity – 1 N Customer care is reachable at care@pashtush.com, +91 77196 21780 Manufactured and packed by Pashtush India Private Limited, Golden Temple Road , Amritsar, PIN 143001, Punjab, India Manufactured on 1 November 2025 Country of Origin - India Dry Clean Recommended.",
+      "shortDescription": "Batch code PH 2999 SKU: 207344 Size: –70 cm x 200 cm Generic name -Shawl Net Quantity – 1 N Customer care is reachable at care@pashtush.com, +91 77196 21780 Manufactured and packed by Pashtush India Private Limited, Golden Temple Road , Amritsar, PIN 143001, Punjab, India Manufactured on 1 November 2025 Country of Origin - India Dry Clean Recommended.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2826",
+        "Product Code": "MGC-2826"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 74.99,
+        "amountMinorUnits": 7499,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 74.99,
+            "amountMinorUnits": 7499,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609195
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/0-master-1c2a88673850.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "29cb45007efd2b3e654dc5dc8e8ab335d63c5dda38cea75e13469864cacc7b94"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/1-angle-8a1aa205c157.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "df8fc54ffde88150ee0a20cdf824630904e84e35ddf32221613ac5cfd0e46665"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/2-angle-1dff3ee56b8b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fa5fa3b27c800e31ae3ec75e12f6490d98afa590f148a65f9c39adb069512aed"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/3-angle-4403838bdd96.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 923,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6d7c47b45e26ffc2f8777c390dec2ff2530eeca5d721097c7966d0c9e54453fb"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/4-angle-b4afd0ca4c36.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e55b471e0095c49eda4ef5f4f59559a7a3f75d0171acc272d5b33a3ec3197130"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/5-angle-27b2fd4f2791.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "df380dfa8c0c6ba725946f2fb72dd684daf03ea1777938e08d0b9d2feaa80bee"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/6-angle-3eb1f9102ba3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 788,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9dc20510c827713031b9a64e1c26e62459fc30114d6b2993d391f491d19532ba"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/7-angle-decd65ba8587.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 790,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4a2f272a60e40ce361aecdb160197261a73c7555e7b27c724dbce1f333961ebd"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/8-angle-67ca13243a8c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 800,
+          "height": 1199,
+          "format": "webp",
+          "sha256": "6602e6d297f6da4f9e10ee902a8e7aebb9235b3be1ac1e0556fe40e1df901f79"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/scarves-stoles/pashtush-womens-antique-scarf-extra-soft-bamboo-peacock-green-2/9-angle-3da1a3469e8d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 800,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "55d36c6ff9f72a22bbbd04d3b6abc65187fc5bfbd6a25ebdeaaf16b7b12d29be"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:scarves-stoles",
+        "categoryId": "C5",
+        "name": "Scarves & Stoles",
+        "slug": "scarves-stoles",
+        "path": "apparel-lifestyle/scarves-stoles",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "apparel-lifestyle/scarves-stoles"
+    }
+  ]
+}

@@ -73,6 +73,7 @@ function normalizeProgramme(value: unknown): EnquiryProgramme {
     branding: asOptionalString(raw.branding, 400) || undefined,
     packagingPrefs: asOptionalString(raw.packagingPrefs, 400) || undefined,
     deliveryDate: asOptionalString(raw.deliveryDate, 160) || undefined,
+    dispatchType: ["single-city", "multi-point", "international", "unsure"].includes(String(raw.dispatchType)) ? raw.dispatchType as EnquiryProgramme["dispatchType"] : undefined,
     deliveryLocation: asOptionalString(raw.deliveryLocation, 400) || undefined,
     notes: asOptionalString(raw.notes, 2000) || undefined,
   };

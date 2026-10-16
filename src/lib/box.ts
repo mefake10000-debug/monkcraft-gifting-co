@@ -13,7 +13,7 @@ import type {
 } from "@/data/catalogue/boxTypes";
 import { BOX_STEPS } from "@/data/catalogue/boxTypes";
 import { getPackagingById } from "@/data/catalogue/packaging";
-import { writeBrief } from "@/lib/brief";
+import { readBrief, writeBrief } from "@/lib/brief";
 
 const STORAGE_KEY = "monkcraft-box-v1";
 export const BOX_EVENT = "monkcraft:box";
@@ -32,11 +32,12 @@ const EMPTY_CUSTOMIZATION: BoxCustomization = {
   logo: null,
   giftMessage: "",
   personalizationNotes: "",
-  numberOfBoxes: 1,
+  numberOfBoxes: 25,
   occasion: "",
   budgetPerBox: "",
   packagingInstructions: "",
   deliveryRequirements: "",
+  dispatchType: "",
 };
 
 const EMPTY_CONTACT: BoxContact = {
@@ -48,7 +49,7 @@ const EMPTY_CONTACT: BoxContact = {
 
 function emptyDraft(): BoxDraft {
   return {
-    step: "packaging",
+    step: "products",
     packaging: null,
     products: [],
     customization: { ...EMPTY_CUSTOMIZATION },
@@ -95,6 +96,7 @@ function normalizePackaging(value: unknown): PackagingChoice | null {
         dimensionsLabel: live.dimensionsLabel,
         priceLabel: live.priceLabel,
         imageSrc: live.imageSrc,
+        packagingKind: live.packagingKind,
       };
     }
     // Stale selected id — fall back to pending so the draft remains usable
@@ -131,11 +133,14 @@ function normalizeCustomization(value: unknown): BoxCustomization {
     logo,
     giftMessage: String(raw.giftMessage ?? ""),
     personalizationNotes: String(raw.personalizationNotes ?? ""),
-    numberOfBoxes: Number.isFinite(boxes) && boxes >= 1 ? Math.floor(boxes) : 1,
+    numberOfBoxes: Number.isFinite(boxes) && boxes >= 25 ? Math.floor(boxes) : 25,
     occasion: String(raw.occasion ?? ""),
     budgetPerBox: String(raw.budgetPerBox ?? ""),
     packagingInstructions: String(raw.packagingInstructions ?? ""),
     deliveryRequirements: String(raw.deliveryRequirements ?? ""),
+    dispatchType: ["single-city", "multi-point", "international"].includes(String(raw.dispatchType))
+      ? raw.dispatchType as BoxCustomization["dispatchType"]
+      : "",
   };
 }
 
@@ -159,7 +164,7 @@ export function readBoxDraft(): BoxDraft {
     const products = Array.isArray(parsed.products)
       ? parsed.products.filter(isProduct).map((item) => ({
           ...item,
-          quantityPerBox: Math.max(1, Math.floor(item.quantityPerBox)),
+          quantityPerBox: Math.max(boxQtyPerBoxFloor(), Math.floor(item.quantityPerBox)),
           amountInr:
             typeof item.amountInr === "number" && Number.isFinite(item.amountInr)
               ? item.amountInr
@@ -167,7 +172,8 @@ export function readBoxDraft(): BoxDraft {
         }))
       : [];
     return {
-      step: isStep(parsed.step) ? parsed.step : "packaging",
+      // Removed the standalone customisation step; saved drafts begin at products.
+      step: isStep(parsed.step) ? parsed.step : "products",
       packaging: normalizePackaging(parsed.packaging),
       products,
       customization: normalizeCustomization(parsed.customization),
@@ -215,10 +221,13 @@ export function getBoxProductQuantity(id: string, draft?: BoxDraft) {
   return source.products.find((item) => item.id === id)?.quantityPerBox ?? 0;
 }
 
-/** Units inside one gift kit — always at least 1. Never use supplier MOQ here. */
+/** Minimum units of each selected product in every complete gift kit. */
 function boxQtyPerBoxFloor() {
   return 1;
 }
+
+/** Minimum number of complete gift kits in a programme. */
+export const MIN_BOXES = 25;
 
 /**
  * Supplier minimum order quantity applies to total units across the programme
@@ -230,7 +239,16 @@ export function programmeUnitTotal(
 ) {
   return (
     Math.max(boxQtyPerBoxFloor(), Math.floor(quantityPerBox) || 1) *
-    Math.max(1, Math.floor(numberOfBoxes) || 1)
+    Math.max(MIN_BOXES, Math.floor(numberOfBoxes) || MIN_BOXES)
+  );
+}
+
+/** Supplier MOQs apply across the complete programme, not to each kit. */
+export function boxSupplierMinimumShortfalls(draft: BoxDraft) {
+  const boxes = Math.max(MIN_BOXES, draft.customization.numberOfBoxes);
+  return draft.products.filter((item) =>
+    typeof item.minQuantity === "number" && item.minQuantity > 0 &&
+    item.quantityPerBox * boxes < item.minQuantity,
   );
 }
 
@@ -306,8 +324,8 @@ export function updateBoxCustomization(
   const customization = { ...draft.customization, ...patch };
   if (typeof patch.numberOfBoxes === "number") {
     customization.numberOfBoxes = Math.max(
-      1,
-      Math.floor(patch.numberOfBoxes) || 1,
+      MIN_BOXES,
+      Math.floor(patch.numberOfBoxes) || MIN_BOXES,
     );
   }
   writeBoxDraft({ ...draft, customization });
@@ -351,6 +369,8 @@ export function estimateBoxPricing(draft: BoxDraft): BoxPriceEstimate {
 
   const allLinesPriced =
     draft.products.length > 0 && unpricedLineCount === 0;
+  // Packaging and assembly costs are confirmed by the team in the quote.
+  const packagingPerBoxInr = null;
 
   return {
     pricedSubtotalInr:
@@ -358,6 +378,8 @@ export function estimateBoxPricing(draft: BoxDraft): BoxPriceEstimate {
     pricedLineCount,
     unpricedLineCount,
     allLinesPriced,
+    packagingPerBoxInr,
+    packagingTotalInr: packagingPerBoxInr === null ? null : packagingPerBoxInr * boxes,
   };
 }
 
@@ -426,18 +448,19 @@ export function syncBoxDraftToBrief(draft: BoxDraft) {
       }
     : null;
 
+  const current = readBrief();
+  const previous = current.sources.box;
+  const owned = (value: string, old: string | null | undefined, next: string) =>
+    !value.trim() || (previous && value === (old || '')) ? next : undefined;
   writeBrief({
-    occasion: draft.customization.occasion,
-    budget: draft.customization.budgetPerBox
-      ? `${draft.customization.budgetPerBox} per box`
-      : undefined,
+    fieldMode: 'replace',
+    occasion: owned(current.occasion, previous?.occasion, draft.customization.occasion),
+    budget: owned(current.budgetPerRecipient, previous?.budgetPerBox ? `${previous.budgetPerBox} per box` : '', draft.customization.budgetPerBox ? `${draft.customization.budgetPerBox} per box` : ''),
     // numberOfBoxes stays on sources.box — do not overwrite programme recipientCount
-    branding: draft.customization.brandingRequirements || undefined,
-    packagingPrefs:
-      packagingSummary(draft.packaging) !== "Not chosen yet"
-        ? packagingSummary(draft.packaging)
-        : draft.customization.packagingInstructions || undefined,
-    delivery: draft.customization.deliveryRequirements || undefined,
+    branding: owned(current.branding, previous?.brandingRequirements, draft.customization.brandingRequirements),
+    packagingPrefs: owned(current.packagingPrefs, previous?.packagingSummary, packagingSummary(draft.packaging) !== 'Not chosen yet' ? packagingSummary(draft.packaging) : draft.customization.packagingInstructions),
+    delivery: owned(current.deliveryLocation, previous?.deliveryRequirements, draft.customization.deliveryRequirements),
+    dispatchType: draft.customization.dispatchType || "unsure",
     contact: {
       name: draft.contact.name || undefined,
       company: draft.contact.company || draft.customization.companyName || undefined,
@@ -480,6 +503,7 @@ export function buildBoxQuotationPrepText(draft: BoxDraft): string {
     "",
     "Packaging",
     packagingSummary(draft.packaging),
+    `Packaging estimate: ${estimate.packagingPerBoxInr === null ? "To be confirmed" : `${formatInr(estimate.packagingPerBoxInr)} per kit × ${draft.customization.numberOfBoxes} kits = ${formatInr(estimate.packagingTotalInr ?? 0)}`}`,
     "",
     "Box contents (quantity per box)",
   ];
@@ -509,6 +533,7 @@ export function buildBoxQuotationPrepText(draft: BoxDraft): string {
     `Personalisation notes: ${draft.customization.personalizationNotes || "—"}`,
     `Special packaging instructions: ${draft.customization.packagingInstructions || "—"}`,
     `Delivery requirements: ${draft.customization.deliveryRequirements || "—"}`,
+    `Dispatch plan: ${draft.customization.dispatchType === "single-city" ? "One delivery point in one city" : draft.customization.dispatchType === "multi-point" ? "Multiple delivery points" : draft.customization.dispatchType === "international" ? "International dispatch" : "Not selected"}`,
   );
 
   if (draft.customization.logo) {
@@ -531,7 +556,7 @@ export function buildBoxQuotationPrepText(draft: BoxDraft): string {
     lines.push("No verified product subtotal available yet.");
   }
   lines.push(
-    "Quantity discounts, taxes/GST, shipping, packaging, and customisation charges require confirmation.",
+    "Quantity discounts, taxes/GST, shipping, and customisation charges require confirmation.",
     "This is not a final price.",
     "",
     "Contact",
@@ -553,20 +578,18 @@ export function stepIndex(step: BoxStep) {
 export function canEnterStep(draft: BoxDraft, step: BoxStep): boolean {
   const target = stepIndex(step);
   if (target <= 0) return true;
-  // Packaging must be chosen (including honest pending / explicit skip) before later steps
-  if (!draft.packaging && target >= stepIndex("products")) return false;
-  if (target >= stepIndex("customize") && draft.products.length === 0) {
+  if (target >= stepIndex("packaging") && draft.products.length === 0) {
     return false;
   }
   if (target >= stepIndex("review")) {
-    if (!draft.customization.companyName.trim()) return false;
-    if (!draft.customization.occasion.trim()) return false;
-    if (draft.customization.numberOfBoxes < 1) return false;
+    if (draft.customization.numberOfBoxes < MIN_BOXES) return false;
+    if (!draft.packaging) return false;
   }
   if (target >= stepIndex("quote")) {
-    // Soft-gate Quote: packaging + products + customize fields (audit D06)
+    // Packaging is the final decision before preparing a quotation request.
     if (!draft.packaging) return false;
     if (draft.products.length === 0) return false;
+    if (boxSupplierMinimumShortfalls(draft).length > 0) return false;
     return canEnterStep(draft, "review");
   }
   return true;

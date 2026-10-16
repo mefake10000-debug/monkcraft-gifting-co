@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AddToBoxButton } from "@/components/box/AddToBoxButton";
-import { CompareButton } from "@/components/catalogue/CompareButton";
+import { FavouriteButton } from "@/components/catalogue/FavouriteButton";
 import { ShortlistButton } from "@/components/catalogue/ShortlistButton";
 import { formatPricing } from "@/lib/pricing";
 import type { GiftFinderMatch } from "@/lib/giftFinder/types";
@@ -71,11 +71,7 @@ export function FinderMatchCard({
           initiallyShortlisted={shortlisted}
           className="finder-match__shortlist"
         />
-        <CompareButton
-          compact
-          snapshot={snapshot}
-          className="finder-match__compare"
-        />
+        <FavouriteButton id={product.id} name={product.name} />
       </div>
 
       <div className="finder-match__body">

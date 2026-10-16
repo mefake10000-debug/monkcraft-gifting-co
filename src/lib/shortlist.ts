@@ -5,6 +5,16 @@ import type { ShortlistItem } from "@/data/catalogue/types";
 const STORAGE_KEY_V2 = "monkcraft-shortlist-v2";
 const STORAGE_KEY_V1 = "monkcraft-shortlist-v1";
 export const SHORTLIST_EVENT = "monkcraft:shortlist";
+export const MIN_STANDARD_PRODUCT_QUANTITY = 5;
+
+export function standardProductQuantityFloor(minQuantity?: number): number {
+  return Math.max(
+    MIN_STANDARD_PRODUCT_QUANTITY,
+    Number.isFinite(minQuantity) && minQuantity && minQuantity > 0
+      ? Math.floor(minQuantity)
+      : 0,
+  );
+}
 
 function emit() {
   window.dispatchEvent(new CustomEvent(SHORTLIST_EVENT));
@@ -52,7 +62,10 @@ export function readShortlist(): ShortlistItem[] {
       if (Array.isArray(parsed)) {
         return parsed.filter(isItem).map((item) => ({
           ...item,
-          quantity: Math.max(1, Math.floor(item.quantity)),
+          quantity: Math.max(
+            standardProductQuantityFloor(item.minQuantity),
+            Math.floor(item.quantity),
+          ),
         }));
       }
     }
@@ -107,9 +120,7 @@ export function addToShortlist(snapshot: ShortlistSnapshot): ShortlistItem[] {
   if (existing) {
     return current;
   }
-  const min = snapshot.minQuantity && snapshot.minQuantity > 0
-    ? snapshot.minQuantity
-    : 1;
+  const min = standardProductQuantityFloor(snapshot.minQuantity);
   const quantity = Math.max(min, snapshot.quantity ?? min);
   const next = [
     ...current,
@@ -119,6 +130,7 @@ export function addToShortlist(snapshot: ShortlistSnapshot): ShortlistItem[] {
       name: snapshot.name,
       imageSrc: snapshot.imageSrc,
       priceLabel: snapshot.priceLabel,
+      amountInr: snapshot.amountInr,
       minQuantity: snapshot.minQuantity,
       quantity,
       categoryName: snapshot.categoryName,
@@ -160,7 +172,7 @@ export function setShortlistQuantity(
 ): ShortlistItem[] {
   const next = readShortlist().map((item) => {
     if (item.id !== id) return item;
-    const min = item.minQuantity && item.minQuantity > 0 ? item.minQuantity : 1;
+    const min = standardProductQuantityFloor(item.minQuantity);
     return { ...item, quantity: Math.max(min, Math.floor(quantity) || min) };
   });
   writeShortlist(next);

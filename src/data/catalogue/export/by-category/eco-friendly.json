@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C7",
+    "code": "C7",
+    "name": "Eco-Friendly",
+    "slug": "eco-friendly",
+    "path": "eco-friendly",
+    "sortOrder": 7
+  },
+  "productCount": 33,
+  "subcategoryCount": 2,
+  "subcategories": [
+    {
+      "id": "C7:recycled",
+      "categoryId": "C7",
+      "name": "Recycled",
+      "slug": "recycled",
+      "path": "eco-friendly/recycled",
+      "sortOrder": 1,
+      "productCount": 1,
+      "dataFile": "by-subcategory/eco-friendly/recycled.json"
+    },
+    {
+      "id": "C7:upcycled",
+      "categoryId": "C7",
+      "name": "Upcycled",
+      "slug": "upcycled",
+      "path": "eco-friendly/upcycled",
+      "sortOrder": 2,
+      "productCount": 32,
+      "dataFile": "by-subcategory/eco-friendly/upcycled.json"
+    }
+  ]
+}

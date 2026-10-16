@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C6",
+    "code": "C6",
+    "name": "Wellness & Organic",
+    "slug": "wellness-organic",
+    "path": "wellness-organic",
+    "sortOrder": 6
+  },
+  "productCount": 36,
+  "subcategoryCount": 3,
+  "subcategories": [
+    {
+      "id": "C6:plants-green",
+      "categoryId": "C6",
+      "name": "Plants & Green",
+      "slug": "plants-green",
+      "path": "wellness-organic/plants-green",
+      "sortOrder": 1,
+      "productCount": 1,
+      "dataFile": "by-subcategory/wellness-organic/plants-green.json"
+    },
+    {
+      "id": "C6:self-care",
+      "categoryId": "C6",
+      "name": "Self-Care",
+      "slug": "self-care",
+      "path": "wellness-organic/self-care",
+      "sortOrder": 2,
+      "productCount": 24,
+      "dataFile": "by-subcategory/wellness-organic/self-care.json"
+    },
+    {
+      "id": "C6:tea-infusions",
+      "categoryId": "C6",
+      "name": "Tea & Infusions",
+      "slug": "tea-infusions",
+      "path": "wellness-organic/tea-infusions",
+      "sortOrder": 3,
+      "productCount": 11,
+      "dataFile": "by-subcategory/wellness-organic/tea-infusions.json"
+    }
+  ]
+}

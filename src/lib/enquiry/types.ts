@@ -20,6 +20,7 @@ export type EnquiryProgramme = {
   branding?: string;
   packagingPrefs?: string;
   deliveryDate?: string;
+  dispatchType?: "single-city" | "multi-point" | "international" | "unsure";
   deliveryLocation?: string;
   notes?: string;
 };

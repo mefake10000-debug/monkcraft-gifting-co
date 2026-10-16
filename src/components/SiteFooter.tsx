@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "@/components/Reveal";
+import { getContactChannels } from "@/lib/contactConfig";
+import { buildWhatsAppHref } from "@/lib/whatsapp";
 
 const footerLinks = [
   { href: "/gifts", label: "Gifts catalogue" },
   { href: "/gifts/find", label: "Gift Finder" },
   { href: "/gifts/box", label: "Build a Box" },
-  { href: "/gifts/compare", label: "Compare gifts" },
+  { href: "/gifts/favourites", label: "Saved gifts" },
   { href: "/studio", label: "Studio" },
   { href: "/company-stores", label: "Company Stores" },
   { href: "/gifts/brief", label: "My Brief" },
@@ -16,6 +18,7 @@ const footerLinks = [
 ] as const;
 
 export function SiteFooter() {
+  const channels = getContactChannels();
   return (
     <footer className="site-footer" id="contact">
       <div className="site-footer__inner">
@@ -52,11 +55,9 @@ export function SiteFooter() {
           <Link className="site-footer__button site-footer__button--ghost" href="/#enquire">
             Talk to Monkcraft
           </Link>
-          <p className="site-footer__legal">
-            Legal pages and a public contact email will appear here once supplied.
-            Online enquiry delivery activates when a verified inbox, booking URL,
-            or WhatsApp number is configured.
-          </p>
+          <p className="site-footer__legal">Questions about a quote? Contact Monkcraft directly.</p>
+          {channels.enquiryEmail ? <a href={`mailto:${channels.enquiryEmail}`}>{channels.enquiryEmail}</a> : null}
+          {channels.whatsappE164 ? <a href={buildWhatsAppHref("Hello Monkcraft, I have a question about corporate gifting.", channels.whatsappE164) ?? undefined} target="_blank" rel="noopener noreferrer">WhatsApp +91 74832 21188</a> : null}
         </Reveal>
       </div>
     </footer>

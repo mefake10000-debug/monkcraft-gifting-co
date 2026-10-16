@@ -1,0 +1,3167 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C6",
+    "code": "C6",
+    "name": "Wellness & Organic",
+    "slug": "wellness-organic",
+    "path": "wellness-organic",
+    "sortOrder": 6
+  },
+  "subcategory": {
+    "id": "C6:self-care",
+    "categoryId": "C6",
+    "name": "Self-Care",
+    "slug": "self-care",
+    "path": "wellness-organic/self-care",
+    "sortOrder": 2
+  },
+  "categoryProductCount": 36,
+  "productCount": 24,
+  "products": [
+    {
+      "slug": "absolute-rose-soap-bar",
+      "title": "Absolute Rose Soap Bar",
+      "sku": "MGC-3055",
+      "brand": {
+        "name": "THE BARE BAR OFFICIAL",
+        "slug": "the-bare-bar-official"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "When we make a rose soap, we do not want the rose to exist only in the fragrance. The Bare Bar Rose Soap contains real rose petal powder and rose clay, along with rose, geranium, cedarwood and clove essential oils. Rose clay gently draws out impurities and excess oil without making the cleanse feel overly harsh. Geranium helps balance oil production, which makes this a useful bar for skin that feels oily in some areas and dry in others. At the same time, kokum butter and our five-oil base deeply",
+      "shortDescription": "When we make a rose soap, we do not want the rose to exist only in the fragrance. The Bare Bar Rose Soap contains real rose petal powder and rose clay, along with rose, geranium, cedarwood and clove essential oils. Rose clay gently draws out impurities and excess oil without making the cleanse feel overly harsh. Geranium helps balance oil production, which makes this a useful bar for skin that feels oily in some areas and dry in others. At the same time, kokum butter and our five-oil base deeply",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3055",
+        "Product Code": "MGC-3055"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 350.0,
+        "amountMinorUnits": 35000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 350.0,
+            "amountMinorUnits": 35000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609853
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/0-master-50b03bb933a5.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "eb84e4f4162eb3c97356c73ef41328a0c946e0a859525f85c1a9a792fe39d20e"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/1-angle-491e6c0ba962.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1bc159509e9cb7cab70fec65f28b7ae5f5d045f6a3abfb7b244dae017dc98fe8"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/2-angle-5724d77b824c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2b9138358063cd5ec1c4dc4aad74ccabcf8f613d3d8ff7964cd9e639504d5a5d"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/3-angle-01404271fb6b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2c5a218f799013d6b7e600c2c750f478815a5ce2efcbaa889f3501e1ce49942d"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/4-angle-08e27da6950a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b884aea12eb75091a617cf36c56c764e79ea9e0c498b7c2e71f273c4b119db2c"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/5-angle-5430c14ea5c5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "23034d13fef74769ac5931bb539d66ac638b8e8c46d687f7d2ddc53f56c2cc03"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/6-angle-4b2443da9aa7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "25fa37aecf384626d03b922ec9d6ac8458adff1ecbf461f44cb8971a29a4cf2e"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/7-angle-02980e487ca9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d4daee8ab4ac3302ae421fbf0a5b43a5b70f7d6a795ae60ec5e80ba2a0b535b8"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/8-angle-b12bd9481af7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "09c9d78bdc9b6e66bb9faad0fdfc48a7e86e63939a9fdab1cc09c66d1f8b9328"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/absolute-rose-soap-bar/9-angle-8c06e369297c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6629688060a96257bc562454817203815371b41f22c9b0e8d4c0dcb023b1cbe1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5",
+      "title": "Alpha 2.0 Edition – Premium Ankle Socks with Combed Cotton & Spandex (Unisex)",
+      "sku": "MGC-3052",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "shortDescription": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3052",
+        "Product Code": "MGC-3052"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 999.0,
+        "amountMinorUnits": 99900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 999.0,
+            "amountMinorUnits": 99900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609842
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5/0-master-aafadcaee5ce.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1109,
+          "height": 1109,
+          "format": "webp",
+          "sha256": "54fbdb800d664e6b3e79e4016a426ee78e7b256c9298a115205ae09ae85511e9"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5/1-angle-f1d02f914a62.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "39a627962029e81967cb7838617781ed6e2c8adeb5a2f393aa7ec3bace68cc51"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5/2-angle-e808c505762c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d40cac59d6859eabd334df9b0833ceb9e7903436ecc676cea54dc4ddda1920ce"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5/3-angle-b6c2c30888ca.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f40703ad3e6a1ee594eeaee2585764b034e3b521eed148e568607d50760f7377"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5/4-angle-df27a4220ac5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "bf0aa09347c1ad5a56d727245ea3b29d60e9a15d8f04f87390cbe869ed296c31"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5/5-angle-f34ba91a3ee9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3493b3714b6f2e324181737a5a0a164ab9ed6d15f70b262ea03378be02543351"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/alpha-2-0-ankle-socks-combed-cotton-unisex-pack-of-5/6-angle-b46a765acbbc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6469bb54f3223f6a4f4710bb2fe9d5ace5e5f49310c5a7ef8a0f0e5db7f36aa8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "fuzo-kollar-neck-pillow-with-massager-grey",
+      "title": "Fuzo Kollar Neck Pillow with Massager - Grey",
+      "sku": "MGC-3036",
+      "brand": {
+        "name": "Fuzo",
+        "slug": "fuzo"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Fuzo Kollar Neck Pillow with Massager - Grey — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Fuzo Kollar Neck Pillow with Massager - Grey — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3036",
+        "Color": "Grey",
+        "Brand": "Fuzo",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Filled with Memory Foam",
+        "Product Code": "MGC-3036"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1920.0,
+        "amountMinorUnits": 192000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1920.0,
+            "amountMinorUnits": 192000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609790
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/fuzo-kollar-neck-pillow-with-massager-grey/0-master-7ea25d1acc4b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "db383cb3e7519ee1368164bbbf6991bca3f595a86fcbe0e23a06ccd38ce4f79d"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/fuzo-kollar-neck-pillow-with-massager-grey/1-angle-4656c218e2c8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "db0c437f5fa116f77c3bf564f65880036bde42a734d72e74888e3f21e971c179"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/fuzo-kollar-neck-pillow-with-massager-grey/2-angle-41c724234ffe.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "66736bfb2bf2740a285764e8c9858765d4e40fe9e293c688cc612adfbe7b424c"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/fuzo-kollar-neck-pillow-with-massager-grey/3-angle-93aa8f38a368.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a7b9b14222d45f8bf894a00326e1f9f93da292a56835ed54f2fbba3d35072003"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/fuzo-kollar-neck-pillow-with-massager-grey/4-angle-a308231f1258.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ea8579cecf129b5c6bf91cfdc408cdfd298313a80cd7cc45f936db5f80024c1c"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/fuzo-kollar-neck-pillow-with-massager-grey/5-angle-3227976695d8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c960b52b9970ba85c3f8d191c8caf87f537321f0925fbfdb508dc0b5f0b616a3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "silicon-grip-sock",
+      "title": "Grip Socks for Yoga, Gym & Sports — Anti-Slip Silicon Sole",
+      "sku": "MGC-3051",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "shortDescription": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3051",
+        "Product Code": "MGC-3051"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 699.0,
+        "amountMinorUnits": 69900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 699.0,
+            "amountMinorUnits": 69900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609839
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/0-master-094ae600aa05.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3b4d16c3618925435774070f2dafcdf2bb797af9ca62478a4913a3545465f742"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/1-angle-11e2613ef094.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "0bd613fdf797a8179de239aa57f9a4776f08773a1983beaf685b2b345eeba6b9"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/2-angle-d2d8d3a6122a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "268018c8267535bde293a1828fd864cd24c85e422d7ee3cefafb9710f1173d08"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/3-angle-8fda5364a517.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "5227e2b2be43f5920a0f231323d1550d26919b329584d42a55f445dfb4cb4f96"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/4-angle-7af2b5a31d8d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "4acee775f967386139a94e5b5de43992023546096edaedda5dca63b54ec7ea2d"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/5-angle-758ae635efcf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "ae924896ff7a5d84f5507430754266a51b47b75aa3440a7e248d6c6f22d8cb61"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/6-angle-12c1dee20823.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "3f687687887df532a3cd1df5a42c9ac0859a10bddf791137248f5d26c1bfb2e7"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/7-angle-58640a415bd0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "1ed8a58a72ae264a5d144bc43083a8d81afd6df71750ad675727359e32d9cb74"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/8-angle-fe892accdbfa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "11777d2f0b6ff77fb0c5057124b6c701cb8f2b02e1aac499e5e9217485b3d6bd"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/silicon-grip-sock/9-angle-f80c52cccfda.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "d878e4da0d925fedc004182f9e2461f9d03e597dd043ae299f9900bc5b26a1ed"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "kashmiri-lavender-soap-bar-mini-pack-of-2",
+      "title": "Kashmiri Lavender Soap Bar - Mini, Pack of 2",
+      "sku": "MGC-3056",
+      "brand": {
+        "name": "THE BARE BAR OFFICIAL",
+        "slug": "the-bare-bar-official"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. ADDED ON THE DATA - joint #1 on units at 213 and growing 59% Jun to Aug. It was the largest SKU with no pack of its own. We made this bar for two things: skin that needs calming, and a mind that needs to slow down at the end of the day. The Bare Bar Lavender Soap is made with lavender, geranium, patchouli and clove essential oils alongside an alkanet root infusion. Lavender and geranium help soothe irritation, sensitivity ",
+      "shortDescription": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. ADDED ON THE DATA - joint #1 on units at 213 and growing 59% Jun to Aug. It was the largest SKU with no pack of its own. We made this bar for two things: skin that needs calming, and a mind that needs to slow down at the end of the day. The Bare Bar Lavender Soap is made with lavender, geranium, patchouli and clove essential oils alongside an alkanet root infusion. Lavender and geranium help soothe irritation, sensitivity ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3056",
+        "Product Code": "MGC-3056"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 398.0,
+        "amountMinorUnits": 39800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 398.0,
+            "amountMinorUnits": 39800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609856
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/0-master-839a8bf30e95.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "55c1f46b33b4f378ddf55d361a8a63b31b3ba55836e3d1a34f0628b44ed85d21"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/1-angle-cbb34c7f2d2d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f0d62e243d2cadcfaf2f909fa241e83daed82d96d2403f8566262a0368282935"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/2-angle-6ec7c9b28775.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e43af96446302d317b387738120e1514d2795571f1ddd1ee9889e62a7f288e7f"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/3-angle-b12bd9481af7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "09c9d78bdc9b6e66bb9faad0fdfc48a7e86e63939a9fdab1cc09c66d1f8b9328"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/4-angle-8ae6fd79b8b9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "661d367ebddbb6251be192fd286f061c8b0ed23f0df18585f78eb188d59faa8b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/5-angle-62de8a6d06c6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4873a1721136d5c9dc719975b85510e80664735e164ac7892f9012553e0c0008"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/6-angle-ebc2d8a7894a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2bb68098fc754401e85f5ef8fbd5d97e215c5dbda22092abee1255c80604489f"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/7-angle-60a9bb9f93ff.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b9884897cd1a975641dc9b1dc807df6472b5b6ecce15056b4ce4e1a434deeb0b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/8-angle-5f1eb9523db9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "87588907776acc032d09d6b323def65454cedeebc514fc1b266a12cce32ebaa4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/kashmiri-lavender-soap-bar-mini-pack-of-2/9-angle-90b5f8f9cbe0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6c64f476daccdf6eaa01b7082119ca5081b9e7466ff123cc0b9edb6d743a89f2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "mcaffeine-coffee-de-stress-gift-kit",
+      "title": "mCaffeine Coffee De-Stress Gift Kit",
+      "sku": "MGC-3039",
+      "brand": {
+        "name": "mCaffeine",
+        "slug": "mcaffeine"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "mCaffeine Coffee De-Stress Gift Kit — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "mCaffeine Coffee De-Stress Gift Kit — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3039",
+        "Gender": "Unisex",
+        "Brand": "mCaffeine",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3039"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1015.0,
+        "amountMinorUnits": 101500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1015.0,
+            "amountMinorUnits": 101500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609799
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-coffee-de-stress-gift-kit/0-master-b912a5e8e2fe.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0b56dcc3c6685efd3f1ac05eda6dc22bf5457a29bbb1855d8e83f9938230b826"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-coffee-de-stress-gift-kit/1-angle-41d94531b6ef.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "41ca7b53baccc510408c3fadded88b4e8183b65abfcf51e6616d271864d26326"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-coffee-de-stress-gift-kit/2-angle-71154ef5b93a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2f0885465c39a3c75286385e42868f05cbedd8e7b2d7db7afccc855afb8de0f4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "mcaffeine-coffee-shower-temptations-gift-kit",
+      "title": "mCaffeine Coffee Shower Temptations Gift Kit",
+      "sku": "MGC-3040",
+      "brand": {
+        "name": "mCaffeine",
+        "slug": "mcaffeine"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "mCaffeine Coffee Shower Temptations Gift Kit — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "mCaffeine Coffee Shower Temptations Gift Kit — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3040",
+        "Gender": "Unisex",
+        "Brand": "mCaffeine",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3040"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1065.0,
+        "amountMinorUnits": 106500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1065.0,
+            "amountMinorUnits": 106500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609803
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-coffee-shower-temptations-gift-kit/0-master-38a9c12587a6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5ee8dc732077d4fa98b9fa2cb5af35e071b73e9fef495406eb5fbf437b054b3a"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-coffee-shower-temptations-gift-kit/1-angle-d9ad9a55a208.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "18fa394d8130f7b7e1cdc7dcd29f4ecc1fcaf9ebc2cda579472f433806592205"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "mcaffeine-naked-raw-coffee-moment-skin-care-gift-kit",
+      "title": "mCaffeine Naked & Raw Coffee Moment Skin Care Gift Kit",
+      "sku": "MGC-3041",
+      "brand": {
+        "name": "mCaffeine",
+        "slug": "mcaffeine"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "mCaffeine Naked & Raw Coffee Moment Skin Care Gift Kit — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "mCaffeine Naked & Raw Coffee Moment Skin Care Gift Kit — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3041",
+        "Gender": "Unisex",
+        "Brand": "mCaffeine",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3041"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1225.0,
+        "amountMinorUnits": 122500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1225.0,
+            "amountMinorUnits": 122500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609807
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-naked-raw-coffee-moment-skin-care-gift-kit/0-master-b1ef12a5720d.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c61ebbb4e52abaa32ebd9ff328f95075c22ee8a749fe2c965d5ad282a0d63521"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-naked-raw-coffee-moment-skin-care-gift-kit/1-angle-8cac651fa37a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9db958852db7b2c166901411b15e848f66c2bebb35977badd6d2efee296788ed"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-naked-raw-coffee-moment-skin-care-gift-kit/2-angle-ddb310e98bd7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "424a69622b7776adcc6183f0192d5078a23b061f5dd6a89f4cadd4ca180ff336"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "mcaffeine-rush-perfume-gift-set-for-women",
+      "title": "mCaffeine Rush Perfume Gift Set for Women",
+      "sku": "MGC-3038",
+      "brand": {
+        "name": "mCaffeine",
+        "slug": "mcaffeine"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "mCaffeine Rush Perfume Gift Set for Women — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "mCaffeine Rush Perfume Gift Set for Women — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3038",
+        "Gender": "Female",
+        "Brand": "mCaffeine",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3038"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 765.0,
+        "amountMinorUnits": 76500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 765.0,
+            "amountMinorUnits": 76500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609796
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-rush-perfume-gift-set-for-women/0-master-78f5136f1b54.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8f15745413f6594b736ca36c1978b577640e55aa1ae1fa27c554dab5e9086b9e"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-rush-perfume-gift-set-for-women/1-angle-d68ee00222d8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a617e76e06f66f59595bfc2f30207f2797cecbe92fc4984004941e717e0f4bab"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "mcaffeine-unisex-perfume-gift-set-for-women",
+      "title": "mCaffeine Unisex Perfume Gift Set for Women",
+      "sku": "MGC-3037",
+      "brand": {
+        "name": "mCaffeine",
+        "slug": "mcaffeine"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "mCaffeine Unisex Perfume Gift Set for Women — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "mCaffeine Unisex Perfume Gift Set for Women — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3037",
+        "Gender": "Unisex",
+        "Brand": "mCaffeine",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3037"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 675.0,
+        "amountMinorUnits": 67500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 675.0,
+            "amountMinorUnits": 67500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609793
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/mcaffeine-unisex-perfume-gift-set-for-women/0-master-e5faefe0145b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4fbf41c5b1f6c77c816785f29df002433d018ab05b9d2317a8ca82331dd9a6fe"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "peppermint-soap-bar-mini-pack-of-2",
+      "title": "Peppermint Soap Bar - Mini, Pack of 2",
+      "sku": "MGC-3057",
+      "brand": {
+        "name": "THE BARE BAR OFFICIAL",
+        "slug": "the-bare-bar-official"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. Your #1 Amazon soap - 22 of 77 units, 28.6% share, more than double the next bar. The obvious first mini pack on that channel. Sweat itself is normal. The oil, grime, sunscreen and deodorant residue left sitting on the skin are what need to be properly washed away. The key ingredient here is kaolin clay. It helps draw out excess oil and cleanse the buildup that collects around the underarms, back, chest and shoulders - esp",
+      "shortDescription": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. Your #1 Amazon soap - 22 of 77 units, 28.6% share, more than double the next bar. The obvious first mini pack on that channel. Sweat itself is normal. The oil, grime, sunscreen and deodorant residue left sitting on the skin are what need to be properly washed away. The key ingredient here is kaolin clay. It helps draw out excess oil and cleanse the buildup that collects around the underarms, back, chest and shoulders - esp",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3057",
+        "Product Code": "MGC-3057"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 398.0,
+        "amountMinorUnits": 39800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 398.0,
+            "amountMinorUnits": 39800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609859
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/0-master-06c55fbbcb40.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7e55a39e56ca9aee5d5e94c623698a660f9b584e61e93c2b32f67a4196162c75"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/1-angle-44c8d1f20b84.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fea3e9f55275ce272981f0b2713cd387b612333e1bed11b6184afd429bc305d6"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/2-angle-166b4c4b7b0a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8b80cfe6fd800256b8e45517a6002df51b3f75e41f30885af638707d01b7c1ad"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/3-angle-b12bd9481af7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "09c9d78bdc9b6e66bb9faad0fdfc48a7e86e63939a9fdab1cc09c66d1f8b9328"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/4-angle-583fac38061a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "505b6c414913352b49faa46fa64453f6bc2177c7051e113e52e3141ac54c45fd"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/5-angle-ad9b1ca72b89.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "17d5cc0d7eaaaf60231d4c4ec0dcfcb1b493bd9508b684707d42c4ffd48bbdd2"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/6-angle-d7aaf5c08178.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ef62ae95606c9b4bc7ea7dee29f9e5f48c8cbdf07d5735799db51933ac0af41c"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/7-angle-5f1eb9523db9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "87588907776acc032d09d6b323def65454cedeebc514fc1b266a12cce32ebaa4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/peppermint-soap-bar-mini-pack-of-2/8-angle-8b6532284a46.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "265458738f96d4125e8f8aef472d107fd969a8a005918beabdce176219afd8b5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "remaxx-rechargeable-massager-cushion-beige",
+      "title": "Remaxx Rechargeable Massager Cushion- Beige",
+      "sku": "MGC-3047",
+      "brand": {
+        "name": "Remaxx",
+        "slug": "remaxx"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Remaxx Rechargeable Massager Cushion- Beige — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Remaxx Rechargeable Massager Cushion- Beige — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3047",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Beige",
+        "Brand": "Remaxx",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Faux leather",
+        "Product Code": "MGC-3047"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1210.0,
+        "amountMinorUnits": 121000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1210.0,
+            "amountMinorUnits": 121000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609826
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-rechargeable-massager-cushion-beige/0-master-e081026fb42a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "69390da3dd5b0cb6091b63cf1f485e0312c794b94c2f107217ea2389301ac4d5"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-rechargeable-massager-cushion-beige/1-angle-02ebe5c0f297.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bdfc4d57d43a49c0d50ce6ef21f42d24096f3ba8006118d3d0252ded9de0836d"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-rechargeable-massager-cushion-beige/2-angle-8e55860b950e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "54ef07d2f0b4d9c9fce7f4254b72f6e693ffe32980d749d3a824316e9952973a"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-rechargeable-massager-cushion-beige/3-angle-eafaf873e20b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c387d6893331c4177aace6b02baacddd827dd7f5192addc8cde9efa772f26bb4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-rechargeable-massager-cushion-beige/4-angle-b2f0e24621b3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2246524136f739a8145ea5991a52351b8ca22d1290e7cf166b167610c6daa5c0"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-rechargeable-massager-cushion-beige/5-angle-c1dfc90b6a0b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4feb4da9f78aafa6c55fa14412ff7ab73125d27b6e3e30249ff25fe9959f55c5"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-rechargeable-massager-cushion-beige/6-angle-fcf9a2803e38.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "dd09cedaf702b7338d802edccd0b8b08e3848449e3e45d051b86e4b6013e41f6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "remaxx-travel-neck-pillow-kit-black",
+      "title": "Remaxx Travel Neck Pillow Kit- Black",
+      "sku": "MGC-3046",
+      "brand": {
+        "name": "Remaxx",
+        "slug": "remaxx"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Remaxx Travel Neck Pillow Kit- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Remaxx Travel Neck Pillow Kit- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3046",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Black",
+        "Brand": "Remaxx",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Memory Foam",
+        "Fabric Type": "Soft Velvet Fabric with Luxury Foam",
+        "Product Code": "MGC-3046"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 725.0,
+        "amountMinorUnits": 72500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 725.0,
+            "amountMinorUnits": 72500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609823
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-travel-neck-pillow-kit-black/0-master-a2540e309d5b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "48922e47a382db1a72dd19bafd21dd13c3e8e725355ab81f7df49e5e01a6d7f0"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-travel-neck-pillow-kit-black/1-angle-31b9f482c28f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6b8583387c987383dff085e6c6a228ae27d347e9ef213cf0b481bc01a7a8091e"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-travel-neck-pillow-kit-black/2-angle-8bca1dc9dd8a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f9f0f536e2e88d3a414e58b29752513242812b62fac73c15ca95681974df9287"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-travel-neck-pillow-kit-black/3-angle-c21dc1fdd606.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d57d60197fdbee2c0227d3f3af31f86c3eb63c9b409fde9a5d63e0bc3f6e4218"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-travel-neck-pillow-kit-black/4-angle-4d28b3edfcaf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "829e2025b89c5f976ea8b49b8722d4cb3467273955b284167269cf092c0606df"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-travel-neck-pillow-kit-black/5-angle-7261073e5340.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2cdb2163ddd67aeea9e7dc35c37300cd0713f8d559d9ea69efaaf1f346c797b1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "remaxx-u-shaped-travel-neck-pillow-with-massager-beige",
+      "title": "Remaxx U-Shaped Travel Neck Pillow with Massager- Beige",
+      "sku": "MGC-3048",
+      "brand": {
+        "name": "Remaxx",
+        "slug": "remaxx"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Remaxx U-Shaped Travel Neck Pillow with Massager- Beige — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Remaxx U-Shaped Travel Neck Pillow with Massager- Beige — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3048",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Beige",
+        "Brand": "Remaxx",
+        "Customization Type": "Embroidery",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Memory Foam",
+        "Fabric Type": "Soft Velvet Fabric with Luxury Foam",
+        "Product Code": "MGC-3048"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1315.0,
+        "amountMinorUnits": 131500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1315.0,
+            "amountMinorUnits": 131500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609830
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/0-master-0c2b7389735e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "10d4d93ae7d857dd9241bc46464af786d436aeab47a4ac343554896b3837f825"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/1-angle-a10c0100ff3f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5b8119e38e6d51b91962b85175565680c0683666e0d81209ae34848a0daa53ad"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/2-angle-be8feb4ccc0f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3c91b4fce2bf3e8be8be8af2848b1ce7596304b71919279cd5108df6b0ff7862"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/3-angle-f111911ce06b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "39b22c55e8d1f0bfcb92a5fc7082a3d508fac50fc96a8871d00248d552964190"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/4-angle-c9d250239ab8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ae191cc20e98911c27e49a64c41bc15e7d7fe572ad3c016baab156ed8878a8b0"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/5-angle-5ef81afed907.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "aae4f92075da87680df3e1fb11edb64750877d1e42daffc0437d18ae3b2f4de4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/6-angle-72fe4bf0ebed.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bd10aeb0dede6158826e571dd87986f18f9c75184107ca76a75741c3d33e0f5b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/7-angle-5da422d6589d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "920553164a761bef0912dc79f4a11a1f8c1f892675a7769180604c14f3b578a5"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/8-angle-4ba3ddf07286.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e880d63eea52fa845425808cde0de6a943fba214b9b4447de938659b05efe4a3"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/remaxx-u-shaped-travel-neck-pillow-with-massager-beige/9-angle-fc32ee77b3d0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c117f4a954612284ba23b546818a696f4dccd6c810487291dca80ce19c76db53"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "sandalwood-and-musk-soap-bar",
+      "title": "Sandalwood & Musk Soap Bar",
+      "sku": "MGC-3054",
+      "brand": {
+        "name": "THE BARE BAR",
+        "slug": "the-bare-bar"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Most sandalwood soaps talk only about the fragrance. For us the formulation matters just as much. The Bare Bar Sandalwood &amp; Musk Soap uses real sandalwood powder alongside arrowroot, kokum butter and our blend of five nourishing oils. Sandalwood helps calm visible redness and irritation while gradually improving patchiness and uneven-looking skin tone. The oils and kokum butter nourish dry areas and help prevent that stripped feeling after a wash. Arrowroot gives the bar its soft, smooth, al",
+      "shortDescription": "Most sandalwood soaps talk only about the fragrance. For us the formulation matters just as much. The Bare Bar Sandalwood &amp; Musk Soap uses real sandalwood powder alongside arrowroot, kokum butter and our blend of five nourishing oils. Sandalwood helps calm visible redness and irritation while gradually improving patchiness and uneven-looking skin tone. The oils and kokum butter nourish dry areas and help prevent that stripped feeling after a wash. Arrowroot gives the bar its soft, smooth, al",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3054",
+        "Product Code": "MGC-3054"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 350.0,
+        "amountMinorUnits": 35000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 350.0,
+            "amountMinorUnits": 35000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609848
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/0-master-2c17d673a51d.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "49fc99db1c00631156ff833ff635a01b00c1325757d49a25a29ce2605e0f33fa"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/1-angle-935678ab0bea.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b22310926859279f5ac23b321a79e6bdcfc233603ca2ae0590239d55a45aa202"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/2-angle-e3316937ea37.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c9d4532c0933daff4f7deb2138852a053bdc7a125f76970fd3a73ca42be950ea"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/3-angle-56c47fed31e4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fb56e64121f8a5afd829c5f2dc95728a21507b4499561b2ee9540163ecdb54b7"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/4-angle-a525311e6e42.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "daa66644fb4b3dd27ca58c9334aecaa722bc8d86ef25712542657e041e3db9cc"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/5-angle-6cd3ac67a34a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "751c29671cb2bdaf2a5c216f7fe155db141168188f4573ef511c2b114d3f76a7"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/6-angle-fefa9e7d0a67.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3ecedb7e4d155c5194c783df8601b09412ec3456a38c9dd3ba89d1f7de20b439"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/7-angle-408d8b47cd19.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e9248929eab3f6fd4e21bde465515bde62195b268a7683b7a85aea84fc34edb7"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/9-angle-b12bd9481af7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "09c9d78bdc9b6e66bb9faad0fdfc48a7e86e63939a9fdab1cc09c66d1f8b9328"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-and-musk-soap-bar/10-angle-c9a8d2225614.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c3f69d67ffceb944bb4be0110b569f4d2efb52cdb97c573cf4f69b8b98a54bb9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "sandalwood-musk-soap-bar-mini-pack-of-2",
+      "title": "Sandalwood & Musk Soap Bar - Mini, Pack of 2",
+      "sku": "MGC-3058",
+      "brand": {
+        "name": "THE BARE BAR OFFICIAL",
+        "slug": "the-bare-bar-official"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. Highest revenue bar in the range at Rs 64,336, joint #1 on units, and #1 on Myntra at 36% share. Most sandalwood soaps talk only about the fragrance. For us the formulation matters just as much. The Bare Bar Sandalwood &amp; Musk Soap uses real sandalwood powder alongside arrowroot, kokum butter and our blend of five nourishing oils. Sandalwood helps calm visible redness and irritation while gradually improving patchiness ",
+      "shortDescription": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. Highest revenue bar in the range at Rs 64,336, joint #1 on units, and #1 on Myntra at 36% share. Most sandalwood soaps talk only about the fragrance. For us the formulation matters just as much. The Bare Bar Sandalwood &amp; Musk Soap uses real sandalwood powder alongside arrowroot, kokum butter and our blend of five nourishing oils. Sandalwood helps calm visible redness and irritation while gradually improving patchiness ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3058",
+        "Product Code": "MGC-3058"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 398.0,
+        "amountMinorUnits": 39800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 398.0,
+            "amountMinorUnits": 39800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609862
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/0-master-183731a1f0e8.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "03222a6bb9a9388a2f03b61b792ff05b97db14a81cbdf70e3e8039a4b915658b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/1-angle-d07c8b5df47e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2884578aefccc286ddc1647fec63445c92ca1230d7d1b02171c745bd1562482f"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/2-angle-b62b42ccedfe.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "04d1acdae1503866dd39f6c30e3220009cb72121cb3120d5676a27c9dac44a46"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/3-angle-b12bd9481af7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "09c9d78bdc9b6e66bb9faad0fdfc48a7e86e63939a9fdab1cc09c66d1f8b9328"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/4-angle-78670f297ff0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "47d2d75d5c7289796f62e5dbb594c5914ee9ffcd58e9a46112165931d0878db4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/5-angle-514c802f4a9c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0905f97edce646ff994cbf3635a609ded6957bea82f852dc28589257ba4d1424"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/6-angle-ce29c59576c5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6afa95cbf33a683a7dddc8d6341a3d16f12fb4606a07815064ef6f865643721f"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/7-angle-93f706683703.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ac9b06a62e58c081376061245482999c92cd20e60ac483143951a4171edc890f"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/8-angle-5f1eb9523db9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "87588907776acc032d09d6b323def65454cedeebc514fc1b266a12cce32ebaa4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sandalwood-musk-soap-bar-mini-pack-of-2/9-angle-001d37b6bd9e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "95ff398bef924ac5608e59423eb73b95f8d7c4dd3bcc72e31789e52fc9b1fe42"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "sparkle-coaster-4-4-inches",
+      "title": "Sparkle- Coaster 4* 4 inches",
+      "sku": "MGC-3044",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Sparkle- Coaster 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Sparkle- Coaster 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3044",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "9 x 9 x 0.3 cms",
+        "Product Code": "MGC-3044"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 155.0,
+        "amountMinorUnits": 15500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 155.0,
+            "amountMinorUnits": 15500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609815
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-coaster-4-4-inches/0-master-13855d30db77.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "30493816f526f7160d24770318174d2adfa9a81463d9398aa285a0d0c7b62204"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-coaster-4-4-inches/1-angle-cba755d28e84.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7a8c3b44c754e251527f1fdd02c4610c184ed0e2ef67d283398b83ddbcb9744c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "sparkle-snapdot-fridge-magnet-5-55-5-cms",
+      "title": "Sparkle- Snapdot Fridge Magnet- 5.5*5.5 cms",
+      "sku": "MGC-3043",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Sparkle- Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Sparkle- Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3043",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3043"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 95.0,
+        "amountMinorUnits": 9500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 95.0,
+            "amountMinorUnits": 9500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609812
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-snapdot-fridge-magnet-5-55-5-cms/0-master-23a5af4ecc72.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "478d16f020231f0b386a23ee588b3a0d3d95c6f76622360408cb7becaf237e19"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-snapdot-fridge-magnet-5-55-5-cms/1-angle-fa5e8900d78d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a5965971a768156a18cddb5f82ee4b633c9cc1a3ee961c270d3b32ff19cd4f47"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-snapdot-fridge-magnet-5-55-5-cms/2-angle-4bdc60f99ee8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a789017b4a7b66592552b4dd6f0433573294b511f8a18471e12012b4e82a01e8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "sparkle-snapdot-pin-badge-5-55-5-cms",
+      "title": "Sparkle- Snapdot Pin Badge- 5.5*5.5 cms",
+      "sku": "MGC-3042",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Sparkle- Snapdot Pin Badge- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Sparkle- Snapdot Pin Badge- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3042",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3042"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 65.0,
+        "amountMinorUnits": 6500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 65.0,
+            "amountMinorUnits": 6500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609810
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-snapdot-pin-badge-5-55-5-cms/0-master-4c6140bf7390.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "890af9c860f04cadc920540111f07f619072ac28fa23fe714773d2d72978e90b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-snapdot-pin-badge-5-55-5-cms/1-angle-31659a4f877f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6353713793c41c3f32e46f3c870a2a7f1bf9225921340a83da0d3913aee215e4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-snapdot-pin-badge-5-55-5-cms/2-angle-4bdc60f99ee8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a789017b4a7b66592552b4dd6f0433573294b511f8a18471e12012b4e82a01e8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "sparkle-visionbook-a5-100-pages",
+      "title": "Sparkle- Visionbook| A5 | 100 Pages",
+      "sku": "MGC-3045",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Sparkle- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Sparkle- Visionbook| A5 | 100 Pages — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3045",
+        "Stock Update Date": "11 Sept 2026",
+        "Color": "Beige",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "NS Maplitho Paper",
+        "Dimensions": "14.8W X 21H X 1.5 cms",
+        "Product Code": "MGC-3045"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609817
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-visionbook-a5-100-pages/0-master-b676dca62f0c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fcdc403b854beefd79b3fde614b76971c5c66ff785805b6e9d24c24e7451c26f"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-visionbook-a5-100-pages/1-angle-659b41f5b547.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7c7429943f5a82c034d87dd19e0e01ca0a7926e10700f8f53a3b72acd67b2e18"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/sparkle-visionbook-a5-100-pages/2-angle-e7b764339394.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b9e88ecb2564fdab6befacfd0cf0d259f0b5f08c6e0560226054e6ea7d20d58"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "ubtan-soap-bar-mini-pack-of-2",
+      "title": "Ubtan Soap Bar - Mini, Pack of 2",
+      "sku": "MGC-3059",
+      "brand": {
+        "name": "THE BARE BAR OFFICIAL",
+        "slug": "the-bare-bar-official"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. Fastest-growing bar in the range - 12 units in June to 45 in August. This pack is the bet on the de-tan and brightening search cluster. Traditional ubtan is beautiful. It is also messy, and that is why most people stop using it after a week. So we took the ingredients out of the bowl and put them into a bar. Masoor dal, rice powder, almond and orange peel give the bar a gentle polishing character. Turmeric, saffron, sandal",
+      "shortDescription": "Two full 60g bars of the same scent - a stock-up pack, not an assortment. Fastest-growing bar in the range - 12 units in June to 45 in August. This pack is the bet on the de-tan and brightening search cluster. Traditional ubtan is beautiful. It is also messy, and that is why most people stop using it after a week. So we took the ingredients out of the bowl and put them into a bar. Masoor dal, rice powder, almond and orange peel give the bar a gentle polishing character. Turmeric, saffron, sandal",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3059",
+        "Product Code": "MGC-3059"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 398.0,
+        "amountMinorUnits": 39800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 398.0,
+            "amountMinorUnits": 39800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609865
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/0-master-f687e4649cf2.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f5c662dcaeebbf0bf73c98de8364015cfcee995295ad3de1cc2f4e0a4698880c"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/1-angle-fb2b95002f51.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6892c1a10a015c13a3537a2ff1b06d45e9f9c0f2e5ce9ee1dcb8a0967e0a426a"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/2-angle-5baa1d46ddbb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7c41bb3eedb32dcf851c7f83b686af686b3f1e4fa8c17fe07e5824cb4562c46d"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/3-angle-b12bd9481af7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "09c9d78bdc9b6e66bb9faad0fdfc48a7e86e63939a9fdab1cc09c66d1f8b9328"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/4-angle-caf8bfbe0cd0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4a392d4f3cd8b3faa3a92fc2bd4896373c6b0227926aec80d013309019b1dee5"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/5-angle-06e711fd8a1d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "13a54a623b94af8217db581149070025ba5ed9ccc6d8f83f5fa8cd5878436800"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/6-angle-ee85ac923932.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "39012383bc1ad06bb0cab0b1fc07c1b15fd7e42c427d8c3ef3fe4ec505ce58f3"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/7-angle-5f1eb9523db9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "87588907776acc032d09d6b323def65454cedeebc514fc1b266a12cce32ebaa4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/ubtan-soap-bar-mini-pack-of-2/8-angle-799898eaa759.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ea7ba40a9a73c37b124377a6c495f0d04f415a452952608fedadf3caa0f49ed8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "womens-yoga-pilates-studio-edition",
+      "title": "Women's Yoga/Pilates Studio Edition",
+      "sku": "MGC-3053",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "shortDescription": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3053",
+        "Product Code": "MGC-3053"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1199.0,
+        "amountMinorUnits": 119900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1199.0,
+            "amountMinorUnits": 119900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609845
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/0-master-9300aecae047.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "54861148a86f87f64de2e608b40421ad1c51fcc60f8c12e011ef26a9dbdf354e"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/1-angle-6ab062487564.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "ddfb8865dcc985d6cc19bb57834d6f34cb9d97b5d8ac6bacd02ee42ed54b0b5a"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/2-angle-c96f72ef30fd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "4bccf6533a2611ce28566611182fe65d82b906c4c47dcf99c26bd0513e8dc2ff"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/3-angle-547eef1068dd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "7064f67be4a9681895beaff15cf7448f028e0003963b3565d9f820749ff6ad56"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/4-angle-43960f7306ee.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "188ac03d934ba3c8e6845efb1abe01f225db8dd3c8c1ec8d5a30ba6714ce3f7e"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/5-angle-27aa327704c6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "580742747b54eedda9a05b5e4605be8f470b626dd6bb9c5cd8277d6eb6983c42"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/6-angle-94607f480fcf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "c69f50d79f02ee79c110486002743b98331ad288a05968f227c13c4b2d0f832b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/7-angle-2c99217096e6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "4ab960a7f31a6191165d9a87eb1e5359bd4f3ab1197c6fc1fed11bc134f6513b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/8-angle-b042afed9552.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "9b913484b817c47f5d3c3bdb7920e2678f41670d78cc44e188395fc2f7943162"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-edition/9-angle-31720275028c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "00726f8ef527b860e874449c8de0c550bbadfe210343eef40550d9390b5adfba"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "womens-yoga-pilates-studio-socks-black",
+      "title": "Women's Yoga/Pilates Studio Socks- Black",
+      "sku": "MGC-3049",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "shortDescription": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3049",
+        "Product Code": "MGC-3049"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609834
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-socks-black/0-master-547eef1068dd.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "7064f67be4a9681895beaff15cf7448f028e0003963b3565d9f820749ff6ad56"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-socks-black/1-angle-31720275028c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "00726f8ef527b860e874449c8de0c550bbadfe210343eef40550d9390b5adfba"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    },
+    {
+      "slug": "womens-yoga-pilates-studio-socks-blue",
+      "title": "Women's Yoga/Pilates Studio Socks- Blue",
+      "sku": "MGC-3050",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "shortDescription": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3050",
+        "Product Code": "MGC-3050"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609837
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-socks-blue/0-master-058dbf6f9095.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "bc4fc8dd4247d896966bfda973a48022ea4fe81ea71b4f38dd30f1231690aca4"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-socks-blue/1-angle-94607f480fcf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "c69f50d79f02ee79c110486002743b98331ad288a05968f227c13c4b2d0f832b"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-socks-blue/2-angle-c96f72ef30fd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "4bccf6533a2611ce28566611182fe65d82b906c4c47dcf99c26bd0513e8dc2ff"
+        },
+        {
+          "path": "media/products/wellness-organic/self-care/womens-yoga-pilates-studio-socks-blue/3-angle-43960f7306ee.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "188ac03d934ba3c8e6845efb1abe01f225db8dd3c8c1ec8d5a30ba6714ce3f7e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:self-care",
+        "categoryId": "C6",
+        "name": "Self-Care",
+        "slug": "self-care",
+        "path": "wellness-organic/self-care",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "wellness-organic/self-care"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C11",
+    "code": "C11",
+    "name": "Packaging",
+    "slug": "packaging",
+    "path": "packaging",
+    "sortOrder": 11
+  },
+  "productCount": 29,
+  "subcategoryCount": 2,
+  "subcategories": [
+    {
+      "id": "C11:food-bakery-boxes",
+      "categoryId": "C11",
+      "name": "Food & Bakery Boxes",
+      "slug": "food-bakery-boxes",
+      "path": "packaging/food-bakery-boxes",
+      "sortOrder": 1,
+      "productCount": 2,
+      "dataFile": "by-subcategory/packaging/food-bakery-boxes.json"
+    },
+    {
+      "id": "C11:gift-boxes",
+      "categoryId": "C11",
+      "name": "Gift Boxes",
+      "slug": "gift-boxes",
+      "path": "packaging/gift-boxes",
+      "sortOrder": 2,
+      "productCount": 27,
+      "dataFile": "by-subcategory/packaging/gift-boxes.json"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0.0",
+  "currency": "INR",
+  "basis": "The current catalogue unit price in products.json; this is not cost, margin, or markup.",
+  "tiers": [
+    {
+      "id": "value",
+      "label": "Up to ₹500",
+      "minInclusive": 0,
+      "maxInclusive": 500,
+      "productCount": 1492
+    },
+    {
+      "id": "core",
+      "label": "₹500.01–₹1,500",
+      "minExclusive": 500,
+      "maxInclusive": 1500,
+      "productCount": 1630
+    },
+    {
+      "id": "elevated",
+      "label": "₹1,500.01–₹3,000",
+      "minExclusive": 1500,
+      "maxInclusive": 3000,
+      "productCount": 674
+    },
+    {
+      "id": "high-value",
+      "label": "₹3,000.01–₹5,000",
+      "minExclusive": 3000,
+      "maxInclusive": 5000,
+      "productCount": 199
+    },
+    {
+      "id": "executive",
+      "label": "Above ₹5,000",
+      "minExclusive": 5000,
+      "maxInclusive": null,
+      "productCount": 262
+    }
+  ],
+  "categoryCounts": [
+    {
+      "categorySlug": "executive-writing",
+      "categoryName": "Executive Writing",
+      "counts": {
+        "value": 359,
+        "executive": 19,
+        "core": 52,
+        "elevated": 22,
+        "high-value": 4
+      }
+    },
+    {
+      "categorySlug": "drinkware-barware",
+      "categoryName": "Drinkware & Barware",
+      "counts": {
+        "value": 184,
+        "elevated": 67,
+        "core": 179,
+        "high-value": 20,
+        "executive": 10
+      }
+    },
+    {
+      "categorySlug": "tech-gadgets",
+      "categoryName": "Tech & Gadgets",
+      "counts": {
+        "core": 149,
+        "elevated": 110,
+        "executive": 27,
+        "value": 36,
+        "high-value": 42
+      }
+    },
+    {
+      "categorySlug": "bags-travel",
+      "categoryName": "Bags & Travel",
+      "counts": {
+        "executive": 142,
+        "core": 246,
+        "elevated": 216,
+        "high-value": 82,
+        "value": 120
+      }
+    },
+    {
+      "categorySlug": "apparel-lifestyle",
+      "categoryName": "Apparel & Lifestyle",
+      "counts": {
+        "elevated": 88,
+        "core": 571,
+        "executive": 21,
+        "high-value": 14,
+        "value": 244
+      }
+    },
+    {
+      "categorySlug": "wellness-organic",
+      "categoryName": "Wellness & Organic",
+      "counts": {
+        "value": 18,
+        "core": 15,
+        "elevated": 2,
+        "executive": 1
+      }
+    },
+    {
+      "categorySlug": "eco-friendly",
+      "categoryName": "Eco-Friendly",
+      "counts": {
+        "value": 30,
+        "elevated": 2,
+        "core": 1
+      }
+    },
+    {
+      "categorySlug": "hampers-gifting",
+      "categoryName": "Hampers & Gifting",
+      "counts": {
+        "value": 199,
+        "core": 278,
+        "elevated": 139,
+        "high-value": 33,
+        "executive": 24
+      }
+    },
+    {
+      "categorySlug": "office-stationery",
+      "categoryName": "Office & Stationery",
+      "counts": {
+        "value": 256,
+        "core": 102,
+        "executive": 9,
+        "elevated": 9,
+        "high-value": 3
+      }
+    },
+    {
+      "categorySlug": "awards-trophies",
+      "categoryName": "Awards & Trophies",
+      "counts": {
+        "value": 24,
+        "core": 30,
+        "elevated": 19,
+        "executive": 9,
+        "high-value": 1
+      }
+    },
+    {
+      "categorySlug": "packaging",
+      "categoryName": "Packaging",
+      "counts": {
+        "value": 22,
+        "core": 7
+      }
+    }
+  ],
+  "notes": [
+    "Budget/price guidance found online varies by vendor and recipient; these are consistent site filters over Monkcraft's own listed unit prices.",
+    "A bundle total must be calculated from the selected products. GST basis, branding, packaging, fulfilment, delivery, MOQ, and quote adjustments must be checked per item/order.",
+    "No markup is derived because the export does not contain cost or margin data."
+  ]
+}

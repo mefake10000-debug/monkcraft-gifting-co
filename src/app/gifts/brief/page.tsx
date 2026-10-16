@@ -6,7 +6,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const metadata = {
   title: "My Gifting Brief | Monkcraft Gifts",
   description:
-    "Review shortlisted products, box and Studio details, set programme needs, and prepare one quotation request — saved in this browser.",
+    "Bring your selected gifts, quantities, branding and delivery needs into one quote request for Monkcraft. Review it before sending; preparing a brief does not place an order.",
 };
 
 export default function BriefPage() {
@@ -18,7 +18,7 @@ export default function BriefPage() {
           items={[
             { label: "Home", href: "/" },
             { label: "Gifts", href: "/gifts" },
-            { label: "Shortlist", href: "/gifts/shortlist" },
+            { label: "Cart", href: "/gifts/shortlist" },
             { label: "My Gifting Brief" },
           ]}
         />

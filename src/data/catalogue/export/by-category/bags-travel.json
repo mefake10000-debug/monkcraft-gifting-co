@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C4",
+    "code": "C4",
+    "name": "Bags & Travel",
+    "slug": "bags-travel",
+    "path": "bags-travel",
+    "sortOrder": 4
+  },
+  "productCount": 806,
+  "subcategoryCount": 4,
+  "subcategories": [
+    {
+      "id": "C4:backpacks",
+      "categoryId": "C4",
+      "name": "Backpacks",
+      "slug": "backpacks",
+      "path": "bags-travel/backpacks",
+      "sortOrder": 1,
+      "productCount": 214,
+      "dataFile": "by-subcategory/bags-travel/backpacks.json"
+    },
+    {
+      "id": "C4:totes",
+      "categoryId": "C4",
+      "name": "Totes",
+      "slug": "totes",
+      "path": "bags-travel/totes",
+      "sortOrder": 2,
+      "productCount": 73,
+      "dataFile": "by-subcategory/bags-travel/totes.json"
+    },
+    {
+      "id": "C4:travel",
+      "categoryId": "C4",
+      "name": "Travel",
+      "slug": "travel",
+      "path": "bags-travel/travel",
+      "sortOrder": 3,
+      "productCount": 486,
+      "dataFile": "by-subcategory/bags-travel/travel.json"
+    },
+    {
+      "id": "C4:wallets",
+      "categoryId": "C4",
+      "name": "Wallets",
+      "slug": "wallets",
+      "path": "bags-travel/wallets",
+      "sortOrder": 4,
+      "productCount": 33,
+      "dataFile": "by-subcategory/bags-travel/wallets.json"
+    }
+  ]
+}

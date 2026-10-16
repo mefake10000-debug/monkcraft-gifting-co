@@ -4,7 +4,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-MEDIA="${MONKCRAFT_MEDIA:-$ROOT/../monkcraft/website-export/media}"
+MEDIA="${MONKCRAFT_MEDIA:-$ROOT/public/catalogue-media}"
 STAGING="${MONKCRAFT_STAGING:-/private/tmp/monkcraft-vercel-prod}"
 SCOPE="${VERCEL_SCOPE:-monkcraft1}"
 
@@ -38,6 +38,6 @@ rsync -a "$MEDIA/" "$STAGING/public/catalogue-media/"
 mkdir -p "$STAGING/.vercel"
 cp "$ROOT/.vercel/project.json" "$STAGING/.vercel/project.json"
 
-echo "Deploying production (archive) to scope $SCOPE…"
+echo "Deploying production (archive) to scope ${SCOPE}…"
 cd "$STAGING"
 vercel deploy --prod --yes --archive=tgz --scope "$SCOPE"

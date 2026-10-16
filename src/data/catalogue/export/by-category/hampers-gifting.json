@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C8",
+    "code": "C8",
+    "name": "Hampers & Gifting",
+    "slug": "hampers-gifting",
+    "path": "hampers-gifting",
+    "sortOrder": 8
+  },
+  "productCount": 673,
+  "subcategoryCount": 4,
+  "subcategories": [
+    {
+      "id": "C8:chocolate-confectionery",
+      "categoryId": "C8",
+      "name": "Chocolate & Confectionery",
+      "slug": "chocolate-confectionery",
+      "path": "hampers-gifting/chocolate-confectionery",
+      "sortOrder": 1,
+      "productCount": 29,
+      "dataFile": "by-subcategory/hampers-gifting/chocolate-confectionery.json"
+    },
+    {
+      "id": "C8:festive-hampers",
+      "categoryId": "C8",
+      "name": "Festive Hampers",
+      "slug": "festive-hampers",
+      "path": "hampers-gifting/festive-hampers",
+      "sortOrder": 2,
+      "productCount": 80,
+      "dataFile": "by-subcategory/hampers-gifting/festive-hampers.json"
+    },
+    {
+      "id": "C8:gift-sets",
+      "categoryId": "C8",
+      "name": "Gift Sets",
+      "slug": "gift-sets",
+      "path": "hampers-gifting/gift-sets",
+      "sortOrder": 3,
+      "productCount": 528,
+      "dataFile": "by-subcategory/hampers-gifting/gift-sets.json"
+    },
+    {
+      "id": "C8:gourmet",
+      "categoryId": "C8",
+      "name": "Gourmet",
+      "slug": "gourmet",
+      "path": "hampers-gifting/gourmet",
+      "sortOrder": 4,
+      "productCount": 36,
+      "dataFile": "by-subcategory/hampers-gifting/gourmet.json"
+    }
+  ]
+}

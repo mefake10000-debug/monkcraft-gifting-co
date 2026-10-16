@@ -1,0 +1,2435 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C2",
+    "code": "C2",
+    "name": "Drinkware & Barware",
+    "slug": "drinkware-barware",
+    "path": "drinkware-barware",
+    "sortOrder": 2
+  },
+  "subcategory": {
+    "id": "C2:tumblers",
+    "categoryId": "C2",
+    "name": "Tumblers",
+    "slug": "tumblers",
+    "path": "drinkware-barware/tumblers",
+    "sortOrder": 5
+  },
+  "categoryProductCount": 460,
+  "productCount": 19,
+  "products": [
+    {
+      "slug": "bruk-signature-tumbler-40oz-tumbler-beige",
+      "title": "Bruk Signature Tumbler 40oz Tumbler- Beige",
+      "sku": "MGC-0457",
+      "brand": {
+        "name": "Bruk",
+        "slug": "bruk"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Bruk Signature Tumbler 40oz Tumbler- Beige — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Bruk Signature Tumbler 40oz Tumbler- Beige — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0457",
+        "Color": "Beige",
+        "Brand": "Bruk",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Metal",
+        "Closure Type": "Screw Cap",
+        "Product Code": "MGC-0457"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 5338.0,
+        "amountMinorUnits": 533800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 5338.0,
+            "amountMinorUnits": 533800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602305
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-beige/0-master-83a56cf8e850.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e9f24b50c659cb158aadd72d944afb261979ba7ec12ba5f12a8e2782c3de4616"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-beige/1-angle-6d4f3c0af0a3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ea9546f2a968c944b870b9304b7b6b81b4e65bcf8f8f106595503c8361f49cfc"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-beige/2-angle-2c829b23e14c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "32a16feef4e0cde7e0d4783eea31446aa4890c54ce0b17ae549c1fd4833261a8"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-beige/3-angle-826d5df3f5fa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7467d8b32d0a68d1696be2cb3e3f46b2d5696f96936085e7935c332e42d33c94"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "bruk-signature-tumbler-40oz-tumbler-black",
+      "title": "Bruk Signature Tumbler 40oz Tumbler- Black",
+      "sku": "MGC-0458",
+      "brand": {
+        "name": "Bruk",
+        "slug": "bruk"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Bruk Signature Tumbler 40oz Tumbler- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Bruk Signature Tumbler 40oz Tumbler- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0458",
+        "Color": "Black",
+        "Brand": "Bruk",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Metal",
+        "Closure Type": "Screw Cap",
+        "Product Code": "MGC-0458"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 5338.0,
+        "amountMinorUnits": 533800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 5338.0,
+            "amountMinorUnits": 533800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602308
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-black/0-master-e8172eb6da25.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fa7318b128c9075ac9f919efbd243a28ccf140b578f5230767174b20803df696"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-black/1-angle-3e79ad9e25a1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "385de137f2f606e6cd5637a9ced0c68fe82c3b88af48a5c3f8f7998c7fafd817"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-black/2-angle-be36beb75da9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bbda733235b5ad5a6b7c97f863c46747e570379ba8f75349df4684a7ff411cf9"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-black/3-angle-b57ca694d41d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "16f7f1b9d720d8ad1745d3001db76ca46ed159a3ed00ef58b76d0055719a063c"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-black/4-angle-9ded5b847896.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9f58ce53cb1b4aa1229d9dc7201d6d236e8be4a4f3bafff83239af07ec05c93d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "bruk-signature-tumbler-40oz-tumbler-dark-brown",
+      "title": "Bruk Signature Tumbler 40oz Tumbler- Dark Brown",
+      "sku": "MGC-0459",
+      "brand": {
+        "name": "Bruk",
+        "slug": "bruk"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Bruk Signature Tumbler 40oz Tumbler- Dark Brown — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Bruk Signature Tumbler 40oz Tumbler- Dark Brown — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0459",
+        "Color": "Dark Brown",
+        "Brand": "Bruk",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Metal",
+        "Closure Type": "Screw Cap",
+        "Product Code": "MGC-0459"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 5338.0,
+        "amountMinorUnits": 533800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 5338.0,
+            "amountMinorUnits": 533800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602310
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 10,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-dark-brown/0-master-b3fa8f7fe2f1.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "97531a0156080e09e10cc1678959ab2e5e714828f7c8d6d58c7b93ad37ee1c5b"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-dark-brown/1-angle-4a7a17c595dc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "eecaac4c40e848bb4702d91e31b046cfaf7fdb2d94bca58d5e589fc43ae51283"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-dark-brown/2-angle-546262a3ff3b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "511bc5b037fffb8f6dd8e5c25667b54b428551a9219121b0282443d3619eab1c"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/bruk-signature-tumbler-40oz-tumbler-dark-brown/3-angle-3066cec32aa5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b41aed054b419d383c1618bde1ae5afa0a5a57fc745d47faf449dc1dada9475d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2",
+      "title": "Filter Coffee Tumbler Dabara Brassware Gift Box | Set of 2",
+      "sku": "MGC-0461",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Perfect gift choice for a filter Coffee lover, cause' there'll never be a coffee that tastes better! Crafted in brass and etched with traditional motifs, this Tumbler - Dabara set is an authentic style of serving the south Indian delicacy.",
+      "shortDescription": "Perfect gift choice for a filter Coffee lover, cause' there'll never be a coffee that tastes better! Crafted in brass and etched with traditional motifs, this Tumbler - Dabara set is an authentic style of serving the south Indian delicacy.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0461",
+        "Product Code": "MGC-0461"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1338.0,
+        "amountMinorUnits": 133800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1338.0,
+            "amountMinorUnits": 133800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602316
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/0-master-0774f45592c2.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5c62fe72eafb698552aa0a8b6c37e2aa354814a04754598cd1742750cac64576"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/1-angle-f25bb947df60.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "434cfa91b74652588acbe861be7a55fd8406ab54cf2163cf5d250bfe8bce36c5"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/2-angle-b68462932d30.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4ac9285e13b26881ee13933fe923147f90f2bb4c2b2d1b70c1e6be6f8b37cf9d"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/3-angle-8b3eb1c1e86b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9fdf7f2f2879f8c837925d60a196d79b9940cd85d644cb25a38c4c116988c9f0"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/4-angle-1dd9f2b0ab57.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "daad34cea16d4d57b760050d636e3653ca0a1bc68ddbec0da57e0691cb55ddd5"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/5-angle-85deb86664cc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d128783269396fd044128ae3c5a15d6398473b3604bdb01b537460a22ea4d5ac"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/6-angle-a887f7d71413.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6d317cc8592bed23fa4032584d5616fa512721fc5eae6114e2e2ec8f74f41917"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/7-angle-e67824604532.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "bb4fc066116bedaa561e1d6fa234fe5131be0698b7da9d12803259cf85f317fa"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/8-angle-7dc4ffd49f90.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8732e2b4700aa76fdf0586fbb0dccc91812005f1b5befa4c62589ccbf9532ccc"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/filter-coffee-tumbler-dabara-brassware-gift-box-set-of-2/9-angle-d7f3aa38842a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "05a87cec7d85e86c71c4042b54919a5e81a01485e5fc3886e05265447132929c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "folklore-copper-tumbler-350-ml-forest-folklore",
+      "title": "Folklore Copper Tumbler - 350 ml | Forest Folklore",
+      "sku": "MGC-0460",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Crafted for everyday hydration, this 350ml copper tumbler combines generous capacity with vibrant folklore-inspired patterns for a refreshing drinking experience.",
+      "shortDescription": "Crafted for everyday hydration, this 350ml copper tumbler combines generous capacity with vibrant folklore-inspired patterns for a refreshing drinking experience.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0460",
+        "Product Code": "MGC-0460"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 998.0,
+        "amountMinorUnits": 99800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 998.0,
+            "amountMinorUnits": 99800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602313
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/0-master-bdb6f038d7a1.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "33379bef1ff97c68fcdca54ab8d5095f36a4000ca4b75f50d3deea7a6d5135f9"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/1-angle-4320eae95e27.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7cd6194057fd900c0229ddfe3b9211646deeda79ba654c155b74c6ae57037dd7"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/2-angle-efeb46862e26.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b242f92c454f83753b82358f70497603690204a70a706f1727aa2537a4727a9"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/3-angle-0a7670944d40.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "dcb09cc44717a18ad83d2fbcde35fc8e3455d41ff1ec23a83e53bd47b57aa13c"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/4-angle-dae30e039ec5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "265b43b7e4c877eaf8c1c60de04bf774f929b69213d8d1cf6847811b02ca2767"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/5-angle-daf0f34e1a59.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2273fa60c4975e4ea1ef941655b970d3f07c4f93d2d67f8f76d5ed2f2949b14c"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/6-angle-78bb30cc55ab.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "07ff40f57e3c49f3ab52789e5b436165a4b95b1f0856a79bdebee46dc5d7c62d"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/7-angle-0bf2798f99bc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ffb0b9882599aa0d527954e49bfa651aa44ec9cf8b826780ac3124982c587f89"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/8-angle-ef3cf2fd1d6b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2c8f826fd60bc9a3e1371033144436b87ac08b59613499d51412cc1c61dd09e0"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/folklore-copper-tumbler-350-ml-forest-folklore/9-angle-d7f3aa38842a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "05a87cec7d85e86c71c4042b54919a5e81a01485e5fc3886e05265447132929c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-black",
+      "title": "Milton Atlantis 600 Thermosteel Hot and Cold Water Bottle- Black",
+      "sku": "MGC-0462",
+      "brand": {
+        "name": "Milton",
+        "slug": "milton"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Black with hot and cold retention.",
+      "shortDescription": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Black with hot and cold retention.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0462",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Milton",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0462"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 715.0,
+        "amountMinorUnits": 71500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 715.0,
+            "amountMinorUnits": 71500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602320
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-black/0-master-d1ab9607f527.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "78bc7d238e434f3eda597d61a153ccdf6ac588949e9b8e32e1306bc61ccb6649"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-black/2-angle-f075d5018b81.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ca17bd9e3b470402fdcfe0cf4456a4409d977ea396dff9cf417b57a447be8fbe"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-black/3-angle-2b75c40768c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e37b56678033772a42d567209f87f6276802cfd0618d826ae3e24fd95d64c361"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-black/4-angle-5baf41b42952.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ba101ba6311ad6382472c3163bc61dabb2682bed64f45f8f79be97fe8e649d85"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue",
+      "title": "Milton Atlantis 600 Thermosteel Hot and Cold Water Bottle- Blue",
+      "sku": "MGC-0463",
+      "brand": {
+        "name": "Milton",
+        "slug": "milton"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Blue with hot and cold retention.",
+      "shortDescription": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Blue with hot and cold retention.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0463",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Milton",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0463"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 715.0,
+        "amountMinorUnits": 71500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 715.0,
+            "amountMinorUnits": 71500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602322
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue/0-master-db1ce0bc37eb.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "41e65bd50c2a15bb1346094cb52e362a45c98e5e102ab010ac7d9c07ae76dc39"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue/1-angle-a620a41550d6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ea96396a20f48b906d7c5b4f2cf29b9d834f27e9376d48de6c358c900d5ae946"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue/2-angle-87889e055682.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b38ac578e474d068f962dc35a8875ce91c422716a9b80280aaf7c18c4e35c350"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue/3-angle-09a21d75a713.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e31010966320dbb00dcfbcf80b03baa570c185cd2aa3989bcd73852796738c3e"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue/4-angle-8f3ce3ad73c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4bbdbf8c2c61062bd35ff68f823ed74af54cad767d8155bf677ea8f85086d45a"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue/5-angle-2b75c40768c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e37b56678033772a42d567209f87f6276802cfd0618d826ae3e24fd95d64c361"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-blue/6-angle-5baf41b42952.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ba101ba6311ad6382472c3163bc61dabb2682bed64f45f8f79be97fe8e649d85"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange",
+      "title": "Milton Atlantis 600 Thermosteel Hot and Cold Water Bottle- Orange",
+      "sku": "MGC-0464",
+      "brand": {
+        "name": "Milton",
+        "slug": "milton"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Orange with hot-cold retention.",
+      "shortDescription": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Orange with hot-cold retention.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0464",
+        "Country of Origin": "India",
+        "Color": "Orange",
+        "Brand": "Milton",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0464"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 715.0,
+        "amountMinorUnits": 71500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 715.0,
+            "amountMinorUnits": 71500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602325
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange/0-master-1028b004b650.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1ead4aa4058921fc36d06d8d5b9dc8d19e44d5442f0a4ffbe8c4bf05037cc787"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange/1-angle-0554f4758495.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1461347547e029da752d19c69a55425c840dfc24b5b5acbb5df46285741b2e49"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange/2-angle-517515afd49f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d5b81c516b31ab2bf977f24efe32854905ac7d60de70e662e631e116ac9b8839"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange/3-angle-15556eb73c7d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9faf784f25e8fc08e94d6787629acb1a142af08c4cd1c29372340cc34fef7fb2"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange/4-angle-87dee4699b74.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3918df3ec67ce0ab097b9f764383527fd65e3c10713935441098d8ed1f7c2bfb"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange/5-angle-2b75c40768c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e37b56678033772a42d567209f87f6276802cfd0618d826ae3e24fd95d64c361"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-orange/6-angle-5baf41b42952.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ba101ba6311ad6382472c3163bc61dabb2682bed64f45f8f79be97fe8e649d85"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-pink",
+      "title": "Milton Atlantis 600 Thermosteel Hot and Cold Water Bottle- Pink",
+      "sku": "MGC-0465",
+      "brand": {
+        "name": "Milton",
+        "slug": "milton"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Pink with hot and cold retention.",
+      "shortDescription": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Pink with hot and cold retention.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0465",
+        "Country of Origin": "India",
+        "Color": "Pink",
+        "Brand": "Milton",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0465"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 715.0,
+        "amountMinorUnits": 71500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 715.0,
+            "amountMinorUnits": 71500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602328
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-pink/0-master-76719c793f76.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0f53d0aa3ba0b32db04c1a5420343be2f3792ec11425a5b7c42a50b39f2500d1"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-pink/1-angle-20e659af43af.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ac8b2119bc709910be6a1242d10b52d8e19bd5c366d43fd0addf7222560d5dc7"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-pink/2-angle-e62a8ff06232.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "efcf63f18097b798a9f6c7485faffbcda62dc40fd7db530233cdc1fa2e8cf38e"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-pink/3-angle-2b75c40768c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e37b56678033772a42d567209f87f6276802cfd0618d826ae3e24fd95d64c361"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-pink/4-angle-5baf41b42952.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ba101ba6311ad6382472c3163bc61dabb2682bed64f45f8f79be97fe8e649d85"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-silver",
+      "title": "Milton Atlantis 600 Thermosteel Hot and Cold Water Bottle- Silver",
+      "sku": "MGC-0466",
+      "brand": {
+        "name": "Milton",
+        "slug": "milton"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Silver with hot-cold retention.",
+      "shortDescription": "Thermosteel water bottle for corporate gifting, employee welcome kits, and bulk gifting — affordable Milton Atlantis 600 Silver with hot-cold retention.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0466",
+        "Country of Origin": "India",
+        "Color": "Silver",
+        "Brand": "Milton",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0466"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 715.0,
+        "amountMinorUnits": 71500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 715.0,
+            "amountMinorUnits": 71500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602330
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-silver/0-master-daba4a6167e5.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "894936b05be0bf975ad732a54447fc6cb0b74afb96c6f0a8c0af5562c0992463"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-silver/1-angle-12ee8c00d06e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1c665e6287500475ccc5d6fe3d2af9d6eb99c57e9c18c14ef46b80d9208b6b27"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-silver/2-angle-1008f2b81de0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3951bd98a484a85576a053db5684a9e447c985ce451cf17b5375bcdd2fc4b251"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-silver/3-angle-2b75c40768c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e37b56678033772a42d567209f87f6276802cfd0618d826ae3e24fd95d64c361"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-atlantis-600-thermosteel-hot-and-cold-water-bottle-silver/4-angle-5baf41b42952.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ba101ba6311ad6382472c3163bc61dabb2682bed64f45f8f79be97fe8e649d85"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "milton-thermosteel-vacuum-insulated-travel-coffee-mug-300ml-black",
+      "title": "Milton Thermosteel Vacuum Insulated Travel Coffee Mug, 300ml-Black",
+      "sku": "MGC-0467",
+      "brand": {
+        "name": "Milton",
+        "slug": "milton"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Milton Thermosteel Vacuum Insulated Travel Coffee Mug, 300ml-Black",
+      "shortDescription": "Milton Thermosteel Vacuum Insulated Travel Coffee Mug, 300ml-Black",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0467",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Milton",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0467"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 955.0,
+        "amountMinorUnits": 95500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 955.0,
+            "amountMinorUnits": 95500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602333
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-thermosteel-vacuum-insulated-travel-coffee-mug-300ml-black/0-master-4fcbf9863ae8.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bbffd24b3caa0f0e9ffd355c093f198342d1f00f29c5b3df129c826f948a7c1f"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-thermosteel-vacuum-insulated-travel-coffee-mug-300ml-black/1-angle-cf311ad67117.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "23d9be9da7e858f0f2dffd3d31a05dd656846bb359ef82637ac6bf712ca0e215"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/milton-thermosteel-vacuum-insulated-travel-coffee-mug-300ml-black/2-angle-6c5f4667194a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "140e70ca0aeaaa99278d767b9554cc5e6c06cc7e808b8408626e21615a99c2de"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle",
+      "title": "Portronics Thermosip 400Ml Vacuum Insulated Portable Travel Electric Kettle",
+      "sku": "MGC-0469",
+      "brand": {
+        "name": "Portronics",
+        "slug": "portronics"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Travel electric kettle for corporate gifting, employee travel kits, and tech gifts — premium Portronics Thermosip 400ml vacuum insulated portable design.",
+      "shortDescription": "Travel electric kettle for corporate gifting, employee travel kits, and tech gifts — premium Portronics Thermosip 400ml vacuum insulated portable design.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0469",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "Portronics",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Dimensions": "22.5H x 10.1W x 10.1L",
+        "Product Code": "MGC-0469"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3015.0,
+        "amountMinorUnits": 301500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3015.0,
+            "amountMinorUnits": 301500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602340
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/0-master-f81e1c8227b7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "af36198cd36a5d42a2fdc1b2902887bcccf204a1c7cc516063980ed96066f211"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/1-angle-24c441dfcb67.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fcc589927872e65c2e8f7a3bc57eb0949e6b25ddb3fc9d7956b83d59634ccade"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/2-angle-74ba5e00f7b2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "88a7e215c2639e75d96ab049c8b7f60f464ea20c14e7f65e1fc850aba871b8af"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/3-angle-8cb882869821.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6ffc841d45e4413c2e79ff2715713bfeaa27f4c061acc193d380847af5b90039"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/4-angle-410bf43c7fc1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b7b50f200ccf4492f6849627e58c7ca2e457ea14e94f8c0472b2975bc7277b42"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/5-angle-21b101162090.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "077c4effeb62179bc93634ff75fe698e22d7bb0e039f651d851a056a6db858ed"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/6-angle-d113feb1de49.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "13296ed7a35684d1c25b4c9076e56d2528a4975cc5b7e3d599a6ec227692e0f5"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/7-angle-d0a1bf21bf5a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3f1165f84c371b8b3d7770944f85c027e6d7a37b2a0ac310b5b97f88a393378e"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/portronics-thermosip-400ml-vacuum-insulated-portable-travel-electric-kettle/8-angle-1b87eb90b993.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9fb58ce7ad42943b86f6015370224cf49302985b58cd6fef6b2243f90952f143"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "swig-coffee-tumbler-black-400ml",
+      "title": "Swig Coffee Tumbler- Black- 400ml",
+      "sku": "MGC-0471",
+      "brand": {
+        "name": "Stolt",
+        "slug": "stolt"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Stolt Swig Coffee Tumbler in black, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Stolt Swig Coffee Tumbler in black, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0471",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Stolt",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0471"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1295.0,
+        "amountMinorUnits": 129500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1295.0,
+            "amountMinorUnits": 129500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602346
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-black-400ml/0-master-facb77e5dfca.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6071c23873083e206b8ad45a338c435e3e2bcd4b03ec3eb869d67d035bd463e6"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-black-400ml/1-angle-d17e7883df36.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e5f986322586bdb3b99cd9f5218db0d0350ac6af69b5e14ec3d4f8eacc0d9025"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-black-400ml/2-angle-7c7a9a346fa0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1707eaf55ab4348b7ea1cd45eeaf12ea4f5254a2352390a5a940726e31177a1a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "swig-coffee-tumbler-blue-400ml",
+      "title": "Swig Coffee Tumbler- Blue- 400ml",
+      "sku": "MGC-0472",
+      "brand": {
+        "name": "Stolt",
+        "slug": "stolt"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Stolt Swig Coffee Tumbler in blue, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Stolt Swig Coffee Tumbler in blue, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0472",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Stolt",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0472"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1295.0,
+        "amountMinorUnits": 129500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1295.0,
+            "amountMinorUnits": 129500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602348
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-blue-400ml/0-master-cc11692b5e57.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9b525654a8fda01f41f5b356a75d1ca97ee6c187b342d11c5d73f0e046a39a7f"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-blue-400ml/1-angle-a35caea048a1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c772ca3b7a7aee27f5b969ac7c1dd3d97f6e9dcba7e1570c639b639ee16db0a7"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-blue-400ml/2-angle-2b6f76d15361.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0a72c492b9fdbb507865ac95e66abb7604b7eaf83ebcfef9aa48ec658ca25331"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-blue-400ml/3-angle-25d73613ba23.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "95fc1259bcc178be4e153012826e2ef1a9c6a3da03be785188aaf37f20054b59"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "swig-coffee-tumbler-red-400ml",
+      "title": "Swig Coffee Tumbler- Red- 400ml",
+      "sku": "MGC-0473",
+      "brand": {
+        "name": "Stolt",
+        "slug": "stolt"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Stolt Swig Coffee Tumbler in red, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Stolt Swig Coffee Tumbler in red, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0473",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Red",
+        "Brand": "Stolt",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0473"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1295.0,
+        "amountMinorUnits": 129500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1295.0,
+            "amountMinorUnits": 129500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602351
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-red-400ml/0-master-a29ca2cdbec4.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "69ecfdd61e0a15643623dfc6e39a53fdca7a48ccceb34f11b85d590f8b227cc2"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-red-400ml/1-angle-979e096d951e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ca46f114126cfe2b67a454ff4606587588e891a7463b95edca4c83032e3714a7"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-red-400ml/2-angle-ca352cecd9db.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "df5050ff42dfb14cfcb1f61bf76894b4980b76c154548db3a29337403082b926"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-red-400ml/3-angle-b57eb6b9c336.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1a47afba5cb1b2d7c0c57339ad21fd9fecaa7d746ad371a459a83b6fb75467a5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "swig-coffee-tumbler-white-400ml",
+      "title": "Swig Coffee Tumbler- White- 400ml",
+      "sku": "MGC-0474",
+      "brand": {
+        "name": "Stolt",
+        "slug": "stolt"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Stolt Swig Coffee Tumbler in white, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Stolt Swig Coffee Tumbler in white, 400ml — stainless steel travel mug for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0474",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Stolt",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel",
+        "Product Code": "MGC-0474"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1295.0,
+        "amountMinorUnits": 129500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1295.0,
+            "amountMinorUnits": 129500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602353
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-white-400ml/0-master-1e95c69fff16.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "12acdadd95f8bec4332ab35921d77d41ce3242709fa983022f6d6a7c153f42da"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-white-400ml/1-angle-1d1ae2ef0635.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8f39bc78a09eb0c5d15a37693c4dcd922b58c743ffea68acad41de8654f5cb7c"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swig-coffee-tumbler-white-400ml/2-angle-bdabc3753d93.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e36176fc997ae3040486bd8333a29608d035d3570fea4a00a66df2170899b96c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "swiss-military-thermosteel-flask-white-500ml",
+      "title": "Swiss Military Thermosteel Flask- White- 500ml",
+      "sku": "MGC-0475",
+      "brand": {
+        "name": "Swiss Military",
+        "slug": "swiss-military"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Thermosteel flask for corporate gifting, employee welcome kits, and bulk gifting — premium Swiss Military 500ml thermosteel flask in White.",
+      "shortDescription": "Thermosteel flask for corporate gifting, employee welcome kits, and bulk gifting — premium Swiss Military 500ml thermosteel flask in White.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0475",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Swiss Military",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Stainless Steel, Plastic",
+        "Product Code": "MGC-0475"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1085.0,
+        "amountMinorUnits": 108500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1085.0,
+            "amountMinorUnits": 108500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602356
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/swiss-military-thermosteel-flask-white-500ml/0-master-d02fa182c29c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a8e6f4d52e712ec2192c492502da1839cee4766f9d5e79abecf6756ed52a0787"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swiss-military-thermosteel-flask-white-500ml/1-angle-ec80474803dd.webp",
+          "role": "ANGLE",
+          "variantKey": "Swiss Military Thermosteel Flask White 500ml – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "98e9734d55f5c4ffa46ddaa6155e95d28c87865d6d449351ffbf5a067eb25394"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swiss-military-thermosteel-flask-white-500ml/2-angle-e41d2cd75731.webp",
+          "role": "ANGLE",
+          "variantKey": "Swiss Military Thermosteel Flask White 500ml – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "76427fe590948a5dba4d6220ff2d7ee262dabee8c514243f28cfd48698a787fc"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swiss-military-thermosteel-flask-white-500ml/3-angle-ac37579925b2.webp",
+          "role": "ANGLE",
+          "variantKey": "Swiss Military Thermosteel Flask White 500ml – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3efd7bac85a59214441b48e3cd6488e0f1e6ae7055125ddc8667217290c22794"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swiss-military-thermosteel-flask-white-500ml/4-angle-e03f1ffa016d.webp",
+          "role": "ANGLE",
+          "variantKey": "Swiss Military Thermosteel Flask White 500ml – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6da8b570e70cfda44a6826fd26174c155bb5a9a5e773962f7ac88df1572265e8"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swiss-military-thermosteel-flask-white-500ml/5-angle-db0ae94e3bb5.webp",
+          "role": "ANGLE",
+          "variantKey": "Swiss Military Thermosteel Flask White 500ml – Feature View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "071151c13322906090d6aabe603beb6db653a1c00cda2c010f86849922ef6ebb"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/swiss-military-thermosteel-flask-white-500ml/6-angle-078c2c89ca65.webp",
+          "role": "ANGLE",
+          "variantKey": "Swiss Military Thermosteel Flask White 500ml – Pack View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "58af91cc3dad662fbc0ea251e156c5fe283b3702aaf68e86341e84453b1e83b5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "valentines-gift-sipper-cup-with-coffee-sipper-lids-500-ml",
+      "title": "To the Moon & Back, Coffee Cup & Sipper, Valentines Day Gift, 1 tumbler with 2 lids",
+      "sku": "MGC-0470",
+      "brand": {
+        "name": "Stallion Barware",
+        "slug": "stallion-barware"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Am your good hearted Chirpy Cup. You can call me Big Chirpy. Pour in me your signature morning brew, your favourite cold shake or just water and seal me with one of the colourful lids. I promise to keep your beverage enjoyable on-the-go! Take me along every day wherever you go. Am reusable and a good fella at heart. To seal me well, place the cup on a flat surface and after pouring the beverage, gently press to seal the lid. You’ll hear a lock sound that suggests you and your Big Chirpy are good",
+      "shortDescription": "Am your good hearted Chirpy Cup. You can call me Big Chirpy. Pour in me your signature morning brew, your favourite cold shake or just water and seal me with one of the colourful lids. I promise to keep your beverage enjoyable on-the-go! Take me along every day wherever you go. Am reusable and a good fella at heart. To seal me well, place the cup on a flat surface and after pouring the beverage, gently press to seal the lid. You’ll hear a lock sound that suggests you and your Big Chirpy are good",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0470",
+        "Product Code": "MGC-0470"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 229.0,
+        "amountMinorUnits": 22900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 229.0,
+            "amountMinorUnits": 22900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602344
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/valentines-gift-sipper-cup-with-coffee-sipper-lids-500-ml/0-master-e28a7ac4aebb.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "153cfac344f8e5f0f7b19c980d66b45c0bdc23b102b3261a3a60184ba3791b19"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/valentines-gift-sipper-cup-with-coffee-sipper-lids-500-ml/1-angle-436b343be049.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7a44568e4e0c490691145740dd3386091a328a0512ebc09bacbae352b12f43b6"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/valentines-gift-sipper-cup-with-coffee-sipper-lids-500-ml/2-angle-d828f7a5922c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4bbe9ba7b7d6ed097cbad52212c1dd5067443d3fcc513e459b3ed8a1299176ca"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/valentines-gift-sipper-cup-with-coffee-sipper-lids-500-ml/3-angle-0428e2fccb0a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0747578ae47f198e0bb4c51f1797cdff4139ca7cdc79759a97037cb5666dcadb"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/valentines-gift-sipper-cup-with-coffee-sipper-lids-500-ml/5-angle-a7b5f551fc1b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8168523e74655b1cfc75001167fda19ce2c56058f817481586e36e002c203893"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    },
+    {
+      "slug": "vogue-smoothie-tumbler-with-silicone-sleeve-silicone-straw-yellow-375ml",
+      "title": "Vogue Smoothie Tumbler With Silicone Sleeve & Silicone Straw-Yellow- 375ml",
+      "sku": "MGC-0468",
+      "brand": {
+        "name": "Pebel Lifeware",
+        "slug": "pebel-lifeware"
+      },
+      "category": {
+        "id": "C2",
+        "code": "C2",
+        "name": "Drinkware & Barware",
+        "slug": "drinkware-barware",
+        "path": "drinkware-barware",
+        "sortOrder": 2
+      },
+      "description": "Pebel Lifeware Vogue Smoothie Tumbler in yellow, 375ml — tumbler with silicone sleeve and straw for office use. Affordable corporate gift.",
+      "shortDescription": "Pebel Lifeware Vogue Smoothie Tumbler in yellow, 375ml — tumbler with silicone sleeve and straw for office use. Affordable corporate gift.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-0468",
+        "Stock Update Date": "5 Jun 2026",
+        "Country of Origin": "India",
+        "Color": "Yellow",
+        "Brand": "Pebel Lifeware",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Borosilicate Glass",
+        "Product Code": "MGC-0468"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 535.0,
+        "amountMinorUnits": 53500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 535.0,
+            "amountMinorUnits": 53500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896602336
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/drinkware-barware/tumblers/vogue-smoothie-tumbler-with-silicone-sleeve-silicone-straw-yellow-375ml/0-master-ee7e67a01eb3.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "55199fabf222a9b161ed5c0568c7d26aa92815b99d1e7e101ecc55f5dce316fc"
+        },
+        {
+          "path": "media/products/drinkware-barware/tumblers/vogue-smoothie-tumbler-with-silicone-sleeve-silicone-straw-yellow-375ml/1-angle-3a52c9f63e79.webp",
+          "role": "ANGLE",
+          "variantKey": "Pebel Lifeware Vogue Smoothie Tumbler Yellow 375ml – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2f8d7c537ce9d05b1cdf4d8d13bbb304912a2b2e44a708e4562004dde2818c09"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C2:tumblers",
+        "categoryId": "C2",
+        "name": "Tumblers",
+        "slug": "tumblers",
+        "path": "drinkware-barware/tumblers",
+        "sortOrder": 5
+      },
+      "taxonomyPath": "drinkware-barware/tumblers"
+    }
+  ]
+}

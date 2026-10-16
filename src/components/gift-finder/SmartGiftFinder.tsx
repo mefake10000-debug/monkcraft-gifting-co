@@ -736,7 +736,7 @@ export function SmartGiftFinder({
               <div className="finder__next">
                 <h2>Next steps</h2>
                 <p>
-                  Save products to your shortlist or Build a Box, then open My
+                  Add products to your cart or Build a Box, then open My
                   Gifting Brief for quotation prep.
                   {briefSynced
                     ? " Requirements are merged into your gifting brief."
@@ -768,7 +768,7 @@ export function SmartGiftFinder({
                     className="journey-btn journey-btn--ghost"
                     href="/gifts/shortlist"
                   >
-                    View shortlist
+                    View cart
                   </Link>
                   <Link
                     className="journey-btn journey-btn--ghost"

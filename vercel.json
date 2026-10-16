@@ -1,10 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs",
-  "rewrites": [
-    {
-      "source": "/catalogue-media/:path*",
-      "destination": "https://monkcraft-gifting-1et2e38j6-monkcraft1.vercel.app/catalogue-media/:path*"
-    }
-  ]
+  "framework": "nextjs"
 }

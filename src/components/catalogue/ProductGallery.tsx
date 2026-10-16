@@ -21,6 +21,7 @@ const SWIPE_THRESHOLD_PX = 40;
 export function ProductGallery({ images, productName }: ProductGalleryProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [loadedSrc, setLoadedSrc] = useState<string | null>(null);
+  const [zoomOpen, setZoomOpen] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const labelId = useId();
   const safeIndex = Math.min(activeIndex, Math.max(images.length - 1, 0));
@@ -41,7 +42,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
   const goPrev = useCallback(() => goTo(safeIndex - 1), [goTo, safeIndex]);
   const goNext = useCallback(() => goTo(safeIndex + 1), [goTo, safeIndex]);
 
-  function onGalleryKeyDown(event: KeyboardEvent<HTMLDivElement>) {
+  function onGalleryKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
     if (!multi) return;
     if (event.key === "ArrowLeft") {
       event.preventDefault();
@@ -58,12 +59,12 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
     }
   }
 
-  function onTouchStart(event: TouchEvent<HTMLDivElement>) {
+  function onTouchStart(event: TouchEvent<HTMLButtonElement>) {
     if (!multi) return;
     touchStartX.current = event.changedTouches[0]?.clientX ?? null;
   }
 
-  function onTouchEnd(event: TouchEvent<HTMLDivElement>) {
+  function onTouchEnd(event: TouchEvent<HTMLButtonElement>) {
     if (!multi || touchStartX.current == null) return;
     const endX = event.changedTouches[0]?.clientX;
     const startX = touchStartX.current;
@@ -105,9 +106,10 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
         {statusText}
       </p>
 
-      <div
+      <button
+        type="button"
         className={`product-detail__hero-image${isLoaded ? " product-detail__hero-image--loaded" : ""}`}
-        tabIndex={multi ? 0 : undefined}
+        onClick={() => setZoomOpen(true)}
         onKeyDown={onGalleryKeyDown}
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
@@ -133,7 +135,38 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
         {!isLoaded ? (
           <span className="product-detail__hero-loading" aria-hidden="true" />
         ) : null}
-      </div>
+        <span className="product-detail__zoom-hint">Tap to view full size</span>
+      </button>
+
+      {zoomOpen ? (
+        <div
+          className="product-image-viewer"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${productName} image`}
+          onClick={(event) => {
+            if (event.target === event.currentTarget) setZoomOpen(false);
+          }}
+        >
+          <button
+            type="button"
+            className="product-image-viewer__close"
+            onClick={() => setZoomOpen(false)}
+            aria-label="Close full-size image"
+          >
+            Close
+          </button>
+          <div className="product-image-viewer__frame">
+            <Image
+              src={active.src}
+              alt={active.alt || productName}
+              fill
+              sizes="100vw"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+        </div>
+      ) : null}
 
       {multi ? (
         <ul className="product-detail__thumbs" aria-label="Product images">

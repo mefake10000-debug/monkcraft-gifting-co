@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "productMasterSha256": "47d421702428cbe3b8d42d8191bd94cd068733b306283b217b94db3ca53b2823",
+  "catalogueIsUnchanged": true,
+  "searchResultsAudit": {
+    "provider": "DuckDuckGo",
+    "retrievedOn": "2026-10-14",
+    "file": "gifting-web-search-audit.csv",
+    "organicResultsPerQuery": 10
+  },
+  "counts": {
+    "products": 4257,
+    "segmentGroups": 2,
+    "leafSegments": 18,
+    "assignments": 3712,
+    "sourceMatchAssignments": 3277,
+    "reviewCandidateAssignments": 435,
+    "segmentsWithNoSourceMatches": 7,
+    "validationSampleProducts": 100,
+    "validationSampleCategories": 11,
+    "bundleTemplates": 13,
+    "searchQueries": 10,
+    "searchResultCardsScreened": 100,
+    "fullPagesReviewed": 12
+  },
+  "segments": [
+    {
+      "id": "premium-gifting-options",
+      "label": "Premium gifting options",
+      "sourceMatches": 560,
+      "reviewCandidates": 224,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "employee-recognition",
+      "label": "Employee recognition",
+      "sourceMatches": 97,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "retirement-and-farewell",
+      "label": "Retirement and farewell",
+      "sourceMatches": 0,
+      "reviewCandidates": 32,
+      "coverageStatus": "review-candidates-only"
+    },
+    {
+      "id": "leadership-and-ceo",
+      "label": "Leadership and CEO",
+      "sourceMatches": 55,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "senior-client-gifting",
+      "label": "Senior client gifting",
+      "sourceMatches": 0,
+      "reviewCandidates": 56,
+      "coverageStatus": "review-candidates-only"
+    },
+    {
+      "id": "visiting-team-welcome",
+      "label": "Visiting team welcome",
+      "sourceMatches": 0,
+      "reviewCandidates": 32,
+      "coverageStatus": "review-candidates-only"
+    },
+    {
+      "id": "milestone-moment",
+      "label": "Milestone moment",
+      "sourceMatches": 21,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "festival-gifting",
+      "label": "Festival gifting",
+      "sourceMatches": 247,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "diwali",
+      "label": "Diwali",
+      "sourceMatches": 194,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "christmas",
+      "label": "Christmas",
+      "sourceMatches": 20,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "new-year",
+      "label": "New Year",
+      "sourceMatches": 1,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "eid",
+      "label": "Eid",
+      "sourceMatches": 0,
+      "reviewCandidates": 12,
+      "coverageStatus": "review-candidates-only"
+    },
+    {
+      "id": "ganesh-chaturthi",
+      "label": "Ganesh Chaturthi",
+      "sourceMatches": 0,
+      "reviewCandidates": 6,
+      "coverageStatus": "review-candidates-only"
+    },
+    {
+      "id": "employee-onboarding",
+      "label": "Employee onboarding",
+      "sourceMatches": 1644,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "workplace-recognition",
+      "label": "Workplace recognition",
+      "sourceMatches": 126,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    },
+    {
+      "id": "company-milestone",
+      "label": "Company milestone",
+      "sourceMatches": 0,
+      "reviewCandidates": 41,
+      "coverageStatus": "review-candidates-only"
+    },
+    {
+      "id": "retirement",
+      "label": "Retirement",
+      "sourceMatches": 0,
+      "reviewCandidates": 32,
+      "coverageStatus": "review-candidates-only"
+    },
+    {
+      "id": "client-appreciation-event-and-conference",
+      "label": "Client appreciation event and conference",
+      "sourceMatches": 312,
+      "reviewCandidates": 0,
+      "coverageStatus": "source-matches-available"
+    }
+  ],
+  "ruleNotes": [
+    "A source_match means the existing catalog text or taxonomy supports the tag; it does not imply independent product-quality certification.",
+    "A review_candidate is not a confirmed filter membership and should not be published as one without review.",
+    "Premium source wording is labeled as supplier copy, not quality certification; price-only premium candidates and senior-client candidates remain review-only because the catalog has no margin or recipient-seniority field.",
+    "No values in products.json were changed; all merchandising assignments are sidecar data joined by product slug."
+  ]
+}

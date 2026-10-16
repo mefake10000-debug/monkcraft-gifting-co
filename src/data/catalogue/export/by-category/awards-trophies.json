@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C10",
+    "code": "C10",
+    "name": "Awards & Trophies",
+    "slug": "awards-trophies",
+    "path": "awards-trophies",
+    "sortOrder": 10
+  },
+  "productCount": 83,
+  "subcategoryCount": 4,
+  "subcategories": [
+    {
+      "id": "C10:certificates-frames",
+      "categoryId": "C10",
+      "name": "Certificates & Frames",
+      "slug": "certificates-frames",
+      "path": "awards-trophies/certificates-frames",
+      "sortOrder": 1,
+      "productCount": 23,
+      "dataFile": "by-subcategory/awards-trophies/certificates-frames.json"
+    },
+    {
+      "id": "C10:custom-awards",
+      "categoryId": "C10",
+      "name": "Custom Awards",
+      "slug": "custom-awards",
+      "path": "awards-trophies/custom-awards",
+      "sortOrder": 2,
+      "productCount": 2,
+      "dataFile": "by-subcategory/awards-trophies/custom-awards.json"
+    },
+    {
+      "id": "C10:shields",
+      "categoryId": "C10",
+      "name": "Shields",
+      "slug": "shields",
+      "path": "awards-trophies/shields",
+      "sortOrder": 3,
+      "productCount": 8,
+      "dataFile": "by-subcategory/awards-trophies/shields.json"
+    },
+    {
+      "id": "C10:trophies",
+      "categoryId": "C10",
+      "name": "Trophies",
+      "slug": "trophies",
+      "path": "awards-trophies/trophies",
+      "sortOrder": 4,
+      "productCount": 50,
+      "dataFile": "by-subcategory/awards-trophies/trophies.json"
+    }
+  ]
+}

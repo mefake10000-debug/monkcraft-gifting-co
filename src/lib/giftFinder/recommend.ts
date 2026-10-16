@@ -133,6 +133,15 @@ function freeTextTokens(requirements: GiftFinderRequirements): string[] {
   );
 }
 
+function negativePreferenceTokens(requirements: GiftFinderRequirements): string[] {
+  const source = [requirements.freeText, ...requirements.preferenceKeywords].join(" ");
+  const negativeWords = /\b(?:no|not|avoid|without|exclude|excluding|skip)\s+(?:any\s+)?([a-z0-9][a-z0-9 +&/-]*?)(?=\s+(?:but|except|instead)\b|[,.;!?]|$)/gi;
+  const terms = [...source.matchAll(negativeWords)].flatMap((match) =>
+    (match[1] ?? "").toLowerCase().split(/[^a-z0-9]+/).filter((token) => token.length >= 3),
+  );
+  return [...new Set(terms)];
+}
+
 function brandingWantsPrint(requirements: GiftFinderRequirements): boolean {
   const id = requirements.brandingPreference;
   if (id === "logo" || id === "print") return true;
@@ -165,6 +174,9 @@ function scoreProduct(
   const budget = requirements.budgetPerRecipientInr;
   const hasOccasionFilter = requirements.occasionIds.length > 0;
   const hasCategoryFilter = requirements.categorySlugs.length > 0;
+  const negativeTokens = negativePreferenceTokens(requirements);
+  const hay = productHaystack(product);
+  if (negativeTokens.some((token) => hay.includes(token))) return null;
 
   const occasionHit =
     hasOccasionFilter &&
@@ -248,9 +260,8 @@ function scoreProduct(
     notes.push("Price to confirm with Monkcraft");
   }
 
-  const hay = productHaystack(product);
   let keywordHits = 0;
-  for (const token of tokens) {
+  for (const token of tokens.filter((item) => !negativeTokens.includes(item))) {
     if (hay.includes(token)) {
       keywordHits += 1;
       score += 8;

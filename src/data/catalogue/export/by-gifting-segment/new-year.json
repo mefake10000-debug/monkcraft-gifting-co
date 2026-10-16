@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0.0",
+  "segment": {
+    "id": "new-year",
+    "label": "New Year",
+    "parentId": "seasonal-gifting",
+    "sortOrder": 11,
+    "criteria": "Source text explicitly mentions a New Year gift.",
+    "sourceMatchedProductCount": 1,
+    "reviewCandidateCount": 0,
+    "coverageStatus": "source-matches-available",
+    "sourceMatchedProductSlugs": [
+      "corporate-new-year-gift-melunge-leather-diary-for-men-women-genuine-leather-journal-luxury-leather-notebook-brown"
+    ],
+    "reviewCandidateProductSlugs": []
+  },
+  "sourceMatchedProductSlugs": [
+    "corporate-new-year-gift-melunge-leather-diary-for-men-women-genuine-leather-journal-luxury-leather-notebook-brown"
+  ],
+  "reviewCandidateProductSlugs": []
+}

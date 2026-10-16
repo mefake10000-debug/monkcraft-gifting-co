@@ -1,0 +1,1383 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C10",
+    "code": "C10",
+    "name": "Awards & Trophies",
+    "slug": "awards-trophies",
+    "path": "awards-trophies",
+    "sortOrder": 10
+  },
+  "subcategory": {
+    "id": "C10:shields",
+    "categoryId": "C10",
+    "name": "Shields",
+    "slug": "shields",
+    "path": "awards-trophies/shields",
+    "sortOrder": 3
+  },
+  "categoryProductCount": 83,
+  "productCount": 8,
+  "products": [
+    {
+      "slug": "columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433",
+      "title": "Columbia Men Blue Omni-Shield Silver Falls II Down Jacket",
+      "sku": "MGC-4225",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "shortDescription": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4225",
+        "Product Code": "MGC-4225"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 7649.15,
+        "amountMinorUnits": 764915,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 7649.15,
+            "amountMinorUnits": 764915,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613489
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/0-master-a306f06f6eab.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 493,
+          "height": 657,
+          "format": "webp",
+          "sha256": "def442f078102a94733bca7b70970d8019ebd447704a90bb6714ee3392124b44"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/1-angle-2961851e1b3b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "852ece3a1801d3a1acc792293128668fd6153d5d8935cf0019a31d8f028a6f50"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/2-angle-09ea3abd5761.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1562d8c985be28f0170883d6f3fe9cd485294f393e5377cf16876b7d082360b2"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/3-angle-3de56a647a0c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2bac4bec12a911ab681dc4d02e27c4a38b0d2f3cc1e60c95a476868b7ca607e8"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/4-angle-f85507b30c7d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2ce4cae5db6add94f9a522e81ee05c2de8b2021aebec58a5570a466200b7ef2d"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/5-angle-2995b8b140f2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "529f19fa5f356aa1df2f8dfdfeb87eaa29c342907a3b67bb241445656ab968a8"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/6-angle-fc6b3c30b38f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4ff9fb084f9e34a9234b64b17c497066e0e32838e6d9765edfdb168681b2e400"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/7-angle-8e26aebc4309.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d9be3878e3cffd4ba6d262edc5e5e297931d19c2dfdc4b117056d5f7f6f6f0e9"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/8-angle-50a116306fce.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e135de950023969277a1237207023c1c3906e98369320bd379c9b2013824d497"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-blue-omni-shield-silver-falls-ii-jacket-we7726-433/9-angle-ede806347691.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8c11f80f1ecd0b51ca0e9634937c7cf409d7e2fd71a7aef07067dca1ef37bec4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    },
+    {
+      "slug": "columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352",
+      "title": "Columbia Men Green Omni-Shield Silver Falls II Hooded Down Jacket",
+      "sku": "MGC-4227",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "shortDescription": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4227",
+        "Product Code": "MGC-4227"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 8499.15,
+        "amountMinorUnits": 849915,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 8499.15,
+            "amountMinorUnits": 849915,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613495
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/0-master-4a4876474136.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 493,
+          "height": 657,
+          "format": "webp",
+          "sha256": "80357744a106e9e2f15ee0247edca00f86275246cdce543fa415a609bc579286"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/1-angle-c66a40650e29.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1f3de2ae550f07c7eae44746a1affa818f8120b58ee3f7de01014edc490e6627"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/2-angle-0d6070870a7d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fb3feb5d8010ed6b2fd35610f2acd4cd8a41f995f3a89760bd8e167d79ecf0a4"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/3-angle-bb818ac2400c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "025d1189cce00516a5e77a3c805b6e60f6e8dc1d17d4c73f0fe367df0c52bf56"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/4-angle-1f8e3cda1dda.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ae6b43f9f603ccff63713a058298e79bf199027334090117d5dd3a26b6c0e880"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/5-angle-197a085a90f8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4195d0776c1192ca95a26bd22c36c4738873bbd5891a689dc30be3dbddef8ecf"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/6-angle-d42a3038d6a0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0a0c47df25f627660856a41d2deb39bdc940880b630dde23c7450ce32513b2f9"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/7-angle-24cbf09ab355.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1e27b847b53c182cdddb48ad7eb4e1a788ecdc0b76c1c6d2568720858a1b1246"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/8-angle-f71e86ddbbab.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "989d1c505c36b18d29c9d49768ed3f8b1bc154f338991e0009967a20c26d7fae"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-green-omni-shield-silver-falls-ii-hooded-jacket-we8479-352/9-angle-2e90595e3243.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "94041fe8d4f5544bab27df2069970ba889f48f4ba85fbe082ede1fb1d02835e7"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    },
+    {
+      "slug": "columbia-mens-grey-silver-falls-ii-jacket-we7726-023",
+      "title": "Columbia Men Grey Omni-Shield Silver Falls II Down Jacket",
+      "sku": "MGC-4226",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "shortDescription": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4226",
+        "Product Code": "MGC-4226"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 7649.15,
+        "amountMinorUnits": 764915,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 7649.15,
+            "amountMinorUnits": 764915,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613492
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/0-master-291bb94a171c.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 493,
+          "height": 657,
+          "format": "webp",
+          "sha256": "c4afbe1418d374197cd0591a786651a178cb6c0059283f1a5c6c38781fdb6060"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/1-angle-9932b9fb60c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a53f613fd01248ddef000a3e0c693ac77a133bd987494a3164ecdf02c03b1fa3"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/2-angle-c2ec81c7c8da.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "77cefafd97f7e9dbcc9d365367ed1361f676016f78d4e19e6dad45d891f54f91"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/3-angle-34263a09562a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e166a8706c4decee261131a3a6e10fba05e5be56d692df3ad540cf67cd210a23"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/4-angle-cf9ef6c0f70c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ddccfab88a951bc5053fde1ff03a94b5e34a462ed08c8d3f4a5191ed8b72cc61"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/5-angle-23036b9b726c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "05cdfc86428c6a6ed0b223812b80f8aacedc5edd2ab6465d5ea02e227e2e42d4"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/6-angle-f03b4f7a28cf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8ded6299f43957e015d244e8d60f7208ea07ed25ba99c7fc464fa265789c891b"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/7-angle-0e358a87195b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c9f13c07d5a8cb43f5c69cccf32547b64b506299a1bbc9694f2d0d9c87a6bbd0"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/8-angle-7d67670b29b6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "310878c7aafa513aa2c41de302068bef532c9590dfea5f260329abcb904de70d"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-jacket-we7726-023/9-angle-97c2f507ece5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "50578983bd6b1acdaa7ba68e4d22c148081f60c1bf2d1d749ca68c475602cc76"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    },
+    {
+      "slug": "columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023",
+      "title": "Columbia Men Grey Omni-Shield Silver Falls II Hooded Down Jacket",
+      "sku": "MGC-4228",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "shortDescription": "Don’t let cold weather keep you from hitting the trail, zip up the warmth and get out there in this warm, water-resistant jacket with 100% recycled insulation and rain-and-stain defying fabric. Omni-Shield™ repels moisture and resists stains by preventing liquids from absorbing into fast-drying yarns, so you stay clean and dry in damp, messy conditions 100% recycled polyester Thermarator™ insulation delivers lightweight warmth using down-like fibers that retain loft when wet, so you stay comfy i",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4228",
+        "Product Code": "MGC-4228"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 8499.15,
+        "amountMinorUnits": 849915,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 8499.15,
+            "amountMinorUnits": 849915,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613498
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/0-master-ef072f0e55a8.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 493,
+          "height": 657,
+          "format": "webp",
+          "sha256": "e1f72d9b9c6c65bdb72acdf39e99197138fde7aaaa8c4bd7c2ef76e50b242907"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/1-angle-d7a24498aadc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "167b253c23635fa3a7b5182b98538785501587270a37445149309afc0fbf4e3a"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/2-angle-5c78a7b172cd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b955af2fb460e39dc9c7471c164f80a27ac14e43730c2d5f0b5a86ad646d766c"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/3-angle-bb2d8969e633.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0308c8568f6bf4535197c911ea9af7a19a00cf320eb127fab7e9dbb3567e325b"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/4-angle-f0ec14f1ccc5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cc79186c25891e27cb36df2669d456ebc0b5b5d8bf5f06b3cd72f7e7ca59211a"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/5-angle-1001e56aaaa1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5de6abbb2302083aa71fd197b4cba971ca714df2501d7535663d840ea3a95c7a"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/6-angle-d7950a4abe5c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "bb17ea6262cd45ce11e4151b34737b60718518969758448067576b50ff9d967c"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/7-angle-f985775ab340.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fdfaef8cac748fb2f62a00cdb938daa638743999969f93bb5cf65919277203d3"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/8-angle-c51373adfa99.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e3fdbb3c345dbf411273f691efeeccc8f91aff6e9284fd05d58f7b3164244c7a"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-mens-grey-silver-falls-ii-hooded-jacket-we8479-023/9-angle-71a4b17fbcff.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ffae5715a7896f3931f2e4f8dcb8a0c6cf0dcff3ee9b2fa9927e19ea575ee124"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    },
+    {
+      "slug": "columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278",
+      "title": "Columbia Unisex Beige Omni-Shield Wildwood Heights 45L+5L Backpack",
+      "sku": "MGC-4230",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Wildwood Heights 45L+5L delivers an easygoing feel that adapts well to changing plans, making it a useful pick for unisex on the go. Thanks to its Polyester composition, it handles daily motion with ease and resists unnecessary wear. Versatile and uncomplicated, it remains a trustworthy option for regular use across seasons.",
+      "shortDescription": "Wildwood Heights 45L+5L delivers an easygoing feel that adapts well to changing plans, making it a useful pick for unisex on the go. Thanks to its Polyester composition, it handles daily motion with ease and resists unnecessary wear. Versatile and uncomplicated, it remains a trustworthy option for regular use across seasons.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4230",
+        "Product Code": "MGC-4230"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 13999.0,
+        "amountMinorUnits": 1399900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 13999.0,
+            "amountMinorUnits": 1399900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613506
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/0-master-70e971a936b8.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6d0f5aa28c87550e784fe204aa1c4eaeeba9af5ed4fe3b586134d5f4d564a80a"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/1-angle-a34c5be0bf9b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "216206707dc1cf3c5c9faf5450f60376e09fc71de078493aed786911eb230e99"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/3-angle-ad5a010993fb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "827afc134baa1013c8511d624a1237996cb010bd79f172b869d74aa6e9c45314"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/4-angle-6a8de590b875.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "bb6b5678620ef8266bfc56b50e478c38d8991a06819dc8bb33fe762b3cb3cc12"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/5-angle-74a3778db403.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3bc20dfc6cc1efcf539da86fe854225beee9a52899dbbc2efb4835c31ccbfb6e"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/6-angle-5e450ff5ab57.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1af4d56ae154d91646a6a7bc965ea0a49b9b98aadcf2621abd76b9bb49473251"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/7-angle-cdb1761b3992.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "72ef7ffb055354061f89e4d6dfb321ed95c3c8d1164c52355f06f46dab63f597"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/8-angle-32a6cd7464a3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3c87b6f4904747a79f15ded6233412ff3ce1594f4474de653062e7e02744385d"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/9-angle-f74b92612edc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8810bd479728a0e22f3c78e03cc576cf015ec26c807f9a700f2448cb953e6353"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-beige-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-278/10-angle-a24c81fc49ef.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a7a793d8ac9de13e91e5965e493d6fbb6d554623316e1d1fa03896755d943038"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    },
+    {
+      "slug": "columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010",
+      "title": "Columbia Unisex Black Omni-Shield Wildwood Heights 45L+5L Backpack",
+      "sku": "MGC-4231",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Wildwood Heights 45L+5L delivers an easygoing feel that adapts well to changing plans, making it a useful pick for unisex on the go. Thanks to its Polyester composition, it handles daily motion with ease and resists unnecessary wear. Versatile and uncomplicated, it remains a trustworthy option for regular use across seasons.",
+      "shortDescription": "Wildwood Heights 45L+5L delivers an easygoing feel that adapts well to changing plans, making it a useful pick for unisex on the go. Thanks to its Polyester composition, it handles daily motion with ease and resists unnecessary wear. Versatile and uncomplicated, it remains a trustworthy option for regular use across seasons.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4231",
+        "Product Code": "MGC-4231"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 13999.0,
+        "amountMinorUnits": 1399900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 13999.0,
+            "amountMinorUnits": 1399900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613509
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/0-master-1f3b00420a36.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a10556d83358979b44180763b67ddac45e3bf98d1c2a00eec079380ec14ad548"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/1-angle-2cf76fe112d6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "16d7057e4f623b3c0b4b80b9f64458143207dcdf4c88875fc2b5c64ec5a4b38c"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/3-angle-2a83567f9120.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "91984710b7aa5456022110d193ea65b60b708d0515def0ef8ba911ab0904639e"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/4-angle-6fe888719300.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a9fe4422cf8b9e0930880b19cc26ca350e2559a99398235a775ba6dc4679d33d"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/5-angle-29f478e4f101.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "38b8b9726a852fe6fecc9b8b7c658776264f4ca9ad07861eac34d2e63eedb2fa"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/6-angle-f0fff3013453.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a3da1c071e4f24de1535c461f728bfc2cda13389770a2dd745d6648e332b2d04"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/7-angle-e299dfcc6ff5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7da365ad8fe5e6d49eec9834e257bbfd278c02efc2126b4ca7a73e9419572877"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/8-angle-ccac8d945799.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f31cef2172b809e122fbe515c5438e9492be6ea78f1d8533a507f3c17068eeb6"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/9-angle-2e923227b5cd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "81e85b7c82ba8798e91507b642229a3d4ba11c1640e7dfc79bdcbd1ad841b6c0"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/columbia-unisex-black-omni-shield-wildwood-heights-45l-5l-backpack-xu1973-010/10-angle-e8a6923c4664.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "35bc0018e4f7fefa243ed45d2ed215d2adadb1f059674191e0c418c11f464a22"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    },
+    {
+      "slug": "unisex-blue-omni-shield-triple-canyon-36l-backpack",
+      "title": "Columbia Unisex Blue Omni-Shield Triple Canyon 36L Backpack",
+      "sku": "MGC-4229",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Bigger trekking plans need more structure, and this 36L backpack brings side compression, 3L hydration compatibility and quick-access bottle pockets. Omni-Shield repellency, a rain cover, trekking pole attachments and a rescue-whistle sternum strap help support longer days outside.",
+      "shortDescription": "Bigger trekking plans need more structure, and this 36L backpack brings side compression, 3L hydration compatibility and quick-access bottle pockets. Omni-Shield repellency, a rain cover, trekking pole attachments and a rescue-whistle sternum strap help support longer days outside.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4229",
+        "Product Code": "MGC-4229"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 10999.0,
+        "amountMinorUnits": 1099900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 10999.0,
+            "amountMinorUnits": 1099900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613501
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/0-master-89cd27d91a8a.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "78d1dc45fbfee68af6d2a61feca44fceb2e1cf341583680e3463f2e5d5576362"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/1-angle-2c27ea69defb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b3174412571df25a20d129e9feb2f2a477b69c53974fddf99e772b744f7d1f7d"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/3-angle-9481a4a59840.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0c83182c5cb258a89a86749931d237aab2e2648a745cd862ac73794a314396ab"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/4-angle-9f9222b603f9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d67d352c18790577e01ea527485cb6400e1e68ee08ecc76a1ee529395e2a3b6e"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/5-angle-df6d316ba125.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "146b4f2bcf1bf2b5695c97f507061dadb29662dd6894402984858da9f435b6b8"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/6-angle-b25dddd4a73a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7bf84de38a5a00ddeee5c6c31367d4bd0d903b1ec7be65b068e9edcefa0cfa80"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/7-angle-dca27d6f02c5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d8ca3fbb8efc1d2eb3d3121b386264191e1ce36688d85d18a2fc48e3b4703c72"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/8-angle-d71f6b1c9d1f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1a4e27c09ff529e146b9b78f089774fa004c2b44a023c0b2592477bd0fdcd7a4"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/9-angle-7078a2c5c1bc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "adc718e6fc57e01810023ea6ebb940b317bed20cf826eceb75ef347663412285"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-36l-backpack/10-angle-031c5d593c86.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4284386efb35ae682d672ed3461d4a89bfc99371e25e1f6dfd51b53a889b035e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    },
+    {
+      "slug": "unisex-blue-omni-shield-triple-canyon-60l-backpack",
+      "title": "Columbia Unisex Blue Omni-Shield Triple Canyon 60L Backpack",
+      "sku": "MGC-4232",
+      "brand": {
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "category": {
+        "id": "C10",
+        "code": "C10",
+        "name": "Awards & Trophies",
+        "slug": "awards-trophies",
+        "path": "awards-trophies",
+        "sortOrder": 10
+      },
+      "description": "Heavy trail loads feel more controlled with a 60L backpack built around support, storage and weather readiness. Omni-Shield repellency, a spring steel frame, load-lifter straps, hydration compatibility, side compression, rain cover and trekking pole attachments make it suitable for multi-day trekking.",
+      "shortDescription": "Heavy trail loads feel more controlled with a 60L backpack built around support, storage and weather readiness. Omni-Shield repellency, a spring steel frame, load-lifter straps, hydration compatibility, side compression, rain cover and trekking pole attachments make it suitable for multi-day trekking.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-4232",
+        "Product Code": "MGC-4232"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 14999.0,
+        "amountMinorUnits": 1499900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 14999.0,
+            "amountMinorUnits": 1499900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896613512
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/0-master-44d262fdc4ec.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4a342f2f0b7477a2f32022981ca2ecd9cb8807826877a16fe795ef6605f290d9"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/1-angle-f5178cb0ec81.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "de28405ce56409c5f1fa5991b73496144be2c683b8b4af043225dde736064e76"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/3-angle-235d357cdb04.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9c9e875bd0f5d548a2f40d284ef91ca051433b3096cec04fd17c22b3af4bc21f"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/4-angle-81581bd4cd02.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b7ec32f7d4880a614b18404890c9ce418f5f8c6167fe19e59d0d508656a8e92"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/5-angle-0bdb17dd67ca.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b6f365b20fa39e1705b1042ac1f706dd829a2f880cb104bee93d42401c427f70"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/6-angle-4a0c5e573087.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "88a62ddc10e148648e09187140e4e094de52b146d58e27356e08962b64d27367"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/7-angle-1b5e58baa05c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "be7fa394dd5e5210ae9597ca4340f36ef9cefac8f6f0a8345957635caf7c905a"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/8-angle-bc63e5026257.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2d5b13c2ea99720394bace8632408bece3d7cf2ff7531f48340d6f370c41dc44"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/9-angle-0d95f112d642.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3f8406e0b98493110a4cc996f636feafe8dd4ab27cd71ff7f389610815207e7b"
+        },
+        {
+          "path": "media/products/awards-trophies/shields/unisex-blue-omni-shield-triple-canyon-60l-backpack/10-angle-ee02aec8c5ea.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1143,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "de46e77f31e52ecfe4258d61c7b77b8ff9c17565cf6c8fde4226b456762500a9"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C10:shields",
+        "categoryId": "C10",
+        "name": "Shields",
+        "slug": "shields",
+        "path": "awards-trophies/shields",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "awards-trophies/shields"
+    }
+  ]
+}

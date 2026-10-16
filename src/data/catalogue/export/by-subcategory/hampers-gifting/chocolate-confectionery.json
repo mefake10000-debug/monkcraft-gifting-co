@@ -1,0 +1,2951 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C8",
+    "code": "C8",
+    "name": "Hampers & Gifting",
+    "slug": "hampers-gifting",
+    "path": "hampers-gifting",
+    "sortOrder": 8
+  },
+  "subcategory": {
+    "id": "C8:chocolate-confectionery",
+    "categoryId": "C8",
+    "name": "Chocolate & Confectionery",
+    "slug": "chocolate-confectionery",
+    "path": "hampers-gifting/chocolate-confectionery",
+    "sortOrder": 1
+  },
+  "categoryProductCount": 673,
+  "productCount": 29,
+  "products": [
+    {
+      "slug": "cookie-man-color-burst-assorted-cookies",
+      "title": "Cookie Man Color Burst Assorted Cookies",
+      "sku": "MGC-3211",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Color Burst Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Color Burst Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3211",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3211"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 345.0,
+        "amountMinorUnits": 34500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 345.0,
+            "amountMinorUnits": 34500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610314
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-color-burst-assorted-cookies/0-master-50fb4203b288.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ba36c875866b3df6f7362cc5cbe4dddda931e6e8658e29084d7b243bab1dc6e3"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-color-burst-assorted-cookies/1-angle-51a91cc1ac79.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8cf99e4439c5ba5545f17fb3ad896921f409c3752ae9cc2cce72c8b7f5f68301"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-festival-fusion-assorted-cookies",
+      "title": "Cookie Man Festival Fusion Assorted Cookies",
+      "sku": "MGC-3213",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Festival Fusion Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Festival Fusion Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3213",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3213"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 375.0,
+        "amountMinorUnits": 37500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 375.0,
+            "amountMinorUnits": 37500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610320
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-festival-fusion-assorted-cookies/0-master-e54b677a0c50.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "000336247a3c77b6d6ce1caac1bf37def0aeaa8c9fa45dc67e1f6ec3a56081a4"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-festival-fusion-assorted-cookies/1-angle-6a23ef944dac.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e2a38930f85387211ddab7515dd355d2f96439f9113eab63cbb645edd5a14b51"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-festival-of-heart-combo-box-4pcs",
+      "title": "Cookie Man Festival of Heart Combo Box (4pcs)",
+      "sku": "MGC-3218",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Festival of Heart Combo Box (4pcs)  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Festival of Heart Combo Box (4pcs)  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3218",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3218"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 955.0,
+        "amountMinorUnits": 95500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 955.0,
+            "amountMinorUnits": 95500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610336
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-festival-of-heart-combo-box-4pcs/0-master-b865bccf61a2.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fb895ca0ab05b436fb0c4a3b0f59d9a4d925d2e91177bc2f30d604184ddfd29a"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-festival-of-heart-combo-box-4pcs/1-angle-f4b826573856.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ce1951cc887602ae2408903083c81cb753aa107b276c736ad8a0234a5af0f962"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-happy-heart-combo-box-8pcs",
+      "title": "Cookie Man Happy Heart Combo Box (8pcs)",
+      "sku": "MGC-3222",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Happy Heart Combo Box (8pcs)  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Happy Heart Combo Box (8pcs)  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3222",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3222"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1625.0,
+        "amountMinorUnits": 162500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1625.0,
+            "amountMinorUnits": 162500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610348
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-happy-heart-combo-box-8pcs/0-master-17c656a42ca2.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ce1158d4393817208725844988ab9a61a53529a50bc15343c2769abb9b1c94cc"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-happy-heart-combo-box-8pcs/1-angle-8c87ddbf1aec.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "36338afcc25b1f0fcc1fb6d0968c5db11992e968c8c6187fd2d760810bb539a1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-heritage-hues",
+      "title": "Cookie Man Heritage Hues",
+      "sku": "MGC-3210",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Heritage Hues — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Heritage Hues — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3210",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3210"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 285.0,
+        "amountMinorUnits": 28500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 285.0,
+            "amountMinorUnits": 28500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610312
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-heritage-hues/0-master-4175959fe5ef.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b46f079bc20339af00a63fac831398df5ce156c29619320fd66aab0163e4c8eb"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-heritage-hues/1-angle-f92f824a3acd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bbbaf0f5e5212b7f1120da29e012349d48c2cd94bbb557500af8af8a8ac21e97"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-holi-diva-assorted-cookies",
+      "title": "Cookie Man Holi Diva Assorted Cookies",
+      "sku": "MGC-3216",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Holi Diva Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Holi Diva Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3216",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3216"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 585.0,
+        "amountMinorUnits": 58500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 585.0,
+            "amountMinorUnits": 58500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610330
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-holi-diva-assorted-cookies/0-master-1707395edca5.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ce732c269f74bd14f0cfe12726d973efd69a4c711303634b7400ed39385dcc98"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-holi-diva-assorted-cookies/1-angle-e60748c1c389.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "459890a25dd4ac843448bc598ef54fa83a3706484151b2c19f156138a507ec93"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-holi-happiness-assorted-cookies",
+      "title": "Cookie Man Holi Happiness Assorted Cookies",
+      "sku": "MGC-3217",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Holi Happiness Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Holi Happiness Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3217",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3217"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 585.0,
+        "amountMinorUnits": 58500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 585.0,
+            "amountMinorUnits": 58500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610332
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-holi-happiness-assorted-cookies/0-master-5b2675db7155.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "da261a09966904678e9e7aeef28183d3be96985c63a90144e02d7d9f44f98eae"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-holi-happiness-assorted-cookies/1-angle-72a46dc2fdec.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ca67d3c33d92f06db7ed5b54eae7ebf660753e951e2ea8dcea0afaadfdefa338"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-holi-heritage-combo-box-4pcs",
+      "title": "Cookie Man Holi Heritage Combo Box (4pcs)",
+      "sku": "MGC-3219",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Holi Heritage Combo Box (4pcs)  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Holi Heritage Combo Box (4pcs)  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3219",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3219"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1145.0,
+        "amountMinorUnits": 114500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1145.0,
+            "amountMinorUnits": 114500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610340
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-holi-heritage-combo-box-4pcs/0-master-5167b6ce394a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "081f3c98d119e510ff6f9736c1a89b3aa194d8af3df735571caf17049741a6a1"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-holi-heritage-combo-box-4pcs/1-angle-ebcc647ef399.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5c9eacd4aa4074026b386cbb1977de7cafe988013f6bf2aa9918f034d4967817"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-radiant-reunion-assorted-cookies",
+      "title": "Cookie Man Radiant Reunion Assorted Cookies",
+      "sku": "MGC-3212",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Radiant Reunion Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Radiant Reunion Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3212",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3212"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 345.0,
+        "amountMinorUnits": 34500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 345.0,
+            "amountMinorUnits": 34500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610317
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-radiant-reunion-assorted-cookies/0-master-ee0ecf0365ba.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c2118dc6529f9c0412e3ef74c54c67a7e0799a1554770b33e67b966765b56bb8"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-radiant-reunion-assorted-cookies/1-angle-97f1fc22f319.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a415bb7d12de30a4a72911ca629a45f2f47b0d30313516b72f0d1929389fca66"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-rang-fusion",
+      "title": "Cookie Man Rang Fusion",
+      "sku": "MGC-3215",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Rang Fusion — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Rang Fusion — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3215",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3215"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 385.0,
+        "amountMinorUnits": 38500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 385.0,
+            "amountMinorUnits": 38500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610327
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-rang-fusion/0-master-7df75a825b1b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e7f268284b9de4afb1f80c980675c800462c95fa16caad6d690034608398be7b"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-rang-fusion/1-angle-fc0afb92933d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8edab33ad307b745ec6ca7e8913a9431072ecfa7946101f284c9560647b477e8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-rang-mahal-combo-box",
+      "title": "Cookie Man Rang Mahal Combo Box",
+      "sku": "MGC-3220",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Rang Mahal Combo Box — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Rang Mahal Combo Box — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3220",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3220"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1245.0,
+        "amountMinorUnits": 124500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1245.0,
+            "amountMinorUnits": 124500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610342
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-rang-mahal-combo-box/0-master-8066109d5f2c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f5de5c36c9bdddfd7a39016d22b3bd50e10603394e75cd96125856e2159f8f87"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-rang-mahal-combo-box/1-angle-4b023b136dd0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4f9b16ecf8346d608ca524fd807dedcfccf4bfdf46a9cc3d37c11967666baf7a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-sweet-hues-tin-assorted-cookies",
+      "title": "Cookie Man Sweet Hues Tin Assorted Cookies",
+      "sku": "MGC-3214",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Sweet Hues Tin Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Sweet Hues Tin Assorted Cookies — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3214",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3214"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 375.0,
+        "amountMinorUnits": 37500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 375.0,
+            "amountMinorUnits": 37500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610324
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-sweet-hues-tin-assorted-cookies/0-master-4b21425f6b93.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f7a2d379dfc290eb8517fad77159217b87675f3b4e4c9c238820d8604fdc412d"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-sweet-hues-tin-assorted-cookies/1-angle-1be2998ea1f9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5294303c5c6dd6fd49e2d3f6f8623d5b0daf25eb1e7664797329f94076f34c5b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "cookie-man-utsav-combo-box",
+      "title": "Cookie Man Utsav Combo Box",
+      "sku": "MGC-3221",
+      "brand": {
+        "name": "Cookie man",
+        "slug": "cookie-man"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookie Man Utsav Combo Box — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Cookie Man Utsav Combo Box — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3221",
+        "Brand": "Cookie man",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3221"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1245.0,
+        "amountMinorUnits": 124500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1245.0,
+            "amountMinorUnits": 124500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610346
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-utsav-combo-box/0-master-6529ecda52fb.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7e2e6297242300df106f5b7cc8363fad024c00b560bfea4833103b89df8bc964"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/cookie-man-utsav-combo-box/1-angle-dddb492e158d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "77269fcc81d8ea085793e5e6659b3e2aa88b2f2cbf2f33f20d98bd483a89560f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "ferrero-rocher-chocolate-gift-4-pcs-50-g",
+      "title": "Ferrero Rocher Chocolate Gift, 4 Pcs (50 g)",
+      "sku": "MGC-3223",
+      "brand": {
+        "name": "Ferrero Rocher",
+        "slug": "ferrero-rocher"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Chocolate gift for corporate Diwali gifting, employee welcome hampers, and client gift boxes — premium Ferrero Rocher Chocolate Gift with 4 pralines, 50g.",
+      "shortDescription": "Chocolate gift for corporate Diwali gifting, employee welcome hampers, and client gift boxes — premium Ferrero Rocher Chocolate Gift with 4 pralines, 50g.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3223",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Ferrero Rocher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3223"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 155.0,
+        "amountMinorUnits": 15500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 155.0,
+            "amountMinorUnits": 15500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610351
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/ferrero-rocher-chocolate-gift-4-pcs-50-g/0-master-f58fb148335e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e32848a365b555bfa828bbb9dbd1cb6bcea7526d3baac97d221e2e62ab095a0"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/ferrero-rocher-chocolate-gift-4-pcs-50-g/1-angle-927eaf1f4900.webp",
+          "role": "ANGLE",
+          "variantKey": "Ferrero Rocher Chocolate Gift 4 Pcs 50g – Side View",
+          "sortOrder": 1,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "acb361ca642fc99c6d6b33a2403a57aa7168f13e413f384eb4dbd1113e1ab1c7"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/ferrero-rocher-chocolate-gift-4-pcs-50-g/2-angle-73873827d358.webp",
+          "role": "ANGLE",
+          "variantKey": "Ferrero Rocher Chocolate Gift 4 Pcs 50g – Detail View",
+          "sortOrder": 2,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "946358bdb5cd4be0c14b0eda26cc541f97d0ca23b38fce80de3c4563a1f0fd2d"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/ferrero-rocher-chocolate-gift-4-pcs-50-g/3-angle-7adb921f75e0.webp",
+          "role": "ANGLE",
+          "variantKey": "Ferrero Rocher Chocolate Gift 4 Pcs 50g – Pack View",
+          "sortOrder": 3,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "512fef22dac348d30f46fa06b83a06bf106bb0f62c5f1febcade4875e3c88de8"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/ferrero-rocher-chocolate-gift-4-pcs-50-g/4-angle-57a148ddeec2.webp",
+          "role": "ANGLE",
+          "variantKey": "Ferrero Rocher Chocolate Gift 4 Pcs 50g – Back View",
+          "sortOrder": 4,
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "sha256": "509db48d392e6e5f7521e5f122506e4b9962f696c33e7dceecddebadbc3a9fa6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "almond-chocolate-krunch",
+      "title": "Happilo Premium Almond Chocolate Krunch Gift Pack 51g (Pack of 3, 17g)",
+      "sku": "MGC-3224",
+      "brand": {
+        "name": "Happilo",
+        "slug": "happilo"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "About Product: Happilo Almond Chocolate Krunch combines crunchy almonds, smooth caramel, and rich chocolate in a fun 3-layered treat. Packed in a sleek 51g box, this delight is ideal for enjoying anytime or gifting on special occasions. Key Features: Three distinct layers – almond, caramel, and chocolate – come together in every bite. Contains 40% almonds and offers 10% protein. Carefully crafted for those who enjoy layered textures and flavor combinations. How to Use: Unwrap and enjoy directly ",
+      "shortDescription": "About Product: Happilo Almond Chocolate Krunch combines crunchy almonds, smooth caramel, and rich chocolate in a fun 3-layered treat. Packed in a sleek 51g box, this delight is ideal for enjoying anytime or gifting on special occasions. Key Features: Three distinct layers – almond, caramel, and chocolate – come together in every bite. Contains 40% almonds and offers 10% protein. Carefully crafted for those who enjoy layered textures and flavor combinations. How to Use: Unwrap and enjoy directly ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3224",
+        "Product Code": "MGC-3224"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 93.5,
+        "amountMinorUnits": 9350,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 93.5,
+            "amountMinorUnits": 9350,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610354
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/almond-chocolate-krunch/0-master-beb3a748acd3.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "44a34916c34b9aa5b34420e0ecb84873cdabe5ce84248c937eecbc75151cd908"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "house-of-treats-almond-biscotti-cookies",
+      "title": "House of Treats Almond Biscotti Cookies",
+      "sku": "MGC-3225",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Almond biscotti cookies for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats artisan cookies.",
+      "shortDescription": "Almond biscotti cookies for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats artisan cookies.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3225",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3225"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 535.0,
+        "amountMinorUnits": 53500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 535.0,
+            "amountMinorUnits": 53500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610359
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/house-of-treats-almond-biscotti-cookies/0-master-dd96ba5c72ab.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "219555462eeccd300427f55d5418bba028cfd5c56b04953392b5052d7bea34ea"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/house-of-treats-almond-biscotti-cookies/1-angle-0e4d98960f13.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6258030fe71550bfd032600aa57de293bf8e0afb08fdc710edbac034ff2ce247"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "house-of-treats-belgian-chocochip-cookies",
+      "title": "House of Treats Belgian Chocochip Cookies",
+      "sku": "MGC-3226",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Belgian chocochip cookies for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats artisan cookies.",
+      "shortDescription": "Belgian chocochip cookies for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats artisan cookies.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3226",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3226"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 535.0,
+        "amountMinorUnits": 53500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 535.0,
+            "amountMinorUnits": 53500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610362
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/house-of-treats-belgian-chocochip-cookies/0-master-3ac279858acf.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d3535cea9d043ae0a8453e8680ac84a913f16a147626119394cd9766e8cdc08a"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/house-of-treats-belgian-chocochip-cookies/1-angle-c0cd0db54b22.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6066859c7a146849b598a4163f315f04038e941b6f186d1bc83f5cf9e1276f90"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "house-of-treats-blue-berry-jam-cookies",
+      "title": "House of Treats Blue Berry Jam Cookies",
+      "sku": "MGC-3227",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Blueberry jam cookies for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats artisan cookies.",
+      "shortDescription": "Blueberry jam cookies for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats artisan cookies.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3227",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3227"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 535.0,
+        "amountMinorUnits": 53500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 535.0,
+            "amountMinorUnits": 53500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610365
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/house-of-treats-blue-berry-jam-cookies/0-master-35eec65146b1.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5d9bdac5c851b8e0f45b0bf4196d21a4e6f340b14c63942c01f9769e61d78cca"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/house-of-treats-blue-berry-jam-cookies/1-angle-68562224c589.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b15d828bf333cbbde9566d5fbcbbe72fa88f1c0ab09da19aebe3361be9c1a182"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "justrufs-chocolate-delights-for-all-hamper-800-gms",
+      "title": "Jus'trufs Chocolate Delights For All Hamper- 800 gms",
+      "sku": "MGC-3228",
+      "brand": {
+        "name": "Jus'trufs",
+        "slug": "jus-trufs"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Chocolate hamper for corporate gifting, employee appreciation, and client gifting — premium Jus'trufs Chocolate Delights For All Hamper, 800g.",
+      "shortDescription": "Chocolate hamper for corporate gifting, employee appreciation, and client gifting — premium Jus'trufs Chocolate Delights For All Hamper, 800g.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3228",
+        "Stock Update Date": "6 May 2025",
+        "Country of Origin": "India",
+        "Brand": "Jus'trufs",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3228"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3915.0,
+        "amountMinorUnits": 391500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3915.0,
+            "amountMinorUnits": 391500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610367
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/justrufs-chocolate-delights-for-all-hamper-800-gms/0-master-fbd9fc26d376.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "763e671a1a38d3829dbac7e7450e1c2a6b6c4a8b5ff23f04f2bbce4f6ce0e3f5"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/justrufs-chocolate-delights-for-all-hamper-800-gms/1-angle-45ea9aa451e3.webp",
+          "role": "ANGLE",
+          "variantKey": "Jus'trufs Chocolate Delights For All Hamper – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f06893a8a246614a0e84086ae2535312d12f7e31f8cdc9fd65bcfefa6c8a08af"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/justrufs-chocolate-delights-for-all-hamper-800-gms/2-angle-8fdbcf7299a1.webp",
+          "role": "ANGLE",
+          "variantKey": "Jus'trufs Chocolate Delights For All Hamper – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "dd74d4204f9ed25a6bfdb7145fd4d49f539313d5d2f417a0911f4201c7930611"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/justrufs-chocolate-delights-for-all-hamper-800-gms/3-angle-267eaef3adf9.webp",
+          "role": "ANGLE",
+          "variantKey": "Jus'trufs Chocolate Delights For All Hamper – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cf294ff3bf83ab695c4eefdf73795153dde77f0a72599d566c4bbe539db77030"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/justrufs-chocolate-delights-for-all-hamper-800-gms/4-angle-ca2b46f1935f.webp",
+          "role": "ANGLE",
+          "variantKey": "Jus'trufs Chocolate Delights For All Hamper – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4065c3318ae077baff38eaba3088104d4ca39aeec821da62aa38fdd565e4c6a6"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/justrufs-chocolate-delights-for-all-hamper-800-gms/5-angle-93f9dc034640.webp",
+          "role": "ANGLE",
+          "variantKey": "Jus'trufs Chocolate Delights For All Hamper – Contents View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "acc02767ee7b49210f9142a0415f6aab31729323f15ce78ce3177ecb9d7279a1"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/justrufs-chocolate-delights-for-all-hamper-800-gms/6-angle-b82b0127952b.webp",
+          "role": "ANGLE",
+          "variantKey": "Jus'trufs Chocolate Delights For All Hamper – Pack View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3b22d58de9b10ebd8abd7cd2ddb67c7b149b557e0ef8372633e598d4c1b3ccd5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "smoor-cookies",
+      "title": "Smoor Cookies",
+      "sku": "MGC-3229",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Artisan Smoor chocolate cookies for Diwali gifting, corporate hampers, and employee welcome kits — affordable Monkcraft Smoor Cookies.",
+      "shortDescription": "Artisan Smoor chocolate cookies for Diwali gifting, corporate hampers, and employee welcome kits — affordable Monkcraft Smoor Cookies.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3229",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3229"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 315.0,
+        "amountMinorUnits": 31500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 315.0,
+            "amountMinorUnits": 31500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610373
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-cookies/0-master-b2738219216a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e85c270eee963a044ebffce07eb7bd737e5677f53fe105caec365cf74bd86d34"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-cookies/1-angle-7134c92b664b.webp",
+          "role": "ANGLE",
+          "variantKey": "Smoor Cookies – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f3d625d24b0cb3275c478f2a35ca6cd78a161fc704c543eb3fe51d2b54070eb1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "smoor-danish-cookies",
+      "title": "Smoor Danish Cookies",
+      "sku": "MGC-3231",
+      "brand": {
+        "name": "Smoor",
+        "slug": "smoor"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Cookies for corporate gifting, employee snack hampers, and client appreciation — premium Smoor Danish Cookies artisan gourmet treats.",
+      "shortDescription": "Cookies for corporate gifting, employee snack hampers, and client appreciation — premium Smoor Danish Cookies artisan gourmet treats.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3231",
+        "Stock Update Date": "10 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "Smoor",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3231"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 615.0,
+        "amountMinorUnits": 61500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 615.0,
+            "amountMinorUnits": 61500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610378
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-danish-cookies/0-master-f7ab43494a7a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6f756e9a9c9681d17d40879e8a188089e91ef74c88659ea8e38026e73a3f01e7"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-danish-cookies/1-angle-b43ed4a0c0a7.webp",
+          "role": "ANGLE",
+          "variantKey": "Smoor Danish Cookies – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "61ae3c1ae7a7371d4a3e81ed388cbcbb44eeb518d019dc4af19a9699ec1f52c4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "smoor-luxury-couverture-chocolates-box-of-4",
+      "title": "Smoor Luxury Couverture Chocolates | Box of 4",
+      "sku": "MGC-3230",
+      "brand": {
+        "name": "Smoor",
+        "slug": "smoor"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Luxury couverture chocolates for corporate gifting, client gifting, and Diwali gift boxes — premium Smoor Luxury Couverture Chocolates box of 4.",
+      "shortDescription": "Luxury couverture chocolates for corporate gifting, client gifting, and Diwali gift boxes — premium Smoor Luxury Couverture Chocolates box of 4.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3230",
+        "Stock Update Date": "10 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "Smoor",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3230"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 465.0,
+        "amountMinorUnits": 46500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 465.0,
+            "amountMinorUnits": 46500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610376
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-luxury-couverture-chocolates-box-of-4/0-master-3a54d854f792.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "33c4c4dd4062515df91706694ab3d13f8f1b2bb9502013e0c02a3764fc51fc47"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-luxury-couverture-chocolates-box-of-4/1-angle-4e894be6bd2b.webp",
+          "role": "ANGLE",
+          "variantKey": "Smoor Luxury Couverture Chocolates Box of 4 – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2870085af86330cc1bd0ce66e1dade86ef8929a8d3c0df3a5c02f8148b736c83"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-luxury-couverture-chocolates-box-of-4/2-angle-d4c74036d279.webp",
+          "role": "ANGLE",
+          "variantKey": "Smoor Luxury Couverture Chocolates Box of 4 – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "177aff776af3416774718851e6bbd48db534ae31141643a66c89d90dfb1bdc56"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "smoor-luxury-couverture-chocolates-box-of-9",
+      "title": "Smoor Luxury Couverture Chocolates | Box of 9",
+      "sku": "MGC-3232",
+      "brand": {
+        "name": "Smoor",
+        "slug": "smoor"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Luxury couverture chocolates for corporate gifting, client gifting, and Diwali gift boxes — premium Smoor Luxury Couverture Chocolates box of 9.",
+      "shortDescription": "Luxury couverture chocolates for corporate gifting, client gifting, and Diwali gift boxes — premium Smoor Luxury Couverture Chocolates box of 9.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3232",
+        "Stock Update Date": "10 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "Smoor",
+        "Customization Type": "UV Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3232"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 925.0,
+        "amountMinorUnits": 92500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 925.0,
+            "amountMinorUnits": 92500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610380
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-luxury-couverture-chocolates-box-of-9/0-master-5128973f8dd8.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5a5f31999d86522347273a3c6cd9ff70ee0ec34d18c5a3e85059e5115698274b"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-luxury-couverture-chocolates-box-of-9/1-angle-37f3e91defdd.webp",
+          "role": "ANGLE",
+          "variantKey": "Smoor Luxury Couverture Chocolates Box of 9 – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "dc87ac3884b13e93d7760ad18fcb4d20abff462cabdd0836f2935174a5af3034"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/smoor-luxury-couverture-chocolates-box-of-9/2-angle-712fa6a84479.webp",
+          "role": "ANGLE",
+          "variantKey": "Smoor Luxury Couverture Chocolates Box of 9 – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b50eb1196a77d78c7765380925a2ac05df3dc9010a5b20055372d6f8a3844370"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g",
+      "title": "The Whole Truth 55% Dark Chocolate Sweetened with Dates-80g",
+      "sku": "MGC-3233",
+      "brand": {
+        "name": "The Whole Truth",
+        "slug": "the-whole-truth"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dark chocolate for corporate gifting, Diwali gift hampers, and employee snack kits — premium The Whole Truth 55% Dark Chocolate 80g sweetened with dates.",
+      "shortDescription": "Dark chocolate for corporate gifting, Diwali gift hampers, and employee snack kits — premium The Whole Truth 55% Dark Chocolate 80g sweetened with dates.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3233",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "The Whole Truth",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3233"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 295.0,
+        "amountMinorUnits": 29500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 295.0,
+            "amountMinorUnits": 29500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610383
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/0-master-95c77338f506.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d27979caa8cae9c76e9fccaf4fb608e245e31950d4dd42520b714a793ba56e55"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/1-angle-4c1659740030.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth 55% Dark Chocolate 80g – Detail View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "83f82dfbb513b452739f2fc091a57190b70890d369248d7bd29e6771ab79fcd8"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/2-angle-018cd2fc3b3f.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth 55% Dark Chocolate 80g – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6ab7956b8bc20b28f905d6b4fc6272c41974cf408fa8db7a5a987bac2a10146a"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/3-angle-f8e914f72fd5.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth 55% Dark Chocolate 80g – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "14f30cd24dbdccf2e8b796bdbea95b2aee7e67a5bf4e51cd880eab9f7954d70c"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/4-angle-654b933ff6e9.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth 55% Dark Chocolate 80g – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b7305836f0d22118f0ca40841c759e0011bddb4e54c35a674d27e5e753f6f2c2"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/5-angle-ad84ed72b507.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth 55% Dark Chocolate 80g – Ingredient View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ea8b44990e479f20b5cf66dacd703117f36a7de61277d3dab7d8150611515a49"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/6-angle-53d0b44faadd.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth 55% Dark Chocolate 80g – Pack View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "209fd58f2c03d076fb6a9c0b66a76b21fd23347e261406a512dd56fe70e76dec"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-55-dark-chocolate-sweetened-with-dates-80g/7-angle-a48ad427d61f.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth 55% Dark Chocolate 80g – Label View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1f520d5512c333a40a2a273804da6420b6cc32fd724828331cd2a80180404ce6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "the-whole-truth-almond-raisin-dark-chocolate-sweetened-with-dates-80g",
+      "title": "The Whole Truth Almond Raisin Dark Chocolate Sweetened with Dates-80g",
+      "sku": "MGC-3234",
+      "brand": {
+        "name": "The Whole Truth",
+        "slug": "the-whole-truth"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dark chocolate for corporate gifting, Diwali gift hampers, and employee snack kits — premium The Whole Truth Almond Raisin Dark Chocolate 80g with dates.",
+      "shortDescription": "Dark chocolate for corporate gifting, Diwali gift hampers, and employee snack kits — premium The Whole Truth Almond Raisin Dark Chocolate 80g with dates.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3234",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "The Whole Truth",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3234"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 295.0,
+        "amountMinorUnits": 29500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 295.0,
+            "amountMinorUnits": 29500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610386
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-almond-raisin-dark-chocolate-sweetened-with-dates-80g/0-master-9fb4ca352d06.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb930295e9da1a9ba9d58342a1cedc2c86a4649f9cff2877e462e811db9328b9"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-almond-raisin-dark-chocolate-sweetened-with-dates-80g/1-angle-900f7b45404f.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Almond Raisin Dark Chocolate 80g – Pack View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8ed2222129c80b7388ecfc69cc1de18828a360ad0e5587e117f810abbc8b380e"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-almond-raisin-dark-chocolate-sweetened-with-dates-80g/2-angle-a17da303625a.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Almond Raisin Dark Chocolate 80g – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "80c1d862ff82addd034906a6e51dc93fcf3fb90ce02521f9622cea2766dd34fb"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-almond-raisin-dark-chocolate-sweetened-with-dates-80g/3-angle-f90778d496ba.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Almond Raisin Dark Chocolate 80g – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "694dcc9a7a759aa343a4272c4b8921bf943c0aacd2a6b2f7fb69efc179ecec73"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-almond-raisin-dark-chocolate-sweetened-with-dates-80g/4-angle-c33f489b39c0.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Almond Raisin Dark Chocolate 80g – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9a06844c9912b03065a9c01b9e1725b3b9d2bbba5c681d3a7e6721a34a5ee2ac"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-almond-raisin-dark-chocolate-sweetened-with-dates-80g/5-angle-e9e153ccf375.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Almond Raisin Dark Chocolate 80g – Back View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "786ce12880c4b893883579d058d65ef6721dc7bc212c83440c10f849d6ff5d4d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "the-whole-truth-hazelnut-dark-chocolate-sweetened-with-dates-80g",
+      "title": "The Whole Truth Hazelnut Dark Chocolate Sweetened with Dates-80g",
+      "sku": "MGC-3235",
+      "brand": {
+        "name": "The Whole Truth",
+        "slug": "the-whole-truth"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dark chocolate for corporate gifting, Diwali gifts, and employee snack hampers — premium The Whole Truth Hazelnut Dark Chocolate 80g sweetened with dates.",
+      "shortDescription": "Dark chocolate for corporate gifting, Diwali gifts, and employee snack hampers — premium The Whole Truth Hazelnut Dark Chocolate 80g sweetened with dates.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3235",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "The Whole Truth",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3235"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 295.0,
+        "amountMinorUnits": 29500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 295.0,
+            "amountMinorUnits": 29500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610393
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-hazelnut-dark-chocolate-sweetened-with-dates-80g/0-master-3d987fc6906b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "281ba89a3af2462049cb110fa526e6b0aa3b6c9519cba75b2c5713256964ecc5"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-hazelnut-dark-chocolate-sweetened-with-dates-80g/1-angle-3431658d336f.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Hazelnut Dark Chocolate 80g – Pack View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "63806b7b7553f4a0db85e4427148917777dbe50a76187f87a3366da360bd791c"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-hazelnut-dark-chocolate-sweetened-with-dates-80g/3-angle-4d73b1b7d882.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Hazelnut Dark Chocolate 80g – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2acb31089e29b36ded7c799d2d07a99403579e3af0c59f2dfa335636891970b5"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-hazelnut-dark-chocolate-sweetened-with-dates-80g/4-angle-abe21ddc13b3.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Hazelnut Dark Chocolate 80g – Alternate View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f34c51cb89a3d9e74804168b2bf8fa3a39081ed9b36dccc253be24e902d8c3cb"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-hazelnut-dark-chocolate-sweetened-with-dates-80g/5-angle-78b7e5e9f501.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Hazelnut Dark Chocolate 80g – Ingredient View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "56a747500da84e1ef80e206a4da2e815d4424ba7ee3c507304fe9b1e53ae4e36"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-hazelnut-dark-chocolate-sweetened-with-dates-80g/6-angle-f54e771a700d.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Hazelnut Dark Chocolate 80g – Back View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "abf5bc3735f10134265c8a75c7ef3e2973b7eb40f321099f68493f945e7233d7"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "the-whole-truth-orange-dark-chocolate-sweetened-with-dates-80g",
+      "title": "The Whole Truth Orange Dark Chocolate Sweetened with Dates-80g",
+      "sku": "MGC-3236",
+      "brand": {
+        "name": "The Whole Truth",
+        "slug": "the-whole-truth"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dark chocolate for corporate gifting, Diwali gifts, and employee welcome kits — premium The Whole Truth Orange Dark Chocolate 80g with dates.",
+      "shortDescription": "Dark chocolate for corporate gifting, Diwali gifts, and employee welcome kits — premium The Whole Truth Orange Dark Chocolate 80g with dates.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3236",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Brand": "The Whole Truth",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3236"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 295.0,
+        "amountMinorUnits": 29500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 295.0,
+            "amountMinorUnits": 29500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610397
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-orange-dark-chocolate-sweetened-with-dates-80g/0-master-5c26164123cd.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "77e58d64359795615bb657e7a6873bbdd425f8bad100448b9b2e1bec0e0f9ece"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-orange-dark-chocolate-sweetened-with-dates-80g/1-angle-dcb55960dba9.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Orange Dark Chocolate 80g – Pack View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b34bc42fe450e51760ae766e683dd2313ae419b395a32c23302bd2ae2513bfa8"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-orange-dark-chocolate-sweetened-with-dates-80g/2-angle-4041ff094df1.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Orange Dark Chocolate 80g – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "75daf8eb2b3a3ecc2d1ea8b01ce7e937e666c52a892df8b62d610d6d3f03659e"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-orange-dark-chocolate-sweetened-with-dates-80g/3-angle-b41065f0f5ea.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Orange Dark Chocolate 80g – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cd57fb60ec6539edb0092c40f3fa16844e68374c9ac5df1f0cfc182672535624"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-orange-dark-chocolate-sweetened-with-dates-80g/4-angle-c5eae011ac0b.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Orange Dark Chocolate 80g – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f37c507662f73acefbf98d7230e15f82395133d46dbb5b82fa2861fd12d95417"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/the-whole-truth-orange-dark-chocolate-sweetened-with-dates-80g/5-angle-4d9ecd7f0d85.webp",
+          "role": "ANGLE",
+          "variantKey": "The Whole Truth Orange Dark Chocolate 80g – Back View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a4b15b1ba440d7769ae6d2abf7448c5610fe9188208c47089d16acd5506f8fc2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "toblerone-chocolates-combo-pack-gift-set-2-white-2-dark-milk-pack-of-6-100g",
+      "title": "Toblerone Chocolates Combo Pack Gift Set 2,White, Dark, Milk Pack Of 6 100g",
+      "sku": "MGC-3237",
+      "brand": {
+        "name": "Toblerone",
+        "slug": "toblerone"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Toblerone Chocolates Combo Pack Gift Set 2,White, Dark, Milk Pack Of 6 100g",
+      "shortDescription": "Toblerone Chocolates Combo Pack Gift Set 2,White, Dark, Milk Pack Of 6 100g",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3237",
+        "Product Code": "MGC-3237"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2394.0,
+        "amountMinorUnits": 239400,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2394.0,
+            "amountMinorUnits": 239400,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610400
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/toblerone-chocolates-combo-pack-gift-set-2-white-2-dark-milk-pack-of-6-100g/0-master-7e3be242da7c.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1994a7769d37b8db5ed7c55a3e99afaeff8a1d48ad6f3243816768348b67676c"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/toblerone-chocolates-combo-pack-gift-set-2-white-2-dark-milk-pack-of-6-100g/1-angle-09d45741ea16.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8bbec48061757f4e3feb798037326a65931f0986188415aa4e80a840b0bf8164"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    },
+    {
+      "slug": "yoga-bar-energy-chocolate-chunk-nut-bar-38g",
+      "title": "Yoga Bar 38g Energy Bar-Chocolate Chunk Nut",
+      "sku": "MGC-3238",
+      "brand": {
+        "name": "Yoga Bar",
+        "slug": "yoga-bar"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Yoga Bar 38g Energy Bar-Chocolate Chunk Nut — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Yoga Bar 38g Energy Bar-Chocolate Chunk Nut — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3238",
+        "Stock Update Date": "6 May 2025",
+        "Country of Origin": "India",
+        "Brand": "Yoga Bar",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3238"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 45.0,
+        "amountMinorUnits": 4500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 45.0,
+            "amountMinorUnits": 4500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610403
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/yoga-bar-energy-chocolate-chunk-nut-bar-38g/0-master-9b9d6fd5c575.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "95d275e8fe6455160b2324432ba92c0edfa87895dd7fcd84555a5f7635c86e74"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/yoga-bar-energy-chocolate-chunk-nut-bar-38g/1-angle-dcffdc8ede82.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6de5e4ec4debb7b51f46c8f570a44d910d96c8dc2b5e297b920ef40500cadbf9"
+        },
+        {
+          "path": "media/products/hampers-gifting/chocolate-confectionery/yoga-bar-energy-chocolate-chunk-nut-bar-38g/2-angle-0828b4b9ff78.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "eead79290509afc39f8eda33210902ac7021f800c11c68597b0b4e7c6d8dc248"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:chocolate-confectionery",
+        "categoryId": "C8",
+        "name": "Chocolate & Confectionery",
+        "slug": "chocolate-confectionery",
+        "path": "hampers-gifting/chocolate-confectionery",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "hampers-gifting/chocolate-confectionery"
+    }
+  ]
+}

@@ -2,11 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { CatalogueBrowseLink } from "@/components/catalogue/BackToResults";
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from "react";
 import {
   CATALOGUE_FIELD_LABELS,
   type CatalogueFieldKey,
-  type CataloguePricingMode,
   type StudioProductSummary,
   type WhiteLabelCatalogueDraft,
 } from "@/data/catalogue/studioTypes";
@@ -162,7 +162,7 @@ export function CatalogueBuilder({
           [
             ["select", "Products"],
             ["brand", "Brand"],
-            ["fields", "Fields & price"],
+            ["fields", "Details & price"],
             ["preview", "Preview & PDF"],
           ] as const
         ).map(([id, label]) => (
@@ -185,14 +185,14 @@ export function CatalogueBuilder({
         <section className="studio-catalogue__section" aria-labelledby="cat-select">
           <h2 id="cat-select">Select products</h2>
           <p>
-            Choose genuine catalogue products. Your selection stays while you
-            edit branding. Import from shortlist anytime.
+            Choose catalogue products. Your selection stays while you edit
+            branding. Import from your cart anytime.
           </p>
           {orderedProducts.length === 0 ? (
             <div className="studio-empty-guide" role="status">
               <p className="studio-empty-guide__title">Next step</p>
               <p>
-                Search and add at least one product, or pull from your shortlist.
+                Search and add at least one product, or pull from your cart.
                 Then continue to brand and preview.
               </p>
             </div>
@@ -205,20 +205,18 @@ export function CatalogueBuilder({
                 const ids = readShortlist().map((item) => item.id);
                 if (ids.length === 0) {
                   window.alert(
-                    "Your shortlist is empty. Save products from the gifts catalogue first.",
+                    "Your cart is empty. Add products from the catalog first.",
                   );
                   return;
                 }
                 syncDraft(mergeShortlistIntoCatalogue(ids));
               }}
             >
-              Add from shortlist
+              Add from cart
             </button>
-            <Link className="journey-btn journey-btn--ghost" href="/gifts">
-              Browse catalogue
-            </Link>
+            <CatalogueBrowseLink className="journey-btn journey-btn--ghost" label="Browse catalogue" />
             <Link className="journey-btn journey-btn--ghost" href="/gifts/shortlist">
-              Open shortlist
+              Open cart
             </Link>
           </div>
 
@@ -484,48 +482,20 @@ export function CatalogueBuilder({
           <label className="studio-field">
             <span>Pricing display</span>
             <select
-              value={draft.pricingMode}
+              value={draft.pricingMode === "hide" ? "hide" : "base"}
               onChange={(event) =>
                 applyPatch({
-                  pricingMode: event.target.value as CataloguePricingMode,
+                  pricingMode: event.target.value === "hide" ? "hide" : "base",
+                  markupValue: 0,
                 })
               }
             >
               <option value="hide">Hide prices</option>
-              <option value="base">Show verified catalogue price</option>
-              <option value="markup-fixed">
-                Catalogue price + fixed INR markup
-              </option>
-              <option value="markup-percent">
-                Catalogue price + percent markup
-              </option>
+              <option value="base">Show one catalogue price</option>
             </select>
           </label>
-
-          {draft.pricingMode === "markup-fixed" ||
-          draft.pricingMode === "markup-percent" ? (
-            <label className="studio-field">
-              <span>
-                {draft.pricingMode === "markup-fixed"
-                  ? "Fixed markup (INR)"
-                  : "Markup percent"}
-              </span>
-              <input
-                type="number"
-                min={0}
-                step={draft.pricingMode === "markup-fixed" ? 1 : 0.5}
-                value={draft.markupValue}
-                onChange={(event) =>
-                  applyPatch({
-                    markupValue: Math.max(0, Number(event.target.value) || 0),
-                  })
-                }
-              />
-            </label>
-          ) : null}
-
           <p className="studio-hint">
-            Markups apply only when a verified catalogue unit price exists.
+            The downloadable catalogue displays one indicative unit price per product. Monkcraft verifies the final amount before approval.
             Unpriced products show as quote on request (or are omitted if prices
             are hidden). Taxes, branding, and shipping are never assumed included.
           </p>

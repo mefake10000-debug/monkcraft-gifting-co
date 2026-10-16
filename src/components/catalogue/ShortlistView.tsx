@@ -10,11 +10,13 @@ import {
   removeFromShortlist,
   setShortlistQuantity,
   shortlistTotalUnits,
+  standardProductQuantityFloor,
 } from "@/lib/shortlist";
 
 export function ShortlistView() {
   const [items, setItems] = useState<ShortlistItem[]>([]);
   const [ready, setReady] = useState(false);
+  const [quantityDrafts, setQuantityDrafts] = useState<Record<string, string>>({});
 
   useEffect(() => {
     const sync = () => {
@@ -33,7 +35,7 @@ export function ShortlistView() {
   if (!ready) {
     return (
       <div className="journey-panel" aria-busy="true">
-        <p>Loading your shortlist…</p>
+        <p>Loading your cart…</p>
       </div>
     );
   }
@@ -41,14 +43,12 @@ export function ShortlistView() {
   if (items.length === 0) {
     return (
       <div className="journey-panel journey-panel--empty" role="status">
-        <h1>Your shortlist is empty</h1>
-        <p>
-          Save products from the catalogue. Selections stay in this browser after
-          refresh.
-        </p>
+        <p className="journey-eyebrow">Cart</p>
+        <h1>Your cart is empty</h1>
+        <p>Add products from the catalogue, set quantities, and send your cart to Monkcraft for price verification and approval.</p>
         <div className="journey-actions">
           <Link className="journey-btn" href="/gifts">
-            Browse gifts
+            Browse catalogue
           </Link>
         </div>
       </div>
@@ -57,29 +57,28 @@ export function ShortlistView() {
 
   const units = shortlistTotalUnits(items);
 
+  function commitQuantity(item: ShortlistItem, value: string) {
+    const minimum = standardProductQuantityFloor(item.minQuantity);
+    const parsed = Math.floor(Number(value));
+    const quantity = Number.isFinite(parsed) ? Math.max(minimum, parsed) : minimum;
+    setShortlistQuantity(item.id, quantity);
+    setQuantityDrafts((current) => ({ ...current, [item.id]: String(quantity) }));
+  }
+
   return (
     <div className="journey-panel">
       <header className="journey-panel__head">
         <div>
-          <p className="journey-eyebrow">Shortlist</p>
-          <h1>
-            {items.length} product{items.length === 1 ? "" : "s"} · {units}{" "}
-            {units === 1 ? "unit" : "units"}
-          </h1>
+          <p className="journey-eyebrow">Cart</p>
+          <h1>Your cart</h1>
           <p>
-            Quantities are saved locally. Adjust them here, then continue to your
-            gifting brief.
+            {items.length} product{items.length === 1 ? "" : "s"} · {units} total units. Review displayed prices and send this cart for verification and approval.
           </p>
+          <p className="cart-price-note">Prices are verified by Monkcraft before order approval. Payment follows the approved quote.</p>
         </div>
         <div className="journey-actions">
           <Link className="journey-btn" href="/gifts/brief">
-            Open My Brief
-          </Link>
-          <Link
-            className="journey-btn journey-btn--ghost"
-            href="/studio?mode=catalogue&from=shortlist&fromShortlist=1"
-          >
-            Build white-label catalogue
+            Continue to price verification
           </Link>
           <button
             type="button"
@@ -87,14 +86,14 @@ export function ShortlistView() {
             onClick={() => {
               if (
                 window.confirm(
-                  "Clear all shortlisted products? This cannot be undone.",
+                  "Clear all cart products? This cannot be undone.",
                 )
               ) {
                 clearShortlist();
               }
             }}
           >
-            Clear shortlist
+            Clear cart
           </button>
         </div>
       </header>
@@ -122,20 +121,18 @@ export function ShortlistView() {
                 <Link href={`/gifts/${item.slug}`}>{item.name}</Link>
               </h2>
               <p className="shortlist-row__price">{item.priceLabel}</p>
-              {item.minQuantity ? (
-                <p className="shortlist-row__moq">MOQ {item.minQuantity}</p>
-              ) : null}
+              <p className="shortlist-row__moq">Minimum {standardProductQuantityFloor(item.minQuantity)} pcs</p>
             </div>
             <div className="shortlist-row__qty">
-              <label htmlFor={`qty-${item.id}`}>Qty</label>
+              <label htmlFor={`qty-${item.id}`}>Quantity (pcs)</label>
               <input
                 id={`qty-${item.id}`}
                 type="number"
-                min={item.minQuantity && item.minQuantity > 0 ? item.minQuantity : 1}
-                value={item.quantity}
-                onChange={(event) =>
-                  setShortlistQuantity(item.id, Number(event.target.value))
-                }
+                min={standardProductQuantityFloor(item.minQuantity)}
+                step={1}
+                value={quantityDrafts[item.id] ?? String(item.quantity)}
+                onChange={(event) => setQuantityDrafts((current) => ({ ...current, [item.id]: event.target.value }))}
+                onBlur={(event) => commitQuantity(item, event.target.value)}
               />
               <button
                 type="button"
@@ -153,14 +150,8 @@ export function ShortlistView() {
         <Link className="journey-btn journey-btn--ghost" href="/gifts">
           Keep browsing
         </Link>
-        <Link
-          className="journey-btn journey-btn--ghost"
-          href="/studio?mode=catalogue&from=shortlist&fromShortlist=1"
-        >
-          Studio catalogue
-        </Link>
         <Link className="journey-btn" href="/gifts/brief">
-          Open My Brief
+          Review quote
         </Link>
       </div>
     </div>

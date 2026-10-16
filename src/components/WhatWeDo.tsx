@@ -1,12 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BrandVideoBand } from "@/components/BrandVideoBand";
 import { Reveal } from "@/components/Reveal";
+import { BrandVideoBand } from "@/components/BrandVideoBand";
 
 /**
- * What We Do — PDF deck slides 2–5 (full poster frames).
- * Slide art already includes title + body copy, so UI only adds CTAs.
- * Homepage hero must never be reused here.
+ * What We Do — brand story and service choices in one connected section.
  */
 const services = [
   {
@@ -69,26 +67,24 @@ export function WhatWeDo() {
         >
           <p className="what-we-do__eyebrow">What we do</p>
           <h2 id="what-we-do-heading" className="what-we-do__heading">
-            Big ideas.{" "}
-            <span className="what-we-do__heading-accent">Thoughtful gifts.</span>
+            Thoughtful gifts, made personal.
           </h2>
           <p className="what-we-do__lede">
-            Watch the short film, then open a service path — catalogue, Studio,
-            kits, or Company Stores. Slide art carries the story; each card has
-            one clear next step.
+            Choose the way you want to work with Monkcraft, from individual gifts
+            and branded merchandise to complete kits and company stores.
           </p>
         </Reveal>
+        <BrandVideoBand
+          id="brand-film"
+          title="See the story behind the gift"
+          durationLabel="The Monkcraft brand film"
+          src="/videos/monkcraft-what-we-do-brand-film.mp4"
+          poster="/videos/monkcraft-what-we-do-cover.png"
+          desktopPoster="/videos/monkcraft-what-we-do-cover.png"
+          tone="lilac"
+          ariaLabel="The Monkcraft story, from choosing a gift to making it personal"
+        />
       </div>
-
-      <BrandVideoBand
-        title="What we do"
-        durationLabel="About 80 seconds"
-        caption="Corporate gifting, custom merch, kits, and company stores — one short film."
-        src="/videos/monkcraft-what-we-do-brand-film.mp4"
-        poster="/videos/monkcraft-what-we-do-brand-film-poster.jpg"
-        tone="lilac"
-        ariaLabel="Monkcraft What we do brand film"
-      />
 
       <div className="what-we-do__inner what-we-do__inner--posters">
         <ul className="what-we-do__posters">

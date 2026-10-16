@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { getContactChannels } from "@/lib/contactConfig";
 import { buildMailtoHref } from "@/lib/brief";
@@ -26,7 +25,7 @@ export type ConversionChannelsProps = {
   contact?: {
     name: string;
     company: string;
-    email: string;
+    email?: string;
     phone?: string;
   };
   programme?: EnquiryProgramme;
@@ -48,8 +47,7 @@ type SubmitState =
 
 /**
  * Consistent next-step actions after a prepared enquiry:
- * Copy → online submit (when server delivery configured) → Request a Quote
- * (mailto) → Book a Consultation → WhatsApp (with customer preview).
+ * A compact quote handoff with only configured channels and a copy fallback.
  * Never fake success or invent channels.
  */
 export function ConversionChannels({
@@ -93,22 +91,20 @@ export function ConversionChannels({
   }, []);
 
   const resolvedContact = useMemo(() => {
-    if (
-      contactProp?.name?.trim() &&
-      contactProp.company?.trim() &&
-      contactProp.email?.trim()
-    ) {
+    if (contactProp) {
       return {
         name: contactProp.name.trim(),
         company: contactProp.company.trim(),
-        email: contactProp.email.trim(),
+        email: contactProp.email?.trim() ?? "",
         phone: contactProp.phone?.trim() || "",
       };
     }
     return extractContactFromPrepText(prepText);
   }, [contactProp, prepText]);
 
-  const waText = (whatsappMessage?.trim() || prepText).slice(0, 1200);
+  const rawWhatsAppText = whatsappMessage?.trim() || prepText;
+  const waText = rawWhatsAppText.slice(0, 1200);
+  const whatsappWasTruncated = rawWhatsAppText.length > 1200;
   const waHref = channels.hasWhatsApp
     ? buildWhatsAppHref(waText, channels.whatsappE164)
     : null;
@@ -142,7 +138,7 @@ export function ConversionChannels({
     ) {
       setSubmitState("error");
       setSubmitError(
-        "Contact name, company, and work email are required before online submission. Edit your brief and try again.",
+        "Add a valid email to your quote details before sending the request to the Monkcraft inbox. You can still use a configured email or WhatsApp link.",
       );
       return;
     }
@@ -221,13 +217,7 @@ export function ConversionChannels({
             copy your summary. Nothing is sent until you send it yourself.
           </>
         ) : (
-          <>
-            Online enquiry delivery is not connected yet. Copy the summary below
-            and share it with Monkcraft via your usual channel. To activate live
-            Request a Quote, Book a Consultation, or WhatsApp, add the verified
-            business values in environment configuration (see{" "}
-            <code>.env.example</code>).
-          </>
+          <>Monkcraft contact channels are being connected. Your quote stays saved in this browser; copy the complete summary to share it.</>
         )}
       </p>
 
@@ -255,16 +245,9 @@ export function ConversionChannels({
 
         {mailto ? (
           <a className="journey-btn journey-btn--ghost" href={mailto}>
-            Request a Quote (email)
+            Email quote request
           </a>
-        ) : (
-          <span
-            className="conversion-channels__disabled"
-            title="Enquiry email not configured"
-          >
-            Request a Quote (email unavailable)
-          </span>
-        )}
+        ) : null}
 
         {channels.hasBookingUrl && channels.bookingUrl ? (
           <a
@@ -273,16 +256,9 @@ export function ConversionChannels({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Book a Consultation
+            Book a call
           </a>
-        ) : (
-          <span
-            className="conversion-channels__disabled"
-            title="Booking URL not configured"
-          >
-            Book a Consultation (unavailable)
-          </span>
-        )}
+        ) : null}
 
         {waHref ? (
           <button
@@ -291,20 +267,9 @@ export function ConversionChannels({
             onClick={() => setWhatsAppOpen((v) => !v)}
             aria-expanded={whatsAppOpen}
           >
-            WhatsApp Monkcraft
+            WhatsApp quote request
           </button>
-        ) : (
-          <span
-            className="conversion-channels__disabled"
-            title="WhatsApp number not configured"
-          >
-            WhatsApp Monkcraft (unavailable)
-          </span>
-        )}
-
-        <Link className="journey-btn journey-btn--ghost" href="/gifts/brief">
-          Review gifting brief
-        </Link>
+        ) : null}
 
         {secondaryActions}
       </div>
@@ -343,6 +308,9 @@ export function ConversionChannels({
           <p className="conversion-channels__whatsapp-note">
             Opening WhatsApp does not send or deliver a message. Check the draft
             below, then continue in WhatsApp and tap send yourself.
+            {whatsappWasTruncated
+              ? " This preview is shortened to fit WhatsApp; use “Copy complete quote” above for the full product list and details."
+              : ""}
           </p>
           <pre className="journey-preview conversion-channels__wa-preview">
             {waText}

@@ -1,0 +1,905 @@
+- main:
+  - link "Monkcraft home":
+    - /url: /
+    - img "Monkcraft"
+  - navigation "Primary":
+    - list:
+      - link "Gifts":
+        - /url: /gifts
+      - link "Build a Box":
+        - /url: /gifts/box
+      - link "Studio":
+        - /url: /studio
+      - link "Company Stores":
+        - /url: /company-stores
+  - link "Search":
+    - /url: /gifts#catalogue-q
+    - generic: Search
+  - button "Ask Monkcraft":
+    - generic: Ask Monkcraft
+  - link "Coffee chat":
+    - /url: /#enquire
+  - link "My Brief (1)":
+    - /url: /gifts/brief
+  - navigation "Breadcrumb":
+    - list:
+      - link "Home":
+        - /url: /
+      - generic: /
+      - link "Gifts":
+        - /url: /gifts
+      - generic: /
+      - generic: Gift Finder
+  - region "Find gifts that fit your brief":
+    - paragraph: Smart Gift Finder
+    - heading "Find gifts that fit your brief" [level=1]
+    - paragraph: Guided recommendations from Monkcraft's verified catalogue (4,257 products). Rule-based matching — not generative AI. Refine anytime; your requirements stay saved in this browser.
+    - complementary "What we understood":
+      - heading "Your requirements" [level=2]
+      - list:
+        - listitem: "Occasion: Employee onboarding"
+        - listitem: "Recipients: 100"
+        - listitem: "Budget / recipient: 1000"
+      - button "Edit requirements"
+      - button "Clear finder draft"
+    - status:
+      - paragraph: "Ranked 24 matches from the verified catalogue (occasion: Employee onboarding · budget ≤ ₹1,000 / recipient · recipients: 100 (MOQ must fit)). Scoring is deterministic — not generative AI."
+    - generic: 2,565
+    - generic: Products considered
+    - generic: "24"
+    - generic: Strong matches
+    - generic: "12"
+    - generic: Near alternatives
+    - generic: "Yes"
+    - generic: Budget filter applied
+    - heading "Recommended (24)" [level=2]
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-black
+      - button "Save Adidas 100% Cotton Round Neck T-Shirt- Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Round Neck T-Shirt- Black to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Round Neck T-Shirt- Black" [level=3]:
+        - link "Adidas 100% Cotton Round Neck T-Shirt- Black":
+          - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-black
+      - paragraph: ₹945
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-black
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-navy-blue
+      - button "Save Adidas 100% Cotton Round Neck T-Shirt- Navy Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Round Neck T-Shirt- Navy Blue to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Round Neck T-Shirt- Navy Blue" [level=3]:
+        - link "Adidas 100% Cotton Round Neck T-Shirt- Navy Blue":
+          - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-navy-blue
+      - paragraph: ₹945
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-navy-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-royal-blue
+      - button "Save Adidas 100% Cotton Round Neck T-Shirt- Royal Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Round Neck T-Shirt- Royal Blue to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Round Neck T-Shirt- Royal Blue" [level=3]:
+        - link "Adidas 100% Cotton Round Neck T-Shirt- Royal Blue":
+          - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-royal-blue
+      - paragraph: ₹945
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-royal-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-teal-blue
+      - button "Save Adidas 100% Cotton Round Neck T-Shirt- Teal Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Round Neck T-Shirt- Teal Blue to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Round Neck T-Shirt- Teal Blue" [level=3]:
+        - link "Adidas 100% Cotton Round Neck T-Shirt- Teal Blue":
+          - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-teal-blue
+      - paragraph: ₹945
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-teal-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-white
+      - button "Save Adidas 100% Cotton Round Neck T-Shirt- White to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Round Neck T-Shirt- White to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Round Neck T-Shirt- White" [level=3]:
+        - link "Adidas 100% Cotton Round Neck T-Shirt- White":
+          - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-white
+      - paragraph: ₹945
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-round-neck-t-shirt-white
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/bell-weather-bomber-jacket-black
+      - button "Save Bell Weather Bomber Jacket- Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Bell Weather Bomber Jacket- Black to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Bell Weather Bomber Jacket- Black" [level=3]:
+        - link "Bell Weather Bomber Jacket- Black":
+          - /url: /gifts/bell-weather-bomber-jacket-black
+      - paragraph: ₹935
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/bell-weather-bomber-jacket-black
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-blue
+      - button "Save Greys&Blues DES-Jacq Polo Without Tipping- Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Greys&Blues DES-Jacq Polo Without Tipping- Blue to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Greys&Blues DES-Jacq Polo Without Tipping- Blue" [level=3]:
+        - link "Greys&Blues DES-Jacq Polo Without Tipping- Blue":
+          - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-blue
+      - paragraph: ₹495
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-beige
+      - button "Save Greys&Blues DES-Jacq Polo Without Tipping-Beige to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Greys&Blues DES-Jacq Polo Without Tipping-Beige to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Greys&Blues DES-Jacq Polo Without Tipping-Beige" [level=3]:
+        - link "Greys&Blues DES-Jacq Polo Without Tipping-Beige":
+          - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-beige
+      - paragraph: ₹495
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-beige
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-green
+      - button "Save Greys&Blues DES-Jacq Polo Without Tipping-Green to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Greys&Blues DES-Jacq Polo Without Tipping-Green to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Greys&Blues DES-Jacq Polo Without Tipping-Green" [level=3]:
+        - link "Greys&Blues DES-Jacq Polo Without Tipping-Green":
+          - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-green
+      - paragraph: ₹495
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-green
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-white
+      - button "Save Greys&Blues DES-Jacq Polo Without Tipping-White to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Greys&Blues DES-Jacq Polo Without Tipping-White to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Greys&Blues DES-Jacq Polo Without Tipping-White" [level=3]:
+        - link "Greys&Blues DES-Jacq Polo Without Tipping-White":
+          - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-white
+      - paragraph: ₹495
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-white
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-yellow
+      - button "Save Greys&Blues DES-Jacq Polo Without Tipping-Yellow to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Greys&Blues DES-Jacq Polo Without Tipping-Yellow to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Greys&Blues DES-Jacq Polo Without Tipping-Yellow" [level=3]:
+        - link "Greys&Blues DES-Jacq Polo Without Tipping-Yellow":
+          - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-yellow
+      - paragraph: ₹495
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/greys-blues-des-jacq-polo-without-tipping-yellow
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/hummel-genise-poly-t-shirt-black
+      - button "Save Hummel Genise Poly T-Shirt-Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Hummel Genise Poly T-Shirt-Black to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Hummel Genise Poly T-Shirt-Black" [level=3]:
+        - link "Hummel Genise Poly T-Shirt-Black":
+          - /url: /gifts/hummel-genise-poly-t-shirt-black
+      - paragraph: ₹635
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/hummel-genise-poly-t-shirt-black
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/hummel-genise-poly-t-shirt-navy-blue
+      - button "Save Hummel Genise Poly T-Shirt-Navy Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Hummel Genise Poly T-Shirt-Navy Blue to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Hummel Genise Poly T-Shirt-Navy Blue" [level=3]:
+        - link "Hummel Genise Poly T-Shirt-Navy Blue":
+          - /url: /gifts/hummel-genise-poly-t-shirt-navy-blue
+      - paragraph: ₹635
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/hummel-genise-poly-t-shirt-navy-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-black
+      - button "Save Indian Terrain Classic Solid Crew Neck T-Shirt-Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Classic Solid Crew Neck T-Shirt-Black to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Classic Solid Crew Neck T-Shirt-Black" [level=3]:
+        - link "Indian Terrain Classic Solid Crew Neck T-Shirt-Black":
+          - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-black
+      - paragraph: ₹735
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-black
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-navy-blue
+      - button "Save Indian Terrain Classic Solid Crew Neck T-Shirt-Navy Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Classic Solid Crew Neck T-Shirt-Navy Blue to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Classic Solid Crew Neck T-Shirt-Navy Blue" [level=3]:
+        - link "Indian Terrain Classic Solid Crew Neck T-Shirt-Navy Blue":
+          - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-navy-blue
+      - paragraph: ₹735
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-navy-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-white
+      - button "Save Indian Terrain Classic Solid Crew Neck T-Shirt-White to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Classic Solid Crew Neck T-Shirt-White to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Classic Solid Crew Neck T-Shirt-White" [level=3]:
+        - link "Indian Terrain Classic Solid Crew Neck T-Shirt-White":
+          - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-white
+      - paragraph: ₹735
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-classic-solid-crew-neck-t-shirt-white
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/jack-jones-joren-round-neck-t-shirt-black
+      - button "Save Jack&Jones Joren Round Neck T-shirt- Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Jack&Jones Joren Round Neck T-shirt- Black to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Jack&Jones Joren Round Neck T-shirt- Black" [level=3]:
+        - link "Jack&Jones Joren Round Neck T-shirt- Black":
+          - /url: /gifts/jack-jones-joren-round-neck-t-shirt-black
+      - paragraph: ₹695
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/jack-jones-joren-round-neck-t-shirt-black
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/jack-jones-joren-round-neck-t-shirt-navy-blue
+      - button "Save Jack&Jones Joren Round Neck T-shirt-Navy Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Jack&Jones Joren Round Neck T-shirt-Navy Blue to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Jack&Jones Joren Round Neck T-shirt-Navy Blue" [level=3]:
+        - link "Jack&Jones Joren Round Neck T-shirt-Navy Blue":
+          - /url: /gifts/jack-jones-joren-round-neck-t-shirt-navy-blue
+      - paragraph: ₹695
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/jack-jones-joren-round-neck-t-shirt-navy-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/jack-jones-joren-round-neck-t-shirt-white
+      - button "Save Jack&Jones Joren Round Neck T-shirt-White to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Jack&Jones Joren Round Neck T-shirt-White to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Jack&Jones Joren Round Neck T-shirt-White" [level=3]:
+        - link "Jack&Jones Joren Round Neck T-shirt-White":
+          - /url: /gifts/jack-jones-joren-round-neck-t-shirt-white
+      - paragraph: ₹695
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/jack-jones-joren-round-neck-t-shirt-white
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-charcoal-grey
+      - button "Save Levi's Round Neck PC 60 - 40 T-Shirt- Charcoal Grey to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Levi's Round Neck PC 60 - 40 T-Shirt- Charcoal Grey to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Levi's Round Neck PC 60 - 40 T-Shirt- Charcoal Grey" [level=3]:
+        - link "Levi's Round Neck PC 60 - 40 T-Shirt- Charcoal Grey":
+          - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-charcoal-grey
+      - paragraph: ₹895
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-charcoal-grey
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-green-melange
+      - button "Save Levi's Round Neck PC 60 - 40 T-Shirt- Green Melange to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Levi's Round Neck PC 60 - 40 T-Shirt- Green Melange to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Levi's Round Neck PC 60 - 40 T-Shirt- Green Melange" [level=3]:
+        - link "Levi's Round Neck PC 60 - 40 T-Shirt- Green Melange":
+          - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-green-melange
+      - paragraph: ₹895
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-green-melange
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-grey
+      - button "Save Levi's Round Neck PC 60 - 40 T-Shirt- Grey to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Levi's Round Neck PC 60 - 40 T-Shirt- Grey to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Levi's Round Neck PC 60 - 40 T-Shirt- Grey" [level=3]:
+        - link "Levi's Round Neck PC 60 - 40 T-Shirt- Grey":
+          - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-grey
+      - paragraph: ₹895
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-grey
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-white
+      - button "Save Levi's Round Neck PC 60 - 40 T-Shirt- White to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Levi's Round Neck PC 60 - 40 T-Shirt- White to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Levi's Round Neck PC 60 - 40 T-Shirt- White" [level=3]:
+        - link "Levi's Round Neck PC 60 - 40 T-Shirt- White":
+          - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-white
+      - paragraph: ₹895
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/levis-round-neck-pc-60-40-t-shirt-white
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/monte-carlo-poly-cotton-tipping-polo-t-shirt-black
+      - button "Save Monte Carlo Poly Cotton Tipping Polo T-shirt- Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Monte Carlo Poly Cotton Tipping Polo T-shirt- Black to comparison":
+        - generic: +
+      - paragraph: Apparel & Lifestyle
+      - heading "Monte Carlo Poly Cotton Tipping Polo T-shirt- Black" [level=3]:
+        - link "Monte Carlo Poly Cotton Tipping Polo T-shirt- Black":
+          - /url: /gifts/monte-carlo-poly-cotton-tipping-polo-t-shirt-black
+      - paragraph: ₹855
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Within ₹1,000 per recipient
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/monte-carlo-poly-cotton-tipping-polo-t-shirt-black
+      - button "Add to Box"
+    - heading "Near alternatives (12)" [level=2]
+    - paragraph: Partial fits — labelled clearly. Your original requirements are unchanged.
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-green-with-white-tipping
+      - button "Save Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Green with White Tipping to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Green with White Tipping to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Green with White Tipping" [level=3]:
+        - link "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Green with White Tipping":
+          - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-green-with-white-tipping
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-green-with-white-tipping
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-grey-with-white-tipping
+      - button "Save Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Grey with White Tipping to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Grey with White Tipping to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Grey with White Tipping" [level=3]:
+        - link "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Grey with White Tipping":
+          - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-grey-with-white-tipping
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-grey-with-white-tipping
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-navy-blue-with-white-tipping
+      - button "Save Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Navy Blue with White Tipping to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Navy Blue with White Tipping to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Navy Blue with White Tipping" [level=3]:
+        - link "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Navy Blue with White Tipping":
+          - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-navy-blue-with-white-tipping
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-navy-blue-with-white-tipping
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-red-with-white-tipping
+      - button "Save Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Red with White Tipping to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Red with White Tipping to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Red with White Tipping" [level=3]:
+        - link "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Red with White Tipping":
+          - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-red-with-white-tipping
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-red-with-white-tipping
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-royal-blue-with-white-tipping
+      - button "Save Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Royal Blue with White Tipping to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Royal Blue with White Tipping to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Royal Blue with White Tipping" [level=3]:
+        - link "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Royal Blue with White Tipping":
+          - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-royal-blue-with-white-tipping
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-royal-blue-with-white-tipping
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-white
+      - button "Save Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- White to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- White to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- White" [level=3]:
+        - link "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- White":
+          - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-white
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/adidas-100-cotton-tipping-polo-t-shirt-210-gsm-white
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-black
+      - button "Save Indian Terrain Jacquard Collar Solid T-Shirt-Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Jacquard Collar Solid T-Shirt-Black to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Jacquard Collar Solid T-Shirt-Black" [level=3]:
+        - link "Indian Terrain Jacquard Collar Solid T-Shirt-Black":
+          - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-black
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-black
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-maroon
+      - button "Save Indian Terrain Jacquard Collar Solid T-Shirt-Maroon to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Jacquard Collar Solid T-Shirt-Maroon to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Jacquard Collar Solid T-Shirt-Maroon" [level=3]:
+        - link "Indian Terrain Jacquard Collar Solid T-Shirt-Maroon":
+          - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-maroon
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-maroon
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-red
+      - button "Save Indian Terrain Jacquard Collar Solid T-Shirt-Red to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Jacquard Collar Solid T-Shirt-Red to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Jacquard Collar Solid T-Shirt-Red" [level=3]:
+        - link "Indian Terrain Jacquard Collar Solid T-Shirt-Red":
+          - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-red
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-red
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-royal-blue
+      - button "Save Indian Terrain Jacquard Collar Solid T-Shirt-Royal Blue to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Jacquard Collar Solid T-Shirt-Royal Blue to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Jacquard Collar Solid T-Shirt-Royal Blue" [level=3]:
+        - link "Indian Terrain Jacquard Collar Solid T-Shirt-Royal Blue":
+          - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-royal-blue
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-royal-blue
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-white
+      - button "Save Indian Terrain Jacquard Collar Solid T-Shirt-White to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Indian Terrain Jacquard Collar Solid T-Shirt-White to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Indian Terrain Jacquard Collar Solid T-Shirt-White" [level=3]:
+        - link "Indian Terrain Jacquard Collar Solid T-Shirt-White":
+          - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-white
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/indian-terrain-jacquard-collar-solid-t-shirt-white
+      - button "Add to Box"
+    - article:
+      - link:
+        - /url: /gifts/jack-jones-interlock-polo-black
+      - button "Save Jack&Jones Interlock Polo-Black to shortlist":
+        - generic: ☆
+        - generic: Save
+      - button "Add Jack&Jones Interlock Polo-Black to comparison":
+        - generic: +
+      - paragraph: Alternative
+      - paragraph: Apparel & Lifestyle
+      - heading "Jack&Jones Interlock Polo-Black" [level=3]:
+        - link "Jack&Jones Interlock Polo-Black":
+          - /url: /gifts/jack-jones-interlock-polo-black
+      - paragraph: ₹1,215
+      - list:
+        - listitem: Matched your selected occasion
+        - listitem: Slightly above budget (₹1,215)
+        - listitem: Matches a stated preference
+      - note:
+        - listitem: "Minimum order quantity: 5"
+      - link "Details":
+        - /url: /gifts/jack-jones-interlock-polo-black
+      - button "Add to Box"
+    - heading "Next steps" [level=2]
+    - paragraph: Save products to your shortlist or Build a Box, then open My Gifting Brief for quotation prep. Requirements are merged into your gifting brief.
+    - button "Save requirements to brief"
+    - link "Open My Gifting Brief":
+      - /url: /gifts/brief
+    - link "Build a Box":
+      - /url: /gifts/box
+    - link "View shortlist":
+      - /url: /gifts/shortlist
+    - link "Consultation":
+      - /url: /#enquire
+  - link "Monkcraft home":
+    - /url: /
+    - img "Monkcraft"
+  - paragraph: Premium corporate gifting for modern Indian teams.
+  - navigation "Footer":
+    - list:
+      - link "Gifts catalogue":
+        - /url: /gifts
+      - link "Gift Finder":
+        - /url: /gifts/find
+      - link "Build a Box":
+        - /url: /gifts/box
+      - link "Compare gifts":
+        - /url: /gifts/compare
+      - link "Studio":
+        - /url: /studio
+      - link "Company Stores":
+        - /url: /company-stores
+      - link "My Brief":
+        - /url: /gifts/brief
+      - link "Gift ideas":
+        - /url: /#gift-ideas
+      - link "Consultation":
+        - /url: /#enquire
+      - link "FAQ":
+        - /url: /#faq
+  - paragraph: Ready to plan a programme?
+  - link "Open My Brief":
+    - /url: /gifts/brief
+  - link "Talk to Monkcraft":
+    - /url: /#enquire
+  - paragraph: Legal pages and a public contact email will appear here once supplied. Online enquiry delivery activates when a verified inbox, booking URL, or WhatsApp number is configured.
+- alert

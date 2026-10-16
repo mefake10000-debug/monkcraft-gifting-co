@@ -3,11 +3,17 @@
 import { useEffect, useId, useRef, useState } from "react";
 
 type BrandVideoBandProps = {
+  id?: string;
   title: string;
   durationLabel: string;
   caption?: string;
   src: string;
   poster: string;
+  /** Optional widescreen cut; the portrait source remains the mobile version. */
+  desktopSrc?: string;
+  desktopPoster?: string;
+  /** Preserve the complete source frame, including portrait films on desktop. */
+  fitContent?: boolean;
   /** Soft brand wash behind the poster crop */
   tone?: "lilac" | "apricot" | "mint";
   ariaLabel: string;
@@ -15,24 +21,40 @@ type BrandVideoBandProps = {
 
 /**
  * Swag-inspired full-width play band: large play control + title,
- * poster stage, then a clarity-first portrait player (contain, not crop).
+ * poster stage, then a responsive player that uses the available screen well.
  */
 export function BrandVideoBand({
+  id,
   title,
   durationLabel,
   caption,
   src,
   poster,
+  desktopSrc,
+  desktopPoster,
+  fitContent = false,
   tone = "lilac",
   ariaLabel,
 }: BrandVideoBandProps) {
   const [playing, setPlaying] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
   const titleId = useId();
+  const activeSrc = desktopSrc && isDesktop ? desktopSrc : src;
+  const activePoster = desktopPoster && isDesktop ? desktopPoster : poster;
+
+  useEffect(() => {
+    const media = window.matchMedia("(min-width: 720px)");
+    const update = () => setIsDesktop(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
 
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
+    video.load();
     if (playing) {
       void video.play().catch(() => {
         /* autoplay may be blocked until a second gesture */
@@ -40,16 +62,17 @@ export function BrandVideoBand({
     } else {
       video.pause();
     }
-  }, [playing]);
+  }, [activeSrc, playing]);
 
   return (
     <section
-      className={`brand-video-band brand-video-band--${tone}`}
+      id={id}
+      className={`brand-video-band brand-video-band--${tone}${desktopSrc ? " brand-video-band--responsive" : ""}${fitContent ? " brand-video-band--fit-content" : ""}`}
       aria-labelledby={titleId}
     >
       <div
         className="brand-video-band__stage"
-        style={{ backgroundImage: `url(${poster})` }}
+        style={{ backgroundImage: `url(${activePoster})` }}
       >
         <div className="brand-video-band__wash" aria-hidden="true" />
 
@@ -81,10 +104,10 @@ export function BrandVideoBand({
                 controls
                 playsInline
                 preload="auto"
-                poster={poster}
+                poster={activePoster}
                 aria-label={ariaLabel}
               >
-                <source src={src} type="video/mp4" />
+                <source src={activeSrc} type="video/mp4" />
               </video>
             </div>
             <button

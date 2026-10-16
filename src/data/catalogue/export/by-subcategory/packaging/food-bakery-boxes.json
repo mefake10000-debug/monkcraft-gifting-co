@@ -1,0 +1,263 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C11",
+    "code": "C11",
+    "name": "Packaging",
+    "slug": "packaging",
+    "path": "packaging",
+    "sortOrder": 11
+  },
+  "subcategory": {
+    "id": "C11:food-bakery-boxes",
+    "categoryId": "C11",
+    "name": "Food & Bakery Boxes",
+    "slug": "food-bakery-boxes",
+    "path": "packaging/food-bakery-boxes",
+    "sortOrder": 1
+  },
+  "categoryProductCount": 29,
+  "productCount": 2,
+  "products": [
+    {
+      "slug": "rectangle-bakery-box-for-2-cupcake-tea-cake-plum-cake-7x4x3-white",
+      "title": "Cupcake Box for 2",
+      "sku": "MGC-3637",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "Cupcakes for a couple are the best gift one can give. Try our couple cupcake box which can hold 2 cupcakes and are easy to open and close. You can carry these boxes around easily, without having to worry about your cupcakes becoming moist or damp. Made from high-quality material, these boxes are strong and sturdy. One Box. Many Uses. Use these boxes for: Cupcake - Can store a 2 cupcakes Bread Loaf - Upto 1 loaf of bread Non-bakery usage with removable cavities: Gift box Souveniers *Made from 300",
+      "shortDescription": "Cupcakes for a couple are the best gift one can give. Try our couple cupcake box which can hold 2 cupcakes and are easy to open and close. You can carry these boxes around easily, without having to worry about your cupcakes becoming moist or damp. Made from high-quality material, these boxes are strong and sturdy. One Box. Many Uses. Use these boxes for: Cupcake - Can store a 2 cupcakes Bread Loaf - Upto 1 loaf of bread Non-bakery usage with removable cavities: Gift box Souveniers *Made from 300",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3637",
+        "Product Code": "MGC-3637"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 230.0,
+        "amountMinorUnits": 23000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 230.0,
+            "amountMinorUnits": 23000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611683
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/food-bakery-boxes/rectangle-bakery-box-for-2-cupcake-tea-cake-plum-cake-7x4x3-white/0-master-32143ee8320e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "b809d5767326ce2c57afdc5d357f20ede1cb51ebd958c741f9e462e2bcd18fd4"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/rectangle-bakery-box-for-2-cupcake-tea-cake-plum-cake-7x4x3-white/1-angle-bd3132282c07.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "2b39f206ecaba3e3b7e334b961246b3ec93f16f8b0af96df1446f3c6ebf5253c"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/rectangle-bakery-box-for-2-cupcake-tea-cake-plum-cake-7x4x3-white/2-angle-e3bb5261b086.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a87791a3295531473917b85694e7587a9174b69648ac7cc6d5d0870d1d468826"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/rectangle-bakery-box-for-2-cupcake-tea-cake-plum-cake-7x4x3-white/3-angle-7e92e8bc18f3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "11fcd670def2d058eb9564cbe31e291e250c13965c75504f24b889cef2c5d03e"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/rectangle-bakery-box-for-2-cupcake-tea-cake-plum-cake-7x4x3-white/4-angle-34bea55d6460.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "893f388fde2f7ace0dc2d74c3a76d7079d433b8aec4831debb6b05d7a70d7411"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:food-bakery-boxes",
+        "categoryId": "C11",
+        "name": "Food & Bakery Boxes",
+        "slug": "food-bakery-boxes",
+        "path": "packaging/food-bakery-boxes",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "packaging/food-bakery-boxes"
+    },
+    {
+      "slug": "square-box-with-window-for-4-cupcakes-small-cakes-6x6x3-black",
+      "title": "Cupcake Box For 4",
+      "sku": "MGC-3640",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C11",
+        "code": "C11",
+        "name": "Packaging",
+        "slug": "packaging",
+        "path": "packaging",
+        "sortOrder": 11
+      },
+      "description": "One Box. Many Uses Use these boxes for: Cupcakes - Can hold up to 4 cupcakes Pastries - Can hold up to 4 pastries Mithai - Up to 1 kgm of mithai Bread loaves - Up to 1 artisan bread loaves Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery *Made from 300 gsm food-safe ITC board material. Pan India &amp; International Delivery. Easy to open, close and deliver. Removable inserts/cavities are included in the package. Internal Size - 6.5x6.5x3\" NOTE: *The above mentioned uses depends on t",
+      "shortDescription": "One Box. Many Uses Use these boxes for: Cupcakes - Can hold up to 4 cupcakes Pastries - Can hold up to 4 pastries Mithai - Up to 1 kgm of mithai Bread loaves - Up to 1 artisan bread loaves Non-bakery usage: Candles Soaps Gift box Souvenirs Stationery *Made from 300 gsm food-safe ITC board material. Pan India &amp; International Delivery. Easy to open, close and deliver. Removable inserts/cavities are included in the package. Internal Size - 6.5x6.5x3\" NOTE: *The above mentioned uses depends on t",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3640",
+        "Product Code": "MGC-3640"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 370.0,
+        "amountMinorUnits": 37000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 370.0,
+            "amountMinorUnits": 37000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896611691
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/packaging/food-bakery-boxes/square-box-with-window-for-4-cupcakes-small-cakes-6x6x3-black/0-master-6b8bfb5d5726.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "3cf5fbc50338b935dac259372be58e601cb654a166cf9d0800abda41ccb9a48f"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/square-box-with-window-for-4-cupcakes-small-cakes-6x6x3-black/1-angle-4a928700ea1c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "ae8c974d9cb703227acf210efbc4870c561771b036440ae29e4cb47fc329b6fb"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/square-box-with-window-for-4-cupcakes-small-cakes-6x6x3-black/2-angle-52365e03a49e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "8bde0cbeb5b53874e400d59b4f508d7010f60eb3c4ffea57dc5c25eb38a50b2b"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/square-box-with-window-for-4-cupcakes-small-cakes-6x6x3-black/3-angle-036a502f9b95.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "cee0dfb2671d64c0202082679f3382cbf1f6e09c349a49229210fdff82ca7575"
+        },
+        {
+          "path": "media/products/packaging/food-bakery-boxes/square-box-with-window-for-4-cupcakes-small-cakes-6x6x3-black/4-angle-67c9f6bbad1b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "eda73fb633a8c24ddb93069d7ad36ec0693e1a677872fc9ae5db296a64cea08a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C11:food-bakery-boxes",
+        "categoryId": "C11",
+        "name": "Food & Bakery Boxes",
+        "slug": "food-bakery-boxes",
+        "path": "packaging/food-bakery-boxes",
+        "sortOrder": 1
+      },
+      "taxonomyPath": "packaging/food-bakery-boxes"
+    }
+  ]
+}

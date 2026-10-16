@@ -7,14 +7,11 @@ import type { BriefContact, GiftingBriefDraft } from "@/data/catalogue/types";
 import { ConversionChannels } from "@/components/conversion/ConversionChannels";
 import {
   buildBriefWhatsAppMessage,
-  clearBrief,
   saveBriefProgramme,
   writeBrief,
 } from "@/lib/brief";
 import {
-  buildBriefShareUrl,
   decodeSharedBrief,
-  encodeSharedBrief,
   SHARED_BRIEF_PARAM,
 } from "@/lib/briefShare";
 import {
@@ -28,9 +25,7 @@ import {
   validateEnquiryContact,
 } from "@/lib/enquiryValidation";
 import {
-  readShortlist,
-  removeFromShortlist,
-  setShortlistQuantity,
+  standardProductQuantityFloor,
   shortlistTotalUnits,
   writeShortlist,
 } from "@/lib/shortlist";
@@ -48,7 +43,6 @@ export function GiftingBrief() {
   const [prepText, setPrepText] = useState("");
   const [error, setError] = useState("");
   const [refreshing, setRefreshing] = useState(false);
-  const [shareState, setShareState] = useState<"idle" | "copied">("idle");
   const [sharedPayload, setSharedPayload] = useState<ReturnType<
     typeof decodeSharedBrief
   >>(null);
@@ -127,6 +121,7 @@ export function GiftingBrief() {
       branding: next.branding,
       packagingPrefs: next.packagingPrefs,
       deliveryDate: next.deliveryDate,
+      dispatchType: next.dispatchType,
       deliveryLocation: next.deliveryLocation,
       notes: next.notes,
       contact: next.contact,
@@ -207,20 +202,6 @@ export function GiftingBrief() {
     }
   }
 
-  async function copyShareLink() {
-    if (!brief) return;
-    setError("");
-    try {
-      const token = encodeSharedBrief(brief, readShortlist());
-      const url = buildBriefShareUrl(token, window.location.origin);
-      await navigator.clipboard.writeText(url);
-      setShareState("copied");
-      window.setTimeout(() => setShareState("idle"), 2200);
-    } catch {
-      setError("Could not create a share link in this browser.");
-    }
-  }
-
   function stripSharedParam() {
     const url = new URL(window.location.href);
     url.searchParams.delete(SHARED_BRIEF_PARAM);
@@ -238,6 +219,7 @@ export function GiftingBrief() {
       branding: incoming.branding,
       packagingPrefs: incoming.packagingPrefs,
       deliveryDate: incoming.deliveryDate,
+      dispatchType: incoming.dispatchType,
       deliveryLocation: incoming.deliveryLocation,
       notes: incoming.notes,
       contact: incoming.contact,
@@ -285,12 +267,10 @@ export function GiftingBrief() {
     );
     return (
       <div className="journey-panel">
-        <p className="journey-eyebrow">Quotation preparation</p>
-        <h1>Your brief is ready to review</h1>
+        <p className="journey-eyebrow">Bulk quote</p>
+        <h1>Review your quote request</h1>
         <p>
-          This is a prepared enquiry summary — not a submitted quotation. Review
-          the text, then choose how to continue. Your draft stays saved in this
-          browser.
+          Check the quantities and delivery notes, then choose an available way to contact Monkcraft. No payment or order confirmation happens here.
         </p>
         <pre className="journey-preview">{prepText}</pre>
         {error ? (
@@ -311,6 +291,7 @@ export function GiftingBrief() {
             branding: snapshot.brief.branding,
             packagingPrefs: snapshot.brief.packagingPrefs,
             deliveryDate: snapshot.brief.deliveryDate,
+            dispatchType: snapshot.brief.dispatchType,
             deliveryLocation: snapshot.brief.deliveryLocation,
             notes: snapshot.brief.notes,
           }}
@@ -322,7 +303,7 @@ export function GiftingBrief() {
             priceLabel: item.priceLabel,
             categoryName: item.categoryName,
           }))}
-          copyLabel="Copy quotation brief"
+          copyLabel="Copy complete quote"
           copiedLabel="Copied"
           secondaryActions={
             <>
@@ -336,19 +317,6 @@ export function GiftingBrief() {
               >
                 Edit brief
               </button>
-              <button
-                type="button"
-                className="journey-btn journey-btn--ghost"
-                onClick={copyShareLink}
-              >
-                {shareState === "copied" ? "Link copied" : "Share brief"}
-              </button>
-              <Link className="journey-btn journey-btn--ghost" href="/gifts">
-                Keep browsing
-              </Link>
-              <Link className="journey-btn journey-btn--ghost" href="/#enquire">
-                Talk to Monkcraft
-              </Link>
             </>
           }
         />
@@ -356,8 +324,8 @@ export function GiftingBrief() {
     );
   }
 
-  const recommended = snapshot.missing.filter((m) => m.severity === "recommended");
   const required = snapshot.missing.filter((m) => m.severity === "required");
+  const hasLinkedSetup = snapshot.hasBoxContent || snapshot.hasBrandingContent || snapshot.hasCatalogueContent || snapshot.hasCompanyStoreContent;
   const isEmpty =
     products.length === 0 &&
     !snapshot.hasBoxContent &&
@@ -370,24 +338,13 @@ export function GiftingBrief() {
     <div className="journey-panel">
       <header className="journey-panel__head">
         <div>
-          <p className="journey-eyebrow">My Gifting Brief</p>
-          <h1>One place for your quotation</h1>
-          <p>
-            Review shortlisted products, linked box and Studio details, then fill
-            programme needs. Everything autosaves in this browser — not synced
-            across devices.
-          </p>
+          <p className="journey-eyebrow">Bulk quote</p>
+          <h1>Request a quote</h1>
+          <p>Review your products and quantities. Add only the order details you already know, then send one request. No box is required.</p>
         </div>
         <div className="journey-actions">
-          <button
-            type="button"
-            className="journey-btn journey-btn--ghost"
-            onClick={copyShareLink}
-          >
-            {shareState === "copied" ? "Link copied" : "Share brief"}
-          </button>
           <Link className="journey-btn journey-btn--ghost" href="/gifts">
-            Browse gifts
+            Add products
           </Link>
           <Link className="journey-btn journey-btn--ghost" href="/gifts/box">
             {snapshot.hasBoxContent ? "Edit box" : "Build a Box"}
@@ -429,8 +386,8 @@ export function GiftingBrief() {
       {isEmpty ? (
         <div className="journey-callout" role="status">
           <p>
-            Your brief is empty. Shortlist products, configure a box, or use
-            Studio — then return here. Fields you type will stay saved.
+            Start with gifts or a box, then add your event details here. Your
+            draft saves automatically in this browser.
           </p>
           <div className="journey-actions">
             <Link href="/gifts">Browse catalogue</Link>
@@ -442,31 +399,25 @@ export function GiftingBrief() {
         </div>
       ) : null}
 
-      {(required.length > 0 || recommended.length > 0) && !isEmpty ? (
+      {required.length > 0 && !isEmpty ? (
         <div className="brief-missing" role="status">
-          <p className="brief-missing__title">Still needed for a strong quote</p>
+          <p className="brief-missing__title">One thing to finish</p>
           <ul>
             {required.map((item) => (
               <li key={item.id} data-severity="required">
                 {item.label}
               </li>
             ))}
-            {recommended.map((item) => (
-              <li key={item.id} data-severity="recommended">
-                {item.label}{" "}
-                <span className="brief-missing__optional">(recommended)</span>
-              </li>
-            ))}
           </ul>
         </div>
       ) : null}
 
-      <section className="brief-section" aria-labelledby="brief-products-heading">
+      <section id="brief-products" className="brief-section" aria-labelledby="brief-products-heading">
         <div className="brief-section__head">
-          <h2 id="brief-products-heading">Shortlisted products</h2>
+          <h2 id="brief-products-heading">Products & quantities</h2>
           <p>
             {products.length
-              ? `${products.length} product${products.length === 1 ? "" : "s"} · ${units} ${units === 1 ? "unit" : "units"}`
+              ? `${products.length} product${products.length === 1 ? "" : "s"} · ${units} total units`
               : "None yet — add from the catalogue"}
           </p>
         </div>
@@ -474,7 +425,7 @@ export function GiftingBrief() {
           <div className="journey-callout">
             <Link href="/gifts">Add products from the catalogue</Link>
             {" · "}
-            <Link href="/gifts/shortlist">Open shortlist</Link>
+            <Link href="/gifts/shortlist">Open cart</Link>
           </div>
         ) : (
           <ul className="shortlist-list">
@@ -501,29 +452,7 @@ export function GiftingBrief() {
                   <p className="shortlist-row__price">
                     {item.priceLabel || "Price to confirm"}
                   </p>
-                </div>
-                <div className="shortlist-row__qty">
-                  <label htmlFor={`brief-qty-${item.id}`}>Qty</label>
-                  <input
-                    id={`brief-qty-${item.id}`}
-                    type="number"
-                    min={
-                      item.minQuantity && item.minQuantity > 0
-                        ? item.minQuantity
-                        : 1
-                    }
-                    value={item.quantity}
-                    onChange={(event) =>
-                      setShortlistQuantity(item.id, Number(event.target.value))
-                    }
-                  />
-                  <button
-                    type="button"
-                    className="shortlist-row__remove"
-                    onClick={() => removeFromShortlist(item.id)}
-                  >
-                    Remove
-                  </button>
+                  <p className="shortlist-row__moq">{item.quantity} pcs · minimum {standardProductQuantityFloor(item.minQuantity)} pcs</p>
                 </div>
               </li>
             ))}
@@ -531,7 +460,9 @@ export function GiftingBrief() {
         )}
       </section>
 
-      <section className="brief-section" aria-labelledby="brief-linked-heading">
+      {products.length > 0 ? <Link className="brief-edit-quote-link" href="/gifts/shortlist">Edit cart products or quantities</Link> : null}
+
+      {hasLinkedSetup ? <section id="brief-linked" className="brief-section" aria-labelledby="brief-linked-heading">
         <div className="brief-section__head">
           <h2 id="brief-linked-heading">Linked configurations</h2>
           <p>Live drafts from other Monkcraft tools — included when you prepare a quote.</p>
@@ -598,7 +529,7 @@ export function GiftingBrief() {
               )}
             </div>
             {snapshot.studioRouteAvailable ? (
-              <Link className="brief-link-card__cta" href="/studio">
+              <Link className="brief-link-card__cta" href="/studio?mode=catalogue">
                 Open Studio catalogue
               </Link>
             ) : (
@@ -627,7 +558,7 @@ export function GiftingBrief() {
               )}
             </div>
             {snapshot.companyStoreRouteAvailable ? (
-              <Link className="brief-link-card__cta" href="/company-stores">
+              <Link className="brief-link-card__cta" href={snapshot.hasCompanyStoreContent ? "/company-stores/configure" : "/company-stores"}>
                 {snapshot.hasCompanyStoreContent
                   ? "Review store draft"
                   : "Explore Company Stores"}
@@ -637,26 +568,39 @@ export function GiftingBrief() {
             )}
           </li>
         </ul>
-      </section>
+      </section> : null}
 
       <form className="brief-form" onSubmit={onPrepare} noValidate>
-        <section className="brief-section" aria-labelledby="brief-programme-heading">
+        <section id="brief-programme" className="brief-section" aria-labelledby="brief-programme-heading">
           <div className="brief-section__head">
-            <h2 id="brief-programme-heading">Programme details</h2>
+            <h2 id="brief-programme-heading">Order details</h2>
             <p>
-              Autosaves as you type, including contact fields. Contact is only
-              required when you prepare a quotation.
+              The items below are optional. Add what you already know; Monkcraft can confirm the rest with you.
             </p>
           </div>
+          <details className="brief-optional-details">
+            <summary>Add occasion, budget or delivery details</summary>
           <div className="brief-form__grid">
+            <label>
+              Dispatch plan
+              <select
+                name="dispatchType"
+                value={brief.dispatchType}
+                onChange={(event) => updateField("dispatchType", event.target.value as GiftingBriefDraft["dispatchType"])}
+              >
+                <option value="unsure">To be confirmed</option>
+                <option value="single-city">One delivery point in one city</option>
+                <option value="multi-point">Multiple delivery points</option>
+                <option value="international">International dispatch</option>
+              </select>
+            </label>
             <label>
               Occasion
               <input
                 name="occasion"
                 value={brief.occasion}
                 onChange={(event) => updateField("occasion", event.target.value)}
-                placeholder="e.g. Employee onboarding, Diwali, client event"
-                required
+                placeholder="Optional — e.g. employee onboarding or Diwali"
               />
             </label>
             <label>
@@ -743,10 +687,11 @@ export function GiftingBrief() {
               placeholder="Anything else the team should know"
             />
           </label>
+          </details>
         </section>
 
-        <fieldset className="brief-form__contact">
-          <legend>Contact (needed when you send the enquiry)</legend>
+        <fieldset id="brief-contact" className="brief-form__contact">
+          <legend>Your contact details</legend>
           <div className="brief-form__grid">
             <label>
               Name
@@ -769,7 +714,7 @@ export function GiftingBrief() {
               />
             </label>
             <label>
-              Work email
+              Email <span className="field-optional">(optional if you add a phone)</span>
               <input
                 type="email"
                 value={contact.email}
@@ -780,7 +725,7 @@ export function GiftingBrief() {
               />
             </label>
             <label>
-              Phone
+              Phone <span className="field-optional">(optional if you add an email)</span>
               <input
                 type="tel"
                 value={contact.phone}
@@ -799,29 +744,13 @@ export function GiftingBrief() {
           </p>
         ) : null}
 
-        <div className="journey-actions journey-actions--footer">
-          <button type="submit" className="journey-btn" disabled={refreshing}>
-            {refreshing ? "Preparing…" : "Prepare quotation brief"}
+        <div id="brief-actions" className="journey-actions journey-actions--footer">
+            <button type="submit" className="journey-btn" disabled={refreshing}>
+            {refreshing ? "Preparing…" : "Review quote request"}
           </button>
           <Link className="journey-btn journey-btn--ghost" href="/gifts/shortlist">
-            My shortlist
+            Edit cart
           </Link>
-          <button
-            type="button"
-            className="journey-btn journey-btn--ghost"
-            onClick={() => {
-              if (
-                window.confirm(
-                  "Clear programme fields and linked brief sources? Shortlist and box drafts in other tools are not deleted.",
-                )
-              ) {
-                clearBrief();
-                setContact(emptyContact());
-              }
-            }}
-          >
-            Clear brief fields
-          </button>
         </div>
       </form>
     </div>

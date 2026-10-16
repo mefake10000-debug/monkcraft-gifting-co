@@ -1,8 +1,8 @@
 /**
  * Central Monkcraft conversion-channel configuration.
  *
- * Values come ONLY from public env vars. Empty / unset means the channel is
- * unavailable — never invent an email, WhatsApp number, or booking URL.
+ * Public contact details are supplied by Monkcraft. Environment values can
+ * override them for a deployment; booking remains opt-in.
  *
  * Set in `.env.local` (see `.env.example`):
  * - NEXT_PUBLIC_MONKCRAFT_ENQUIRY_EMAIL
@@ -70,7 +70,7 @@ export function isPlausibleBookingUrl(raw: string | null | undefined): string | 
 }
 
 export function getContactChannels(): ContactChannels {
-  const enquiryEmailRaw = trimOrNull(process.env.NEXT_PUBLIC_MONKCRAFT_ENQUIRY_EMAIL);
+  const enquiryEmailRaw = trimOrNull(process.env.NEXT_PUBLIC_MONKCRAFT_ENQUIRY_EMAIL) ?? "info@monkcraft.in";
   const enquiryEmail =
     enquiryEmailRaw && looksLikeEmail(enquiryEmailRaw) ? enquiryEmailRaw : null;
 
@@ -79,7 +79,7 @@ export function getContactChannels(): ContactChannels {
   );
 
   const whatsappE164 = normalizeWhatsAppE164(
-    process.env.NEXT_PUBLIC_MONKCRAFT_WHATSAPP_E164,
+    process.env.NEXT_PUBLIC_MONKCRAFT_WHATSAPP_E164 ?? "917483221188",
   );
 
   return {

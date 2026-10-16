@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "segment": {
+    "id": "ganesh-chaturthi",
+    "label": "Ganesh Chaturthi",
+    "parentId": "seasonal-gifting",
+    "sortOrder": 13,
+    "criteria": "Direct matches require Ganesh Chaturthi, Ganpati, or Ganesh wording. Generic diya/candle/decor candidates are review-only.",
+    "sourceMatchedProductCount": 0,
+    "reviewCandidateCount": 6,
+    "coverageStatus": "review-candidates-only",
+    "sourceMatchedProductSlugs": [],
+    "reviewCandidateProductSlugs": [
+      "beeswax-candle-set-of-2-yellow",
+      "desk-wooden-planter-with-glass-tube",
+      "eat-better-golden-lid-candle",
+      "eat-better-lotus-diya",
+      "grow-pro-round-natural-brown",
+      "magnetic-cork-planter-natural-brown"
+    ]
+  },
+  "sourceMatchedProductSlugs": [],
+  "reviewCandidateProductSlugs": [
+    "beeswax-candle-set-of-2-yellow",
+    "desk-wooden-planter-with-glass-tube",
+    "eat-better-golden-lid-candle",
+    "eat-better-lotus-diya",
+    "grow-pro-round-natural-brown",
+    "magnetic-cork-planter-natural-brown"
+  ]
+}

@@ -30,7 +30,7 @@ export function computeDisplayedPrice(
   if (mode === "markup-fixed") {
     const shown = amountInr + Math.max(0, markupValue);
     return {
-      label: `${formatInrAmount(shown)} (includes +${formatInrAmount(markupValue)} markup)`,
+      label: formatInrAmount(shown),
       kind: "priced",
     };
   }
@@ -39,7 +39,7 @@ export function computeDisplayedPrice(
   const pct = Math.max(0, markupValue);
   const shown = amountInr * (1 + pct / 100);
   return {
-    label: `${formatInrAmount(shown)} (includes +${pct}% markup)`,
+    label: formatInrAmount(shown),
     kind: "priced",
   };
 }

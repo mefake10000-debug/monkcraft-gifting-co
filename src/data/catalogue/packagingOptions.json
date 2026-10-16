@@ -1,0 +1,219 @@
+[
+  {
+    "id": "MGC-3637",
+    "name": "Cupcake Box for 2",
+    "summary": "Food & Bakery Boxes",
+    "priceLabel": "Catalogue price ₹230",
+    "imageSrc": "/catalogue-media/products/packaging/food-bakery-boxes/rectangle-bakery-box-for-2-cupcake-tea-cake-plum-cake-7x4x3-white/0-master-32143ee8320e.webp"
+  },
+  {
+    "id": "MGC-3640",
+    "name": "Cupcake Box For 4",
+    "summary": "Food & Bakery Boxes",
+    "priceLabel": "Catalogue price ₹370",
+    "imageSrc": "/catalogue-media/products/packaging/food-bakery-boxes/square-box-with-window-for-4-cupcakes-small-cakes-6x6x3-black/0-master-6b8bfb5d5726.webp"
+  },
+  {
+    "id": "MGC-3296",
+    "name": "Custom-Made Corrugated Gift Box- Navy Blue- Medium",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹165",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-navy-blue-medium/1-angle-ab9bb991b71c.webp",
+    "packagingKind": "box"
+  },
+  {
+    "id": "MGC-3299",
+    "name": "Custom-Made Corrugated Gift Box-Black-Large",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹205",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-large/0-master-a7ab78d6ee32.webp",
+    "packagingKind": "box"
+  },
+  {
+    "id": "MGC-3297",
+    "name": "Custom-Made Corrugated Gift Box-Black-Medium",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹165",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-black-medium/0-master-a7ab78d6ee32.webp",
+    "packagingKind": "box"
+  },
+  {
+    "id": "MGC-3300",
+    "name": "Custom-Made Corrugated Gift Box-Blue-Large",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹205",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-blue-large/1-angle-ab9bb991b71c.webp",
+    "packagingKind": "box"
+  },
+  {
+    "id": "MGC-3301",
+    "name": "Custom-Made Corrugated Gift Box-Red-Large",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹205",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-large/0-master-e44fe92f7c9f.webp",
+    "packagingKind": "box"
+  },
+  {
+    "id": "MGC-3298",
+    "name": "Custom-Made Corrugated Gift Box-Red-Medium",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹165",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/custom-made-corrugated-gift-box-red-medium/0-master-e44fe92f7c9f.webp",
+    "packagingKind": "box"
+  },
+  {
+    "id": "tote-bag",
+    "name": "Reusable canvas tote bag",
+    "summary": "Reusable tote packaging · ₹250 per kit",
+    "priceLabel": "₹250 per kit",
+    "imageSrc": "/catalogue-media/products/bags-travel/totes/alpine-cotton-tote-bag-with-zipper/0-master-a7770e8af5c3.webp",
+    "packagingKind": "tote"
+  },
+  {
+    "id": "MGC-3631",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹100",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/favour-box-floral/0-master-66f6fc34c4d5.webp"
+  },
+  {
+    "id": "MGC-3635",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹150",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/kintsugi-design-favor-box-size-8x8x3-5cm/0-master-4d2ea9e06297.webp"
+  },
+  {
+    "id": "MGC-3632",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹100",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-pink-ornamental/0-master-a0f493b9367d.webp"
+  },
+  {
+    "id": "MGC-3630",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹100",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/wrap-style-favor-box-8x8x3-5cm-white/0-master-3face9efe3b5.webp"
+  },
+  {
+    "id": "MGC-3634",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹100",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-black/0-master-0f3f16230de4.webp"
+  },
+  {
+    "id": "MGC-3629",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹100",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-mint/0-master-b8da3941b752.webp"
+  },
+  {
+    "id": "MGC-3633",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹100",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-pink/0-master-cf72b5ceb2a3.webp"
+  },
+  {
+    "id": "MGC-3628",
+    "name": "Favour Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹100",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/wrap-style-favor-box-pastels-8x8x3-5cm-red/0-master-486d491813c7.webp"
+  },
+  {
+    "id": "MGC-3636",
+    "name": "Handle Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹222",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/handle-hamper-box-blue-bauble/0-master-258e7a85c2a7.webp"
+  },
+  {
+    "id": "MGC-3280",
+    "name": "Jhilmil Gift Box - Rectangular",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹239",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/jhilmil-gift-box-rectangular/0-master-25bf5c3b48f7.webp"
+  },
+  {
+    "id": "MGC-3647",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹700",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box/0-master-688146c27f8c.webp"
+  },
+  {
+    "id": "MGC-3645",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹700",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-mint/0-master-04ecf4258b73.webp"
+  },
+  {
+    "id": "MGC-3646",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹700",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-pink/0-master-10638fe8af71.webp"
+  },
+  {
+    "id": "MGC-3644",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹700",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-red/0-master-4a7307f2d7e2.webp"
+  },
+  {
+    "id": "MGC-3641",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹600",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-white/0-master-4faa3ccb3681.webp"
+  },
+  {
+    "id": "MGC-3643",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹700",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-8x8x2-yellow/0-master-927a023c1f9f.webp"
+  },
+  {
+    "id": "MGC-3638",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹338",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-blue-bauble/0-master-49ec31a86e6f.webp"
+  },
+  {
+    "id": "MGC-3642",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹675",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-copy-copy/0-master-5635bb717c4a.webp"
+  },
+  {
+    "id": "MGC-3639",
+    "name": "Lid with Tray Hamper Box",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹338",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/lid-with-tray-hamper-box-red-ornamental/0-master-1d7382112f33.webp"
+  },
+  {
+    "id": "MGC-3302",
+    "name": "Top & Bottom Gift Box + Shredded Paper-blue-L",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹320",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/top-andamp-amp-bottom-gift-box-shredded-paper-blue-l/0-master-21f5e5ade788.webp"
+  },
+  {
+    "id": "MGC-3461",
+    "name": "Top&Bottom Box With Paper Slots- Black- M",
+    "summary": "Gift Boxes",
+    "priceLabel": "Catalogue price ₹500",
+    "imageSrc": "/catalogue-media/products/packaging/gift-boxes/top-bottom-box-with-paper-slots-black-m/0-master-672b95e9bb48.webp"
+  }
+]

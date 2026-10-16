@@ -1,0 +1,3935 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C8",
+    "code": "C8",
+    "name": "Hampers & Gifting",
+    "slug": "hampers-gifting",
+    "path": "hampers-gifting",
+    "sortOrder": 8
+  },
+  "subcategory": {
+    "id": "C8:gourmet",
+    "categoryId": "C8",
+    "name": "Gourmet",
+    "slug": "gourmet",
+    "path": "hampers-gifting/gourmet",
+    "sortOrder": 4
+  },
+  "categoryProductCount": 673,
+  "productCount": 36,
+  "products": [
+    {
+      "slug": "chickpeas-super-combo-110g",
+      "title": "Chickpeas Super Snack Combo - Magic Masala, Peri Peri, Terrific Tomato 110g each",
+      "sku": "MGC-3181",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Vacuum Cooked - Our vacuum cooked chickpeas have a crunchy and delicious taste. They are perfectly crisped to give you a hearty crunch with an assortment of spicy and tangy flavours. Healthy - Chickpeas are a great source of plant-based protein, fiber and healthy carbs and helps in weight loss. They are also great for the digestive system and to keep your Heart and bones healthy. Super Snack - The extra crunchy and delicious snack, Enjoy them as a salad or soup topping. These delicious crunchy s",
+      "shortDescription": "Vacuum Cooked - Our vacuum cooked chickpeas have a crunchy and delicious taste. They are perfectly crisped to give you a hearty crunch with an assortment of spicy and tangy flavours. Healthy - Chickpeas are a great source of plant-based protein, fiber and healthy carbs and helps in weight loss. They are also great for the digestive system and to keep your Heart and bones healthy. Super Snack - The extra crunchy and delicious snack, Enjoy them as a salad or soup topping. These delicious crunchy s",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3181",
+        "Product Code": "MGC-3181"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 252.45,
+        "amountMinorUnits": 25245,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 252.45,
+            "amountMinorUnits": 25245,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610227
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/chickpeas-super-combo-110g/0-master-884ad266f5c1.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "994b26ee943662052fa4acdded2e8d73cc3550837301371fe84c173ac5fa0293"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/chickpeas-super-combo-110g/1-angle-46354300e276.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2bf22e6a00a72e0632dfe162ff9a120c2546fc50132758843eaf5ee92a4ff9b6"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/chickpeas-super-combo-110g/2-angle-212cc955e4a7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "13fe68c515ec5d81f920d65dff6965dcf620fc99326252ac1fec3a56ad4cccee"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/chickpeas-super-combo-110g/3-angle-da1e722da0ee.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e6ce2bd57e709020d4bfcd4e0e28706606e239f3a33c06d785937e727ad76c81"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/chickpeas-super-combo-110g/4-angle-90b2fc5d573f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "694a72dbc9389cea8fa341c53c1651dd314841e64ec1687e1d1cc2710fd8b27b"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/chickpeas-super-combo-110g/5-angle-bfcb3597a7f7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "be184249e29ccf6a256180be104d384f593c99f0f67c2ff1aa326216e8c4c869"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/chickpeas-super-combo-110g/6-angle-81cf5ddac839.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9a6b515d28ca5a304ddad570cd5923b3562a3bb106d2f020de7713b1546112b6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-premium-dry-fruits-combo-4california-almonds-raisins-whole-cashews-roasted-pistachios-pouch-850-g",
+      "title": "Dry Fruits Combo 850g (Almonds 200g, Raisins 250g, Cashews 200g, Roasted Pistachios 200g)",
+      "sku": "MGC-3190",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "California Almonds - 200g Whole Cashews - 200g Roasted &amp; Salted Pistachios - 200g Green Raisins - 250g Low in fat calories ideal for weight watchers item form: Whole, allergen information: cashews Healthy nuts and dried fruits good for an active lifestyle Slows the ageing process and keeps diseases away Gluten free; high in protein; Suitable for vegetarians Hearts friend improves cardiovascular system Rich source of minerals folic acid calcium and iron Shelf Life: 364",
+      "shortDescription": "California Almonds - 200g Whole Cashews - 200g Roasted &amp; Salted Pistachios - 200g Green Raisins - 250g Low in fat calories ideal for weight watchers item form: Whole, allergen information: cashews Healthy nuts and dried fruits good for an active lifestyle Slows the ageing process and keeps diseases away Gluten free; high in protein; Suitable for vegetarians Hearts friend improves cardiovascular system Rich source of minerals folic acid calcium and iron Shelf Life: 364",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3190",
+        "Product Code": "MGC-3190"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1113.5,
+        "amountMinorUnits": 111350,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1113.5,
+            "amountMinorUnits": 111350,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610253
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-dry-fruits-combo-4california-almonds-raisins-whole-cashews-roasted-pistachios-pouch-850-g/0-master-06b1d470ee5f.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b33dcea4a0e38f9215c7a589d021f11f19caa45a20af51f652d30b123bbdb841"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-dry-fruits-combo-4california-almonds-raisins-whole-cashews-roasted-pistachios-pouch-850-g/1-angle-070c3bd7dfa4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6bc86ee7ea33f5032eedfe88f80a21bb5c8e01074e0965bd2d92ae249a053563"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-dry-fruits-combo-4california-almonds-raisins-whole-cashews-roasted-pistachios-pouch-850-g/2-angle-c80d91833b9b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "288d2867ad9c3e885589707cf8636c918d27d24fc201a6b3779282499c99c476"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-dry-fruits-combo-4california-almonds-raisins-whole-cashews-roasted-pistachios-pouch-850-g/3-angle-72e99535a3ea.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f6871c84e8a2f813ad229ef8c1a62f8d2c5378169d84df32f27b9f58b95ad05b"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-dry-fruits-combo-4california-almonds-raisins-whole-cashews-roasted-pistachios-pouch-850-g/4-angle-a53fd7012970.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "948a1e2039d21439f5478afd358d573e9db514377cc213f77b98a2dd0bd7f625"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "go-desi-dry-fruit-burfi-200g",
+      "title": "Go Desi Dry Fruit Burfi 200g",
+      "sku": "MGC-3179",
+      "brand": {
+        "name": "Go Desi",
+        "slug": "go-desi"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit burfi for Diwali gifting, corporate hampers, and employee welcome kits — premium Go Desi Dry Fruit Burfi 200g rich sweet box.",
+      "shortDescription": "Dry fruit burfi for Diwali gifting, corporate hampers, and employee welcome kits — premium Go Desi Dry Fruit Burfi 200g rich sweet box.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3179",
+        "Brand": "Go Desi",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "200",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3179"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 115.0,
+        "amountMinorUnits": 11500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 115.0,
+            "amountMinorUnits": 11500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610221
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 200,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/go-desi-dry-fruit-burfi-200g/0-master-23829894388d.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "69d9a3c108794e9baf23fa4add38ee3677c5a0a981b6310126ad3e3caddff19b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "health-conscious-mom",
+      "title": "Guilt-Free Gourmet Hamper",
+      "sku": "MGC-3178",
+      "brand": {
+        "name": "Gift Hampers",
+        "slug": "gift-hampers"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "This hamper contains:- 1 X The Whole Truth Almond Millet Cocoa Protein Bar 55gm (Country of Origin - India) 1 X Ray No Sugar White Chocolate with Blueberry 90gm (Country of Origin - India) 1 X Phab Protein Bar Mocha Nut Fudge 65g (Country of Origin - India) 1 X Milka Lotus Biscoff Bar 90g (Country of Origin - Germany) 1 X Twinings Chamomile Tea 25 Teabags Herbal Infusion Tea 50 Grams (Country of Origin - India) 1 X Werther's Original Cream candies 3-pack 150g (Country of Origin - Germany) (Pleas",
+      "shortDescription": "This hamper contains:- 1 X The Whole Truth Almond Millet Cocoa Protein Bar 55gm (Country of Origin - India) 1 X Ray No Sugar White Chocolate with Blueberry 90gm (Country of Origin - India) 1 X Phab Protein Bar Mocha Nut Fudge 65g (Country of Origin - India) 1 X Milka Lotus Biscoff Bar 90g (Country of Origin - Germany) 1 X Twinings Chamomile Tea 25 Teabags Herbal Infusion Tea 50 Grams (Country of Origin - India) 1 X Werther's Original Cream candies 3-pack 150g (Country of Origin - Germany) (Pleas",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3178",
+        "Product Code": "MGC-3178"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2500.0,
+        "amountMinorUnits": 250000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2500.0,
+            "amountMinorUnits": 250000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610219
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/health-conscious-mom/0-master-42a87840e35d.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "88087f1522d8a21039fe24a782b7532045fc2313c0ae17b65b3d505e26a0a00c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-chickpeas-power-combo-snack",
+      "title": "Happilo Chickpeas Power Combo Snack",
+      "sku": "MGC-3182",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Vacuum Cooked - Our vacuum cooked chickpeas have a crunchy and delicious taste. They are perfectly crisped to give you a hearty crunch with an assortment of spicy and tangy flavours. Healthy - Chickpeas are a great source of plant-based protein, fiber and healthy carbs and helps in weight loss. They are also great for the digestive system and to keep your Heart and bones healthy. Super Snack - The extra crunchy and delicious snack, Enjoy them as a salad or soup topping. These delicious crunchy s",
+      "shortDescription": "Vacuum Cooked - Our vacuum cooked chickpeas have a crunchy and delicious taste. They are perfectly crisped to give you a hearty crunch with an assortment of spicy and tangy flavours. Healthy - Chickpeas are a great source of plant-based protein, fiber and healthy carbs and helps in weight loss. They are also great for the digestive system and to keep your Heart and bones healthy. Super Snack - The extra crunchy and delicious snack, Enjoy them as a salad or soup topping. These delicious crunchy s",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3182",
+        "Product Code": "MGC-3182"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 252.45,
+        "amountMinorUnits": 25245,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 252.45,
+            "amountMinorUnits": 25245,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610231
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-chickpeas-power-combo-snack/0-master-bae7bc9d3daf.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "85e4f77c0296fe20afae86fd9509c7c592a11e11772aa13cc1e215266dd4ea92"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-chickpeas-power-combo-snack/1-angle-3713bc3cbcee.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b225a3b0b3d2dbdf09d44756b305d0040c79b2e39e180ba1657aca132e51ceca"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-chickpeas-power-combo-snack/2-angle-e27ee053f763.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "39bd8ac44eed0455eccc3dbc183e5daebc2af829776481d209bbdaaff5189d93"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-chickpeas-power-combo-snack/3-angle-f439d2d70d30.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8273f4d9013af1358a1d6d38f3aeaa3af274b6bba61272d5bb4165c0973fe8d7"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-chickpeas-power-combo-snack/4-angle-7748ac3eea08.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "63544c985c7ee76b84561b4c128b737c854ecf1296d149a9903fa2e3a2f96279"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-chickpeas-power-combo-snack/5-angle-b7cdf99e42fc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1ecf26e9aacca17d0ba8af076ebdfda8cca5c05cc0a59bc4c74aa72b10519d07"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-chickpeas-power-combo-snack/6-angle-b61ef36e45d9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f8056cb9f801d62992abe36b9e430a1f6540e344c947ca2f9b339750a41acfd2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-dry-fruit-celebration-gift-box-dove",
+      "title": "Happilo Dry Fruit Celebration Gift Box Dove 127g",
+      "sku": "MGC-3180",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Gourmet Selection: Experience the richness of California Almonds, the sumptuousness of Whole Cashews, the sweetness of Seedless Green Raisins, the boldness of Peri Peri Peanuts, and the uniqueness of Perky Pudina Makhana. Taste Adventure: Experience the range of flavors, from the buttery richness of cashews to the zesty Peri Peri kick of peanuts and the refreshing aroma of Perky Pudina Makhana. Elegant Presentation: This gift box is elegantly designed, making it a perfect choice for expressing y",
+      "shortDescription": "Gourmet Selection: Experience the richness of California Almonds, the sumptuousness of Whole Cashews, the sweetness of Seedless Green Raisins, the boldness of Peri Peri Peanuts, and the uniqueness of Perky Pudina Makhana. Taste Adventure: Experience the range of flavors, from the buttery richness of cashews to the zesty Peri Peri kick of peanuts and the refreshing aroma of Perky Pudina Makhana. Elegant Presentation: This gift box is elegantly designed, making it a perfect choice for expressing y",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3180",
+        "Product Code": "MGC-3180"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 220.15,
+        "amountMinorUnits": 22015,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 220.15,
+            "amountMinorUnits": 22015,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610224
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-dry-fruit-celebration-gift-box-dove/0-master-37df142230f4.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8dac7475e26f14bdfe03cd1e07e918e1ce1597abda9fa9dad204341cef5c26d0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-dry-fruit-celebration-gift-box-robin",
+      "title": "Happilo Dry Fruit Celebration Gift Box Robin",
+      "sku": "MGC-3185",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Premium Variety: Our Celebration Gift Box Robin showcases an array of delights, including California Almonds, Whole Cashews, Roasted &amp; Salted California Pistachios, Seedless Black Raisins, Perky Pudina Makhana, Dry Fruit Barfi, Thai Chilli Chickpeas, and Peri Peri Peanuts. Taste Adventure: From the buttery elegance of nuts to the sweet indulgence of dried fruits and the exciting kick of flavored snacks, this gift box offers a journey of flavors. Elegant Presentation: This gift box is elegant",
+      "shortDescription": "Premium Variety: Our Celebration Gift Box Robin showcases an array of delights, including California Almonds, Whole Cashews, Roasted &amp; Salted California Pistachios, Seedless Black Raisins, Perky Pudina Makhana, Dry Fruit Barfi, Thai Chilli Chickpeas, and Peri Peri Peanuts. Taste Adventure: From the buttery elegance of nuts to the sweet indulgence of dried fruits and the exciting kick of flavored snacks, this gift box offers a journey of flavors. Elegant Presentation: This gift box is elegant",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3185",
+        "Product Code": "MGC-3185"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 437.75,
+        "amountMinorUnits": 43775,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 437.75,
+            "amountMinorUnits": 43775,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610239
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-dry-fruit-celebration-gift-box-robin/0-master-9d6b7f3a0d0e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4525b58ac73da401f00524251dd7522c95dd55dc4ff9771bcf2cdd00a895c61f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-dry-fruit-celebrations-gift-box-kaze-750g",
+      "title": "Happilo Dry Fruit Celebrations Gift Box Kaze 750g",
+      "sku": "MGC-3193",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Premium Quality: The Happilo Gift Box Kaze includes handpicked almonds, cashews, pistachios, and green raisins, ensuring only the finest quality and flavor in every bite. This commitment to excellence makes it a perfect choice for any celebration. Perfect Gift: Whether for festivals, birthdays, anniversaries, or any special occasion, this beautifully packaged gift box serves as an elegant and thoughtful present. Show your loved ones you care with a gift that combines taste and health. Healthy Sn",
+      "shortDescription": "Premium Quality: The Happilo Gift Box Kaze includes handpicked almonds, cashews, pistachios, and green raisins, ensuring only the finest quality and flavor in every bite. This commitment to excellence makes it a perfect choice for any celebration. Perfect Gift: Whether for festivals, birthdays, anniversaries, or any special occasion, this beautifully packaged gift box serves as an elegant and thoughtful present. Show your loved ones you care with a gift that combines taste and health. Healthy Sn",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3193",
+        "Product Code": "MGC-3193"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1911.65,
+        "amountMinorUnits": 191165,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1911.65,
+            "amountMinorUnits": 191165,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610261
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-dry-fruit-celebrations-gift-box-kaze-750g/0-master-5868fb97c81b.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "b917c5354091451edfe4858e1d165be25a7a4b8f7e1b3b4e7101d22c92f35586"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-dry-fruit-celebrations-gift-box-zefa-400g",
+      "title": "Happilo Dry Fruit Celebrations Gift Box Zefa 400g",
+      "sku": "MGC-3188",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Premium Quality: The Happilo Gift Box Zefa contains handpicked pistachios, green raisins, salted almonds, and salted cashews, ensuring only the best quality and taste. This dedication to excellence provides a superior snacking experience that is perfect for any occasion. Perfect Gift: Ideal for holidays, birthdays, or any special celebration, this beautifully packaged gift box makes an elegant and thoughtful present. Delight your loved ones with a gift that combines luxury and health, making it ",
+      "shortDescription": "Premium Quality: The Happilo Gift Box Zefa contains handpicked pistachios, green raisins, salted almonds, and salted cashews, ensuring only the best quality and taste. This dedication to excellence provides a superior snacking experience that is perfect for any occasion. Perfect Gift: Ideal for holidays, birthdays, or any special celebration, this beautifully packaged gift box makes an elegant and thoughtful present. Delight your loved ones with a gift that combines luxury and health, making it ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3188",
+        "Product Code": "MGC-3188"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 956.25,
+        "amountMinorUnits": 95625,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 956.25,
+            "amountMinorUnits": 95625,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610248
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-dry-fruit-celebrations-gift-box-zefa-400g/0-master-f6826fa2e89f.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "b86a2ede8d42e9981e0cf8e8d840161457048bf38aa5342a42ad933dc9d87b77"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut",
+      "title": "Happilo Peanut Power Combo Snack 150g each Chili Garlic Peanut, Thai Chili Peanut, Terrific Tomato Peanut",
+      "sku": "MGC-3183",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Roasted Coated - Its Roasted Not Fried, Roasted Coated Peanuts with Terrific Tomato Flavouring is the perfect option if you are craving a tasty, between-meals snack. When it is severed it looks yummy and delicious and after eating it you want more and more Quality - Roasted Peanut is made with peanuts which are rich in energy. These snack is prepared from fresh quality ingredients. It can be enjoyed plain for the great taste. High in Protein And Dietary Fibre. Healthy Treat -They are an excellen",
+      "shortDescription": "Roasted Coated - Its Roasted Not Fried, Roasted Coated Peanuts with Terrific Tomato Flavouring is the perfect option if you are craving a tasty, between-meals snack. When it is severed it looks yummy and delicious and after eating it you want more and more Quality - Roasted Peanut is made with peanuts which are rich in energy. These snack is prepared from fresh quality ingredients. It can be enjoyed plain for the great taste. High in Protein And Dietary Fibre. Healthy Treat -They are an excellen",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3183",
+        "Product Code": "MGC-3183"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 252.45,
+        "amountMinorUnits": 25245,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 252.45,
+            "amountMinorUnits": 25245,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610233
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut/0-master-86bb752f8e74.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "50c66d483958389b7d1a38a183db631b49b42394307418c7281cbdc9809bcdee"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut/1-angle-e6369fb2af3e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6e9a453a37da956d882d1c27a9c5771625c84343125da0cdc240fde95e0b0b48"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut/2-angle-7d2428f7d4f3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bf946a7001b38ea51b88027fa5398c24259398f4a60a41d274e93f6f75b8b759"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut/3-angle-2c54318e1434.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "dca6018e74950979d96c93e43455e3078a2c2083fae4a323cecbc9e0c59c7bbc"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut/4-angle-6b83d22dd2fd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4a9d060c690a3e4fe7fd9497bb3fbfa8d4191e7de428b4d35f307a4b18d7bbb9"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut/5-angle-d4553b398f53.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "af5db8cf254073924996473730341385b053e6e4eddadb53b3ac49e83453a088"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-power-combo-snack-150g-each-chili-garlic-peanut-thai-chili-peanut-terrific-tomato-peanut/6-angle-dd2084082d01.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a738725e3e57ca329016f7bb29f2feacd6188c23bcf27e570e6c51c8ab788310"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut",
+      "title": "Happilo Peanut Super Combo Snack 150g each, Perky Pudhina Peanut, Magic Masala Peanut, Peri Peri Peanut",
+      "sku": "MGC-3184",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Roasted Coated - Its Roasted Not Fried, Roasted Coated Peanuts with Terrific Tomato Flavouring is the perfect option if you are craving a tasty, between-meals snack. When it is severed it looks yummy and delicious and after eating it you want more and more Quality - Roasted Peanut is made with peanuts which are rich in energy. These snack is prepared from fresh quality ingredients. It can be enjoyed plain for the great taste. High in Protein And Dietary Fibre. Healthy Treat -They are an excellen",
+      "shortDescription": "Roasted Coated - Its Roasted Not Fried, Roasted Coated Peanuts with Terrific Tomato Flavouring is the perfect option if you are craving a tasty, between-meals snack. When it is severed it looks yummy and delicious and after eating it you want more and more Quality - Roasted Peanut is made with peanuts which are rich in energy. These snack is prepared from fresh quality ingredients. It can be enjoyed plain for the great taste. High in Protein And Dietary Fibre. Healthy Treat -They are an excellen",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3184",
+        "Product Code": "MGC-3184"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 252.45,
+        "amountMinorUnits": 25245,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 252.45,
+            "amountMinorUnits": 25245,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610236
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut/0-master-eac13ef74c5c.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6062eecb5261aed6c2ef555108eea5d9ca45c26ef485abd1dfcc08c74909fdb0"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut/1-angle-79f27b77d7bf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6f6fb93f9b3201f9186f4d4171d8e2a63292355d418485d140e27f541fb88ff9"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut/2-angle-812ad8e4fc5d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5a8e2ba5ec97076de0422c917f0efd7659185e97e3b1711de37086ab19dbd10e"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut/3-angle-30ecf7970330.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "34f08c603a490130ac73131d21b146ee867294f6552680999426720460e46fed"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut/4-angle-e5f8c99c296b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "aa12efd92a6d16cd9304a18b7592cd865b6e25cacd887792c2ec5c7c5fe3eae0"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut/5-angle-7bf12dc39106.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "62c9e2291003428ba3821d16165dc525ae78f85592a6919053a4975bd9b4d3b7"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-peanut-super-combo-snack-150g-each-perky-pudhina-peanut-magic-masala-peanut-peri-peri-peanut/6-angle-dd2084082d01.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a738725e3e57ca329016f7bb29f2feacd6188c23bcf27e570e6c51c8ab788310"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-premium-dry-fruit-combo-1400g-almond-500g-cashews-500g-pistachios-200g-inshell-walnuts-200g",
+      "title": "Happilo Premium Dry Fruit Combo 1400g (Almond 500g, Cashews 500g, Pistachios 200g & Inshell Walnuts 200g)",
+      "sku": "MGC-3194",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle Shelf Life: 272 .product-single__thumbnails{display: block !important;} .product-single__thumbnail-image { max-width: 64% !important;}",
+      "shortDescription": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle Shelf Life: 272 .product-single__thumbnails{display: block !important;} .product-single__thumbnail-image { max-width: 64% !important;}",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3194",
+        "Product Code": "MGC-3194"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1976.25,
+        "amountMinorUnits": 197625,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1976.25,
+            "amountMinorUnits": 197625,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610265
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-dry-fruit-combo-1400g-almond-500g-cashews-500g-pistachios-200g-inshell-walnuts-200g/0-master-99cf4d00a210.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "65794ae0c82cb64c8acb609718cd39467f00636c778bc0f1f4a7f9a8e1dcd256"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "house-of-treats-pack-of-1-sweet-2-dry-fruit",
+      "title": "House of Treats Pack Of 1 Sweet 2 Dry Fruit",
+      "sku": "MGC-3203",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Sweet and dry fruit combo for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats 1 sweet 2 dry fruit box.",
+      "shortDescription": "Sweet and dry fruit combo for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods House of Treats 1 sweet 2 dry fruit box.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3203",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3203"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2075.0,
+        "amountMinorUnits": 207500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2075.0,
+            "amountMinorUnits": 207500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610291
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/house-of-treats-pack-of-1-sweet-2-dry-fruit/0-master-9ac6ca65bf70.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4793a7a7086275b6f05a4f640101299828e81b896baf9dfc586a9126bc5cfd7a"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/house-of-treats-pack-of-1-sweet-2-dry-fruit/1-angle-66d6abe1d1f8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "07a262f7ab98e8d2612fa494eeb69a4247a5fa374add8c6d591e1dcd7ad7bfd1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "loyka-select-gourmet-indulgence-5-in-1-box",
+      "title": "Loyka Select Gourmet Indulgence 5-in-1 Box",
+      "sku": "MGC-3207",
+      "brand": {
+        "name": "Loyka",
+        "slug": "loyka"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Loyka Select Gourmet Indulgence 5-in-1 Box — an affordable premium gourmet gift for corporate gifting, employee welcome kits and diwali orders.",
+      "shortDescription": "Loyka Select Gourmet Indulgence 5-in-1 Box — an affordable premium gourmet gift for corporate gifting, employee welcome kits and diwali orders.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3207",
+        "Stock Update Date": "2 Jul 2026",
+        "Country of Origin": "India",
+        "Brand": "Loyka",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3207"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 445.0,
+        "amountMinorUnits": 44500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 445.0,
+            "amountMinorUnits": 44500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610303
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/loyka-select-gourmet-indulgence-5-in-1-box/0-master-79a451ab24fd.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e0eb2a398d3389647c339251d3da259fd6ab24bf2992fe14bcf8a4667fc8f7d7"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "loyka-select-gourmet-supreme-13-in-1-hamper",
+      "title": "Loyka Select Gourmet Supreme 13-in-1 Hamper",
+      "sku": "MGC-3208",
+      "brand": {
+        "name": "Loyka",
+        "slug": "loyka"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Supreme 13-in-1 gourmet hamper for corporate gifting, employee welcome kits, and Diwali gifting — premium Loyka Select Gourmet Supreme hamper.",
+      "shortDescription": "Supreme 13-in-1 gourmet hamper for corporate gifting, employee welcome kits, and Diwali gifting — premium Loyka Select Gourmet Supreme hamper.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3208",
+        "Stock Update Date": "2 Jul 2026",
+        "Country of Origin": "India",
+        "Brand": "Loyka",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3208"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 4765.0,
+        "amountMinorUnits": 476500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 4765.0,
+            "amountMinorUnits": 476500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610306
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/loyka-select-gourmet-supreme-13-in-1-hamper/0-master-e7e33dbc4dfc.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c585fca76323fa08994638798217dabf7cd548eaf5cfb3c8c66370c68f27bdd1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "monthly-dry-fruits-combo",
+      "title": "Monthly Dry Fruits Combo",
+      "sku": "MGC-3191",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle Shelf Life: 272",
+      "shortDescription": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle Shelf Life: 272",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3191",
+        "Product Code": "MGC-3191"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1474.75,
+        "amountMinorUnits": 147475,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1474.75,
+            "amountMinorUnits": 147475,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610255
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/monthly-dry-fruits-combo/0-master-36bb536601c0.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "901ce2d51715d006a95e43d0676b0751c7736f3a95ad73aca969bb6090cf61f5"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/monthly-dry-fruits-combo/1-angle-7606e37cb1db.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "31606f2226a1f81a31020e873d0125db9e4eb73dc89870bb1321ffeacb11157b"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/monthly-dry-fruits-combo/2-angle-adfbc96aa942.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "84688e6d027f11f3a933ad87149bae0d7d7995ccb35332657a8d71c052d52f67"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/monthly-dry-fruits-combo/3-angle-42faf11786fa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b2a76d97620d7781e073433d8f391b9e63b9c259d719e326215e6689cdb203a"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/monthly-dry-fruits-combo/4-angle-683e79973fff.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ab7b9f90ac2f57b130b41c11efe07f10b15d35a1a91d4cba53e05a991e447a8b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "omay-foods-gourmet-snacks-4-in-1-gift-box",
+      "title": "Omay Foods Gourmet Snacks 4-in-1 Gift Box",
+      "sku": "MGC-3209",
+      "brand": {
+        "name": "Omay Foods",
+        "slug": "omay-foods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Gourmet snack gift box for corporate gifting, employee welcome kits, and Diwali hampers — affordable Omay Foods Gourmet Snacks 4-in-1 assortment.",
+      "shortDescription": "Gourmet snack gift box for corporate gifting, employee welcome kits, and Diwali hampers — affordable Omay Foods Gourmet Snacks 4-in-1 assortment.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3209",
+        "Brand": "Omay Foods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-3209"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 575.0,
+        "amountMinorUnits": 57500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 575.0,
+            "amountMinorUnits": 57500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610309
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/omay-foods-gourmet-snacks-4-in-1-gift-box/0-master-bb865e9b2753.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "17c11106462edc23d11ddcdc43c3f234546b9e8790b563581946e39333b065f5"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/omay-foods-gourmet-snacks-4-in-1-gift-box/1-angle-bef784a9d0a9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "938ed70abe1b9a156b89a6e2f448c8f47cc08ab4f156a6befb6a26a0a0d11d8e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "peanuts-daily-combo-150g",
+      "title": "Peanuts Daily Combo Snack",
+      "sku": "MGC-3186",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Roasted Coated - Its Roasted Not Fried, Roasted Coated Peanuts with Terrific Tomato Flavouring is the perfect option if you are craving a tasty, between-meals snack. When it is severed it looks yummy and delicious and after eating it you want more and more Quality - Roasted Peanut is made with peanuts which are rich in energy. These snack is prepared from fresh quality ingredients. It can be enjoyed plain for the great taste. High in Protein And Dietary Fibre. Healthy Treat -They are an excellen",
+      "shortDescription": "Roasted Coated - Its Roasted Not Fried, Roasted Coated Peanuts with Terrific Tomato Flavouring is the perfect option if you are craving a tasty, between-meals snack. When it is severed it looks yummy and delicious and after eating it you want more and more Quality - Roasted Peanut is made with peanuts which are rich in energy. These snack is prepared from fresh quality ingredients. It can be enjoyed plain for the great taste. High in Protein And Dietary Fibre. Healthy Treat -They are an excellen",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3186",
+        "Product Code": "MGC-3186"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 504.9,
+        "amountMinorUnits": 50490,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 504.9,
+            "amountMinorUnits": 50490,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610241
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/0-master-c34ecce48c86.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c7b547b98277cfe1d5b29805a379a0b426e440f576e190ad9084d33c3c14e594"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/1-angle-efef8f643c07.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "732bca8eecd135b162c7bb784b9ea2f930a323a8027d34be917548bbe1b6a0cd"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/2-angle-2aa8a752d0f5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1001,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c3418a37e5d21ac06e1cb2d41a18948a899dced2949f6f4f9e60c7649e040870"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/3-angle-2c54318e1434.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "dca6018e74950979d96c93e43455e3078a2c2083fae4a323cecbc9e0c59c7bbc"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/4-angle-e5f8c99c296b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "aa12efd92a6d16cd9304a18b7592cd865b6e25cacd887792c2ec5c7c5fe3eae0"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/5-angle-ebef84da88b3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ac4a8223d80fdfb0e865b2e28ba0b9a255fdd999376ba804f88fbbad6d219191"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/6-angle-bcd46d8d5c8c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fe0da72372b796e73f5cdb327e7ad88f051fdd26b6bd289d848184f7243a0673"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/peanuts-daily-combo-150g/7-angle-dd2084082d01.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a738725e3e57ca329016f7bb29f2feacd6188c23bcf27e570e6c51c8ab788310"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "dry-fruits-combo-pack",
+      "title": "Premium Dry Fruits Combo",
+      "sku": "MGC-3189",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Gluten free; high in protein; Suitable for vegetarians Healthy nuts and dried fruits good for an active lifestyle Low in fat calories ideal for weight watchers Rich source of minerals folic acid calcium and iron Shelf Life: 364",
+      "shortDescription": "Gluten free; high in protein; Suitable for vegetarians Healthy nuts and dried fruits good for an active lifestyle Low in fat calories ideal for weight watchers Rich source of minerals folic acid calcium and iron Shelf Life: 364",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3189",
+        "Product Code": "MGC-3189"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 960.5,
+        "amountMinorUnits": 96050,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 960.5,
+            "amountMinorUnits": 96050,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610250
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/dry-fruits-combo-pack/0-master-412b7de5feba.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "44e1a758e1b1a86ce0e0b68e301ed0c20cbb2f679cca5665a2835aa0ff795f97"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/dry-fruits-combo-pack/1-angle-b08f58b52224.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c434ebdbb24409f8e7f31386ac32803fd5a5e678a0741663e9f5379165fb1430"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/dry-fruits-combo-pack/2-angle-0c2b05a9dd73.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b0e84e023a348454459994845fc0e2598cbfa4b8ca70d52019445f78100eff93"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/dry-fruits-combo-pack/3-angle-cb9ae14a3dff.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e46ee77972ac0bc01c8e24f5739499ae63eeaa557a9a9d45124b645e6a635e1b"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/dry-fruits-combo-pack/4-angle-ff3c55b45140.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2c68cc06aa1b55aff5ef9d4842f1078292086c31f0fbbf8c6ca71f319a432d20"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-premium-nuts-dryfruit-combo-almond-cashews-raisin-650g",
+      "title": "Premium Nuts & Dry Fruits Combo (Almonds, Cashews & Raisins) 650g",
+      "sku": "MGC-3187",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle Almonds 200g, Cashews 200g, Raisins 250g Shelf Life: 364",
+      "shortDescription": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle Almonds 200g, Cashews 200g, Raisins 250g Shelf Life: 364",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3187",
+        "Product Code": "MGC-3187"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 760.75,
+        "amountMinorUnits": 76075,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 760.75,
+            "amountMinorUnits": 76075,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610245
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-cashews-raisin-650g/0-master-48210dd81a0e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c431d0a13044bb320ce9fb3dbfe8c62c94410e32eb53dfce4678dc4ac524d773"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-cashews-raisin-650g/1-angle-48d38eddda28.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b9f9860c7427481aa361f476f78a0e9695c53ad925f5749997a3af5683f1a456"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-cashews-raisin-650g/2-angle-b57318c7acd6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "56717c77c0e64f76bc318275e3fc4549a426f0386bdbcca81d9eb8217d3bbc56"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-cashews-raisin-650g/3-angle-8e689a1bf512.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6d37418c341f9403a11f31845101f416d1601992d4abd163ef0bcf3b9cae292c"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-cashews-raisin-650g/4-angle-ec805a9d504c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a8caa7675902325b2a6b188bfcc71ab8051ba019fd6f8cbd5aa6b955c1ada38e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "happilo-premium-nuts-dryfruit-combo-almond-500g-cashews-500g-green-raisin-500g-1500g",
+      "title": "Premium Nuts & Dry Fruits Combo 1500g (Almonds, Cashews & Green Raisins 500g Each)",
+      "sku": "MGC-3192",
+      "brand": {
+        "name": "Happilo International Private Limited",
+        "slug": "happilo-international-private-limited"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle .product-single__thumbnails{display: block !important;} .product-single__thumbnail-image { max-width: 64% !important;}",
+      "shortDescription": "High protein dietary fibre Gluten free non GMO Zero transfat and zero cholesterol Lowers harmful cholesterol levels Rich source of omega 3 Rich in antioxidants and vitamins Ideal snack for weight watchers Healthy nuts and dried fruit are good for healthy lifestyle .product-single__thumbnails{display: block !important;} .product-single__thumbnail-image { max-width: 64% !important;}",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3192",
+        "Product Code": "MGC-3192"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1508.75,
+        "amountMinorUnits": 150875,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1508.75,
+            "amountMinorUnits": 150875,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610258
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-500g-cashews-500g-green-raisin-500g-1500g/0-master-d486ad8a4002.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "482a4371e48a4005a572afb426d76a8e3de7fabec070408152a91c149f19eb22"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-500g-cashews-500g-green-raisin-500g-1500g/1-angle-5cb80ba29c34.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "defdfef059657896a84075ad85babd26e948eb98b0aeae641174d16f54e9ac7b"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-500g-cashews-500g-green-raisin-500g-1500g/2-angle-937513add2ab.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9ee6c57e86f7208742eeaa48de4344814b1079586e034e5ee03fe691b8617386"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-500g-cashews-500g-green-raisin-500g-1500g/3-angle-9cdad869136c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4121e33493ea05bb1e8bcc2e5d09d5c098cc64b805d417341b1509d421bcef25"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/happilo-premium-nuts-dryfruit-combo-almond-500g-cashews-500g-green-raisin-500g-1500g/4-angle-8c0d59c708c2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cda791993c0ae7f33299391de4868b4377837aa60e9b7abc29b10bf98a6cc442"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-binge-box-dry-fruit-tray",
+      "title": "Raw Fruit Binge Box Dry Fruit Tray",
+      "sku": "MGC-3198",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit gift tray for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit Binge Box assortment.",
+      "shortDescription": "Dry fruit gift tray for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit Binge Box assortment.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3198",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3198"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1445.0,
+        "amountMinorUnits": 144500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1445.0,
+            "amountMinorUnits": 144500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610276
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-binge-box-dry-fruit-tray/0-master-f30fc0e5be20.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8c547100824a45e9f1a1e880c07c06543036198451d5807c3eca305040f40740"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-binge-box-dry-fruit-tray/1-angle-a190b6c07ead.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "71aa84a5c79549de24ea6b3f1d3864dc44515f914b1f88281ea2b11f5bb5de5f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-dry-fruit-sweet-potli-4-in-1-box",
+      "title": "Raw Fruit Dry Fruit & Sweet Potli 4-in-1 Box",
+      "sku": "MGC-3200",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit and sweet potli box for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit 4-in-1 mixed gift box.",
+      "shortDescription": "Dry fruit and sweet potli box for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit 4-in-1 mixed gift box.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3200",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3200"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1755.0,
+        "amountMinorUnits": 175500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1755.0,
+            "amountMinorUnits": 175500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610282
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-dry-fruit-sweet-potli-4-in-1-box/0-master-05e4538f8ca3.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "613313230273319fb5c13d94af6756f2d11081196db42de22d79daba3d3174ac"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-dry-fruit-sweet-potli-4-in-1-box/1-angle-f11f298998c8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "55616edc21fb5181db294e132e663b3fea8d69230c56231bb855f9194f186c6c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-dry-fruit-medium-tray",
+      "title": "Raw Fruit Dry Fruit Medium Tray",
+      "sku": "MGC-3205",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit gift tray for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit medium assorted dry fruit tray.",
+      "shortDescription": "Dry fruit gift tray for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit medium assorted dry fruit tray.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3205",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3205"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2245.0,
+        "amountMinorUnits": 224500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2245.0,
+            "amountMinorUnits": 224500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610296
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-dry-fruit-medium-tray/0-master-522202382c71.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bad997bf9d03be66fdac075c9a62578f653c202123e5f55408449964f8421d1c"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-dry-fruit-medium-tray/1-angle-3b878ea7eab4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e74b4a50f2999b8c8087290547dc3358b31f6acf169a1b95469dbba7e4af51d4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-gourmet-medley-collection-6-in-1-gift-hamper",
+      "title": "Raw Fruit Gourmet Medley Collection 6-in-1 Gift Hamper",
+      "sku": "MGC-3204",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Gourmet dry fruit hamper for corporate gifting, employee welcome kits, and Diwali gifting — premium Hyperfoods Raw Fruit 6-in-1 medley collection.",
+      "shortDescription": "Gourmet dry fruit hamper for corporate gifting, employee welcome kits, and Diwali gifting — premium Hyperfoods Raw Fruit 6-in-1 medley collection.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3204",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3204"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2075.0,
+        "amountMinorUnits": 207500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2075.0,
+            "amountMinorUnits": 207500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610293
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-gourmet-medley-collection-6-in-1-gift-hamper/0-master-882ad5cc26cf.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "51aefb4e0c056153a9083b0deceab849522837a1e4c93196eca8ba91eff4ef93"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-gourmet-medley-collection-6-in-1-gift-hamper/1-angle-52f566bfcbaa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a061c977345b5fc6819125e8cfd43f47ab222c675656c606f98d9819f1e56e85"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-hexagon-gourmet-treasure-tray",
+      "title": "Raw Fruit Hexagon Gourmet Treasure Tray",
+      "sku": "MGC-3206",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Gourmet dry fruit tray for corporate gifting, executive hampers, and Diwali gifting — premium Hyperfoods Raw Fruit hexagon treasure assortment.",
+      "shortDescription": "Gourmet dry fruit tray for corporate gifting, executive hampers, and Diwali gifting — premium Hyperfoods Raw Fruit hexagon treasure assortment.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3206",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3206"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 5605.0,
+        "amountMinorUnits": 560500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 5605.0,
+            "amountMinorUnits": 560500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610298
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-hexagon-gourmet-treasure-tray/0-master-1a913ba68967.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "229bbd88ea8481ff74f59c5afca4216bc635577463c907f439e978888f852757"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-hexagon-gourmet-treasure-tray/1-angle-34c300029086.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5154c188459e3fdcd3325764e4fdfcde221f1e6fafe1490cab16a79639cf1b00"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-mandala-dry-fruit-box",
+      "title": "Raw Fruit Mandala Dry Fruit Box",
+      "sku": "MGC-3199",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit gift box for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit Mandala assorted dry fruit collection.",
+      "shortDescription": "Dry fruit gift box for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit Mandala assorted dry fruit collection.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3199",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3199"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1625.0,
+        "amountMinorUnits": 162500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1625.0,
+            "amountMinorUnits": 162500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610279
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-mandala-dry-fruit-box/0-master-33a1f87293f0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a6082ad00992686151b27d33d453093cf13f380b31799fedb19dc7344e09f245"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-mandala-dry-fruit-box/1-angle-9135c3e3d67d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5f97470fbf84fb6fcee433350b39aa21f9df67eee55c3f870fda43bfbe2653ec"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-moon-box-dry-fruits",
+      "title": "Raw Fruit Moon Box Dry Fruits",
+      "sku": "MGC-3197",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit gift box for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit Moon Box assorted dry fruits.",
+      "shortDescription": "Dry fruit gift box for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit Moon Box assorted dry fruits.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3197",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3197"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1435.0,
+        "amountMinorUnits": 143500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1435.0,
+            "amountMinorUnits": 143500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610274
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-moon-box-dry-fruits/0-master-f8b5a328ab1a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6df259cfe8325db3b3b53b7180425e5e7ac9775039b0894622379b8950c0dc21"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-moon-box-dry-fruits/1-angle-24775bd3b916.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e2c3a9339f3dbbc9b255cba87da370760e6023635150ea3e1c4234869e57a2d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-pet-jar-pack-of-2-dry-fruits",
+      "title": "Raw Fruit Pet Jar Pack Of 2 Dry Fruits",
+      "sku": "MGC-3195",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit jar gift pack for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit pet jar pack of 2.",
+      "shortDescription": "Dry fruit jar gift pack for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit pet jar pack of 2.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3195",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3195"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 985.0,
+        "amountMinorUnits": 98500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 985.0,
+            "amountMinorUnits": 98500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610268
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-pet-jar-pack-of-2-dry-fruits/0-master-843711ab37c9.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c7e4feb621a32728ecf750db4410b708cb71a9f3aaccadaf7d67e9cac47ed9ca"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-pet-jar-pack-of-2-dry-fruits/1-angle-bb11e4ed188d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a4366b81e7dadcd24a4344722b1c7f7c855b79c91498c13fa8119a3fa4ea078c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-pet-jar-pack-of-4-dry-fruits",
+      "title": "Raw Fruit Pet Jar Pack Of 4 Dry Fruits",
+      "sku": "MGC-3201",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit jar gift pack for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit pet jar pack of 4.",
+      "shortDescription": "Dry fruit jar gift pack for corporate gifting, employee welcome kits, and Diwali hampers — premium Hyperfoods Raw Fruit pet jar pack of 4.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3201",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3201"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1755.0,
+        "amountMinorUnits": 175500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1755.0,
+            "amountMinorUnits": 175500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610286
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-pet-jar-pack-of-4-dry-fruits/0-master-a5317982e9c3.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e4e89a0bc9d4465f7d7f3509ccc6977715ad51ec3fec054d9d40f4f3d333ceac"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-pet-jar-pack-of-4-dry-fruits/1-angle-7ac4f4a24c8a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "93aa38cefe792d65db996064f3fb009601f36bad69660be1ac9a858cf35cfc00"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-petals-dry-fruit-tray",
+      "title": "Raw Fruit Petals Dry Fruit Tray",
+      "sku": "MGC-3202",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit tray for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit Petals assorted dry fruit tray.",
+      "shortDescription": "Dry fruit tray for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit Petals assorted dry fruit tray.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3202",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3202"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1755.0,
+        "amountMinorUnits": 175500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1755.0,
+            "amountMinorUnits": 175500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610288
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-petals-dry-fruit-tray/0-master-19c224139f07.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d5d1446ecd3b289f84f4e0fb5a7f212c90639f61fedc133e3df4c95fd1e41516"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-petals-dry-fruit-tray/1-angle-7408aad272b7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "109cc2199a2292eafd97819bdfad01632d920962d2f71c03c77a677b5f24d1b0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "raw-fruit-slider-box-dry-fruits",
+      "title": "Raw Fruit Slider Box Dry Fruits",
+      "sku": "MGC-3196",
+      "brand": {
+        "name": "Hyperfoods",
+        "slug": "hyperfoods"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Dry fruit gift box for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit Slider Box assorted dry fruits.",
+      "shortDescription": "Dry fruit gift box for corporate gifting, employee welcome kits, and Diwali hampers — affordable Hyperfoods Raw Fruit Slider Box assorted dry fruits.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3196",
+        "Country of Origin": "India",
+        "Brand": "Hyperfoods",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "10 to 15 Working Days",
+        "Product Code": "MGC-3196"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1255.0,
+        "amountMinorUnits": 125500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1255.0,
+            "amountMinorUnits": 125500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610271
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "10 to 15 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-slider-box-dry-fruits/0-master-be6152213e0e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d9ac1de615a5b77186376d2e3db9286f54cc57558e57b05330ddcfa5bd705f8a"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/raw-fruit-slider-box-dry-fruits/1-angle-19bee9906d81.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "af4ebb31e6d77b994d553c8a33b3cf183bda34c345499d62d239415794406876"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs",
+      "title": "Royal Tusker Snack Plate Gift Set - Set of 4, 8\"dia | Palace Memoirs",
+      "sku": "MGC-3174",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Handcrafted in fine bone china, this snack plate set features motifs inspired by the majestic tusker, reminiscent of India's charming royal heritage — perfect to gift and host.",
+      "shortDescription": "Handcrafted in fine bone china, this snack plate set features motifs inspired by the majestic tusker, reminiscent of India's charming royal heritage — perfect to gift and host.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3174",
+        "Product Code": "MGC-3174"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1170.0,
+        "amountMinorUnits": 117000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1170.0,
+            "amountMinorUnits": 117000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610206
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/0-master-589c62b53550.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cdd9d25a15bab78c0a1c5dc71d61c55a60cc7e2620b8896da71fabe4ceed4d61"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/1-angle-5a6052b7a0cb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ca54eea70af0aa6fc7c7cc421be2e0755ea4648464e59e497afe9bdb57613b28"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/2-angle-7f60575c0520.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a0fdf49afe51d5ecab8f292ab3d146733b41fe0e900e48548fbd7ec2c52542be"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/3-angle-43291ef8db30.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e2531fd595ec436096ee3a45b92cb57345277f44e630d9c265a18e87d70d880e"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/4-angle-728dd81d71dd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "84a7705795713420d4b00950f58fd6616d98d322ed8b2bf9c359bc9f9aaebf6c"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/5-angle-07bac9f5b0ec.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "350160be3261121c82e6a54ef20012c057c8c458d71ba3a947ff4dd3703fb2f8"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/6-angle-f21570e307b5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "de01f561354d670e45f945aac9acd4fee097b25a896a12c7d6c84a7c9139c866"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/7-angle-7c5adfd12f3d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9f29aa67b0d0c5524d3945db4aec67bb7e830c50a566f8f5d859b993b6c263b9"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/8-angle-d885f684ce08.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "544f4b5143a324cd541bd4a0a462b802ec509c0fe06fa3c15c33d712deb5ced7"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-quarter-plate-gift-set-set-of-4-8dia-palace-memoirs/9-angle-866c9350fb31.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d6317bf4daf72cd551a680a79e28305599a27982518d23b1b1a9dd1538d59238"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs",
+      "title": "Royal Tusker Snack Plate Gift Set - Set of 4, 8\"dia | Palace Memoirs | Gold Rim",
+      "sku": "MGC-3177",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Handcrafted in fine bone China, this snack plate set features motifs inspired by the majestic tusker, reminiscent of India's charming royal heritage — perfect to gift and host.",
+      "shortDescription": "Handcrafted in fine bone China, this snack plate set features motifs inspired by the majestic tusker, reminiscent of India's charming royal heritage — perfect to gift and host.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3177",
+        "Product Code": "MGC-3177"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1609.3,
+        "amountMinorUnits": 160930,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1609.3,
+            "amountMinorUnits": 160930,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610216
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/0-master-5cde4897e1e3.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1feea3de1e1c7fa1f67671a990de5cd6dd7aabf513ec9d7d58ec136969ba86d0"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/1-angle-ed20f1f21f0e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f9cc687295913f3b1dbfbca4148e382cd8b0593462ff50d5115886e47c593b34"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/2-angle-6354c7ab27ed.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "85b2d8d79e727ee5ba3e06f250ae223a683e9cbd619ad9b3d13d4de45c225fd7"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/3-angle-8161bba6a91b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "95958f0d2dd0565acd405e2b78bb5066e3d611b6ac659d95a44972f563a2a277"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/4-angle-bcfaa0f76ccf.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cec696061665041e57883065e625a790e83188c04e357d32a345ea0b7869bc82"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/5-angle-d1b694043454.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "03afbc946e9fc48e3d6d68be1072989928240fa9edc7ef9bcf5172854bf0f5ff"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/6-angle-1a67986d17b6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1cbd5086fa17f1404b4769d9354418fc857d8c58a95d6fba658548d510d2c68a"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/7-angle-11015360c782.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7b6ae6bca396349f35de6e8dfd118827cfa57bf81a33f26b62bd99dda803d0ba"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/8-angle-989e89cbd294.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "826fd782ebf5acfb483bf79c68c6f9e3ea1ef1f095a2f18b6278031d3903a0f1"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/royal-tusker-snack-plate-gift-set-set-of-4-8dia-palace-memoirs/9-angle-f760b936deca.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "af65c72f4533bc7ea5e31efaa14b089ee7a260f5ad1e8a9d98fa5591f91235e6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "saanjh-snack-plates-gift-set-of-4",
+      "title": "Saanjh Snack Plates Gift Set of 4",
+      "sku": "MGC-3175",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Chumbak's Saanjh Snack Plates Gift Set is crafted from 100% ceramic with intricate flora motifs. This is a great gift for someone who loves to host. Gift Set Includes : Ceramic Snack Plates - Set of 4 A Gift Card",
+      "shortDescription": "Chumbak's Saanjh Snack Plates Gift Set is crafted from 100% ceramic with intricate flora motifs. This is a great gift for someone who loves to host. Gift Set Includes : Ceramic Snack Plates - Set of 4 A Gift Card",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3175",
+        "Product Code": "MGC-3175"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1198.0,
+        "amountMinorUnits": 119800,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1198.0,
+            "amountMinorUnits": 119800,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610210
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/0-master-df5a42cc65a8.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "409e332c619707d36ffe4cf9b6a3b7a48130d3f300f59ed40081581b17b41dee"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/1-angle-3544796ccaa1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a6c23fbcfcfc95353ee0e85694633a9c4727fa3dbd4ea57f033cd960bb64a296"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/2-angle-36b19be8d155.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "369daee3d2233d6218514a7b806190c0cd978dba013b6a8caf84592e0e54b6c8"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/3-angle-901564fe875f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d3b7fa0e6a774cdc8900babd19051737dd1083e7b9394b599b87a3660093719f"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/4-angle-540bf136339d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "df000a2fb77c11cef70bdaea77abebd051df7d87816dd70341aac359417df702"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/5-angle-3e9ab59ac67d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "748adf988894329291fa7f08bea2c93912af15365a1efe454ac4904fcd086be3"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/6-angle-cc2a2b74bc1c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8437aeef7ba3cdef9d335648267d795e7412e8027734c56baa8982e93bd4d2ef"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/7-angle-289f1d7b6c17.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "de9f6ad03892dd969b4039e8f898fd34b57af996e6de36275446ee28eb326b87"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/8-angle-b0057c65939f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b29996ff3e21023abdf0d6bc658e22650ec2f7cbf95fedf00226ee020c0d0d18"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/saanjh-snack-plates-gift-set-of-4/9-angle-d7f3aa38842a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "05a87cec7d85e86c71c4042b54919a5e81a01485e5fc3886e05265447132929c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    },
+    {
+      "slug": "suzani-blossom-snack-plates-gift-set-of-4",
+      "title": "Suzani Blossom Snack Plates Gift Set of 4",
+      "sku": "MGC-3176",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C8",
+        "code": "C8",
+        "name": "Hampers & Gifting",
+        "slug": "hampers-gifting",
+        "path": "hampers-gifting",
+        "sortOrder": 8
+      },
+      "description": "Chumbak's Suzani Blossom Snack Plates Gift Set is crafted from 100% ceramic with intricate flora motifs. This is a great gift for someone who loves to host. Gift Set Includes : Ceramic Snack Plates - Set of 4 A Gift Card",
+      "shortDescription": "Chumbak's Suzani Blossom Snack Plates Gift Set is crafted from 100% ceramic with intricate flora motifs. This is a great gift for someone who loves to host. Gift Set Includes : Ceramic Snack Plates - Set of 4 A Gift Card",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3176",
+        "Product Code": "MGC-3176"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1219.0,
+        "amountMinorUnits": 121900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1219.0,
+            "amountMinorUnits": 121900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896610213
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/0-master-fa72f001546e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a46f9c5db4f1851db629496d0b09e1b80b653190e8c67d18c7ba1fd24e712693"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/1-angle-6371fd6fd8d8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2d9c90f5475103d5fe60522accec33bc4b2b5574b15ef114e182ebab9e5bf7c8"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/2-angle-e240b276cbb0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "93a7cb09325f5cf4c09d8364671ee8ae6f285fbd527186e0a4a13293e1d4f876"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/3-angle-a5c8abded683.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "95b7548104cac1fa70cdea1382ad4ea1ddbf9946bb334a5b18672b93c481b93d"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/4-angle-a95b354ecbbe.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d840bc550856de7e2aafafe9706f620a9acb075f06c35a8307e2100d199afe1f"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/5-angle-8101d85fa3e0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4d8d9499580754ea4443710659b82f211f29397a740be54f09e54b0237147ac9"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/6-angle-c6b8d5c7c2ea.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "619637399911d481114544ff20003dce1a1dbb8cd26383c659cae99ccf64588c"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/7-angle-b17a6bab2325.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "634b0fc30d423e815d50360a24966a756030c9fb45b2dad13d1e95ddeda67667"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/8-angle-9057cc0014bd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a56a956e600147105231cdbf275858cfdc0718fbdc042ac7179d4f0be8b7be09"
+        },
+        {
+          "path": "media/products/hampers-gifting/gourmet/suzani-blossom-snack-plates-gift-set-of-4/9-angle-d7f3aa38842a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "05a87cec7d85e86c71c4042b54919a5e81a01485e5fc3886e05265447132929c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C8:gourmet",
+        "categoryId": "C8",
+        "name": "Gourmet",
+        "slug": "gourmet",
+        "path": "hampers-gifting/gourmet",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "hampers-gifting/gourmet"
+    }
+  ]
+}

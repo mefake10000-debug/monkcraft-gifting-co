@@ -40,6 +40,7 @@ const EMPTY: GiftingBriefDraft = {
   branding: "",
   packagingPrefs: "",
   deliveryDate: "",
+  dispatchType: "unsure",
   deliveryLocation: "",
   notes: "",
   contact: { ...EMPTY_CONTACT },
@@ -236,6 +237,7 @@ function normalizeDraft(parsed: Partial<GiftingBriefDraft>): GiftingBriefDraft {
     branding: String(parsed.branding ?? ""),
     packagingPrefs: String(parsed.packagingPrefs ?? ""),
     deliveryDate: String(parsed.deliveryDate ?? ""),
+    dispatchType: ["single-city", "multi-point", "international"].includes(String(parsed.dispatchType)) ? parsed.dispatchType as GiftingBriefDraft["dispatchType"] : "unsure",
     deliveryLocation: String(
       parsed.deliveryLocation ?? legacy.delivery ?? "",
     ),
@@ -310,6 +312,7 @@ export type BriefPatch = {
   branding?: string;
   packagingPrefs?: string;
   deliveryDate?: string;
+  dispatchType?: GiftingBriefDraft["dispatchType"];
   deliveryLocation?: string;
   notes?: string;
   contact?: Partial<BriefContact>;
@@ -368,6 +371,7 @@ export function patchBrief(patch: BriefPatch): GiftingBriefDraft {
       mode,
     ),
     deliveryDate: applyString(current.deliveryDate, patch.deliveryDate, mode),
+    dispatchType: patch.dispatchType === undefined || mode !== "replace" && patch.dispatchType === "unsure" ? current.dispatchType : patch.dispatchType,
     deliveryLocation: applyString(
       current.deliveryLocation,
       patch.deliveryLocation,
@@ -434,6 +438,7 @@ export function writeBrief(
     budgetPerRecipient?: string;
     packagingPrefs?: string;
     deliveryDate?: string;
+    dispatchType?: GiftingBriefDraft["dispatchType"];
     deliveryLocation?: string;
     contact?: Partial<BriefContact>;
     sources?: Partial<BriefSources>;
@@ -450,6 +455,7 @@ export function writeBrief(
     branding: draft.branding,
     packagingPrefs: draft.packagingPrefs,
     deliveryDate: draft.deliveryDate,
+    dispatchType: draft.dispatchType,
     deliveryLocation: draft.deliveryLocation ?? draft.delivery,
     notes: draft.notes,
     productIds: draft.productIds,
@@ -535,7 +541,7 @@ export function getBriefMissingDetails(
     missing.push({
       id: "occasion",
       label: "Occasion",
-      severity: "required",
+      severity: "recommended",
     });
   }
   const hasBoxCount =
@@ -615,6 +621,7 @@ export function buildQuotationPrepText({
     `Custom branding: ${brief.branding || "—"}`,
     `Packaging preferences: ${brief.packagingPrefs || "—"}`,
     `Desired delivery date: ${brief.deliveryDate || "—"}`,
+    `Dispatch plan: ${brief.dispatchType === "single-city" ? "One delivery point in one city" : brief.dispatchType === "multi-point" ? "Multiple delivery points" : brief.dispatchType === "international" ? "International dispatch" : "To be confirmed"}`,
     `Delivery city/region / multi-address notes: ${brief.deliveryLocation || "—"}`,
     `Additional notes: ${brief.notes || "—"}`,
     "",
@@ -782,6 +789,7 @@ export function buildBriefWhatsAppMessage(
     id: item.id,
     quantity: item.quantity,
   }));
+  const omittedProductCount = Math.max(0, products.length - productLines.length);
   if (productLines.length === 0 && brief.sources.box?.productLines.length) {
     for (const line of brief.sources.box.productLines.slice(0, 8)) {
       productLines.push({
@@ -807,6 +815,9 @@ export function buildBriefWhatsAppMessage(
           )
           .join("; ")}`
       : "",
+    omittedProductCount
+      ? `This WhatsApp preview lists 8 products; ${omittedProductCount} more are in the complete quote summary.`
+      : "",
     brief.recipientCount.trim()
       ? `Quantity: ${brief.recipientCount.trim()}`
       : brief.sources.box
@@ -821,7 +832,8 @@ export function buildBriefWhatsAppMessage(
 
   let message = parts.join("\n");
   if (message.length > 1200) {
-    message = `${message.slice(0, 1199)}…`;
+    const note = "\n[Shortened for WhatsApp. Copy the complete quote summary for all details.]";
+    message = `${message.slice(0, 1200 - note.length)}${note}`;
   }
   return message;
 }

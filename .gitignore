@@ -48,6 +48,6 @@ next-env.d.ts
 /tmp-audit/
 # Stray nested build output
 /monkcraft-gifting-co/
-# Never commit catalogue media (~804MB). Keep as local symlink; CLI Preview uses a staging copy.
+# Catalogue media is a local deployment asset (~804MB), excluded from Git.
 /public/catalogue-media
 /public/catalogue-media/

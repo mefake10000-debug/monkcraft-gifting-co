@@ -4,8 +4,7 @@ import { Reveal } from "@/components/Reveal";
 import { giftCategories } from "@/data/giftCategories";
 
 /**
- * Gift Ideas — PDF deck slides 6–11 as full poster frames.
- * Slide art already includes title + blurb; UI keeps CTAs only.
+ * Help teams start from a real gifting occasion, then browse relevant products.
  */
 export function GiftIdeas() {
   return (
@@ -25,16 +24,15 @@ export function GiftIdeas() {
               </span>
             </h2>
             <p className="gift-ideas__lede">
-              Explore gifting directions for Indian teams. Browse the live
-              catalogue by occasion, then gather picks in My Brief when you are
-              ready to quote.
+              Choose onboarding, Diwali, recognition, events, client appreciation
+              or custom merchandise to see relevant products for your team in
+              India. Add your favourites to your cart when you are ready.
             </p>
           </div>
         </Reveal>
 
         <ul className="gift-ideas__grid">
           {giftCategories.map((category, index) => {
-            const enquireHref = `/?gift=${category.id}#enquire`;
             const catalogueHref =
               category.cataloguePath ?? `/gifts?occasion=${category.id}`;
 
@@ -75,19 +73,14 @@ export function GiftIdeas() {
                       )}
                     </div>
                   </Link>
-                  <div className="gift-ideas__body gift-ideas__body--cta-only">
-                    <h3 className="visually-hidden">{category.title}</h3>
+                  <div className="gift-ideas__body">
+                    <h3 className="gift-ideas__title">{category.title}</h3>
+                    <p className="gift-ideas__blurb">{category.blurb}</p>
                     <div className="gift-ideas__cta-row">
                       <Link className="gift-ideas__cta" href={catalogueHref}>
-                        Browse catalogue
+                        Explore gifts
                       </Link>
                     </div>
-                    <p className="gift-ideas__curate-hint">
-                      Prefer a curated shortlist?{" "}
-                      <Link href={enquireHref}>Talk to Monkcraft</Link>
-                      {" · "}
-                      <Link href="/gifts/brief">Open My Brief</Link>
-                    </p>
                   </div>
                 </div>
               </Reveal>

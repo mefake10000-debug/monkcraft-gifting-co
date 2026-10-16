@@ -21,10 +21,11 @@ import {
   categoryDisplayRank,
   categoryHeroRank,
 } from "./categoryOrder";
-import { getOccasionFacets } from "./facets";
+import { getOccasionFacets, getCategoryFacets, getBrandFacets, getBrandingFacets, getColourFacets, getMaterialFacets } from "./facets";
 import {
   getAllProducts,
   getCataloguePageSize,
+  slugifyFacet,
   verifiedUnitPriceInr,
 } from "./products";
 import {
@@ -48,6 +49,43 @@ export {
 function priceAmountForSort(product: Product): number {
   const verified = verifiedUnitPriceInr(product);
   return verified ?? Number.POSITIVE_INFINITY;
+}
+
+/** Only combine records that share the product story and price, and differ by colour. */
+function colourFamilyKey(product: Product): string | null {
+  if (product.colours.length !== 1) return null;
+  return [product.name, product.summary, product.brandName, product.subcategorySlug,
+    product.pricing.kind === 'fixed' ? product.pricing.amountInr : 'quote']
+    .map(value => String(value ?? '').trim().toLowerCase()).join('|');
+}
+
+export function getColourVariants(product: Product): Product[] {
+  const key = colourFamilyKey(product);
+  if (!key) return [];
+  const family = getAllProducts().filter(candidate => colourFamilyKey(candidate) === key);
+  if (new Set(family.map(item => item.colours[0].toLowerCase())).size < 2) return [];
+  return family.sort((a,b) => a.colours[0].localeCompare(b.colours[0]));
+}
+
+function collapseColourVariants(products: Product[]): Product[] {
+  const groups = new Map<string, Product[]>();
+  for (const product of products) {
+    const key = colourFamilyKey(product);
+    if (!key) continue;
+    const list = groups.get(key) ?? [];
+    list.push(product);
+    groups.set(key, list);
+  }
+  const seen = new Set<string>();
+  return products.flatMap(product => {
+    const key = colourFamilyKey(product);
+    if (!key || seen.has(key)) return key ? [] : [product];
+    seen.add(key);
+    const family = groups.get(key) ?? [product];
+    const colours = new Set(family.map(item => item.colours[0].toLowerCase()));
+    if (colours.size < 2) return family;
+    return [{...product, colourVariantCount: colours.size}];
+  });
 }
 
 function productSearchHaystack(product: Product): string {
@@ -247,6 +285,12 @@ export function filterProducts(
     );
   }
 
+  if (query.brands.length > 0) {
+    result = result.filter((p) =>
+      p.brandName ? query.brands.includes(slugifyFacet(p.brandName)) : false,
+    );
+  }
+
   if (query.brandings.length > 0) {
     result = result.filter((p) =>
       query.brandings.some((id) => p.brandingOptions.includes(id)),
@@ -337,6 +381,9 @@ export function sortProducts(
             categoryDisplayRank(b.filterCategorySlug);
           if (typeDelta !== 0) return typeDelta;
         }
+        // Keep records awaiting photography at the end of their category.
+        const imageDelta = Number(b.images.length > 0) - Number(a.images.length > 0);
+        if (imageDelta !== 0) return imageDelta;
         const heroDelta = categoryHeroRank(a) - categoryHeroRank(b);
         if (heroDelta !== 0) return heroDelta;
         if (!preferRelevance && labels) {
@@ -361,7 +408,7 @@ export type CatalogueResultPage = {
 export function queryCatalogue(query: CatalogueQuery): CatalogueResultPage {
   const pageSize = getCataloguePageSize();
   const filtered = filterProducts(getAllProducts(), query);
-  const sorted = sortProducts(filtered, query.sort, query);
+  const sorted = collapseColourVariants(sortProducts(filtered, query.sort, query));
   const total = sorted.length;
   const totalPages = Math.max(1, Math.ceil(total / pageSize) || 1);
   const page = Math.min(query.page, totalPages);
@@ -375,5 +422,26 @@ export function queryCatalogue(query: CatalogueQuery): CatalogueResultPage {
     pageSize,
     totalPages,
     query: { ...query, page },
+  };
+}
+
+/** Disjunctive counts: each group respects all constraints except itself. */
+export function getContextualFacets(query: CatalogueQuery) {
+  const products = getAllProducts();
+  function group(key: 'categories' | 'occasions' | 'brands' | 'brandings' | 'colours' | 'materials', definitions: import('./types').CatalogueFacet[], values: (p: Product) => string[]) {
+    const candidates = filterProducts(products, {...query, [key]: [], ...(key === 'categories' ? {subcategories: []} : {})});
+    const counts = new Map<string, number>();
+    for (const p of candidates) for (const id of new Set(values(p))) counts.set(id, (counts.get(id) || 0) + 1);
+    const ids = new Set(definitions.map(f => f.id));
+    return [...definitions.map(f => ({...f, count: counts.get(f.id) || 0})), ...query[key].filter(id => !ids.has(id)).map(id => ({id, label: id, count: counts.get(id) || 0}))];
+  }
+  return {
+    total: filterProducts(products, query).length,
+    categories: group('categories', getCategoryFacets(), p => [p.filterCategorySlug]),
+    brands: group('brands', getBrandFacets(), p => p.brandName ? [slugifyFacet(p.brandName)] : []),
+    occasions: group('occasions', getOccasionFacets(), p => p.occasions),
+    brandings: group('brandings', getBrandingFacets(), p => p.brandingOptions),
+    colours: group('colours', getColourFacets(), p => p.colourIds),
+    materials: group('materials', getMaterialFacets(), p => p.materialIds),
   };
 }

@@ -11,12 +11,7 @@ import {
 const STORAGE_KEY = "monkcraft-studio-catalogue-v1";
 export const CATALOGUE_DRAFT_EVENT = "monkcraft:studio-catalogue";
 
-const PRICING_MODES: CataloguePricingMode[] = [
-  "hide",
-  "base",
-  "markup-fixed",
-  "markup-percent",
-];
+const PRICING_MODES: CataloguePricingMode[] = ["hide", "base"];
 
 function emit() {
   window.dispatchEvent(new CustomEvent(CATALOGUE_DRAFT_EVENT));

@@ -1,0 +1,1565 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C5",
+    "code": "C5",
+    "name": "Apparel & Lifestyle",
+    "slug": "apparel-lifestyle",
+    "path": "apparel-lifestyle",
+    "sortOrder": 5
+  },
+  "subcategory": {
+    "id": "C5:formal",
+    "categoryId": "C5",
+    "name": "Formal",
+    "slug": "formal",
+    "path": "apparel-lifestyle/formal",
+    "sortOrder": 2
+  },
+  "categoryProductCount": 938,
+  "productCount": 12,
+  "products": [
+    {
+      "slug": "jack-jones-daniel-knit-blazer-black",
+      "title": "Jack&Jones Daniel Knit Blazer- Black",
+      "sku": "MGC-2814",
+      "brand": {
+        "name": "Jack&Jones",
+        "slug": "jack-jones"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Knit blazer for corporate gifting, employee welcome kits, and bulk fashion gifting — premium Jack&Jones Daniel knit blazer in Black.",
+      "shortDescription": "Knit blazer for corporate gifting, employee welcome kits, and bulk fashion gifting — premium Jack&Jones Daniel knit blazer in Black.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2814",
+        "Stock Update Date": "11 Sept 2026",
+        "Gender": "Male",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Jack&Jones",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "Out of Stock",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "98% Polyester, 2% Spandex",
+        "Closure Type": "Button",
+        "Product Code": "MGC-2814"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 5835.0,
+        "amountMinorUnits": 583500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 5835.0,
+            "amountMinorUnits": 583500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609159
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-black/0-master-25b0b89891f7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a4eaae021677503e068a6bfd81e231460f73a862e6e189c12243338eaa7a0ad6"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-black/1-angle-8835aaaec2ad.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Black – Back View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4a8cbd4c5c5b739a4373b8e780e1097485b79625eba6738cdd1831df6c4f80c2"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-black/2-angle-7d86a18ef1c5.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Black – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d375a8358af521c58e5891be92e91c55ff8378c9936909400cc8cfb969446610"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-black/3-angle-160eeab6fc46.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Black – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "080ecb529dfbe6dbcee054c8e609a1ec90f1e845fa953f558d2ca08370e8053a"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-black/4-angle-1cf238073edb.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Black – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0061fce81914fe70275119d04644a0ecbbc827727614e4859555f586f683a254"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-black/5-angle-d24049ef273f.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Black – Size Chart",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "44672259b4d0218fb7c4e36ce22b7b5da17a3918391505740d76b2f1970be508"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "jack-jones-daniel-knit-blazer-navy-blue",
+      "title": "Jack&Jones Daniel Knit Blazer- Navy Blue",
+      "sku": "MGC-2815",
+      "brand": {
+        "name": "Jack&Jones",
+        "slug": "jack-jones"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Knit blazer for corporate gifting, employee welcome kits, and bulk fashion gifting — premium Jack&Jones Daniel knit blazer in Navy Blue.",
+      "shortDescription": "Knit blazer for corporate gifting, employee welcome kits, and bulk fashion gifting — premium Jack&Jones Daniel knit blazer in Navy Blue.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2815",
+        "Stock Update Date": "11 Sept 2026",
+        "Gender": "Male",
+        "Country of Origin": "India",
+        "Color": "Navy Blue",
+        "Brand": "Jack&Jones",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "Out of Stock",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "98% Polyester, 2% Spandex",
+        "Closure Type": "Button",
+        "Product Code": "MGC-2815"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 5835.0,
+        "amountMinorUnits": 583500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 5835.0,
+            "amountMinorUnits": 583500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609162
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-navy-blue/0-master-5f3884875cc7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a3946da56ba7e6352d931ddf0c42a2f40e8b1b9cc0dcc75cf6305b5c4226bdd4"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-navy-blue/1-angle-f5046772a039.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Navy Blue – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "07e8624317221503bcc57bfb7093fb9a3274a65e2c6e8f0ddd6596b6694daa3a"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-navy-blue/2-angle-190d30863030.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Navy Blue – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2055ed423288700930af276f73a51c68bbe68b66c2b5bbb8ad51a8544294a2e1"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-navy-blue/3-angle-af8eff5d18c9.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Navy Blue – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "796f8f8f517b6ce4060d7f0c08e15c64a48a87810378d5d2a23a2875140afcae"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-navy-blue/4-angle-674484c448cc.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Navy Blue – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "da8b0961402537c70f18631f9aaf2ba6ac9ed054ab0274b245a2182ee2e0ebea"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/jack-jones-daniel-knit-blazer-navy-blue/5-angle-d24049ef273f.webp",
+          "role": "ANGLE",
+          "variantKey": "Jack&Jones Daniel Knit Blazer Navy Blue – Size Chart",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "44672259b4d0218fb7c4e36ce22b7b5da17a3918391505740d76b2f1970be508"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "levis-100-cotton-oxford-shirt-black",
+      "title": "Levi's 100% Cotton Oxford Shirt- Black",
+      "sku": "MGC-2816",
+      "brand": {
+        "name": "Levis",
+        "slug": "levis"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Levis 100% Cotton Oxford Shirt in black — a premium formal shirt for corporate uniform gifting, employee welcome kits and branded bulk apparel.",
+      "shortDescription": "Levis 100% Cotton Oxford Shirt in black — a premium formal shirt for corporate uniform gifting, employee welcome kits and branded bulk apparel.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2816",
+        "Gender": "Male",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Levis",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "100% Cotton",
+        "Closure Type": "Button",
+        "Neck Type": "Spread Collar",
+        "Product Code": "MGC-2816"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1885.0,
+        "amountMinorUnits": 188500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1885.0,
+            "amountMinorUnits": 188500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609164
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-black/0-master-fb73de622be5.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2b011d919fe648d69aad5a172c20046b31ca0c4ad046498ea234a3a943890d40"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-black/1-angle-1dcdb6559ec8.webp",
+          "role": "ANGLE",
+          "variantKey": "Levis Cotton Oxford Shirt Black – Back View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a3fce58af6d6931b1baf825423d307f6e076461a88bfadcb701989522054b2f1"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-black/2-angle-d13cd0ba9967.webp",
+          "role": "ANGLE",
+          "variantKey": "Levis Cotton Oxford Shirt Black – Size Guide View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "509a9612d6ee68bc1438b45c68a257a9614a36fbb8da4bf97becc4de73986c7f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "levis-100-cotton-oxford-shirt-navy-blue",
+      "title": "Levi's 100% Cotton Oxford Shirt- Navy Blue",
+      "sku": "MGC-2817",
+      "brand": {
+        "name": "Levis",
+        "slug": "levis"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Levis 100% Cotton Oxford Shirt in navy blue — a premium formal shirt for corporate uniform gifting, employee welcome kits and branded bulk apparel.",
+      "shortDescription": "Levis 100% Cotton Oxford Shirt in navy blue — a premium formal shirt for corporate uniform gifting, employee welcome kits and branded bulk apparel.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2817",
+        "Gender": "Male",
+        "Country of Origin": "India",
+        "Color": "Navy Blue",
+        "Brand": "Levis",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "100% Cotton",
+        "Closure Type": "Button",
+        "Neck Type": "Spread Collar",
+        "Product Code": "MGC-2817"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1885.0,
+        "amountMinorUnits": 188500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1885.0,
+            "amountMinorUnits": 188500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609168
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-navy-blue/0-master-65f7de3f814a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6cf13f0fc23837bcbb1d2397da0db47c0fedd74242c51a0ae215b2363656c978"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-navy-blue/1-angle-39191dafe7e9.webp",
+          "role": "ANGLE",
+          "variantKey": "Levis Cotton Oxford Shirt Navy Blue – Back View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1e6c6491938e4d413ce3cecf16e183b03adc7166c06deff5e64467d00b2266f0"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-navy-blue/2-angle-d13cd0ba9967.webp",
+          "role": "ANGLE",
+          "variantKey": "Levis Cotton Oxford Shirt Navy Blue – Size Guide View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "509a9612d6ee68bc1438b45c68a257a9614a36fbb8da4bf97becc4de73986c7f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "levis-100-cotton-oxford-shirt-white",
+      "title": "Levi's 100% Cotton Oxford Shirt- White",
+      "sku": "MGC-2818",
+      "brand": {
+        "name": "Levis",
+        "slug": "levis"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Levis 100% Cotton Oxford Shirt in white — a premium formal shirt for corporate uniform gifting, employee welcome kits and branded bulk apparel.",
+      "shortDescription": "Levis 100% Cotton Oxford Shirt in white — a premium formal shirt for corporate uniform gifting, employee welcome kits and branded bulk apparel.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2818",
+        "Gender": "Male",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Levis",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "100% Cotton",
+        "Closure Type": "Button",
+        "Neck Type": "Spread Collar",
+        "Product Code": "MGC-2818"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1885.0,
+        "amountMinorUnits": 188500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1885.0,
+            "amountMinorUnits": 188500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609172
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-white/0-master-dd2c9ce2dc98.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b4f2bec2f7d2ec7b580957a808ca238c0e463a48392bee3b6eecbd67e042c8ff"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-white/1-angle-819a6970db59.webp",
+          "role": "ANGLE",
+          "variantKey": "Levis Cotton Oxford Shirt White – Back View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "efc4dd15298110fcab2b0704b71110efd0d710f272325891bfdbf5d7aa4d6c91"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/levis-100-cotton-oxford-shirt-white/2-angle-d13cd0ba9967.webp",
+          "role": "ANGLE",
+          "variantKey": "Levis Cotton Oxford Shirt White – Size Guide View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "509a9612d6ee68bc1438b45c68a257a9614a36fbb8da4bf97becc4de73986c7f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "regular-fit-solid-poplin-shirt-mw0mw37550",
+      "title": "Regular Fit Solid Poplin Shirt",
+      "sku": "MGC-2821",
+      "brand": {
+        "name": "Tommy Hilfiger",
+        "slug": "tommy-hilfiger"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Tommy hilfiger men's shirt. A modern regular fit shirt crafted from cotton, featuring a classic plain clean look, and signature tommy hilfiger branding. This shirt delivers effortless style for both work and weekend dressing.",
+      "shortDescription": "Tommy hilfiger men's shirt. A modern regular fit shirt crafted from cotton, featuring a classic plain clean look, and signature tommy hilfiger branding. This shirt delivers effortless style for both work and weekend dressing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2821",
+        "Product Code": "MGC-2821"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 4999.0,
+        "amountMinorUnits": 499900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 4999.0,
+            "amountMinorUnits": 499900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609180
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/0-master-8a1c3d583137.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3dc349be7a46a5739fed91d086380aba517abc93b64307c54081c4a2c6a78761"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/1-angle-70eb31c0fd05.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2f1deba38ab0a8e7255f48418605407b1b7eb746dd9ea4cc0cd297af84ee1105"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/2-angle-e2c6e539d515.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8665f07e29e0b566f23453bb4079a87a8c032cb5480c29ded3686da260dddb19"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/3-angle-bcafa763ce62.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8049f532eeee86ad3c57380c21b053b3e506dc0b61d66da79e77c747883e9f57"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/4-angle-95811b8c2fb9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7a89cde7871a6be2040ddfae63e108b4e66d439fe45ddb3af2f494a5befb6d5b"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/5-angle-fe8b120b9740.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "33c4ba3a3e1ee1d366c6c79203f1e33f6fe6ff6e995278355f8533a3d75368fd"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/6-angle-b73d8e2feeed.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1dd01b2d25c8c385574061bf66bb9b172c9b05214f2fbe368657035623381dd7"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/7-angle-e7c8123c6b28.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5cbad56a2edcdd7e58d61071f6d6f637b1d590395b3868a4ef8ca82d69ebd6e6"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/8-angle-2cd677b385c2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "622da41111a6b0b1711fe3aa2ca434c88178deaa9f71081330cfbc705767c8c0"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/regular-fit-solid-poplin-shirt-mw0mw37550/9-angle-2f5e975774af.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 900,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e337356713bd8721f485def8bab852dea1a9de5bcc70baf4986fe23d00abf39c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "scott-men-over-size-t-shirt-black",
+      "title": "Scott Men Over Size T Shirt- Black",
+      "sku": "MGC-2819",
+      "brand": {
+        "name": "Scott",
+        "slug": "scott"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Scott Men Over Size T Shirt- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Scott Men Over Size T Shirt- Black — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2819",
+        "Stock Update Date": "23 Jul 2026",
+        "Gender": "Male",
+        "Color": "Black",
+        "Brand": "Scott",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "757",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Cotton Blend",
+        "GSM": "240 GSM",
+        "Neck Type": "Round Neck",
+        "Product Code": "MGC-2819"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 570.0,
+        "amountMinorUnits": 57000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 570.0,
+            "amountMinorUnits": 57000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609175
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/scott-men-over-size-t-shirt-black/1-angle-1bfb71fbbf4f.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "362ebbef3a958545e7796cb6393d0daac5ca0d6006ec9b199ce8799beb28cdda"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/scott-men-over-size-t-shirt-black/2-angle-574bcb2c745e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "655a06cac8e2ad10af6f5afed2309d183857e1c9d7811847043460474d61a06b"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/scott-men-over-size-t-shirt-black/3-angle-b2a1ed25a2a2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5af82d7885757f30c9cd3adcc1fe0e5401a7f33534081c4b2184e1a1f2da128a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "scott-men-over-size-t-shirt-white",
+      "title": "Scott Men Over Size T Shirt- White",
+      "sku": "MGC-2820",
+      "brand": {
+        "name": "Scott",
+        "slug": "scott"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Scott Men Over Size T Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Scott Men Over Size T Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2820",
+        "Stock Update Date": "23 Jul 2026",
+        "Gender": "Male",
+        "Color": "White",
+        "Brand": "Scott",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "247",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Cotton Blend",
+        "GSM": "240 GSM",
+        "Neck Type": "Round Neck",
+        "Product Code": "MGC-2820"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 570.0,
+        "amountMinorUnits": 57000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 570.0,
+            "amountMinorUnits": 57000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609178
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/scott-men-over-size-t-shirt-white/1-angle-a6be5598f138.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9fdec6dfc4727370af1f854103b7c6c97d6edd6afded87511d55469d20bfbd3f"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/scott-men-over-size-t-shirt-white/2-angle-8b765aace6ac.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fa1010914b2d0ed04e3931b5f58f6487e3357d3975f68b996698b4a29471cd22"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/scott-men-over-size-t-shirt-white/3-angle-b2a1ed25a2a2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5af82d7885757f30c9cd3adcc1fe0e5401a7f33534081c4b2184e1a1f2da128a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "van-heusen-100-cotton-mens-formal-shirt-white",
+      "title": "Van Heusen 100% Cotton Men's Formal Shirt- White",
+      "sku": "MGC-2825",
+      "brand": {
+        "name": "Van Heusen",
+        "slug": "van-heusen"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Van Heusen 100% Cotton Men's Formal Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Van Heusen 100% Cotton Men's Formal Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2825",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Male",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Van Heusen",
+        "Customization Type": "Embroidery",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "100% Cotton",
+        "Closure Type": "Button",
+        "Neck Type": "Spread Collar",
+        "Pockets": "Yes",
+        "Product Code": "MGC-2825"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2565.0,
+        "amountMinorUnits": 256500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2565.0,
+            "amountMinorUnits": 256500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609192
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/0-master-368033109143.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d630e37a5c9b65d81a4baed601032b3f8270fcc007cdaf9a56e121090a4a78e1"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/1-angle-6c7094000bd5.webp",
+          "role": "ANGLE",
+          "variantKey": "Van Heusen Cotton Wrinkle Free Shirt White – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f016ac070a88116a732ee6d50995e2ca3b2e89fe4853ba730fe83f3eba4f7cff"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/2-angle-f94992a0e76c.webp",
+          "role": "ANGLE",
+          "variantKey": "Van Heusen Cotton Wrinkle Free Shirt White – Side View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a6910daf5cf8915a73278677841d573ffd1cf16cc2ff126cb389a53581339782"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/3-angle-8aa8a9bf6bfb.webp",
+          "role": "ANGLE",
+          "variantKey": "Van Heusen Cotton Wrinkle Free Shirt White – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7ca9cd2f31b6718cb929d3091880bf9fcd9c74010d9c2de056fb4bae6c1fa6b6"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/4-angle-e7128b8133aa.webp",
+          "role": "ANGLE",
+          "variantKey": "Van Heusen Cotton Wrinkle Free Shirt White – Back View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "41828102215c167b1036a71389478239df75a4e29a9e90466a60022e830ebc40"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/5-angle-24ac6f9dbf92.webp",
+          "role": "ANGLE",
+          "variantKey": "Van Heusen Cotton Wrinkle Free Shirt White – Close-up View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9a98d282467fcf9fe077b2807d98acb765d6b9621744de7381fd4905a5b2f17c"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/6-lifestyle-ed52eaf7e870.webp",
+          "role": "LIFESTYLE",
+          "variantKey": "Van Heusen Cotton Wrinkle Free Shirt White – Lifestyle View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ede216c653768be39e91fa605be57fc0fc03d23e90e08eb0ea944d0b449d313f"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-100-cotton-mens-formal-shirt-white/7-angle-f4c6a9a13069.webp",
+          "role": "ANGLE",
+          "variantKey": "Van Heusen Cotton Wrinkle Free Shirt White – Size Chart",
+          "sortOrder": 7,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "0e13008418ac254d657509165dddba8c1940afc926f3503eb55b366aa9b400f2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "van-heusen-poly-cotton-mens-wrinkle-free-shirt-white",
+      "title": "Van Heusen Poly Cotton Men's Wrinkle Free Shirt- White",
+      "sku": "MGC-2822",
+      "brand": {
+        "name": "Van Heusen",
+        "slug": "van-heusen"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Van Heusen Poly Cotton Men's Wrinkle Free Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Van Heusen Poly Cotton Men's Wrinkle Free Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2822",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Male",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Van Heusen",
+        "Customization Type": "Embroidery",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "Polycotton",
+        "Closure Type": "Button",
+        "Neck Type": "Spread Collar",
+        "Pockets": "Yes",
+        "Product Code": "MGC-2822"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1600.0,
+        "amountMinorUnits": 160000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1600.0,
+            "amountMinorUnits": 160000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609182
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-mens-wrinkle-free-shirt-white/0-master-d89d08462211.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "84de0b945e0e0097e7a783d9878ca11ec1c03cc73ef9a46854ec789c0ee5701f"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-mens-wrinkle-free-shirt-white/1-angle-0ac15b4c67d6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a6e8f50f7c353faa440524782f5a448d006c9310afb602a574bf90945141cbfd"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-mens-wrinkle-free-shirt-white/2-angle-05687f55f0dd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ec5fbdec85d77573f31040ba709e1ff784fdce137dfa600b7d8eb600bd5705de"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-mens-wrinkle-free-shirt-white/3-angle-2d71411f1ad2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8fbf6d5fb287864d0091cf37ebe558bde5d25408b0500313f3989ac2c64a9bb3"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-mens-wrinkle-free-shirt-white/4-angle-4ec516d458b1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "ca169603e1c9398e72022bf0da9e6f5a0fc09df4dec8912574319dfd51c85c0d"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-mens-wrinkle-free-shirt-white/5-angle-f4c6a9a13069.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "0e13008418ac254d657509165dddba8c1940afc926f3503eb55b366aa9b400f2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "van-heusen-poly-cotton-womens-wrinkle-free-shirt-sky-blue",
+      "title": "Van Heusen Poly Cotton Women's Wrinkle Free Shirt- Sky Blue",
+      "sku": "MGC-2823",
+      "brand": {
+        "name": "Van Heusen",
+        "slug": "van-heusen"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Van Heusen Poly Cotton Women's Wrinkle Free Shirt- Sky Blue — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Van Heusen Poly Cotton Women's Wrinkle Free Shirt- Sky Blue — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2823",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Female",
+        "Country of Origin": "India",
+        "Color": "Sky Blue",
+        "Brand": "Van Heusen",
+        "Customization Type": "Embroidery",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "Polycotton",
+        "Closure Type": "Button",
+        "Neck Type": "Spread Collar",
+        "Product Code": "MGC-2823"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1600.0,
+        "amountMinorUnits": 160000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1600.0,
+            "amountMinorUnits": 160000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609184
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-sky-blue/0-master-746374efd734.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4e7fd675ae18105ac20155ba931633baa2497d90f1f94d8e117d613febfd9ad2"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-sky-blue/1-angle-045c693afbc2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f872270a0876dd0ae3febc6a3231321f41cfcd0850bb6d25549c5f2b31f51f72"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-sky-blue/2-angle-efab78271a6d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "57e6435d494e161a7918fc4eb492ae99336fdde5558edc8a52529dec036f87fa"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-sky-blue/3-angle-f1ac0e399c22.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b123c143da9a5e0ab69d3aa05d404e3ac71ef488a1b5899efdc45564a5522f00"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-sky-blue/4-angle-d538f8550565.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "2c8760866f2e0e4446584d42ecb3ad98cb0469866ebfc6335c23055d84c68afa"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    },
+    {
+      "slug": "van-heusen-poly-cotton-womens-wrinkle-free-shirt-white",
+      "title": "Van Heusen Poly Cotton Women's Wrinkle Free Shirt- White",
+      "sku": "MGC-2824",
+      "brand": {
+        "name": "Van Heusen",
+        "slug": "van-heusen"
+      },
+      "category": {
+        "id": "C5",
+        "code": "C5",
+        "name": "Apparel & Lifestyle",
+        "slug": "apparel-lifestyle",
+        "path": "apparel-lifestyle",
+        "sortOrder": 5
+      },
+      "description": "Van Heusen Poly Cotton Women's Wrinkle Free Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Van Heusen Poly Cotton Women's Wrinkle Free Shirt- White — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-2824",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Female",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Van Heusen",
+        "Customization Type": "Embroidery",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Sleeve Type": "Full- Sleeve",
+        "Material": "Polycotton",
+        "Closure Type": "Button",
+        "Neck Type": "Spread Collar",
+        "Product Code": "MGC-2824"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1600.0,
+        "amountMinorUnits": 160000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1600.0,
+            "amountMinorUnits": 160000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609188
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-white/0-master-c72181444997.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fc66c4e59298dac671eaf9067a3471ead81e8b94e67d5e320d4e24f92d06d36d"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-white/1-angle-744482840b96.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c0fd947ca5ecc5af9ecd372b071349116d80e872e4b04b3aae9b405110337ddb"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-white/2-angle-6cc19874bb5c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a3cfcc8d1f5f8b06bea1335a3ec512e2a3d03f6044d6b5ced408be9873645d40"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-white/3-angle-cea60620c008.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "aed329ef7e1c36b76f9be1f9c0e981321c7eda9e53958040cd050fb264178c3f"
+        },
+        {
+          "path": "media/products/apparel-lifestyle/formal/van-heusen-poly-cotton-womens-wrinkle-free-shirt-white/4-angle-d538f8550565.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "2c8760866f2e0e4446584d42ecb3ad98cb0469866ebfc6335c23055d84c68afa"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C5:formal",
+        "categoryId": "C5",
+        "name": "Formal",
+        "slug": "formal",
+        "path": "apparel-lifestyle/formal",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "apparel-lifestyle/formal"
+    }
+  ]
+}

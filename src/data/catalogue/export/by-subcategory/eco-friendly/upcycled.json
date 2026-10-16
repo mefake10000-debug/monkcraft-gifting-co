@@ -1,0 +1,3845 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C7",
+    "code": "C7",
+    "name": "Eco-Friendly",
+    "slug": "eco-friendly",
+    "path": "eco-friendly",
+    "sortOrder": 7
+  },
+  "subcategory": {
+    "id": "C7:upcycled",
+    "categoryId": "C7",
+    "name": "Upcycled",
+    "slug": "upcycled",
+    "path": "eco-friendly/upcycled",
+    "sortOrder": 2
+  },
+  "categoryProductCount": 33,
+  "productCount": 32,
+  "products": [
+    {
+      "slug": "bamboo-palm-plant",
+      "title": "Bamboo Palm Plant",
+      "sku": "MGC-3090",
+      "brand": {
+        "name": "Ugaoo",
+        "slug": "ugaoo"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Its lush green foliage swaying daintily in the breeze is sure to remind you of tropical resorts. The stunning green leaves grow directly from the stem and over time the spread of the plant increases to fill up the pot. An excellent air purifier the bamboo palm is easy to grow and maintain, it makes a great centerpiece in a quirky pot.",
+      "shortDescription": "Its lush green foliage swaying daintily in the breeze is sure to remind you of tropical resorts. The stunning green leaves grow directly from the stem and over time the spread of the plant increases to fill up the pot. An excellent air purifier the bamboo palm is easy to grow and maintain, it makes a great centerpiece in a quirky pot.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3090",
+        "Product Code": "MGC-3090"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 349.0,
+        "amountMinorUnits": 34900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 349.0,
+            "amountMinorUnits": 34900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609959
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/0-master-5eba53c301a9.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c426deddd8286b7876c1154dfa5e20fc7a61b37159d81f9b14052bf15ec2869e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/1-angle-24e349559624.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "554a33cd03cf4355ec496a6fa1c8771235dea9cd31524ecb26c1966debe12e55"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/2-angle-a67611e69352.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b712ab5950fc87f293d9447b881ffcedbfb6bb38f417df6f168738427a64210d"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/3-angle-134dfccd6d7a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "89d7d4efafa9d0027e7cdc79f3f30d464da62b2b5c4524f508529c4cdc498ffc"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/4-angle-e0b912cda0d3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "499880690ddfb9c5dfb0e7b502c4e7556ec9adf6b8e1d2f1d89088b999704c0d"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/5-angle-e2f1deebd534.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cedaf1afc7566e8bfc47391b10fc6cbd48cd7a90f306363eb29acb60c743424c"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/6-angle-a5a9a55d978c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "51b2cde3a4eb1d3d3eecadd48bcf49d7daf001a94d8812e84d8d8132bb2b40ff"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/7-angle-5b5d88782a8a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "067691707c246adaaad09f036ca861981c8a6eb46ad911a75a615b81db0355bc"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/8-angle-1a5f26e1431e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e3f8e321327c8aa5db0da1fad972b78d7ed88d0eb7499af156a5eaa537674153"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/bamboo-palm-plant/9-angle-0b9f85512a7a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7a70067893c3fba98691b5393ed6a0c6f0a3fe411175c23784eede1ff9e3c0ed"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "brown-micro-armed-no-show-edition-organic-cotton",
+      "title": "BROWN- MICRO-ARMED NO-SHOW EDITION- ORGANIC COTTON",
+      "sku": "MGC-3075",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3075",
+        "Product Code": "MGC-3075"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609917
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/brown-micro-armed-no-show-edition-organic-cotton/0-master-9324c63d6fb3.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d6187107d78bc8ba2c7163cc502fffe8c34d3d34e5f53ff9560569d4aa86e375"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/brown-micro-armed-no-show-edition-organic-cotton/1-angle-2093005f6b0e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a67bb4db8b739798b507102995de50ff8686c25a25065b1ac4c367d890a9122e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/brown-micro-armed-no-show-edition-organic-cotton/2-angle-82a5ac9794fd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8beba07dc4276a849513602048ad36e637afe58d5589e687523fbd6dcf043f1e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "brown-green-drizy-edition-organic-terry-cotton",
+      "title": "BROWN/GREEN- DRIZY EDITION- ORGANIC TERRY COTTON",
+      "sku": "MGC-3084",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3084",
+        "Product Code": "MGC-3084"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 499.0,
+        "amountMinorUnits": 49900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 499.0,
+            "amountMinorUnits": 49900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609940
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/brown-green-drizy-edition-organic-terry-cotton/0-master-ec8525e74923.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "afd81ee5035e7410ebecc923316f538de124526d24bba88328cabe14587e1e95"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/brown-green-drizy-edition-organic-terry-cotton/1-angle-134245386477.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ccaea839a9ef8c6513a7c4e6a817321e1f6d497db7ae06dfda0022174905868f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "cyan-micro-armed-no-show-edition-organic-cotton",
+      "title": "CYAN- MICRO-ARMED NO-SHOW EDITION- ORGANIC COTTON",
+      "sku": "MGC-3076",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3076",
+        "Product Code": "MGC-3076"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609920
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/cyan-micro-armed-no-show-edition-organic-cotton/0-master-db8326f7321e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b7c8be5c87cafc37ad788d8e2dfb9bf36e3b7731e05cc1e91c024c7987e15837"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/cyan-micro-armed-no-show-edition-organic-cotton/1-angle-a6f9f795489f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a96ba0c987fbb49e7e67af3a6447fa7067c65de5ce0a7ff3427922ce1c35fc07"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/cyan-micro-armed-no-show-edition-organic-cotton/2-angle-2cc228e6d89c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1e43f6ada8d13bcb0759735fdd61a06933c979eccb6f9f59eb69df0e38472f2e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "ecolog-earth-day-snapdot-fridge-magnet-5-55-5-cms",
+      "title": "EcoLog - Earth Day Snapdot Fridge Magnet- 5.5*5.5 cms",
+      "sku": "MGC-3069",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "EcoLog - Earth Day Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "EcoLog - Earth Day Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3069",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3069"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 95.0,
+        "amountMinorUnits": 9500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 95.0,
+            "amountMinorUnits": 9500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609899
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-snapdot-fridge-magnet-5-55-5-cms/0-master-8f4c5e8e1893.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8e613177bfbf65c69474086cae0726f9b35425668b38d455c4bbe6872b9c8d2a"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-snapdot-fridge-magnet-5-55-5-cms/1-angle-f3587c25643e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3825367cd309626f386ff0401c29d26019477845813d7f5481254c601cd42dff"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "ecolog-earth-day-coaster-4-4-inches",
+      "title": "EcoLog Earth Day Coaster- 4* 4 inches",
+      "sku": "MGC-3072",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "EcoLog Earth Day Coaster- 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "EcoLog Earth Day Coaster- 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3072",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "9 x 9 x 0.3 cms",
+        "Product Code": "MGC-3072"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 155.0,
+        "amountMinorUnits": 15500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 155.0,
+            "amountMinorUnits": 15500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609907
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-coaster-4-4-inches/0-master-aaf975a6a90a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "51a078394919b1c6ac5a22b49d4de86d6400571d5f6ad12c5ba6c0a148c5ecf1"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-coaster-4-4-inches/1-angle-7e25150043a2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c70614591b6e4c74439cd3718e1f2ebd1a5373c60391903862e040d4d8878177"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "ecolog-earth-day-pixelpad-2024-cms",
+      "title": "EcoLog Earth Day PixelPad- 20*24 cms",
+      "sku": "MGC-3092",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "EcoLog Earth Day PixelPad- 20*24 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "EcoLog Earth Day PixelPad- 20*24 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3092",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Sublimation Pad",
+        "Dimensions": "22L x 19W x 0.25H  cm ( 3mm Thickness)",
+        "Product Code": "MGC-3092"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 155.0,
+        "amountMinorUnits": 15500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 155.0,
+            "amountMinorUnits": 15500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609965
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-pixelpad-2024-cms/0-master-fcb40aaa2404.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "804c1e2a5cce1c2680a75af5f394d60d2252e350d5ef8f8a8ccba34ce252310d"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-pixelpad-2024-cms/1-angle-70475bde8f06.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "de6ef7046b74ad5071133c3b24d6636ea81d04f8da7f0d1d36e0665056377d5f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "ecolog-earth-day-snapdot-pin-badge",
+      "title": "EcoLog- Earth Day Snapdot Pin Badge",
+      "sku": "MGC-3068",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "EcoLog- Earth Day Snapdot Pin Badge — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "EcoLog- Earth Day Snapdot Pin Badge — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3068",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3068"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 65.0,
+        "amountMinorUnits": 6500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 65.0,
+            "amountMinorUnits": 6500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609896
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-snapdot-pin-badge/0-master-22a8e39622d6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bc7dd255e5a615369f64336dcc3f5278d627704f2086f9ed4f9f6ed9c2765436"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/ecolog-earth-day-snapdot-pin-badge/1-angle-7c22af5e637f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5849f14fc65f557e34ddb6bdb84466f58f7f852317aec789b65a9b21b58e8bd2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "fire-edition-black-colour-red-flame",
+      "title": "FIRE SOCKS - BLACK/GREEN - RED FLAMES",
+      "sku": "MGC-3077",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3077",
+        "Product Code": "MGC-3077"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609922
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/fire-edition-black-colour-red-flame/0-master-4df38c066386.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "52a9b51cff6a7349addbe90a12196d345e47a071adc4a3a2d302bf8073b00ef4"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/fire-edition-black-colour-red-flame/1-angle-05df49da296a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "a5be486dc27b88257a490c0b4e3dd7b17e099979bcecace3af2cc87c06f70d73"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/fire-edition-black-colour-red-flame/2-angle-45703ef9a983.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "4dc4193cc68882f76e9cbe38319f29be1e9a0da6ef5f3c19550ab74533c69f7b"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/fire-edition-black-colour-red-flame/3-angle-ac6c51a61d8d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "20bd049d7cc8a62ee0bc565a4040cdd6ab5a28e4eee339f3bdd383d7c8891116"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "gifttags-hardpaper-2-5x1-5inch-yellow",
+      "title": "Gift Tags",
+      "sku": "MGC-3074",
+      "brand": {
+        "name": "Schmancy Pack Pvt Ltd",
+        "slug": "schmancy-pack-pvt-ltd"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Material: High Quality Yellow Card Paper Great for wedding favour, party gift tag,luggage label TheÃ‚ White paper can be used with markers/ stamps or ink; the kraft tags absorb the ink well The blank ones ideal to use for customized stamped hang tags, price tags or even product labels The vintage tags are perfect for clothing tags, price tags, gift tags, student words cards, bookmarks tags, cupcake toppers, wish trees, thank you notes, love notes, scrap-bookingÃ‚ etc. In particular, They are stu",
+      "shortDescription": "Material: High Quality Yellow Card Paper Great for wedding favour, party gift tag,luggage label TheÃ‚ White paper can be used with markers/ stamps or ink; the kraft tags absorb the ink well The blank ones ideal to use for customized stamped hang tags, price tags or even product labels The vintage tags are perfect for clothing tags, price tags, gift tags, student words cards, bookmarks tags, cupcake toppers, wish trees, thank you notes, love notes, scrap-bookingÃ‚ etc. In particular, They are stu",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3074",
+        "Product Code": "MGC-3074"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 100.0,
+        "amountMinorUnits": 10000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 100.0,
+            "amountMinorUnits": 10000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609914
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/0-master-730471546573.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "e14da273ea7d66872ae1dbef6ef503dc5ec54e1bde789baec5184fad929f9e6d"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/1-angle-0e67192346bb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "e79a728fc98add6af89155565cdc70784f68b594905ad2db0bea857546f587b2"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/2-angle-aa5a2a45c097.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "b84b36a130e99cf9a6d67d02ec8b77f94c2c72257aac1b79896e105b95d3e469"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/3-angle-ffb2f07dd9b5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "6cd07ba0c2795ffc21a3590abacbb31f312e12ab2f50bda70b87bd8cfa929274"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/4-angle-3f9384459b86.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "a104f71226f9fd83a6d6a0ccf0873637f1aeaa021f28c29bdda6fcca44ac6101"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/5-angle-d1eb2fe193b8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "9e728ade80595c6202ff31cab8d6d68231d16270d8443ce852c49e5272f62668"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/6-angle-13b3499ec8cb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "074d1f88a4a04e741449914070ab8b2d77ce32d778086d6ee67ee2e6805e4b9d"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/7-angle-1c64e94ee750.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "ee44c27550938ed731aee7d398cf06b649abd8033305aa7ddb2952f5f2ddbd20"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/8-angle-09231ebb094e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "3521ebabc468da5304cf79b2a822ec4932c53d22ebcbc215d1e0bc36fb8f1bde"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/gifttags-hardpaper-2-5x1-5inch-yellow/9-angle-0f1387a4425c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 600,
+          "height": 600,
+          "format": "webp",
+          "sha256": "3ca960d4f077ab72dcf60b911f2c6ecca973e2c15866ef927a94498f33d5535d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "green-micro-armed-no-show-edition-organic-cotton",
+      "title": "GREEN- MICRO-ARMED NO-SHOW EDITION- ORGANIC COTTON",
+      "sku": "MGC-3078",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3078",
+        "Product Code": "MGC-3078"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609924
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/green-micro-armed-no-show-edition-organic-cotton/0-master-de2a7f61758f.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "6719691a03a20730844cc4a9911654f874e278d076f24f43802abb441af7fdb7"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-micro-armed-no-show-edition-organic-cotton/1-angle-38d3bb1919e0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "dd8a2b22c833c3ac0bf2a3701ee92187bdacd5a57d69dd752d3c07d0c44a60e4"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-micro-armed-no-show-edition-organic-cotton/2-angle-4ebabf89ec3e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e654676b658bf5351bc2a19d0151298bc715226e77e771db0c4d7ff174e0a4ef"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "green-pembrey-edition",
+      "title": "GREEN- PEMBREY EDITION",
+      "sku": "MGC-3079",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3079",
+        "Product Code": "MGC-3079"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609927
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/green-pembrey-edition/0-master-19a4f4e96bb1.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "31eb381cdf69a9bb7373d9554e3312b458e0679aa3416ddaecc91b19602b29ec"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-pembrey-edition/1-angle-ee904523a747.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2063f92b81114ed7363850e3f7efc6df97fa669f0ef2570751064e2a5acf96e9"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-pembrey-edition/2-angle-e0ceee0840b4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "648f52340dd43334112871164270e57c5f6bd825eb17c2a572503ff4b4342b95"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-pembrey-edition/3-angle-85853521e1c6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cc8843aa862eaa60616128513e0ea42f08e42a4ac3fd8e49d54f906ddf41cd9e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "green-blue-drizy-edition-organic-terry-cotton",
+      "title": "GREEN/BLUE- DRIZY EDITION- ORGANIC TERRY COTTON",
+      "sku": "MGC-3085",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3085",
+        "Product Code": "MGC-3085"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 499.0,
+        "amountMinorUnits": 49900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 499.0,
+            "amountMinorUnits": 49900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609943
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/green-blue-drizy-edition-organic-terry-cotton/0-master-7352999ce22b.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8db9696059ae82975153a99976b6f47f3b083438572ad5b5a1bda471ac13c0e9"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-blue-drizy-edition-organic-terry-cotton/1-angle-b424f202eb02.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "721a4eb41a21663eb2ef82de616d9784d13e8c05505f33260aae5e3ea0661270"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-blue-drizy-edition-organic-terry-cotton/2-angle-ad7849d4a55f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6317dc52a56db1e97133181c41012824ab2c1c7d619e04ccde761487ec9420a3"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "green-brown-drumdark-edition-organic-terry-cotton",
+      "title": "GREEN/BROWN- DRUMDARK EDITION- ORGANIC TERRY COTTON",
+      "sku": "MGC-3086",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3086",
+        "Product Code": "MGC-3086"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 499.0,
+        "amountMinorUnits": 49900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 499.0,
+            "amountMinorUnits": 49900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609945
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/green-brown-drumdark-edition-organic-terry-cotton/0-master-e3ee150c6393.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d0cf249fcfdc2d73696a3399dd0943eacd4ab2ada9677589d29ccd01f6e9693e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-brown-drumdark-edition-organic-terry-cotton/1-angle-d26f6f79d0bc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6805aeb7af11bd6ffab3d43095f640eab1d161e51fb1d8e3481ac9362c111679"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/green-brown-drumdark-edition-organic-terry-cotton/2-angle-d308bc684e77.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "934e3368be72a2251a81bb186106fe52eb37e71046dcd623b3b9be470e2aeed5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "greenscape-earth-day-snapdot-fridge-magnet-5-55-5-cms",
+      "title": "Greenscape - Earth Day Snapdot Fridge Magnet- 5.5*5.5 cms",
+      "sku": "MGC-3070",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Greenscape - Earth Day Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Greenscape - Earth Day Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3070",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3070"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 95.0,
+        "amountMinorUnits": 9500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 95.0,
+            "amountMinorUnits": 9500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609901
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-snapdot-fridge-magnet-5-55-5-cms/0-master-7a46fc0ad104.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4524554e0f747cc7d0429f4b7d2ad996c355bd8d8163262e4c82f35a43ae5432"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-snapdot-fridge-magnet-5-55-5-cms/1-angle-3f0fbf268abe.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "364a1aaa6510749e85282942549dbcfb7fd11b2daf6f22802e344b217d53327a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "greenscape-earth-day-snapdot-pin-badge",
+      "title": "Greenscape - Earth Day Snapdot Pin Badge",
+      "sku": "MGC-3071",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Greenscape - Earth Day Snapdot Pin Badge — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Greenscape - Earth Day Snapdot Pin Badge — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3071",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "1000",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3071"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 95.0,
+        "amountMinorUnits": 9500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 95.0,
+            "amountMinorUnits": 9500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609903
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-snapdot-pin-badge/0-master-c2482dda18f9.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3d9d6e208709efdb77bf9220615644936c7467639cca87f0ad0e7f687c3b4343"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-snapdot-pin-badge/1-angle-303b31ca5c48.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fbbf61ae801b8e808cd85d6018f23fdfd463ad76ab82f91e888c41c4300b560f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "greenscape-earth-day-coaster-4-4-inches",
+      "title": "Greenscape Earth Day Coaster- 4* 4 inches",
+      "sku": "MGC-3073",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Greenscape Earth Day Coaster- 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Greenscape Earth Day Coaster- 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3073",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "9 x 9 x 0.3 cms",
+        "Product Code": "MGC-3073"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 155.0,
+        "amountMinorUnits": 15500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 155.0,
+            "amountMinorUnits": 15500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609911
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-coaster-4-4-inches/0-master-03516732aca2.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "631bd7c8de3ff89525ae761de704959810a2c93b9a892b724b09ad842e07447e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-coaster-4-4-inches/1-angle-bdfe9b444578.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c3d3b607d1773772bef1f6bb67a635671f1010c4608a29dbefaf606fd8a646cc"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "greenscape-earth-day-pixelpad-2024-cms",
+      "title": "Greenscape Earth Day PixelPad- 20*24 cms",
+      "sku": "MGC-3093",
+      "brand": {
+        "name": null,
+        "slug": null
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Greenscape Earth Day PixelPad- 20*24 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Greenscape Earth Day PixelPad- 20*24 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3093",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Sublimation Pad",
+        "Dimensions": "22L x 19W x 0.25H  cm ( 3mm Thickness)",
+        "Product Code": "MGC-3093"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 155.0,
+        "amountMinorUnits": 15500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 155.0,
+            "amountMinorUnits": 15500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609968
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-pixelpad-2024-cms/0-master-2fdb21808d19.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b31fcabd13fa794f5f28aa32a5facca05aa0b7fa19c42d5cc8cdf2d04959c8d1"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/greenscape-earth-day-pixelpad-2024-cms/1-angle-fd887c15c147.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "507b877cd6048474d9c6026780a7d99227861ac5daf25293bda42b6814d9509b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brand.name",
+          "brand.slug",
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "grey-black-drumdark-edition-organic-terry-cotton",
+      "title": "GREY/BLACK- DRUMDARK EDITION- ORGANIC TERRY COTTON",
+      "sku": "MGC-3087",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3087",
+        "Product Code": "MGC-3087"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 499.0,
+        "amountMinorUnits": 49900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 499.0,
+            "amountMinorUnits": 49900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609948
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/grey-black-drumdark-edition-organic-terry-cotton/0-master-9d154a7bcfc7.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "69837f789979103b3655ff494c6ce5c314adaee68a25301f73e37c38391a8f45"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/grey-black-drumdark-edition-organic-terry-cotton/1-angle-9571d327e64a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "45fce3f89ff2399e34d52f56cbb79ce61cc22444ce6bde959513ef2964b3ccfb"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/grey-black-drumdark-edition-organic-terry-cotton/2-angle-b4b34a2d2b24.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9b77488f44dde58bc032139c7e734af60e917278ce56f2719fba780e05972ea2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "sky-blue-addy-edition",
+      "title": "LIGHT GREEN- ADDY EDITION CLOUDTOUCH",
+      "sku": "MGC-3080",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3080",
+        "Product Code": "MGC-3080"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609929
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/sky-blue-addy-edition/0-master-f7b0278be4af.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 815,
+          "height": 815,
+          "format": "webp",
+          "sha256": "dedffd0b13766af1c6140d974172f5b241cb30998e2ab3601f0776c6efb7ed89"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/sky-blue-addy-edition/1-angle-520d65bf907f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 650,
+          "height": 650,
+          "format": "webp",
+          "sha256": "ee926d8dc10fe983c593feb5786e363db6e367ab7040bdc248068d7d7f3ab2c3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/sky-blue-addy-edition/2-angle-4d2e34bec611.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3a4be509bc2c08e7ffc888ccb3dc6425599f5ac4659970f1a5413012b3da6b5a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "lightning-edition-green-purple-light",
+      "title": "LIGHTNING SOCKS- GREEN - PURPLE LIGHT",
+      "sku": "MGC-3081",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3081",
+        "Product Code": "MGC-3081"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609931
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/lightning-edition-green-purple-light/0-master-0f5bb09c5638.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "cd35644049544152835d09ef991b71435994bbdeac19470bba709283586e1a6e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/lightning-edition-green-purple-light/1-angle-1ebb2ce8df86.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "90a41ca6d3d78a417271e6b67845737b95d44c1b8fe020a5aa7f82a9643f9536"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/lightning-edition-green-purple-light/2-angle-bf2ad3cdaaf1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fa46706a23bdc17b978a8e97e72f7f5c7e337bed5c0c0c063ff8b9264c649853"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/lightning-edition-green-purple-light/3-angle-3869c64d1590.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6f7e9d0c753a9f7651b061b7c4c800bb87880fa251cae54f7e3c342af504d95a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "melunge-notebook-green",
+      "title": "Melunge Premium Genuine Leather Diary | Refillable Leather Journal & Notebook for Men & Women | Color: Green",
+      "sku": "MGC-3067",
+      "brand": {
+        "name": "Leather Talks",
+        "slug": "leather-talks"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "In this digital age, the art of writing by hand is often overlooked. Yet, for those who appreciate the tactile pleasure of putting pen to paper, the Melunge Genuine Leather Notebook offers a truly luxurious and versatile experience. Meticulously handcrafted from premium genuine leather, this notebook embodies sophistication and functionality, making it the perfect companion for professionals, entrepreneurs, and creative thinkers. Its sleek design and thoughtful details transform everyday note-ta",
+      "shortDescription": "In this digital age, the art of writing by hand is often overlooked. Yet, for those who appreciate the tactile pleasure of putting pen to paper, the Melunge Genuine Leather Notebook offers a truly luxurious and versatile experience. Meticulously handcrafted from premium genuine leather, this notebook embodies sophistication and functionality, making it the perfect companion for professionals, entrepreneurs, and creative thinkers. Its sleek design and thoughtful details transform everyday note-ta",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3067",
+        "Product Code": "MGC-3067"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2595.0,
+        "amountMinorUnits": 259500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2595.0,
+            "amountMinorUnits": 259500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609893
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/0-master-127f2e9e5b39.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c496035dac87d1d1632fc55754cc591ba0c71a1d87a080be78f929e0a58b722f"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/1-angle-aff92f6b5214.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "82bc2a0e1ecc876313a8b2961cacbd4829ffeba374b848cec46dc9d343d1c213"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/2-angle-f472745e93ad.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7a47ebc81a8d2fc95ad108574f64860a4aad7e13482cbf8f3eda4a434b139d63"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/3-angle-72748f850047.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "682ca76f268802ea334b906279b0c6c267e431264cf1f20f149bcd017fd4a5e3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/4-angle-5f287390ecd9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1098a34652537da9ec54147d998d006e2d8f7d33534c909ca19f0a1673126bbb"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/5-angle-d3ff2672f024.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8326cbf048b629d6175ed569895ee49b140f619693b3269c6e9241a6dd4b2161"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/6-angle-a3c1977151d5.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d9df19e95859c4866e39e0aa0b58bd6330f3cec63c7e470de8bbb1804d33979c"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/7-angle-0eb399aa3c51.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6d1e394d55411963b3b4843edac1ec9461164b4c8306e78c6358df65acf6d3a9"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/8-angle-91e82422212e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c70eed85d44bc47e7612971947105022d5fc654cc04f677b943a816eb7f71e24"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/melunge-notebook-green/9-angle-3bf1c7511ea1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2b1fb429af3908c76e8532a67493466cc6f597368f1a32534f6291b904ed54ce"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "olive-green-addy-2-0-edition",
+      "title": "OLIVE GREEN- ADDY 2.0 EDITION",
+      "sku": "MGC-3082",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3082",
+        "Product Code": "MGC-3082"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609933
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/olive-green-addy-2-0-edition/0-master-8247b6beafe8.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "4e36e74810a09fc9b0dd16d7cffd935e1cab7a81b83ba2d0c79af58de69ea16c"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/olive-green-addy-2-0-edition/1-angle-1543c3919109.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "3551aad2fe9d54c83634e558bc040d867dbf7148c199659686c12ad2da527a70"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/olive-green-addy-2-0-edition/2-angle-961e18b1d301.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "aaa6d36dcd87942856df15271613b6558d436c71fc762e70b158c01c2d311825"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/olive-green-addy-2-0-edition/3-angle-5c1db7df23ae.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "sha256": "9e5b6359879d8b615f855e4e25787d8033937b532e5514c8da749d321d1c7cbf"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/olive-green-addy-2-0-edition/4-angle-d505c5e7aaf6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3e97d184f6cb652ee668404d1706c352c5d7b8410bcfd314e5254ef238e6d6c1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "people-of-india-figurines-gift-box-set-of-6",
+      "title": "People of India Figurines Gift Box - Set of 6",
+      "sku": "MGC-3062",
+      "brand": {
+        "name": "chumbakdesign",
+        "slug": "chumbakdesign"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "A caravan of travelers; a Pint-Sized Punjabi, an Itty-Bitty Bengali, a Teeny-Tiny Tamilian, a Pocket-Sized Goan, a Teensy Kashmiri and a Lilliput Rajasthani; intend to find a home in your house. Made from wood and an MDF Box, let these figurines start conversations and keep antsy guests company with their pronounced welcoming nature.",
+      "shortDescription": "A caravan of travelers; a Pint-Sized Punjabi, an Itty-Bitty Bengali, a Teeny-Tiny Tamilian, a Pocket-Sized Goan, a Teensy Kashmiri and a Lilliput Rajasthani; intend to find a home in your house. Made from wood and an MDF Box, let these figurines start conversations and keep antsy guests company with their pronounced welcoming nature.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3062",
+        "Product Code": "MGC-3062"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1667.0,
+        "amountMinorUnits": 166700,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1667.0,
+            "amountMinorUnits": 166700,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609875
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/0-master-658f7a4b9432.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ad66873419f33bf40181ef86e65c7476237c01907775f1537cd097904e6c6134"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/1-angle-82577d92180c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d3276d55403aee5743ff294d0bd33da5c0cbf6eaa615328bf462b9cb4699c523"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/2-angle-d89d1283ee7e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fed549b371a375a5e25b126923dc80fb857ff87af5204fe08c771d841ed5f9fc"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/3-angle-1c381591d355.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "dbb9f984c4af7ab5638e93bf2fe88ace29111b0f957bf157240fac8b602ee39e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/4-angle-227f492b6020.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "93e52fb74dbcadc8ea67f17944b63ed222825d730987afb2d56b21d636e8128b"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/5-angle-15928f31bb36.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6e5d0e66207263f5fe831c22d48caf41f4a21f73b22663bf5ef0f03e669ba94b"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/6-angle-441028a6e963.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b13f8fb00f2b8c3c5664a887dab5ea483469902d9520b49e86e6a2bb0e37251a"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/7-angle-841f8ddd17db.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b61f4c44325bf022cc0c6edb06e2ccad3d3fca0cdcc6b69d79dbd11b5d521385"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/8-angle-eff50f41d6f2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "aa38bd60902d98569c8709e073ff157c28d8908a2ed99fed6325d31d285e7d7b"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/people-of-india-figurines-gift-box-set-of-6/9-angle-d7f3aa38842a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "05a87cec7d85e86c71c4042b54919a5e81a01485e5fc3886e05265447132929c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "scrood-12-in1-eco-screwdriver-set",
+      "title": "Scrood 12-in1 Eco Screwdriver Set",
+      "sku": "MGC-3091",
+      "brand": {
+        "name": "Urban Gear",
+        "slug": "urban-gear"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Scrood 12-in1 Eco Screwdriver Set — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Scrood 12-in1 Eco Screwdriver Set — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3091",
+        "Stock Update Date": "1 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "White",
+        "Brand": "Urban Gear",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "Out of Stock",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "S2 Steel Bits &Wheat fibre body",
+        "Product Code": "MGC-3091"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 445.0,
+        "amountMinorUnits": 44500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 445.0,
+            "amountMinorUnits": 44500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609962
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/scrood-12-in1-eco-screwdriver-set/0-master-92ac168b2ca6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "11a212a6562472192b6909cca2a291abb95b21fc8aaa85343a0c16bcc479712e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/scrood-12-in1-eco-screwdriver-set/1-angle-e30ba4af2220.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b3e0d988dd307a3956049cc5057e29a12e2c42cda3da398ca184bd8ff64b258d"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/scrood-12-in1-eco-screwdriver-set/2-angle-624216cf37ad.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "04134b687f0c904b23326e7296074b2cbf75d52c23bb64b095c455fd799fba46"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/scrood-12-in1-eco-screwdriver-set/3-angle-40ceff93ce99.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4761e3192babde3936836332e2cecea07a427552ac896b0bbcb0a15b1f4c048f"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/scrood-12-in1-eco-screwdriver-set/4-angle-c24ccb06ed5c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "94cda2cd42628552362d6d5c67dee67acc02a563cbf4676dcaeef173620fe540"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/scrood-12-in1-eco-screwdriver-set/5-angle-c7304fd029b6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b5488dc20d638add79e15705d432f0f23273317bad1e38941dc55cf5c1fb927f"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/scrood-12-in1-eco-screwdriver-set/6-angle-178fcfeff3c1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "92b92c39b25ba2b9851655c3236297ed2d8936366b1d3ddd35de947a1a46029f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "trusser-felt-11-15-inches-color-block-triad-folder-green",
+      "title": "Trusser Felt 11.15\" Inches Color Block Triad Folder- Green",
+      "sku": "MGC-3089",
+      "brand": {
+        "name": "Trusser",
+        "slug": "trusser"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Trusser Felt 11.15\" Inches Color Block Triad Folder- Green — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Trusser Felt 11.15\" Inches Color Block Triad Folder- Green — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3089",
+        "Stock Update Date": "5 Jun 2026",
+        "Color": "Green",
+        "Brand": "Trusser",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Eco friendly",
+        "No. of Compartments": "1 Main Compartment",
+        "Product Code": "MGC-3089"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 290.0,
+        "amountMinorUnits": 29000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 290.0,
+            "amountMinorUnits": 29000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609956
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/trusser-felt-11-15-inches-color-block-triad-folder-green/0-master-3b7b40dad687.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "408e1ec5164c1b7cc7f96bbb29e1c2ca24d337c5e0e186b29e926453274a96b1"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/trusser-felt-11-15-inches-color-block-triad-folder-green/1-angle-1804630ebe58.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "21e8438a50fd6280d4d05332147bcf047c0a1a1f8b967ad8d17d2e421822d226"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/trusser-felt-11-15-inches-color-block-triad-folder-green/2-angle-c84b911c8081.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1fd4b4b5702bf613fbb6a0a73f31973b8be886b3ad9f89bcc8da55ce115ebf86"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "twostripe-edition-grey-green",
+      "title": "TWOSTRIPE EDITION- GREY/GREEN",
+      "sku": "MGC-3083",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "shortDescription": "Free Size — Stretchable fit for most feet (UK 6–11 / US 7–12) Material — 80% Pure Combed Cotton, 15% Nylon, 5% Spandex Elastic — Double-knit band holds shape after 100+ washes Odor Control — Anti-odor technology, 24Hr No-Bed Smell Care — Machine wash cold, do not bleach, tumble dry low Country of Origin — India",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3083",
+        "Product Code": "MGC-3083"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 329.0,
+        "amountMinorUnits": 32900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 329.0,
+            "amountMinorUnits": 32900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609937
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/twostripe-edition-grey-green/0-master-b1715958f561.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a98f49c9b8c6657e5faadea6affb60f7a0e396f43d7f456ccef5553cc0234ee9"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/twostripe-edition-grey-green/1-angle-8c268b8b0815.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4ddeb7af2d8dd602fe509182fb218980904125ce0277a48d5ec67614a1a4dd4f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "xator-combat-face-protector-mask-black-gold",
+      "title": "Xator Combat Face Protector Mask (Dark Green Gold)",
+      "sku": "MGC-3063",
+      "brand": {
+        "name": "Gods",
+        "slug": "gods"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "shortDescription": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3063",
+        "Product Code": "MGC-3063"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 279.0,
+        "amountMinorUnits": 27900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 279.0,
+            "amountMinorUnits": 27900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609880
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/0-master-3408510b1a7e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1016,
+          "height": 1016,
+          "format": "webp",
+          "sha256": "52837e4fc26bc21e527cd2816961654a57254050deb40873b7f31e62e1de9431"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/1-angle-6d5a7dae5361.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 971,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6561da1f34d48b5b84c1b3e636e49fc8844ba07561fdcd9f3e5b9d77b6f4f68d"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/2-angle-14bf99004fc1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 955,
+          "height": 858,
+          "format": "webp",
+          "sha256": "6bac6ef0880c43eeb0192f6adeba2b2b012c041c6814d26a98d3d8274048a540"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/3-angle-39886a61e872.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4601c3784da0fa6aaec617b0d80895fa914ff8a8297c9cd41afe2dbe8c7e5cd3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/4-angle-67aa7c406677.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 747,
+          "format": "webp",
+          "sha256": "4b5ade01a1979dbb68877b94f8909462996c5da0723bcd858ad07f3c5e64afc3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/5-angle-6aa641806949.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0c340ecfaa2bf6e96bf053411a4a74c205d451b37942983111528ea17e685102"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/6-angle-0120a857f84d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c624d35eb1eb33bd23e830a161c6685bfe46f75af0534ea4af3ea2eb76aa2652"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/7-angle-081c01caf809.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 622,
+          "height": 623,
+          "format": "webp",
+          "sha256": "cff9d346e8fa4a0ef166b9d0a500b19d9fd51291f4c33e488a1c4e9c438e1192"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-gold/8-angle-544db261d940.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 959,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ee08ccba4a63b80936f70899c57ac547e609dbbc652bea894bbc98086b063502"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "xator-combat-face-protector-mask-black-red",
+      "title": "Xator Combat Face Protector Mask - Dark Green Red",
+      "sku": "MGC-3064",
+      "brand": {
+        "name": "Gods",
+        "slug": "gods"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "shortDescription": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3064",
+        "Product Code": "MGC-3064"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 279.0,
+        "amountMinorUnits": 27900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 279.0,
+            "amountMinorUnits": 27900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609883
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/0-master-c840c0f38409.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1016,
+          "height": 1016,
+          "format": "webp",
+          "sha256": "830b40883d1b6d07b3301039614db668beef7586cdd0b5ec262ee19110d5ea8e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/1-angle-c1d6e2587a03.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 971,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "6044838585c34c6fe528865fae0fce187d13d01fc60106445c899b68c4294749"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/2-angle-14bf99004fc1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 955,
+          "height": 858,
+          "format": "webp",
+          "sha256": "6bac6ef0880c43eeb0192f6adeba2b2b012c041c6814d26a98d3d8274048a540"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/3-angle-39886a61e872.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4601c3784da0fa6aaec617b0d80895fa914ff8a8297c9cd41afe2dbe8c7e5cd3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/4-angle-3a747514c2b4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "07d7a386574806f9b145168b5c9ee501d1b11be25756d65d237ff18d306b6014"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/5-angle-6aa641806949.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0c340ecfaa2bf6e96bf053411a4a74c205d451b37942983111528ea17e685102"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/6-angle-67aa7c406677.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 747,
+          "format": "webp",
+          "sha256": "4b5ade01a1979dbb68877b94f8909462996c5da0723bcd858ad07f3c5e64afc3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/7-angle-081c01caf809.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 622,
+          "height": 623,
+          "format": "webp",
+          "sha256": "cff9d346e8fa4a0ef166b9d0a500b19d9fd51291f4c33e488a1c4e9c438e1192"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-black-red/8-angle-7c8ed9cb9c91.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 959,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a2ed37a72ca4794d5b9d5b4b195f64831f89427a3f37be4e358022d4cab2e28e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "xator-combat-face-protector-mask-green-camo",
+      "title": "Xator Combat Face Protector Mask - Green Camo",
+      "sku": "MGC-3065",
+      "brand": {
+        "name": "Gods",
+        "slug": "gods"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "shortDescription": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3065",
+        "Product Code": "MGC-3065"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 279.0,
+        "amountMinorUnits": 27900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 279.0,
+            "amountMinorUnits": 27900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609886
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/0-master-5300d9060f5d.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1016,
+          "height": 1016,
+          "format": "webp",
+          "sha256": "497b749592b4cf0878a35ba2bafa35d4afd2bd49224304090c86ead0dd949a02"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/1-angle-53cd066ba340.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 971,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "dc9188685325b540d21abbabde4ffe5a3f49e8843b6efde1935a4a9ea73e6053"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/2-angle-14bf99004fc1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 955,
+          "height": 858,
+          "format": "webp",
+          "sha256": "6bac6ef0880c43eeb0192f6adeba2b2b012c041c6814d26a98d3d8274048a540"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/3-angle-39886a61e872.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4601c3784da0fa6aaec617b0d80895fa914ff8a8297c9cd41afe2dbe8c7e5cd3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/4-angle-c379d6b22d22.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "563a408710655cd3864c335309e35d7989d30834c7cae9a3c9f2d5bafdefcbf6"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/5-angle-6aa641806949.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0c340ecfaa2bf6e96bf053411a4a74c205d451b37942983111528ea17e685102"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/6-angle-67aa7c406677.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 747,
+          "format": "webp",
+          "sha256": "4b5ade01a1979dbb68877b94f8909462996c5da0723bcd858ad07f3c5e64afc3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/7-angle-081c01caf809.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 622,
+          "height": 623,
+          "format": "webp",
+          "sha256": "cff9d346e8fa4a0ef166b9d0a500b19d9fd51291f4c33e488a1c4e9c438e1192"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-green-camo/8-angle-b2a0f0896a0f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 959,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d0d2ef1ddd8696e0331446a24fcfb18e808cbbcf8467f7c62b89162931c1207b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "xator-combat-face-protector-mask-sea-green",
+      "title": "Xator Combat Face Protector Mask - Sea Green",
+      "sku": "MGC-3066",
+      "brand": {
+        "name": "Gods",
+        "slug": "gods"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "shortDescription": "Xator Face Mask We all have been warriors in this battle we are fighting together. We have to play by the rules here, but stay ferocious. We have been inflicted with excruciating pain and misery in this most gruesome war fought in a century. We have all been through a nerve-wracking test of our resilience. But the greatest glory is not in never falling, but to rise up every time we fall. We are getting back up, and we will emerge victorious. History will remember the warriors of this generation.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3066",
+        "Product Code": "MGC-3066"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 279.0,
+        "amountMinorUnits": 27900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 279.0,
+            "amountMinorUnits": 27900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609890
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/0-master-850e8d11d8ea.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1016,
+          "height": 1016,
+          "format": "webp",
+          "sha256": "8ff2132677f6da3b314218ab4156385ffdb3892eba1582723ba016e9c61d19fc"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/1-angle-17920c5ee6ed.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 971,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1bf9e59fab94fa09e1a0e0870649dd4ecad05491cdf7090e24a2a60adb0e7a6a"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/2-angle-14bf99004fc1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 955,
+          "height": 858,
+          "format": "webp",
+          "sha256": "6bac6ef0880c43eeb0192f6adeba2b2b012c041c6814d26a98d3d8274048a540"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/3-angle-39886a61e872.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4601c3784da0fa6aaec617b0d80895fa914ff8a8297c9cd41afe2dbe8c7e5cd3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/4-angle-67aa7c406677.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 747,
+          "format": "webp",
+          "sha256": "4b5ade01a1979dbb68877b94f8909462996c5da0723bcd858ad07f3c5e64afc3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/5-angle-6aa641806949.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0c340ecfaa2bf6e96bf053411a4a74c205d451b37942983111528ea17e685102"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/6-angle-f7e58d66c36c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b8c5b3e899338708699e7ba8682c4867893e35292a04131a4934a1b137c7adfb"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/7-angle-081c01caf809.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 622,
+          "height": 623,
+          "format": "webp",
+          "sha256": "cff9d346e8fa4a0ef166b9d0a500b19d9fd51291f4c33e488a1c4e9c438e1192"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/xator-combat-face-protector-mask-sea-green/8-angle-42261a664957.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 959,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "55810e276fb914a249ea8ab0b9f0906c73c24f4279c4769869d1aeaefb0600db"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    },
+    {
+      "slug": "zack-edition-organic-cotton",
+      "title": "ZACK EDITION-ORGANIC COTTON",
+      "sku": "MGC-3088",
+      "brand": {
+        "name": "SockScarving",
+        "slug": "sockscarving"
+      },
+      "category": {
+        "id": "C7",
+        "code": "C7",
+        "name": "Eco-Friendly",
+        "slug": "eco-friendly",
+        "path": "eco-friendly",
+        "sortOrder": 7
+      },
+      "description": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "shortDescription": ".sc-feat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 14px 0; margin: 12px 0; border-top: 1px solid #f0ece6; border-bottom: 1px solid #f0ece6; } .sc-feat { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; } .sc-feat-icon { width: 38px; height: 38px; border: 1px solid #101010e0; display: flex; align-items: center; justify-content: center; } .sc-feat-icon svg { width: 25px; height: 25px; stroke: #1a1a1a; fill: none; stroke-",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3088",
+        "Product Code": "MGC-3088"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 999.0,
+        "amountMinorUnits": 99900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 999.0,
+            "amountMinorUnits": 99900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609951
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/0-master-a04b619f46b8.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1109,
+          "height": 1109,
+          "format": "webp",
+          "sha256": "bf2f602fd5c6525d10a394b482a48962c0786cb31a3015e13b1fa3c2354c3c8c"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/1-angle-488bbc030567.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "55525c570505637b358c99f375caa02ebaa0ef2452f4d950da11b7d012a11c4f"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/2-angle-c50166106631.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1199,
+          "format": "webp",
+          "sha256": "ce59999cc85db50a68922b03b72807920aefce2be81f903501aa99a9b9bbf31e"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/3-angle-7699b9df377b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1199,
+          "format": "webp",
+          "sha256": "b5a04512706bafaa18d09b1d5a5375962695801f6f3d3877dedfe3095189fc19"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/4-angle-cc610521c00c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9c2fb3df13875150fd552d59c8fe7d3b62cad0e0a456fe6f252fbc5140a05440"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/5-angle-89041ac0a1e3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1199,
+          "format": "webp",
+          "sha256": "3c44cccbf6e107ef41ff70841b5b884a00168fd8aa40308eb34f74f543cc68c5"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/6-angle-9e7eee2375e4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "faffe6397d3563c1a13d81c7a72d6777ecc82cb07bc5df0cf483e2faf825ff79"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/7-angle-f84828b7b4ea.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fe68ea7dcbcde1d25c5095e3aa5ca8f95a24ac2a8536868f6842c86c8993e583"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/8-angle-8eee1d1963e9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 679,
+          "height": 679,
+          "format": "webp",
+          "sha256": "2845e68c6d6025fcf006bf39fb99960a82d2752f0819c9c40be0ede20e3f49c3"
+        },
+        {
+          "path": "media/products/eco-friendly/upcycled/zack-edition-organic-cotton/9-angle-3265e1246d53.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "eaf4685ab8ccbf6a8afec76e5b00d704b75974b566af15c497e67d851f8afe7a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C7:upcycled",
+        "categoryId": "C7",
+        "name": "Upcycled",
+        "slug": "upcycled",
+        "path": "eco-friendly/upcycled",
+        "sortOrder": 2
+      },
+      "taxonomyPath": "eco-friendly/upcycled"
+    }
+  ]
+}

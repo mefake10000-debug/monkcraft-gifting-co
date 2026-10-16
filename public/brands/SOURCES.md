@@ -1,0 +1,25 @@
+# Logo source record
+
+Logo files are stored locally; the app does not hotlink to third-party image
+servers. Each source below is the brand's official site, where the corresponding
+mark is published. Retrieved 15 October 2026.
+
+| Catalogue brand | Local file | Official source |
+|---|---|---|
+| 3S | `3s-logo.png` | [the3s.in](https://the3s.in/) |
+| bioQ | `bioq-logo.svg` | [bioq.in](https://bioq.in/) |
+| Fur Jaden | `fur-jaden-logo-black.png` (black contrast variant of `fur-jaden-logo.png`) | [furjaden.com](https://www.furjaden.com/) |
+| FUZO | `fuzo-logo.webp` | [fuzo.in](https://fuzo.in/) |
+| Hummel | `hummel-logo.svg` | [hummel.net.in](https://hummel.net.in/) |
+| Jack&Jones | `jack-jones-logo.png` | [jackjones.in](https://www.jackjones.in/) |
+| Levi's | `levis-logo.png` | [levi.in](https://levi.in/) |
+| Oblique | `oblique-logo.png` | [obliquedesigns.in](https://obliquedesigns.in/) |
+| Offikraft | `offikraft-logo.png` | [offikraft.in](https://offikraft.in/) |
+| Ooge | `ooge-logo.jpg` | [ooge.in](https://ooge.in/) |
+| Portronics | `portronics-logo-blacktext.png` (white lettering changed to black; red mark retained) | [portronics.com](https://www.portronics.com/) |
+| Power Plus | `power-plus-logo.png` | [powerpl.us](https://powerpl.us/) |
+| Swiss Military | `swiss-military-logo.png` | [swissmilitaryindia.com](https://www.swissmilitaryindia.com/) |
+| Stellers | `stellers-logo.png` | [stellers.in](https://www.stellers.in/) |
+| STOLT | `stolt-logo.png` | [stolt.in](https://www.stolt.in/) |
+| The Backbencher | `the-backbencher-logo.png` | [thebackbencher.co.in](https://thebackbencher.co.in/) |
+| Urban Gear | `urban-gear-logo.png` | [urbangear.in](https://www.urbangear.in/) |

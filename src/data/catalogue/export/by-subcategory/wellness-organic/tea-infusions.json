@@ -1,0 +1,1462 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C6",
+    "code": "C6",
+    "name": "Wellness & Organic",
+    "slug": "wellness-organic",
+    "path": "wellness-organic",
+    "sortOrder": 6
+  },
+  "subcategory": {
+    "id": "C6:tea-infusions",
+    "categoryId": "C6",
+    "name": "Tea & Infusions",
+    "slug": "tea-infusions",
+    "path": "wellness-organic/tea-infusions",
+    "sortOrder": 3
+  },
+  "categoryProductCount": 36,
+  "productCount": 11,
+  "products": [
+    {
+      "slug": "holi-team-spirit-colour-snapdot-pin-badge-5-55-5-cms",
+      "title": "Holi Team Spirit Colour Snapdot Pin Badge- 5.5*5.5 cms",
+      "sku": "MGC-3028",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Holi Team Spirit Colour Snapdot Pin Badge- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Team Spirit Colour Snapdot Pin Badge- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3028",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "99999",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3028"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 65.0,
+        "amountMinorUnits": 6500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 65.0,
+            "amountMinorUnits": 6500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609761
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-snapdot-pin-badge-5-55-5-cms/0-master-2ea94a8b71e0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2e1908ad4198e04f75ecda6e62df0e2923516d5530c5b4282f0c550d1257490b"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-snapdot-pin-badge-5-55-5-cms/1-angle-a3909db31fef.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9d52d000556519a6bca1a93065462e816e126db106c337b6b989cdf028234b12"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-snapdot-pin-badge-5-55-5-cms/2-angle-4bdc60f99ee8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a789017b4a7b66592552b4dd6f0433573294b511f8a18471e12012b4e82a01e8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "holi-team-spirit-colour-coaster-4-4-inches",
+      "title": "Holi Team Spirit Colour- Coaster 4* 4 inches",
+      "sku": "MGC-3030",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Holi Team Spirit Colour- Coaster 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Team Spirit Colour- Coaster 4* 4 inches — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3030",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "99999",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Acrylic with Foam",
+        "Dimensions": "9 x 9 x 0.3 cms",
+        "Product Code": "MGC-3030"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 155.0,
+        "amountMinorUnits": 15500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 155.0,
+            "amountMinorUnits": 15500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609769
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-coaster-4-4-inches/0-master-5719916c37b0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "47088c2acfaa04ab27a7f0927aefd6ae7dee201ba81bd224209964e74e63bd31"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-coaster-4-4-inches/1-angle-752dd8d28d42.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a6c2138ab2c481f1bc4c42d888215382c43dd64b8fb0f3ec2f7c5abf15a38782"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "holi-team-spirit-colour-fleximat-5828-cms",
+      "title": "Holi Team Spirit Colour- FlexiMat- 58*28 cms",
+      "sku": "MGC-3032",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Holi Team Spirit Colour- FlexiMat- 58*28 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Team Spirit Colour- FlexiMat- 58*28 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3032",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Sublimation Mat",
+        "Dimensions": "58L x  28W in cms, 3mm Thickness",
+        "Product Code": "MGC-3032"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 755.0,
+        "amountMinorUnits": 75500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 755.0,
+            "amountMinorUnits": 75500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609774
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-fleximat-5828-cms/0-master-d78294939b2c.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fdf4b5c74b82f47ca82407cdf9efe85b964012771262848a5bedf4f8eaa895da"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-fleximat-5828-cms/1-angle-394b170564dc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e1509a056049c95e59a3511af86dd4afae424229b40f8032e98795b90ff6f2d3"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-fleximat-5828-cms/2-angle-86b2d0b09b36.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7b93e1309ab38f9eec6cfe2f091604529a7235d6d55b32dd59458813f676338f"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "holi-team-spirit-colour-pixelpad-2024-cms",
+      "title": "Holi Team Spirit Colour- PixelPad- 20*24 cms",
+      "sku": "MGC-3031",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Holi Team Spirit Colour- PixelPad- 20*24 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Team Spirit Colour- PixelPad- 20*24 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3031",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "DTF",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Sublimation Pad",
+        "Dimensions": "22L x 19W x 0.25H  cm ( 3mm Thickness)",
+        "Product Code": "MGC-3031"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 225.0,
+        "amountMinorUnits": 22500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 225.0,
+            "amountMinorUnits": 22500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609771
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-pixelpad-2024-cms/0-master-837d77b2d6bb.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "36359a074376c0929bee25f8735cd449a98301ca55bea8748ebb02acb63b2d43"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-pixelpad-2024-cms/1-angle-0da63df3b203.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6686ec1c3736720f57a1955af1b04e076540d6f59351bde09b3e9cdb9eb21a90"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-pixelpad-2024-cms/2-angle-ac1b572410ba.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1174,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c632ef209b405cc158ae58156cde24ab14358726382d6a83aa7c9e36db8dfb43"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "holi-team-spirit-colour-snapdot-fridge-magnet-5-55-5-cms",
+      "title": "Holi Team Spirit Colour- Snapdot Fridge Magnet- 5.5*5.5 cms",
+      "sku": "MGC-3029",
+      "brand": {
+        "name": "Monkcraft",
+        "slug": "monkcraft"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Holi Team Spirit Colour- Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Holi Team Spirit Colour- Snapdot Fridge Magnet- 5.5*5.5 cms — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3029",
+        "Stock Update Date": "11 Sept 2026",
+        "Brand": "Monkcraft",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "500",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Metal",
+        "Dimensions": "5.5L x 5.5W in cm",
+        "Product Code": "MGC-3029"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 95.0,
+        "amountMinorUnits": 9500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 95.0,
+            "amountMinorUnits": 9500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609763
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 50,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-snapdot-fridge-magnet-5-55-5-cms/0-master-01701c2665eb.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "15fa3397197ce085c18910a65aa6a51d442703408c3bd1ce0267576da17b8c47"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-snapdot-fridge-magnet-5-55-5-cms/1-angle-91982fa363c7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1f597af546656496c378aff5337edcf08a559f6a26f333ec9deb06d78051a0ff"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/holi-team-spirit-colour-snapdot-fridge-magnet-5-55-5-cms/2-angle-4bdc60f99ee8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a789017b4a7b66592552b4dd6f0433573294b511f8a18471e12012b4e82a01e8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "pigeon-handheld-garment-steamer-1200-watt-blue",
+      "title": "Pigeon Handheld Garment Steamer 1200 Watt- Blue",
+      "sku": "MGC-3034",
+      "brand": {
+        "name": "Pigeon",
+        "slug": "pigeon"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Garment steamer for corporate gifting, employee welcome kits, and household gifting — premium Pigeon 1200W handheld garment steamer in blue.",
+      "shortDescription": "Garment steamer for corporate gifting, employee welcome kits, and household gifting — premium Pigeon 1200W handheld garment steamer in blue.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3034",
+        "Stock Update Date": "5 Jun 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Pigeon",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Product Code": "MGC-3034"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1765.0,
+        "amountMinorUnits": 176500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1765.0,
+            "amountMinorUnits": 176500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609781
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/pigeon-handheld-garment-steamer-1200-watt-blue/0-master-792dd4efc2af.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "868e9bab00b98719260eb4c1c316de6614414b8ad4b1636916bee9580edd5742"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/pigeon-handheld-garment-steamer-1200-watt-blue/1-angle-22cbbb1434c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6651732b39d66db85a78e4572c18b8450771783687e81516f5c6028a88a25772"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/pigeon-handheld-garment-steamer-1200-watt-blue/2-angle-ca7785ba4010.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6a6dea4eb9a0309ff773972375cea9714203d81d60e65d25a5cb2565d5ee09fd"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/pigeon-handheld-garment-steamer-1200-watt-blue/3-angle-715fe76bf6b6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6f55bfd68a31ca070a2b1b155da521f96b079f471f899248affd274d7a5eaf15"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/pigeon-handheld-garment-steamer-1200-watt-blue/4-angle-43193ce00a90.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "abb9206725d5b9c802cc451a8cf5a68ef8aa300dae4c18e2a2d5ded9bae9c0c1"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/pigeon-handheld-garment-steamer-1200-watt-blue/5-angle-d3366926c607.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "586e076ad0cced810249c05c829deb143ad348e17c02985a5919585bec51cff3"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/pigeon-handheld-garment-steamer-1200-watt-blue/6-angle-5130ff362328.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1a6b1178f728ff25ba3844baa3b5555eba78feb765a1f033ec40d193736b7508"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "steamer-trunk",
+      "title": "STEAMER TRUNK",
+      "sku": "MGC-3033",
+      "brand": {
+        "name": "NAPPA DORI",
+        "slug": "nappa-dori"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Product Description Handcrafted entirely in sheet metal and powder coated in an ivory colour, with Handcrafted Leather straps and details. Secured with chrome-finished locks and hardware. The inside is lined with beige cotton twill with an elasticated pocket to secure belongings. Quantity: 1 N Dimension L : 57.15 cm x B : 38.1 cm x H : 22.86 cm Care Instructions Wipe clean the metal surface using a soft damp cloth followed by a dry cloth. Do not use any chemicals for cleaning which may contain s",
+      "shortDescription": "Product Description Handcrafted entirely in sheet metal and powder coated in an ivory colour, with Handcrafted Leather straps and details. Secured with chrome-finished locks and hardware. The inside is lined with beige cotton twill with an elasticated pocket to secure belongings. Quantity: 1 N Dimension L : 57.15 cm x B : 38.1 cm x H : 22.86 cm Care Instructions Wipe clean the metal surface using a soft damp cloth followed by a dry cloth. Do not use any chemicals for cleaning which may contain s",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3033",
+        "Product Code": "MGC-3033"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 24500.0,
+        "amountMinorUnits": 2450000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 24500.0,
+            "amountMinorUnits": 2450000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609778
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/0-master-221b71630fc5.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "ffb545a3603bc844a068f9fc94c141a348df7937efc5fbe40aa26bc3c795ea35"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/1-angle-9c74ea202b8e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1059,
+          "format": "webp",
+          "sha256": "ed15cc94be54ac37c6e92fe73615b50255b96a489f50c43cfdf5b24ef36347e1"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/2-angle-7abae3c90417.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "93a5b65f81fed87530ebb3fa53d04c02f00029380686908023ffd0b4d60f94af"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/3-angle-d7b4c756fa31.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 504,
+          "height": 504,
+          "format": "webp",
+          "sha256": "b0b065e690ce8f9f79d9abe9f22be981f8fa369e13b73af9e48b70d5e93eb08b"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/4-angle-6547159c7119.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "4a2c5631b6e4b5472946e71f28605409788bd848c1f3f3662fbec471230a96d6"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/5-angle-42b6a47a572e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "3c2fa10c3fdc9086a66f3ab29e347ce3406e4a015043c8de1d92d30151de7f74"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/6-angle-a9bc1b41695f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "95036bc3dda406bba8d4c41989616dfb24dacdead9b29716960678d5d7a18941"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/7-angle-feb73715f4ef.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "9889a89c3e6e9649c399042fb5bd8dda16fb3933629e747c7e49e3296d9931f0"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/8-angle-d6d5ae4adb50.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "f1fafe9edeb65e435296e4698907e1b226456743c91a70bf0b7954ea6f7f433f"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/steamer-trunk/9-angle-371b5154b46b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "f67c0119110428595589766bf24ea88e68174e2bdf5c4f0decc740fd6eaa2194"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52",
+      "title": "Super Combed Cotton Printed Brief with Ultrasoft Waistband - Navy & Seaport Teal (Pack of 2)",
+      "sku": "MGC-3025",
+      "brand": {
+        "name": "Jockey",
+        "slug": "jockey"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Super Combed Cotton Fabric Fabric Composition : Cotton Ultrasoft and Durable Waistband All Over Print Design Label Free for All Day Comfort Net Quantity: 2 Piece",
+      "shortDescription": "Super Combed Cotton Fabric Fabric Composition : Cotton Ultrasoft and Durable Waistband All Over Print Design Label Free for All Day Comfort Net Quantity: 2 Piece",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3025",
+        "Product Code": "MGC-3025"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 529.0,
+        "amountMinorUnits": 52900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 529.0,
+            "amountMinorUnits": 52900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609750
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/0-master-d59a4382f3b1.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "67a8e8d47a543bef4ba54452529783299aa9b72da69f1f76272e144387c37468"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/1-angle-9d0a4af9b31f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "630974ec92c5cf5dd9c864ae7df4343d88be3281213a46a9c1361b73c5848920"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/2-angle-ebb7fc3b3db3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e649cd46cd4acaace83657fad6f8c7e2d871e34e09a88691172cebc2246826b7"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/3-angle-1ff9c0d6827c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0505fd35f86c648989e772cf544da2bf11219f32541369329ddc919f91b06eca"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/4-angle-e49a1006dbd4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "67a8e8d47a543bef4ba54452529783299aa9b72da69f1f76272e144387c37468"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/5-angle-afeaa82f3e5f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f8d243f405a05ee62303524f0c1df4ee90eff3e4b3fe8805adadd2821a631bb5"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/6-angle-f55b38bff524.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e570b9d0e80237d6c280b35ed80b35704cd89ca69a8c3f9154032e9db59f31d9"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/7-angle-cdbf2e9a1076.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ffcd6aa0df5e7482ecd3af71b22b24a5a2ede6a3ae884de36b01618c0f04b379"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/8-angle-6670a320a66e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1265e1901e08a5f606352723bc6edda360e7a83e3cc215b6d340233748229e6d"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-printed-brief-with-ultrasoft-waistband-navy-seaport-teal-pack-of-2-us52/9-angle-07d33e6012ca.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "53bf82a45606047844ff80406e8ead1ab494bf97c57fd34d42a17fda958ea64c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008",
+      "title": "Super Combed Cotton Rib Solid Boxer Brief with Ultrasoft and Durable Waistband - Black/Seaport Teal/Deep Slate (Pack of 3)",
+      "sku": "MGC-3026",
+      "brand": {
+        "name": "Jockey",
+        "slug": "jockey"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Super Combed Cotton Ribbed Fabric Fabric Composition : Cotton Front Open Fly Ultrasoft and Durable Concealed Waistband Engineered to Prevent Ride Up Label Free for All Day Comfort Net Quantity: 3 Piece",
+      "shortDescription": "Super Combed Cotton Ribbed Fabric Fabric Composition : Cotton Front Open Fly Ultrasoft and Durable Concealed Waistband Engineered to Prevent Ride Up Label Free for All Day Comfort Net Quantity: 3 Piece",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3026",
+        "Product Code": "MGC-3026"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 819.0,
+        "amountMinorUnits": 81900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 819.0,
+            "amountMinorUnits": 81900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609754
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/0-master-d4430dd2269b.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ff449e61643d5613ca2ad2486e6d83a00bf1fbe4c08e7a1d1ed7e506e067adbd"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/1-angle-78876b13bc7e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "35882eba48b16cc5d9ed5270bc2a2a90da620747e7cc65e6b13358a971b21c8d"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/2-angle-2b7ba770a977.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "dcecd7e4703ed8b048b9f7ace9623a70b92e8a0aa9d54f0efb5f3366680fe419"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/3-angle-238d7cc94397.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cb43c81bd7066b32dee0bb55040b2af345af6e19f2b65929876692a4b5615c9f"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/5-angle-c5e027f31308.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f36002bcb124ba924ccd7e45cfd4a74fd675bb77b51d47f3c4e762223bbe063c"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/6-angle-0688fb188b66.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d82c2910cf02c14431a570fb1d37880eba5173eb1cc017bc9f053db2e48fdbdc"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/7-angle-aa4521fb6185.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b9133b1ce67cb8900fd4bde648ca8c4d4903f0a4529c137db0e855db6a86d920"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/8-angle-a4046527952d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "84c734aac176db5d4abb11b2353b3ab92a11662d06aa49bdb8696342305a70dd"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/9-angle-b6ef242d0e34.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "55c515b6a1031688cfc513729803611dbd138655763ccc0190fed0a309fa4e89"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8008/10-angle-cac3d03d0a1d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8a324bdccf6704a2fa130db1a97a61cb45123f5b1cfaf56d371e84416657720d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009",
+      "title": "Super Combed Cotton Rib Solid Boxer Brief with Ultrasoft and Durable Waistband - Black/Seaport Teal/Deep Slate (Pack of 3)",
+      "sku": "MGC-3027",
+      "brand": {
+        "name": "Jockey",
+        "slug": "jockey"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Super Combed Cotton Ribbed Fabric Fabric Composition : Cotton Front Open Fly Ultrasoft and Durable Concealed Waistband Engineered to Prevent Ride Up Label Free for All Day Comfort Net Quantity: 3 Piece",
+      "shortDescription": "Super Combed Cotton Ribbed Fabric Fabric Composition : Cotton Front Open Fly Ultrasoft and Durable Concealed Waistband Engineered to Prevent Ride Up Label Free for All Day Comfort Net Quantity: 3 Piece",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3027",
+        "Product Code": "MGC-3027"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 849.0,
+        "amountMinorUnits": 84900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 849.0,
+            "amountMinorUnits": 84900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609758
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/0-master-f7206ae83c9b.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c28fb68903fadd3e20cd8d588e67e96d5dc728e4b38a03c8ecfbc8beb014a827"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/1-angle-9efdf2b0fd87.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1c22ee856975d59a659abdf11275d30eeed831dc0c72c98bb23ba24bcede5f36"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/2-angle-209a85eeb90c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a0f8b2bf59ec7711899fae525f8101b1976622e61b7b152ee65a566cbf4ae224"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/3-angle-c2abedb72502.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "04008953e0380115c1dd6000caf3344be605504f680a4f5fddd731106be5b0a4"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/5-angle-5baa7dd93663.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c595c106f860b518e81536b14f9e79aedb3e85fda6ee69f9328e5aec16ef0cf4"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/6-angle-371220ee6e0b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "aa126773d2ae76d2b22b4b47fd40d156aef70a6d9e4921e4f93ffb613c450439"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/7-angle-bcfb188d594c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "497a62712136cffa94fa6f78e84e24d573e27cb084b606878024e0c1cdae108c"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/8-angle-81c60393de01.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cbf18521cec72c0aa300bcc14b370ba5c5db19879a1a4b2ca87f6bcabd2130ed"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/9-angle-05f80d06627f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "66a23964ddbc69a40d5cabd18e2466124b572f08afe8e423bed33f23b5e52778"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/super-combed-cotton-rib-solid-boxer-brief-with-ultrasoft-and-durable-waistband-black-seaport-teal-deep-slate-pack-of-3-8009/10-angle-b2cade3dac6a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 982,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e87b3409f02bb415a182dc6a4ff549ce87f8b5736eedeec7dc05d8b731c4a2b0"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    },
+    {
+      "slug": "trusser-felt-11-15-inches-teal-tale-folder-teal-blue",
+      "title": "Trusser Felt 11.15\" Inches Teal Tale Folder- Teal Blue",
+      "sku": "MGC-3035",
+      "brand": {
+        "name": "Trusser",
+        "slug": "trusser"
+      },
+      "category": {
+        "id": "C6",
+        "code": "C6",
+        "name": "Wellness & Organic",
+        "slug": "wellness-organic",
+        "path": "wellness-organic",
+        "sortOrder": 6
+      },
+      "description": "Trusser Felt 11.15\" Inches Teal Tale Folder- Teal Blue — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Trusser Felt 11.15\" Inches Teal Tale Folder- Teal Blue — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-3035",
+        "Stock Update Date": "5 Jun 2026",
+        "Color": "Teal Blue",
+        "Brand": "Trusser",
+        "Customization Type": "Sublimation Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Eco friendly",
+        "No. of Compartments": "1 Main Compartment",
+        "Product Code": "MGC-3035"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 245.0,
+        "amountMinorUnits": 24500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 245.0,
+            "amountMinorUnits": 24500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896609786
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/wellness-organic/tea-infusions/trusser-felt-11-15-inches-teal-tale-folder-teal-blue/0-master-278622be2af0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9170ccc4dd9fb0c0402c48d28fadd628e837f6ac2b16a79285347bfb2dc0e049"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/trusser-felt-11-15-inches-teal-tale-folder-teal-blue/1-angle-d341c67fc0ec.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e7f762ccacfc815af0e4a507d9c079b58e9ed79facd2544ecf1efbfd203b21c6"
+        },
+        {
+          "path": "media/products/wellness-organic/tea-infusions/trusser-felt-11-15-inches-teal-tale-folder-teal-blue/2-angle-a5dd1f4051e3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2e800edba3c6e9ec9bc00acc4c6a16877dd1a059f825941f84224cb040f2a41d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C6:tea-infusions",
+        "categoryId": "C6",
+        "name": "Tea & Infusions",
+        "slug": "tea-infusions",
+        "path": "wellness-organic/tea-infusions",
+        "sortOrder": 3
+      },
+      "taxonomyPath": "wellness-organic/tea-infusions"
+    }
+  ]
+}

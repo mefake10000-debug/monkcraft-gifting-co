@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans, Fraunces } from "next/font/google";
 import { HashScroll } from "@/components/HashScroll";
 import "./globals.css";
+import "./experience.css";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -18,6 +19,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://monkcraft-gifting-co.vercel.app"),
   title: "Monkcraft Gifting Co | Corporate Gifting for Modern Indian Teams",
   description:
     "Premium corporate gifting, custom-branded merchandise, kits & fulfilment, and company stores — curated for modern Indian teams.",
@@ -28,6 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       className={`${fraunces.variable} ${dmSans.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
         <script

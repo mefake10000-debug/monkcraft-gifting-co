@@ -15,7 +15,7 @@ export type NavLink = {
 
 /** Desktop primary + mobile primary list (secondary filtered out on desktop). */
 export const PRIMARY_NAV: NavLink[] = [
-  { href: "/gifts", label: "Gifts", match: "gifts-root" },
+  { href: "/gifts", label: "Catalogs", match: "gifts-root" },
   { href: "/gifts/box", label: "Build a Box", match: "exact" },
   { href: "/studio", label: "Studio", match: "prefix" },
   { href: "/company-stores", label: "Company Stores", match: "prefix" },

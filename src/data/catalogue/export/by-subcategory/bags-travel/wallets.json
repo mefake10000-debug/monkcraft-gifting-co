@@ -1,0 +1,4465 @@
+{
+  "schemaVersion": "2.0.0",
+  "category": {
+    "id": "C4",
+    "code": "C4",
+    "name": "Bags & Travel",
+    "slug": "bags-travel",
+    "path": "bags-travel",
+    "sortOrder": 4
+  },
+  "subcategory": {
+    "id": "C4:wallets",
+    "categoryId": "C4",
+    "name": "Wallets",
+    "slug": "wallets",
+    "path": "bags-travel/wallets",
+    "sortOrder": 4
+  },
+  "categoryProductCount": 806,
+  "productCount": 33,
+  "products": [
+    {
+      "slug": "clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown",
+      "title": "Clara Women’s Genuine Leather Sling Bag | Crossbody & Travel Purse | Color- Pink, Blue, Black, Beige & Brown",
+      "sku": "MGC-1581",
+      "brand": {
+        "name": "Leather Talks",
+        "slug": "leather-talks"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Clara Sling Bag is the perfect combination of style, functionality, and luxury, designed to meet the needs of modern women who appreciate both elegance and practicality. Crafted from premium materials with a sophisticated textured finish, this bag offers versatility, durability, and ample space to keep all your essentials neatly organized. Whether you're heading to work, travelling, or out for a casual outing, the Clara Sling Bag is the perfect accessory to elevate your look.",
+      "shortDescription": "The Clara Sling Bag is the perfect combination of style, functionality, and luxury, designed to meet the needs of modern women who appreciate both elegance and practicality. Crafted from premium materials with a sophisticated textured finish, this bag offers versatility, durability, and ample space to keep all your essentials neatly organized. Whether you're heading to work, travelling, or out for a casual outing, the Clara Sling Bag is the perfect accessory to elevate your look.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1581",
+        "Product Code": "MGC-1581"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 6995.0,
+        "amountMinorUnits": 699500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 6995.0,
+            "amountMinorUnits": 699500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605689
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/0-master-d343ff4f6c67.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a5b0638d96ea92ff11f012ce1c54598db5544e41b4ee1f2df1e714e17ddbfb68"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/1-angle-00cac5f25033.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4a922b7be023757284c29917f9596c9b0d145a216715bad61295780af0cb3633"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/2-angle-24c0bb6aa7c6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "6e5178763633ba35cbaebb56f804d84d5bce796b65260e250d0de21375af7d7b"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/3-angle-f120fffe7dab.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c7dab44beb4a255b7996224a0b9708e9626bd7e06e3d27f51a80f5ee512ac94f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/4-angle-d98a64775183.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "a49c569103cd25d98a1b516250716c029fed816ae48bd42ea74367b8d0e069d4"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/5-angle-26f9d0c86286.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "1f80d24a304f7040868717271dd62e2f601361c7f4cfa014cd044d5d33a48f2e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/6-angle-3375fe0810f0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fae618c62cc4ff38dbe5a22c3ae4b6f6ee0ade2dea8959d8e25d6259972d0a1e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/7-angle-e8527e1d39d4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "89092cdd754bd67f898c107248ae1f3405672e91afdb01b10b942f34e775a7db"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/8-angle-ba9efe23bf7c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "75a4c9e0001d111efff922c4e7514129c52327d9e66b1a3479314bdde31cd493"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/clara-women-s-genuine-leather-sling-bag-color-blue-pink-black-beige-brown/9-angle-ff526e0e98c1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "347820d92412aaa439f3c110aeed04edcb59afc45a14b89a9d4e3a7bb901abf6"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "classic-wallet",
+      "title": "CLASSIC WALLET",
+      "sku": "MGC-1586",
+      "brand": {
+        "name": "NAPPA DORI",
+        "slug": "nappa-dori"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Product Description An indispensable item every man needs. Our classic wallet is handcrafted in Handcrafted Leather and is equipped with 8 card slots for cards and cash. Quantity: 1 N Dimension 11.5cm x 10.5cm Care Instructions Leather is a natural material and ages beautifully, however, please avoid using your product in extreme conditions like heavy rains. Clean the leather surface with a soft, dry, or slightly damp cloth, and allow it to dry naturally. Exposure to direct sunlight can cause th",
+      "shortDescription": "Product Description An indispensable item every man needs. Our classic wallet is handcrafted in Handcrafted Leather and is equipped with 8 card slots for cards and cash. Quantity: 1 N Dimension 11.5cm x 10.5cm Care Instructions Leather is a natural material and ages beautifully, however, please avoid using your product in extreme conditions like heavy rains. Clean the leather surface with a soft, dry, or slightly damp cloth, and allow it to dry naturally. Exposure to direct sunlight can cause th",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1586",
+        "Product Code": "MGC-1586"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3600.0,
+        "amountMinorUnits": 360000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3600.0,
+            "amountMinorUnits": 360000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605705
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/0-master-df15f20ff1e2.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1059,
+          "format": "webp",
+          "sha256": "60aa587e188ce2e8a6ac279caf1e09fae9fb5031c1978ce631b4bd0199a52aae"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/1-angle-abbbb5913468.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1059,
+          "format": "webp",
+          "sha256": "153b318fb3a7d7136d8043fd4128b93f7d9ddc35d630d58e94e516f4516926ca"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/2-angle-0e709d65adc3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "a62ad3fe93b906ceb623f66e66f4f8f3739f9d484e57c211e51dc18d9772c6aa"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/3-angle-cdae2b8d77bd.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "04f9a57f05593a56c6d5437df693ccc18442690ed45401c9526664a5939260dd"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/4-angle-fe94f9eb4c2a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "738446ec1b131a103d5f72dcd8877259fb80d2e450feba48fd63643d458a575f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/5-angle-c67b7a4bda47.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "a743330814725351b6425549f7da3a82b94d0b6aa670ce4381793165d073307e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/6-angle-538064a1fa70.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "b876e64624b4facaad679dc56e736b5982890d9bd4a7d3c1e0c9ca5220078d54"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/7-angle-99472e5b88aa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "d960dab20fddc649fc7d4551b8a1cd65d89a95e30df58765d75c03045c5be255"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/8-angle-2c4dedfc1fb8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1059,
+          "format": "webp",
+          "sha256": "6c32e4267b0645426f037d5a0b7930d89b45b94cbb9fbe31a97b07321f1540df"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/classic-wallet/9-angle-08d724c83c66.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1059,
+          "format": "webp",
+          "sha256": "5ffdcc46750f9ac51f71705534508a6ea5a5d88500268609079da1ff909f68b5"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black",
+      "title": "Corporate Diwali Gifts - Fab IV Gent's Wallet | Croco Leather Wallet for Men | 100% Genuine Leather | Color: Tan, Navy Blue, Brown",
+      "sku": "MGC-1583",
+      "brand": {
+        "name": "Leather Talks",
+        "slug": "leather-talks"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "An amazing wallet in croco Leather that might be slim but can hoard all your essentials in a very compact way. It’s detailed stitching and gorgeous patterned cover makes it a fashionably functional accessory to flaunt wherever you go. It is sure to last you many years even after enduring rough physical day-to-day use. Dimensions (LX B X H): 11.43 x 1.27 x 10.16 CM",
+      "shortDescription": "An amazing wallet in croco Leather that might be slim but can hoard all your essentials in a very compact way. It’s detailed stitching and gorgeous patterned cover makes it a fashionably functional accessory to flaunt wherever you go. It is sure to last you many years even after enduring rough physical day-to-day use. Dimensions (LX B X H): 11.43 x 1.27 x 10.16 CM",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1583",
+        "Product Code": "MGC-1583"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2595.0,
+        "amountMinorUnits": 259500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2595.0,
+            "amountMinorUnits": 259500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605697
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/0-master-5ba0169476a6.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "cb8bd65c0c8c5e5db260186778db7e82fa14dd8b8668641e798f7d71e3bbe38c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/1-angle-ba71faf683bc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "aac25239db9372274ea9247705c09d9d547f40a450da9ada0502220ef921121c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/2-angle-05e5a070cc9a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1f9f1f1f55f161917af87092fe7423c7349ee6287fb563623b06ecfb1cc80919"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/3-angle-134591900ade.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ec9b0b338651878627a7ab759f8a01b6393f1171d86041205e558cfba7bb5ead"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/4-angle-eb5dfa8b5992.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a019d7e63aef9e3b9b42b721048c5e4bd1078ad4551031fad2786e38fd49290d"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/5-angle-009954269350.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1e786ffb94e4a54d039ad4d1e614b705a56aaa728014dcc05582f95817a1d098"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/6-angle-dfc33697616a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "20f10084973f40a01c9963c8403a97cb9a14003e48f9d047b812d3d7a05b7cd0"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/7-angle-40ac648f5183.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "111a0c47c16159e00a2881c51705ead7a91784f58d2886c983a223d6fa45ba8a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/8-angle-8fa2228d25c6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b5fbf146cbb7206f732b8d39f0b572453dfcab27b288f33e16ae285e6c7f6b5f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/corporate-diwali-gifts-fab-iv-gents-wallet-croco-leather-wallet-for-men-100-genuine-leather-color-navy-blue-brown-black/9-angle-5d50dd5ac993.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0b5412c986bb9c040928d05ea09e7b3f01e71dcfc9aa892fb84fb12d5d3597d4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "elan-horizontal-card-holder-black",
+      "title": "Elan Horizontal Card Holder- Black",
+      "sku": "MGC-1569",
+      "brand": {
+        "name": "Elan",
+        "slug": "elan"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Elan Horizontal Card Holder in black — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Elan Horizontal Card Holder in black — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1569",
+        "Stock Update Date": "13 Jul 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Elan",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Faux Leather Fabric",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1569"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 845.0,
+        "amountMinorUnits": 84500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 845.0,
+            "amountMinorUnits": 84500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605654
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-black/0-master-c79bbd4309c6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "af7b685552122fc6f3bded087294aa2cf3d891efb617b984877c3963d97a401a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-black/1-angle-d7b4347b1f8d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "eaafaf00eabe3b0efa6a68178c429f954ff90cc06b5b6d237f86a15076a7c546"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-black/2-angle-774497794548.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9b6e5320ac23a210becc96d9e8c19eaa7ee6377199af2bb27aa3f2c92cf45003"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-black/3-angle-eb67b0cb1e93.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "af9e29815dcf88af5f564782586af1d9061b950bfd0be1a3c4885ba15748d39c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "elan-horizontal-card-holder-blue",
+      "title": "Elan Horizontal Card Holder- Blue",
+      "sku": "MGC-1570",
+      "brand": {
+        "name": "Elan",
+        "slug": "elan"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Elan Horizontal Card Holder in blue — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Elan Horizontal Card Holder in blue — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1570",
+        "Stock Update Date": "13 Jul 2026",
+        "Country of Origin": "India",
+        "Color": "Blue",
+        "Brand": "Elan",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Faux Leather Fabric",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1570"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 845.0,
+        "amountMinorUnits": 84500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 845.0,
+            "amountMinorUnits": 84500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605659
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-blue/0-master-80f886154eb7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cd103341e6e1920fcf0f676c88a248c281ae1ebe187e68162a6b67119585430c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-blue/1-angle-c2c53807abca.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "99339761c0c64d85dfab930e1d33e1a030725c5c73a23f382ebd336c907f3355"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-blue/2-angle-b172591f8dfb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "af39971cf0f7f193fa25044774f974776973cda71f0a179407e3b8c1c4cfa2b6"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-blue/3-angle-8575cc9082e2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2caf35a6e05cff0f915363615bea46e1abecc79be8d4dcc44601d6c9e383f36e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "elan-horizontal-card-holder-brown",
+      "title": "Elan Horizontal Card Holder- Brown",
+      "sku": "MGC-1571",
+      "brand": {
+        "name": "Elan",
+        "slug": "elan"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Elan Horizontal Card Holder in brown — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Elan Horizontal Card Holder in brown — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1571",
+        "Stock Update Date": "13 Jul 2026",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "Elan",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Faux Leather Fabric",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1571"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 845.0,
+        "amountMinorUnits": 84500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 845.0,
+            "amountMinorUnits": 84500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605662
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-brown/0-master-5e9942553f70.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c7e0e81e8a33de0d14ffdac9e404cd2124243b3d6faff1f1de86c97f3bf9fcdc"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-brown/1-angle-a5039cf25254.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d1afe58e227f11c6ccdb0e2b588fb4e76046a22e4eec10fbfd0aa6bd5c9d01ca"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-brown/2-angle-b99a85b29987.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "424c3c47eebf09f65fba99e5641401ef67df450a1b58fb5866d2b7ed0a448c79"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-horizontal-card-holder-brown/3-angle-a12aa729ce15.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8cc7fb1a5873014b82741d5f83185ed82859500d9046605683d798334159510c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "elan-insignia-coin-pouch-flap-wallet-black",
+      "title": "Elan Insignia Coin Pouch Flap Wallet- Black",
+      "sku": "MGC-1574",
+      "brand": {
+        "name": "Elan",
+        "slug": "elan"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Elan Insignia Coin Pouch Flap Wallet in black — premium leather coin pouch and card wallet for daily use. Affordable corporate gift or joining kit.",
+      "shortDescription": "Elan Insignia Coin Pouch Flap Wallet in black — premium leather coin pouch and card wallet for daily use. Affordable corporate gift or joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1574",
+        "Stock Update Date": "13 Jul 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Elan",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Faux Leather Fabric",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1574"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1270.0,
+        "amountMinorUnits": 127000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1270.0,
+            "amountMinorUnits": 127000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605669
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-black/0-master-c16cd6804d7f.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "36c4f6ef5d133e5ff8c7147d9036a53e28e5fc53ce62ef66bd593577723c92de"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-black/1-angle-24e3fcc2ace3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7b8085f3e759d19396ec8b5ab57f1e7b9480909dde0b2ec7698342a3d7c8f285"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-black/2-angle-37819708b545.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f518f7e32f81504e4ff438d503842dc223547293a8bce3f82f575e351835df5c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-black/3-angle-cb2e8f2182fa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fbca1509b8ab8b5bc6a82d1ca7f35065f1875f5364237fb6e106a5ac4515c94d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "elan-insignia-coin-pouch-flap-wallet-tan",
+      "title": "Elan Insignia Coin Pouch Flap Wallet- Tan",
+      "sku": "MGC-1575",
+      "brand": {
+        "name": "Elan",
+        "slug": "elan"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Elan Insignia Coin Pouch Flap Wallet in tan — premium leather coin pouch and card wallet for daily use. Affordable corporate gift or joining kit.",
+      "shortDescription": "Elan Insignia Coin Pouch Flap Wallet in tan — premium leather coin pouch and card wallet for daily use. Affordable corporate gift or joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1575",
+        "Stock Update Date": "13 Jul 2026",
+        "Country of Origin": "India",
+        "Color": "Tan",
+        "Brand": "Elan",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Faux Leather Fabric",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1575"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1270.0,
+        "amountMinorUnits": 127000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1270.0,
+            "amountMinorUnits": 127000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605671
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-tan/0-master-cd4c61570ef4.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7b32570090adccedb696c6b4904c973aaa8a356f356c611b2c99486583119eda"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-tan/1-angle-dae2b33f2cb0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b081a919daaf7ba9feb95cecc96a70c190c70643348db8d4fdba138f3a619edc"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-tan/2-angle-d02d6d9ea41a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "04ab26b764a39704d0c8a593cdbc13b0f937019447c9191477e79c38db5d2eeb"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-coin-pouch-flap-wallet-tan/3-angle-c6f1c37b167c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7309f81ffd7185df8e5088bfdfb8bb97c1c8f012bc48ffa544039e1fce7fa90c"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "elan-insignia-compact-card-holder-black",
+      "title": "Elan Insignia Compact Card-Holder- Black",
+      "sku": "MGC-1572",
+      "brand": {
+        "name": "Elan",
+        "slug": "elan"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Elan Insignia Compact Card Holder in black — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Elan Insignia Compact Card Holder in black — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1572",
+        "Stock Update Date": "13 Jul 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Elan",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "PU Leather Fabric",
+        "Product Code": "MGC-1572"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 845.0,
+        "amountMinorUnits": 84500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 845.0,
+            "amountMinorUnits": 84500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605664
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-compact-card-holder-black/0-master-15c43f8de70e.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "73a8a03c79906535dd7d29d1d60e852673779a9c3c1f2155b9782ea7344ee9b2"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-compact-card-holder-black/1-angle-eec3a128d7c3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7ae4fd99581c15cdadb00cd4eb4be6e46ed00d31757a9442490a6641b434f02d"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-compact-card-holder-black/2-angle-79b5f8c06231.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a58435caf8762f0a9e1991739170287e1c67afc38fc500623cc419403b407e15"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "elan-insignia-compact-card-holder-tan",
+      "title": "Elan Insignia Compact Card-Holder- Tan",
+      "sku": "MGC-1573",
+      "brand": {
+        "name": "Elan",
+        "slug": "elan"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Elan Insignia Compact Card Holder in tan — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "Elan Insignia Compact Card Holder in tan — slim leather card holder for office and daily use. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1573",
+        "Stock Update Date": "13 Jul 2026",
+        "Country of Origin": "India",
+        "Color": "Tan",
+        "Brand": "Elan",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "50",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "PU Leather Fabric",
+        "Product Code": "MGC-1573"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 845.0,
+        "amountMinorUnits": 84500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 845.0,
+            "amountMinorUnits": 84500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605667
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-compact-card-holder-tan/0-master-406844020d38.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "0f483966e9be476556f10300af6984903de7260fb6437b1cebdcb2e7b02d1c1b"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-compact-card-holder-tan/1-angle-7225bc7c6b50.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "d60f71152aa237830d400fb265d0b29e572ac9f10a016c78b9e9221da57975e9"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/elan-insignia-compact-card-holder-tan/2-angle-5dc289c5cb5f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f8c8d8689bb3cef2bc9e36c81d5d2def633fe7f6d2f12f6f04994c2deb40d3d4"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "frankfurt-card-wallet-with-rfid-protection-navy-blue-with-tan",
+      "title": "Frankfurt Card Wallet With RFID Protection- Navy Blue With Tan",
+      "sku": "MGC-1596",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Backbencher Frankfurt Card Wallet in navy blue with RFID protection — secure card organizer for daily carry. Premium corporate gift or joining kit.",
+      "shortDescription": "The Backbencher Frankfurt Card Wallet in navy blue with RFID protection — secure card organizer for daily carry. Premium corporate gift or joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1596",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Navy Blue",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Faux Leather Fabric",
+        "Closure Type": "Flap",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1596"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 315.0,
+        "amountMinorUnits": 31500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 315.0,
+            "amountMinorUnits": 31500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605739
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/frankfurt-card-wallet-with-rfid-protection-navy-blue-with-tan/0-master-bd14dc420b07.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "898077f877c0a3645266dfad548ab864560821e9dadb6013ac0148ce912b37d6"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/frankfurt-card-wallet-with-rfid-protection-navy-blue-with-tan/1-angle-3712839e680c.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Frankfurt RFID Card Wallet Navy – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8597745f61035545c3854cc784ac17a836c451301c45f9963393262e3f199201"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/frankfurt-card-wallet-with-rfid-protection-navy-blue-with-tan/2-angle-976758eafe37.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Frankfurt RFID Card Wallet Navy – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "5ac906c4ac22dc7e7e88cb53e1d19927de7e1dbef0f4dbb48218a23d41c3c031"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "frankfurt-card-wallet-with-rfid-protection-tan-with-black",
+      "title": "Frankfurt Card Wallet With RFID Protection- Tan With Black",
+      "sku": "MGC-1597",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Backbencher Frankfurt Card Wallet in tan with RFID protection — secure card organizer for daily carry. Premium corporate gift or employee joining kit.",
+      "shortDescription": "The Backbencher Frankfurt Card Wallet in tan with RFID protection — secure card organizer for daily carry. Premium corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1597",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Tan",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Faux Leather Fabric",
+        "Closure Type": "Flap",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1597"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 315.0,
+        "amountMinorUnits": 31500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 315.0,
+            "amountMinorUnits": 31500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605742
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/frankfurt-card-wallet-with-rfid-protection-tan-with-black/0-master-135bcf3236e6.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "64de095f4a82cd06d2acc649ef119639d7818e20a654736d41eb883d986f7718"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/frankfurt-card-wallet-with-rfid-protection-tan-with-black/1-angle-74ed83476711.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Frankfurt RFID Card Wallet Tan – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b34a7a25f243e5a2b170055e32d420de221d034b58d1d7abbcb35c0e6d124d85"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/frankfurt-card-wallet-with-rfid-protection-tan-with-black/2-angle-1c95dce9ee43.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Frankfurt RFID Card Wallet Tan – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a92e00a82d9e0114b2cd22de42282a27c692066aa43b5ab0b393211424b235dc"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "henry-travel-wallet-back-with-khaki",
+      "title": "Henry Travel Wallet- Back with Khaki",
+      "sku": "MGC-1598",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Travel wallet for corporate gifting, employee joining kits, and travel gifting — premium The Backbencher Henry Travel Wallet in black with khaki.",
+      "shortDescription": "Travel wallet for corporate gifting, employee joining kits, and travel gifting — premium The Backbencher Henry Travel Wallet in black with khaki.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1598",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Zip",
+        "Product Code": "MGC-1598"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 565.0,
+        "amountMinorUnits": 56500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 565.0,
+            "amountMinorUnits": 56500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605744
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-back-with-khaki/0-master-126df6aa3eea.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "949dc21fee58ed637acff13b37bef16b8a31105030bc17cef8abfc6a599d3179"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-back-with-khaki/1-angle-c804f0f4dc6e.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Khaki – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6e09345035a8205745c69b5365b4639f35a9a7abe62c9ece37e14c7cbca3a7b2"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-back-with-khaki/2-angle-e77251c7d8a3.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Khaki – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8236d4db91b2dd8243ca76b1fc2bd6639c81335f6c4f33a1a6a0c74e846762ad"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-back-with-khaki/3-angle-986d22720962.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Khaki – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb67a26d02e4e10b527cbc7e4ebc7a45c6a32a0f99b022a6605a700c74aafa73"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-back-with-khaki/4-angle-c934c88e0032.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Khaki – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "a3d5ba5903d375e389f8f1d14a81ea2d788a0dafead7a37b743867e3a4033f59"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-back-with-khaki/5-angle-684f65ef6121.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Khaki – Interior View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "95a86c8111283d56fc1403b7116603e5c4e5884cdb27692d964684e14483f13e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "henry-travel-wallet-black-with-grey",
+      "title": "Henry Travel Wallet- Black with Grey",
+      "sku": "MGC-1599",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Travel wallet for corporate gifting, employee joining kits, and travel gifting — premium The Backbencher Henry Travel Wallet in black with grey.",
+      "shortDescription": "Travel wallet for corporate gifting, employee joining kits, and travel gifting — premium The Backbencher Henry Travel Wallet in black with grey.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1599",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Zip",
+        "Product Code": "MGC-1599"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 565.0,
+        "amountMinorUnits": 56500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 565.0,
+            "amountMinorUnits": 56500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605749
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/0-master-97deeee3eff0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fb4c18e20b41c5921e542df71658b2a2f50855062789869ee6fff9b7898eb0ca"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/1-angle-e01fa18cba8e.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Grey – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fd6093e5b26a38eb9952bfe48a22f277840324b67cf802222576dd0be3a8c7f7"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/2-angle-e77251c7d8a3.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Grey – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8236d4db91b2dd8243ca76b1fc2bd6639c81335f6c4f33a1a6a0c74e846762ad"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/3-angle-986d22720962.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Grey – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb67a26d02e4e10b527cbc7e4ebc7a45c6a32a0f99b022a6605a700c74aafa73"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/4-angle-5b444b7a32dc.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Grey – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "48c2fcbf18e4d1b345c38ab074e163e34c52b2807a6ce6f9e13715d9fbc8b1ad"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/5-angle-398bc40ba784.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Grey – Interior View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3ab6ff405c41d21494b84010b27d32f9ffaf4f7075babe7bec3ca79bb30c7834"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/6-angle-684f65ef6121.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Grey – Open View",
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "95a86c8111283d56fc1403b7116603e5c4e5884cdb27692d964684e14483f13e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-grey/7-angle-c7ce970ddb02.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Grey – Package View",
+          "sortOrder": 7,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c46da428c14f27b3aea87847c864215364cc708dfcf48ef66896a702bc3fd256"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "henry-travel-wallet-black-with-olive",
+      "title": "Henry Travel Wallet- Black with Olive",
+      "sku": "MGC-1600",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Travel wallet for corporate gifting, employee joining kits, and travel gifting — premium The Backbencher Henry Travel Wallet in black with olive.",
+      "shortDescription": "Travel wallet for corporate gifting, employee joining kits, and travel gifting — premium The Backbencher Henry Travel Wallet in black with olive.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1600",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Zip",
+        "Product Code": "MGC-1600"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 565.0,
+        "amountMinorUnits": 56500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 565.0,
+            "amountMinorUnits": 56500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605751
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-olive/0-master-54cbd518b32a.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "15c8e7f3b0a3e7af35c875f2ead844f87d2e0f1e7603934cc21d514c71621a15"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-olive/1-angle-b8a524067636.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Olive – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b4fe6e24b91049060765698b02b21d1b9e8132a4dd902f64bdbe4b793a8ebbf1"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-olive/2-angle-e77251c7d8a3.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Olive – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8236d4db91b2dd8243ca76b1fc2bd6639c81335f6c4f33a1a6a0c74e846762ad"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-olive/3-angle-986d22720962.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Olive – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb67a26d02e4e10b527cbc7e4ebc7a45c6a32a0f99b022a6605a700c74aafa73"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-olive/4-angle-46e05fbfcdac.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Olive – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e1d7ed7e6e82d28d2e899011fbfe9580286c0f4e3c3ffec56b890aa5db5aad87"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/henry-travel-wallet-black-with-olive/5-angle-684f65ef6121.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Henry Travel Wallet Black with Olive – Interior View",
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "95a86c8111283d56fc1403b7116603e5c4e5884cdb27692d964684e14483f13e"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "hidesign-card-holder-black",
+      "title": "Hidesign Card Holder- Black",
+      "sku": "MGC-1576",
+      "brand": {
+        "name": "Hidesign",
+        "slug": "hidesign"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Card holder for corporate gifting, employee welcome kits, and client gifting — premium Hidesign black leather card holder.",
+      "shortDescription": "Card holder for corporate gifting, employee welcome kits, and client gifting — premium Hidesign black leather card holder.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1576",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Female",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Hidesign",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Open",
+        "No. of Compartments": "1",
+        "Product Code": "MGC-1576"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 1795.0,
+        "amountMinorUnits": 179500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 1795.0,
+            "amountMinorUnits": 179500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605677
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-card-holder-black/0-master-0c3bcdc40cc7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "fa23fffc0eb1830a36d6902f7e7269b884ea565591aed38b6ec5ef2f2d43703c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-card-holder-black/1-angle-c6f2db994ebc.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Card Holder Black – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "e79bad05f887be561576c3bb3ed0fcc8271f7b4a5f66cd57ee8cde3c3584b23b"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-card-holder-black/2-angle-c40344d46116.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Card Holder Black – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "80fb361bbf423f5920b0536ec633f2f01779868f259f07304ba15c5a3675774a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-card-holder-black/3-angle-d25d97ea83a6.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Card Holder Black – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b89864125037ff6a6f1688f5d2ee3caa46be04157a425eb979119a2c578731fd"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "hidesign-mens-wallet-black",
+      "title": "Hidesign Mens Wallet- Black",
+      "sku": "MGC-1579",
+      "brand": {
+        "name": "Hidesign",
+        "slug": "hidesign"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Men's wallet for corporate gifting, employee welcome kits, and client gifting — premium Hidesign black leather mens wallet.",
+      "shortDescription": "Men's wallet for corporate gifting, employee welcome kits, and client gifting — premium Hidesign black leather mens wallet.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1579",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Female",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "Hidesign",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1579"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2995.0,
+        "amountMinorUnits": 299500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2995.0,
+            "amountMinorUnits": 299500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605684
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-black/0-master-3881ecb6f24b.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c5b07e94922db30a96cbd94d1364bd4263db144c17cd526a4374e51e16f8898f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-black/1-angle-3d87a55fe39e.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Black – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "dbc120f428a7565ea355e7d7c3003231bf00f20bbb83c5c1961160819a511a4b"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-black/2-angle-4abe2faa6108.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Black – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c21e80125b38f37b4aaa563799b464aefabd76bd71840ea9b9ac862b0b464ba6"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-black/3-angle-0c24be0bedee.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Black – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1049805d42a07bf895bb26a4fc75b93e6a045c16a25ab5b27634085600d2a63a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-black/4-angle-5f3beb606058.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Black – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f99cb489a92d7129ad01985723f9f0dc2b0c935f62e4347aa46fb9541669d7fb"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "hidesign-mens-wallet-tan",
+      "title": "Hidesign Mens Wallet- Tan",
+      "sku": "MGC-1577",
+      "brand": {
+        "name": "Hidesign",
+        "slug": "hidesign"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Men's wallet for corporate gifting, employee welcome kits, and client gifting — premium Hidesign tan leather mens wallet.",
+      "shortDescription": "Men's wallet for corporate gifting, employee welcome kits, and client gifting — premium Hidesign tan leather mens wallet.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1577",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Female",
+        "Country of Origin": "India",
+        "Color": "Tan",
+        "Brand": "Hidesign",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1577"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2745.0,
+        "amountMinorUnits": 274500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2745.0,
+            "amountMinorUnits": 274500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605680
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-tan/0-master-a2682801f2c0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "39794f9aea7728f78717ed86b826ab83ce998fcd43f82253291a8b6c0bd4fb23"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-tan/1-angle-6d405a21030c.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Tan – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2d16826f817867531fb7acdb7347a15594d59774a9a0f4b1269701032f2a829f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-tan/2-angle-2c5a3c76ff82.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Tan – Back View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7c8611b8c52b31642eeef83a4411baa3420813aa27c62aa65ba9bc6a17fcb66a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-tan/3-angle-1d78b9adb05e.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Tan – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "04c4858c2650f471597c5623af0c9cd69b9c157a06928e8f159347e9ba6e6011"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-mens-wallet-tan/4-angle-910a2ee08ade.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Mens Wallet Tan – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "2e1bbd33eb20de8c5b9c7e5e8afe4d36602900d270bfbb494853a813db51049d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "hidesign-passport-wallet-tan",
+      "title": "Hidesign Passport Wallet- Tan",
+      "sku": "MGC-1580",
+      "brand": {
+        "name": "Hidesign",
+        "slug": "hidesign"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Passport wallet for corporate gifting, employee travel kits, and client gifting — premium Hidesign tan leather travel wallet.",
+      "shortDescription": "Passport wallet for corporate gifting, employee travel kits, and client gifting — premium Hidesign tan leather travel wallet.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1580",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Female",
+        "Country of Origin": "India",
+        "Color": "Tan",
+        "Brand": "Hidesign",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Bi-fold",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1580"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3045.0,
+        "amountMinorUnits": 304500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3045.0,
+            "amountMinorUnits": 304500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605687
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-passport-wallet-tan/0-master-9e48a20dd166.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "48a70d165b52d3c52f00e0634701fc98a518c54b007568a5f21460568c6113b0"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-passport-wallet-tan/1-angle-de56b022ce90.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Passport Wallet Tan – Side View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bd56cd1ac063dfd02359b060f25d02ca89fe88a4c35f33668bf2c39946e2bc55"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-passport-wallet-tan/2-angle-fa41b6680b83.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Passport Wallet Tan – Back View",
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "fba38a1a1cc8b84bfc9302d3e51f79af3387a0760dc4ce20221d004eff7b3004"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-passport-wallet-tan/3-angle-5d8e72a42a3a.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Passport Wallet Tan – Detail View",
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "8b826c8bf7e6fd21dcf3e06a418457400412d8ad852337a9b2329ea9fbbcb237"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/hidesign-passport-wallet-tan/4-angle-85676e8ba940.webp",
+          "role": "ANGLE",
+          "variantKey": "Hidesign Passport Wallet Tan – Alternate View",
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "4d18bad829a5807f6c320797267c9c989623ddb1c19cd39bf61cd82c18c8504d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "hidesign-women-martina-double-zip-around-wallet-brown",
+      "title": "Hidesign Women Martina Double Zip Around Wallet- Brown",
+      "sku": "MGC-1578",
+      "brand": {
+        "name": "Hidesign",
+        "slug": "hidesign"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Hidesign Women Martina Double Zip Around Wallet in brown — premium leather wallet for women's everyday use. Premium corporate gift or joining kit.",
+      "shortDescription": "Hidesign Women Martina Double Zip Around Wallet in brown — premium leather wallet for women's everyday use. Premium corporate gift or joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1578",
+        "Stock Update Date": "5 Jun 2026",
+        "Gender": "Female",
+        "Country of Origin": "India",
+        "Color": "Brown",
+        "Brand": "Hidesign",
+        "Customization Type": "Screen Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Material": "Leather",
+        "Closure Type": "Zip",
+        "No. of Compartments": "2",
+        "Product Code": "MGC-1578"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2895.0,
+        "amountMinorUnits": 289500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2895.0,
+            "amountMinorUnits": 289500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605682
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants",
+          "images"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "houston-card-wallet-grey-with-tan",
+      "title": "Houston Card Wallet- Grey with Tan",
+      "sku": "MGC-1594",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Backbencher Houston Card Wallet in grey and tan — compact slim organizer for cards and daily carry. Affordable corporate gift or joining kit.",
+      "shortDescription": "The Backbencher Houston Card Wallet in grey and tan — compact slim organizer for cards and daily carry. Affordable corporate gift or joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1594",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Grey",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Faux Leather Fabric",
+        "No. of Compartments": "3",
+        "Product Code": "MGC-1594"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 285.0,
+        "amountMinorUnits": 28500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 285.0,
+            "amountMinorUnits": 28500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605733
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/houston-card-wallet-grey-with-tan/0-master-464a206eb023.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "99b2e9394664f0152f2c1a63b7a7514408467e3e5ef80ea5cf4ef9c99b708321"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/houston-card-wallet-grey-with-tan/1-angle-4acb154f0ccb.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Houston Card Wallet Grey Tan – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b297f219dd7584fcbfa1a85795ef7a8acc861356c6112d866805e0bfa61b352c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/houston-card-wallet-grey-with-tan/2-angle-084f32a81b47.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Houston Card Wallet Grey Tan – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "b075a516efd02c680c4751550388dc237d7da7d6d8abe6727d100a1a3d9a9ce2"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "houston-card-wallet-navy-blue-with-tan",
+      "title": "Houston Card Wallet- Navy Blue with Tan",
+      "sku": "MGC-1595",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Backbencher Houston Card Wallet in navy blue and tan — compact slim organizer for cards and daily carry. Affordable corporate gift or joining kit.",
+      "shortDescription": "The Backbencher Houston Card Wallet in navy blue and tan — compact slim organizer for cards and daily carry. Affordable corporate gift or joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1595",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Navy Blue",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Faux Leather Fabric",
+        "No. of Compartments": "3",
+        "Product Code": "MGC-1595"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 285.0,
+        "amountMinorUnits": 28500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 285.0,
+            "amountMinorUnits": 28500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605736
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/houston-card-wallet-navy-blue-with-tan/0-master-22eea4f6cab0.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "582035d31d8bf32408b79c4a5206941b57b027ad2b3603da5da9404b6108b7f0"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/houston-card-wallet-navy-blue-with-tan/1-angle-20ee01cffd4b.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Houston Card Wallet Navy Blue – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "30008c729d6bb12485ba3f61cc3837abdadd0bb523e36a70a51b4857222654e7"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/houston-card-wallet-navy-blue-with-tan/2-angle-e870d054265a.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Houston Card Wallet Navy Blue – Detail View",
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "bfd83b5ad63a138ca130ee4a00c6b71057817c27fd54b1ab8475684bd0fa953b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "mens-valet-box-2-blue-grey-green-tan",
+      "title": "Men’s Genuine Leather Watch Box Organizer | 6 Slot Watch Case with Velvet Lining, Pen Holder & Valet Tray for Wallet & Accessories | Color: Green, Tan, Blue, Grey",
+      "sku": "MGC-1582",
+      "brand": {
+        "name": "Leather Talks",
+        "slug": "leather-talks"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Men's Watch Box / Organizer is the perfect solution for keeping your luxury watch collection safe, organized, and stylish. Crafted from premium genuine leather with a croco print pattern, this watch box features a sophisticated, modern design with a golden lock and metal hardware fittings. The high-quality craftsmanship and elegant look make it a must-have accessory for watch enthusiasts who value both style and function. Whether for your bedside table, office desk, or wardrobe, this luxury ",
+      "shortDescription": "The Men's Watch Box / Organizer is the perfect solution for keeping your luxury watch collection safe, organized, and stylish. Crafted from premium genuine leather with a croco print pattern, this watch box features a sophisticated, modern design with a golden lock and metal hardware fittings. The high-quality craftsmanship and elegant look make it a must-have accessory for watch enthusiasts who value both style and function. Whether for your bedside table, office desk, or wardrobe, this luxury ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1582",
+        "Product Code": "MGC-1582"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 12995.0,
+        "amountMinorUnits": 1299500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 12995.0,
+            "amountMinorUnits": 1299500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605694
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/0-master-7a0e2113a13e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "0f7f811f76d0b3665dfedcde9dd6a983a2d0bde27426f44f484ac41a684349f8"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/1-angle-308d11f492c0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "8c52327db74e4f8d7cb566e167e61cdaafefbbf1f829199cec0892828b34b821"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/2-angle-6bd91017c4e7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "d88fb2e6d551c84554b69a2351c913baf9dcf8ebdf8bd1f73206f04ea2195d94"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/3-angle-ad16b8dcb608.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "b36138417c4bdd5447fa193256bd68339bdeac0c253f564cb17bed7f697bb331"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/4-angle-58d4ce71641b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "9bd7c3e22017bc79bd47179a5872c87f47667c510c3853a51c8194ea3d8e7a90"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/5-angle-7ebffb6d04ca.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "f4d0953e672d0d3b4421e8fc24bbda7d8f0bf11bbd5bdd0294099ffc29fc6662"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/6-angle-c9e307bf26f9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "c54fb6bf72324c82e79a46c77935158cb0c381be65a6f62b1d93920da62438d9"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/7-angle-3be809c10f5e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "f2e794b5177d9d29d9ababfd06f05ecad3cefba1317f5852d486bc2397214a7b"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/8-angle-85131a55f5df.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0f27c972662e1bd50ad2ffcb03f78f639a2894557bc11415fcfdf7459ada9810"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mens-valet-box-2-blue-grey-green-tan/14-angle-254e6b859503.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "1797f742d95e7fb73def73e45f8645cfe43a814b6bf89c9580005babd0399827"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "mobile-wallet-pro-black",
+      "title": "Mobile Wallet Pro- Black",
+      "sku": "MGC-1593",
+      "brand": {
+        "name": "The Backbencher",
+        "slug": "the-backbencher"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Backbencher Mobile Wallet Pro in black — slim phone and card combo wallet for daily carry. Affordable corporate gift or employee joining kit.",
+      "shortDescription": "The Backbencher Mobile Wallet Pro in black — slim phone and card combo wallet for daily carry. Affordable corporate gift or employee joining kit.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1593",
+        "Stock Update Date": "4 Aug 2026",
+        "Country of Origin": "India",
+        "Color": "Black",
+        "Brand": "The Backbencher",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Faux Leather Fabric",
+        "No. of Compartments": "1",
+        "Product Code": "MGC-1593"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 125.0,
+        "amountMinorUnits": 12500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 125.0,
+            "amountMinorUnits": 12500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605731
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 1,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/mobile-wallet-pro-black/0-master-efabd7f67aa7.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "c95354edb22b4a973d9b9b7a74fa622fee0f8407ea21114652c3a92aa6a583ec"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/mobile-wallet-pro-black/1-angle-61638bf14b02.webp",
+          "role": "ANGLE",
+          "variantKey": "The Backbencher Mobile Wallet Pro Black – Alternate View",
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "744783c51be0c8fd638467b1592142b7a244cc86b67e15218036f57abe4fbc7d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "nordic-clutch",
+      "title": "NORDIC CLUTCH",
+      "sku": "MGC-1587",
+      "brand": {
+        "name": "NAPPA DORI",
+        "slug": "nappa-dori"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Product Description Bringing Nordic aesthetics to your gala ensemble, the Nordic Clutch inspires an entirely unique minimalist design to the conventional hand-held clutch. It is handcrafted in the finest Handcrafted Leather that lends it durability as well as style. The interior is lined with striped cotton fabric, and the exterior is secured with a magnetic flap stitched at the back. Quantity: 1 N Dimension 19.05 cm x 10.16 cm x 5.08 cm Care Instructions Leather is a natural material that ages ",
+      "shortDescription": "Product Description Bringing Nordic aesthetics to your gala ensemble, the Nordic Clutch inspires an entirely unique minimalist design to the conventional hand-held clutch. It is handcrafted in the finest Handcrafted Leather that lends it durability as well as style. The interior is lined with striped cotton fabric, and the exterior is secured with a magnetic flap stitched at the back. Quantity: 1 N Dimension 19.05 cm x 10.16 cm x 5.08 cm Care Instructions Leather is a natural material that ages ",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1587",
+        "Product Code": "MGC-1587"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 8800.0,
+        "amountMinorUnits": 880000,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 8800.0,
+            "amountMinorUnits": 880000,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605708
+          }
+        ]
+      },
+      "availability": {
+        "status": "OUT",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/0-master-7dfb5487cb59.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "1dcd87ad3a552bfdc46eab67019c4fa56bf971f5cf62e943eebab69c7aa26603"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/1-angle-f5947474469a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 800,
+          "height": 800,
+          "format": "webp",
+          "sha256": "c70275cd2dc161f8d943c2936553b08918942352be7d7f3009f70ecc489b9273"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/2-angle-4f128ababe19.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1059,
+          "format": "webp",
+          "sha256": "fc097f8d2a0248c2078afde5e7567bdff3fea36245f254edf56518a85f150b4a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/3-angle-730de194c52c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "138de805699fe6c5bf88a3e52b211a38020f8b0941048ce553ab96136cbe8517"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/4-angle-9f3e5638b751.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "23ef3f0638373f6c5875c0de8f136f3740edc00d021e35be2ee9a3bad422358c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/5-angle-2eaf47bd481e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "3e671abc8cb381a8f6fc78c55199260fe1417a7eb7f45972baa690000a2e2dfd"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/6-angle-24ec3d1a49fa.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "b9d237160d7fb9715c5171d184de79929d33df5944c993552cc4407dcc2e1ff9"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/7-angle-cff4fd4284d8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "c70823f7d6816253aa38e349d4da0ebfc03458177fc9c3ab32699f6e15397c20"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/8-angle-d1ac73811bb3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "6c11993b2cd031f3b550e3ada4b42ec06da0023739129ad1e22825f54d66e4f5"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/nordic-clutch/9-angle-1a91c499940b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1058,
+          "format": "webp",
+          "sha256": "56b7092cf44affa3f20f67fd28f7074cd17254e714c3af42d85f32dc2d9ec51d"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "okan-zipper-wallet",
+      "title": "OKAN ZIPPER WALLET",
+      "sku": "MGC-1590",
+      "brand": {
+        "name": "ShopNooe",
+        "slug": "shopnooe"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Okan Zipper Wallet reimagines compact carry with NOOE’s signature silhouette. Multi-functional and refined, it holds cards, coins, and small essentials with ease. A streamlined wrist strap adds effortless portability to this fashion-meets-function essential. Built for those who want more from less.",
+      "shortDescription": "The Okan Zipper Wallet reimagines compact carry with NOOE’s signature silhouette. Multi-functional and refined, it holds cards, coins, and small essentials with ease. A streamlined wrist strap adds effortless portability to this fashion-meets-function essential. Built for those who want more from less.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1590",
+        "Product Code": "MGC-1590"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2799.0,
+        "amountMinorUnits": 279900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2799.0,
+            "amountMinorUnits": 279900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605718
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/0-master-4847873d256e.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "d69f9e076f071142e14ee17c49f170f943c94adafd7ef7a44756246779448f9a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/1-angle-aaa2da43b598.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 961,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8d39af5ee521ec99b246c87ee7ed5a4976b64f1dfe65dd58f826927756d964a7"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/2-angle-717a541f8d44.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "af98c3f7857e70530f61c4b5d3f989abf3daace52ad841cca05adc2c4bd816b1"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/3-angle-1f98bc5156f3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3e7e49aca0b1bb78c1637d6e96ce70918eb41ec3ad937a27e488d0f242c429a5"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/4-angle-807b15525fcb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a3f76022b81bca69ba20baa90eb58c3cad11607e1c6ac1a49afb2b11e7debb47"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/5-angle-7f2634e71681.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "856f8166b54ef17471a3493ecd6d1536ba03618a60f645ea51e3f9da9650391f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/6-angle-702a00bfa958.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8348ee96c83402b5157b5a892744ba290bb5c58a29b50b140c0266803652ded9"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/7-angle-584ab620a701.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 961,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1d90054840b69a55ad7c08a5696429835d66e104326d438b9899468947adcafd"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/8-angle-4cd3acfc06e6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "c10464f71d27e7f6611ff5f6595204d4eadd21224373fb779849c19a4439b293"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/okan-zipper-wallet/9-angle-c9363038374d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 950,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7b056efba7d84d39a02a91cb25a9339760cc5d98ab5817487b3c2b53f791026b"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "q38-cork-dual-set-wallet-with-keychain",
+      "title": "Q38- Cork Dual Set Wallet With Keychain",
+      "sku": "MGC-1588",
+      "brand": {
+        "name": "Power Plus",
+        "slug": "power-plus"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Q38- Cork Dual Set Wallet With Keychain  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "shortDescription": "Q38- Cork Dual Set Wallet With Keychain  — personalise with your logo. Corporate & bulk gifting by Monkcraft with pan-India delivery and volume pricing.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1588",
+        "Brand": "Power Plus",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "100",
+        "Dispatch Timeline": "5 to 10 Working Days",
+        "Product Code": "MGC-1588"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 255.0,
+        "amountMinorUnits": 25500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 255.0,
+            "amountMinorUnits": 25500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605713
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "5 to 10 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/q38-cork-dual-set-wallet-with-keychain/0-master-1e6c53b4a9ee.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "6a995092bfffa9e405712ae71171ee054abf7cfc978fe5156eead38b26012008"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/q38-cork-dual-set-wallet-with-keychain/1-angle-9d3127752fe7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7d41a3839402bbac2e8db267e46b84f98c3805228e9715b00b1364f54716139c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/q38-cork-dual-set-wallet-with-keychain/2-angle-b33a1726e5a6.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "23fb2ff18f392ceea0f443a65809b3878fab0fb3ce1e82f9d11a1bbcd77c9818"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/q38-cork-dual-set-wallet-with-keychain/3-angle-60bcf976e68c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "3b422245890928a3a16f6e6535d84cebaf6bfbe618f8c3de8af02d953a0c13c1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black",
+      "title": "Raksha Bandhan Gift | Austin Bifold Stitchless Leather Wallet | Genuine Leather | RFID Safe | Colour: Brown & Black",
+      "sku": "MGC-1585",
+      "brand": {
+        "name": "Leather Talks",
+        "slug": "leather-talks"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Let your standard exude class with this exquisite choice from the house of Leather Talks—the Austin Men’s Stitch less Wallet. The thoughtful design of this wallet ensures every flawless detail speaks for itself. Sophisticated in its appearance, it has been specially curated for the dynamic, modern gentleman in action. With its compact size, it easily fits into pockets without adding bulk. The stitch less construction adds a touch of uniqueness, making it a standout piece.",
+      "shortDescription": "Let your standard exude class with this exquisite choice from the house of Leather Talks—the Austin Men’s Stitch less Wallet. The thoughtful design of this wallet ensures every flawless detail speaks for itself. Sophisticated in its appearance, it has been specially curated for the dynamic, modern gentleman in action. With its compact size, it easily fits into pockets without adding bulk. The stitch less construction adds a touch of uniqueness, making it a standout piece.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1585",
+        "Product Code": "MGC-1585"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3995.0,
+        "amountMinorUnits": 399500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3995.0,
+            "amountMinorUnits": 399500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605703
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/0-master-00eb6351fbf8.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "189d4d426059bbd5d6175bb17c659f7b32e4141e9d5b603d37390e6f55fb891e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/1-angle-4cd622cb53ab.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "9f98aca9aefae3e0f0cde1abb0201ba2a946b06c644fefbcb91b3c0647ea60a2"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/2-angle-fa1730d6a017.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "950c5ca548e5495ed296ad71857c939dc63cf54fc9adeba7714b82ce6c8fb9ec"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/3-angle-7f0e011cad59.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e3276ad06054b9559125db4becd44c61da6f6874e93f92b253920327945c16de"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/4-angle-85a69ee346a9.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "01b1546a9820c4a67c8a5d60c160b8488aa0ce1c72c3611af49444940d51f6e9"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/5-angle-e91f957ab6b3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b2ac0d78dcaeed8cae23c9e001b070b30922fd637501c692588529f68628bbbc"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/6-angle-57051d137246.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5ae8133fc7c639b6dcc949ed9039380c09605d66e2a90325cf42359f63b8a492"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/7-angle-81e062b2f91c.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "ce609d2789bfe29f1c2c56c2b8612fd9b020e1e1ca9d6fadf26dd3908c0258d2"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/8-angle-170b2e266eeb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "5cde85f3ee2bbd8fec0786a4d32d35c29fc0525b8b302dc359c0b38ead8e5311"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/raksha-bandhan-gift-austin-bifold-stitchless-leather-wallet-genuine-leather-rfid-safe-colour-brown-black/9-angle-e7fda04e40bb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "741ff7e890b2a7f41f87a73f1c7057b8ede73cca4af678a5d52777623c2c7ca1"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "ricardo-bifold-wallet-black-brown",
+      "title": "Ricardo Bifold | Premium Leather Wallet for Men | 100% Genuine Leather | Color: Brown & Black",
+      "sku": "MGC-1584",
+      "brand": {
+        "name": "Leather Talks",
+        "slug": "leather-talks"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Brace yourself to dazzle with the Ricardo Bifold Wallet which would not seldom hold your cash but also your style. The chic colors would make a modern man a star in any room he walks into. The metal (LT) Leather Talks branding on the wallet screams sophistication as it appears to be a badge of honor for individuals demanding the best.",
+      "shortDescription": "Brace yourself to dazzle with the Ricardo Bifold Wallet which would not seldom hold your cash but also your style. The chic colors would make a modern man a star in any room he walks into. The metal (LT) Leather Talks branding on the wallet screams sophistication as it appears to be a badge of honor for individuals demanding the best.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1584",
+        "Product Code": "MGC-1584"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 3595.0,
+        "amountMinorUnits": 359500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 3595.0,
+            "amountMinorUnits": 359500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605700
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/0-master-f212a791231b.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "35f7d959803865e1def209f7aef78f0ce7c96ffad0da87ac410f051965cc708e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/1-angle-41745c2cb21e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0e18642a9dfc6b890dd94d31f2e4724906301352fca897eb9e671fe24390f4dc"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/2-angle-12609a4bec33.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e2046e643c22a66275e7ec693d430c103a5cb755f93467c7fdd2d1369155073e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/3-angle-b605e4a96945.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "99e78cd3bc6fff393a7f2469f0ea89304360fedd8d58a1150ee4f3c6259ce29e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/4-angle-f803c27e774f.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "794ed0188eaa1d7ef03f0897e217fc664f2e47607a89f3653bb3d513b5f7d200"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/5-angle-61e15cbb6d64.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5291bc2776bdc30187ff5b17ad09a69aa4e39af42aaa292361c4e33b2ba9aa0c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/6-angle-ef4af25e5434.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "777b7daa81570e620ac20279aacb0c024b76d7e216e340fa29a410eac29a3bd6"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/7-angle-94fd44a82fd7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a5c51a1533c527971e6c5b0bf1e3ed21015c7b674d8cf24dbfa82fce3dc76706"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/8-angle-0788de60d655.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "sha256": "6159981eb068a5e96718c2ded67150eb886a9406001fe777578abde334d9afce"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/ricardo-bifold-wallet-black-brown/9-angle-0919e7b098cc.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "4eb70f6251c6f118f046209132ca02064d89c241d779a4002db34dba480ba2c8"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "seek-passport-wallet",
+      "title": "SEEK PASSPORT WALLET",
+      "sku": "MGC-1591",
+      "brand": {
+        "name": "ShopNooe",
+        "slug": "shopnooe"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Seek Passport Wallet is a wanderer’s dream. It can hold 1 to 3 passports and features two-layer internal pockets for cards and currency. Crafted from durable materials, this sleek wallet is built for frequent travellers seeking style and practicality.",
+      "shortDescription": "The Seek Passport Wallet is a wanderer’s dream. It can hold 1 to 3 passports and features two-layer internal pockets for cards and currency. Crafted from durable materials, this sleek wallet is built for frequent travellers seeking style and practicality.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1591",
+        "Product Code": "MGC-1591"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2799.0,
+        "amountMinorUnits": 279900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2799.0,
+            "amountMinorUnits": 279900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605721
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/0-master-0d959f1d318a.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7ebfe60a08f1cec4f99d5b0d802307505d71d0f2bd5d7e5d899514f2dd750633"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/1-angle-78a7b75305d8.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "aa68bb14151f89070f8293e21527cdb61de35a4a115821558574e47922defc63"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/2-angle-a4336477c85a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "3af1ecc1ca6c3667fb73d9e6f28c97ec43567630b292ff23b62f2b6b5721ce4c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/3-angle-564e710077c7.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a6832871585dfac34c155a114ecfb259d8b03ae7558e87b82c4e967d5ed955e8"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/4-angle-49b54050cb85.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "363304baafe09631f4da13e0f04d6961e7ef8964ee0c2a122c2d8db6b8ae6aae"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/5-angle-965832ca43ac.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5e686b641dea513cc6d814708093c24ef6715aadfb7b724765f7fd02fff91159"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/6-angle-9a970912100a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "0245be642fe2cef8865b6d2e87180ef1d3058fd8b08f2288f53cda6e0b22308f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/7-angle-a351f7780aa0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "7449ab769180ab0a61093dbe5a9b75de5ffd1a79ab98e7b8cb8ba2eaf02b4e2b"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/8-angle-dae557bff858.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "e47a01d37b3507ee3ed83873b55b27aae4bdd32c70d81deeaa1dcdb09cfaf677"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/seek-passport-wallet/9-angle-7b5e80b8a8ce.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "13611e848dd2e2fa6a0b3c3faa21fde1df711a008188cf8aeaf604bd81db3afc"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "sleight-rfid-bi-fold-wallet",
+      "title": "SLEIGHT RFID BI-FOLD WALLET",
+      "sku": "MGC-1589",
+      "brand": {
+        "name": "ShopNooe",
+        "slug": "shopnooe"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "The Sleight Wallet offers a sleek, minimal design with advanced RFID protection. Crafted from durable thermal vegan leather, it features an integrated money clip, a dedicated coin pocket and the signature NOOE emotive silhouette, combining style and security in a slim construction.",
+      "shortDescription": "The Sleight Wallet offers a sleek, minimal design with advanced RFID protection. Crafted from durable thermal vegan leather, it features an integrated money clip, a dedicated coin pocket and the signature NOOE emotive silhouette, combining style and security in a slim construction.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1589",
+        "Product Code": "MGC-1589"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 2699.0,
+        "amountMinorUnits": 269900,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 2699.0,
+            "amountMinorUnits": 269900,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605716
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/0-master-c6828bee0d1c.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "5b0cea58e7bc624e7066e6ccec6828c6bbbaec94b5b66a1a3e979f6ce6ac3d1e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/1-angle-4109d70df603.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "33a720aba76f821d7dcc17d846320930e8d0edc63838d8b1c8e73bc8682535bb"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/2-angle-002586085689.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "a7de789f37f1fceac54f7e2b7a7db90c8faeaa560312302b7811cac166cd480f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/3-angle-bf8789b1a43e.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "090738e86f4bf1d12e99170f297548449a6429ea250021dc0c6257b26215af00"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/4-angle-7d5f68700815.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "494d92c78eab67688c4bd1ec5b9632fab50b5322ad8aa83779a19c745e2de9ec"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/5-angle-a9912cd11bb3.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "94609c2670970c050211f6afbbd047ed10b848c7eacaf70e8db3ad2214337dc4"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/6-angle-9eaf2f8f30d4.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "ad75cac033ceb60125ccef072a661564f4798f0f9fcdf67d7a677d09d1615892"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/7-angle-3be83d5d2e97.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "595762ac6b0d0081d60777fc227806b02fb0d868eece4f00eba11bc7c7776145"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/8-angle-daed5413261b.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "522ac4107b971999ff4605b3ff353ce4f4c27184b4feff0c3ebab25423b3bd69"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/sleight-rfid-bi-fold-wallet/9-angle-ccb0806141da.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 9,
+          "width": 960,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1c1a203e1e9e2dd2690aecf30a794be9c359da0166e9ddb294944368540f2ffc"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "swiss-military-leo-travel-wallet-green",
+      "title": "Swiss Military Leo Travel Wallet- Green",
+      "sku": "MGC-1592",
+      "brand": {
+        "name": "Swiss Military",
+        "slug": "swiss-military"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "Travel wallet for corporate gifting, employee welcome kits, and bulk gifting — premium Swiss Military Leo travel wallet in Green.",
+      "shortDescription": "Travel wallet for corporate gifting, employee welcome kits, and bulk gifting — premium Swiss Military Leo travel wallet in Green.",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1592",
+        "Stock Update Date": "11 Sept 2026",
+        "Country of Origin": "India",
+        "Color": "Green",
+        "Brand": "Swiss Military",
+        "Customization Type": "DTF Printing",
+        "Stock Availability": "1",
+        "Dispatch Timeline": "3 to 5 Working Days",
+        "Material": "Nylon",
+        "Dimensions": "12.5L x 2W x 23.5H",
+        "No. of Compartments": "1",
+        "Type of Compartment Closure": "Zip",
+        "Water Resistant": "Yes",
+        "Product Code": "MGC-1592"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 905.0,
+        "amountMinorUnits": 90500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": "GST_EXCL",
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 905.0,
+            "amountMinorUnits": 90500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605727
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": 5,
+        "dispatch": "3 to 5 Working Days"
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/swiss-military-leo-travel-wallet-green/0-master-1bec83195090.webp",
+          "role": "MASTER",
+          "variantKey": "Primary",
+          "sortOrder": 0,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "f7ac4d538b6f1dee150b546a5725799dd97a29454d96e1190544667bd162ff73"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/swiss-military-leo-travel-wallet-green/1-angle-4d601004c4e0.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "cb34407706cdbe81dc5e44aa591eefcd1ad7370deae721bb823fba41afadb24a"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/swiss-military-leo-travel-wallet-green/2-angle-f338636343a1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "407fde09ae4f3aef72198c2ca698a8c33b32821546135cec71adb56c740d5bc5"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/swiss-military-leo-travel-wallet-green/3-angle-69e82e00d699.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "632de61a47fe7359637a10de685bcf004fc34a467d53d0448e63929987865987"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/swiss-military-leo-travel-wallet-green/4-angle-f9c4069c3e96.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "9e1150d7b54a6643af319380ef597acbf290eabe3217170e9dc0f3a4d89e3692"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/swiss-military-leo-travel-wallet-green/5-angle-5f976ac8d68a.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "daf1872cf6043310593e2127840e0392a98ad2fb25409772a5bb0a0920633b9e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/swiss-military-leo-travel-wallet-green/6-angle-a1d4cac95206.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1000,
+          "height": 1000,
+          "format": "webp",
+          "sha256": "7332851f450800981b51b6063b716d5d202d12d85170af76f23d8dd501a7fd5a"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.taxRatePct",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    },
+    {
+      "slug": "polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1",
+      "title": "Ultimate Passport Wallet for Travel Documents and Cards",
+      "sku": "MGC-1568",
+      "brand": {
+        "name": "Craloft",
+        "slug": "craloft"
+      },
+      "category": {
+        "id": "C4",
+        "code": "C4",
+        "name": "Bags & Travel",
+        "slug": "bags-travel",
+        "path": "bags-travel",
+        "sortOrder": 4
+      },
+      "description": "DESIGNED FOR FAMILY &amp; GROUP TRAVEL: Craloft passport holder seamlessly blends professional aesthetics and family-friendly functionality, ensuring enduring reliability in any travel setting. INTERNAL ORGANIZATION: Designed to feature 6 passport pockets for family members 4 credit/debit card pockets 1 ID card pocket an accessories pocket for coins, SIM cards, or memory cards 2 vertical zip pockets for money/cash and boarding pass, Making it the perfect passport holder for family, a wallet, and",
+      "shortDescription": "DESIGNED FOR FAMILY &amp; GROUP TRAVEL: Craloft passport holder seamlessly blends professional aesthetics and family-friendly functionality, ensuring enduring reliability in any travel setting. INTERNAL ORGANIZATION: Designed to feature 6 passport pockets for family members 4 credit/debit card pockets 1 ID card pocket an accessories pocket for coins, SIM cards, or memory cards 2 vertical zip pockets for money/cash and boarding pass, Making it the perfect passport holder for family, a wallet, and",
+      "brandLine": null,
+      "specifications": {
+        "SKU": "MGC-1568",
+        "Product Code": "MGC-1568"
+      },
+      "variants": [],
+      "pricing": {
+        "currency": "INR",
+        "amount": 995.0,
+        "amountMinorUnits": 99500,
+        "mrpAmount": null,
+        "mrpMinorUnits": null,
+        "gstBasis": null,
+        "taxRatePct": null,
+        "history": [
+          {
+            "amount": 995.0,
+            "amountMinorUnits": 99500,
+            "mrpAmount": null,
+            "mrpMinorUnits": null,
+            "changedAt": 1791896605650
+          }
+        ]
+      },
+      "availability": {
+        "status": "IN_STOCK",
+        "minimumOrderQuantity": null,
+        "dispatch": null
+      },
+      "images": [
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/0-master-041c3f4b2d82.webp",
+          "role": "MASTER",
+          "variantKey": null,
+          "sortOrder": 0,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "8c230bd22f9d9bc5284f9300149964e61449845af9f0c2a2552a5afc9cc9fbac"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/1-angle-62bedbd903e2.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 1,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b01b8f7a21f738795b923a323bfa09368f338bff2c486ccc86a10e8c0cb62598"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/2-angle-363be048af3d.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 2,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b583fb7ea6fa3adafa8e7b0754fe24bda729999ac0eb5c0b3d6c02e8b668356f"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/3-angle-f6166df97a76.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 3,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "1dc1681ad9749a8f03baedac5112e134b6a8c16803f0577b89a435f7bd9e730c"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/4-angle-cc17e40049d1.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 4,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "2d773c55d22cc07bb6a4ef5cdf19af8f54a0d8f8adc807a827978339cc37320e"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/5-angle-e18626494bcb.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 5,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "92dfe2e9b9affbf923834dd12603ce954d2124a1596c835a2b3b090a2fcdb9fb"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/6-angle-03887ca28c51.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 6,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "94bdd1cddf80e167dd23f5bfc4ba1072af5f5d68d5ed9ec96c7174660c1afb40"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/7-angle-d1215afab518.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 7,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "58a315af379da4041e3e0f0a67c50382364708402dd9d79458f75c71fcd5a199"
+        },
+        {
+          "path": "media/products/bags-travel/wallets/polyester-passport-cover-bag-wallet-for-travel-documents-and-cards-black-cph1/8-angle-629551276493.webp",
+          "role": "ANGLE",
+          "variantKey": null,
+          "sortOrder": 8,
+          "width": 1200,
+          "height": 1200,
+          "format": "webp",
+          "sha256": "b83ce2e9951f439e5f44f1662fef3d1f6d03fdc4e51a39d1ead7bac848f57d37"
+        }
+      ],
+      "dataQuality": {
+        "missingOptionalFields": [
+          "brandLine",
+          "pricing.mrpAmount",
+          "pricing.gstBasis",
+          "pricing.taxRatePct",
+          "availability.minimumOrderQuantity",
+          "availability.dispatch",
+          "variants"
+        ]
+      },
+      "subcategory": {
+        "id": "C4:wallets",
+        "categoryId": "C4",
+        "name": "Wallets",
+        "slug": "wallets",
+        "path": "bags-travel/wallets",
+        "sortOrder": 4
+      },
+      "taxonomyPath": "bags-travel/wallets"
+    }
+  ]
+}

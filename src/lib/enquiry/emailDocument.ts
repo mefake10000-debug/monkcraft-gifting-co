@@ -58,6 +58,7 @@ export function buildEnquiryEmailText(enquiry: NormalizedEnquiry): string {
     `Branding: ${p.branding || "—"}`,
     `Packaging: ${p.packagingPrefs || "—"}`,
     `Desired delivery date: ${p.deliveryDate || "—"}`,
+    `Dispatch plan: ${p.dispatchType || "To be confirmed"}`,
     `Delivery location / notes: ${p.deliveryLocation || "—"}`,
     `Additional notes: ${p.notes || enquiry.message || "—"}`,
     "",
@@ -106,6 +107,7 @@ export function buildEnquiryEmailHtml(enquiry: NormalizedEnquiry): string {
     <li>Branding: ${escapeHtml(p.branding || "—")}</li>
     <li>Packaging: ${escapeHtml(p.packagingPrefs || "—")}</li>
     <li>Desired delivery date: ${escapeHtml(p.deliveryDate || "—")}</li>
+    <li>Dispatch plan: ${escapeHtml(p.dispatchType || "To be confirmed")}</li>
     <li>Delivery location: ${escapeHtml(p.deliveryLocation || "—")}</li>
     <li>Notes: ${escapeHtml(p.notes || enquiry.message || "—")}</li>
   </ul>

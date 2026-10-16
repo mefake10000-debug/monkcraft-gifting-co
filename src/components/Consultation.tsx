@@ -37,7 +37,7 @@ function appendLinkedSelections(
   const products: EnquiryProductLine[] = [];
 
   if (shortlist.length > 0) {
-    lines.push("", "Shortlisted products (this browser)");
+    lines.push("", "Cart products (this browser)");
     for (const item of shortlist) {
       lines.push(
         `- ${item.name} (id: ${item.id}) · qty ${item.quantity}` +
@@ -344,7 +344,7 @@ function ConsultationForm({
           <p className="consultation__lede">
             {isCompanyStore
               ? "Share team size, branding goals, and merchandise scope. This form prepares an enquiry — it does not provision a live store."
-              : "Share quantities, timeline, branding, and budget. Use the form, or open My Brief if you already have a shortlist or box."}
+              : "Share quantities, timeline, branding, and budget. Use the form, or open My Brief if you already have products in your cart or a box."}
           </p>
           {selectedCategory || productSlug || isCompanyStore ? (
             <p className="consultation__selected" role="status">

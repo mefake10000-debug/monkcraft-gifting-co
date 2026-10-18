@@ -149,8 +149,7 @@ export function emptyStoreIdentity(): CompanyStoreIdentity {
     companyName: "",
     storeName: "",
     storeTitle: "",
-    welcomeMessage:
-      "Welcome to your company merchandise store. Browse approved items and prepare a draft order request.",
+    welcomeMessage: "Browse the gifts selected for your team.",
     accentColor: DEFAULT_ACCENT,
     logo: null,
   };

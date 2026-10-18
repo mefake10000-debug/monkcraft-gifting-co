@@ -32,10 +32,11 @@ The database is the source of truth. Staff change business records in `/ops/*`. 
 ## Read before changing the automation
 
 1. [Agent operating blueprint](docs/automation/moncraft-agent-operating-blueprint.md) — finite agent jobs, handoff contracts, board definitions, WhatsApp flows, KPIs, integrations, and activation gates.
-2. [Website and Notion operations foundation](docs/automation/moncraft-website-notion-foundation.md) — current workflow implementation and setup requirements.
-3. [End-to-end automation roadmap](docs/automation/end-to-end-automation-roadmap.md) — staged business rollout and remaining decisions.
-4. [Enquiry privacy notes](docs/conversion-enquiry-privacy.md) — captured data and model/service handling.
-5. [Next.js agent rules](AGENTS.md) — read the installed Next 16.4 guides under `node_modules/next/dist/docs/` before editing Next.js code.
+2. [CRM and sales-force specification](docs/automation/moncraft-crm-salesforce-spec.md) — full account/contact/lead/opportunity model, precise lifecycle gates, activity capture, follow-up behavior, website domino flow, one-time business learning, agent limits, and metrics.
+3. [Website and Notion operations foundation](docs/automation/moncraft-website-notion-foundation.md) — current workflow implementation and setup requirements.
+4. [End-to-end automation roadmap](docs/automation/end-to-end-automation-roadmap.md) — staged business rollout and remaining decisions.
+5. [Enquiry privacy notes](docs/conversion-enquiry-privacy.md) — captured data and model/service handling.
+6. [Next.js agent rules](AGENTS.md) — read the installed Next 16.4 guides under `node_modules/next/dist/docs/` before editing Next.js code.
 
 ## Integrations
 

@@ -193,24 +193,27 @@ export function StoreAdminShell({ embedded = false }: { embedded?: boolean } = {
         /> : null}
         <header className="cs-admin__header">
           <div>
-            <p className="cs-landing__eyebrow" style={{ marginBottom: "0.35rem" }}>
-              COMPANY STORE · MANAGER DEMO
-            </p>
-            {embedded ? <h2>Set up your company store</h2> : <h1>Set up your company store</h1>}
-            <p>Choose gifts and set the rules, then present the employee view.</p>
+            {!embedded ? (
+              <p className="cs-landing__eyebrow" style={{ marginBottom: "0.35rem" }}>
+                COMPANY STORE · MANAGER DEMO
+              </p>
+            ) : null}
+            {embedded ? <h2>Build your company store</h2> : <h1>Build your company store</h1>}
+            <p>Choose gifts, set access and delivery, then preview the store.</p>
           </div>
-          <Link
-            className="cs-btn cs-btn--ghost cs-btn--small"
-            href="/?interest=company-store#enquire"
-          >
-            Discuss a programme
-          </Link>
+          {!embedded ? (
+            <Link
+              className="cs-btn cs-btn--ghost cs-btn--small"
+              href="/?interest=company-store#enquire"
+            >
+              Discuss a programme
+            </Link>
+          ) : null}
         </header>
 
         <div className="cs-admin__progress" aria-live="polite">
           <div>
-            <strong>Setup choices: {completeCount} of 3</strong>
-            <span>Company · gifts · programme rules. Then present the employee view.</span>
+            <strong>Setup progress · {completeCount} of 3</strong>
             {completeCount > 0 ? <button type="button" className="cs-admin__reset" onClick={resetDemoDraft}>Start fresh demo</button> : null}
           </div>
           <div className="cs-admin__progress-track" role="progressbar" aria-label="Company Store setup choices" aria-valuemin={0} aria-valuemax={3} aria-valuenow={completeCount}><span style={{ width: `${Math.round(completeCount / 3 * 100)}%` }} /></div>
@@ -319,7 +322,7 @@ function DraftSidebar({
         <div><dt>Credit approach</dt><dd>{funding}</dd></div>
         <div><dt>Delivery</dt><dd>{delivery}</dd></div>
       </dl>
-      <p className="cs-admin__overview-note">This proposal saves in this browser. No employee access, credit balances, or orders are live.</p>
+      <p className="cs-admin__overview-note">Draft only · changes stay in this browser.</p>
       <button type="button" className="cs-btn cs-btn--ghost cs-btn--small" onClick={() => onNavigate("summary")}>Review proposal</button>
     </aside>
   );
@@ -393,7 +396,7 @@ function BrandingPanel() {
     <div>
       <p className="cs-panel-step">STEP 1 · COMPANY SETUP</p>
       <h2>Company identity</h2>
-      <p className="cs-panel-lede">Name the store. Your choices appear in the employee preview.</p>
+      <p className="cs-panel-lede">Add the company and programme names shown in the preview.</p>
       <form className="cs-form-grid" onSubmit={saveIdentity}>
         <div className="cs-form-grid cs-form-grid--2">
           <div className="cs-field">
@@ -426,10 +429,10 @@ function BrandingPanel() {
               value={draft.identity.welcomeMessage}
               onChange={(event) => updateIdentity("welcomeMessage", event.target.value)}
             >
-              <option value="Welcome to your company merchandise store. Browse approved items and prepare a draft order request.">Browse your selected gifts</option>
-              <option value="Choose a gift from this collection as a thank-you for all you do.">A thank-you for your team</option>
-              <option value="Pick a welcome gift selected for your first days with the team.">Welcome to the team</option>
-              <option value="Celebrate the milestone with a gift chosen for you.">Celebrate a milestone</option>
+              <option value="Browse the gifts selected for your team.">Browse your selected gifts</option>
+              <option value="Choose a gift as a thank-you for your work.">A thank-you for your team</option>
+              <option value="Choose a gift selected to welcome you to the team.">Welcome to the team</option>
+              <option value="Choose a gift to mark this milestone.">Celebrate a milestone</option>
             </select>
           </div>
           <div className="cs-field">
@@ -928,9 +931,7 @@ function RulesPanel() {
     <div>
       <p className="cs-panel-step">STEP 3 · PROGRAMME DECISIONS</p>
       <h2>Set the rules</h2>
-      <p className="cs-panel-lede">
-        Draft settings for employee access, redemption and delivery. They do not activate a live programme.
-      </p>
+      <p className="cs-panel-lede">Set the proposed access, gift limits and delivery route.</p>
       <form
         className="cs-form-grid"
         onSubmit={onSave}
@@ -945,7 +946,7 @@ function RulesPanel() {
               name="requireWorkEmail"
               defaultChecked={a.requireWorkEmail}
             />
-            <span>Draft: require work email for access (not enforced here)</span>
+            <span>Require a work email</span>
           </label>
         </div>
         <div className="cs-form-grid cs-form-grid--2">
@@ -973,13 +974,13 @@ function RulesPanel() {
         <div className="cs-decision-group__intro"><h3 id={`${formId}-redemption-heading`}>2. Redemption policy</h3><p>Set the expected allowance and any review step. Final credit values can be agreed after the demo.</p></div>
         <div className="cs-form-grid cs-form-grid--2">
           <div className="cs-field">
-            <label htmlFor={`${formId}-max-items`}>Max line items / order</label>
+            <label htmlFor={`${formId}-max-items`}>Maximum gifts per request</label>
             <select id={`${formId}-max-items`} name="maxItemsPerOrder" defaultValue={o.maxItemsPerOrder ?? ""}>
               <option value="">No limit / discuss</option><option value="1">1 item</option><option value="2">2 items</option><option value="3">3 items</option><option value="5">5 items</option><option value="10">10 items</option>
             </select>
           </div>
           <div className="cs-field">
-            <label htmlFor={`${formId}-max-units`}>Max units / product</label>
+            <label htmlFor={`${formId}-max-units`}>Maximum quantity per gift</label>
             <select id={`${formId}-max-units`} name="maxUnitsPerProduct" defaultValue={o.maxUnitsPerProduct ?? ""}>
               <option value="">No limit / discuss</option><option value="1">1 unit</option><option value="2">2 units</option><option value="3">3 units</option><option value="5">5 units</option>
             </select>
@@ -1019,7 +1020,7 @@ function RulesPanel() {
               name="requireApproval"
               defaultChecked={o.requireApproval}
             />
-            <span>Draft: require approval before fulfilment</span>
+            <span>Manager approval before fulfilment</span>
           </label>
         </div>
         </div>
@@ -1049,7 +1050,7 @@ function RulesPanel() {
           </select>
         </div>
         </section>
-        <p className="cs-field__hint">This demo does not connect invitations, maps, shipment tracking, approvals or live credits. Employee details are samples.</p>
+        <p className="cs-field__hint">Draft settings only. Access, credits and fulfilment are agreed before launch.</p>
         {status ? (
           <p className="cs-status" role="status">
             {status}
@@ -1070,14 +1071,14 @@ function PreviewPanel({ draft, previewUrl, summaryHref }: { draft: CompanyStoreD
   const title =
     draft.identity.storeName ||
     draft.identity.companyName ||
-    "Untitled store";
+    "Your company store";
 
   return (
     <div>
       <p className="cs-panel-step">STEP 4 · MANAGER PRESENTATION</p>
       <h2>Present the store</h2>
       <p className="cs-panel-lede">Review the proposal, then show the employee storefront.</p>
-      <div className="cs-presentation-heading"><div><h3>{title}</h3><p>{draft.productIds.length} selected gifts · {draft.identity.companyName || "Company name to add"}</p></div><Link className="cs-btn cs-btn--ghost cs-btn--small" href={summaryHref}>Open proposal summary</Link></div>
+      <div className="cs-presentation-heading"><div><h3>{title}</h3><p>{draft.productIds.length} selected gifts · {draft.identity.companyName || "Company name to add"}</p></div></div>
       <div className="cs-device-toggle" role="group" aria-label="Preview width">
         <button
           type="button"
@@ -1102,14 +1103,14 @@ function PreviewPanel({ draft, previewUrl, summaryHref }: { draft: CompanyStoreD
       </div>
       <div className="cs-actions" style={{ marginTop: "1rem" }}>
         <Link className="cs-btn cs-btn--primary" href={previewUrl} target="_blank" rel="noreferrer">
-          Open employee storefront for presentation
+          Open employee preview
         </Link>
         <Link className="cs-btn cs-btn--ghost" href={summaryHref}>
-          Review proposal summary
+          Review proposal
         </Link>
       </div>
       <p className="cs-field__hint" style={{ marginTop: "0.75rem" }}>
-        This draft is saved in this browser only. To present on another screen, use this browser profile or share your screen. A private cross-device link is not configured.
+        Preview only · saved in this browser. Share your screen to present it to a manager.
       </p>
     </div>
   );

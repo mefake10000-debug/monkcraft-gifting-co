@@ -24,6 +24,26 @@ export function extractSelectableVariants(
   return result;
 }
 
+/** Prefer only colour options that have an exact, source-linked product photo. */
+export function extractProductVariants(
+  product: StudioProductSummary,
+): { label: string; options: string[] }[] {
+  const attributeGroups = extractSelectableVariants(product.attributes);
+  const imageVariants = product.imageVariants ?? [];
+  if (imageVariants.length < 2) return attributeGroups;
+
+  const colourGroup = attributeGroups.find((group) =>
+    /^(colour|color)$/i.test(group.label),
+  );
+  return [
+    ...attributeGroups.filter((group) => !/^(colour|color)$/i.test(group.label)),
+    {
+      label: colourGroup?.label ?? "Colour",
+      options: imageVariants.map((variant) => variant.label),
+    },
+  ];
+}
+
 /** Display-only attributes (single values) for product detail. */
 export function displayAttributes(
   attributes: { label: string; value: string }[],
@@ -42,7 +62,7 @@ export function variantsComplete(
   product: StudioProductSummary,
   selected: StoreVariantSelection[],
 ): boolean {
-  const required = extractSelectableVariants(product.attributes);
+  const required = extractProductVariants(product);
   return required.every((group) =>
     selected.some(
       (s) => s.label === group.label && group.options.includes(s.value),

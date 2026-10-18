@@ -13,6 +13,12 @@ export function toStudioProductSummary(product: Product): StudioProductSummary {
     summary: product.summary,
     imageSrc: image?.src,
     imageAlt: image?.alt,
+    imageVariants: product.colourOptions?.flatMap(({ label, imageIndex }) => {
+      const variantImage = product.images[imageIndex];
+      return variantImage
+        ? [{ label, imageSrc: variantImage.src, imageAlt: variantImage.alt }]
+        : [];
+    }),
     categoryName: product.categoryName,
     subcategoryName: product.subcategoryName,
     customization: product.customization,

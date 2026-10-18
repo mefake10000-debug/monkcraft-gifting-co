@@ -97,7 +97,7 @@ export function BrandLogoMarquee({
     .join(" ");
   const trackBrands = buildBrandMarqueeSequence(logoBrands);
   const trackStyle = {
-    "--brand-marquee-duration": `${Math.max(42, trackBrands.length * 2.2)}s`,
+    "--brand-marquee-duration": `${Math.max(42, trackBrands.length * 1.15)}s`,
   } as CSSProperties;
   const shouldLoop = logoBrands.length >= 8;
 

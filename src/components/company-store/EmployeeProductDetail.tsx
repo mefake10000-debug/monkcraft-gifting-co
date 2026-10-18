@@ -12,7 +12,7 @@ import { addStoreOrderLine } from "@/lib/companyStore/orderDraft";
 import { useStoreDraft } from "@/lib/companyStore/useStoreDraft";
 import {
   displayAttributes,
-  extractSelectableVariants,
+  extractProductVariants,
   variantsComplete,
 } from "@/lib/companyStore/variants";
 import { fetchStudioProducts } from "@/lib/studio/fetchProducts";
@@ -94,7 +94,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
       productId: product.id,
       slug: product.slug,
       name: product.name,
-      imageSrc: product.imageSrc,
+      imageSrc: activeImageSrc,
       priceLabel: product.priceLabel,
       amountInr: product.amountInr,
       quantity,
@@ -163,9 +163,22 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
     );
   }
 
-  const selectable = extractSelectableVariants(product.attributes);
+  const selectable = extractProductVariants(product);
   const attrs = displayAttributes(product.attributes).slice(0, 8);
   const minQty = companyStoreQuantityFloor(product.minQuantity);
+  const selectedColour = variants.find((variant) =>
+    /^(colour|color)$/i.test(variant.label),
+  )?.value;
+  const selectedColourImage = selectedColour
+    ? product.imageVariants?.find(
+        (variant) =>
+          variant.label.trim().toLocaleLowerCase() ===
+          selectedColour.trim().toLocaleLowerCase(),
+      )
+    : undefined;
+  const activeImageSrc = selectedColourImage?.imageSrc ?? product.imageSrc;
+  const activeImageAlt =
+    selectedColourImage?.imageAlt ?? product.imageAlt ?? product.name;
 
   return (
       <div className={embedded ? "cs-storefront cs-storefront--embedded" : "cs-storefront"} style={{ ["--accent" as string]: accent }}>
@@ -175,10 +188,11 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
       </div>
       <article className="cs-product-detail">
         <div className="cs-product-detail__media">
-          {product.imageSrc ? (
+          {activeImageSrc ? (
             <Image
-              src={product.imageSrc}
-              alt={product.imageAlt || product.name}
+              key={activeImageSrc}
+              src={activeImageSrc}
+              alt={activeImageAlt}
               fill
               sizes="(max-width: 800px) 100vw, 50vw"
               className="cs-product-detail__image"

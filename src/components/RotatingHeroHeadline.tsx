@@ -2,7 +2,11 @@
 
 import { useEffect, useState } from "react";
 
-const phrases = ["for new starters.", "for team milestones.", "for client gifts."];
+const phrases = [
+  "for new starters.",
+  "for teams.",
+  "for clients.",
+];
 
 export function RotatingHeroHeadline() {
   const [activePhrase, setActivePhrase] = useState(0);
@@ -20,7 +24,7 @@ export function RotatingHeroHeadline() {
   return (
     <h1 className="hero__title">
       <span className="sr-only">
-        Corporate gifting for new starters, team milestones and client gifts.
+        Corporate gifting for new starters, teams and clients.
       </span>
       <span className="hero__title-visual" aria-hidden="true">
         <span>Corporate gifting</span>

@@ -4,6 +4,8 @@
 **Business system:** Moncraft corporate gifting, starting with Bengaluru and nearby corporate buyers.
 **Status:** Target operating design aligned to the current repository. The website and operations code exist, but external services and live records must be activated before this becomes a live operating system.
 
+**CRM scope note:** This blueprint defines finite agents and shared operations. The detailed Salesforce-like sales model, full lead/opportunity gates, activity capture, website-to-CRM domino sequence, and one-time learning/playbook process are specified in [the CRM and sales-force specification](moncraft-crm-salesforce-spec.md). The current repository implements a website quote-request sales queue, not that complete CRM yet.
+
 ## 1. Operating model
 
 Moncraft should run as one event-driven workflow over shared records. The secure application database is the system of record. The website collects buyer requests; the operations app is where staff make business changes; Notion is the shared team workspace and filtered workboard. Notion edits do not currently write back to the application database. Every object uses a stable ID and links to its parent request or order.

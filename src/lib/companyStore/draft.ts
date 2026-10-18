@@ -46,11 +46,22 @@ function normalizeIdentity(value: unknown): CompanyStoreIdentity {
     typeof raw.accentColor === "string" && /^#[0-9A-Fa-f]{6}$/.test(raw.accentColor)
       ? raw.accentColor
       : fallback.accentColor;
+  const savedWelcome = String(raw.welcomeMessage ?? fallback.welcomeMessage);
+  const welcomeMessage = {
+    "Welcome to your company merchandise store. Browse approved items and prepare a draft order request.":
+      "Browse the gifts selected for your team.",
+    "Choose a gift from this collection as a thank-you for all you do.":
+      "Choose a gift as a thank-you for your work.",
+    "Pick a welcome gift selected for your first days with the team.":
+      "Choose a gift selected to welcome you to the team.",
+    "Celebrate the milestone with a gift chosen for you.":
+      "Choose a gift to mark this milestone.",
+  }[savedWelcome] ?? savedWelcome;
   return {
     companyName: String(raw.companyName ?? ""),
     storeName: String(raw.storeName ?? ""),
     storeTitle: String(raw.storeTitle ?? ""),
-    welcomeMessage: String(raw.welcomeMessage ?? fallback.welcomeMessage),
+    welcomeMessage,
     accentColor: accent,
     logo: normalizeLogo(raw.logo),
   };

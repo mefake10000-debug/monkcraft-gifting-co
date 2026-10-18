@@ -24,6 +24,9 @@ const excludedHomepageBrandSlugs = new Set([
   "stolt",
   "stellers",
   "ooge",
+  "urban-gear",
+  "scott",
+  "portronics",
 ]);
 
 /** Logo files already extracted and checked into public/brands. */
@@ -94,6 +97,7 @@ export function resolveBrandLogoSrc(slug: string): string | undefined {
 export function getHomepagePartnerBrands(): BrandLogoItem[] {
   const catalogueBrandsWithLogos = catalogueBrandList
     .filter((brand) => !excludedHomepageBrandSlugs.has(brand.slug))
+    .sort((a, b) => b.productCount - a.productCount || a.name.localeCompare(b.name))
     .map((brand) => {
       const extractedLogo = extractedLogoByName.get(normalizeBrand(brand.name));
       const originalSrc = extractedLogo?.src ?? resolveBrandLogoSrc(brand.slug);
@@ -108,8 +112,7 @@ export function getHomepagePartnerBrands(): BrandLogoItem[] {
         productCount: brand.productCount,
       };
     })
-    .filter((brand): brand is NonNullable<typeof brand> => brand !== null)
-    .sort((a, b) => b.productCount - a.productCount || a.name.localeCompare(b.name));
+    .filter((brand): brand is NonNullable<typeof brand> => brand !== null);
 
   const monkcraftLogo: BrandLogoItem = {
     name: "Monkcraft",

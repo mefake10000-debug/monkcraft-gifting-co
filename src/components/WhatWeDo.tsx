@@ -17,10 +17,6 @@ const services = [
         src: "/marketing/what-we-do/corporate-gifting-v3.jpg",
         alt: "Corporate gifts — pen, notebook, and gift exchange illustration",
       },
-      {
-        src: "/marketing/what-we-do/kits-fulfilment-v3.jpg",
-        alt: "Gift box packaging and delivery illustration",
-      },
     ],
     links: [
       { href: "/gifts", cta: "Explore the catalogue" },

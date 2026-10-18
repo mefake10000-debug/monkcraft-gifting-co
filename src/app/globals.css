@@ -1515,7 +1515,7 @@ body {
   .hero__media {
     position: relative;
     inset: auto;
-    order: 3;
+    order: 2;
     width: 100%;
     height: auto;
     /* Taller mobile frame so the crop feels intentional, not a tiny strip */
@@ -1539,7 +1539,7 @@ body {
   }
 
   .hero__copy {
-    order: 2;
+    order: 3;
     width: 100%;
     flex: 0 0 auto;
     padding: 1.25rem clamp(1.25rem, 4vw, 3.25rem) 1.5rem;
@@ -1586,7 +1586,7 @@ body {
   width: max-content;
   align-items: center;
   gap: 0;
-  /* Slightly slower + GPU layer for a calmer, less stuttery crawl */
+  /* Keep the continuous crawl smooth on long logo tracks. */
   animation: brand-marquee-scroll var(--brand-marquee-duration, 64s) linear infinite;
   will-change: transform;
   backface-visibility: hidden;
@@ -1600,7 +1600,6 @@ body {
   transform: none;
 }
 
-.brand-marquee__viewport:hover .brand-marquee__track,
 .brand-marquee__viewport:focus-within .brand-marquee__track {
   animation-play-state: paused;
 }
@@ -1685,18 +1684,18 @@ body {
 
 @keyframes brand-marquee-scroll {
   from {
-    /* Show Monkcraft as a complete logo at the far right on the opening frame. */
+    /* Begin one group into the loop: trailing marks fill the left while Monkcraft enters at right. */
     transform: translate3d(
-      calc(100vw - var(--brand-marquee-item-width, 8rem) - clamp(1.25rem, 3vw, 2.25rem) - 1rem),
+      calc(100vw - var(--brand-marquee-item-width, 8rem) - clamp(1.25rem, 3vw, 2.25rem) - 1rem - 50%),
       0,
       0
     );
   }
 
   to {
-    /* Move exactly one group left so the duplicated Monkcraft mark meets it. */
+    /* Move one full group so the repeated track remains seamless. */
     transform: translate3d(
-      calc(100vw - var(--brand-marquee-item-width, 8rem) - clamp(1.25rem, 3vw, 2.25rem) - 1rem - 50%),
+      calc(100vw - var(--brand-marquee-item-width, 8rem) - clamp(1.25rem, 3vw, 2.25rem) - 1rem - 100%),
       0,
       0
     );
@@ -1800,7 +1799,6 @@ body {
 }
 
 .what-we-do__lede,
-.gift-ideas__lede,
 .consultation__lede,
 .faq__lede {
   margin: 0;
@@ -2442,23 +2440,52 @@ body {
   margin-bottom: clamp(1.65rem, 3.5vw, 2.5rem);
 }
 
-.gift-ideas__intro-row {
-  display: grid;
-  gap: 1rem;
+.gift-ideas__intro .gift-ideas__heading {
+  margin-bottom: 0;
 }
 
-@media (min-width: 900px) {
-  .gift-ideas__intro-row {
-    grid-template-columns: 1.25fr 0.75fr;
-    align-items: end;
-    gap: 2.5rem;
-  }
+.gift-ideas__lede {
+  max-width: 38rem;
+  margin: 0.65rem 0 0;
+  color: var(--mc-text-muted);
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.gift-ideas__groups {
+  display: grid;
+  gap: clamp(1.2rem, 2.2vw, 1.8rem);
+}
+
+.gift-ideas__group {
+  min-width: 0;
+}
+
+.gift-ideas__group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 0 0 0.7rem;
+  color: var(--mc-text-muted);
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.gift-ideas__group-title::after {
+  height: 1px;
+  flex: 1;
+  background: var(--mc-border-subtle);
+  content: "";
 }
 
 .gift-ideas__grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.15rem;
+  gap: 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2467,7 +2494,7 @@ body {
 @media (min-width: 720px) {
   .gift-ideas__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.25rem;
+    gap: 1rem;
   }
 }
 
@@ -2479,18 +2506,18 @@ body {
 
 @media (min-width: 1100px) {
   .gift-ideas__grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.35rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
   }
 }
 
 .gift-ideas__card {
   min-width: 0;
-  border-radius: 1.6rem;
+  border-radius: 1.1rem;
   overflow: hidden;
   background: #fff;
   border: 1px solid rgb(63 63 55 / 6%);
-  box-shadow: 0 10px 28px rgb(63 63 55 / 6%);
+  box-shadow: 0 6px 18px rgb(63 63 55 / 5%);
   transition:
     transform var(--mc-duration) var(--mc-ease),
     box-shadow var(--mc-duration) var(--mc-ease);
@@ -2535,6 +2562,15 @@ body {
   flex-direction: column;
   height: 100%;
   color: inherit;
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  .gift-ideas__card-link {
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+    align-items: stretch;
+  }
 }
 
 .gift-ideas__media-link {
@@ -2546,22 +2582,31 @@ body {
 .gift-ideas__media {
   position: relative;
   width: 100%;
-  /* The source illustrations are poster pages with copy baked into the top.
-     Crop that copy so the accessible title and description below stay crisp. */
-  aspect-ratio: 1920 / 700;
+  /* Keep the complete supplied artwork visible; several originals include their own headline. */
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   isolation: isolate;
   background: #fff;
-}
-
-.gift-ideas__media::after {
-  content: none;
 }
 
 .gift-ideas__media--empty {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.gift-ideas__media--pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+  background: #f8f7f4;
+}
+
+.gift-ideas__media-pane {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  background: #edf1ef;
 }
 
 .gift-ideas__media-placeholder {
@@ -2572,21 +2617,29 @@ body {
 }
 
 .gift-ideas__image {
-  object-fit: cover !important;
-  object-position: center bottom;
-  transition: transform 0.35s var(--mc-ease);
+  object-fit: contain !important;
+  object-position: center;
+  transform: none !important;
 }
 
-.gift-ideas__card:hover .gift-ideas__image {
-  transform: scale(1.025);
+.gift-ideas__media > .gift-ideas__image {
+  -webkit-mask-image: none;
+  mask-image: none;
 }
 
 .gift-ideas__body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 0.55rem;
-  padding: 1.35rem 1.35rem 1.45rem;
+  gap: 0.35rem;
+  padding: 0.95rem 1.1rem 1rem;
+}
+
+@media (min-width: 1000px) {
+  .gift-ideas__body {
+    justify-content: center;
+    padding: 1.1rem 1.2rem;
+  }
 }
 
 .gift-ideas__body--cta-only {
@@ -2599,7 +2652,7 @@ body {
 .gift-ideas__title {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.35rem, 1.8vw, 1.55rem);
+  font-size: clamp(1.1rem, 1.35vw, 1.28rem);
   font-weight: 800;
   line-height: 1.15;
   letter-spacing: -0.02em;
@@ -2609,8 +2662,8 @@ body {
   margin: 0;
   flex: 1;
   font-family: var(--font-ui);
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  line-height: 1.45;
   opacity: 0.9;
 }
 
@@ -2624,7 +2677,8 @@ body {
 .gift-ideas__cta {
   width: fit-content;
   font-family: var(--font-ui);
-  font-size: 0.9rem;
+  margin-top: 0.15rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--mc-royal-purple);
   text-decoration: none;
@@ -2640,6 +2694,107 @@ body {
 .gift-ideas__cta:focus-visible {
   border-bottom-color: var(--mc-royal-purple);
   color: var(--mc-royal-purple);
+}
+
+.gift-ideas__collection {
+  margin-top: 1rem;
+  overflow: hidden;
+  border: 1px solid rgb(63 63 55 / 8%);
+  border-radius: 1.35rem;
+  transition:
+    transform var(--mc-duration) var(--mc-ease),
+    box-shadow var(--mc-duration) var(--mc-ease);
+}
+
+.gift-ideas__customize {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  min-height: 5.5rem;
+  padding: 1rem 1.35rem;
+  overflow: hidden;
+  border: 1px solid rgb(102 47 144 / 18%);
+  border-radius: 1rem;
+  background: #fff;
+  color: var(--mc-black-olive);
+  text-decoration: none;
+}
+
+.gift-ideas__customize strong { display: block; margin-top: .25rem; font: 800 clamp(1.15rem, 2vw, 1.45rem)/1.2 var(--font-display); }
+.gift-ideas__customize-action { flex: 0 0 auto; color: var(--mc-royal-purple); font: 700 .9rem/1.3 var(--font-ui); }
+.gift-ideas__customize:hover { border-color: rgb(102 47 144 / 45%); background: var(--mc-mist-lilac); }
+
+@media (max-width: 520px) {
+  .gift-ideas__customize { align-items: flex-start; flex-direction: column; gap: .6rem; }
+}
+
+.gift-ideas__collection--rose {
+  background: var(--mc-dusty-rose);
+}
+
+.gift-ideas__collection:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgb(63 63 55 / 9%);
+}
+
+.gift-ideas__collection-link {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  align-items: stretch;
+  min-height: 12rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.gift-ideas__collection:focus-within {
+  outline: 3px solid var(--mc-royal-purple);
+  outline-offset: 3px;
+}
+
+.gift-ideas__collection-media {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+
+.gift-ideas__collection-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: clamp(1.2rem, 3vw, 2rem);
+}
+
+.gift-ideas__collection-body .gift-ideas__eyebrow {
+  margin-bottom: 0;
+}
+
+.gift-ideas__collection-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.gift-ideas__collection-body .gift-ideas__blurb {
+  flex: initial;
+}
+
+@media (max-width: 719px) {
+  .gift-ideas__collection-link {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gift-ideas__collection-media {
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
 }
 
 .gift-ideas__curate-hint {
@@ -2990,35 +3145,58 @@ body {
   min-height: min(880px, 92svh);
 }
 
+.home-page {
+  background:
+    radial-gradient(ellipse at 8% 18%, rgb(237 227 245 / 42%), transparent 28rem),
+    radial-gradient(ellipse at 92% 34%, rgb(247 225 210 / 38%), transparent 30rem),
+    radial-gradient(ellipse at 54% 74%, rgb(220 237 230 / 32%), transparent 34rem),
+    #f8f7f4;
+}
+
 .home-page .hero__copy-inner {
-  width: min(25rem, 44vw);
-  max-width: 25rem;
+  width: min(27rem, 38vw);
+  max-width: 27rem;
   gap: 0.9rem;
 }
 
 .home-page .hero__title {
-  font-size: clamp(2.1rem, 3.15vw, 2.55rem);
+  width: 100%;
+  max-width: 100%;
+  font-size: clamp(1.85rem, 2.7vw, 2.35rem);
   line-height: 1.02;
   letter-spacing: -0.035em;
 }
 
 .home-page .hero__title-visual {
   display: flex;
+  width: 100%;
+  max-width: 100%;
   flex-direction: column;
   align-items: flex-start;
 }
 
+.home-page .hero__title-visual > span:first-child {
+  max-width: 100%;
+  text-wrap: balance;
+}
+
 .home-page .hero__rotator {
   display: grid;
-  width: max-content;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
   max-width: 100%;
   min-width: 0;
 }
 
 .home-page .hero__rotator-word {
   grid-area: 1 / 1;
-  width: max-content;
+  width: 100%;
   max-width: 100%;
+  min-width: 0;
+  white-space: normal;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  color: var(--mc-royal-purple);
   opacity: 0;
   transform: translateY(0.22em) scale(0.985);
   transition:
@@ -3037,6 +3215,10 @@ body {
   line-height: 1.45;
 }
 
+.home-page .hero__actions {
+  gap: 0.7rem;
+}
+
 .home-page .brand-marquee--home {
   background: linear-gradient(180deg, var(--mc-buttercream) 0%, #f8f7f4 100%);
 }
@@ -3046,7 +3228,7 @@ body {
 .home-page .journey-strip,
 .home-page .consultation,
 .home-page .faq {
-  background: #f8f7f4;
+  background: transparent;
 }
 
 .home-page .what-we-do__inner,
@@ -3056,11 +3238,19 @@ body {
   padding-block: clamp(3rem, 5.5vw, 4.5rem);
 }
 
+.home-page .gift-ideas__inner {
+  padding-bottom: clamp(2.5rem, 4vw, 3.5rem);
+}
+
+.home-page .what-we-do__inner:not(.what-we-do__inner--posters) {
+  padding-top: clamp(2rem, 3vw, 2.75rem);
+}
+
 .home-page .what-we-do__intro--solo,
 .home-page .gift-ideas__intro,
 .home-page .journey-strip__intro {
   max-width: 49rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5rem;
 }
 
 .home-page .what-we-do__heading,
@@ -3073,7 +3263,6 @@ body {
 }
 
 .home-page .what-we-do__lede,
-.home-page .gift-ideas__lede,
 .home-page .journey-strip__lede,
 .home-page .consultation__lede,
 .home-page .faq__lede {
@@ -3122,6 +3311,25 @@ body {
 .home-page .gift-ideas__blurb {
   font-size: 0.9rem;
   line-height: 1.45;
+}
+
+.home-page .gift-ideas__group-title {
+  margin-bottom: 0.7rem;
+  color: var(--mc-black-olive);
+}
+
+.home-page .gift-ideas__media {
+  aspect-ratio: 16 / 9;
+  background: #edf1ef;
+}
+
+.home-page .gift-ideas__card {
+  border-radius: 1rem;
+  box-shadow: 0 5px 14px rgb(63 63 55 / 4%);
+}
+
+.home-page .gift-ideas__image {
+  object-position: center;
 }
 
 .home-page .journey-strip__steps {
@@ -3195,21 +3403,37 @@ body {
 
   .home-page .hero__copy-inner {
     width: 100%;
-    max-width: 28rem;
+    max-width: 34rem;
   }
 
   .home-page .hero__title {
-    font-size: clamp(2.25rem, 9vw, 3.25rem);
+    font-size: clamp(1.7rem, 5vw, 2.2rem);
+  }
+
+  .home-page .hero__rotator {
+    max-width: 16rem;
   }
 
   .home-page .hero__subtitle {
     max-width: 26rem;
   }
+
+  .home-page .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 24rem;
+  }
+
+  .home-page .hero__btn {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+  }
 }
 
 @media (max-width: 380px) {
   .home-page .hero__title {
-    font-size: clamp(1.75rem, 8.5vw, 2.15rem);
+    font-size: clamp(1.45rem, 5vw, 1.7rem);
   }
 }
 

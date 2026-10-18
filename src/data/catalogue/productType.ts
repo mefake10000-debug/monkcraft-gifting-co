@@ -433,20 +433,9 @@ function matchKeywordRules(name: string): RuleMatch | null {
     return { typeId: "hampers", confidence: "medium", ruleId: "kw-hamper" };
   }
 
-  // Standalone packaging only — not laptop sleeves or filled gift boxes
-  if (
-    /\b(packaging|mailer|carton)\b/.test(t) ||
-    (/\bgift\s?box\b/.test(t) &&
-      !/\b(hamper|diwali|gourmet|treats|delights|nuts|dry-?fruits|chocolate|snack|bliss|celebrations)\b/.test(
-        t,
-      ))
-  ) {
-    return {
-      typeId: "packaging",
-      confidence: "medium",
-      ruleId: "kw-packaging",
-    };
-  }
+  // Packaging is determined by the trusted source category below. Product
+  // names often mention an included gift box or packaging, which must not
+  // reclassify the actual gift as packaging.
 
   if (
     /\b(yoga|wellness|organic|aromatherapy|diffuser|massage|spa|self-?care|soap|lotion)\b/.test(

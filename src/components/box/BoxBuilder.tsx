@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState, type FormEvent, type ReactNode } from "react";
 import type { BoxDraft, BoxStep } from "@/data/catalogue/boxTypes";
+import type { ReadyBoxCombo } from "@/data/catalogue/readyBoxCombos";
 import type { StudioProductSummary } from "@/data/catalogue/studioTypes";
 import { BOX_STEP_LABELS, BOX_STEPS } from "@/data/catalogue/boxTypes";
 import {
@@ -222,8 +223,8 @@ function KitSummary({
         <h3>Kit summary</h3>
         <p>
           {draft.products.length === 0
-            ? "No products yet"
-            : `${draft.products.length} item${draft.products.length === 1 ? "" : "s"} · ${units} unit${units === 1 ? "" : "s"} / box`}
+            ? "No gifts selected"
+            : `${draft.products.length} product${draft.products.length === 1 ? "" : "s"} selected`}
         </p>
       </header>
 
@@ -239,9 +240,11 @@ function KitSummary({
           {packagingLabel}
         </span>
       </p>
-      <p className="box-kit-summary__packaging-price">
-        Packaging price: <strong>confirmed in quote</strong>
-      </p>
+      {draft.packaging?.kind === "selected" || draft.packaging?.kind === "pending" ? (
+        <p className="box-kit-summary__packaging-price">
+          Packaging price is confirmed with your quote.
+        </p>
+      ) : null}
 
       {draft.products.length > 0 ? (
         <ul className="box-kit-summary__list">
@@ -283,20 +286,18 @@ function KitSummary({
         </details>
       </section>
 
-      <div className="box-kit-summary__maths" aria-label="Programme maths">
-        <p>
-          <span>Units / box</span>
-          <strong>{units || "—"}</strong>
-        </p>
-        <p>
-          <span>× Boxes</span>
-          <strong>{boxes}</strong>
-        </p>
-        <p className="box-kit-summary__maths-total">
-          <span>Programme units</span>
-          <strong>{units > 0 ? units * boxes : "—"}</strong>
-        </p>
-      </div>
+      {units > 0 ? (
+        <div className="box-kit-summary__maths" aria-label="Kit quantities">
+          <p>
+            <span>Gifts per kit</span>
+            <strong>{units}</strong>
+          </p>
+          <p className="box-kit-summary__maths-total">
+            <span>Total gifts across {boxes} kits</span>
+            <strong>{units * boxes}</strong>
+          </p>
+        </div>
+      ) : null}
 
       {draft.step !== "products" && draft.products.length === 0 ? (
         <button type="button" className="box-kit-summary__cta" onClick={() => setBoxStep("products")}>Choose gifts</button>
@@ -305,7 +306,7 @@ function KitSummary({
   );
 }
 
-export function BoxBuilder() {
+export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
   const draft = useBoxDraft();
   const shortlistItems = useShortlistItems();
   const [error, setError] = useState("");
@@ -318,6 +319,7 @@ export function BoxBuilder() {
   const [catalogueLoading, setCatalogueLoading] = useState(true);
   const [catalogueError, setCatalogueError] = useState("");
   const [logoError, setLogoError] = useState("");
+  const [comboStatus, setComboStatus] = useState("");
 
   useEffect(() => {
     if (draft?.step !== "products") return;
@@ -427,6 +429,36 @@ export function BoxBuilder() {
     clearBoxDraft();
     setError("");
     setPrepText("");
+    setComboStatus("");
+  }
+
+  function onUseCombo(combo: ReadyBoxCombo) {
+    const current = readBoxDraft();
+    if ((current.products.length > 0 || current.packaging) &&
+      !window.confirm("Replace the gifts and packaging in your current box? Your company and contact details will stay saved.")) {
+      return;
+    }
+    writeBoxDraft({
+      ...current,
+      step: "products",
+      packaging: {
+        kind: "selected",
+        optionId: combo.packaging.id,
+        name: combo.packaging.name,
+        summary: combo.packaging.summary,
+        dimensionsLabel: combo.packaging.dimensionsLabel,
+        priceLabel: combo.packaging.priceLabel,
+        imageSrc: combo.packaging.imageSrc,
+        packagingKind: combo.packaging.packagingKind,
+      },
+      products: combo.products.map((product) => ({ ...product, quantityPerBox: 1 })),
+      customization: {
+        ...current.customization,
+        occasion: current.customization.occasion || combo.occasion,
+      },
+    });
+    setError("");
+    setComboStatus(`${combo.name} added. Review the gifts below or continue to your quote.`);
   }
 
   function enterQuoteStep(current: BoxDraft = readBoxDraft()): boolean {
@@ -498,9 +530,11 @@ export function BoxBuilder() {
 
       <StepProgress current={step} draft={draft} />
 
-      <div className="box-kit-summary-mobile">
-        <KitSummary draft={draft} compact={step === "quote"} logoError={logoError} setLogoError={setLogoError} />
-      </div>
+      {productCount > 0 || draft.packaging ? (
+        <div className="box-kit-summary-mobile">
+          <KitSummary draft={draft} compact={step === "quote"} logoError={logoError} setLogoError={setLogoError} />
+        </div>
+      ) : null}
 
       {error ? (
         <p className="journey-error" role="alert">
@@ -639,6 +673,50 @@ export function BoxBuilder() {
                 <h2 id="box-products-heading">Choose gifts</h2>
                 <p>Select gifts from the catalogue and set the quantity per box. Minimum order is {MIN_BOXES} boxes.</p>
               </header>
+
+              {combos.length > 0 ? (
+                <section className="box-ready-combos" aria-labelledby="box-ready-combos-heading">
+                  <div className="box-ready-combos__head">
+                    <div>
+                      <p className="journey-eyebrow">A quicker start</p>
+                      <h3 id="box-ready-combos-heading">Ready-made combinations</h3>
+                    </div>
+                    <p>Choose a starting set, then change any gift or packaging.</p>
+                  </div>
+                  <div className="box-ready-combos__grid">
+                    {combos.map((combo) => (
+                      <article className="box-ready-combo" key={combo.id}>
+                        <div className="box-ready-combo__top">
+                          <div>
+                            <span className="box-ready-combo__occasion">{combo.occasion}</span>
+                            <h4>{combo.name}</h4>
+                            <p>{combo.description}</p>
+                          </div>
+                          <div className="box-ready-combo__package-image">
+                            <Image src={combo.packaging.imageSrc!} alt={`${combo.packaging.name} packaging option`} fill sizes="96px" style={{ objectFit: "contain" }} />
+                          </div>
+                        </div>
+                        <ul className="box-ready-combo__products" aria-label={`${combo.name} contents`}>
+                          {combo.products.map((product, index) => (
+                            <li key={product.id}>
+                              <span className="box-ready-combo__product-image">
+                                <Image src={product.imageSrc!} alt="" fill sizes="44px" style={{ objectFit: "contain" }} />
+                              </span>
+                              <Link href={`/gifts/${product.slug}?from=box`} aria-label={`View ${product.name}`} title={product.name}>{combo.productLabels[index]}</Link>
+                            </li>
+                          ))}
+                        </ul>
+                        <p className="box-ready-combo__packaging" title={combo.packaging.name}>Packaging: {combo.packagingLabel}</p>
+                        <button type="button" className="journey-btn journey-btn--primary" onClick={() => onUseCombo(combo)}>
+                          Use this combination
+                        </button>
+                      </article>
+                    ))}
+                  </div>
+                  <p className="box-ready-combos__note">Draft suggestions using catalogue products. We confirm packaging fit, availability, branding and final price in your quote.</p>
+                  <p className="box-ready-combos__status" role="status" aria-live="polite">{comboStatus}</p>
+                </section>
+              ) : null}
 
               <div className="box-qty-callout" role="note">
                 <p>
@@ -891,15 +969,14 @@ export function BoxBuilder() {
 
               <StepFooter
                 primary={{
-                  label:
-                    productCount === 0
-                      ? "Add a product to continue"
-                    : "Choose packaging",
+                  label: productCount === 0
+                    ? "Add a product to continue"
+                    : packagingChosen ? "Review & request" : "Choose packaging",
                   disabled: productCount === 0,
                   onClick: () =>
                     goNext(
-                      "packaging",
-                      "Add at least one product before choosing packaging.",
+                      packagingChosen ? "quote" : "packaging",
+                      "Add at least one product before continuing.",
                     ),
                 }}
               />

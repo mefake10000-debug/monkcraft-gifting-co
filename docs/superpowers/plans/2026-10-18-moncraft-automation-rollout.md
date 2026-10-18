@@ -8,7 +8,7 @@
 
 **Tech Stack:** Next.js 16.4, TypeScript, Supabase/Postgres, Notion API, OpenAI Responses API when enabled, Meta WhatsApp Business Platform when approved, Vercel, Vyapar staff workflow pending vendor confirmation.
 
-**Spec:** `docs/automation/moncraft-agent-operating-blueprint.md`
+**Specs:** `docs/automation/moncraft-agent-operating-blueprint.md` and `docs/automation/moncraft-crm-salesforce-spec.md`
 
 ## Global constraints
 
@@ -60,6 +60,17 @@
 - [ ] Add explicit staff-owned follow-up task state, overdue transitions, time-zone-safe dates, and notifications only through a selected approved channel.
 - [ ] Add AI evaluations for each coach output: evidence references, channel choice/consent, no invented facts, time-window sanity, and human correction capture.
 - [ ] Acceptance: run synthetic leads for missing fields, repeat buyer, WhatsApp opt-in, urgent requested delivery, no reply, and lost deal; each results in the expected owned action and audit history.
+
+### 3a. Full CRM and sales-force foundation
+
+**Specification:** `docs/automation/moncraft-crm-salesforce-spec.md`.
+
+- [ ] Extend beyond website quote requests with Accounts, Contacts, Leads, Opportunities, Activities, Tasks, Campaigns, versioned Quotes, and Orders linked by stable IDs. Preserve the submitted website request as immutable source evidence.
+- [ ] Add duplicate suggestions with human review, source/evidence provenance, explicit `known / buyer-stated / staff-inferred / unknown` facts, and channel-specific permission history.
+- [ ] Build My Day, saved role/team queues, searchable record detail pages, interaction timeline, task capture, explicit stage requirements, and visible domino effects.
+- [ ] Implement one primary next action per active lead/opportunity with named owner and due time; overdue actions alert and escalate without automatically sending follow-ups.
+- [ ] Add the guided, resumable business-learning wizard and versioned playbook. Require human confirmation for policy, commercial, consent, and approval changes; run reviewed examples as regression cases.
+- [ ] Acceptance: staff can trace one target prospect and one submitted website enquiry through account/contact, activity, lead, opportunity, approved quote, decision and order without duplicating facts or losing evidence.
 
 ### 4. Supplier operations and WhatsApp pilot
 

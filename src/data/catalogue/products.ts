@@ -271,6 +271,7 @@ function sanitizeSpecValue(label: string, value: string): string | null {
     .replace(/[\s_-]+/g, " ")
     .trim();
   if (
+    normalizedLabel.startsWith("country of origin") ||
     HIDDEN_SPEC_LABELS.has(normalizedLabel) ||
     /^(?:source|internal|(?:catalogue )?import)(?: |$)/.test(normalizedLabel) ||
     /(?:^| )(?:url|link)(?: |$)/.test(normalizedLabel) ||
@@ -301,6 +302,46 @@ function sanitizeSpecValue(label: string, value: string): string | null {
   return trimmed;
 }
 
+const ORIGIN_COUNTRIES = [
+  "People['’]s Republic of China",
+  "United Arab Emirates",
+  "United Kingdom",
+  "United Kingedom",
+  "Saudi Arabia",
+  "South Africa",
+  "South Korea",
+  "New Zealand",
+  "Netherlands",
+  "Switzerland",
+  "Germany",
+  "Ireland",
+  "Belgium",
+  "Poland",
+  "Turkey",
+  "France",
+  "Italy",
+  "India",
+  "China",
+  "USA",
+  "UK",
+].join("|");
+
+const COUNTRY_OF_ORIGIN_PATTERN = new RegExp(
+  `\\(?\\s*\\bcountry\\s+of\\s+origin\\s*(?:[:=–—-]\\s*)?(?:${ORIGIN_COUNTRIES})\\s*\\)?`,
+  "gi",
+);
+
+/** Remove supplier origin labels from buyer-facing copy without changing source files. */
+function removeCountryOfOrigin(text: string): string {
+  return text
+    .replace(COUNTRY_OF_ORIGIN_PATTERN, " ")
+    .replace(/\(\s*\)|\[\s*\]/g, " ")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .replace(/([.;])\s*[.;]+/g, "$1")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function mapAttributes(product: ExportProduct): { label: string; value: string }[] {
   const specs = product.specifications ?? {};
   const rows: { label: string; value: string }[] = [];
@@ -315,7 +356,8 @@ function mapAttributes(product: ExportProduct): { label: string; value: string }
       ["sku", "product code"].includes(label.trim().toLocaleLowerCase()) &&
       cleaned.toLocaleLowerCase() === identity
     ) continue;
-    rows.push({ label, value: cleaned });
+    const buyerValue = removeCountryOfOrigin(cleaned);
+    if (buyerValue) rows.push({ label, value: buyerValue });
   }
   const dispatch = product.availability?.dispatch;
   if (dispatch && !rows.some(({ label }) => label.trim().toLowerCase() === "dispatch timeline")) {
@@ -489,8 +531,8 @@ function buildCatalogue(): Product[] {
       colourFamilyCode: COLOUR_FAMILY_CODE_BY_PRODUCT.get(productId),
       colourOptionLabel: COLOUR_OPTION_LABEL_BY_PRODUCT.get(productId),
       name: ep.title,
-      summary: getReviewedProductDescription(productId) || (ep.shortDescription || ep.description || "").trim() || ep.title,
-      description: ep.description?.trim() || undefined,
+      summary: removeCountryOfOrigin(getReviewedProductDescription(productId) || (ep.shortDescription || ep.description || "").trim()) || ep.title,
+      description: removeCountryOfOrigin(ep.description?.trim() || "") || undefined,
       brandName: resolveBrandName(ep.brand),
       images,
       occasions: occasionBySlug.get(ep.slug) ?? [],

@@ -81,6 +81,8 @@ export type StudioProductSummary = {
   summary: string;
   imageSrc?: string;
   imageAlt?: string;
+  /** Source-verified colour options linked to their matching catalogue photos. */
+  imageVariants?: { label: string; imageSrc: string; imageAlt?: string }[];
   categoryName: string;
   subcategoryName?: string;
   customization?: string;

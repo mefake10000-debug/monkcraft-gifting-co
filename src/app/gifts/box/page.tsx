@@ -2,6 +2,7 @@ import { BoxBuilder } from "@/components/box/BoxBuilder";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { getReadyBoxCombos } from "@/data/catalogue/readyBoxCombos";
 
 export const metadata = {
   title: "Build a Corporate Gift Box | Monkcraft",
@@ -35,7 +36,7 @@ export default function BuildABoxPage() {
             { label: "Build a Box" },
           ]}
         />
-        <BoxBuilder />
+        <BoxBuilder combos={getReadyBoxCombos()} />
       </div>
       <SiteFooter />
     </main>

@@ -11,10 +11,13 @@ export type GiftCategoryImage = {
 export type GiftCategory = {
   id: string;
   title: string;
-  blurb: string;
+  /** Homepage grouping keeps occasion choices easy to scan. */
+  group?: "team" | "clients-events";
   tone: "mint" | "lilac" | "apricot" | "blue" | "buttercream" | "rose";
   /** Omit or set null for a text-led card until an approved asset exists */
   image: GiftCategoryImage | null;
+  /** Keep related occasion artwork together when the catalogue route is shared. */
+  secondaryImage?: GiftCategoryImage;
   /** Catalogue deep-link when inventory is live */
   cataloguePath?: string;
 };
@@ -23,8 +26,7 @@ export const giftCategories: GiftCategory[] = [
   {
     id: "employee-onboarding",
     title: "Employee Onboarding",
-    blurb:
-      "Branded essentials, thoughtful packaging and a personal welcome.",
+    group: "team",
     tone: "mint",
     image: {
       src: "/categories/employee-onboarding-v3.jpg",
@@ -34,34 +36,23 @@ export const giftCategories: GiftCategory[] = [
   },
   {
     id: "client-appreciation",
-    title: "Client Appreciation",
-    blurb:
-      "Thoughtful gifts for the relationship, occasion and budget.",
+    title: "Client Appreciation & Events",
+    group: "clients-events",
     tone: "lilac",
     image: {
       src: "/categories/client-appreciation-v3.jpg",
       alt: "Client appreciation gift arrangement with premium boxes and branded items",
     },
+    secondaryImage: {
+      src: "/categories/events-conferences-v3.jpg",
+      alt: "Event attendee with a branded tote, bottle, and notebook",
+    },
     cataloguePath:
       "/gifts?occasion=client-appreciation-event-and-conference",
   },
   {
-    id: "festive-gifting",
-    title: "Festive Gifting",
-    blurb:
-      "Diwali hampers, personal messages and planned team delivery.",
-    tone: "apricot",
-    image: {
-      src: "/categories/festive-gifting-v3.jpg",
-      alt: "Festive corporate hamper with ribboned gift boxes and greeting cards",
-    },
-    cataloguePath: "/gifts?occasion=festival-gifting",
-  },
-  {
     id: "events-conferences",
     title: "Events & Conferences",
-    blurb:
-      "Branded kits for conferences, launches and team gatherings.",
     tone: "blue",
     image: {
       src: "/categories/events-conferences-v3.jpg",
@@ -71,10 +62,20 @@ export const giftCategories: GiftCategory[] = [
       "/gifts?occasion=client-appreciation-event-and-conference",
   },
   {
+    id: "festive-gifting",
+    title: "Festive Gifting",
+    group: "clients-events",
+    tone: "apricot",
+    image: {
+      src: "/categories/festive-gifting-v3.jpg",
+      alt: "Festive corporate hamper with ribboned gift boxes and greeting cards",
+    },
+    cataloguePath: "/gifts?occasion=festival-gifting",
+  },
+  {
     id: "rewards-recognition",
     title: "Rewards & Recognition",
-    blurb:
-      "Recognise milestones with gifts suited to each person and budget.",
+    group: "team",
     tone: "buttercream",
     image: {
       src: "/categories/rewards-recognition-v3.jpg",
@@ -85,8 +86,6 @@ export const giftCategories: GiftCategory[] = [
   {
     id: "custom-merchandise",
     title: "Custom Merchandise",
-    blurb:
-      "Branded apparel, drinkware and essentials, with options by product.",
     tone: "rose",
     image: {
       src: "/categories/custom-merchandise-v3.jpg",

@@ -146,7 +146,7 @@ export function ProductCard({ product, shortlisted = false, fromBox = false, eag
         {typeLabel ? <p className="product-card__type">{typeLabel}</p> : null}
         {product.colourVariantOptions && product.colourVariantOptions.length > 1 ? (
           <div className="product-card__colour-picker">
-            <p className="product-card__colour-current">Colour: <strong>{activeCardProduct.colourOptionLabel ?? activeCardProduct.colours[0]}</strong>{activeCardProduct.availabilityStatus === "OUT" ? " · Out of stock" : ""}</p>
+            <p className="product-card__colour-current" aria-live="polite">Colour: <strong>{activeCardProduct.colourOptionLabel ?? activeCardProduct.colours[0]}</strong>{activeCardProduct.availabilityStatus === "OUT" ? " · Out of stock" : ""}</p>
             <ul aria-label="Choose a colour">
               {product.colourVariantOptions.map((variant) => {
                 const selected = variant.id === activeCardProduct.id;

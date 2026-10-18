@@ -191,19 +191,17 @@ export function EmployeeStorefront() {
 
   const storefrontDraft = activeDraft ?? draft;
   const accent = storefrontDraft.identity.accentColor || "#662F90";
-  const storeTitle =
-    storefrontDraft.identity.storeTitle ||
-    storefrontDraft.identity.storeName ||
-    storefrontDraft.identity.companyName ||
-    "Company store preview";
+  const companyName = storefrontDraft.identity.companyName.trim() || "Company Store";
+  const programmeName = storefrontDraft.identity.storeName.trim() || "Gift collection";
+  const storeTitle = storefrontDraft.identity.storeTitle.trim() || "Choose a gift";
   const estimated = storeOrderEstimatedTotal(activeOrder.lines);
   const rulesLabel = buildCompanyStoreRulesLabel(storefrontDraft);
   const ordering = storefrontDraft.rules.ordering;
   const allowanceSummary = ordering.allowanceMode === "allowance-cap" && ordering.allowanceCapInr != null
-    ? `Demo cap ${formatInrAmount(ordering.allowanceCapInr)} · not a live credit balance`
+    ? `Demo cap · ${formatInrAmount(ordering.allowanceCapInr)}`
     : ordering.allowanceMode === "company-funded"
-      ? "Company-funded programme · draft configuration"
-      : "No employee credit allowance configured in this demo";
+      ? "Company-funded · proposed"
+      : "Credits to be agreed";
 
   function prepareRequest() {
     setPrepError("");
@@ -326,9 +324,9 @@ export function EmployeeStorefront() {
               >{(storefrontDraft.identity.companyName || storefrontDraft.identity.storeName || "M").slice(0, 1).toUpperCase()}</div>
             )}
             <div>
-              <h1>{storeTitle}</h1>
+              <h1>{companyName}</h1>
               <p>
-                <strong>{storefrontDraft.identity.companyName || "Company"}</strong>{showcase ? " · Guided demo" : " · Employee preview"}
+                {programmeName}{showcase ? " · Guided demo" : " · Preview"}
               </p>
             </div>
           </div>
@@ -344,10 +342,10 @@ export function EmployeeStorefront() {
       </header>
 
       <section className="cs-storefront__hero">
-        <h2>{storefrontDraft.identity.storeName || "Your merch store"}</h2>
+        <h2>{storeTitle}</h2>
         <p>{storefrontDraft.identity.welcomeMessage}</p>
-        <p className="cs-store-credit"><strong>Programme funding</strong> · {allowanceSummary}</p>
-        <p className="cs-field__hint">Displayed product prices are catalogue references for this demo. Credit conversion and deductions are not active.</p>
+        <p className="cs-store-credit"><strong>Programme</strong> · {allowanceSummary}</p>
+        <p className="cs-field__hint">Demo only · Prices are catalogue references; credits and orders are not live.</p>
       </section>
 
       {storefrontDraft.productIds.length === 0 ? (

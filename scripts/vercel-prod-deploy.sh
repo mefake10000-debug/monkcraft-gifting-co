@@ -19,6 +19,7 @@ rm -rf "$STAGING"
 mkdir -p "$STAGING"
 rsync -a \
   --exclude '.git' \
+  --exclude '.cursor' \
   --exclude '.next' \
   --exclude 'node_modules' \
   --exclude '.env*' \

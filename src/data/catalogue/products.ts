@@ -68,6 +68,7 @@ const COLOUR_OPTION_LABEL_BY_PRODUCT = new Map(
 );
 type ExportImage = {
   path: string;
+  variantKey?: string;
   role?: string;
   alt?: string | null;
   width?: number;
@@ -197,6 +198,7 @@ function mapImages(product: ExportProduct): ProductImage[] {
     src,
     alt: img.alt?.trim() || `${product.title} — image ${index + 1}`,
     role: mapImageRole(img.role),
+    variantKey: img.variantKey?.trim() || undefined,
     sortOrder: img.sortOrder ?? index,
     width: img.width,
     height: img.height,
@@ -345,6 +347,40 @@ function resolveMoq(product: ExportProduct): number | undefined {
   ) ?? undefined;
 }
 
+function normalizeColourLabel(value: string): string {
+  return value.trim().split(/\s*\/\s*/).at(-1)?.trim().toLocaleLowerCase() ?? "";
+}
+
+function mapColourOptions(
+  product: ExportProduct,
+  images: ProductImage[],
+): { label: string; imageIndex: number }[] {
+  const sourceLabels = specValue(product, "Variant Image Colors")
+    ?.split(/\s*,\s*/)
+    .filter(Boolean) ?? [];
+  const options: { label: string; imageIndex: number }[] = [];
+  const seen = new Set<string>();
+
+  for (const sourceLabel of sourceLabels) {
+    const cleanLabel = sourceLabel.split(/\s*\/\s*/).at(-1)?.trim() ?? sourceLabel;
+    const normalized = normalizeColourLabel(cleanLabel);
+    if (!normalized || seen.has(normalized)) continue;
+
+    const imageIndex = images.findIndex((image) => {
+      const key = image.variantKey?.trim();
+      if (!key || key.toLocaleLowerCase() === "primary") return false;
+      if (key.toLocaleLowerCase() === sourceLabel.trim().toLocaleLowerCase()) return true;
+      return key.split(/\s*\/\s*/).some((part) => part.trim().toLocaleLowerCase() === normalized);
+    });
+    if (imageIndex < 0) continue;
+
+    seen.add(normalized);
+    options.push({ label: cleanLabel, imageIndex });
+  }
+
+  return options;
+}
+
 /**
  * Canonical product id = SKU when present (unique in export).
  * Falls back to explicit export id, then slug. Changing this breaks shortlist/box drafts.
@@ -420,7 +456,9 @@ function buildCatalogue(): Product[] {
       ? [slugifyFacet(customization)]
       : [];
 
-    const colour = specValue(ep, "Color") ?? COLOUR_LABEL_OVERRIDES.get(productId);
+    const colour = specValue(ep, "Color") ?? specValue(ep, "Available Color") ?? COLOUR_LABEL_OVERRIDES.get(productId);
+    const images = mapImages(ep);
+    const colourOptions = mapColourOptions(ep, images);
     const material = specValue(ep, "Material");
     const colours = colour ? [colour] : [];
     const materials = material ? [material] : [];
@@ -454,7 +492,7 @@ function buildCatalogue(): Product[] {
       summary: getReviewedProductDescription(productId) || (ep.shortDescription || ep.description || "").trim() || ep.title,
       description: ep.description?.trim() || undefined,
       brandName: resolveBrandName(ep.brand),
-      images: mapImages(ep),
+      images,
       occasions: occasionBySlug.get(ep.slug) ?? [],
       categoryId,
       categorySlug,
@@ -477,6 +515,7 @@ function buildCatalogue(): Product[] {
       brandingOptions,
       colours,
       colourIds: colours.map(slugifyFacet),
+      colourOptions: colourOptions.length ? colourOptions : undefined,
       materials,
       materialIds: materials.map(slugifyFacet),
       keywords: buildKeywords([

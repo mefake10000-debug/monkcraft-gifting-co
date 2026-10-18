@@ -1,9 +1,12 @@
 import { looksLikeEmail } from "@/lib/contactConfig";
 import type {
+  EnquiryAttribution,
+  EnquiryContactPreference,
   EnquiryProductLine,
   EnquiryProgramme,
   EnquirySubmissionPayload,
 } from "@/lib/enquiry/types";
+import { sanitizeCampaignAttribution } from "@/lib/marketing/attribution";
 
 export type ServerValidationResult =
   | { ok: true; payload: NormalizedEnquiry }
@@ -27,6 +30,10 @@ export type NormalizedEnquiry = {
   message: string;
   source: string;
   clientSubmissionId: string;
+  contactPreference: EnquiryContactPreference;
+  whatsappUpdatesOptIn: boolean;
+  marketingEmailOptIn: boolean;
+  attribution?: EnquiryAttribution;
 };
 
 function asTrimmedString(value: unknown, max: number): string {
@@ -124,19 +131,32 @@ export function validateEnquiryPayload(
   const message = asTrimmedString(raw.message, 4000);
   const source = asTrimmedString(raw.source, 80) || "unknown";
   const clientSubmissionId = asTrimmedString(raw.clientSubmissionId, 80);
+  const contactPreference = ["email", "phone", "whatsapp"].includes(String(raw.contactPreference))
+    ? raw.contactPreference as EnquiryContactPreference
+    : "email";
+  const whatsappUpdatesOptIn = raw.whatsappUpdatesOptIn === true;
+  const marketingEmailOptIn = raw.marketingEmailOptIn === true;
+  const attribution = sanitizeCampaignAttribution(raw.attribution);
   const programme = normalizeProgramme(raw.programme);
   const products = normalizeProducts(raw.products);
 
   const fieldErrors: Record<string, string> = {};
   if (!name) fieldErrors.name = "Name is required.";
   if (!company) fieldErrors.company = "Company is required.";
-  if (!email) fieldErrors.email = "Work email is required.";
-  else if (!looksLikeEmail(email)) fieldErrors.email = "Work email is invalid.";
+  if (email && !looksLikeEmail(email)) fieldErrors.email = "Work email is invalid.";
+  else if (contactPreference === "email" && !email) fieldErrors.email = "Email is required for email follow-up.";
+  if (contactPreference !== "email" && !phone) fieldErrors.phone = "Phone is required for the selected follow-up channel.";
   if (!summary && !message) {
     fieldErrors.summary = "Add a prepared summary or message.";
   }
-  if (clientSubmissionId && !/^[A-Za-z0-9_-]{8,80}$/.test(clientSubmissionId)) {
-    fieldErrors.clientSubmissionId = "Invalid submission id.";
+  if (!/^[A-Za-z0-9_-]{8,80}$/.test(clientSubmissionId)) {
+    fieldErrors.clientSubmissionId = "A valid submission id is required for safe retry handling.";
+  }
+  if (contactPreference === "whatsapp" && !whatsappUpdatesOptIn) {
+    fieldErrors.contactPreference = "Select the WhatsApp consent checkbox to request WhatsApp follow-up.";
+  }
+  if (marketingEmailOptIn && !email) {
+    fieldErrors.email = "Add an email address if you want product and gifting updates.";
   }
 
   if (Object.keys(fieldErrors).length > 0) {
@@ -158,6 +178,10 @@ export function validateEnquiryPayload(
       message,
       source,
       clientSubmissionId,
+      contactPreference,
+      whatsappUpdatesOptIn,
+      marketingEmailOptIn,
+      attribution,
     },
   };
 }

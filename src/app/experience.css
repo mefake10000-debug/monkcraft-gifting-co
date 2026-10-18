@@ -49,7 +49,11 @@ html { scroll-behavior:auto; scroll-padding-top:90px; }
 .box-catalogue-picker__filters h3 {margin:0 0 4px;font-size:1rem;}
 .box-catalogue-picker__filters label {font-size:.8rem;font-weight:650;}
 .box-catalogue-picker__filters input,.box-catalogue-picker__filters select {width:100%;min-height:44px;padding:9px 10px;border:1px solid #d8d2dc;border-radius:8px;background:#fff;font:inherit;font-size:.85rem;}
-.box-catalogue-picker__grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin:0;padding:0;list-style:none;}
+.box-catalogue-picker__grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin:0;padding:0;list-style:none;}
+.box-catalogue-pagination {display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin:16px 0 0;padding-top:12px;border-top:1px solid #e7e2ea;font-size:.82rem;color:#68626d;}
+.box-catalogue-pagination button {min-height:40px;padding:8px 12px;border:1px solid #d8d2dc;border-radius:8px;background:#fff;color:#4a3b53;font:inherit;font-weight:650;cursor:pointer;}
+.box-catalogue-pagination button:disabled {opacity:.5;cursor:default;}
+.box-catalogue-pagination button:focus-visible {outline:2px solid #662f90;outline-offset:2px;}
 .box-catalogue-card {min-width:0;padding:10px;border:1px solid #e7e2ea;border-radius:12px;background:#fff;}
 .box-catalogue-card,.cs-tile,.what-we-do__poster,.studio-switcher__tab {transition:transform 220ms var(--mc-ease),border-color 220ms ease,box-shadow 220ms ease,background-color 220ms ease;}
 .box-catalogue-card:hover,.cs-tile:hover,.what-we-do__poster:hover {transform:translateY(-4px);border-color:#ceb8db;box-shadow:0 12px 30px #32203f16;}
@@ -125,6 +129,15 @@ html { scroll-behavior:auto; scroll-padding-top:90px; }
  .site-header .site-header__menu-toggle {padding:8px 10px;font-size:.75rem;}
 }
 @media(max-width:700px){.box-catalogue-picker{grid-template-columns:1fr;gap:12px}.box-catalogue-picker__filters{position:static;grid-template-columns:1fr 1fr}.box-catalogue-picker__filters h3{grid-column:1/-1}}
+@media(max-width:400px){.box-catalogue-picker__grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}}
+/* The current builder has three stages; keep all three visible without a clipped rail. */
+.box-steps {grid-template-columns:repeat(3,minmax(0,1fr));}
+@media(max-width:719px){.box-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible;scroll-snap-type:none}.box-steps__item{min-width:0;flex:initial}.box-steps__item button{min-width:0;padding:.55rem}.box-steps__label{overflow-wrap:anywhere}}
+@media(min-width:760px){.catalogue-page .browse-intro{position:relative;padding-right:250px}.browse-intro__box-cta{position:absolute;right:32px;top:50%;transform:translateY(-50%)}}
+.browse-intro__box-cta{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:46px;padding:.7rem 1.1rem;border:1px solid #662f90;border-radius:999px;background:#662f90;color:#fff;text-decoration:none;font-weight:700;white-space:nowrap}
+.browse-intro__box-cta:hover{background:#512174}
+.browse-intro__box-cta:focus-visible{outline:3px solid #b895d0;outline-offset:3px}
+@media(max-width:759px){.browse-intro__box-cta{margin-top:14px}}
 /* On phones the hero navigation occupies its own row, so it never covers the headline. */
 @media(max-width:899px){
  .hero{min-height:0!important;}

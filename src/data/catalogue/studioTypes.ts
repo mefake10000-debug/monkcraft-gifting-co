@@ -75,6 +75,7 @@ export type WhiteLabelCatalogueDraft = {
 export type StudioProductSummary = {
   id: string;
   slug: string;
+  catalogueSku?: string;
   sku: string;
   name: string;
   summary: string;

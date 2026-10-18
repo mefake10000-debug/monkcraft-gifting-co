@@ -23,7 +23,7 @@ function returnTarget(
     return { href: "/gifts/box", label: "Back to Build a Box" };
   }
   if (from === "shortlist") {
-    return { href: "/gifts/shortlist", label: "Back to cart" };
+    return { href: "/gifts/shortlist", label: "Back to quote selections" };
   }
   if (from === "product") {
     if (productSlug) {
@@ -77,11 +77,11 @@ export function StudioShell({
       <header className="studio-shell__header">
         <div className="studio-shell__intro">
           <p className="studio-shell__eyebrow">Monkcraft Studio</p>
-          <h1>Creative workspace</h1>
+          <h1>{mode === "customize" ? "Product branding" : "Client catalogue"}</h1>
           <p className="studio-shell__lede">
             {mode === "customize"
-              ? "Choose a catalogue product, check logo placement and branding notes, then add it to your cart for production review."
-              : "Build a branded product selection from your cart. Download a clean PDF with one indicative price per item."}
+              ? "Preview your logo on a product."
+              : "Select gifts and prepare a shareable catalogue."}
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export function StudioShell({
             }
             onClick={() => switchMode("customize")}
           >
-            Customize a Product
+            Product branding
           </button>
           <button
             type="button"
@@ -112,15 +112,15 @@ export function StudioShell({
             }
             onClick={() => switchMode("catalogue")}
           >
-            Build a Catalogue
+            Client catalogue
           </button>
         </div>
-        <p className="studio-shell__save-note">Your Studio drafts save in this browser as you work. You can switch tools without losing them.</p>
+        <p className="studio-shell__save-note">Drafts save in this browser.</p>
 
         <nav className="studio-shell__links" aria-label="Studio related journeys">
           {back ? <Link href={back.href}>{back.label}</Link> : null}
-          <BackToResults label="Continue browsing catalog" />
-          <Link href="/gifts/shortlist">Open cart</Link>
+          <BackToResults label="Browse catalogue" />
+          <Link href="/gifts/shortlist">Review quote selections</Link>
 
         </nav>
       </header>
@@ -139,9 +139,7 @@ export function StudioShell({
             returnLabel={back?.label}
           />
         ) : (
-          <CatalogueBuilder
-            seedFromShortlist={seedFromShortlist}
-          />
+          <CatalogueBuilder seedFromShortlist={seedFromShortlist} />
         )}
       </div>
     </div>

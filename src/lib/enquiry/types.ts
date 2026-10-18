@@ -32,6 +32,21 @@ export type EnquiryContactPayload = {
   phone?: string;
 };
 
+export type EnquiryContactPreference = "email" | "phone" | "whatsapp";
+
+export type EnquiryAttributionTouch = {
+  source: string;
+  medium: string;
+  campaign?: string;
+  term?: string;
+  content?: string;
+  landingPath: string;
+  referrerHost?: string;
+  recordedAt: string;
+};
+
+export type EnquiryAttribution = { firstTouch: EnquiryAttributionTouch; lastTouch: EnquiryAttributionTouch };
+
 export type EnquirySubmissionPayload = {
   contact: EnquiryContactPayload;
   programme?: EnquiryProgramme;
@@ -42,6 +57,11 @@ export type EnquirySubmissionPayload = {
   message?: string;
   /** Journey origin, e.g. gifts-brief | homepage-consultation | box | company-store */
   source?: string;
+  contactPreference?: EnquiryContactPreference;
+  whatsappUpdatesOptIn?: boolean;
+  /** Separate optional marketing permission; never inferred from quote submission or WhatsApp consent. */
+  marketingEmailOptIn?: boolean;
+  attribution?: EnquiryAttribution;
   /**
    * Client-generated idempotency key (UUID). Replays within the window
    * return the prior response without re-attempting delivery.
@@ -72,4 +92,9 @@ export type EnquiryApiResponse = {
   duplicate?: boolean;
   retryAfterSeconds?: number;
   deliveryConfigured?: boolean;
+  received?: boolean;
+  requestId?: string;
+  notionSyncStatus?: "pending" | "synced" | "failed";
+  supplierCheckStatus?: "prepared" | "needs_mapping" | "pending" | "failed";
+  supplierCheckCount?: number;
 };

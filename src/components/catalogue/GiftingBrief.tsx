@@ -25,10 +25,11 @@ import {
   validateEnquiryContact,
 } from "@/lib/enquiryValidation";
 import {
-  standardProductQuantityFloor,
+  productMinimumOrderLabel,
   shortlistTotalUnits,
   writeShortlist,
 } from "@/lib/shortlist";
+import { BOX_CATALOGUE_HREF } from "@/lib/nav";
 
 type Step = "edit" | "prepared";
 
@@ -340,13 +341,13 @@ export function GiftingBrief() {
         <div>
           <p className="journey-eyebrow">Bulk quote</p>
           <h1>Request a quote</h1>
-          <p>Review your products and quantities. Add only the order details you already know, then send one request. No box is required.</p>
+          <p>Check your products and quantities, then share the details you know. Monkcraft will review your request and confirm pricing before you order.</p>
         </div>
         <div className="journey-actions">
           <Link className="journey-btn journey-btn--ghost" href="/gifts">
             Add products
           </Link>
-          <Link className="journey-btn journey-btn--ghost" href="/gifts/box">
+          <Link className="journey-btn journey-btn--ghost" href={snapshot?.hasBoxContent ? "/gifts/box" : BOX_CATALOGUE_HREF}>
             {snapshot.hasBoxContent ? "Edit box" : "Build a Box"}
           </Link>
         </div>
@@ -391,7 +392,7 @@ export function GiftingBrief() {
           </p>
           <div className="journey-actions">
             <Link href="/gifts">Browse catalogue</Link>
-            <Link href="/gifts/box">Build a Box</Link>
+            <Link href={BOX_CATALOGUE_HREF}>Build a Box</Link>
             {snapshot.studioRouteAvailable ? (
               <Link href="/studio">Open Studio</Link>
             ) : null}
@@ -425,7 +426,7 @@ export function GiftingBrief() {
           <div className="journey-callout">
             <Link href="/gifts">Add products from the catalogue</Link>
             {" · "}
-            <Link href="/gifts/shortlist">Open cart</Link>
+            <Link href="/gifts/shortlist">Review quote selections</Link>
           </div>
         ) : (
           <ul className="shortlist-list">
@@ -452,7 +453,7 @@ export function GiftingBrief() {
                   <p className="shortlist-row__price">
                     {item.priceLabel || "Price to confirm"}
                   </p>
-                  <p className="shortlist-row__moq">{item.quantity} pcs · minimum {standardProductQuantityFloor(item.minQuantity)} pcs</p>
+                  <p className="shortlist-row__moq">{item.quantity} pcs · minimum {productMinimumOrderLabel(item.minQuantity)}</p>
                 </div>
               </li>
             ))}
@@ -460,7 +461,7 @@ export function GiftingBrief() {
         )}
       </section>
 
-      {products.length > 0 ? <Link className="brief-edit-quote-link" href="/gifts/shortlist">Edit cart products or quantities</Link> : null}
+      {products.length > 0 ? <Link className="brief-edit-quote-link" href="/gifts/shortlist">Edit quote selections or quantities</Link> : null}
 
       {hasLinkedSetup ? <section id="brief-linked" className="brief-section" aria-labelledby="brief-linked-heading">
         <div className="brief-section__head">
@@ -483,7 +484,7 @@ export function GiftingBrief() {
                 <p>No box draft yet.</p>
               )}
             </div>
-            <Link className="brief-link-card__cta" href="/gifts/box">
+            <Link className="brief-link-card__cta" href={snapshot.hasBoxContent ? "/gifts/box" : BOX_CATALOGUE_HREF}>
               {snapshot.hasBoxContent ? "Review box" : "Start Build a Box"}
             </Link>
           </li>
@@ -749,7 +750,7 @@ export function GiftingBrief() {
             {refreshing ? "Preparing…" : "Review quote request"}
           </button>
           <Link className="journey-btn journey-btn--ghost" href="/gifts/shortlist">
-            Edit cart
+            Edit quote selections
           </Link>
         </div>
       </form>

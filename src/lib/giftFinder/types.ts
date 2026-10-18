@@ -121,7 +121,7 @@ export function toGiftFinderProductCard(product: Product): GiftFinderProductCard
   return {
     id: product.id,
     slug: product.slug,
-    sku: product.sku,
+    sku: product.catalogueSku,
     name: product.name,
     summary: product.summary,
     categorySlug: product.filterCategorySlug,

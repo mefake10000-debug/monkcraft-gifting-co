@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import type { Product } from "@/data/catalogue/types";
+import { productMinimumOrderLabel } from "@/lib/shortlist";
 import {
   COMPARE_EVENT,
   compareSlugs,
@@ -90,7 +91,7 @@ export function CompareView({ products }: CompareViewProps) {
             </Link>
           ) : null}
           <Link className="journey-btn journey-btn--ghost" href="/gifts">
-            Browse gifts
+            Browse the catalogue
           </Link>
         </div>
       </div>
@@ -190,9 +191,7 @@ export function CompareView({ products }: CompareViewProps) {
             <CompareRow label="Minimum order">
               {items.map((product) => (
                 <td key={product.id}>
-                  {product.minQuantity != null && product.minQuantity > 1
-                    ? product.minQuantity.toLocaleString("en-IN")
-                    : "—"}
+                  {productMinimumOrderLabel(product.minQuantity)}
                 </td>
               ))}
             </CompareRow>
@@ -225,15 +224,8 @@ export function CompareView({ products }: CompareViewProps) {
             <CompareRow label="Branding">
               {items.map((product) => (
                 <td key={product.id}>
-                  {product.brandingOptions.length
-                    ? product.brandingOptions.join(", ")
-                    : product.customization || "—"}
+                  {product.customization || "—"}
                 </td>
-              ))}
-            </CompareRow>
-            <CompareRow label="Dispatch">
-              {items.map((product) => (
-                <td key={product.id}>{product.dispatchTimeline || "—"}</td>
               ))}
             </CompareRow>
             {attributeLabels.map((label) => (

@@ -26,6 +26,8 @@ mark is published. Retrieved 15 October 2026.
 | Ooge | `ooge-logo.jpg` | [ooge.in](https://ooge.in/) |
 | Portronics | `portronics-logo-blacktext.png` (white lettering changed to black; red mark retained) | [portronics.com](https://www.portronics.com/) |
 | Power Plus | `power-plus-logo.png` | [powerpl.us](https://powerpl.us/) |
+| Scott | `scott-logo.png` | [Scott International](https://www.scottinternational.com/) |
+| ShopNooe | `shopnooe-logo.png` | [NOOE](https://nooe.co/) |
 | Swiss Military | `swiss-military-logo.png` | [swissmilitaryindia.com](https://www.swissmilitaryindia.com/) |
 | Stellers | `stellers-logo.png` | [stellers.in](https://www.stellers.in/) |
 | STOLT | `stolt-logo.png` | [stolt.in](https://www.stolt.in/) |
@@ -51,3 +53,7 @@ mark is published. Retrieved 15 October 2026.
 | Philips | `philips-logo.svg` | [Philips India](https://www.philips.co.in/) |
 | Kent | `kent-logo.svg` | [KENT](https://www.kent.co.in/) |
 | Bombay Shaving Company | `bombay-shaving-company-logo.png` | [Bombay Shaving Company](https://bombayshavingcompany.com/) |
+
+Greys & Blues remains without a logo asset because a brand-owned source for its
+mark could not be verified. Its active catalogue records remain searchable by
+brand. Do not substitute a generated or unrelated logo.

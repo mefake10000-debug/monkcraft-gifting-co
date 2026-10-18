@@ -11,6 +11,13 @@ import path from "node:path";
 
 import { getExportDataDir, getExportSchemaVersion } from "./exportPath";
 import { classifyProductType } from "./productType";
+import colourFamilies from "./colourFamilies.json";
+import colourLabelOverrides from "./colourLabelOverrides.json";
+import categoryOverrides from "./categoryOverrides.json";
+import confettiProductIds from "./confettiProducts.json";
+import productImageOverrides from "./productImageOverrides.json";
+import { getReviewedProductDescription } from "./editorial/runtime";
+import { resolveBuyerSubcategory } from "./subcategoryMapping";
 import type {
   Product,
   ProductImage,
@@ -29,11 +36,39 @@ export function setCatalogueCacheClearedListener(
 
 const PAGE_SIZE = 24;
 const EXPORT_SCHEMA = "2.0.0";
-
+const CATEGORY_OVERRIDES = new Map(
+  categoryOverrides.map((entry) => [entry.productId, entry]),
+);
+const COLOUR_LABEL_OVERRIDES = new Map(
+  colourLabelOverrides.map((entry) => [entry.productId, entry.label]),
+);
+const CONFETTI_PRODUCT_IDS = new Set(confettiProductIds as string[]);
+const CONFETTI_SUBCATEGORY_LABELS: Record<string, { slug: string; name: string }> = {
+  "chocolate-confectionery": { slug: "chocolate-confectionery", name: "Chocolate & Confectionery" },
+  gourmet: { slug: "gourmet-food", name: "Gourmet Food & Snacks" },
+  "gift-sets": { slug: "edible-gift-sets", name: "Edible Gift Sets" },
+  "festive-hampers": { slug: "edible-gift-sets", name: "Edible Gift Sets" },
+  coffee: { slug: "coffee-tea", name: "Coffee & Tea" },
+  bottles: { slug: "coffee-tea", name: "Coffee & Tea" },
+  travel: { slug: "chocolate-confectionery", name: "Chocolate & Confectionery" },
+};
+const COLOUR_FAMILY_CODE_BY_PRODUCT = new Map(
+  colourFamilies.flatMap((family) =>
+    family.reviewed && family.imageReviewed
+      ? family.productIds.map((id) => [id, family.familyCode] as const)
+      : [],
+  ),
+);
+const COLOUR_OPTION_LABEL_BY_PRODUCT = new Map(
+  colourFamilies.flatMap((family) =>
+    family.reviewed && family.imageReviewed
+      ? Object.entries(family.optionLabels ?? {})
+      : [],
+  ),
+);
 type ExportImage = {
   path: string;
   role?: string;
-  variantKey?: string | null;
   alt?: string | null;
   width?: number;
   height?: number;
@@ -72,6 +107,13 @@ type ExportFile = {
   products: ExportProduct[];
 };
 
+type ProductImageOverride = {
+  productId: string;
+  path: string;
+  alt: string;
+  role?: string;
+};
+
 type SegmentFile = {
   segments: {
     id: string;
@@ -107,12 +149,22 @@ function normalizeCustomization(raw: string | null | undefined): string | undefi
   return cleaned;
 }
 
-function toPublicImagePath(exportPath: string): string {
-  if (exportPath.startsWith("media/")) {
-    return `/catalogue-media/${exportPath.slice("media/".length)}`;
+function toPublicImagePath(exportPath: string): string | null {
+  const pathValue = exportPath.trim();
+  // Product photography must be served by Monkcraft. Ignore remote URLs and
+  // protocol-relative paths even if a future export starts including them.
+  if (!pathValue || /^(?:[a-z][a-z0-9+.-]*:|\/\/|\\\\)/i.test(pathValue)) {
+    return null;
   }
-  if (exportPath.startsWith("/")) return exportPath;
-  return `/catalogue-media/${exportPath}`;
+  if (pathValue.startsWith("media/")) {
+    return `/catalogue-media/${pathValue.slice("media/".length)}`;
+  }
+  if (pathValue.startsWith("/")) {
+    return pathValue.startsWith("/catalogue-media/") || pathValue.startsWith("/catalogue-import/")
+      ? pathValue
+      : null;
+  }
+  return `/catalogue-media/${pathValue.replace(/^\.\//, "")}`;
 }
 
 function mapImageRole(role?: string): ProductImageRole {
@@ -138,20 +190,35 @@ function mapImages(product: ExportProduct): ProductImage[] {
     return 0;
   });
 
-  return images.map((img, index) => {
-    const variantKey = img.variantKey ?? undefined;
-    return {
-      src: toPublicImagePath(img.path),
-      alt: img.alt?.trim() || (variantKey
-        ? `${product.title} — ${variantKey}`
-        : `${product.title} — image ${index + 1}`),
-      role: mapImageRole(img.role),
-      variantKey,
-      sortOrder: img.sortOrder ?? index,
-      width: img.width,
-      height: img.height,
-    };
+  const mappedImages = images.flatMap((img, index) => {
+    const src = toPublicImagePath(img.path);
+    if (!src) return [];
+    return [{
+    src,
+    alt: img.alt?.trim() || `${product.title} — image ${index + 1}`,
+    role: mapImageRole(img.role),
+    sortOrder: img.sortOrder ?? index,
+    width: img.width,
+    height: img.height,
+  }];
   });
+
+  // Add only source-verified recovery photos for products that have no source
+  // images. Existing source photography always takes precedence unchanged.
+  if (mappedImages.length > 0) return mappedImages;
+  const productId = resolveProductId(product);
+  return (productImageOverrides as ProductImageOverride[])
+    .filter((override) => override.productId === productId)
+    .flatMap((override) => {
+      const src = toPublicImagePath(override.path);
+      if (!src) return [];
+      return [{
+        src,
+        alt: override.alt,
+        role: mapImageRole(override.role),
+        sortOrder: 0,
+      }];
+    });
 }
 
 /**
@@ -173,6 +240,12 @@ function mapPricing(product: ExportProduct): ProductPricing {
 /** Spec labels that are export/metadata noise — not useful on the PDP. */
 const HIDDEN_SPEC_LABELS = new Set(
   [
+    "source product url",
+    "source product url ",
+    "product source url",
+    "source url",
+    "product url",
+    "direct source link",
     "stock update date",
     "stock updated date",
     "last stock update",
@@ -183,13 +256,24 @@ const HIDDEN_SPEC_LABELS = new Set(
 );
 
 /**
- * Drop internal date metadata and clearly invalid / far-future date values
+ * Drop source/import metadata, supplier links and invalid / far-future date values
  * so PDPs do not show raw export hygiene issues (audit D08).
  */
 function sanitizeSpecValue(label: string, value: string): string | null {
   const trimmed = value.trim();
   if (!trimmed) return null;
-  if (HIDDEN_SPEC_LABELS.has(label.trim().toLowerCase())) return null;
+  if (/^\$?undefined$/i.test(trimmed)) return null;
+  const normalizedLabel = label
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .toLowerCase()
+    .replace(/[\s_-]+/g, " ")
+    .trim();
+  if (
+    HIDDEN_SPEC_LABELS.has(normalizedLabel) ||
+    /^(?:source|internal|(?:catalogue )?import)(?: |$)/.test(normalizedLabel) ||
+    /(?:^| )(?:url|link)(?: |$)/.test(normalizedLabel) ||
+    /(?:https?:\/\/|www\.|^\/\/)/i.test(trimmed)
+  ) return null;
 
   const looksLikeDate =
     /date|updated|synced/i.test(label) ||
@@ -220,9 +304,21 @@ function mapAttributes(product: ExportProduct): { label: string; value: string }
   const rows: { label: string; value: string }[] = [];
   for (const [label, value] of Object.entries(specs)) {
     if (value == null) continue;
+    if (label.trim().toLocaleLowerCase() === "stock availability") continue;
     const cleaned = sanitizeSpecValue(label, String(value));
     if (!cleaned) continue;
+    const identity = product.sku?.trim().toLocaleLowerCase();
+    if (
+      identity &&
+      ["sku", "product code"].includes(label.trim().toLocaleLowerCase()) &&
+      cleaned.toLocaleLowerCase() === identity
+    ) continue;
     rows.push({ label, value: cleaned });
+  }
+  const dispatch = product.availability?.dispatch;
+  if (dispatch && !rows.some(({ label }) => label.trim().toLowerCase() === "dispatch timeline")) {
+    const cleaned = sanitizeSpecValue("Dispatch Timeline", dispatch);
+    if (cleaned) rows.push({ label: "Dispatch Timeline", value: cleaned });
   }
   return rows;
 }
@@ -237,47 +333,16 @@ function specValue(
   return trimmed || undefined;
 }
 
-function normalizeColourLabel(value: string): string {
-  return value.trim().split(/\s*\/\s*/).at(-1)?.trim().toLocaleLowerCase() ?? "";
-}
-
-function mapColourOptions(
-  product: ExportProduct,
-  images: ProductImage[],
-): { label: string; imageIndex: number }[] {
-  const sourceLabels = specValue(product, "Variant Image Colors")
-    ?.split(/\s*,\s*/)
-    .filter(Boolean) ?? [];
-  const options: { label: string; imageIndex: number }[] = [];
-  const seen = new Set<string>();
-
-  for (const sourceLabel of sourceLabels) {
-    const cleanLabel = sourceLabel.split(/\s*\/\s*/).at(-1)?.trim() ?? sourceLabel;
-    const normalized = normalizeColourLabel(cleanLabel);
-    if (!normalized || seen.has(normalized)) continue;
-
-    const imageIndex = images.findIndex((image) => {
-      const key = image.variantKey?.trim();
-      if (!key || key.toLocaleLowerCase() === "primary") return false;
-      if (key.trim().toLocaleLowerCase() === sourceLabel.trim().toLocaleLowerCase()) return true;
-      return key.split(/\s*\/\s*/).some((part) => part.trim().toLocaleLowerCase() === normalized);
-    });
-    if (imageIndex < 0) continue;
-
-    seen.add(normalized);
-    options.push({ label: cleanLabel, imageIndex });
-  }
-
-  return options;
-}
-
 function resolveMoq(product: ExportProduct): number | undefined {
-  const availability = product.availability;
-  if (!availability) return undefined;
-  const raw =
-    availability.minimumOrderQuantity ?? availability.moq ?? undefined;
-  if (raw == null || !Number.isFinite(raw) || raw <= 0) return undefined;
-  return Math.floor(raw);
+  return [
+    product.availability?.moq,
+    product.availability?.minimumOrderQuantity,
+  ].find(
+    (minimum) =>
+      typeof minimum === "number" &&
+      Number.isFinite(minimum) &&
+      minimum > 0,
+  ) ?? undefined;
 }
 
 /**
@@ -341,6 +406,13 @@ function buildCatalogue(): Product[] {
   const schemaVersion = getExportSchemaVersion() || EXPORT_SCHEMA;
 
   const products: Product[] = exportProducts.map((ep) => {
+    const productId = resolveProductId(ep);
+    const categoryOverride = CATEGORY_OVERRIDES.get(productId);
+    const categoryId = categoryOverride?.categoryId ?? ep.category.id ?? ep.category.slug;
+    const categorySlug = categoryOverride?.categorySlug ?? ep.category.slug;
+    const categoryName = categoryOverride?.categoryName ?? ep.category.name;
+    const subcategorySlug = categoryOverride?.subcategorySlug ?? ep.subcategory.slug;
+    const subcategoryName = categoryOverride?.subcategoryName ?? ep.subcategory.name;
     const customization = normalizeCustomization(
       specValue(ep, "Customization Type"),
     );
@@ -348,45 +420,53 @@ function buildCatalogue(): Product[] {
       ? [slugifyFacet(customization)]
       : [];
 
-    const colour = specValue(ep, "Color");
-    const availableColour = specValue(ep, "Available Color");
-    const variantImageColours = specValue(ep, "Variant Image Colors");
+    const colour = specValue(ep, "Color") ?? COLOUR_LABEL_OVERRIDES.get(productId);
     const material = specValue(ep, "Material");
-    const images = mapImages(ep);
-    const colourOptions = variantImageColours
-      ? mapColourOptions(ep, images)
-      : [];
-    const colours = (colour || availableColour)
-      ?.split(/\s*,\s*/)
-      .map((value) => value.trim())
-      .filter(Boolean) ?? [];
+    const colours = colour ? [colour] : [];
     const materials = material ? [material] : [];
 
     const typeInfo = classifyProductType({
       name: ep.title,
-      categorySlug: ep.category.slug,
-      categoryName: ep.category.name,
-      subcategorySlug: ep.subcategory.slug,
-      subcategoryName: ep.subcategory.name,
+      categorySlug,
+      categoryName,
+      subcategorySlug,
+      subcategoryName,
     });
+    const isConfettiProduct = CONFETTI_PRODUCT_IDS.has(productId);
+    const confettiSubcategory = isConfettiProduct
+      ? CONFETTI_SUBCATEGORY_LABELS[subcategorySlug]
+      : undefined;
+    const buyerSubcategory = resolveBuyerSubcategory(
+      typeInfo.filterCategorySlug,
+      subcategorySlug,
+      ep.title,
+    );
 
     return {
-      id: resolveProductId(ep),
+      id: productId,
       slug: ep.slug,
+      // Keep the published product identifier exactly as supplied by the source catalogue.
+      catalogueSku: ep.sku,
       sku: ep.sku,
+      colourFamilyCode: COLOUR_FAMILY_CODE_BY_PRODUCT.get(productId),
+      colourOptionLabel: COLOUR_OPTION_LABEL_BY_PRODUCT.get(productId),
       name: ep.title,
-      summary: (ep.shortDescription || ep.description || "").trim() || ep.title,
+      summary: getReviewedProductDescription(productId) || (ep.shortDescription || ep.description || "").trim() || ep.title,
       description: ep.description?.trim() || undefined,
       brandName: resolveBrandName(ep.brand),
-      images,
+      images: mapImages(ep),
       occasions: occasionBySlug.get(ep.slug) ?? [],
-      categoryId: ep.category.id || ep.category.slug,
-      categorySlug: ep.category.slug,
-      categoryName: ep.category.name,
-      subcategorySlug: ep.subcategory.slug,
-      subcategoryName: ep.subcategory.name,
-      filterCategorySlug: typeInfo.filterCategorySlug,
-      filterCategoryName: typeInfo.filterCategoryName,
+      categoryId,
+      categorySlug,
+      categoryName,
+      subcategorySlug: confettiSubcategory?.slug ?? buyerSubcategory.slug,
+      subcategoryName: confettiSubcategory?.name ?? buyerSubcategory.name,
+      filterCategorySlug: isConfettiProduct
+        ? "confetti-products"
+        : typeInfo.filterCategorySlug,
+      filterCategoryName: isConfettiProduct
+        ? "Confetti Products"
+        : typeInfo.filterCategoryName,
       productTypeId: typeInfo.typeId,
       productTypeLabel: typeInfo.typeLabel,
       productTypeConfidence: typeInfo.confidence,
@@ -397,8 +477,6 @@ function buildCatalogue(): Product[] {
       brandingOptions,
       colours,
       colourIds: colours.map(slugifyFacet),
-      colourOptions: colourOptions.length ? colourOptions : undefined,
-      colourVariantCount: colours.length > 1 ? colours.length : undefined,
       materials,
       materialIds: materials.map(slugifyFacet),
       keywords: buildKeywords([
@@ -413,7 +491,6 @@ function buildCatalogue(): Product[] {
         specValue(ep, "Product Code"),
       ]),
       minQuantity: resolveMoq(ep),
-      dispatchTimeline: ep.availability?.dispatch?.trim() || undefined,
       availabilityStatus: ep.availability?.status,
       pricing: mapPricing(ep),
       attributes: mapAttributes(ep),

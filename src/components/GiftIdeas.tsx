@@ -18,15 +18,10 @@ export function GiftIdeas() {
           <p className="gift-ideas__eyebrow">Gift ideas</p>
           <div className="gift-ideas__intro-row">
             <h2 id="gift-ideas-heading" className="gift-ideas__heading">
-              Start with the moment.{" "}
-              <span className="gift-ideas__heading-accent">
-                We&apos;ll shape the gift.
-              </span>
+              Start with the occasion.
             </h2>
             <p className="gift-ideas__lede">
-              Choose onboarding, Diwali, recognition, events, client appreciation
-              or custom merchandise to see relevant products for your team in
-              India. Add your favourites to your cart when you are ready.
+              Explore a curated selection for your occasion.
             </p>
           </div>
         </Reveal>
@@ -61,10 +56,6 @@ export function GiftIdeas() {
                           alt={category.image.alt}
                           fill
                           sizes="(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 33vw"
-                          style={{
-                            objectFit: "contain",
-                            objectPosition: "center",
-                          }}
                         />
                       ) : (
                         <span className="gift-ideas__media-placeholder">

@@ -17,8 +17,8 @@ export default function BriefPage() {
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
-            { label: "Gifts", href: "/gifts" },
-            { label: "Cart", href: "/gifts/shortlist" },
+            { label: "Catalogue", href: "/gifts" },
+            { label: "Quote selections", href: "/gifts/shortlist" },
             { label: "My Gifting Brief" },
           ]}
         />

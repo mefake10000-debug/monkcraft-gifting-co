@@ -3,16 +3,16 @@ import Link from "next/link";
 import { Reveal } from "@/components/Reveal";
 import { getContactChannels } from "@/lib/contactConfig";
 import { buildWhatsAppHref } from "@/lib/whatsapp";
+import { BOX_CATALOGUE_HREF } from "@/lib/nav";
 
 const footerLinks = [
-  { href: "/gifts", label: "Gifts catalogue" },
+  { href: "/gifts", label: "Catalogue" },
   { href: "/gifts/find", label: "Gift Finder" },
-  { href: "/gifts/box", label: "Build a Box" },
+  { href: BOX_CATALOGUE_HREF, label: "Build a Box" },
   { href: "/gifts/favourites", label: "Saved gifts" },
   { href: "/studio", label: "Studio" },
   { href: "/company-stores", label: "Company Stores" },
   { href: "/gifts/brief", label: "My Brief" },
-  { href: "/#gift-ideas", label: "Gift ideas" },
   { href: "/#enquire", label: "Consultation" },
   { href: "/#faq", label: "FAQ" },
 ] as const;

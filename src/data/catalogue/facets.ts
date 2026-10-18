@@ -101,6 +101,15 @@ export function getCategoryFacets(): CatalogueFacet[] {
     count: counts.get(c.slug) ?? 0,
   }));
 
+  const confettiCount = counts.get("confetti-products") ?? 0;
+  if (confettiCount > 0 && !cachedCategories.some((category) => category.id === "confetti-products")) {
+    cachedCategories.push({
+      id: "confetti-products",
+      label: "Confetti Products",
+      count: confettiCount,
+    });
+  }
+
   const otherCount = counts.get("other") ?? 0;
   if (otherCount > 0) {
     cachedCategories.push({
@@ -118,7 +127,9 @@ export function getCategoryFacets(): CatalogueFacet[] {
 
 export function getSubcategoryFacets(categorySlug?: string): CatalogueFacet[] {
   if (!cachedSubcategories) {
-    const filePath = path.join(getExportDataDir(), "categories.json");
+    // `categories.json` is the compact index and omits child lists; the full
+    // nested taxonomy is the authoritative source for category/subcategory labels.
+    const filePath = path.join(getExportDataDir(), "taxonomy.json");
     cachedSubcategories = new Map();
     const labelBySub = new Map<string, string>();
     if (fs.existsSync(filePath)) {
@@ -134,20 +145,27 @@ export function getSubcategoryFacets(categorySlug?: string): CatalogueFacet[] {
 
     // Build from classified products so noisy export subs (e.g. Coffee)
     // do not appear under Drinkware when emptied by the type overlay.
-    const counts = new Map<string, number>();
+    const counts = new Map<string, { count: number; label: string }>();
     for (const p of getAllProducts()) {
       const key = `${p.filterCategorySlug}/${p.subcategorySlug}`;
-      counts.set(key, (counts.get(key) ?? 0) + 1);
+      const entry = counts.get(key);
+      if (entry) entry.count += 1;
+      else counts.set(key, { count: 1, label: p.subcategoryName });
     }
     const byFilter = new Map<string, CatalogueFacet[]>();
-    for (const [key, count] of counts) {
+    for (const [key, { count, label }] of counts) {
       if (count <= 0) continue;
       const [filterSlug, subSlug] = key.split("/");
       if (!filterSlug || !subSlug) continue;
       const list = byFilter.get(filterSlug) ?? [];
+      const confettiLabels: Record<string, string> = {
+        "gourmet-food": "Gourmet Food & Snacks",
+        "edible-gift-sets": "Edible Gift Sets",
+        "coffee-tea": "Coffee & Tea",
+      };
       list.push({
         id: subSlug,
-        label: labelBySub.get(subSlug) ?? pSubLabel(subSlug),
+        label: confettiLabels[subSlug] ?? label ?? labelBySub.get(subSlug) ?? pSubLabel(subSlug),
         count,
       });
       byFilter.set(filterSlug, list);

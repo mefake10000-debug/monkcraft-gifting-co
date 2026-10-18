@@ -41,7 +41,7 @@ export type ConversionChannelsProps = {
 type SubmitState =
   | "idle"
   | "pending"
-  | "delivered"
+  | "received"
   | "not_configured"
   | "error";
 
@@ -68,22 +68,27 @@ export function ConversionChannels({
   const [whatsAppOpen, setWhatsAppOpen] = useState(false);
   const [submitState, setSubmitState] = useState<SubmitState>("idle");
   const [submitError, setSubmitError] = useState("");
-  const [submissionId, setSubmissionId] = useState(() =>
+  const [submissionId] = useState(() =>
     createEnquirySubmissionId(),
   );
-  const [deliveryReady, setDeliveryReady] = useState<boolean | null>(null);
+  const [requestId, setRequestId] = useState("");
+  const [notionSyncPending, setNotionSyncPending] = useState(false);
+  const [contactPreference, setContactPreference] = useState<"email" | "phone" | "whatsapp">("email");
+  const [whatsappUpdatesOptIn, setWhatsappUpdatesOptIn] = useState(false);
+  const [marketingEmailOptIn, setMarketingEmailOptIn] = useState(false);
+  const [storageReady, setStorageReady] = useState<boolean | null>(null);
 
   useEffect(() => {
     let cancelled = false;
     fetch("/api/enquiry")
       .then((res) => res.json())
-      .then((data: { deliveryConfigured?: boolean }) => {
+      .then((data: { storageConfigured?: boolean }) => {
         if (!cancelled) {
-          setDeliveryReady(Boolean(data.deliveryConfigured));
+          setStorageReady(Boolean(data.storageConfigured));
         }
       })
       .catch(() => {
-        if (!cancelled) setDeliveryReady(false);
+        if (!cancelled) setStorageReady(false);
       });
     return () => {
       cancelled = true;
@@ -127,19 +132,30 @@ export function ConversionChannels({
   }
 
   async function submitOnline(overrideId?: string) {
-    if (submitState === "pending" || submitState === "delivered") return;
+    if (submitState === "pending" || submitState === "received") return;
     setSubmitError("");
     setSubmitState("pending");
 
-    if (
-      !resolvedContact.name ||
-      !resolvedContact.company ||
-      !resolvedContact.email
-    ) {
+    const preferredChannelMissing = contactPreference === "email"
+      ? !resolvedContact.email
+      : !resolvedContact.phone;
+    if (!resolvedContact.name || !resolvedContact.company || preferredChannelMissing) {
       setSubmitState("error");
       setSubmitError(
-        "Add a valid email to your quote details before sending the request to the Monkcraft inbox. You can still use a configured email or WhatsApp link.",
+        contactPreference === "email"
+          ? "Add a valid email to your quote details, or choose phone or WhatsApp follow-up."
+          : "Add a phone number for your selected follow-up channel.",
       );
+      return;
+    }
+    if (contactPreference === "whatsapp" && !whatsappUpdatesOptIn) {
+      setSubmitState("error");
+      setSubmitError("Select the WhatsApp consent checkbox, or choose email or phone for follow-up.");
+      return;
+    }
+    if (marketingEmailOptIn && !resolvedContact.email) {
+      setSubmitState("error");
+      setSubmitError("Add an email address if you want product and gifting updates. This choice is optional and does not affect your quote.");
       return;
     }
 
@@ -149,6 +165,9 @@ export function ConversionChannels({
       company: resolvedContact.company,
       email: resolvedContact.email,
       phone: resolvedContact.phone,
+      contactPreference,
+      whatsappUpdatesOptIn,
+      marketingEmailOptIn,
       summary: prepText,
       source,
       programme,
@@ -156,16 +175,18 @@ export function ConversionChannels({
       clientSubmissionId: id,
     });
 
-    if (body.delivered === true) {
-      setSubmitState("delivered");
+    if (body.received === true) {
+      setRequestId(body.requestId || "");
+      setNotionSyncPending(body.notionSyncStatus !== "synced");
+      setSubmitState("received");
       return;
     }
 
-    if (body.code === "delivery_not_configured") {
+    if (body.code === "storage_not_configured") {
       setSubmitState("not_configured");
       setSubmitError(
         body.error ||
-          "Online inbox delivery is not connected yet. Use copy, email, booking, or WhatsApp below.",
+          "Quote request storage is not connected yet. Use email or WhatsApp below.",
       );
       return;
     }
@@ -182,55 +203,85 @@ export function ConversionChannels({
     setSubmitState("error");
     setSubmitError(
       body.error ||
-        "Submission failed — nothing was confirmed delivered. You can retry or copy the summary.",
+        "Submission failed — nothing was confirmed saved. You can retry or copy the summary.",
     );
   }
 
   function retrySubmit() {
-    if (submitState === "not_configured" || submitState === "delivered") return;
-    const nextId = createEnquirySubmissionId();
-    setSubmissionId(nextId);
+    if (submitState === "not_configured" || submitState === "received") return;
     setSubmitError("");
-    void submitOnline(nextId);
+    void submitOnline(submissionId);
   }
 
   return (
     <div className={className ? `conversion-channels ${className}` : "conversion-channels"}>
       <p className="conversion-channels__status" role="status">
-        {submitState === "delivered" ? (
+        {submitState === "received" ? (
           <>
-            Your quotation enquiry was accepted by Monkcraft&apos;s delivery
-            service. A specialist will follow up using the contact details you
-            provided.
+            Your quote request was saved. {requestId ? `Reference: ${requestId}. ` : ""}
+            Our team will review it before confirming pricing, stock, or delivery.
+            {notionSyncPending ? " The internal workspace sync is queued for retry." : ""}
           </>
-        ) : deliveryReady ? (
+        ) : storageReady ? (
           <>
-            You can submit this enquiry online, or continue via email, booking,
-            or WhatsApp. Opening a channel or copying text does not mean the
-            message was sent until you complete that step (or until online
-            submit confirms delivery).
+            Submit this brief to save it as a quote request. The team will confirm pricing,
+            supplier availability, and delivery after review. Email or WhatsApp links
+            remain available if you prefer to contact us yourself.
           </>
         ) : channels.hasLiveChannel ? (
           <>
-            Choose how you want to continue. Online submission to the Monkcraft
-            inbox is not connected yet — these actions open a real channel or
-            copy your summary. Nothing is sent until you send it yourself.
+            Online quote request storage is not connected yet. The brief remains in this
+            browser until you submit through a contact channel yourself.
           </>
         ) : (
           <>Monkcraft contact channels are being connected. Your quote stays saved in this browser; copy the complete summary to share it.</>
         )}
       </p>
 
+      {submitState !== "received" ? (
+        <div className="conversion-channels__preference">
+          <label>
+            Preferred follow-up
+            <select
+              value={contactPreference}
+              onChange={(event) => setContactPreference(event.target.value as "email" | "phone" | "whatsapp")}
+            >
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+              <option value="whatsapp">WhatsApp</option>
+            </select>
+          </label>
+          {contactPreference === "whatsapp" ? (
+            <label>
+              <input
+                type="checkbox"
+                checked={whatsappUpdatesOptIn}
+                onChange={(event) => setWhatsappUpdatesOptIn(event.target.checked)}
+              />
+              I agree to receive WhatsApp messages about this quote request.
+            </label>
+          ) : null}
+          <label>
+            <input
+              type="checkbox"
+              checked={marketingEmailOptIn}
+              onChange={(event) => setMarketingEmailOptIn(event.target.checked)}
+            />
+            Email me occasional Monkcraft product and corporate-gifting updates. Optional; separate from this quote. I can withdraw this permission by contacting Monkcraft.
+          </label>
+        </div>
+      ) : null}
+
       <div className="conversion-channels__actions">
         <button type="button" className="journey-btn" onClick={copyPrep}>
           {copyState === "copied" ? copiedLabel : copyLabel}
         </button>
 
-        {submitState === "delivered" ? (
+        {submitState === "received" ? (
           <span className="conversion-channels__disabled" role="status">
-            Enquiry submitted
+            Quote request saved
           </span>
-        ) : deliveryReady === true ? (
+        ) : storageReady === true ? (
           <button
             type="button"
             className="journey-btn journey-btn--ghost"
@@ -239,7 +290,7 @@ export function ConversionChannels({
           >
             {submitState === "pending"
               ? "Submitting…"
-              : "Submit quotation enquiry"}
+              : "Submit quote request"}
           </button>
         ) : null}
 

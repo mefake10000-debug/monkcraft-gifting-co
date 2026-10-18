@@ -5,6 +5,7 @@ import type {
   StoreOrderLine,
   StoreOrderRequest,
 } from "@/data/companyStore/types";
+import { companyStoreQuantityFloor } from "@/lib/shortlist";
 
 const ORDER_KEY = "monkcraft-company-store-order-v1";
 const REQUESTS_KEY = "monkcraft-company-store-requests-v1";
@@ -37,6 +38,19 @@ function isLine(value: unknown): value is StoreOrderLine {
   );
 }
 
+function normalizeQuantity(quantity: number): number {
+  const minimum = companyStoreQuantityFloor();
+  return Math.max(minimum, Number.isFinite(quantity) ? Math.floor(quantity) : minimum);
+}
+
+export function normalizeStoreOrderLines(value: unknown): StoreOrderLine[] {
+  if (!Array.isArray(value)) return [];
+  return value.filter(isLine).map((line) => ({
+    ...line,
+    quantity: normalizeQuantity(line.quantity),
+  }));
+}
+
 function lineKey(line: Pick<StoreOrderLine, "productId" | "variants">): string {
   const variantKey = line.variants
     .map((v) => `${v.label}:${v.value}`)
@@ -53,7 +67,7 @@ export function readStoreOrderDraft(): StoreOrderDraft {
     const parsed = JSON.parse(raw) as Partial<StoreOrderDraft>;
     return {
       version: 1,
-      lines: Array.isArray(parsed.lines) ? parsed.lines.filter(isLine) : [],
+      lines: normalizeStoreOrderLines(parsed.lines),
       notes: String(parsed.notes ?? ""),
       deliveryAddress:
         parsed.deliveryAddress && typeof parsed.deliveryAddress === "object"
@@ -72,11 +86,7 @@ export function writeStoreOrderDraft(
   if (typeof window === "undefined") return;
   const next: StoreOrderDraft = {
     version: 1,
-    lines: draft.lines.filter(isLine).map((line) => ({
-      ...line,
-      quantity: Math.max(1, Math.floor(line.quantity) || 1),
-      variants: Array.isArray(line.variants) ? line.variants : [],
-    })),
+    lines: normalizeStoreOrderLines(draft.lines),
     notes: String(draft.notes ?? ""),
     updatedAt: new Date().toISOString(),
   };
@@ -98,11 +108,11 @@ export function addStoreOrderLine(line: StoreOrderLine): StoreOrderDraft {
   if (existing) {
     lines = current.lines.map((l) =>
       lineKey(l) === key
-        ? { ...l, quantity: l.quantity + Math.max(1, line.quantity) }
+        ? { ...l, quantity: l.quantity + normalizeQuantity(line.quantity) }
         : l,
     );
   } else {
-    lines = [...current.lines, { ...line, quantity: Math.max(1, line.quantity) }];
+    lines = [...current.lines, { ...line, quantity: normalizeQuantity(line.quantity) }];
   }
   writeStoreOrderDraft({ ...current, lines });
   return readStoreOrderDraft();
@@ -115,21 +125,12 @@ export function setStoreOrderQuantity(
 ): StoreOrderDraft {
   const current = readStoreOrderDraft();
   const key = lineKey({ productId, variants });
-  const lines = current.lines
-    .map((l) =>
-      lineKey(l) === key
-        ? { ...l, quantity: Math.max(1, Math.floor(quantity) || 1) }
-        : l,
-    )
-    .filter((l) => (lineKey(l) === key ? quantity > 0 : true));
-  if (quantity <= 0) {
-    writeStoreOrderDraft({
-      ...current,
-      lines: current.lines.filter((l) => lineKey(l) !== key),
-    });
-  } else {
-    writeStoreOrderDraft({ ...current, lines });
-  }
+  const lines = current.lines.map((l) =>
+    lineKey(l) === key
+      ? { ...l, quantity: normalizeQuantity(quantity) }
+      : l,
+  );
+  writeStoreOrderDraft({ ...current, lines });
   return readStoreOrderDraft();
 }
 

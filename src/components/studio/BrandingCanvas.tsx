@@ -138,11 +138,10 @@ export function BrandingCanvas({
           />
         ) : (
           <div className="studio-canvas__empty" role="status">
-            <p className="studio-canvas__empty-title">Start with a product</p>
-            <p>
-              Search the live catalogue on the right, pick one SKU, then upload
-              your logo. This preview is conceptual — not a print proof.
+            <p className="studio-canvas__empty-title">
+              Select a product to preview branding
             </p>
+            <p>Choose a product from the catalogue, then upload your logo.</p>
           </div>
         )}
 

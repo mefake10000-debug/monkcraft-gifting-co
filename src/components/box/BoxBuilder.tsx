@@ -1,5 +1,4 @@
 "use client";
-import { BackToResults, CatalogueBrowseLink } from "@/components/catalogue/BackToResults";
 import { fetchStudioProducts } from "@/lib/studio/fetchProducts";
 
 import Image from "next/image";
@@ -81,49 +80,10 @@ function stepDone(draft: BoxDraft, step: BoxStep): boolean {
       return Boolean(draft.packaging);
     case "products":
       return draft.products.length > 0;
-    case "review":
-      return canEnterStep(draft, "quote");
     case "quote":
       return false;
     default:
       return false;
-  }
-}
-
-function nextStepCopy(step: BoxStep, draft: BoxDraft): {
-  title: string;
-  body: string;
-} {
-  switch (step) {
-    case "packaging":
-      return {
-        title: "Choose your packaging",
-        body: draft.packaging
-          ? "Packaging saved. Review the complete box next."
-          : "Choose a real catalogue box, or ask the team to recommend one. Review comes next.",
-      };
-    case "products":
-      return draft.products.length === 0
-        ? {
-            title: "Start with the gifts",
-            body: "Search the catalogue below and add gifts directly to your kit.",
-          }
-        : {
-            title: "Shape your kit",
-            body: "Set the units per kit here. Use Kit preferences to set order size, packaging and branding.",
-          };
-    case "review":
-      return {
-        title: "Final check",
-        body: "Check your products, box size, and packaging. Then prepare the quote request.",
-      };
-    case "quote":
-      return {
-        title: "Hand off to Monkcraft",
-        body: "Prepare a quotation request, copy or send via a channel, and open My Brief anytime — nothing auto-submits.",
-      };
-    default:
-      return { title: "", body: "" };
   }
 }
 
@@ -302,23 +262,11 @@ function KitSummary({
       ) : null}
 
       <section className="box-kit-options" aria-label="Kit preferences">
-        <h4>Kit preferences</h4>
+        <h4>Kit size</h4>
         <label>
           Number of complete kits
           <input type="number" min={MIN_BOXES} step={1} value={boxes} onChange={(event) => updateBoxCustomization({ numberOfBoxes: Number(event.target.value) })} />
           <small>Minimum {MIN_BOXES} kits</small>
-        </label>
-        <label>
-          Packaging style
-          <select value={draft.packaging?.kind === "selected" ? draft.packaging.optionId : draft.packaging?.kind === "pending" ? "pending" : ""} onChange={(event) => {
-            const value = event.target.value;
-            if (value === "pending") setBoxPackaging({ kind: "pending", note: "" });
-            else { const option = APPROVED_PACKAGING.find((item) => item.id === value); if (option) setBoxPackaging({ kind: "selected", optionId: option.id, name: option.name, summary: option.summary, dimensionsLabel: option.dimensionsLabel, priceLabel: option.priceLabel, imageSrc: option.imageSrc, packagingKind: option.packagingKind }); }
-          }}>
-            <option value="">Choose packaging</option>
-            {APPROVED_PACKAGING.map((option) => <option value={option.id} key={option.id}>{option.name}</option>)}
-            <option value="pending">Recommend packaging</option>
-          </select>
         </label>
         <details>
           <summary>Branding and delivery details</summary>
@@ -351,25 +299,9 @@ function KitSummary({
       </div>
 
       {draft.step !== "products" && draft.products.length === 0 ? (
-        <CatalogueBrowseLink className="box-kit-summary__cta" label="Browse catalogue" fromBox />
+        <button type="button" className="box-kit-summary__cta" onClick={() => setBoxStep("products")}>Choose gifts</button>
       ) : null}
     </aside>
-  );
-}
-
-function StepGuide({
-  step,
-  draft,
-}: {
-  step: BoxStep;
-  draft: BoxDraft;
-}) {
-  const copy = nextStepCopy(step, draft);
-  return (
-    <div className="box-step-guide" role="status">
-      <p className="box-step-guide__title">{copy.title}</p>
-      <p>{copy.body}</p>
-    </div>
   );
 }
 
@@ -380,31 +312,48 @@ export function BoxBuilder() {
   const [prepText, setPrepText] = useState("");
   const [catalogueQuery, setCatalogueQuery] = useState("");
   const [catalogueCategory, setCatalogueCategory] = useState("");
+  const [cataloguePage, setCataloguePage] = useState(1);
+  const [catalogueTotalPages, setCatalogueTotalPages] = useState(1);
   const [catalogueItems, setCatalogueItems] = useState<StudioProductSummary[]>([]);
-  const [catalogueLoading, setCatalogueLoading] = useState(false);
+  const [catalogueLoading, setCatalogueLoading] = useState(true);
   const [catalogueError, setCatalogueError] = useState("");
   const [logoError, setLogoError] = useState("");
-  const activeStep = draft?.step;
 
   useEffect(() => {
-    if (activeStep !== "products") return;
+    if (draft?.step !== "products") return;
     const controller = new AbortController();
     const timer = window.setTimeout(() => {
       setCatalogueLoading(true);
       setCatalogueError("");
-      fetch(`/api/catalogue/search?${new URLSearchParams({ q: catalogueQuery, category: catalogueCategory, limit: "18" })}`, { signal: controller.signal })
+      const params = new URLSearchParams({
+        q: catalogueQuery,
+        category: catalogueCategory,
+        page: String(cataloguePage),
+        limit: "18",
+      });
+      fetch(`/api/catalogue/search?${params}`, { signal: controller.signal })
         .then(async (response) => {
           if (!response.ok) throw new Error("Could not load gifts. Please try again.");
-          const data = await response.json() as { products?: StudioProductSummary[] };
+          return response.json() as Promise<{ products?: StudioProductSummary[]; totalPages?: number }>;
+        })
+        .then((data) => {
           setCatalogueItems(Array.isArray(data.products) ? data.products : []);
+          setCatalogueTotalPages(Math.max(1, data.totalPages ?? 1));
         })
-        .catch((error: unknown) => {
-          if (!controller.signal.aborted) setCatalogueError(error instanceof Error ? error.message : "Could not load gifts.");
+        .catch((reason: unknown) => {
+          if (!controller.signal.aborted) {
+            setCatalogueError(reason instanceof Error ? reason.message : "Could not load gifts.");
+          }
         })
-        .finally(() => { if (!controller.signal.aborted) setCatalogueLoading(false); });
+        .finally(() => {
+          if (!controller.signal.aborted) setCatalogueLoading(false);
+        });
     }, 180);
-    return () => { window.clearTimeout(timer); controller.abort(); };
-  }, [activeStep, catalogueQuery, catalogueCategory]);
+    return () => {
+      window.clearTimeout(timer);
+      controller.abort();
+    };
+  }, [draft?.step, catalogueQuery, catalogueCategory, cataloguePage]);
 
   const estimate = useMemo(
     () => (draft ? estimateBoxPricing(draft) : null),
@@ -526,11 +475,10 @@ export function BoxBuilder() {
 
   return (
     <div className="journey-panel box-builder">
-      <BackToResults label="Continue browsing gifts" />
       <header className="box-builder__head">
         <div>
           <p className="journey-eyebrow">Build a Box</p>
-          <h1>Assemble your gift kit</h1>
+          <h1>Build a gift box</h1>
           <p className="box-builder__meta" aria-live="polite">
             {draftMeta}
             <span className="box-builder__save">
@@ -551,7 +499,7 @@ export function BoxBuilder() {
       <StepProgress current={step} draft={draft} />
 
       <div className="box-kit-summary-mobile">
-        <KitSummary draft={draft} compact logoError={logoError} setLogoError={setLogoError} />
+        <KitSummary draft={draft} compact={step === "quote"} logoError={logoError} setLogoError={setLogoError} />
       </div>
 
       {error ? (
@@ -568,13 +516,9 @@ export function BoxBuilder() {
               aria-labelledby="box-packaging-heading"
             >
               <header className="box-section__intro">
-                <h2 id="box-packaging-heading">Finish with packaging</h2>
-                <p>
-                  Choose a packaging style. The team will confirm packaging, branding and assembly costs in your quote.
-                </p>
+                <h2 id="box-packaging-heading">Choose packaging</h2>
+                <p>Choose a style or ask us to recommend one. Final fit and price are confirmed in your quote.</p>
               </header>
-
-              <StepGuide step="packaging" draft={draft} />
 
               <ul className="box-packaging-grid">
                 {APPROVED_PACKAGING.map((option) => {
@@ -608,7 +552,7 @@ export function BoxBuilder() {
                       >
                         {selected ? (
                           <span className="box-packaging-card__chosen">
-                            Selected · saved
+                            ✓ Selected
                           </span>
                         ) : null}
                         <span className="box-packaging-card__media">
@@ -629,7 +573,7 @@ export function BoxBuilder() {
                         <strong>{option.name}</strong>
                         <span>{option.summary}</span>
                         <span className="box-packaging-card__meta">
-                          Price confirmed in quote
+                          Fit and price confirmed in your quote
                         </span>
                       </button>
                     </li>
@@ -658,7 +602,7 @@ export function BoxBuilder() {
                   >
                     {draft.packaging?.kind === "pending" ? (
                       <span className="box-packaging-card__chosen">
-                        Selected · saved
+                        ✓ Selected
                       </span>
                     ) : null}
                     <span className="box-packaging-card__media box-packaging-card__media--recommend">
@@ -677,17 +621,10 @@ export function BoxBuilder() {
                 back={{ onClick: () => setBoxStep("products") }}
                 primary={{
                   label: packagingChosen
-                    ? "Continue to final review"
+                    ? "Review & request"
                     : "Choose packaging to continue",
                   disabled: !packagingChosen,
-                  onClick: () => {
-                    if (!canEnterStep(draft, "review")) {
-                      setError("Choose packaging before the final review.");
-                      return;
-                    }
-                    setError("");
-                    setBoxStep("review");
-                  },
+                  onClick: () => goNext("quote", "Choose packaging before continuing."),
                 }}
               />
             </section>
@@ -699,22 +636,17 @@ export function BoxBuilder() {
               aria-labelledby="box-products-heading"
             >
               <header className="box-section__intro">
-                <h2 id="box-products-heading">Add products</h2>
-                <p>
-                  Add gifts to your kit. Each starts at <strong>1 per box</strong>; the programme starts at <strong>25 boxes</strong>. Supplier minimums are checked across the full programme.
-                </p>
+                <h2 id="box-products-heading">Choose gifts</h2>
+                <p>Select gifts from the catalogue and set the quantity per box. Minimum order is {MIN_BOXES} boxes.</p>
               </header>
-
-              <StepGuide step="products" draft={draft} />
 
               <div className="box-qty-callout" role="note">
                 <p>
-                  <strong>Qty per box</strong> = units inside one gift kit (starts at 1 per product).{" "}
-                  <strong>Total boxes</strong> = {boxes} (minimum {MIN_BOXES}; set in Kit preferences).
+                  <strong>Qty per box</strong> = units inside one kit. Total boxes: {boxes}.
                   {units > 0 ? (
                     <>
                       {" "}
-                      Programme-wide ≈ <strong>{units * boxes}</strong> units.
+                      Total units: <strong>{units * boxes}</strong>.
                     </>
                   ) : null}
                 </p>
@@ -750,12 +682,30 @@ export function BoxBuilder() {
               </div>
 
               <div className="box-catalogue-picker">
-                <aside className="box-catalogue-picker__filters" aria-label="Filter box products">
+                <aside className="box-catalogue-picker__filters" aria-label="Find gifts for your box">
                   <h3>Find gifts</h3>
-                  <label htmlFor="box-gift-search">Search products</label>
-                  <input id="box-gift-search" type="search" value={catalogueQuery} onChange={(event) => setCatalogueQuery(event.target.value)} placeholder="Try ‘bottle’ or ‘notebook’" />
+                  <label htmlFor="box-gift-search">Search the catalogue</label>
+                  <input
+                    id="box-gift-search"
+                    type="search"
+                    value={catalogueQuery}
+                    onChange={(event) => {
+                      setCatalogueLoading(true);
+                      setCatalogueQuery(event.target.value);
+                      setCataloguePage(1);
+                    }}
+                    placeholder="Try bottle or notebook"
+                  />
                   <label htmlFor="box-gift-category">Product type</label>
-                  <select id="box-gift-category" value={catalogueCategory} onChange={(event) => setCatalogueCategory(event.target.value)}>
+                  <select
+                    id="box-gift-category"
+                    value={catalogueCategory}
+                    onChange={(event) => {
+                      setCatalogueLoading(true);
+                      setCatalogueCategory(event.target.value);
+                      setCataloguePage(1);
+                    }}
+                  >
                     <option value="">All product types</option>
                     <option value="drinkware-barware">Drinkware &amp; Barware</option>
                     <option value="apparel-lifestyle">Apparel &amp; Lifestyle</option>
@@ -774,18 +724,43 @@ export function BoxBuilder() {
                   {catalogueError ? <p role="alert">{catalogueError}</p> : null}
                   {!catalogueLoading && !catalogueError && catalogueItems.length === 0 ? <p>No gifts match those filters. Try a broader search.</p> : null}
                   <ul className="box-catalogue-picker__grid">
-                    {catalogueItems.map((item) => {
+                    {!catalogueLoading && !catalogueError ? catalogueItems.map((item) => {
                       const added = draft.products.some((product) => product.id === item.id);
-                      return <li key={item.id} className="box-catalogue-card">
-                        <Link href={`/gifts/${item.slug}?from=box`} aria-label={`View ${item.name}`} className="box-catalogue-card__image">
-                          {item.imageSrc ? <Image src={item.imageSrc} alt={item.imageAlt ?? ""} fill sizes="(max-width: 700px) 40vw, 180px" style={{ objectFit: "contain" }} /> : <span>Image unavailable</span>}
-                        </Link>
-                        <p>{item.categoryName}</p><h4><Link href={`/gifts/${item.slug}?from=box`}>{item.name}</Link></h4>
-                        <small>{item.minQuantity ? `Supplier minimum ${item.minQuantity}` : "Minimum 25 complete kits"}</small>
-                        <button type="button" disabled={added} onClick={() => addToBox({ id: item.id, slug: item.slug, name: item.name, imageSrc: item.imageSrc, priceLabel: item.priceLabel, amountInr: item.amountInr, minQuantity: item.minQuantity, categoryName: item.categoryName })}>{added ? "Added to kit" : "Add to kit"}</button>
-                      </li>;
-                    })}
+                      return (
+                        <li key={item.id} className="box-catalogue-card">
+                          <Link href={`/gifts/${item.slug}?from=box`} aria-label={`View ${item.name}`} className="box-catalogue-card__image">
+                            {item.imageSrc ? <Image src={item.imageSrc} alt={item.imageAlt ?? ""} fill sizes="(max-width: 700px) 40vw, 180px" style={{ objectFit: "contain" }} /> : <span>Image unavailable</span>}
+                          </Link>
+                          <p>{item.categoryName}</p>
+                          <h4><Link href={`/gifts/${item.slug}?from=box`}>{item.name}</Link></h4>
+                          <small>{item.minQuantity ? `Supplier minimum ${item.minQuantity}` : "Minimum 25 complete kits"}</small>
+                          <button
+                            type="button"
+                            disabled={added}
+                            onClick={() => addToBox({
+                              id: item.id,
+                              slug: item.slug,
+                              name: item.name,
+                              imageSrc: item.imageSrc,
+                              priceLabel: item.priceLabel,
+                              amountInr: item.amountInr,
+                              minQuantity: item.minQuantity,
+                              categoryName: item.categoryName,
+                            })}
+                          >
+                            {added ? "Added to kit" : "Add to kit"}
+                          </button>
+                        </li>
+                      );
+                    }) : null}
                   </ul>
+                  {catalogueTotalPages > 1 ? (
+                    <nav className="box-catalogue-pagination" aria-label="Box gifts pages">
+                      <button type="button" disabled={catalogueLoading || cataloguePage <= 1} onClick={() => { setCatalogueLoading(true); setCataloguePage((page) => page - 1); }}>Previous</button>
+                      <span>Page {cataloguePage} of {catalogueTotalPages}</span>
+                      <button type="button" disabled={catalogueLoading || cataloguePage >= catalogueTotalPages} onClick={() => { setCatalogueLoading(true); setCataloguePage((page) => page + 1); }}>Next</button>
+                    </nav>
+                  ) : null}
                 </div>
               </div>
 
@@ -793,11 +768,10 @@ export function BoxBuilder() {
                 <ul className="shortlist-list box-product-list">
                   {draft.products.map((item) => {
                     const lineTotal = item.quantityPerBox * boxes;
+                    const minimum = item.minQuantity;
                     const moqShort =
-                      item.minQuantity &&
-                      item.minQuantity > 0 &&
-                      programmeUnitTotal(item.quantityPerBox, boxes) <
-                        item.minQuantity;
+                      typeof minimum === "number" &&
+                      programmeUnitTotal(item.quantityPerBox, boxes) < minimum;
                     return (
                       <li key={item.id} className="shortlist-row">
                         <div className="shortlist-row__media">
@@ -841,8 +815,8 @@ export function BoxBuilder() {
                           </p>
                           {moqShort ? (
                             <p className="box-moq-note" role="status">
-                              Supplier MOQ is{" "}
-                              {item.minQuantity!.toLocaleString("en-IN")} units
+                              Minimum order quantity is{" "}
+                              {minimum?.toLocaleString("en-IN") ?? "confirmed"} units
                               across the programme (currently {lineTotal}). Qty
                               per box stays a kit count — raise per-box qty or
                               number of boxes to meet MOQ.
@@ -932,206 +906,61 @@ export function BoxBuilder() {
             </section>
           ) : null}
 
-          {step === "review" ? (
-            <section
-              className="box-section box-step-panel"
-              aria-labelledby="box-review-heading"
-            >
-              <header className="box-section__intro">
-                <h2 id="box-review-heading">Review box</h2>
-                <p>
-                  Confirm the kit. Catalogue unit prices are estimates only —
-                  not a final quotation.
-                </p>
-              </header>
-
-              <StepGuide step="review" draft={draft} />
-
-              <div className="box-maths-card" aria-label="Kit maths">
-                <h3>Kit maths</h3>
-                <dl>
-                  <div>
-                    <dt>Units inside one gift box</dt>
-                    <dd>{units}</dd>
-                  </div>
-                  <div>
-                    <dt>Complete gift boxes</dt>
-                    <dd>
-                      × {boxes}
-                      <button
-                        type="button"
-                        className="box-summary__edit"
-                        onClick={() => setBoxStep("products")}
-                      >
-                        Change
-                      </button>
-                    </dd>
-                  </div>
-                  <div className="box-maths-card__total">
-                    <dt>Programme-wide units</dt>
-                    <dd>{units * boxes}</dd>
-                  </div>
-                </dl>
-              </div>
-
-              <dl className="box-summary">
-                <div>
-                  <dt>Packaging</dt>
-                  <dd>
-                    {packagingSummary(draft.packaging)}
-                    <button
-                      type="button"
-                      className="box-summary__edit"
-                      onClick={() => setBoxStep("packaging")}
-                    >
-                      Change
-                    </button>
-                  </dd>
-                </div>
-                <div>
-                  <dt>Company</dt>
-                  <dd>
-                    {draft.customization.companyName || "—"}
-                    <button
-                      type="button"
-                      className="box-summary__edit"
-                      onClick={() => setBoxStep("products")}
-                    >
-                      Edit
-                    </button>
-                  </dd>
-                </div>
-                <div>
-                  <dt>Occasion</dt>
-                  <dd>
-                    {draft.customization.occasion || "—"}
-                    <button
-                      type="button"
-                      className="box-summary__edit"
-                      onClick={() => setBoxStep("products")}
-                    >
-                      Edit
-                    </button>
-                  </dd>
-                </div>
-                <div>
-                  <dt>Budget per box</dt>
-                  <dd>{draft.customization.budgetPerBox || "—"}</dd>
-                </div>
-                {draft.customization.brandingRequirements ? (
-                  <div>
-                    <dt>Branding</dt>
-                    <dd>{draft.customization.brandingRequirements}</dd>
-                  </div>
-                ) : null}
-                {draft.customization.giftMessage ? (
-                  <div>
-                    <dt>Gift message</dt>
-                    <dd>{draft.customization.giftMessage}</dd>
-                  </div>
-                ) : null}
-                {draft.customization.deliveryRequirements ? (
-                  <div>
-                    <dt>Delivery</dt>
-                    <dd>{draft.customization.deliveryRequirements}</dd>
-                  </div>
-                ) : null}
-                <div>
-                  <dt>Dispatch plan</dt>
-                  <dd>{draft.customization.dispatchType === "single-city" ? "One delivery point in one city" : draft.customization.dispatchType === "multi-point" ? "Multiple delivery points" : draft.customization.dispatchType === "international" ? "International dispatch" : "To be confirmed"}</dd>
-                </div>
-                <div>
-                  <dt>Logo</dt>
-                  <dd>
-                    {draft.customization.logo
-                      ? `${draft.customization.logo.fileName} (local draft only)`
-                      : "None attached"}
-                  </dd>
-                </div>
-              </dl>
-
-              <h3 className="box-subsection-title">Products per box</h3>
-              <ul className="brief-products box-review-products">
-                {draft.products.map((item) => (
-                  <li key={item.id}>
-                    <Link href={`/gifts/${item.slug}?from=box`}>{item.name}</Link>
-                    <span>
-                      {item.quantityPerBox}/box × {boxes} ={" "}
-                      <strong>
-                        {item.quantityPerBox * boxes} units
-                      </strong>{" "}
-                      · {item.priceLabel}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-              <button
-                type="button"
-                className="journey-btn journey-btn--ghost"
-                onClick={() => setBoxStep("products")}
-              >
-                Edit products
-              </button>
-
-              <div className="box-price-callout" role="note">
-                <h3>Quote details</h3>
-                {estimate &&
-                estimate.pricedLineCount > 0 &&
-                estimate.pricedSubtotalInr !== null ? (
-                  <p>
-                  Catalogue reference subtotal (unit prices × qty
-                    per box × {boxes} {boxes === 1 ? "box" : "boxes"}):{" "}
-                    <strong>{formatInr(estimate.pricedSubtotalInr)}</strong>
-                  </p>
-                ) : (
-                  <p>No verified product subtotal is available yet.</p>
-                )}
-                {estimate && estimate.unpricedLineCount > 0 ? (
-                  <p>
-                    {estimate.unpricedLineCount} product line
-                    {estimate.unpricedLineCount === 1 ? "" : "s"} marked
-                    quote-on-request / unpriced.
-                  </p>
-                ) : null}
-                <p>Packaging, custom branding, assembly, delivery, taxes and any volume pricing are confirmed in your quote.</p>
-                <p>
-                  Product subtotal and packaging are estimates. Quantity discounts, taxes/GST, shipping, and
-                  customisation are <strong>not included</strong>. This is not a
-                  final price.
-                </p>
-              </div>
-
-              <StepFooter
-                back={{ onClick: () => setBoxStep("packaging") }}
-                primary={{
-                  label: "Continue to quote",
-                  onClick: () => goNext("quote"),
-                }}
-              />
-            </section>
-          ) : null}
-
           {step === "quote" ? (
             <section
               className="box-section box-step-panel"
               aria-labelledby="box-quote-heading"
             >
               <header className="box-section__intro">
-                <h2 id="box-quote-heading">Request quote</h2>
-                <p>
-                  Add what you know, then prepare your request. Company, occasion, budget and contact details are all here and optional.
-                </p>
+                <h2 id="box-quote-heading">Review &amp; request</h2>
+                <p>Check your gifts and packaging, then prepare a quote request.</p>
               </header>
 
-              <StepGuide step="quote" draft={draft} />
+              <section className="box-final-review" aria-label="Gift box summary">
+                <div className="box-maths-card" aria-label="Kit quantities">
+                  <h3>Your kit</h3>
+                  <dl>
+                    <div><dt>Gifts per box</dt><dd>{units}</dd></div>
+                    <div><dt>Number of boxes</dt><dd>{boxes}</dd></div>
+                    <div className="box-maths-card__total"><dt>Total gift units</dt><dd>{units * boxes}</dd></div>
+                  </dl>
+                </div>
+                <dl className="box-summary box-final-review__details">
+                  <div>
+                    <dt>Packaging</dt>
+                    <dd>
+                      {packagingSummary(draft.packaging)}
+                      <button type="button" className="box-summary__edit" onClick={() => setBoxStep("packaging")}>Change</button>
+                    </dd>
+                  </div>
+                </dl>
+                <div className="box-final-review__products">
+                  <h3>Gifts in this box</h3>
+                  <ul className="brief-products box-review-products">
+                    {draft.products.map((item) => (
+                      <li key={item.id}>
+                        <Link href={`/gifts/${item.slug}?from=box`}>{item.name}</Link>
+                        <span>{item.quantityPerBox}/box × {boxes} = <strong>{item.quantityPerBox * boxes} units</strong> · {item.priceLabel}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <button type="button" className="journey-btn journey-btn--ghost" onClick={() => setBoxStep("products")}>Edit gifts</button>
+                </div>
+                <div className="box-price-callout" role="note">
+                  <h3>Price guidance</h3>
+                  {estimate && estimate.pricedLineCount > 0 && estimate.pricedSubtotalInr !== null ? (
+                    <p>Catalogue reference subtotal: <strong>{formatInr(estimate.pricedSubtotalInr)}</strong></p>
+                  ) : <p>Product prices are confirmed in your quote.</p>}
+                  {estimate && estimate.unpricedLineCount > 0 ? <p>{estimate.unpricedLineCount} product line{estimate.unpricedLineCount === 1 ? " is" : "s are"} quote-on-request.</p> : null}
+                  <p>Catalogue prices are estimates. Packaging, branding, assembly, delivery, taxes and volume pricing are confirmed in your quote.</p>
+                </div>
+              </section>
 
               {prepText ? (
                 <div className="box-quote-handoff">
                   <div className="box-quote-handoff__banner" role="status">
                     <p>
-                      <strong>Quotation prep ready.</strong> Copy the text or
-                      use a channel below. Your box draft and My Brief stay
-                      saved in this browser.
+                      <strong>Quote request prepared.</strong> Copy it or choose a channel below. The draft stays saved in this browser.
                     </p>
                   </div>
                   <pre className="journey-preview">{prepText}</pre>
@@ -1195,10 +1024,9 @@ export function BoxBuilder() {
                           className="journey-btn journey-btn--ghost"
                           onClick={() => {
                             setPrepText("");
-                            setBoxStep("review");
                           }}
                         >
-                          Back to review
+                          Edit kit details
                         </button>
                       </>
                     }
@@ -1206,18 +1034,7 @@ export function BoxBuilder() {
                 </div>
               ) : (
                 <form className="brief-form" onSubmit={onPrepareQuote}>
-                  <div className="box-quote-prep" role="note">
-                    <ol>
-                      <li>Optional: add contact details for the message.</li>
-                      <li>
-                        Prepare the quotation request (syncs into My Brief).
-                      </li>
-                      <li>
-                        Copy / WhatsApp / email — or open My Brief to continue
-                        later.
-                      </li>
-                    </ol>
-                  </div>
+                  <p className="box-quote-prep">All details are optional. Preparing creates a draft in My Brief; choose a channel to send it.</p>
                   <fieldset className="brief-form__contact">
                     <legend>About this order (optional)</legend>
                     <div className="brief-form__grid">
@@ -1312,7 +1129,7 @@ export function BoxBuilder() {
                   </div>
 
                   <StepFooter
-                    back={{ onClick: () => setBoxStep("review") }}
+                    back={{ onClick: () => setBoxStep("packaging") }}
                     primary={{
                       label: "Prepare quotation request",
                       type: "submit",
@@ -1333,7 +1150,7 @@ export function BoxBuilder() {
         </div>
 
         <div className="box-builder__sidebar">
-          <KitSummary draft={draft} logoError={logoError} setLogoError={setLogoError} />
+          <KitSummary draft={draft} compact={step === "quote"} logoError={logoError} setLogoError={setLogoError} />
         </div>
       </div>
     </div>

@@ -5,21 +5,21 @@ const steps = [
   {
     n: "01",
     title: "Choose gifts",
-    text: "Browse by occasion, product type, budget or brand. Add the pieces that fit your team.",
+    text: "Find gifts by occasion, product, budget or brand.",
     href: "/gifts",
-    cta: "Browse gifts",
+    cta: "Browse the catalogue",
   },
   {
     n: "02",
     title: "Make it yours",
-    text: "Add your branding, choose packaging and share delivery details. Build a box with one of each selected product to start.",
+    text: "Choose products, packaging and branding.",
     href: "/gifts/box",
     cta: "Build a Box",
   },
   {
     n: "03",
     title: "Quote",
-    text: "Send your selections to Monkcraft for a tailored quote. Once approved, the team will share a payment link.",
+    text: "Share your selections. We’ll confirm details before an order.",
     href: "/gifts/brief",
     cta: "Open My Brief",
   },
@@ -33,11 +33,10 @@ export function JourneyStrip() {
         <Reveal as="header" className="journey-strip__intro">
           <p className="journey-strip__eyebrow">How it works</p>
           <h2 id="journey-strip-heading" className="journey-strip__heading">
-            From idea to quotation brief.
+            From first idea to quote.
           </h2>
           <p className="journey-strip__lede">
-            Choose a direction, shape the details, then review a clear quote
-            with the Monkcraft team before you place your order.
+            Browse, build your selection, then request a quote.
           </p>
         </Reveal>
         <ol className="journey-strip__steps">

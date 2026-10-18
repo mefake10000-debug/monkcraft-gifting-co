@@ -1,0 +1,182 @@
+[
+  {
+    "productId": "MGC-3030",
+    "categoryId": "C9",
+    "categorySlug": "office-stationery",
+    "categoryName": "Office & Stationery",
+    "subcategorySlug": "stationery",
+    "subcategoryName": "Stationery",
+    "reason": "The product title, 4 × 4 inch dimensions, acrylic-with-foam material, price, and image identify this as the same coaster line as MGC-3915–3919."
+  },
+  {
+    "productId": "MGC-3932",
+    "categoryId": "C2",
+    "categorySlug": "drinkware-barware",
+    "categoryName": "Drinkware & Barware",
+    "subcategorySlug": "mugs",
+    "subcategoryName": "Mugs",
+    "reason": "The source title, 350 ml mug specification, ₹185 price, and mug photograph identify this as drinkware, despite its Office & Stationery export bucket."
+  },
+  {
+    "productId": "MGC-3933",
+    "categoryId": "C2",
+    "categorySlug": "drinkware-barware",
+    "categoryName": "Drinkware & Barware",
+    "subcategorySlug": "mugs",
+    "subcategoryName": "Mugs",
+    "reason": "The source title, 350 ml mug specification, ₹185 price, and mug photograph identify this as drinkware, despite its Office & Stationery export bucket."
+  },
+  {
+    "productId": "MGC-3934",
+    "categoryId": "C2",
+    "categorySlug": "drinkware-barware",
+    "categoryName": "Drinkware & Barware",
+    "subcategorySlug": "mugs",
+    "subcategoryName": "Mugs",
+    "reason": "The source title, 350 ml mug specification, ₹185 price, and mug photograph identify this as drinkware, despite its Office & Stationery export bucket."
+  },
+  {
+    "productId": "MGC-3935",
+    "categoryId": "C2",
+    "categorySlug": "drinkware-barware",
+    "categoryName": "Drinkware & Barware",
+    "subcategorySlug": "mugs",
+    "subcategoryName": "Mugs",
+    "reason": "The source title, 350 ml mug specification, ₹185 price, and mug photograph identify this as drinkware, despite its Office & Stationery export bucket."
+  },
+  {
+    "productId": "MGC-3936",
+    "categoryId": "C2",
+    "categorySlug": "drinkware-barware",
+    "categoryName": "Drinkware & Barware",
+    "subcategorySlug": "mugs",
+    "subcategoryName": "Mugs",
+    "reason": "The source title, 350 ml mug specification, ₹185 price, and mug photograph identify this as drinkware, despite its Office & Stationery export bucket."
+  },
+  {
+    "productId": "MGC-0661",
+    "categoryId": "C2",
+    "categorySlug": "drinkware-barware",
+    "categoryName": "Drinkware & Barware",
+    "subcategorySlug": "mugs",
+    "subcategoryName": "Mugs",
+    "reason": "The product is titled Plant a Tree Signature Mug, specifies 350 ml, and is pictured as a mug; the wellness keyword in its artwork should not classify its product type."
+  },
+  {
+    "productId": "MGC-3072",
+    "categoryId": "C9",
+    "categorySlug": "office-stationery",
+    "categoryName": "Office & Stationery",
+    "subcategorySlug": "stationery",
+    "subcategoryName": "Stationery",
+    "reason": "The source title and image show a 4 × 4 inch coaster; the Eco-Friendly export bucket describes the artwork theme, not the product form."
+  },
+  {
+    "productId": "MGC-3073",
+    "categoryId": "C9",
+    "categorySlug": "office-stationery",
+    "categoryName": "Office & Stationery",
+    "subcategorySlug": "stationery",
+    "subcategoryName": "Stationery",
+    "reason": "The source title and image show a 4 × 4 inch coaster; the Eco-Friendly export bucket describes the artwork theme, not the product form."
+  },
+  {
+    "productId": "MGC-3042",
+    "categoryId": "C9",
+    "categorySlug": "office-stationery",
+    "categoryName": "Office & Stationery",
+    "subcategorySlug": "stationery",
+    "subcategoryName": "Stationery",
+    "reason": "The source title and image identify a 5.5 cm metal snapdot pin badge; the wellness export bucket reflects the artwork theme rather than the product type."
+  },
+  {
+    "productId": "MGC-3028",
+    "categoryId": "C9",
+    "categorySlug": "office-stationery",
+    "categoryName": "Office & Stationery",
+    "subcategorySlug": "stationery",
+    "subcategoryName": "Stationery",
+    "reason": "The source title and image identify a 5.5 cm metal snapdot pin badge; the wellness export bucket reflects the artwork theme rather than the product type."
+  },
+  {
+    "productId": "MGC-3068",
+    "categoryId": "C9",
+    "categorySlug": "office-stationery",
+    "categoryName": "Office & Stationery",
+    "subcategorySlug": "stationery",
+    "subcategoryName": "Stationery",
+    "reason": "The source title and image identify a 5.5 cm metal snapdot pin badge; the Eco-Friendly export bucket reflects the artwork theme rather than the product type."
+  },
+  {
+    "productId": "MGC-3044",
+    "categoryId": "C9",
+    "categorySlug": "office-stationery",
+    "categoryName": "Office & Stationery",
+    "subcategorySlug": "stationery",
+    "subcategoryName": "Stationery",
+    "reason": "The title, 9 × 9 cm dimensions, acrylic-with-foam material, exact ₹155 price, and product image identify this as the Sparkle design in the same 4-inch coaster line."
+  },
+  {
+    "productId": "MGC-0804",
+    "categoryId": "C4",
+    "categorySlug": "tech-gadgets",
+    "categoryName": "Tech & Gadgets",
+    "subcategorySlug": "home-appliances",
+    "subcategoryName": "Home Appliances",
+    "reason": "Car air purifier is a powered automotive appliance, not drinkware."
+  },
+  {
+    "productId": "MGC-0821",
+    "categoryId": "C6",
+    "categorySlug": "bags-travel",
+    "categoryName": "Bags & Travel",
+    "subcategorySlug": "pouches-organisers",
+    "subcategoryName": "Pouches & Organisers",
+    "reason": "Felt pocket packages are hanging storage organisers, not drinkware."
+  },
+  {
+    "productId": "MGC-0822",
+    "categoryId": "C6",
+    "categorySlug": "bags-travel",
+    "categoryName": "Bags & Travel",
+    "subcategorySlug": "pouches-organisers",
+    "subcategoryName": "Pouches & Organisers",
+    "reason": "Felt pocket packages are hanging storage organisers, not drinkware."
+  },
+  {
+    "productId": "MGC-0823",
+    "categoryId": "C6",
+    "categorySlug": "bags-travel",
+    "categoryName": "Bags & Travel",
+    "subcategorySlug": "pouches-organisers",
+    "subcategoryName": "Pouches & Organisers",
+    "reason": "Felt pocket packages are hanging storage organisers, not drinkware."
+  },
+  {
+    "productId": "MGC-0824",
+    "categoryId": "C6",
+    "categorySlug": "bags-travel",
+    "categoryName": "Bags & Travel",
+    "subcategorySlug": "pouches-organisers",
+    "subcategoryName": "Pouches & Organisers",
+    "reason": "Felt pocket packages are hanging storage organisers, not drinkware."
+  },
+  {
+    "productId": "MGC-0825",
+    "categoryId": "C6",
+    "categorySlug": "bags-travel",
+    "categoryName": "Bags & Travel",
+    "subcategorySlug": "pouches-organisers",
+    "subcategoryName": "Pouches & Organisers",
+    "reason": "Felt pocket packages are hanging storage organisers, not drinkware."
+  },
+  {
+    "productId": "MGC-0826",
+    "categoryId": "C6",
+    "categorySlug": "bags-travel",
+    "categoryName": "Bags & Travel",
+    "subcategorySlug": "pouches-organisers",
+    "subcategoryName": "Pouches & Organisers",
+    "reason": "Felt pocket packages are hanging storage organisers, not drinkware."
+  }
+]

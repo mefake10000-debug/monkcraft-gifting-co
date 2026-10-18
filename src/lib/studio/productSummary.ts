@@ -7,6 +7,7 @@ export function toStudioProductSummary(product: Product): StudioProductSummary {
   return {
     id: product.id,
     slug: product.slug,
+    catalogueSku: product.catalogueSku,
     sku: product.sku,
     name: product.name,
     summary: product.summary,

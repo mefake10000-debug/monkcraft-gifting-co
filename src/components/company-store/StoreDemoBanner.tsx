@@ -2,25 +2,28 @@ import Link from "next/link";
 
 export function StoreDemoBanner({
   context = "demo",
+  showBackLink = true,
 }: {
   context?: "demo" | "preview" | "employee";
+  showBackLink?: boolean;
 }) {
-  const label =
-    context === "employee"
-      ? "EMPLOYEE PREVIEW / DEMO"
-      : context === "preview"
-        ? "PREVIEW / DEMO"
-        : "DEMO / NOT LIVE";
+  const label = context === "employee"
+    ? "Employee preview"
+    : context === "preview"
+      ? "Store preview"
+      : "Interactive demo";
 
   return (
-    <div className="cs-banner" role="status">
-      <p>
+    <aside className="cs-banner" aria-label="Company Store demo status">
+      <p className="cs-banner__message">
         <strong>{label}</strong>
-        {" — "}
-        Local browser draft only. No live auth, payments, inventory holds, or
-        real order submission.
+        <span> Changes stay in this browser; requests are not submitted.</span>
       </p>
-      <Link href="/company-stores">About Company Stores</Link>
-    </div>
+      <details className="cs-banner__limits">
+        <summary>Demo limits</summary>
+        <p>Authentication, payments, inventory holds, and order submission are not connected.</p>
+      </details>
+      {context === "employee" && showBackLink ? <Link href="/company-stores">Back to company setup</Link> : null}
+    </aside>
   );
 }

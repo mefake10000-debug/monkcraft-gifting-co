@@ -52,21 +52,21 @@ export function ShortlistButton({
       aria-pressed={active}
       aria-label={
         active
-          ? `Remove ${snapshot.name} from cart`
-          : `Add ${snapshot.name} to cart`
+          ? `Remove ${snapshot.name} from quote selections`
+          : `Add ${snapshot.name} to quote selections`
       }
       onClick={() => {
         try {
           const next = toggleShortlist(snapshot);
           const saved = next.some((item) => item.id === snapshot.id);
-          setActive(saved); setFeedback(saved ? 'Saved' : 'Removed'); setError('');
+          setActive(saved); setFeedback(saved ? 'Added to quote selections' : 'Removed from quote selections'); setError('');
           if(timer.current) clearTimeout(timer.current);
           timer.current = setTimeout(() => setFeedback(null), 5000);
         } catch { setError('Could not save. Please try again.'); }
       }}
     >
       <span aria-hidden="true">{active ? "★" : "☆"}</span>
-      <span className="shortlist-btn__label">{active ? "In cart" : "Add to cart"}</span>
+      <span className="shortlist-btn__label">{active ? "In quote" : "Add to quote"}</span>
     </button>
     {feedback && <span className="save-feedback" role="status">{feedback} <button type="button" onClick={() => {try {if(active) removeFromShortlist(snapshot.id); else addToShortlist(snapshot);setActive(!active);setFeedback(null);} catch {setError('Could not undo. Please try again.');}}}>Undo</button></span>}
     {error && <span className="save-feedback" role="alert">{error}</span>}

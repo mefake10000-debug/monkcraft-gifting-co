@@ -5,6 +5,7 @@ import { CatalogueShell } from "@/components/catalogue/CatalogueShell";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { isCataloguePopulated } from "@/data/catalogue/products";
+import { getCategoryFacets, getSubcategoryFacets } from "@/data/catalogue/facets";
 import {
   parseCatalogueQuery,
   queryCatalogue,
@@ -14,9 +15,9 @@ import {
 export const instant = false;
 
 export const metadata = {
-  title: "Corporate Gift Catalogs for Indian Teams | Monkcraft",
+  title: "Corporate Gift Catalogue for Indian Teams | Monkcraft",
   description:
-    "Explore corporate gifts, employee welcome kits, custom merchandise and client hampers for Indian teams. Build a cart and verify bulk pricing with Monkcraft.",
+    "Explore corporate gifts, employee welcome kits, custom merchandise and client hampers for Indian teams. Request a bulk quote with Monkcraft.",
   alternates: { canonical: "/gifts" },
 };
 
@@ -51,6 +52,9 @@ export default async function GiftsPage({ searchParams }: GiftsPageProps) {
   const query = applyHomepageMapping(parseCatalogueQuery(params));
   const result = queryCatalogue(query);
   const facets = getContextualFacets(result.query);
+  const subcategoryFacetsByCategory = Object.fromEntries(
+    getCategoryFacets().map((category) => [category.id, getSubcategoryFacets(category.id)]),
+  );
   const fromParam = params.from;
   const fromBox =
     fromParam === "box" ||
@@ -73,8 +77,8 @@ export default async function GiftsPage({ searchParams }: GiftsPageProps) {
           query={result.query}
           occasionFacets={facets.occasions}
           categoryFacets={facets.categories}
+          subcategoryFacetsByCategory={subcategoryFacetsByCategory}
           brandFacets={facets.brands}
-          brandingFacets={facets.brandings}
           colourFacets={facets.colours}
           materialFacets={facets.materials}
           cataloguePopulated={isCataloguePopulated()}

@@ -23,7 +23,7 @@ export function FavouritesView() {
     return () => { live = false; };
   }, [ids]);
   return <section className="favourites-view" aria-labelledby="favourites-heading">
-    <header><p className="journey-eyebrow">SAVED GIFTS</p><h1 id="favourites-heading">Your saved gifts</h1><p>Keep ideas here while you explore. Add the ones you want to price to your cart.</p></header>
+    <header><p className="journey-eyebrow">SAVED GIFTS</p><h1 id="favourites-heading">Your saved gifts</h1><p>Keep ideas here while you explore. Add the ones you want priced to your quote selections.</p></header>
     {products.length ? <ul>{products.map((product) => <li key={product.id}>
       <Link className="favourites-view__image" href={`/gifts/${product.slug}`}>{product.imageSrc ? <Image src={product.imageSrc} alt={product.imageAlt ?? ""} fill sizes="180px" style={{ objectFit: "contain" }} /> : null}</Link>
       <p>{product.categoryName}</p><h2><Link href={`/gifts/${product.slug}`}>{product.name}</Link></h2><p>{product.priceLabel}</p>

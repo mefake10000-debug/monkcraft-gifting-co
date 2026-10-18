@@ -5,15 +5,23 @@ import type { ShortlistItem } from "@/data/catalogue/types";
 const STORAGE_KEY_V2 = "monkcraft-shortlist-v2";
 const STORAGE_KEY_V1 = "monkcraft-shortlist-v1";
 export const SHORTLIST_EVENT = "monkcraft:shortlist";
-export const MIN_STANDARD_PRODUCT_QUANTITY = 5;
+export const MIN_STANDARD_PRODUCT_QUANTITY = 1;
 
 export function standardProductQuantityFloor(minQuantity?: number): number {
-  return Math.max(
-    MIN_STANDARD_PRODUCT_QUANTITY,
-    Number.isFinite(minQuantity) && minQuantity && minQuantity > 0
-      ? Math.floor(minQuantity)
-      : 0,
-  );
+  return Number.isFinite(minQuantity) && (minQuantity ?? 0) > 0
+    ? Math.max(1, Math.ceil(minQuantity!))
+    : 1;
+}
+
+/** Company Store order lines have their own five-unit minimum, independent of supplier MOQ. */
+export function companyStoreQuantityFloor(minQuantity?: number): number {
+  return Math.max(5, standardProductQuantityFloor(minQuantity));
+}
+
+export function productMinimumOrderLabel(minQuantity?: number): string {
+  return Number.isFinite(minQuantity) && (minQuantity ?? 0) > 0
+    ? Math.ceil(minQuantity!).toLocaleString("en-IN") + " pcs"
+    : "Confirm in quote";
 }
 
 function emit() {
@@ -46,7 +54,7 @@ function migrateV1(): ShortlistItem[] {
         slug: id,
         name: id,
         priceLabel: "See product",
-        quantity: 1,
+        quantity: standardProductQuantityFloor(),
       }));
   } catch {
     return [];

@@ -3,6 +3,7 @@
 .git
 .next
 node_modules
+.env*
 tmp
 .tmp-pdf-slides
 .cursor
@@ -24,5 +25,12 @@ docs/source-originals
 
 # Documentation and review materials are not required to build or serve the site.
 docs
+# Automated QA is repository-only and is not part of the deployed website.
+tests
+# Research and supplier provenance are internal authoring data. They are not
+# needed at runtime; keep the public product and category exports available.
+src/data/catalogue/export/internal-provenance.json
+src/data/catalogue/export/gifting-research.md
+src/data/catalogue/export/gifting-web-search-audit.csv
 # macOS metadata files are local-only.
 .DS_Store

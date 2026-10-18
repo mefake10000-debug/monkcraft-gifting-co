@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "@/components/Reveal";
 import { BrandVideoBand } from "@/components/BrandVideoBand";
+import { BOX_CATALOGUE_HREF } from "@/lib/nav";
 
 /**
  * What We Do — brand story and service choices in one connected section.
@@ -9,47 +10,46 @@ import { BrandVideoBand } from "@/components/BrandVideoBand";
 const services = [
   {
     id: "corporate-gifting",
-    title: "Corporate Gifting",
+    title: "Catalogue & gift boxes",
     tone: "lilac",
-    image: {
-      src: "/marketing/what-we-do/corporate-gifting-v3.jpg",
-      alt: "Corporate Gifting — premium pen, notebook, and gift exchange illustration",
-    },
-    href: "/gifts",
-    cta: "Explore the catalogue",
+    images: [
+      {
+        src: "/marketing/what-we-do/corporate-gifting-v3.jpg",
+        alt: "Corporate gifts — pen, notebook, and gift exchange illustration",
+      },
+      {
+        src: "/marketing/what-we-do/kits-fulfilment-v3.jpg",
+        alt: "Gift box packaging and delivery illustration",
+      },
+    ],
+    links: [
+      { href: "/gifts", cta: "Explore the catalogue" },
+      { href: BOX_CATALOGUE_HREF, cta: "Build a gift box" },
+    ],
   },
   {
     id: "custom-merchandise",
-    title: "Custom-Branded Merchandise",
+    title: "Studio & branded merchandise",
     tone: "mint",
-    image: {
-      src: "/marketing/what-we-do/custom-merchandise-v3.jpg",
-      alt: "Custom-Branded Merchandise — hoodie, bottle, power bank, and tote",
-    },
-    href: "/studio",
-    cta: "Open Studio",
-  },
-  {
-    id: "kits-fulfilment",
-    title: "Kits & Fulfilment",
-    tone: "blue",
-    image: {
-      src: "/marketing/what-we-do/kits-fulfilment-v3.jpg",
-      alt: "Kits & Fulfilment — gift kit packaging and multi-city delivery",
-    },
-    href: "/gifts/box",
-    cta: "Build a gift box",
+    images: [
+      {
+        src: "/marketing/what-we-do/custom-merchandise-v3.jpg",
+        alt: "Branded merchandise — hoodie, bottle, power bank, and tote",
+      },
+    ],
+    links: [{ href: "/studio", cta: "Explore Studio" }],
   },
   {
     id: "company-stores",
     title: "Company Stores",
     tone: "apricot",
-    image: {
-      src: "/marketing/what-we-do/company-stores-v3.jpg",
-      alt: "Company Stores — branded storefront on a laptop with merchandise",
-    },
-    href: "/company-stores",
-    cta: "Explore Company Stores",
+    images: [
+      {
+        src: "/marketing/what-we-do/company-stores-v3.jpg",
+        alt: "Company Store — branded storefront on a laptop with merchandise",
+      },
+    ],
+    links: [{ href: "/company-stores", cta: "Explore Company Stores" }],
   },
 ] as const;
 
@@ -65,19 +65,18 @@ export function WhatWeDo() {
           as="header"
           className="what-we-do__intro what-we-do__intro--solo"
         >
-          <p className="what-we-do__eyebrow">What we do</p>
+          <p className="what-we-do__eyebrow">Our services</p>
           <h2 id="what-we-do-heading" className="what-we-do__heading">
-            Thoughtful gifts, made personal.
+            One partner. Three ways to gift.
           </h2>
           <p className="what-we-do__lede">
-            Choose the way you want to work with Monkcraft, from individual gifts
-            and branded merchandise to complete kits and company stores.
+            Gifts and boxes, branded merchandise, and Company Stores.
           </p>
         </Reveal>
         <BrandVideoBand
           id="brand-film"
-          title="Watch the film"
-          durationLabel="The Monkcraft brand story · 1 min"
+          title="The Monkcraft approach"
+          durationLabel="Our story · 1 min"
           src="/videos/monkcraft-what-we-do-mobile.mp4"
           desktopSrc="/videos/monkcraft-what-we-do-desktop.mp4"
           poster="/videos/monkcraft-what-we-do-mobile-poster.jpg"
@@ -97,20 +96,29 @@ export function WhatWeDo() {
               id={service.id === "company-stores" ? "company-stores" : undefined}
               className={`what-we-do__poster what-we-do__poster--${service.tone}`}
             >
-              <div className="what-we-do__poster-frame">
-                <Image
-                  src={service.image.src}
-                  alt={service.image.alt}
-                  fill
-                  sizes="(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 560px"
-                  style={{ objectFit: "contain", objectPosition: "center" }}
-                />
+              <div className={`what-we-do__poster-frame${service.images.length > 1 ? " what-we-do__poster-frame--pair" : ""}`}>
+                {service.images.map((image) => (
+                  <div className="what-we-do__poster-image" key={image.src}>
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      fill
+                      sizes="(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 560px"
+                      style={{ objectFit: "contain", objectPosition: "center" }}
+                    />
+                  </div>
+                ))}
               </div>
               <div className="what-we-do__poster-action">
-                <Link className="what-we-do__link" href={service.href}>
-                  {service.cta}
-                  <span className="visually-hidden"> — {service.title}</span>
-                </Link>
+                <h3 className="what-we-do__poster-title">{service.title}</h3>
+                <div className="what-we-do__poster-links">
+                  {service.links.map((link) => (
+                    <Link className="what-we-do__link" href={link.href} key={link.href}>
+                      {link.cta}
+                      <span className="visually-hidden"> — {service.title}</span>
+                    </Link>
+                  ))}
+                </div>
               </div>
             </Reveal>
           ))}

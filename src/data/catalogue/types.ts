@@ -11,8 +11,6 @@ export type ProductImage = {
   src: string;
   alt: string;
   role?: ProductImageRole;
-  /** Source option represented by this image when the supplier labels one. */
-  variantKey?: string;
   /** Display order (0 = primary/master when present). */
   sortOrder?: number;
   width?: number;
@@ -49,6 +47,8 @@ export type ProductSourceMeta = {
 export type Product = {
   id: string;
   slug: string;
+  /** New buyer-facing SKU. `id` and `sku` stay bound to the original export identity. */
+  catalogueSku: string;
   sku: string;
   name: string;
   summary: string;
@@ -92,15 +92,26 @@ export type Product = {
   colourIds: string[];
   /** Number of same-description colour options shown behind this catalogue card. */
   colourVariantCount?: number;
-  /** Supplier variants that have a matching source image in the product gallery. */
-  colourOptions?: { label: string; imageIndex: number }[];
+  /** Shared human-facing family code; each variant keeps its own canonical SKU/id. */
+  colourFamilyCode?: string;
+  /** Reviewed full colorway wording when the base color alone loses detail. */
+  colourOptionLabel?: string;
+  /** Complete verified catalogue records for a reviewed colour family, used by in-place selectors. */
+  colourVariantOptions?: Product[];
+  /** Reviewed catalogue records that share this model but carry distinct artwork. */
+  designFamilyCode?: string;
+  designFamilyName?: string;
+  /** Kind of selectable variation (for example, artwork design or shape and size). */
+  designFamilyOptionLabel?: string;
+  designOptionLabel?: string;
+  designVariantCount?: number;
+  designVariantOptions?: Product[];
   /** Verified material labels from export specs (may be empty). */
   materials: string[];
   materialIds: string[];
   /** Free-text keywords for search (derived from verified fields only). */
   keywords: string[];
   minQuantity?: number;
-  dispatchTimeline?: string;
   availabilityStatus?: string;
   pricing: ProductPricing;
   attributes: { label: string; value: string }[];

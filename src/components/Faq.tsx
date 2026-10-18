@@ -6,33 +6,33 @@ import { Reveal } from "@/components/Reveal";
 const faqs = [
   {
     q: "Who is Monkcraft for?",
-    a: "People and teams who plan corporate gifting in India — HR, founders, marketing, and ops leads who need curated gifts, branded merchandise, kits, or a simpler way to run employee stores.",
+    a: "For Indian HR, founder, marketing and operations teams planning gifts, branded merchandise, kits or employee stores.",
   },
   {
     q: "Can you help if we don’t know the exact products yet?",
-    a: "Yes. Share the occasion, approximate quantity, branding needs, timeline, and budget band. We’ll propose directions and refine toward a quotation.",
+    a: "Yes. Share the occasion, quantity, branding needs, timeline and budget. We’ll suggest options and refine a quote with you.",
   },
   {
     q: "Do you support custom branding?",
-    a: "Custom-branded merchandise and coordinated kits are a core part of what we do. Exact print methods and lead times depend on the products you choose.",
+    a: "Yes. Branding methods and lead times depend on the products selected.",
   },
   {
     q: "Can you fulfil across multiple cities?",
-    a: "Multi-location gifting is a common need for Indian teams. Tell us the cities and quantities in your enquiry so we can plan fulfilment with you.",
+    a: "Share the cities and quantities in your enquiry so we can plan delivery with you.",
   },
   {
     q: "Is there a full online catalogue yet?",
-    a: "Yes — browse the live gifts catalogue at /gifts (thousands of products). Add items to your cart, set quantities, then send them to Monkcraft for price verification and approval. Monkcraft Studio at /studio lets you preview branding on products and assemble a client catalogue. Company Stores at /company-stores offers a demo configurator and employee preview — not a live private commerce platform yet.",
+    a: "Yes. Browse thousands of products, set quantities and request a quote; Monkcraft confirms pricing and availability. Studio previews branding and builds client catalogues. Company Stores has a configurator and employee preview, but it is not a live commerce platform.",
   },
   {
     q: "How do Company Stores work?",
-    a: "A Company Store is a branded, company-specific merchandise experience for your team — not the public catalogue. Visit /company-stores to learn more, draft a proposed store in the demo configurator, or request one through the consultation form. Live employee auth and fulfilment are provisioned with Monkcraft; the demo does not authenticate users or submit real orders.",
+    a: "A Company Store is a branded gift collection for employees, separate from the public catalogue. Configure a sample, then agree access, credits, order review and delivery with Monkcraft. The demo does not create accounts, deduct live credits or place orders.",
   },
 ] as const;
 
 export function Faq() {
   const baseId = useId();
-  const [openIndex, setOpenIndex] = useState(0);
+  const [openIndex, setOpenIndex] = useState(-1);
 
   return (
     <section id="faq" className="faq" aria-labelledby="faq-heading">

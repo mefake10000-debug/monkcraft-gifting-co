@@ -9,20 +9,66 @@ import {
   type KeyboardEvent,
   type TouchEvent,
 } from "react";
-import type { ProductImage } from "@/data/catalogue/types";
+import type { Product, ProductImage } from "@/data/catalogue/types";
+import { colourSwatchStyle } from "@/data/catalogue/colourSwatches";
 
 type ProductGalleryProps = {
   images: ProductImage[];
   productName: string;
-  colourOptions?: { label: string; imageIndex: number }[];
+  selectedVariantId?: string;
+  colourVariants?: Product[];
+  designVariants?: Product[];
+  designVariantLabel?: string;
+  onSelectVariant?: (variant: Product) => void;
 };
 
 const SWIPE_THRESHOLD_PX = 40;
 
-export function ProductGallery({ images, productName, colourOptions = [] }: ProductGalleryProps) {
+export function ProductColourOptions({ variants, selectedVariantId, onSelectVariant, compact = false }: { variants: Product[]; selectedVariantId?: string; onSelectVariant?: (variant: Product) => void; compact?: boolean }) {
+  if (variants.length < 2 || !onSelectVariant) return null;
+  const selectedVariant = variants.find((variant) => variant.id === selectedVariantId);
+  const selectedLabel = selectedVariant?.colourOptionLabel ?? selectedVariant?.colours[0];
+  return <section className={`product-gallery__colour-options${compact ? " product-gallery__colour-options--compact" : ""}`} aria-label="Colour options">
+    <p>{variants.length} colours{selectedLabel ? ` · Selected: ${selectedLabel}` : ""}</p>
+    <ul>{variants.map((variant) => {
+      const selected = variant.id === selectedVariantId;
+      const unavailable = variant.availabilityStatus === "OUT";
+      const label = variant.colourOptionLabel ?? variant.colours[0];
+      return <li key={variant.id}>
+        <button type="button" className={`product-gallery__colour-option${selected ? " product-gallery__colour-option--active" : ""}${unavailable ? " product-gallery__colour-option--unavailable" : ""}`} aria-label={`Select ${label}${unavailable ? ", out of stock" : ""}`} aria-pressed={selected} title={label} onClick={() => onSelectVariant(variant)}>
+          <span className="product-gallery__colour-swatch" style={colourSwatchStyle(variant.colours[0])} aria-hidden="true" />
+          <span className="product-gallery__colour-label">{label}{unavailable ? " · Out of stock" : ""}</span>
+        </button>
+      </li>;
+    })}</ul>
+  </section>;
+}
+
+export function ProductDesignOptions({ variants, selectedVariantId, onSelectVariant, variantLabel = "design" }: { variants: Product[]; selectedVariantId?: string; onSelectVariant?: (variant: Product) => void; variantLabel?: string }) {
+  if (variants.length < 2 || !onSelectVariant) return null;
+  const selectedVariant = variants.find((variant) => variant.id === selectedVariantId);
+  const label = variantLabel === "design" ? "designs" : `${variantLabel} options`;
+  return <section className="product-gallery__design-options" aria-label={label}>
+    <p aria-live="polite">{variants.length} {label}{selectedVariant?.designOptionLabel ? ` · Selected: ${selectedVariant.designOptionLabel}` : ""}</p>
+    <ul>{variants.map((variant) => {
+      const selected = variant.id === selectedVariantId;
+      const image = variant.images[0];
+      const label = variant.designOptionLabel || variant.name;
+      return <li key={variant.id}>
+        <button type="button" className={`product-gallery__design-option${selected ? " product-gallery__design-option--active" : ""}`} aria-label={`Select ${label}`} aria-pressed={selected} title={label} onClick={() => onSelectVariant(variant)}>
+          <span className="product-gallery__design-thumb">
+            {image ? <Image src={image.src} alt="" fill sizes="64px" style={{ objectFit: "contain" }} /> : null}
+          </span>
+          <span className="product-gallery__design-label">{label}</span>
+        </button>
+      </li>;
+    })}</ul>
+  </section>;
+}
+
+export function ProductGallery({ images, productName, selectedVariantId, colourVariants = [], designVariants = [], designVariantLabel, onSelectVariant }: ProductGalleryProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [loadedSrc, setLoadedSrc] = useState<string | null>(null);
-  const [zoomOpen, setZoomOpen] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const labelId = useId();
   const safeIndex = Math.min(activeIndex, Math.max(images.length - 1, 0));
@@ -43,7 +89,7 @@ export function ProductGallery({ images, productName, colourOptions = [] }: Prod
   const goPrev = useCallback(() => goTo(safeIndex - 1), [goTo, safeIndex]);
   const goNext = useCallback(() => goTo(safeIndex + 1), [goTo, safeIndex]);
 
-  function onGalleryKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
+  function onGalleryKeyDown(event: KeyboardEvent<HTMLDivElement>) {
     if (!multi) return;
     if (event.key === "ArrowLeft") {
       event.preventDefault();
@@ -60,12 +106,12 @@ export function ProductGallery({ images, productName, colourOptions = [] }: Prod
     }
   }
 
-  function onTouchStart(event: TouchEvent<HTMLButtonElement>) {
+  function onTouchStart(event: TouchEvent<HTMLDivElement>) {
     if (!multi) return;
     touchStartX.current = event.changedTouches[0]?.clientX ?? null;
   }
 
-  function onTouchEnd(event: TouchEvent<HTMLButtonElement>) {
+  function onTouchEnd(event: TouchEvent<HTMLDivElement>) {
     if (!multi || touchStartX.current == null) return;
     const endX = event.changedTouches[0]?.clientX;
     const startX = touchStartX.current;
@@ -87,6 +133,8 @@ export function ProductGallery({ images, productName, colourOptions = [] }: Prod
         >
           <span>No image</span>
         </div>
+        <ProductColourOptions variants={colourVariants} selectedVariantId={selectedVariantId} onSelectVariant={onSelectVariant} />
+        <ProductDesignOptions variants={designVariants} selectedVariantId={selectedVariantId} onSelectVariant={onSelectVariant} variantLabel={designVariantLabel} />
       </div>
     );
   }
@@ -107,10 +155,10 @@ export function ProductGallery({ images, productName, colourOptions = [] }: Prod
         {statusText}
       </p>
 
-      <button
-        type="button"
+      <div
+        role="group"
+        tabIndex={multi ? 0 : undefined}
         className={`product-detail__hero-image${isLoaded ? " product-detail__hero-image--loaded" : ""}`}
-        onClick={() => setZoomOpen(true)}
         onKeyDown={onGalleryKeyDown}
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
@@ -136,56 +184,7 @@ export function ProductGallery({ images, productName, colourOptions = [] }: Prod
         {!isLoaded ? (
           <span className="product-detail__hero-loading" aria-hidden="true" />
         ) : null}
-        <span className="product-detail__zoom-hint">Tap to view full size</span>
-      </button>
-
-      {colourOptions.length > 1 ? (
-        <div className="product-gallery-colours" role="group" aria-label="Choose a colour">
-          <span>Colour</span>
-          <div>
-            {colourOptions.map((option) => (
-              <button
-                key={`${option.label}-${option.imageIndex}`}
-                type="button"
-                aria-pressed={safeIndex === option.imageIndex}
-                onClick={() => goTo(option.imageIndex)}
-              >
-                {option.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      ) : null}
-
-      {zoomOpen ? (
-        <div
-          className="product-image-viewer"
-          role="dialog"
-          aria-modal="true"
-          aria-label={`${productName} image`}
-          onClick={(event) => {
-            if (event.target === event.currentTarget) setZoomOpen(false);
-          }}
-        >
-          <button
-            type="button"
-            className="product-image-viewer__close"
-            onClick={() => setZoomOpen(false)}
-            aria-label="Close full-size image"
-          >
-            Close
-          </button>
-          <div className="product-image-viewer__frame">
-            <Image
-              src={active.src}
-              alt={active.alt || productName}
-              fill
-              sizes="100vw"
-              style={{ objectFit: "contain" }}
-            />
-          </div>
-        </div>
-      ) : null}
+      </div>
 
       {multi ? (
         <ul className="product-detail__thumbs" aria-label="Product images">
@@ -214,6 +213,9 @@ export function ProductGallery({ images, productName, colourOptions = [] }: Prod
           })}
         </ul>
       ) : null}
+
+      <ProductColourOptions variants={colourVariants} selectedVariantId={selectedVariantId} onSelectVariant={onSelectVariant} />
+      <ProductDesignOptions variants={designVariants} selectedVariantId={selectedVariantId} onSelectVariant={onSelectVariant} variantLabel={designVariantLabel} />
     </div>
   );
 }

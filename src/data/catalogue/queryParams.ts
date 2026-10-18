@@ -85,7 +85,6 @@ export function parseCatalogueQuery(
   ].filter((v, i, arr) => arr.indexOf(v) === i);
   const subcategories = parseListParam(searchParams, "subcategory");
   const brands = parseListParam(searchParams, "brand");
-  const brandings = parseListParam(searchParams, "branding");
   const colours = [
     ...parseListParam(searchParams, "colour"),
     ...parseListParam(searchParams, "color"),
@@ -115,7 +114,8 @@ export function parseCatalogueQuery(
     categories,
     subcategories,
     brands,
-    brandings,
+    // `branding` is accepted as a legacy key but no longer filters the catalogue.
+    brandings: [],
     colours,
     materials,
     budgetMinInr,
@@ -134,7 +134,6 @@ export function countActiveFilters(query: CatalogueQuery): number {
   count += query.categories.length;
   count += query.subcategories.length;
   count += query.brands.length;
-  count += query.brandings.length;
   count += query.colours.length;
   count += query.materials.length;
   if (query.budgetMinInr != null) count += 1;
@@ -159,7 +158,6 @@ export function buildCatalogueHref(
     params.set("subcategory", next.subcategories.join(","));
   }
   if (next.brands.length) params.set("brand", next.brands.join(","));
-  if (next.brandings.length) params.set("branding", next.brandings.join(","));
   if (next.colours.length) params.set("colour", next.colours.join(","));
   if (next.materials.length) params.set("material", next.materials.join(","));
   if (next.budgetMinInr != null) {

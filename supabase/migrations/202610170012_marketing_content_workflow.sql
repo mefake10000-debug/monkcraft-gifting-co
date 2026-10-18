@@ -1,0 +1,218 @@
+-- Durable marketing drafts, human approval, publication evidence and Notion retry state.
+
+create table public.marketing_content_items (
+  id uuid primary key default gen_random_uuid(),
+  channel text not null check (channel in ('LinkedIn', 'Instagram', 'YouTube', 'Google Business', 'Website', 'Email')),
+  campaign text not null,
+  objective text not null,
+  audience text not null,
+  brief text not null,
+  status text not null default 'Draft' check (status in ('Idea', 'Draft', 'Review', 'Approved', 'Scheduled', 'Published', 'Repurpose')),
+  content jsonb not null,
+  keyword_suggestions text[] not null default '{}',
+  image_brief text not null default '',
+  owner text not null,
+  created_by text not null,
+  model text,
+  usage jsonb not null default '{}'::jsonb,
+  publish_at timestamptz,
+  approved_by text,
+  approved_at timestamptz,
+  published_url text,
+  published_at timestamptz,
+  notion_page_id text,
+  notion_sync_status text not null default 'pending' check (notion_sync_status in ('pending', 'synced', 'failed')),
+  notion_synced_at timestamptz,
+  notion_attempts integer not null default 0,
+  notion_next_attempt_at timestamptz not null default now(),
+  notion_locked_until timestamptz,
+  notion_last_error text,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+create index marketing_content_status_date_idx on public.marketing_content_items(status, publish_at nulls last, created_at desc);
+
+create table public.marketing_content_events (
+  id uuid primary key default gen_random_uuid(),
+  content_item_id uuid not null references public.marketing_content_items(id) on delete cascade,
+  event_type text not null check (event_type in ('created', 'draft_updated', 'submitted_for_review', 'changes_requested', 'approved', 'scheduled', 'published', 'repurpose')),
+  previous_status text,
+  new_status text not null,
+  actor text not null,
+  note text,
+  reference text,
+  occurred_at timestamptz not null default now()
+);
+create index marketing_content_events_item_idx on public.marketing_content_events(content_item_id, occurred_at desc);
+
+alter table public.agent_runs
+  add column content_item_id uuid references public.marketing_content_items(id) on delete set null;
+create index agent_runs_content_item_idx on public.agent_runs(content_item_id, created_at desc);
+
+alter table public.marketing_content_items enable row level security;
+alter table public.marketing_content_events enable row level security;
+revoke all on public.marketing_content_items, public.marketing_content_events from anon, authenticated;
+grant all on public.marketing_content_items, public.marketing_content_events to service_role;
+
+create or replace function public.save_marketing_content_draft(
+  p_content_item_id uuid, p_channel text, p_campaign text, p_objective text, p_audience text,
+  p_brief text, p_content jsonb, p_keyword_suggestions text[], p_image_brief text,
+  p_publish_at timestamptz, p_owner text, p_actor text, p_model text default null, p_usage jsonb default '{}'::jsonb
+)
+returns setof public.marketing_content_items
+language plpgsql security definer set search_path = public
+as $$
+declare
+  v_item public.marketing_content_items;
+  v_actor text := nullif(left(trim(coalesce(p_actor, '')), 120), '');
+  v_before text;
+  v_event text;
+  v_run_id uuid;
+begin
+  if v_actor is null or p_channel not in ('LinkedIn', 'Instagram', 'YouTube', 'Google Business', 'Website', 'Email')
+    or nullif(trim(coalesce(p_campaign, '')), '') is null or nullif(trim(coalesce(p_objective, '')), '') is null
+    or nullif(trim(coalesce(p_audience, '')), '') is null or length(trim(coalesce(p_brief, ''))) < 20
+    or nullif(trim(coalesce(p_owner, '')), '') is null or jsonb_typeof(p_content) is distinct from 'object'
+    or nullif(trim(coalesce(p_content->>'title', '')), '') is null or nullif(trim(coalesce(p_content->>'copy', '')), '') is null
+    or coalesce(array_length(p_keyword_suggestions, 1), 0) > 12 then
+    raise exception 'invalid marketing content draft' using errcode = '22023';
+  end if;
+
+  if p_content_item_id is null then
+    insert into public.marketing_content_items(channel, campaign, objective, audience, brief, content, keyword_suggestions, image_brief, owner, created_by, model, usage, publish_at)
+      values (p_channel, left(trim(p_campaign), 120), left(trim(p_objective), 240), left(trim(p_audience), 240), left(trim(p_brief), 2000), p_content,
+        coalesce(p_keyword_suggestions, '{}'), left(coalesce(p_image_brief, ''), 1200), left(trim(p_owner), 120), v_actor,
+        nullif(left(trim(coalesce(p_model, '')), 120), ''), coalesce(p_usage, '{}'::jsonb), p_publish_at)
+      returning * into v_item;
+    v_event := 'created';
+    insert into public.marketing_content_events(content_item_id, event_type, new_status, actor, note)
+      values (v_item.id, v_event, v_item.status, v_actor, case when v_item.model is null then 'Manual draft' else 'Draft generated by ' || v_item.model end);
+    if v_item.model is not null then
+      insert into public.agent_runs(agent_key, trigger_name, input_reference, proposed_action, status, content_item_id)
+        values ('marketing_seo', 'marketing_content_draft_generated', v_item.id::text,
+          jsonb_build_object('model', v_item.model, 'usage', v_item.usage, 'draft', v_item.content, 'keyword_suggestions', v_item.keyword_suggestions),
+          'Needs review', v_item.id) returning id into v_run_id;
+    end if;
+  else
+    select * into v_item from public.marketing_content_items where id = p_content_item_id for update;
+    if not found then raise exception 'marketing content item not found' using errcode = 'P0002'; end if;
+    if v_item.status not in ('Idea', 'Draft') then raise exception 'only idea or draft content can be edited' using errcode = '22023'; end if;
+    v_before := v_item.status;
+    update public.marketing_content_items set channel = p_channel, campaign = left(trim(p_campaign), 120),
+      objective = left(trim(p_objective), 240), audience = left(trim(p_audience), 240), brief = left(trim(p_brief), 2000),
+      content = p_content, keyword_suggestions = coalesce(p_keyword_suggestions, '{}'), image_brief = left(coalesce(p_image_brief, ''), 1200),
+      owner = left(trim(p_owner), 120),
+      publish_at = p_publish_at, updated_at = now(), notion_sync_status = 'pending', notion_next_attempt_at = now(), notion_locked_until = null, notion_last_error = null
+      where id = p_content_item_id returning * into v_item;
+    v_event := 'draft_updated';
+    insert into public.marketing_content_events(content_item_id, event_type, previous_status, new_status, actor, note)
+      values (v_item.id, v_event, v_before, v_item.status, v_actor, case when v_item.model is null then 'Draft edited' else 'AI-assisted draft revised' end);
+  end if;
+  return next v_item;
+end;
+$$;
+
+create or replace function public.transition_marketing_content(
+  p_content_item_id uuid, p_action text, p_actor text, p_note text default null,
+  p_publish_at timestamptz default null, p_published_url text default null
+)
+returns setof public.marketing_content_items
+language plpgsql security definer set search_path = public
+as $$
+declare
+  v_item public.marketing_content_items;
+  v_actor text := nullif(left(trim(coalesce(p_actor, '')), 120), '');
+  v_note text := nullif(left(trim(coalesce(p_note, '')), 1000), '');
+  v_url text := nullif(left(trim(coalesce(p_published_url, '')), 1000), '');
+  v_previous text;
+  v_next text;
+  v_event text;
+begin
+  if v_actor is null then raise exception 'actor is required' using errcode = '22023'; end if;
+  select * into v_item from public.marketing_content_items where id = p_content_item_id for update;
+  if not found then raise exception 'marketing content item not found' using errcode = 'P0002'; end if;
+  v_previous := v_item.status;
+  if p_action = 'submit_for_review' and v_item.status = 'Draft' then v_next := 'Review'; v_event := 'submitted_for_review';
+  elsif p_action = 'request_changes' and v_item.status = 'Review' and v_note is not null then v_next := 'Draft'; v_event := 'changes_requested';
+  elsif p_action = 'approve' and v_item.status = 'Review' then v_next := 'Approved'; v_event := 'approved';
+  elsif p_action = 'schedule' and v_item.status = 'Approved' and p_publish_at is not null then v_next := 'Scheduled'; v_event := 'scheduled';
+  elsif p_action = 'mark_published' and v_item.status = 'Scheduled' and v_url ~* '^https://' then v_next := 'Published'; v_event := 'published';
+  elsif p_action = 'repurpose' and v_item.status = 'Published' then v_next := 'Repurpose'; v_event := 'repurpose';
+  else raise exception 'content action is not allowed from current status %', v_item.status using errcode = '22023';
+  end if;
+
+  update public.marketing_content_items set status = v_next, updated_at = now(),
+    approved_by = case when p_action = 'approve' then v_actor else approved_by end,
+    approved_at = case when p_action = 'approve' then now() else approved_at end,
+    publish_at = case when p_action = 'schedule' then p_publish_at else publish_at end,
+    published_url = case when p_action = 'mark_published' then v_url else published_url end,
+    published_at = case when p_action = 'mark_published' then now() else published_at end,
+    notion_sync_status = 'pending', notion_next_attempt_at = now(), notion_locked_until = null, notion_last_error = null
+    where id = p_content_item_id returning * into v_item;
+  insert into public.marketing_content_events(content_item_id, event_type, previous_status, new_status, actor, note, reference)
+    values (v_item.id, v_event, v_previous, v_next, v_actor, v_note, v_url);
+
+  update public.agent_runs set status = case when p_action = 'request_changes' then 'Rejected' when p_action in ('approve', 'mark_published') then 'Approved' else status end,
+    reviewer = case when p_action in ('request_changes', 'approve') then v_actor else reviewer end,
+    human_correction = case when p_action = 'request_changes' then v_note else human_correction end,
+    correction_reason = case when p_action = 'request_changes' then 'Marketing content changes requested' else correction_reason end,
+    outcome = case when p_action = 'mark_published' then 'Published by staff; URL recorded.' else outcome end,
+    reviewed_at = case when p_action in ('request_changes', 'approve', 'mark_published') then now() else reviewed_at end
+    where id = (select ar.id from public.agent_runs ar where ar.content_item_id = v_item.id and ar.status in ('Needs review', 'Proposed') order by ar.created_at desc limit 1);
+  return next v_item;
+end;
+$$;
+
+create or replace function public.claim_marketing_content_notion_sync(p_content_item_id uuid default null)
+returns setof public.marketing_content_items
+language plpgsql security definer set search_path = public
+as $$
+declare v_item public.marketing_content_items;
+begin
+  select * into v_item from public.marketing_content_items
+  where (p_content_item_id is null or id = p_content_item_id)
+    and notion_sync_status in ('pending', 'failed') and notion_next_attempt_at <= now()
+    and (notion_locked_until is null or notion_locked_until < now())
+  order by updated_at asc limit 1 for update skip locked;
+  if not found then return; end if;
+  update public.marketing_content_items set notion_attempts = notion_attempts + 1,
+    notion_locked_until = now() + interval '3 minutes' where id = v_item.id returning * into v_item;
+  return next v_item;
+end;
+$$;
+
+create or replace function public.finish_marketing_content_notion_sync(
+  p_content_item_id uuid, p_claimed_updated_at timestamptz, p_notion_page_id text default null, p_error text default null
+)
+returns setof public.marketing_content_items
+language plpgsql security definer set search_path = public
+as $$
+declare v_item public.marketing_content_items;
+begin
+  select * into v_item from public.marketing_content_items where id = p_content_item_id for update;
+  if not found then return; end if;
+  if v_item.updated_at <> p_claimed_updated_at then
+    update public.marketing_content_items set notion_sync_status = 'pending', notion_next_attempt_at = now(), notion_locked_until = null
+      where id = p_content_item_id returning * into v_item;
+  elsif nullif(trim(coalesce(p_error, '')), '') is null and nullif(trim(coalesce(p_notion_page_id, '')), '') is not null then
+    update public.marketing_content_items set notion_sync_status = 'synced', notion_page_id = p_notion_page_id,
+      notion_synced_at = now(), notion_locked_until = null, notion_last_error = null
+      where id = p_content_item_id returning * into v_item;
+  else
+    update public.marketing_content_items set notion_sync_status = 'failed', notion_locked_until = null,
+      notion_last_error = left(coalesce(p_error, 'Notion did not return a page ID'), 400),
+      notion_next_attempt_at = now() + make_interval(secs => least(3600, power(2, least(notion_attempts, 10))::integer * 15))
+      where id = p_content_item_id returning * into v_item;
+  end if;
+  return next v_item;
+end;
+$$;
+
+revoke all on function public.save_marketing_content_draft(uuid, text, text, text, text, text, jsonb, text[], text, timestamptz, text, text, text, jsonb) from public, anon, authenticated;
+revoke all on function public.transition_marketing_content(uuid, text, text, text, timestamptz, text) from public, anon, authenticated;
+revoke all on function public.claim_marketing_content_notion_sync(uuid) from public, anon, authenticated;
+revoke all on function public.finish_marketing_content_notion_sync(uuid, timestamptz, text, text) from public, anon, authenticated;
+grant execute on function public.save_marketing_content_draft(uuid, text, text, text, text, text, jsonb, text[], text, timestamptz, text, text, text, jsonb) to service_role;
+grant execute on function public.transition_marketing_content(uuid, text, text, text, timestamptz, text) to service_role;
+grant execute on function public.claim_marketing_content_notion_sync(uuid) to service_role;
+grant execute on function public.finish_marketing_content_notion_sync(uuid, timestamptz, text, text) to service_role;

@@ -1,7 +1,7 @@
 # Monkcraft Visual Assets Needed
 
-**Status:** Inventory for a future photo / illustration pass  
-**Date:** 2026-10-15  
+**Status:** Current runtime asset inventory; five exact product photos remain unavailable
+**Date:** 2026-10-16
 **Rule:** Do not invent, generate, or download substitute imagery. Use only approved Monkcraft assets.
 
 This list reflects **actual gaps** in the current platform. Layouts already tolerate missing assets with honest empty states. Presentation improvements (contain frames, PDP gallery, category cards) are image-ready — they do not fabricate photography.
@@ -16,7 +16,7 @@ This list reflects **actual gaps** in the current platform. Layouts already tole
 | Legacy hero archive | `public/hero/monkcraft-hero-v3.jpg`, `v4` | Archive only | Do **not** use as production hero |
 | Official brand marks | `public/brand/Monkcraft-*.png` | Horizontal ~544×145; logomark 144×84; square 144×144 | Nav, footer, print |
 | Occasion category tiles | `public/categories/*.jpg` (6 files) | **1200×900** (4:3) JPEG | Homepage Gift Ideas (`giftCategories`) |
-| Catalogue product media | `public/catalogue-media` → symlink `../../monkcraft/website-export/media` | ~22k webp/jpg under `products/` | Cards, PDP, Finder, Box, Studio, Company Store |
+| Catalogue product media | `public/catalogue-media` (local directory) | 22,145 files; ~808 MB | Cards, PDP, Finder, Box, Studio, Company Store |
 | Packaging concept SVGs | `public/catalogue-media/packaging/illustrations/*.svg` | ViewBox ~800×600 | Build a Box conceptual strip only (not selectable SKUs) |
 | Design reference boards | `docs/design-references/*.png` | Offline Behance direction | Art direction only — never ship as site merch |
 
@@ -39,7 +39,7 @@ Legacy hero files (`monkcraft-hero-v3.jpg`, `v4`) may remain for archive; **v5 i
 
 | Need | Evidence | Placement | Recommended specs | Proposed filename pattern |
 |------|----------|-----------|-------------------|---------------------------|
-| Master images for **108** products currently without images | Catalogue data report: `withImages` 4149 / `withoutImages` 108 of 4257 | Product cards, PDP gallery, shortlist, Gift Finder, Box, Studio picker, Company Store preview | Square master **1600×1600** (min **1200×1200**), sRGB JPEG/WebP, clean light background preferred for `object-fit: contain` cards | `{sku}/0-master-{hash}.webp` (match export) |
+| Master images for **5** runtime products currently without verified images | Runtime presentation has one exact manufacturer image overlay for MGC-1422; five others remain unavailable. The immutable source export has six empty image arrays. | Product cards, PDP gallery, shortlist, Gift Finder, Box, Studio picker, Company Store preview | Square master **1600×1600** (min **1200×1200**), sRGB JPEG/WebP, clean light background preferred for `object-fit: contain` cards | `{sku}/0-master-{hash}.webp` (match export) |
 | Additional angles where only one image exists | Export supports `ANGLE` / `LIFESTYLE` / `SEQUENCE` roles; ~3888 folders already multi-angle on disk | PDP thumbnail gallery (keyboard + touch) | Same square masters; 2–4 angles when available | `{sku}/1-angle-…webp` |
 | Consistent lighting / crop pass on uneven masters | Visual quality varies across export | All discovery surfaces | Keep product fully in frame with ~8–12% padding for contain presentation | Replace in place; do not rename orphans |
 
@@ -93,7 +93,7 @@ Not required to ship current UI. If commissioned later:
 
 | Priority | Page / component | Subject | IDs | Dimensions / aspect | Format | Proposed filename | Type |
 |----------|------------------|---------|-----|---------------------|--------|-------------------|------|
-| **P0** | Catalogue card / PDP / Finder / Box / Studio / Store | Master photo for products with no image | 108 SKUs from catalogue audit `withoutImages` | 1600×1600 (min 1200×1200), 1:1 | WebP (+ archival JPEG) | `{sku}/0-master-{hash}.webp` | Product photography |
+| **P0** | Catalogue card / PDP / Finder / Box / Studio / Store | Master photo for products with no image | 5 runtime SKUs listed below | 1600×1600 (min 1200×1200), 1:1 | WebP (+ archival JPEG) | `{sku}/0-master-{hash}.webp` | Product photography |
 | **P1** | `/gifts/box` packaging cards | Verified packaging SKUs + hero photo | Future `APPROVED_PACKAGING[].id` | 1400×1050 (4:3) or 1400×1400 | WebP/JPEG | `packaging/{slug}/0-master.webp` | Product photography |
 | **P2** | PDP `ProductGallery` | Extra angles for high-traffic SKUs | Top sellers / hero categories | 1600×1600, 1:1 | WebP | `{sku}/1-angle-….webp` | Product photography |
 | **P3** | Homepage `BrandLogoMarquee` | Verified partner logos | Partner brand ids when supplied | Height 64–80px @1x | SVG/PNG | `public/brands/{partner}-logo.svg` | Logo |
@@ -102,6 +102,19 @@ Not required to ship current UI. If commissioned later:
 ---
 
 ## 7. Delivery checklist for photographers
+
+### Current products missing exact imagery
+
+| SKU | Product | Category | Needed |
+|------|---------|----------|--------|
+| MGC-1422 | Urban Gear Karbon Anti-Theft Backpack, 14L, Blue | Bags & Travel / Backpacks | **Recovered:** exact blue 14L manufacturer image (1024×1024), tracked in `src/data/catalogue/productImageOverrides.json`; source product export remains unchanged |
+| MGC-2027 | Urban Gear Techie Pouch Travel Digital Organizer, Grey | Bags & Travel / Travel | Exact grey Techie Pouch photo; usage approval |
+| MGC-2041 | Urban Gear TRVL SPA Travel Toiletry Pouch | Bags & Travel / Travel | Exact product photo; usage approval |
+| MGC-4078 | Custom-Made Affirmation Cards | Office & Stationery / Stationery | Approved artwork/photo for this exact item |
+| MGC-4255 | Certificate With Frame CF-04 | Awards & Trophies / Certificates & Frames | Exact framed certificate photo |
+| MGC-4257 | KN Trophies KN-816 | Awards & Trophies / Custom Awards | Exact KN-816 trophy photo |
+
+The local archive has 22,145 files, but none of its unlinked product folders match these six source records. One exact manufacturer photo was verified for MGC-1422 and added as a separate runtime-only presentation overlay; the five other products remain marked “Photo unavailable” and sorted after imaged products. The overlay asset is `public/catalogue-media/products/bags-travel/backpacks/urban-gear-karbon-14l-blue/0-master-1677150608793.jpg` (SHA-256 `69bbca270020d107f9a93747570a1f65557b61c0bdf85824703b213813710bfe`). It is from the [Urban Gear Karbon product listing](https://www.urbangear.in/product?cid=+241&pid=1041&prodn=KARBON+ANTI-THEFT+LAPTOP+BAG); the owner-approved exact-manufacturer-source plan authorizes this recovery. No source product record was edited. The generated export quality report predates the current runtime catalogue and still lists 108 missing photos; it is not a current count.
 
 - [ ] Filename / SKU mapping matches export IDs (no renamed orphans)
 - [ ] Transparent or neutral background preferred for merch masters

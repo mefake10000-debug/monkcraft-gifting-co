@@ -97,12 +97,9 @@ export function ProductPicker({
               <li key={product.id}>
                 <button
                   type="button"
-                  className={
-                    selected
-                      ? "studio-picker__item studio-picker__item--selected"
-                      : "studio-picker__item"
-                  }
+                  className={`studio-picker__item${selected ? " studio-picker__item--selected" : ""}`}
                   aria-pressed={selected}
+                  aria-label={`${selected ? "Remove" : "Add"} ${product.name} ${selected ? "from" : "to"} this catalogue`}
                   onClick={() => {
                     if (mode === "multi" && selected && onRemove) {
                       onRemove(product.id);
@@ -116,31 +113,33 @@ export function ProductPicker({
                       <Image
                         src={product.imageSrc}
                         alt=""
-                        width={56}
-                        height={56}
+                        width={480}
+                        height={480}
+                        sizes="(max-width: 600px) 45vw, (max-width: 1100px) 30vw, 22vw"
                       />
                     ) : (
-                      <span className="studio-picker__media-empty">No image</span>
+                      <span className="studio-picker__media-empty" aria-hidden="true">✦</span>
                     )}
                   </span>
                   <span className="studio-picker__copy">
+                    <span className="studio-picker__category">
+                      {product.categoryName}
+                      {product.subcategoryName ? ` · ${product.subcategoryName}` : ""}
+                    </span>
                     <span className="studio-picker__name">{product.name}</span>
                     <span className="studio-picker__meta">
-                      {product.categoryName}
-                      {product.sku ? ` · ${product.sku}` : ""}
+                      {product.catalogueSku ? `SKU ${product.catalogueSku}` : `SKU ${product.sku}`}
+                      {product.minQuantity ? ` · MOQ ${product.minQuantity}` : ""}
                     </span>
                     <span className="studio-picker__price">
                       {product.priceLabel}
                     </span>
                   </span>
-                  <span className="studio-picker__action">
+                  <span className={`studio-picker__action${selected ? " studio-picker__action--selected" : ""}`}>
+                    <span aria-hidden="true">{selected ? "✓" : "+"}</span>
                     {mode === "multi"
-                      ? selected
-                        ? "Remove"
-                        : "Add"
-                      : selected
-                        ? "Selected"
-                        : "Use"}
+                      ? selected ? "Added" : "Add to catalogue"
+                      : selected ? "Selected" : "Use product"}
                   </span>
                 </button>
               </li>

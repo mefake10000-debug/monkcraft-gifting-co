@@ -1,6 +1,6 @@
 /**
  * Shared primary navigation for HeroNav + SiteHeader.
- * Path: Discover gifts → shape (box/studio/stores) → Get a Quote (brief).
+ * The catalogue and Build a Box share one Gifts destination; box mode starts from its catalogue.
  */
 
 export type NavMatch = "exact" | "prefix" | "gifts-root" | "none";
@@ -13,10 +13,12 @@ export type NavLink = {
   secondary?: boolean;
 };
 
+/** Build a Box has a dedicated page and draft, separate from catalogue browsing. */
+export const BOX_CATALOGUE_HREF = "/gifts/box";
+
 /** Desktop primary + mobile primary list (secondary filtered out on desktop). */
 export const PRIMARY_NAV: NavLink[] = [
-  { href: "/gifts", label: "Catalogs", match: "gifts-root" },
-  { href: "/gifts/box", label: "Build a Box", match: "exact" },
+  { href: "/gifts", label: "Catalogue", match: "gifts-root" },
   { href: "/studio", label: "Studio", match: "prefix" },
   { href: "/company-stores", label: "Company Stores", match: "prefix" },
 ];
@@ -49,9 +51,10 @@ export function isNavActive(
   if (pathname === "/gifts" || pathname.startsWith("/gifts/")) {
     if (
       pathname.startsWith("/gifts/find") ||
-      pathname.startsWith("/gifts/box") ||
       pathname.startsWith("/gifts/brief") ||
-      pathname.startsWith("/gifts/shortlist")
+      pathname.startsWith("/gifts/shortlist") ||
+      pathname.startsWith("/gifts/compare") ||
+      pathname.startsWith("/gifts/favourites")
     ) {
       return false;
     }

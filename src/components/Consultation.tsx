@@ -113,6 +113,7 @@ function buildEnquiry(input: {
   budget: string;
   branding: string;
   delivery: string;
+  deliveryMode: "single-city" | "multi-point" | "international" | "unsure";
   message: string;
   giftCategoryId: string;
   productSlug: string;
@@ -135,6 +136,7 @@ function buildEnquiry(input: {
     `Occasion / need: ${input.occasion || "—"}`,
     `Budget band: ${input.budget || "—"}`,
     `Branding / packaging: ${input.branding || "—"}`,
+    `Delivery plan: ${input.deliveryMode}`,
     `Delivery notes: ${input.delivery || "—"}`,
     "",
     "Message:",
@@ -191,6 +193,7 @@ function ConsultationForm({
   const [budget, setBudget] = useState("");
   const [branding, setBranding] = useState("");
   const [delivery, setDelivery] = useState("");
+  const [deliveryMode, setDeliveryMode] = useState<"single-city" | "multi-point" | "international" | "unsure">("unsure");
   const [occasion, setOccasion] = useState(
     selectedCategory?.title ??
       (isCompanyStore ? "Company Store programme" : ""),
@@ -232,6 +235,7 @@ function ConsultationForm({
               .join(" · "),
         );
       }
+      if (brief.dispatchType) setDeliveryMode(brief.dispatchType);
       if (brief.notes && !isCompanyStore) {
         setMessage((v) => v || brief.notes);
       }
@@ -244,7 +248,7 @@ function ConsultationForm({
 
     const errors = validateEnquiryContact(
       { name, company, email, phone },
-      { requireMessage: true, message },
+      { requireMessage: false, message },
     );
     setFieldErrors({
       name: errors.name ?? "",
@@ -271,6 +275,7 @@ function ConsultationForm({
       budgetPerRecipient: budget.trim() || undefined,
       branding: branding.trim() || undefined,
       deliveryLocation: delivery.trim() || undefined,
+      dispatchType: deliveryMode,
       notes: message.trim() || undefined,
       fieldMode: "merge-nonempty",
     });
@@ -285,6 +290,7 @@ function ConsultationForm({
       budget: budget.trim(),
       branding: branding.trim(),
       delivery: delivery.trim(),
+      deliveryMode,
       message: message.trim(),
       giftCategoryId: selectedCategory?.id ?? "",
       productSlug: productSlug ?? "",
@@ -323,28 +329,22 @@ function ConsultationForm({
     >
       <div className="consultation__inner">
         <Reveal variant="left" className="consultation__story">
-          <p className="consultation__eyebrow">Consultation</p>
+          <p className="consultation__eyebrow">Get started</p>
           <h2 id="consultation-heading" className="consultation__heading">
             {isCompanyStore ? (
               <>
-                Tell us about your Company Store.{" "}
-                <span className="consultation__heading-accent">
-                  We&apos;ll help you scope it.
-                </span>
+                Plan a Company Store.
               </>
             ) : (
               <>
-                Tell us what you&apos;re gifting.{" "}
-                <span className="consultation__heading-accent">
-                  We&apos;ll help you get there.
-                </span>
+                Let&apos;s plan your gifting.
               </>
             )}
           </h2>
           <p className="consultation__lede">
             {isCompanyStore
-              ? "Share team size, branding goals, and merchandise scope. This form prepares an enquiry — it does not provision a live store."
-              : "Share quantities, timeline, branding, and budget. Use the form, or open My Brief if you already have products in your cart or a box."}
+              ? "Share the basics. This prepares an enquiry; a live store is not provisioned here."
+              : "Your selected gifts stay in the brief. Add any other details only if you have them."}
           </p>
           {selectedCategory || productSlug || isCompanyStore ? (
             <p className="consultation__selected" role="status">
@@ -396,13 +396,7 @@ function ConsultationForm({
             )}
           </div>
           <p className="consultation__note">
-            {channels.hasLiveChannel
-              ? `After preparing, you can copy${
-                  channels.hasEnquiryEmail ? ", email" : ""
-                }${channels.hasBookingUrl ? ", book a call" : ""}${
-                  channels.hasWhatsApp ? ", or use WhatsApp" : ""
-                }. Online auto-submit is not connected yet.`
-              : "Email, booking, and WhatsApp are not configured yet — prepare a ready-to-copy enquiry below."}
+            Review your details before sending. Monkcraft confirms pricing, availability and delivery after review.
           </p>
         </Reveal>
 
@@ -450,114 +444,145 @@ function ConsultationForm({
                   </span>
                 ) : null}
               </div>
-              <div className="consultation__row">
-                <div className="consultation__field">
-                  <label htmlFor="enquiry-email">Work email</label>
-                  <input
-                    id="enquiry-email"
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    required
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    aria-invalid={Boolean(fieldErrors.email) || undefined}
-                  />
-                  {fieldErrors.email ? (
-                    <span className="consultation__field-error">
-                      {fieldErrors.email}
-                    </span>
-                  ) : null}
-                </div>
-                <div className="consultation__field">
-                  <label htmlFor="enquiry-phone">Phone</label>
-                  <input
-                    id="enquiry-phone"
-                    name="phone"
-                    type="tel"
-                    autoComplete="tel"
-                    value={phone}
-                    onChange={(event) => setPhone(event.target.value)}
-                  />
-                </div>
-              </div>
-              <div className="consultation__row">
-                <div className="consultation__field">
-                  <label htmlFor="enquiry-quantity">Approx. quantity</label>
-                  <select
-                    id="enquiry-quantity"
-                    name="quantity"
-                    value={quantity}
-                    onChange={(event) => setQuantity(event.target.value)}
-                  >
-                    <option value="">Select a range</option>
-                    <option value="1–25">1–25</option>
-                    <option value="26–100">26–100</option>
-                    <option value="101–500">101–500</option>
-                    <option value="500+">500+</option>
-                  </select>
-                </div>
-                <div className="consultation__field">
-                  <label htmlFor="enquiry-occasion">Occasion</label>
-                  <input
-                    id="enquiry-occasion"
-                    name="occasion"
-                    type="text"
-                    value={occasion}
-                    onChange={(event) => setOccasion(event.target.value)}
-                    placeholder="e.g. Diwali, onboarding, client gifts"
-                  />
-                </div>
-              </div>
-              <div className="consultation__row">
-                <div className="consultation__field">
-                  <label htmlFor="enquiry-budget">Budget band</label>
-                  <input
-                    id="enquiry-budget"
-                    name="budget"
-                    type="text"
-                    value={budget}
-                    onChange={(event) => setBudget(event.target.value)}
-                    placeholder="e.g. ₹800–1,200 per recipient"
-                  />
-                </div>
-                <div className="consultation__field">
-                  <label htmlFor="enquiry-branding">Branding / packaging</label>
-                  <input
-                    id="enquiry-branding"
-                    name="branding"
-                    type="text"
-                    value={branding}
-                    onChange={(event) => setBranding(event.target.value)}
-                    placeholder="Logo print, custom sleeve…"
-                  />
-                </div>
-              </div>
               <div className="consultation__field">
-                <label htmlFor="enquiry-delivery">Delivery notes</label>
+                <label htmlFor="enquiry-email">Work email</label>
                 <input
-                  id="enquiry-delivery"
-                  name="delivery"
-                  type="text"
-                  value={delivery}
-                  onChange={(event) => setDelivery(event.target.value)}
-                  placeholder="City / multi-address / desired timing"
+                  id="enquiry-email"
+                  name="email"
+                  type="email"
+                  autoComplete="email"
+                  required
+                  value={email}
+                  onChange={(event) => setEmail(event.target.value)}
+                  aria-invalid={Boolean(fieldErrors.email) || undefined}
                 />
+                {fieldErrors.email ? (
+                  <span className="consultation__field-error">
+                    {fieldErrors.email}
+                  </span>
+                ) : null}
               </div>
+
+              <details className="consultation__optional">
+                <summary>Add planning details (optional)</summary>
+                <div className="consultation__optional-fields">
+                  <div className="consultation__field">
+                    <label htmlFor="enquiry-phone">Phone</label>
+                    <input
+                      id="enquiry-phone"
+                      name="phone"
+                      type="tel"
+                      autoComplete="tel"
+                      value={phone}
+                      onChange={(event) => setPhone(event.target.value)}
+                    />
+                  </div>
+                  <div className="consultation__field">
+                    <label htmlFor="enquiry-quantity">Approx. quantity</label>
+                    <select
+                      id="enquiry-quantity"
+                      name="quantity"
+                      value={quantity}
+                      onChange={(event) => setQuantity(event.target.value)}
+                    >
+                      <option value="">Select a range</option>
+                      <option value="1–25">1–25</option>
+                      <option value="26–100">26–100</option>
+                      <option value="101–500">101–500</option>
+                      <option value="500+">500+</option>
+                    </select>
+                  </div>
+                  <div className="consultation__field">
+                    <label htmlFor="enquiry-occasion">Occasion</label>
+                    <select
+                      id="enquiry-occasion"
+                      name="occasion"
+                      value={occasion}
+                      onChange={(event) => setOccasion(event.target.value)}
+                    >
+                      <option value="">Choose an occasion</option>
+                      <option value="Employee Onboarding">Employee onboarding</option>
+                      <option value="Festive Gifting">Festive gifting</option>
+                      <option value="Client Appreciation">Client appreciation</option>
+                      <option value="Events & Conferences">Events and conferences</option>
+                      <option value="Rewards & Recognition">Rewards and recognition</option>
+                      <option value="Custom Merchandise">Branded merchandise</option>
+                      <option value="Company Store programme">Company Store</option>
+                      <option value="Not sure">Not sure yet</option>
+                    </select>
+                  </div>
+                  <div className="consultation__row">
+                    <div className="consultation__field">
+                      <label htmlFor="enquiry-budget">Budget band</label>
+                      <select
+                        id="enquiry-budget"
+                        name="budget"
+                        value={budget}
+                        onChange={(event) => setBudget(event.target.value)}
+                      >
+                        <option value="">Choose if known</option>
+                        <option value="Up to ₹1,000 per recipient">Up to ₹1,000 per person</option>
+                        <option value="₹1,000–₹2,500 per recipient">₹1,000–₹2,500 per person</option>
+                        <option value="₹2,500–₹5,000 per recipient">₹2,500–₹5,000 per person</option>
+                        <option value="Above ₹5,000 per recipient">Above ₹5,000 per person</option>
+                        <option value="Not sure">Not sure yet</option>
+                        {budget && !["Up to ₹1,000 per recipient", "₹1,000–₹2,500 per recipient", "₹2,500–₹5,000 per recipient", "Above ₹5,000 per recipient", "Not sure"].includes(budget) ? <option value={budget}>{budget}</option> : null}
+                      </select>
+                    </div>
+                    <div className="consultation__field">
+                      <label htmlFor="enquiry-branding">
+                        Branding / packaging
+                      </label>
+                      <input
+                        id="enquiry-branding"
+                        name="branding"
+                        type="text"
+                        value={branding}
+                        onChange={(event) => setBranding(event.target.value)}
+                        placeholder="Logo print, custom sleeve…"
+                      />
+                    </div>
+                  </div>
+                  <div className="consultation__field">
+                    <label htmlFor="enquiry-delivery-mode">Delivery plan</label>
+                    <select
+                      id="enquiry-delivery-mode"
+                      name="deliveryMode"
+                      value={deliveryMode}
+                      onChange={(event) => setDeliveryMode(event.target.value as typeof deliveryMode)}
+                    >
+                      <option value="unsure">Not sure yet</option>
+                      <option value="single-city">One delivery point</option>
+                      <option value="multi-point">Multiple locations</option>
+                      <option value="international">International delivery</option>
+                    </select>
+                  </div>
+                  <div className="consultation__field">
+                    <label htmlFor="enquiry-delivery">Location or timing notes (optional)</label>
+                    <input
+                      id="enquiry-delivery"
+                      name="delivery"
+                      type="text"
+                      value={delivery}
+                      onChange={(event) => setDelivery(event.target.value)}
+                      placeholder="City / multi-address / desired timing"
+                    />
+                  </div>
+                </div>
+              </details>
               <div className="consultation__field">
-                <label htmlFor="enquiry-message">How can we help?</label>
+                <label htmlFor="enquiry-message">Anything else? (optional)</label>
                 <textarea
                   id="enquiry-message"
                   name="message"
-                  rows={4}
-                  required
+                  rows={2}
                   value={message}
                   onChange={(event) => setMessage(event.target.value)}
                   aria-invalid={Boolean(fieldErrors.message) || undefined}
                   placeholder={
                     isCompanyStore
-                      ? "Team size, cities, branding, catalogue scope, allowance ideas…"
-                      : "Timeline, branding, cities, budget band…"
+                      ? "Anything about your team or store that is useful to know."
+                      : "Add a detail that was not covered above."
                   }
                 />
                 {fieldErrors.message ? (
@@ -600,6 +625,7 @@ function ConsultationForm({
                   budgetPerRecipient: budget,
                   branding,
                   deliveryLocation: delivery,
+                  dispatchType: deliveryMode,
                   notes: message,
                 }}
                 products={

@@ -13,6 +13,7 @@ import type { CatalogueFacet } from "@/data/catalogue/types";
 import { readBrief } from "@/lib/brief";
 import { syncGiftFinderToBrief } from "@/lib/giftFinder/briefBridge";
 import { parseBudgetInr } from "@/lib/giftFinder/budget";
+import { BOX_CATALOGUE_HREF } from "@/lib/nav";
 import {
   clearGiftFinderDraft,
   EMPTY_GIFT_FINDER_SNAPSHOT,
@@ -46,7 +47,6 @@ import { FinderMatchCard } from "./FinderMatchCard";
 export type SmartGiftFinderProps = {
   occasions: CatalogueFacet[];
   categories: CatalogueFacet[];
-  productCount: number;
 };
 
 type Phase = "describe" | "results";
@@ -172,7 +172,6 @@ function subscribeShortlist(onStoreChange: () => void) {
 export function SmartGiftFinder({
   occasions,
   categories,
-  productCount,
 }: SmartGiftFinderProps) {
   const formId = useId();
   const draft = useSyncExternalStore(
@@ -289,13 +288,11 @@ export function SmartGiftFinder({
       <header className="finder__header">
         <p className="finder__eyebrow">Smart Gift Finder</p>
         <h1 id="finder-heading" className="finder__title">
-          Find gifts that fit your brief
+          Find gifts for your team
         </h1>
         <p className="finder__lede">
-          Guided recommendations from Monkcraft&apos;s verified catalogue (
-          {productCount.toLocaleString("en-IN")} products). Rule-based matching
-          — not generative AI. Refine anytime; your requirements stay saved in
-          this browser.
+          Choose an occasion, recipients and budget. We&apos;ll match your needs
+          to catalogue products. Your answers save in this browser.
         </p>
       </header>
 
@@ -760,7 +757,7 @@ export function SmartGiftFinder({
                   </Link>
                   <Link
                     className="journey-btn journey-btn--ghost"
-                    href="/gifts/box"
+                    href={BOX_CATALOGUE_HREF}
                   >
                     Build a Box
                   </Link>

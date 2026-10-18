@@ -65,10 +65,6 @@ export async function GET(request: NextRequest) {
       .split(",")
       .map((s) => s.trim())
       .filter(Boolean),
-    brandings: (sp.get("branding") || "")
-      .split(",")
-      .map((s) => s.trim())
-      .filter(Boolean),
     colours: (sp.get("colour") || sp.get("color") || "")
       .split(",")
       .map((s) => s.trim())

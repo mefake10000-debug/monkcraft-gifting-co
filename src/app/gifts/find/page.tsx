@@ -6,7 +6,6 @@ import {
   getCategoryFacets,
   getOccasionFacets,
 } from "@/data/catalogue/facets";
-import { getCatalogueStats } from "@/data/catalogue/products";
 
 export const metadata = {
   title: "Smart Gift Finder | Monkcraft Gifts",
@@ -17,7 +16,6 @@ export const metadata = {
 export default function GiftFinderPage() {
   const occasions = getOccasionFacets();
   const categories = getCategoryFacets();
-  const { productCount } = getCatalogueStats();
 
   return (
     <main className="catalogue-page">
@@ -26,14 +24,13 @@ export default function GiftFinderPage() {
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
-            { label: "Gifts", href: "/gifts" },
+            { label: "Catalogue", href: "/gifts" },
             { label: "Gift Finder" },
           ]}
         />
         <SmartGiftFinder
           occasions={occasions}
           categories={categories}
-          productCount={productCount}
         />
       </div>
       <SiteFooter />

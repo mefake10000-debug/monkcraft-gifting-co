@@ -2,7 +2,7 @@
 export type CatalogueBrowseState = { scrollY: number; anchorId?: string; anchorOffset?: number; groups: Record<string, boolean> };
 const PREFIX = 'monkcraft:browse:';
 export function safeCatalogueHref(value: string | null | undefined): string {
-  if (!value || !/^\/gifts(?:\?|$)/.test(value)) return '/gifts';
+  if (!value || !/^\/gifts(?:\/box)?(?:\?|$)/.test(value)) return '/gifts';
   return value;
 }
 export function catalogueReturnHref(options?: {fromBox?: boolean}): string {

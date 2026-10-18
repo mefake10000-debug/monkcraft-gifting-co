@@ -2,10 +2,8 @@ import Link from "next/link";
 import { BrandLogoMarquee } from "@/components/BrandLogoMarquee";
 import { Consultation } from "@/components/Consultation";
 import { Faq } from "@/components/Faq";
-import { GiftIdeas } from "@/components/GiftIdeas";
 import { HeroLandingMedia } from "@/components/HeroLandingMedia";
 import { HeroNav } from "@/components/HeroNav";
-import { JourneyStrip } from "@/components/JourneyStrip";
 import { SiteFooter } from "@/components/SiteFooter";
 import { WhatWeDo } from "@/components/WhatWeDo";
 import { getHomepagePartnerBrands } from "@/data/partnerBrands";
@@ -16,11 +14,10 @@ import { getHomepagePartnerBrands } from "@/data/partnerBrands";
  * Catalogue brands with verified marks (`src/data/partnerBrands.ts`).
  */
 const partnerBrands = getHomepagePartnerBrands();
-const visibleBrandCount = partnerBrands.filter((brand) => brand.src).length;
 
 export default function Home() {
   return (
-    <main>
+    <main className="home-page">
       <a className="skip-link" href="#what-we-do">
         Skip to content
       </a>
@@ -32,29 +29,28 @@ export default function Home() {
 
         <div className="hero__copy">
           <div className="hero__copy-inner">
-            <h1 className="hero__title">Gifting, made joyful.</h1>
+            <h1 className="hero__title">Corporate gifting, made simple.</h1>
             <p className="hero__subtitle">
-              Choose a gift, build a box, or create a company store.
+              Gifts, boxes and Company Stores for your team.
             </p>
             <div className="hero__actions">
               <Link className="hero__btn hero__btn--primary" href="/gifts">
-                Browse gifts
+                Explore gifts
               </Link>
-              <Link className="hero__btn hero__btn--secondary" href="/gifts/box">
-                Build a Box
+              <Link className="hero__btn hero__btn--secondary" href="#enquire">
+                Plan a gifting programme
               </Link>
             </div>
           </div>
         </div>
-      </section>
 
+      </section>
       <BrandLogoMarquee
         brands={partnerBrands}
-        ariaLabel={`Browse ${visibleBrandCount} featured brand logos`}
+        ariaLabel={`Explore ${partnerBrands.length} catalogue brands`}
+        className="brand-marquee--home"
       />
       <WhatWeDo />
-      <GiftIdeas />
-      <JourneyStrip />
       <Consultation />
       <Faq />
       <SiteFooter />

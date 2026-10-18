@@ -6,21 +6,18 @@
 export type BoxStep =
   | "packaging"
   | "products"
-  | "review"
   | "quote";
 
 export const BOX_STEPS: BoxStep[] = [
   "products",
   "packaging",
-  "review",
   "quote",
 ];
 
 export const BOX_STEP_LABELS: Record<BoxStep, string> = {
   products: "Products",
-  review: "Review",
   packaging: "Packaging",
-  quote: "Quote",
+  quote: "Review & request",
 };
 
 /** Approved packaging SKU when a real catalogue exists. */

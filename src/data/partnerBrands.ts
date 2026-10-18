@@ -2,188 +2,118 @@ import type { BrandLogoItem } from "@/components/BrandLogoMarquee";
 import catalogueBrands from "@/data/catalogue/export/brands.json";
 import hustlemadBrandLogos from "@/data/hustlemadBrandLogos.json";
 
-/**
- * Homepage partner / catalogue-brand strip candidates.
- *
- * Source: `src/data/catalogue/export/brands.json` ranked by productCount.
- * House brand `monkcraft` is excluded (platform, not a partner mark).
- * Unnamed / null brand rows are excluded.
- *
- * Existing catalogue brand lookup remains available for search surfaces.
- * Homepage marks are resolved only from verified local files or HustleMad's
- * supplied logo feed; no marks are fabricated.
- */
-
-export type PartnerBrandCandidate = {
+type CatalogueBrand = {
   slug: string;
   name: string;
   productCount: number;
-  /** Empty until a verified file exists under public/brands/ */
-  logoSrc?: string;
 };
 
-/** All named catalogue brands except Monkcraft, ordered by product volume. */
-export const HOMEPAGE_PARTNER_BRAND_CANDIDATES: PartnerBrandCandidate[] =
-  catalogueBrands.brands
-    .filter(
-      (brand): brand is { slug: string; name: string; productCount: number } =>
-        Boolean(brand.slug && brand.name && brand.slug !== "monkcraft"),
-    )
-    .map(({ slug, name, productCount }) => ({ slug, name, productCount }))
-    .sort((a, b) => b.productCount - a.productCount || a.name.localeCompare(b.name));
+const catalogueBrandList = catalogueBrands.brands.filter(
+  (brand): brand is CatalogueBrand =>
+    Boolean(brand.slug && brand.name && brand.slug !== "monkcraft" && brand.productCount > 0),
+);
 
-/** Brand logo paths are explicit so no filesystem code enters page bundles. */
+/** Brands omitted from the homepage logo row at the user's request. */
+const excludedHomepageBrandSlugs = new Set([
+  "3s",
+  "fuzo",
+  "oblique",
+  "power-plus",
+  "bioq",
+  "offikraft",
+  "stolt",
+  "stellers",
+  "ooge",
+]);
+
+/** Logo files already extracted and checked into public/brands. */
+const verifiedLogoFiles: Record<string, string> = {
+  "3s": "/brands/3s-logo.png",
+  adidas: "/brands/adidas-logo.svg",
+  "allen-solly": "/brands/allen-solly-logo.png",
+  "american-tourister": "/brands/american-tourister-logo.webp",
+  "bombay-shaving-company": "/brands/bombay-shaving-company-logo.png",
+  bioq: "/brands/bioq-logo.svg",
+  "cookie-man": "/brands/cookie-man-logo.png",
+  eume: "/brands/eume-logo.png",
+  "fur-jaden": "/brands/fur-jaden-logo-black.png",
+  fuzo: "/brands/fuzo-logo.webp",
+  hummel: "/brands/hummel-logo.svg",
+  "indian-terrain": "/brands/indian-terrain-logo.png",
+  "jack-jones": "/brands/jack-jones-logo.png",
+  jbl: "/brands/jbl-logo.svg",
+  jockey: "/brands/jockey-logo.png",
+  kent: "/brands/kent-logo.svg",
+  levis: "/brands/levis-logo.png",
+  marshall: "/brands/marshall-logo.png",
+  mokobara: "/brands/mokobara-logo.svg",
+  mypaperclip: "/brands/my-paperclip-logo.png",
+  oblique: "/brands/oblique-logo.png",
+  offikraft: "/brands/offikraft-logo.png",
+  ooge: "/brands/ooge-logo.jpg",
+  philips: "/brands/philips-logo.svg",
+  portronics: "/brands/portronics-logo-blacktext.png",
+  "power-plus": "/brands/power-plus-logo.png",
+  reebok: "/brands/reebok-logo.svg",
+  scott: "/brands/scott-logo.png",
+  shopnooe: "/brands/shopnooe-logo.png",
+  sony: "/brands/sony-logo.svg",
+  stellers: "/brands/stellers-logo.png",
+  stolt: "/brands/stolt-logo.png",
+  "swiss-military": "/brands/swiss-military-logo.png",
+  "the-backbencher": "/brands/the-backbencher-logo.png",
+  "the-whole-truth": "/brands/whole-truth-logo.svg",
+  "tommy-hilfiger": "/brands/tommy-hilfiger-logo.png",
+  "urban-gear": "/brands/urban-gear-logo.png",
+};
+
+const normalizeBrand = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "");
+const extractedLogoByName = new Map(
+  hustlemadBrandLogos.map((brand) => [normalizeBrand(brand.name), brand]),
+);
+
+function getMarqueeLogoSrc(src: string): string {
+  if (src === "/brand/Monkcraft-Black-Horizontal.png") {
+    return "/brands/normalized/monkcraft.png";
+  }
+  // Keep vector marks as SVG so they stay crisp at every display size.
+  if (/\.svg$/i.test(src)) {
+    return src;
+  }
+  return src
+    .replace(/^\/brands\//, "/brands/normalized/")
+    .replace(/\.(jpe?g|webp)$/i, ".png");
+}
+
+/** Resolve a logo only when the corresponding brand is present in the catalogue. */
 export function resolveBrandLogoSrc(slug: string): string | undefined {
-  const verifiedLogoFiles: Record<string, string> = {
-    "urban-gear": "/brands/urban-gear-logo.png",
-    "bioq": "/brands/bioq-logo.svg",
-    "fuzo": "/brands/fuzo-logo.webp",
-    "the-backbencher": "/brands/the-backbencher-logo.png",
-    "fur-jaden": "/brands/fur-jaden-logo-black.png",
-    "levis": "/brands/levis-logo.png",
-    "offikraft": "/brands/offikraft-logo.png",
-    "oblique": "/brands/oblique-logo.png",
-    "power-plus": "/brands/power-plus-logo.png",
-    "3s": "/brands/3s-logo.png",
-    "ooge": "/brands/ooge-logo.jpg",
-    "stolt": "/brands/stolt-logo.png",
-    "stellers": "/brands/stellers-logo.png",
-    "portronics": "/brands/portronics-logo-blacktext.png",
-    "jack-jones": "/brands/jack-jones-logo.png",
-    "swiss-military": "/brands/swiss-military-logo.png",
-    "hummel": "/brands/hummel-logo.svg",
-  };
   return verifiedLogoFiles[slug];
 }
 
-export const REQUESTED_HOMEPAGE_BRANDS: { name: string; searchName?: string }[] = [
-  { name: "Nooe", searchName: "ShopNooe" },
-  { name: "Adidas" },
-  { name: "Reebok" },
-  { name: "United Colors of Benetton" },
-  { name: "Jack in Jones", searchName: "Jack&Jones" },
-  { name: "Assembly" },
-  { name: "Columbia" },
-  { name: "Jockey" },
-  { name: "Mukubaara", searchName: "Mokobara" },
-  { name: "Napa Dori", searchName: "NAPPA DORI" },
-  { name: "Tommy Hilfiger" },
-  { name: "Eumi" },
-  { name: "American Tourist", searchName: "American Tourister" },
-  { name: "Alan Solly", searchName: "Allen Solly" },
-  { name: "My Paperclip", searchName: "myPaperClip" },
-  { name: "Cookie Man", searchName: "Cookie man" },
-  { name: "Engine Terrain", searchName: "Indian Terrain" },
-  { name: "The Whole Truth" },
-  { name: "Bloppung" },
-  { name: "JBL" },
-  { name: "Marshall" },
-  { name: "Philips" },
-  { name: "Borussel" },
-  { name: "Smur" },
-  { name: "Kent" },
-  { name: "Farrosa" },
-  { name: "Sony" },
-  { name: "Bombay Shaving Company" },
-];
-
-const REQUESTED_BRAND_LOGOS: Record<string, string> = {
-  Adidas: "/brands/adidas-logo.svg",
-  Reebok: "/brands/reebok-logo.svg",
-  "United Colors of Benetton": "/brands/benetton-logo.svg",
-  Assembly: "/brands/assembly-logo.svg",
-  Jockey: "/brands/jockey-logo.png",
-  Mukubaara: "/brands/mokobara-logo.svg",
-  "Tommy Hilfiger": "/brands/tommy-hilfiger-logo.png",
-  Eumi: "/brands/eume-logo.png",
-  "American Tourist": "/brands/american-tourister-logo.webp",
-  "Alan Solly": "/brands/allen-solly-logo.png",
-  "My Paperclip": "/brands/my-paperclip-logo.png",
-  "Cookie Man": "/brands/cookie-man-logo.png",
-  "Engine Terrain": "/brands/indian-terrain-logo.png",
-  "The Whole Truth": "/brands/whole-truth-logo.svg",
-  JBL: "/brands/jbl-logo.svg",
-  Marshall: "/brands/marshall-logo.png",
-  Philips: "/brands/philips-logo.svg",
-  Kent: "/brands/kent-logo.svg",
-  Sony: "/brands/sony-logo.svg",
-  "Bombay Shaving Company": "/brands/bombay-shaving-company-logo.png",
-};
-
-const ORIGINAL_BRAND_ITEMS: { name: string; slug: string; searchName: string }[] = [
-  { name: "Urban Gear", slug: "urban-gear", searchName: "Urban Gear" },
-  { name: "bioQ", slug: "bioq", searchName: "bioQ" },
-  { name: "FUZO", slug: "fuzo", searchName: "FUZO" },
-  { name: "The Backbencher", slug: "the-backbencher", searchName: "The Backbencher" },
-  { name: "Fur Jaden", slug: "fur-jaden", searchName: "Fur Jaden" },
-  { name: "Levi's", slug: "levis", searchName: "Levis" },
-  { name: "Offikraft", slug: "offikraft", searchName: "Offikraft" },
-  { name: "Oblique", slug: "oblique", searchName: "Oblique" },
-  { name: "Power Plus", slug: "power-plus", searchName: "Power Plus" },
-  { name: "3S", slug: "3s", searchName: "3S" },
-  { name: "Ooge", slug: "ooge", searchName: "Ooge" },
-  { name: "Stolt", slug: "stolt", searchName: "Stolt" },
-  { name: "Stellers", slug: "stellers", searchName: "Stellers" },
-  { name: "Portronics", slug: "portronics", searchName: "Portronics" },
-  { name: "Jack&Jones", slug: "jack-jones", searchName: "Jack&Jones" },
-  { name: "Swiss Military", slug: "swiss-military", searchName: "Swiss Military" },
-  { name: "Hummel", slug: "hummel", searchName: "Hummel" },
-];
-
-/** Identities/assets still needing confirmation; these stay out of the logo strip. */
-export const PENDING_BRAND_LOGO_CANDIDATES: { name: string; source?: string }[] = [
-  { name: "Nooe" },
-  { name: "Columbia", source: "https://www.columbia.com/" },
-  { name: "Napa Dori", source: "https://www.nappadori.com/" },
-  { name: "Bloppung" },
-  { name: "Borussel" },
-  { name: "Smur" },
-  { name: "Farrosa" },
-];
-
-function findCatalogueBrand(searchName: string) {
-  return HOMEPAGE_PARTNER_BRAND_CANDIDATES.find(
-    (brand) => brand.name.toLowerCase() === searchName.toLowerCase(),
-  );
-}
-
-function toBrandItem(name: string, searchName: string, logo?: string): BrandLogoItem {
-  const catalogueBrand = findCatalogueBrand(searchName);
-  return {
-    name,
-    ...(logo || (catalogueBrand && resolveBrandLogoSrc(catalogueBrand.slug))
-      ? { src: logo ?? resolveBrandLogoSrc(catalogueBrand!.slug) }
-      : {}),
-    href: `/gifts?q=${encodeURIComponent(searchName)}`,
-  };
-}
-
-/** Show HustleMad's marks with Monkcraft and the retained original/requested set. */
+/** Only show actual catalogue brands with a locally available extracted logo. */
 export function getHomepagePartnerBrands(): BrandLogoItem[] {
-  const hustleMadBrands: BrandLogoItem[] = hustlemadBrandLogos.map(({ name, src, source }) => ({
-    name,
-    src,
-    source: source as "hustlemad",
-    href: `/gifts?q=${encodeURIComponent(name)}`,
-  }));
-  const brandKey = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const hustleMadKeys = new Set(hustleMadBrands.map((brand) => brandKey(brand.name)));
-  const originalOnly = ORIGINAL_BRAND_ITEMS
-    .filter(({ name, searchName }) => !hustleMadKeys.has(brandKey(name)) && !hustleMadKeys.has(brandKey(searchName)))
-    .map(({ name, searchName, slug }) => toBrandItem(name, searchName, resolveBrandLogoSrc(slug)));
-  const includedKeys = new Set([...hustleMadBrands, ...originalOnly].map((brand) => brandKey(brand.name)));
-  const requestedOnly = REQUESTED_HOMEPAGE_BRANDS
-    .filter(({ name, searchName = name }) => !includedKeys.has(brandKey(name)) && !includedKeys.has(brandKey(searchName)))
-    .map(({ name, searchName = name }) => toBrandItem(name, searchName, REQUESTED_BRAND_LOGOS[name]));
+  const catalogueBrandsWithLogos = catalogueBrandList
+    .filter((brand) => !excludedHomepageBrandSlugs.has(brand.slug))
+    .map((brand) => {
+      const extractedLogo = extractedLogoByName.get(normalizeBrand(brand.name));
+      const originalSrc = extractedLogo?.src ?? resolveBrandLogoSrc(brand.slug);
+      if (!originalSrc) return null;
 
-  return [
-    {
-      name: "Monkcraft",
-      src: "/brand/Monkcraft-Black-Horizontal.png",
-      href: "/",
-    },
-    ...hustleMadBrands,
-    ...originalOnly,
-    ...requestedOnly,
-  ];
+      return {
+        name: brand.name,
+        src: getMarqueeLogoSrc(originalSrc),
+        ...(extractedLogo ? { source: "hustlemad" as const } : {}),
+        href: `/gifts?brand=${encodeURIComponent(brand.slug)}`,
+        productCount: brand.productCount,
+      };
+    })
+    .filter((brand): brand is NonNullable<typeof brand> => brand !== null)
+    .sort((a, b) => b.productCount - a.productCount || a.name.localeCompare(b.name));
+
+  const monkcraftLogo: BrandLogoItem = {
+    name: "Monkcraft",
+    src: getMarqueeLogoSrc("/brand/Monkcraft-Black-Horizontal.png"),
+    href: "/gifts?brand=monkcraft",
+  };
+  return [monkcraftLogo, ...catalogueBrandsWithLogos];
 }

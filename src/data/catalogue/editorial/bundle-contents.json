@@ -1,0 +1,20 @@
+[
+  {
+    "productId": "MGC-3510",
+    "contents": ["Laptop sleeve", "Ceramic mug", "Mobile stand", "Wireless charger"],
+    "sourceField": "shortDescription",
+    "reviewed": true
+  },
+  {
+    "productId": "MGC-3501",
+    "contents": ["Notebook", "Mouse mat", "Bottle", "Wireless charger"],
+    "sourceField": "shortDescription",
+    "reviewed": true
+  },
+  {
+    "productId": "MGC-3520",
+    "contents": ["Goal book", "Mug", "Pen"],
+    "sourceField": "shortDescription",
+    "reviewed": true
+  }
+]

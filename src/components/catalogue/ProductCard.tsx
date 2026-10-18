@@ -8,12 +8,15 @@ import { AddToBoxButton } from "@/components/box/AddToBoxButton";
 import { formatGstBasis, formatPricing } from "@/lib/pricing";
 import { productToBoxSnapshot, productToSnapshot } from "@/lib/productSnapshots";
 import { ProductGallery } from "@/components/catalogue/ProductGallery";
+import { colourSwatchStyle } from "@/data/catalogue/colourSwatches";
+import { productMinimumOrderLabel } from "@/lib/shortlist";
 import { ShortlistButton } from "./ShortlistButton";
 import { FavouriteButton } from "./FavouriteButton";
 
 type ProductCardProps = {
   product: Product;
   shortlisted?: boolean;
+  fromBox?: boolean;
 };
 
 /**
@@ -36,19 +39,39 @@ function needsRoomyFrame(product: Product): boolean {
   );
 }
 
-export function ProductCard({ product, shortlisted = false }: ProductCardProps) {
+export function ProductCard({ product, shortlisted = false, fromBox = false }: ProductCardProps) {
   const [quickViewOpen, setQuickViewOpen] = useState(false);
+  const [quickViewProduct, setQuickViewProduct] = useState(product);
+  const [selectedCardProduct, setSelectedCardProduct] = useState(product);
   const dialogRef = useRef<HTMLElement>(null);
   const openerRef = useRef<HTMLElement | null>(null);
-  const image = product.images[0];
-  const snapshot = productToSnapshot(product);
-  const boxSnapshot = productToBoxSnapshot(product);
+  const eligibleVariantSignature = (
+    product.colourVariantOptions?.length
+      ? product.colourVariantOptions
+      : product.designVariantOptions?.length
+        ? product.designVariantOptions
+        : [product]
+  ).map((variant) => variant.id).join("|");
+  const allowedVariantIds = new Set(eligibleVariantSignature.split("|"));
+  const activeCardProduct = allowedVariantIds.has(selectedCardProduct.id)
+    ? selectedCardProduct
+    : product;
+  const activeQuickViewProduct = allowedVariantIds.has(quickViewProduct.id)
+    ? quickViewProduct
+    : product;
+
+  const image = activeCardProduct.images[0];
+  const snapshot = productToSnapshot(activeCardProduct);
+  const boxSnapshot = productToBoxSnapshot(activeCardProduct);
   const price =
-    product.pricing.kind === "fixed"
-      ? formatPricing(product.pricing)
+    activeCardProduct.pricing.kind === "fixed"
+      ? formatPricing(activeCardProduct.pricing)
       : null;
-  const roomy = needsRoomyFrame(product);
+  const roomy = needsRoomyFrame(activeCardProduct);
   const typeLabel = product.filterCategoryName || product.categoryName;
+  const quickSnapshot = productToSnapshot(activeQuickViewProduct);
+  const quickBoxSnapshot = productToBoxSnapshot(activeQuickViewProduct);
+  const quickPrice = activeQuickViewProduct.pricing.kind === "fixed" ? formatPricing(activeQuickViewProduct.pricing) : null;
 
   useEffect(() => {
     if (!quickViewOpen) return;
@@ -89,8 +112,8 @@ export function ProductCard({ product, shortlisted = false }: ProductCardProps) 
           <button
             type="button"
             className="product-card__media-link"
-            aria-label={`Quick view ${product.name}`}
-            onClick={(event) => { openerRef.current = event.currentTarget; setQuickViewOpen(true); }}
+            aria-label={`Quick view ${activeCardProduct.name}`}
+            onClick={(event) => { openerRef.current = event.currentTarget; setQuickViewProduct(activeCardProduct); setQuickViewOpen(true); }}
           >
             <Image
               src={image.src}
@@ -102,17 +125,59 @@ export function ProductCard({ product, shortlisted = false }: ProductCardProps) 
             />
           </button>
         ) : (
-          <div className="product-card__media-empty" aria-hidden="true">
-            No image
+          <div className="product-card__media-empty" role="img" aria-label={`Photo unavailable for ${activeCardProduct.name}`}>
+            Photo unavailable
           </div>
         )}
+        {product.colourVariantCount && product.colourVariantCount > 1 ? (
+          <span className="product-card__family-badge" aria-label={`Available in ${product.colourVariantCount} colours`}>
+            {product.colourVariantCount} colours
+          </span>
+        ) : product.designVariantCount && product.designVariantCount > 1 ? (
+          <span className="product-card__family-badge" aria-label={`Available in ${product.designVariantCount} ${product.designFamilyOptionLabel === "design" ? "designs" : `${product.designFamilyOptionLabel} options`}`}>
+            {product.designVariantCount} {product.designFamilyOptionLabel === "design" ? "designs" : `${product.designFamilyOptionLabel} options`}
+          </span>
+        ) : null}
       </div>
 
       <div className="product-card__body">
         {typeLabel ? <p className="product-card__type">{typeLabel}</p> : null}
-        {product.colourVariantCount && product.colourVariantCount > 1 ? <p className="product-card__variants">{product.colourVariantCount} colours · view options</p> : null}
+        {product.colourVariantOptions && product.colourVariantOptions.length > 1 ? (
+          <div className="product-card__colour-picker">
+            <p className="product-card__colour-current">Colour: <strong>{activeCardProduct.colourOptionLabel ?? activeCardProduct.colours[0]}</strong>{activeCardProduct.availabilityStatus === "OUT" ? " · Out of stock" : ""}</p>
+            <ul aria-label="Choose a colour">
+              {product.colourVariantOptions.map((variant) => {
+                const selected = variant.id === activeCardProduct.id;
+                const outOfStock = variant.availabilityStatus === "OUT";
+                const label = variant.colourOptionLabel ?? variant.colours[0];
+                return <li key={variant.id}>
+                  <button type="button" className={`product-card__colour-choice${selected ? " product-card__colour-choice--selected" : ""}${outOfStock ? " product-card__colour-choice--unavailable" : ""}`} aria-label={`Choose ${label}${outOfStock ? ", out of stock" : ""}`} aria-pressed={selected} title={`${label}${outOfStock ? " · Out of stock" : ""}`} onClick={() => setSelectedCardProduct(variant)}>
+                  <span className="product-card__colour-dot" style={colourSwatchStyle(variant.colourOptionLabel ?? variant.colours[0])} aria-hidden="true" />
+                  </button>
+                </li>;
+              })}
+            </ul>
+          </div>
+        ) : null}
+        {product.designVariantOptions && product.designVariantOptions.length > 1 ? (
+          <div className="product-card__design-picker">
+            <p>{product.designFamilyOptionLabel === "design" ? "Designs" : `${product.designFamilyOptionLabel} options`}<span className="visually-hidden" aria-live="polite">. Selected: {activeCardProduct.designOptionLabel}</span></p>
+            <ul aria-label={`Choose ${product.designFamilyOptionLabel === "design" ? "a design" : `${product.designFamilyOptionLabel} options`}`}>
+              {product.designVariantOptions.map((variant) => {
+                const selected = variant.id === activeCardProduct.id;
+                const thumb = variant.images[0];
+                const label = variant.designOptionLabel || variant.name;
+                return <li key={variant.id}>
+                  <button type="button" className={`product-card__design-choice${selected ? " product-card__design-choice--selected" : ""}`} aria-label={`Choose ${label}`} aria-pressed={selected} title={label} onClick={() => setSelectedCardProduct(variant)}>
+                    <span className="product-card__design-thumb">{thumb ? <Image src={thumb.src} alt="" width={40} height={40} style={{ objectFit: "contain" }} /> : null}</span>
+                  </button>
+                </li>;
+              })}
+            </ul>
+          </div>
+        ) : null}
         <h3 className="product-card__title">
-          <button type="button" className="product-card__title-button" onClick={(event) => { openerRef.current = event.currentTarget; setQuickViewOpen(true); }}>{product.name}</button>
+          <button type="button" className="product-card__title-button" onClick={(event) => { openerRef.current = event.currentTarget; setQuickViewProduct(activeCardProduct); setQuickViewOpen(true); }}>{activeCardProduct.name}</button>
         </h3>
         <div className="product-card__meta">
           {price ? (
@@ -122,49 +187,51 @@ export function ProductCard({ product, shortlisted = false }: ProductCardProps) 
               Quote on request
             </span>
           )}
-          {product.minQuantity != null && product.minQuantity > 1 ? (
+          {(
             <span className="product-card__moq">
-              MOQ {product.minQuantity.toLocaleString("en-IN")}
+              MOQ {productMinimumOrderLabel(activeCardProduct.minQuantity)}
             </span>
-          ) : null}
+          )}
         </div>
         <div className="product-card__actions">
-          <button type="button" className="product-card__detail" onClick={() => setQuickViewOpen(true)}>View details</button>
-          <ShortlistButton
-            snapshot={snapshot}
-            initiallyShortlisted={shortlisted}
-            className="product-card__quote-action"
-          />
-          <FavouriteButton id={product.id} name={product.name} />
+          <button type="button" className="product-card__detail" onClick={(event) => { openerRef.current = event.currentTarget; setQuickViewProduct(activeCardProduct); setQuickViewOpen(true); }}>View details</button>
+          {fromBox ? (
+            <AddToBoxButton snapshot={boxSnapshot} variant="card" />
+          ) : (
+            <ShortlistButton
+              snapshot={snapshot}
+              initiallyShortlisted={shortlisted}
+              className="product-card__quote-action"
+            />
+          )}
+          <FavouriteButton id={activeCardProduct.id} name={activeCardProduct.name} />
         </div>
       </div>
       {quickViewOpen ? (
         <div className="product-quickview" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) { setQuickViewOpen(false); openerRef.current?.focus(); } }}>
           <section ref={dialogRef} className="product-quickview__panel" role="dialog" aria-modal="true" aria-labelledby={`quickview-${product.id}`} onMouseDown={(event) => event.stopPropagation()}>
             <button type="button" className="product-quickview__close" aria-label="Close product details" onClick={() => { setQuickViewOpen(false); openerRef.current?.focus(); }}>×</button>
-            <div className="product-quickview__image"><ProductGallery images={product.images} productName={product.name} /></div>
+            <div className="product-quickview__image"><ProductGallery key={activeQuickViewProduct.id} images={activeQuickViewProduct.images} productName={activeQuickViewProduct.name} selectedVariantId={activeQuickViewProduct.id} colourVariants={product.colourVariantOptions ?? []} designVariants={product.designVariantOptions ?? []} designVariantLabel={product.designFamilyOptionLabel} onSelectVariant={setQuickViewProduct} /></div>
             <div className="product-quickview__content">
-              <p className="product-card__type">{typeLabel}{product.brandName ? ` · ${product.brandName}` : ""}</p>
-              <h2 id={`quickview-${product.id}`}>{product.name}</h2>
-              {product.sku ? <p className="product-detail__sku">SKU {product.sku}</p> : null}
-              <p className="product-detail__summary">{product.summary}</p>
-              <p className="product-quickview__price">{price ?? "Quote on request"}{product.pricing.kind === "fixed" && formatGstBasis(product.pricing.gstBasis) ? ` · ${formatGstBasis(product.pricing.gstBasis)}` : ""}</p>
+              <p className="product-card__type">{typeLabel}{activeQuickViewProduct.brandName ? ` · ${activeQuickViewProduct.brandName}` : ""}</p>
+              <h2 id={`quickview-${product.id}`}>{activeQuickViewProduct.name}</h2>
+              {activeQuickViewProduct.catalogueSku ? <p className="product-detail__sku">SKU {activeQuickViewProduct.catalogueSku}</p> : null}
+              <p className="product-detail__summary">{activeQuickViewProduct.summary}</p>
+              <p className="product-quickview__price">{quickPrice ?? "Quote on request"}{activeQuickViewProduct.pricing.kind === "fixed" && formatGstBasis(activeQuickViewProduct.pricing.gstBasis) ? ` · ${formatGstBasis(activeQuickViewProduct.pricing.gstBasis)}` : ""}</p>
               <ul className="product-quickview__facts">
-                {product.minQuantity ? <li><strong>Supplier minimum:</strong> {product.minQuantity} pcs</li> : null}
-                {product.dispatchTimeline ? <li><strong>Dispatch:</strong> {product.dispatchTimeline}</li> : null}
-                {product.availabilityStatus === "OUT" ? <li><strong>Availability:</strong> Currently marked out of stock</li> : null}
-                {product.materials.length ? <li><strong>Material:</strong> {product.materials.join(", ")}</li> : null}
-                {product.colours.length ? <li><strong>Colour:</strong> {product.colours.join(", ")}</li> : null}
+                <li><strong>Minimum order quantity:</strong> {productMinimumOrderLabel(activeQuickViewProduct.minQuantity)}</li>
+                {activeQuickViewProduct.availabilityStatus === "OUT" ? <li><strong>Availability:</strong> Currently marked out of stock</li> : null}
+                {activeQuickViewProduct.materials.length ? <li><strong>Material:</strong> {activeQuickViewProduct.materials.join(", ")}</li> : null}
+                {activeQuickViewProduct.colours.length ? <li><strong>Colour:</strong> {activeQuickViewProduct.colours.join(", ")}</li> : null}
               </ul>
-              {product.description?.trim() && product.description.trim().toLowerCase() !== product.summary.trim().toLowerCase() ? <details className="product-quickview__disclosure" open><summary>About this product</summary><p>{product.description}</p></details> : null}
-              {product.attributes.length ? <details className="product-quickview__disclosure" open><summary>Specifications</summary><dl>{product.attributes.map((attribute) => <div key={`${attribute.label}-${attribute.value}`}><dt>{attribute.label}</dt><dd>{attribute.value}</dd></div>)}</dl></details> : null}
-              {product.customization ? <details className="product-quickview__disclosure"><summary>Branding options</summary><p>{product.customization}</p></details> : null}
+              {activeQuickViewProduct.description?.trim() && activeQuickViewProduct.description.trim().toLowerCase() !== activeQuickViewProduct.summary.trim().toLowerCase() ? <details className="product-quickview__disclosure" open><summary>About this product</summary><p>{activeQuickViewProduct.description}</p></details> : null}
+              {activeQuickViewProduct.attributes.length ? <details className="product-quickview__disclosure" open><summary>Specifications</summary><dl>{activeQuickViewProduct.attributes.map((attribute) => <div key={`${attribute.label}-${attribute.value}`}><dt>{attribute.label}</dt><dd>{attribute.value}</dd></div>)}</dl></details> : null}
+              {activeQuickViewProduct.customization ? <details className="product-quickview__disclosure"><summary>Branding options</summary><p>{activeQuickViewProduct.customization}</p></details> : null}
               <div className="product-quickview__actions">
-                <ShortlistButton snapshot={snapshot} />
-                <FavouriteButton id={product.id} name={product.name} />
-                <AddToBoxButton snapshot={boxSnapshot} variant="detail" />
-                <Link className="product-card__detail" href={`/studio?mode=customize&product=${encodeURIComponent(product.slug)}&from=product`}>Customize in Studio</Link>
-                <Link className="product-card__detail" href={`/gifts/${product.slug}`}>Full product page</Link>
+                <ShortlistButton snapshot={quickSnapshot} />
+                <FavouriteButton id={activeQuickViewProduct.id} name={activeQuickViewProduct.name} />
+                <AddToBoxButton snapshot={quickBoxSnapshot} variant="detail" />
+                <Link className="product-card__detail" href={`/studio?mode=customize&product=${encodeURIComponent(activeQuickViewProduct.slug)}&from=product`}>Customize in Studio</Link>
               </div>
               <p className="product-quickview__hint">Add it to your box and keep browsing. Your selection stays saved.</p>
             </div>

@@ -286,9 +286,8 @@ export function BrandingEditor({
           onTransformChange={(transform) => applyPatch({ transform }, false)}
         />
         <p className="studio-honesty">
-          This is a conceptual mockup for conversation. Printable area,
-          measurements, and decoration methods are confirmed with Monkcraft —
-          they are not assumed from this preview.
+          Concept only. Monkcraft confirms print area, measurements and
+          decoration methods.
         </p>
       </div>
 
@@ -305,8 +304,8 @@ export function BrandingEditor({
             <div className="studio-empty-guide" role="status">
               <p className="studio-empty-guide__title">Next step</p>
               <p>
-                Search below and choose one product photo. That unlocks logo
-                upload and export.
+                Choose a product to start. Add a logo and optional message,
+                then download a concept to share with Monkcraft.
               </p>
               <CatalogueBrowseLink className="journey-btn journey-btn--ghost" label="Browse full catalogue" />
             </div>
@@ -316,7 +315,7 @@ export function BrandingEditor({
               <p className="studio-selected-product__name">{product.name}</p>
               <p className="studio-selected-product__meta">
                 {product.categoryName}
-                {product.sku ? ` · SKU ${product.sku}` : ""}
+                {product.catalogueSku ? ` · SKU ${product.catalogueSku}` : ""}
               </p>
               <p className="studio-selected-product__price">{product.priceLabel}</p>
               {product.customization ? (
@@ -406,7 +405,14 @@ export function BrandingEditor({
         </section>
 
         <section className="studio-tool-block studio-tool-block--compact" aria-labelledby="studio-adjust-heading">
-          <h2 id="studio-adjust-heading">3. Adjust</h2>
+          <h2 id="studio-adjust-heading">3. Adjust your logo</h2>
+          <p className="studio-tool-intro">Position your logo on the product preview. This is a visual guide; the Monkcraft team will confirm print area and production method.</p>
+          <div className="studio-branding-options" aria-label="Branding options">
+            <span><b aria-hidden="true">↔</b><strong>Placement</strong><small>Drag the logo on the preview or nudge it with your keyboard.</small></span>
+            <span><b aria-hidden="true">◉</b><strong>Scale & angle</strong><small>Fine-tune size and rotation with the controls below.</small></span>
+            <span><b aria-hidden="true">Aa</b><strong>Personalisation</strong><small>Add a short name, message or event detail.</small></span>
+            <span><b aria-hidden="true">↶</b><strong>Try it safely</strong><small>Undo, redo or reset whenever you like.</small></span>
+          </div>
           <label className="studio-range">
             <span className="studio-range__label">
               Size

@@ -17,6 +17,7 @@ export const FILTER_CATEGORY_DISPLAY_ORDER: readonly string[] = [
   "tech-gadgets",
   "office-stationery",
   "hampers-gifting",
+  "confetti-products",
   "awards-trophies",
   "wellness-organic",
   "eco-friendly",
@@ -46,20 +47,30 @@ export function compareCategoryDisplayOrder(a: string, b: string): number {
 export const SUBCATEGORY_DISPLAY_ORDER: Readonly<
   Record<string, readonly string[]>
 > = {
-  "drinkware-barware": ["bottles", "mugs", "tumblers", "barware", "coffee"],
+  "drinkware-barware": ["bottles", "coasters", "mugs", "tumblers", "barware", "coffee", "drinkware-accessories"],
   "apparel-lifestyle": [
     "polos-tees",
     "formal",
+    "sportswear",
+    "hoodies-sweatshirts",
+    "outerwear",
+    "rainwear",
+    "headwear",
+    "kids-schoolwear",
     "scarves-stoles",
     "accessories",
   ],
-  "tech-gadgets": ["audio", "chargers", "desk-tech", "wearables"],
-  "bags-travel": ["backpacks", "totes", "travel", "wallets"],
-  "executive-writing": ["pens", "notebooks", "journals", "desk-companions"],
+  "tech-gadgets": ["audio", "chargers", "wearables", "desk-tech", "tech-bundles"],
+  "bags-travel": ["backpacks", "laptop-bags", "totes", "reusable-bags", "handbags", "briefcases", "luggage", "crossbody-bags", "sports-bags", "lunch-bags", "pouches-organisers", "wallets", "travel-sets", "travel-accessories", "other-bags"],
+  "executive-writing": ["pens", "notebooks", "journals", "desk-companions", "gift-sets"],
   "office-stationery": [
     "notebooks-planners",
     "stationery",
     "organisers",
+    "calendars",
+    "card-holders",
+    "keychains",
+    "wristbands",
     "office-essentials",
   ],
   "hampers-gifting": [
@@ -74,7 +85,7 @@ export const SUBCATEGORY_DISPLAY_ORDER: Readonly<
     "custom-awards",
     "certificates-frames",
   ],
-  "wellness-organic": ["self-care", "tea-infusions", "plants-green"],
+  "wellness-organic": ["self-care", "tea-infusions", "plants-green", "other-wellness"],
   "eco-friendly": ["recycled", "upcycled"],
   packaging: ["gift-boxes", "food-bakery-boxes"],
 };
@@ -129,9 +140,10 @@ export function categoryHeroRank(product: HeroRankProduct): number {
     case "apparel-lifestyle": {
       if (/\bpolos?\b/.test(name)) return 0;
       if (sub === "polos-tees") return 10;
-      if (/\b(hoodie|sweatshirt)\b/.test(name)) return 20;
-      if (sub === "formal" || /\b(shirt|blazer)\b/.test(name)) return 30;
-      if (/\b(cap|hat|beanie)\b/.test(name)) return 40;
+      if (sub === "sportswear") return 20;
+      if (sub === "hoodies-sweatshirts") return 30;
+      if (sub === "formal" || /\b(shirt|blazer)\b/.test(name)) return 40;
+      if (sub === "headwear") return 50;
       return 50;
     }
     case "tech-gadgets": {
@@ -150,13 +162,9 @@ export function categoryHeroRank(product: HeroRankProduct): number {
       return 50;
     }
     case "bags-travel": {
-      if (sub === "backpacks" || /\bbackpack\b/.test(name)) return 0;
-      if (sub === "totes" || /\btote\b/.test(name)) return 10;
-      if (sub === "travel" || /\b(duffel|duffle|luggage|cabin\s?bag)\b/.test(name)) {
-        return 20;
-      }
-      if (sub === "wallets" || /\bwallet\b/.test(name)) return 30;
-      return 40;
+      const bagSubcategoryOrder = ["backpacks", "laptop-bags", "totes", "reusable-bags", "handbags", "briefcases", "luggage", "crossbody-bags", "sports-bags", "lunch-bags", "pouches-organisers", "wallets", "travel-sets", "travel-accessories", "other-bags"];
+      const subRank = bagSubcategoryOrder.indexOf(sub);
+      return subRank < 0 ? 60 : subRank * 10;
     }
     case "executive-writing":
     case "office-stationery": {

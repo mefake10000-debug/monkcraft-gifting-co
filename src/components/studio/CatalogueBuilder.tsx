@@ -10,7 +10,7 @@ import {
   type StudioProductSummary,
   type WhiteLabelCatalogueDraft,
 } from "@/data/catalogue/studioTypes";
-import { readShortlist } from "@/lib/shortlist";
+import { productMinimumOrderLabel, readShortlist } from "@/lib/shortlist";
 import { syncCatalogueDraftToBrief } from "@/lib/studio/briefSync";
 import {
   clearCatalogueDraft,
@@ -36,6 +36,21 @@ type CatalogueBuilderProps = {
 
 const FIELD_KEYS = Object.keys(CATALOGUE_FIELD_LABELS) as CatalogueFieldKey[];
 
+export function focusStudioCatalogueStepHeading(section: HTMLElement | null) {
+  const heading = section?.querySelector<HTMLElement>("h2");
+  if (!heading) return;
+
+  heading.setAttribute("tabindex", "-1");
+  heading.focus({ preventScroll: true });
+  const reducedMotion =
+    typeof window !== "undefined" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  heading.scrollIntoView({
+    block: "center",
+    behavior: reducedMotion ? "auto" : "smooth",
+  });
+}
+
 export function CatalogueBuilder({
   seedFromShortlist = false,
   onDirtyChange,
@@ -45,10 +60,19 @@ export function CatalogueBuilder({
   const [products, setProducts] = useState<StudioProductSummary[]>([]);
   const [loadError, setLoadError] = useState("");
   const [uploadError, setUploadError] = useState("");
+  const [importError, setImportError] = useState("");
   const [step, setStep] = useState<"select" | "brand" | "fields" | "preview">(
     "select",
   );
   const seededRef = useRef(false);
+  const stepPanelRef = useRef<HTMLElement>(null);
+  const previousStepRef = useRef(step);
+
+  useEffect(() => {
+    if (previousStepRef.current === step) return;
+    previousStepRef.current = step;
+    focusStudioCatalogueStepHeading(stepPanelRef.current);
+  }, [step]);
 
   const syncDraft = useCallback(
     (next: WhiteLabelCatalogueDraft) => {
@@ -157,13 +181,18 @@ export function CatalogueBuilder({
 
   return (
     <div className="studio-catalogue">
+      <aside className="studio-catalogue__help" aria-label="Catalogue help">
+        <span className="studio-catalogue__help-icon" aria-hidden="true">✦</span>
+        <span><strong>Build your catalogue</strong><small>Select gifts, add your brand, then preview and save as PDF. Drafts save automatically.</small></span>
+        <Link href="/gifts/brief">Open My Brief →</Link>
+      </aside>
       <nav className="studio-steps" aria-label="Catalogue builder steps">
         {(
           [
             ["select", "Products"],
             ["brand", "Brand"],
-            ["fields", "Details & price"],
-            ["preview", "Preview & PDF"],
+            ["fields", "Details"],
+            ["preview", "Preview"],
           ] as const
         ).map(([id, label]) => (
           <button
@@ -174,6 +203,7 @@ export function CatalogueBuilder({
                 ? "studio-steps__btn studio-steps__btn--active"
                 : "studio-steps__btn"
             }
+            aria-current={step === id ? "step" : undefined}
             onClick={() => setStep(id)}
           >
             {label}
@@ -182,20 +212,11 @@ export function CatalogueBuilder({
       </nav>
 
       {step === "select" ? (
-        <section className="studio-catalogue__section" aria-labelledby="cat-select">
+        <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-select">
           <h2 id="cat-select">Select products</h2>
-          <p>
-            Choose catalogue products. Your selection stays while you edit
-            branding. Import from your cart anytime.
-          </p>
+          <p>Search the catalogue or import your quote selections.</p>
           {orderedProducts.length === 0 ? (
-            <div className="studio-empty-guide" role="status">
-              <p className="studio-empty-guide__title">Next step</p>
-              <p>
-                Search and add at least one product, or pull from your cart.
-                Then continue to brand and preview.
-              </p>
-            </div>
+            <p className="studio-empty-guide" role="status">Add at least one product to continue.</p>
           ) : null}
           <div className="studio-inline-actions">
             <button
@@ -204,21 +225,18 @@ export function CatalogueBuilder({
               onClick={() => {
                 const ids = readShortlist().map((item) => item.id);
                 if (ids.length === 0) {
-                  window.alert(
-                    "Your cart is empty. Add products from the catalog first.",
-                  );
+                  setImportError("Your quote selections are empty. Add gifts from the catalogue first.");
                   return;
                 }
+                setImportError("");
                 syncDraft(mergeShortlistIntoCatalogue(ids));
               }}
             >
-              Add from cart
+              Import quote selections
             </button>
             <CatalogueBrowseLink className="journey-btn journey-btn--ghost" label="Browse catalogue" />
-            <Link className="journey-btn journey-btn--ghost" href="/gifts/shortlist">
-              Open cart
-            </Link>
           </div>
+          {importError ? <p className="studio-error" role="alert">{importError}</p> : null}
 
           {orderedProducts.length > 0 ? (
             <ul className="studio-selected-list">
@@ -239,9 +257,15 @@ export function CatalogueBuilder({
                   <div>
                     <p className="studio-selected-list__name">{product.name}</p>
                     <p className="studio-selected-list__meta">
-                      {product.categoryName}
-                      {product.sku ? ` · ${product.sku}` : ""}
+                      {product.categoryName}{product.subcategoryName ? ` · ${product.subcategoryName}` : ""}
+                      {product.catalogueSku ? ` · SKU ${product.catalogueSku}` : ""}
                     </p>
+                    <p className="studio-selected-list__summary">{product.summary}</p>
+                    <div className="studio-selected-list__facts">
+                      <span>MOQ: {productMinimumOrderLabel(product.minQuantity)}</span>
+                      <span>{product.priceLabel}</span>
+                      {product.customization ? <span>Branding: {product.customization}</span> : null}
+                    </div>
                   </div>
                   <div className="studio-selected-list__actions">
                     <button
@@ -284,8 +308,8 @@ export function CatalogueBuilder({
           <ProductPicker
             mode="multi"
             selectedIds={draft.productIds}
-            heading="Search & add products"
-            emptyHint="Search the live catalogue, then add SKUs to this white-label list."
+            heading="Search and add gifts"
+            emptyHint="Search by product, SKU or category."
             onSelect={(product) => {
               if (draft.productIds.includes(product.id)) return;
               applyPatch({ productIds: [...draft.productIds, product.id] });
@@ -308,18 +332,17 @@ export function CatalogueBuilder({
               disabled={draft.productIds.length === 0}
               onClick={() => setStep("brand")}
             >
-              Continue to brand
+              Continue
             </button>
           </div>
         </section>
       ) : null}
 
       {step === "brand" ? (
-        <section className="studio-catalogue__section" aria-labelledby="cat-brand">
-          <h2 id="cat-brand">Brand customization</h2>
+        <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-brand">
+          <h2 id="cat-brand">Add your brand</h2>
           <p>
-            This catalogue is presented under the name you enter — it does not
-            claim Monkcraft affiliation unless you include that yourself.
+            The catalogue uses the name you enter. It does not claim Monkcraft affiliation unless you include it.
           </p>
           <div className="studio-form-grid">
             <label className="studio-field">
@@ -452,12 +475,9 @@ export function CatalogueBuilder({
       ) : null}
 
       {step === "fields" ? (
-        <section className="studio-catalogue__section" aria-labelledby="cat-fields">
-          <h2 id="cat-fields">Product fields & pricing</h2>
-          <p>
-            Only real catalogue fields appear. Missing values are omitted
-            cleanly. Prices never invent a base amount.
-          </p>
+        <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-fields">
+          <h2 id="cat-fields">Choose details</h2>
+          <p>Select which product details and prices appear.</p>
           <fieldset className="studio-fieldset">
             <legend>Visible fields</legend>
             {FIELD_KEYS.map((key) => (
@@ -495,9 +515,7 @@ export function CatalogueBuilder({
             </select>
           </label>
           <p className="studio-hint">
-            The downloadable catalogue displays one indicative unit price per product. Monkcraft verifies the final amount before approval.
-            Unpriced products show as quote on request (or are omitted if prices
-            are hidden). Taxes, branding, and shipping are never assumed included.
+            Prices are indicative; Monkcraft confirms final amounts. Unpriced products show as quote on request, or are hidden when prices are hidden. Taxes, branding and shipping are excluded.
           </p>
 
           {orderedProducts.length > 0 && draft.fields.price ? (
@@ -553,12 +571,10 @@ export function CatalogueBuilder({
       ) : null}
 
       {step === "preview" ? (
-        <section className="studio-catalogue__section" aria-labelledby="cat-preview">
-          <h2 id="cat-preview">Preview & Save as PDF</h2>
+        <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-preview">
+          <h2 id="cat-preview">Preview your catalogue</h2>
           <p>
-            No PDF library is installed in this project. Use your browser&apos;s{" "}
-            <strong>Print → Save as PDF</strong> on the print-styled document
-            below. This is a real browser export — not a simulated download.
+            Choose <strong>Print / Save as PDF</strong> to export this document from your browser.
           </p>
           <div className="studio-inline-actions studio-inline-actions--wrap">
             <button

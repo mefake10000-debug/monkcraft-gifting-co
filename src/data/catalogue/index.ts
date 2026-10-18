@@ -48,6 +48,7 @@ export {
   sortProducts,
   scoreCatalogueRelevance,
   queryCatalogue,
+  getProductVariantFamily,
   parseCatalogueQuery,
   buildCatalogueHref,
   countActiveFilters,

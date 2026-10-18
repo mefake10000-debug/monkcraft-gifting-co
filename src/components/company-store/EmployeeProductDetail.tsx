@@ -3,7 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import type { StudioProductSummary } from "@/data/catalogue/studioTypes";
+import { companyStoreQuantityFloor } from "@/lib/shortlist";
 import type { StoreVariantSelection } from "@/data/companyStore/types";
 import { StoreDemoBanner } from "@/components/company-store/StoreDemoBanner";
 import { addStoreOrderLine } from "@/lib/companyStore/orderDraft";
@@ -16,6 +18,14 @@ import {
 import { fetchStudioProducts } from "@/lib/studio/fetchProducts";
 
 export function EmployeeProductDetail({ slug }: { slug: string }) {
+  const searchParams = useSearchParams();
+  const showcase = searchParams.get("showcase") === "1";
+  const embedded = searchParams.get("embed") === "1";
+  const requestedReturnTo = searchParams.get("returnTo");
+  const returnTo = requestedReturnTo?.startsWith("/company-stores/configure") && !requestedReturnTo.startsWith("//")
+    ? requestedReturnTo
+    : "/company-stores/configure?view=preview";
+  const previewHref = showcase ? `/company-stores/preview?showcase=1${embedded ? "&embed=1" : ""}` : `/company-stores/preview?returnTo=${encodeURIComponent(returnTo)}${embedded ? "&embed=1" : ""}`;
   const { draft, ready } = useStoreDraft();
   const [product, setProduct] = useState<StudioProductSummary | null>(null);
   const [missing, setMissing] = useState(false);
@@ -38,7 +48,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
           setProduct(null);
           return;
         }
-        if (!draft.productIds.includes(found.id)) {
+        if (!showcase && !draft.productIds.includes(found.id)) {
           setNotInStore(true);
           setProduct(found);
           return;
@@ -46,7 +56,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
         setProduct(found);
         setMissing(false);
         setNotInStore(false);
-        const min = found.minQuantity && found.minQuantity > 0 ? found.minQuantity : 1;
+        const min = companyStoreQuantityFloor(found.minQuantity);
         setQuantity(min);
       } catch {
         if (!cancelled) setMissing(true);
@@ -56,7 +66,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
     return () => {
       cancelled = true;
     };
-  }, [slug, ready, draft.productIds]);
+  }, [slug, ready, draft.productIds, showcase]);
 
   const accent = draft.identity.accentColor || "#662F90";
 
@@ -75,12 +85,12 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
       setError("Select all available options before adding.");
       return;
     }
-    const maxUnits = draft.rules.ordering.maxUnitsPerProduct;
+    const maxUnits = showcase ? null : draft.rules.ordering.maxUnitsPerProduct;
     if (maxUnits != null && quantity > maxUnits) {
       setError(`Draft rule: max ${maxUnits} units per product.`);
       return;
     }
-    addStoreOrderLine({
+    const line = {
       productId: product.id,
       slug: product.slug,
       name: product.name,
@@ -89,14 +99,26 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
       amountInr: product.amountInr,
       quantity,
       variants,
-    });
+    };
+    if (showcase) {
+      const key = `${line.productId}::${line.variants.map((variant) => `${variant.label}:${variant.value}`).sort().join("|")}`;
+      const raw = localStorage.getItem("monkcraft-company-store-showcase-cart-v1");
+      const lines = raw ? JSON.parse(raw) as typeof line[] : [];
+      const existing = lines.find((item) => `${item.productId}::${item.variants.map((variant) => `${variant.label}:${variant.value}`).sort().join("|")}` === key);
+      localStorage.setItem("monkcraft-company-store-showcase-cart-v1", JSON.stringify(existing
+        ? lines.map((item) => item === existing ? { ...item, quantity: item.quantity + line.quantity } : item)
+        : [...lines, line]));
+      window.dispatchEvent(new CustomEvent("monkcraft:company-store-showcase-cart"));
+    } else {
+      addStoreOrderLine(line);
+    }
     setStatus("Added to your bag.");
   }
 
   if (!ready || (!product && !missing)) {
     return (
-      <div className="cs-storefront">
-        <StoreDemoBanner context="employee" />
+      <div className={embedded ? "cs-storefront cs-storefront--embedded" : "cs-storefront"}>
+        <StoreDemoBanner context="employee" showBackLink={!embedded} />
         <p style={{ padding: "2rem" }}>Loading product…</p>
       </div>
     );
@@ -104,14 +126,14 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
 
   if (missing || !product) {
     return (
-      <div className="cs-storefront">
-        <StoreDemoBanner context="employee" />
+      <div className={embedded ? "cs-storefront cs-storefront--embedded" : "cs-storefront"}>
+        <StoreDemoBanner context="employee" showBackLink={!embedded} />
         <div className="cs-empty" style={{ margin: "2rem 1.15rem" }}>
           <h3>Product not found</h3>
           <p>No verified catalogue product matches this link.</p>
           <Link
             className="cs-btn cs-btn--primary cs-btn--small"
-            href="/company-stores/preview"
+            href={previewHref}
           >
             Back to store preview
           </Link>
@@ -122,8 +144,8 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
 
   if (notInStore) {
     return (
-      <div className="cs-storefront">
-        <StoreDemoBanner context="employee" />
+      <div className={embedded ? "cs-storefront cs-storefront--embedded" : "cs-storefront"}>
+        <StoreDemoBanner context="employee" showBackLink={!embedded} />
         <div className="cs-empty" style={{ margin: "2rem 1.15rem" }}>
           <h3>Not in this store draft</h3>
           <p>
@@ -132,7 +154,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
           </p>
           <Link
             className="cs-btn cs-btn--primary cs-btn--small"
-            href="/company-stores/preview"
+            href={previewHref}
           >
             Back to store preview
           </Link>
@@ -143,14 +165,13 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
 
   const selectable = extractSelectableVariants(product.attributes);
   const attrs = displayAttributes(product.attributes).slice(0, 8);
-  const minQty =
-    product.minQuantity && product.minQuantity > 0 ? product.minQuantity : 1;
+  const minQty = companyStoreQuantityFloor(product.minQuantity);
 
   return (
-    <div className="cs-storefront" style={{ ["--accent" as string]: accent }}>
-      <StoreDemoBanner context="employee" />
+      <div className={embedded ? "cs-storefront cs-storefront--embedded" : "cs-storefront"} style={{ ["--accent" as string]: accent }}>
+      <StoreDemoBanner context="employee" showBackLink={!embedded} />
       <div style={{ padding: "1rem 1.15rem 0" }}>
-        <Link href="/company-stores/preview">← Back to store</Link>
+        <Link href={previewHref} onClick={(event) => { if (showcase) { event.preventDefault(); window.location.assign(previewHref); } }}>← Back to store</Link>
       </div>
       <article className="cs-product-detail">
         <div className="cs-product-detail__media">
@@ -245,11 +266,15 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
             </button>
             <Link
               className="cs-btn cs-btn--ghost"
-              href="/company-stores/preview"
+              href={previewHref}
+              onClick={(event) => { if (showcase) { event.preventDefault(); window.location.assign(previewHref); } }}
             >
               Review cart
             </Link>
           </div>
+        </div>
+        <div className="cs-product-detail__return">
+          {!embedded ? (showcase ? <Link href="/company-stores">Back to Company Stores</Link> : <Link href={returnTo}>Back to setup</Link>) : null}
         </div>
       </article>
     </div>

@@ -27,10 +27,16 @@ function assert(cond, msg) {
 }
 
 const results = [];
+let enquiryStorageReady = false;
 
 async function check(name, fn) {
   try {
-    await fn();
+    const outcome = await fn();
+    if (outcome?.skip) {
+      results.push({ name, ok: true, skipped: true });
+      console.log(`SKIP  ${name}: ${outcome.skip}`);
+      return;
+    }
     results.push({ name, ok: true });
     console.log(`PASS  ${name}`);
   } catch (err) {
@@ -39,14 +45,21 @@ async function check(name, fn) {
   }
 }
 
-await check("GET /api/enquiry → delivery_not_configured", async () => {
+await check("GET /api/enquiry reports storage readiness", async () => {
   const r = await req("GET", "/api/enquiry");
   assert(r.status === 200, `status ${r.status}`);
-  assert(r.json?.deliveryConfigured === false, "delivery should be off");
-  assert(r.json?.code === "delivery_not_configured", "code mismatch");
+  assert(typeof r.json?.storageConfigured === "boolean", "storage status missing");
+  enquiryStorageReady = r.json.storageConfigured;
+  assert(
+    r.json?.code === (enquiryStorageReady ? "ready" : "storage_not_configured"),
+    "storage readiness code mismatch",
+  );
 });
 
-await check("POST /api/enquiry valid → 503 not delivered", async () => {
+await check("POST /api/enquiry without storage → clear 503", async () => {
+  if (enquiryStorageReady) {
+    return { skip: "storage is configured; avoid creating a synthetic lead" };
+  }
   const r = await req("POST", "/api/enquiry", {
     name: "Launch Regression",
     company: "Monkcraft QA",
@@ -59,7 +72,7 @@ await check("POST /api/enquiry valid → 503 not delivered", async () => {
   });
   assert(r.status === 503, `expected 503 got ${r.status}`);
   assert(r.json?.delivered === false, "must not claim delivered");
-  assert(r.json?.code === "delivery_not_configured", "code mismatch");
+  assert(r.json?.code === "storage_not_configured", "code mismatch");
 });
 
 await check("POST /api/enquiry honeypot → spam_rejected", async () => {
@@ -123,8 +136,9 @@ await check("POST /api/gift-finder/recommend rule-based", async () => {
 });
 
 const failed = results.filter((r) => !r.ok);
+const skipped = results.filter((r) => r.skipped);
 console.log("---");
 console.log(
-  `launch-regression: ${results.length - failed.length}/${results.length} passed against ${base}`,
+  `launch-regression: ${results.length - failed.length - skipped.length}/${results.length - skipped.length} passed, ${skipped.length} skipped against ${base}`,
 );
 process.exit(failed.length ? 1 : 0);

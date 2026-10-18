@@ -39,7 +39,7 @@ export function syncBrandingDraftToBrief(
         productId: product?.id ?? draft.productId,
         productSlug: product?.slug ?? draft.productSlug,
         productName: product?.name ?? null,
-        productSku: product?.sku ?? null,
+        productSku: product?.catalogueSku ?? product?.sku ?? null,
         priceLabel: product?.priceLabel ?? null,
         customizationNote: product?.customization ?? null,
         text: draft.text,
@@ -62,7 +62,7 @@ export function buildBrandingQuotationPrepText(
     "",
     "Product",
     product
-      ? `${product.name} · SKU ${product.sku || "—"} · id ${product.id} · /gifts/${product.slug}`
+      ? `${product.name} · SKU ${product.catalogueSku || product.sku || "—"} · id ${product.id} · /gifts/${product.slug}`
       : "— none selected —",
     product ? `Catalogue price: ${product.priceLabel}` : "",
     product?.customization

@@ -2,9 +2,9 @@
 import {useEffect, useId, useRef, useState} from 'react';
 import type {CatalogueFacet, CatalogueQuery} from '@/data/catalogue/types';
 import {parseBudgetRange, toggleListValue} from '@/data/catalogue/queryParams';
-export type FacetKey = 'categories' | 'brands' | 'occasions' | 'brandings' | 'colours' | 'materials';
+export type FacetKey = 'categories' | 'brands' | 'occasions' | 'colours' | 'materials';
 export type FilterFacets = Record<FacetKey, CatalogueFacet[]>;
-export const FILTER_GROUPS: {key: FacetKey; label: string}[] = [{key:'categories',label:'Category'},{key:'brands',label:'Brand'},{key:'occasions',label:'Occasion'},{key:'brandings',label:'Customisation'},{key:'colours',label:'Colour'},{key:'materials',label:'Material'}];
+export const FILTER_GROUPS: {key: FacetKey; label: string}[] = [{key:'categories',label:'Category'},{key:'brands',label:'Brand'},{key:'occasions',label:'Occasion'},{key:'colours',label:'Colour'},{key:'materials',label:'Material'}];
 export function CatalogueFilters({query, facets, onChange, groups, onGroupChange, onValidityChange, staged=false}: {query:CatalogueQuery; staged?:boolean; facets:FilterFacets; onChange:(patch:Partial<CatalogueQuery>)=>void; groups:Record<string,boolean>; onGroupChange:(key:string,open:boolean)=>void; onValidityChange?:(valid:boolean)=>void}) {
   return <div className="refine-filters">
     <FacetGroup group={FILTER_GROUPS[0]} query={query} facets={facets.categories} onChange={onChange} open={groups.categories ?? false} onOpen={onGroupChange}/>
@@ -37,6 +37,6 @@ function BudgetFields({query,onChange,open,onOpen,onValidityChange,staged}: {sta
  useEffect(()=>{validity.current?.(valid);if(!valid) return;const timer=setTimeout(()=>{if(lo!==query.budgetMinInr||hi!==query.budgetMaxInr) callback.current({budgetMinInr:lo,budgetMaxInr:hi});},400);return ()=>clearTimeout(timer);},[lo,hi,valid,query.budgetMinInr,query.budgetMaxInr]);
  return <section className="refine-group"><button type="button" className="refine-group__toggle" aria-expanded={open} aria-controls={id} onClick={()=>onOpen('budget',!open)}>Budget per gift <span>{open?'−':'+'}</span></button><div id={id} hidden={!open}>
  <div className="refine-budget">{[{label:'Min (₹)',value:min,set:setMin},{label:'Max (₹)',value:max,set:setMax}].map(field=><label key={field.label}>{field.label}<input type="number" inputMode="numeric" min="1" step="1" placeholder="Any" value={field.value} aria-invalid={!valid} aria-describedby={!valid?`${id}-error`:undefined} onChange={e=>{const value=e.target.value;field.set(value);if(staged){const range=parseBudgetRange(field.label==='Min (₹)'?value:min,field.label==='Max (₹)'?value:max);onValidityChange?.(range.valid);if(range.valid)onChange({budgetMinInr:range.min,budgetMaxInr:range.max});}}} onKeyDown={e=>{if(e.key==='Enter'){e.preventDefault();commit();}}}/></label>)}</div>
- {!valid?<p id={`${id}-error`} role="alert" className="refine-error">Enter positive whole amounts, with Min no higher than Max.</p>:<p className="refine-note">Catalogue unit prices. Taxes and customisation may be extra.</p>}
+ {!valid?<p id={`${id}-error`} role="alert" className="refine-error">Enter positive whole amounts, with Min no higher than Max.</p>:<p className="refine-note">Indicative unit prices. Monkcraft confirms final pricing in your quote.</p>}
  </div></section>;
 }

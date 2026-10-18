@@ -1,0 +1,7922 @@
+{
+  "sourceCandidateGroups": 470,
+  "approvedCount": 284,
+  "decisions": [
+    {
+      "title": "4 In 1 Laser Pointer Pen- Black",
+      "productIds": [
+        "MGC-0084",
+        "MGC-0085"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "6 In 1 Pen With Phone Stand Cleanner Ruller And Tools And Stylus- Black",
+      "productIds": [
+        "MGC-0080",
+        "MGC-0082",
+        "MGC-0083"
+      ],
+      "colours": [
+        "Black",
+        "Red",
+        "Silver"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Adidas 100% Cotton Round Neck T-Shirt- Black",
+      "productIds": [
+        "MGC-2087",
+        "MGC-2088",
+        "MGC-2089",
+        "MGC-2090",
+        "MGC-2091"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Royal Blue",
+        "Teal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Adidas 100% Cotton Tipping Polo T-Shirt (210 gsm)- Green with White Tipping",
+      "productIds": [
+        "MGC-2092",
+        "MGC-2093",
+        "MGC-2094",
+        "MGC-2095",
+        "MGC-2096"
+      ],
+      "colours": [
+        "Green",
+        "Grey",
+        "Navy Blue",
+        "Red",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Adidas Clima Lite Tshirt- Black with White Tipping",
+      "productIds": [
+        "MGC-2098",
+        "MGC-2101"
+      ],
+      "colours": [
+        "Black",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Adidas Jacket- Black with White",
+      "productIds": [
+        "MGC-2829",
+        "MGC-2830",
+        "MGC-2831"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Royal Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Allen Solly Polo T-shirt Men- Black",
+      "productIds": [
+        "MGC-2104",
+        "MGC-2105",
+        "MGC-2106",
+        "MGC-2107",
+        "MGC-2108",
+        "MGC-2109",
+        "MGC-2110",
+        "MGC-2111"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey",
+        "Grey",
+        "Navy Blue",
+        "Purple",
+        "Sky Blue",
+        "Turquoise Green",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Allen Solly Polo T-shirt Women- Black",
+      "productIds": [
+        "MGC-2112",
+        "MGC-2113",
+        "MGC-2114",
+        "MGC-2115",
+        "MGC-2116",
+        "MGC-2117",
+        "MGC-2118",
+        "MGC-2119"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey",
+        "Grey",
+        "Navy Blue",
+        "Purple",
+        "Sky Blue",
+        "Turquoise Green",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ambrane AerosynQ B Wireless Charger- Black",
+      "productIds": [
+        "MGC-1089",
+        "MGC-1090"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Ambrane AerosynQ Trio Wireless Charger- Black",
+      "productIds": [
+        "MGC-1092",
+        "MGC-1093"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Ambrane Evoke Cube Plus Speaker- Black",
+      "productIds": [
+        "MGC-0917",
+        "MGC-0918",
+        "MGC-0919"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ambrane Force 20000mAh Powerbank- Black",
+      "productIds": [
+        "MGC-1094",
+        "MGC-1095",
+        "MGC-1096"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Orange"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Ambrane Mini Pod Speaker- Black",
+      "productIds": [
+        "MGC-0920",
+        "MGC-0921",
+        "MGC-0922"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ambrane Powerlit 30 10000mAh Powerbank- Black",
+      "productIds": [
+        "MGC-1097",
+        "MGC-1098"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ambrane PP-129-10000mAh Powerbank- Black",
+      "productIds": [
+        "MGC-1086",
+        "MGC-1087"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ambrane PP-511-5000mAh Powerbank- Black",
+      "productIds": [
+        "MGC-1084",
+        "MGC-1085"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Ambrane Stylo 27000mAh Powerbank- Green",
+      "productIds": [
+        "MGC-1100",
+        "MGC-1101"
+      ],
+      "colours": [
+        "Green",
+        "Purple"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Ambrane Twistand Moblie Stand- Black",
+      "productIds": [
+        "MGC-1180",
+        "MGC-1181"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/desk-tech"
+    },
+    {
+      "title": "American Tourister Trot 3.0 STY 01 Backpack- Black- 25L",
+      "productIds": [
+        "MGC-1281",
+        "MGC-1282",
+        "MGC-1283"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "American Tourister Trot 3.0 STY 02 Backpack- Black- 32L",
+      "productIds": [
+        "MGC-1284",
+        "MGC-1285"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "American Tourister Trot 3.0 STY 03 Backpack- Black- 33L",
+      "productIds": [
+        "MGC-1287",
+        "MGC-1288"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Aquaminder Nile Mug-1200ml-Black",
+      "productIds": [
+        "MGC-0600",
+        "MGC-0601",
+        "MGC-0602",
+        "MGC-0603",
+        "MGC-0604"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Pink",
+        "Teal Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Aquaminder Rio Water Bottle-750ml-Black",
+      "productIds": [
+        "MGC-0481",
+        "MGC-0482"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Aquaminder Thames Water Bottle-600ml-Black",
+      "productIds": [
+        "MGC-0477",
+        "MGC-0478",
+        "MGC-0479",
+        "MGC-0480"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Ice Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Arctic Fox Chrome Backpack- Black- 27L",
+      "productIds": [
+        "MGC-1291",
+        "MGC-1292",
+        "MGC-1293"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Arctic Fox Pump Backpack- Black- 29L",
+      "productIds": [
+        "MGC-1294",
+        "MGC-1295",
+        "MGC-1296",
+        "MGC-1297"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Arctic Fox Reel Backpack- Black- 45L",
+      "productIds": [
+        "MGC-1299",
+        "MGC-1300",
+        "MGC-1301",
+        "MGC-1302"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green",
+        "Maroon"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Arctic Fox Zinc Backpack- Black- 27L",
+      "productIds": [
+        "MGC-1303",
+        "MGC-1304"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Arctic Kobra Gamer Backpack- Black- 27L",
+      "productIds": [
+        "MGC-1308",
+        "MGC-1309"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Armour Chest Bag- Black",
+      "productIds": [
+        "MGC-1730",
+        "MGC-1731"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Artiart Antelope Suction Bottle- White- 370ml",
+      "productIds": [
+        "MGC-0484",
+        "MGC-0485"
+      ],
+      "colours": [
+        "White",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Artiart Butterfly Thermal Suction Bottle- Black- 400ml",
+      "productIds": [
+        "MGC-0486",
+        "MGC-0487",
+        "MGC-0488"
+      ],
+      "colours": [
+        "Black",
+        "White",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Artiart Cloud Suction Bottle- Black- 400ml",
+      "productIds": [
+        "MGC-0489",
+        "MGC-0490",
+        "MGC-0491"
+      ],
+      "colours": [
+        "Black",
+        "White",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Artiart Doctor Suction Mug- Black- 480ml",
+      "productIds": [
+        "MGC-0612",
+        "MGC-0613"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Artiart Dumbo Suction Mug- Black- 450ml",
+      "productIds": [
+        "MGC-0618",
+        "MGC-0619",
+        "MGC-0620",
+        "MGC-0621",
+        "MGC-0622"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Red",
+        "White",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Artiart Grace Thermal Suction Mug- Black- 470ml",
+      "productIds": [
+        "MGC-0614",
+        "MGC-0615",
+        "MGC-0616",
+        "MGC-0617"
+      ],
+      "colours": [
+        "Black",
+        "Red",
+        "White",
+        "Siemens Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Artiart Idea Cafe Suction Mug- Dark Grey- 340ml",
+      "productIds": [
+        "MGC-0605",
+        "MGC-0606",
+        "MGC-0607",
+        "MGC-0608"
+      ],
+      "colours": [
+        "Dark Grey",
+        "Light Pink",
+        "Sky Blue",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Artiart Zebra Suction Mug- Green- 350ml",
+      "productIds": [
+        "MGC-0609",
+        "MGC-0611"
+      ],
+      "colours": [
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Assembly Float Fanny Pack Crossbody Bag-3L-Blue",
+      "productIds": [
+        "MGC-1612",
+        "MGC-1613",
+        "MGC-1614",
+        "MGC-1615"
+      ],
+      "colours": [
+        "Blue",
+        "Cream",
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Float Premium Duffle Bag-40L-Blue",
+      "productIds": [
+        "MGC-1623",
+        "MGC-1624",
+        "MGC-1625"
+      ],
+      "colours": [
+        "Blue",
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Float Premium Laptop Backpack-23L-Blue",
+      "productIds": [
+        "MGC-1319",
+        "MGC-1320",
+        "MGC-1321",
+        "MGC-1322"
+      ],
+      "colours": [
+        "Blue",
+        "Cream",
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Assembly Iris Tote Bag and Pouch-13L-Beige",
+      "productIds": [
+        "MGC-1495",
+        "MGC-1496"
+      ],
+      "colours": [
+        "Beige",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/totes"
+    },
+    {
+      "title": "Assembly Odssey Sleeve Laptop Sleeve-Beige",
+      "productIds": [
+        "MGC-1620",
+        "MGC-1621",
+        "MGC-1622"
+      ],
+      "colours": [
+        "Beige",
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Odyssey Pro Cabin Luggage-80L-Blue",
+      "productIds": [
+        "MGC-1636",
+        "MGC-1637",
+        "MGC-1638"
+      ],
+      "colours": [
+        "Blue",
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Stark Pro Cabin Luggage-50L-Blue",
+      "productIds": [
+        "MGC-1631",
+        "MGC-1632",
+        "MGC-1633",
+        "MGC-1634",
+        "MGC-1635"
+      ],
+      "colours": [
+        "Blue",
+        "Green",
+        "Grey",
+        "Pink",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Sway Sling Bag-4L-Beige with Tan",
+      "productIds": [
+        "MGC-1616",
+        "MGC-1617"
+      ],
+      "colours": [
+        "Beige",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Sway Sling Bag-4L-Brown with Black",
+      "productIds": [
+        "MGC-1618",
+        "MGC-1619"
+      ],
+      "colours": [
+        "Brown",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Urbix Laptop Messenger Bag-13L-Beige with Tan",
+      "productIds": [
+        "MGC-1626",
+        "MGC-1627"
+      ],
+      "colours": [
+        "Beige",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Assembly Urbix Laptop Messenger Bag-13L-Brown with Black",
+      "productIds": [
+        "MGC-1628",
+        "MGC-1629"
+      ],
+      "colours": [
+        "Brown",
+        "Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Athena Notebook- Black- A5- 196 Pages",
+      "productIds": [
+        "MGC-0294",
+        "MGC-0295",
+        "MGC-0296",
+        "MGC-0297"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Basic Nylon Lanyard | Black",
+      "productIds": [
+        "MGC-3835",
+        "MGC-3836",
+        "MGC-3837",
+        "MGC-3838",
+        "MGC-3839",
+        "MGC-3840",
+        "MGC-3841"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Maroon",
+        "Navy Blue",
+        "Orange",
+        "Red",
+        "Royal Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Bloom Bottle- Black- 750ML",
+      "productIds": [
+        "MGC-0572",
+        "MGC-0573"
+      ],
+      "colours": [
+        "Black",
+        "Silver"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Boat Lunar Orbit Smart Watch- Black",
+      "productIds": [
+        "MGC-1071",
+        "MGC-1072",
+        "MGC-1073",
+        "MGC-1074"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Peach"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/wearables"
+    },
+    {
+      "title": "Boat- 138 Earbuds- Black",
+      "productIds": [
+        "MGC-0934",
+        "MGC-0935"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Boat- 148 Earbuds- Black",
+      "productIds": [
+        "MGC-0936",
+        "MGC-0937"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Bolt Multi Function Desk Lamp- Black",
+      "productIds": [
+        "MGC-4140",
+        "MGC-4141"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Brio Pen- Blue",
+      "productIds": [
+        "MGC-0116",
+        "MGC-0117",
+        "MGC-0118"
+      ],
+      "colours": [
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Bruk Signature Tumbler 40oz Tumbler- Beige",
+      "productIds": [
+        "MGC-0457",
+        "MGC-0458",
+        "MGC-0459"
+      ],
+      "colours": [
+        "Beige",
+        "Black",
+        "Dark Brown"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Cable Verse- Black",
+      "productIds": [
+        "MGC-1107",
+        "MGC-1108"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Cafe Mug Buddy- Black- 510ml",
+      "productIds": [
+        "MGC-0696",
+        "MGC-0697"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Canvas Travel Duffle Bag- Black- 40L",
+      "productIds": [
+        "MGC-1726",
+        "MGC-1727",
+        "MGC-1728"
+      ],
+      "colours": [
+        "Black",
+        "Olive Green",
+        "Tan"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Capri Notebook- Black- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0313",
+        "MGC-0314",
+        "MGC-0315"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Cardy- Card Holder- Black",
+      "productIds": [
+        "MGC-4123",
+        "MGC-4124"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Casper Dual Mode Transparent Wireless Mouse- Black",
+      "productIds": [
+        "MGC-3816",
+        "MGC-3817"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Castillo Milano A5 Notebook with mobile pocket, card holder pocket & Pen loop- Brown",
+      "productIds": [
+        "MGC-0087",
+        "MGC-0088"
+      ],
+      "colours": [
+        "Brown",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Chester Laptop Bag- Black",
+      "productIds": [
+        "MGC-2008",
+        "MGC-2009",
+        "MGC-2010",
+        "MGC-2011"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Khaki"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Classic Executive Diary- Black- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0185",
+        "MGC-0186",
+        "MGC-0187"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/journals"
+    },
+    {
+      "title": "Coffee Brew Mug- Black- 400ml",
+      "productIds": [
+        "MGC-0682",
+        "MGC-0683"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Columbus Sling Bag- Black",
+      "productIds": [
+        "MGC-1857",
+        "MGC-1858",
+        "MGC-1859"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Cottsberry Jonty Clovis Women's V-Neck T-Shirt - Maroon",
+      "productIds": [
+        "MGC-2123",
+        "MGC-2124"
+      ],
+      "colours": [
+        "Maroon",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Cottsberry Men's Round Neck T-Shirt - Black",
+      "productIds": [
+        "MGC-2121",
+        "MGC-2122"
+      ],
+      "colours": [
+        "Black",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Crossbody Sling Bag- Black- 10L",
+      "productIds": [
+        "MGC-1722",
+        "MGC-1723"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Custom-Made Corrugated Gift Box- Navy Blue- Medium",
+      "productIds": [
+        "MGC-3296",
+        "MGC-3297",
+        "MGC-3298"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Black",
+        "Red"
+      ],
+      "decision": "excluded",
+      "reason": "Images show different box constructions/presentations; colour alone does not establish one design."
+    },
+    {
+      "title": "Custom-Made Corrugated Gift Box-Black-Large",
+      "productIds": [
+        "MGC-3299",
+        "MGC-3300",
+        "MGC-3301"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "excluded",
+      "reason": "Images show different box constructions/presentations; colour alone does not establish one design."
+    },
+    {
+      "title": "Custom-Made Tote Bag- 350 GSM- Beige(14\"W ,16\"H)",
+      "productIds": [
+        "MGC-1527",
+        "MGC-1529"
+      ],
+      "colours": [
+        "Beige",
+        "Black"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Custom-Made Tote Bag- Beige(12\"W , 14\"H)",
+      "productIds": [
+        "MGC-1526",
+        "MGC-1528"
+      ],
+      "colours": [
+        "Beige",
+        "Black"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Custom-Made Wrist Band | Silicone | 20mm | Black",
+      "productIds": [
+        "MGC-3843",
+        "MGC-3844",
+        "MGC-3845"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Customized 6 Panel Cap - Navy Blue",
+      "productIds": [
+        "MGC-2958",
+        "MGC-2959",
+        "MGC-2960",
+        "MGC-2961"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Black",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Customized 6 Panel Snapback Cap-Black",
+      "productIds": [
+        "MGC-2962",
+        "MGC-2963",
+        "MGC-2964",
+        "MGC-2965"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Customized Half Netted Cap - Black",
+      "productIds": [
+        "MGC-2966",
+        "MGC-2967",
+        "MGC-2968"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Daily Object Marshal Tech Kit Organiser-Leatherite-Black with Red",
+      "productIds": [
+        "MGC-1680",
+        "MGC-1682"
+      ],
+      "colours": [
+        "Black",
+        "Mustard"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Daily Object Urbane Tech Folio- Black",
+      "productIds": [
+        "MGC-1685",
+        "MGC-1686"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Daily Objects Array Organizer with Planner | A5 | Blue",
+      "productIds": [
+        "MGC-0340",
+        "MGC-0341",
+        "MGC-0342",
+        "MGC-0343"
+      ],
+      "colours": [
+        "Blue",
+        "Brown",
+        "Green",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Denver Laptop Bag - Mustard",
+      "productIds": [
+        "MGC-1889",
+        "MGC-1890",
+        "MGC-1891"
+      ],
+      "colours": [
+        "Mustard",
+        "Olive Green",
+        "Teal Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Dusky Notebook- Blue- A5- 104 Sheets",
+      "productIds": [
+        "MGC-0279",
+        "MGC-0280",
+        "MGC-0281"
+      ],
+      "colours": [
+        "Blue",
+        "Brown",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Ebony Bottle- Black- 500ml",
+      "productIds": [
+        "MGC-0585",
+        "MGC-0586",
+        "MGC-0587",
+        "MGC-0588"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Pink",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Eco 4-in-1 Gift Hamper- Black",
+      "productIds": [
+        "MGC-3723",
+        "MGC-3724"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C8/hampers-gifting/gift-sets"
+    },
+    {
+      "title": "Eco Frost Glass Bottle-500ml-Black",
+      "productIds": [
+        "MGC-0507",
+        "MGC-0508",
+        "MGC-0509"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "EcoFizz Wheat Straw Mug- Blue",
+      "productIds": [
+        "MGC-0635",
+        "MGC-0636",
+        "MGC-0637"
+      ],
+      "colours": [
+        "Blue",
+        "Grey",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "EcoFloat Wheat Straw Mug with Stirrer- Black",
+      "productIds": [
+        "MGC-0638",
+        "MGC-0639",
+        "MGC-0640"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Elan Executive Laptop Bag- Black- 15.6Inch",
+      "productIds": [
+        "MGC-1689",
+        "MGC-1690",
+        "MGC-1691"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Elan Horizontal Card Holder- Black",
+      "productIds": [
+        "MGC-1569",
+        "MGC-1570",
+        "MGC-1571"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/wallets"
+    },
+    {
+      "title": "Elan Insignia Business Laptop Bag- Black- 15.6Inch",
+      "productIds": [
+        "MGC-1694",
+        "MGC-1695"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Elan Insignia Coin Pouch Flap Wallet- Black",
+      "productIds": [
+        "MGC-1574",
+        "MGC-1575"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Elan Insignia Compact Card-Holder- Black",
+      "productIds": [
+        "MGC-1572",
+        "MGC-1573"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/wallets"
+    },
+    {
+      "title": "Elan Insignia Executive Laptop Bag- Black- 15.6Inch",
+      "productIds": [
+        "MGC-1692",
+        "MGC-1693"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Elegant Executive Diary- Black- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0188",
+        "MGC-0189"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/journals"
+    },
+    {
+      "title": "Element Notebook-Black with Blue- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0317",
+        "MGC-0318",
+        "MGC-0319"
+      ],
+      "colours": [
+        "Blue",
+        "Green",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Everyday Organizers Desk Station-Black",
+      "productIds": [
+        "MGC-4087",
+        "MGC-4088"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/organisers"
+    },
+    {
+      "title": "Executive 5-in-1 Hamper- Orange",
+      "productIds": [
+        "MGC-3732",
+        "MGC-3733"
+      ],
+      "colours": [
+        "Orange",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C8/hampers-gifting/gift-sets"
+    },
+    {
+      "title": "Explorer Bag- Black-32L",
+      "productIds": [
+        "MGC-1738",
+        "MGC-1739",
+        "MGC-1740"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Felt Bag Big- Black",
+      "productIds": [
+        "MGC-1903",
+        "MGC-1904"
+      ],
+      "colours": [
+        "Black",
+        "Cream"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Felt Bag Small- Black",
+      "productIds": [
+        "MGC-1901",
+        "MGC-1902"
+      ],
+      "colours": [
+        "Black",
+        "Cream"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Ferrero laptop Sleeve-14 inch-Black with Grey",
+      "productIds": [
+        "MGC-1870",
+        "MGC-1871"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ferrero Stainless Steel Magic Coffee Mug- Black- 300ml",
+      "productIds": [
+        "MGC-0700",
+        "MGC-0701"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Fluct Journal A5 Notebook- Black- 160 Pages",
+      "productIds": [
+        "MGC-0128",
+        "MGC-0129",
+        "MGC-0130",
+        "MGC-0131",
+        "MGC-0132",
+        "MGC-0133"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown",
+        "Grey",
+        "Maroon",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/journals"
+    },
+    {
+      "title": "Fluct Notebook - Black - A5 - 160 Pages",
+      "productIds": [
+        "MGC-4171",
+        "MGC-4172"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Fluct Premium Note Book- Black- A5- 192 pages",
+      "productIds": [
+        "MGC-0324",
+        "MGC-0325"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Foggy Mug- Black- 350ml",
+      "productIds": [
+        "MGC-0686",
+        "MGC-0687",
+        "MGC-0688"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Folio Laptop Sleeve- Dark Grey",
+      "productIds": [
+        "MGC-2035",
+        "MGC-2036",
+        "MGC-2037"
+      ],
+      "colours": [
+        "Dark Grey",
+        "Light Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Fresh Grip Lunch Box-Grey-320ml",
+      "productIds": [
+        "MGC-0771",
+        "MGC-0772"
+      ],
+      "colours": [
+        "Grey",
+        "Ice Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/barware"
+    },
+    {
+      "title": "Fresh Grip Lunch Box-Grey-520ml",
+      "productIds": [
+        "MGC-0774",
+        "MGC-0775"
+      ],
+      "colours": [
+        "Grey",
+        "Ice Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/barware"
+    },
+    {
+      "title": "Fur jaden The Nomad 15.6\"Inch Laptop Backpack- Blue- 22L",
+      "productIds": [
+        "MGC-1356",
+        "MGC-1357",
+        "MGC-1358",
+        "MGC-1359",
+        "MGC-1360",
+        "MGC-1361",
+        "MGC-1362",
+        "MGC-1363"
+      ],
+      "colours": [
+        "Blue",
+        "Blue",
+        "Grey",
+        "Grey",
+        "Olive Green",
+        "Olive Green",
+        "Tan",
+        "Tan"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Fuzo 6 in 1 PYD (Power Your Desk)- Black",
+      "productIds": [
+        "MGC-1209",
+        "MGC-1210"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/desk-tech"
+    },
+    {
+      "title": "Fuzo Bubble Borosilicate Glass Bottle with Silicone Sleeve- Grey",
+      "productIds": [
+        "MGC-0511",
+        "MGC-0512"
+      ],
+      "colours": [
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Fuzo Calamus Metal Ballpoint Pen - Blue",
+      "productIds": [
+        "MGC-0015",
+        "MGC-0016",
+        "MGC-0017",
+        "MGC-0018"
+      ],
+      "colours": [
+        "Blue",
+        "Black",
+        "Green",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Fuzo Caneta Metal Pen with Bamboo Grip- Black",
+      "productIds": [
+        "MGC-0019",
+        "MGC-0020",
+        "MGC-0021",
+        "MGC-0022"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Fuzo Elevate 3-in-1 Desk Utility - Black",
+      "productIds": [
+        "MGC-4109",
+        "MGC-4110"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/organisers"
+    },
+    {
+      "title": "Fuzo Elevate Pro 6-in-1 Desk Utility - Black",
+      "productIds": [
+        "MGC-4115",
+        "MGC-4116"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/organisers"
+    },
+    {
+      "title": "Fuzo Gaze Camouflaged Borosilicate Glass Bottle- Blue",
+      "productIds": [
+        "MGC-0513",
+        "MGC-0514"
+      ],
+      "colours": [
+        "Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Fuzo Groot 4 in 1 Multi-Functional Desktop Utility- Black",
+      "productIds": [
+        "MGC-4104",
+        "MGC-4105"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/organisers"
+    },
+    {
+      "title": "Fuzo Nimble 8000 mAh Power Bank Notebook with 15W Wireless Charger - Brown",
+      "productIds": [
+        "MGC-1114",
+        "MGC-1115"
+      ],
+      "colours": [
+        "Brown",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Fuzo Nudge Borosilicate Glass Bottle with Hydration Reminder- Grey",
+      "productIds": [
+        "MGC-0517",
+        "MGC-0518"
+      ],
+      "colours": [
+        "Grey",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Fuzo Penna Metal Pen with Bamboo Top- Blue",
+      "productIds": [
+        "MGC-0023",
+        "MGC-0024",
+        "MGC-0025",
+        "MGC-0026"
+      ],
+      "colours": [
+        "Blue",
+        "Green",
+        "Grey",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Fuzo Slick Mouse Pad with Erasable Writing Pad & Pen- Grey",
+      "productIds": [
+        "MGC-3813",
+        "MGC-3814"
+      ],
+      "colours": [
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Fuzo The Associate Premium Leatherette Zipped Organizer- Black",
+      "productIds": [
+        "MGC-0347",
+        "MGC-0348"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/desk-companions"
+    },
+    {
+      "title": "Fuzo The Clerk Leatherette Notebook with Magnetic Flap- Black",
+      "productIds": [
+        "MGC-0209",
+        "MGC-0210",
+        "MGC-0211"
+      ],
+      "colours": [
+        "Black",
+        "Cream",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Fuzo The Stooge Italian Soft PU Notebook- Black",
+      "productIds": [
+        "MGC-0206",
+        "MGC-0207",
+        "MGC-0208"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Fuzo Zapp Adapter with Retractable Cable- Black",
+      "productIds": [
+        "MGC-1116",
+        "MGC-1117"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Generic 4-in-1 Kit-Black",
+      "productIds": [
+        "MGC-3584",
+        "MGC-3581",
+        "MGC-3580"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Red"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Generic Customized 5-Panel Cap-Black",
+      "productIds": [
+        "MGC-2954",
+        "MGC-2955",
+        "MGC-2956",
+        "MGC-2957"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Glasafe Carry And Go Combo 1-Blue",
+      "productIds": [
+        "MGC-0780",
+        "MGC-0781",
+        "MGC-0782"
+      ],
+      "colours": [
+        "Blue",
+        "Grey",
+        "Sky Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Glasafe Clear Grip Bottle 750ml-Blue",
+      "productIds": [
+        "MGC-0520",
+        "MGC-0521",
+        "MGC-0522"
+      ],
+      "colours": [
+        "Blue",
+        "Grey",
+        "Sky Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Glasafe Desk Munch Combo Lunch Bag- Sky Blue",
+      "productIds": [
+        "MGC-0777",
+        "MGC-0778",
+        "MGC-0779"
+      ],
+      "colours": [
+        "Sky Blue",
+        "Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/barware"
+    },
+    {
+      "title": "Glasafe Eat Light Combo-Blue",
+      "productIds": [
+        "MGC-0783",
+        "MGC-0784",
+        "MGC-0785"
+      ],
+      "colours": [
+        "Blue",
+        "Grey",
+        "Sky Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/barware"
+    },
+    {
+      "title": "Glasafe SYP Bottle 550ml-Black",
+      "productIds": [
+        "MGC-0525",
+        "MGC-0526"
+      ],
+      "colours": [
+        "Black",
+        "Peach"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Grand Notebook- Black- A5- 108 Sheets",
+      "productIds": [
+        "MGC-0276",
+        "MGC-0277",
+        "MGC-0278"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Grey's And Blues Easy T-shirt Men's-Black",
+      "productIds": [
+        "MGC-2154",
+        "MGC-2155",
+        "MGC-2156",
+        "MGC-2157",
+        "MGC-2158",
+        "MGC-2159"
+      ],
+      "colours": [
+        "Black",
+        "Maroon",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Grey's And Blues Easy T-shirt women's-Black",
+      "productIds": [
+        "MGC-2160",
+        "MGC-2161",
+        "MGC-2162",
+        "MGC-2163"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Red",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Grey's And Blues Kids-Maroon",
+      "productIds": [
+        "MGC-2851",
+        "MGC-2852",
+        "MGC-2853"
+      ],
+      "colours": [
+        "Maroon",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Greys and Blues Easy Kids Round Neck T-Shirt - Maroon",
+      "productIds": [
+        "MGC-2135",
+        "MGC-2137",
+        "MGC-2136"
+      ],
+      "colours": [
+        "Maroon",
+        "Red",
+        "Red"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Greys And Blues Easy Men's Round Neck T-Shirt - Black",
+      "productIds": [
+        "MGC-2133",
+        "MGC-2134"
+      ],
+      "colours": [
+        "Black",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys and Blues Easy Women's Round Neck T-Shirt - Black",
+      "productIds": [
+        "MGC-2139",
+        "MGC-2140",
+        "MGC-2141"
+      ],
+      "colours": [
+        "Black",
+        "Maroon",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys and Blues Men's Easy Bio-Wash Round Neck T-shirt - Black",
+      "productIds": [
+        "MGC-2142",
+        "MGC-2143",
+        "MGC-2145",
+        "MGC-2146",
+        "MGC-2147",
+        "MGC-2148"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Navy Blue",
+        "Royal Blue",
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues AeroPiq Polo Tshirt- Black",
+      "productIds": [
+        "MGC-2196",
+        "MGC-2197",
+        "MGC-2198",
+        "MGC-2199",
+        "MGC-2200",
+        "MGC-2201",
+        "MGC-2202",
+        "MGC-2203",
+        "MGC-2204"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Green",
+        "Maroon",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues DES-Jacq Polo Without Tipping-Beige",
+      "productIds": [
+        "MGC-2214",
+        "MGC-2215",
+        "MGC-2216",
+        "MGC-2217"
+      ],
+      "colours": [
+        "Beige",
+        "Green",
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Eco Round Neck T-Shirt- Black",
+      "productIds": [
+        "MGC-2164",
+        "MGC-2165",
+        "MGC-2169",
+        "MGC-2170"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey",
+        "Navy Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues EcoBlend Polo Tshirt- Black with White Tipping",
+      "productIds": [
+        "MGC-2205",
+        "MGC-2208",
+        "MGC-2209",
+        "MGC-2210"
+      ],
+      "colours": [
+        "Black",
+        "Maroon",
+        "Navy Melange",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues EcoBlend Polo Tshirt- Grey Melange with Black Tipping",
+      "productIds": [
+        "MGC-2207",
+        "MGC-2211"
+      ],
+      "colours": [
+        "Grey Melange",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Goodie Hoodie Plain-Black",
+      "productIds": [
+        "MGC-2901",
+        "MGC-2904"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Greys&Blues Hoodie with Zip- Black",
+      "productIds": [
+        "MGC-2898",
+        "MGC-2900"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Greys&Blues Hoodie without Zip- Black",
+      "productIds": [
+        "MGC-2875",
+        "MGC-2877"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Greys&Blues Jacq Polo T-Shirt-Grey Melange with White",
+      "productIds": [
+        "MGC-2219",
+        "MGC-2221",
+        "MGC-2222"
+      ],
+      "colours": [
+        "Grey Melange",
+        "Navy Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Jacq Polo Womens T-Shirt-Black",
+      "productIds": [
+        "MGC-2224",
+        "MGC-2227",
+        "MGC-2231",
+        "MGC-2232"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Men's Eco Blend Round Neck T-Shirt- Black",
+      "productIds": [
+        "MGC-2149",
+        "MGC-2150",
+        "MGC-2151",
+        "MGC-2152"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Grey Melange",
+        "Navy Melange"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Mobilitee Round Neck T-Shirt- Black",
+      "productIds": [
+        "MGC-2125",
+        "MGC-2126",
+        "MGC-2127",
+        "MGC-2128",
+        "MGC-2129",
+        "MGC-2130",
+        "MGC-2131"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Mustard",
+        "Red",
+        "Royal Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Nxt T-Shirt- Black",
+      "productIds": [
+        "MGC-2187",
+        "MGC-2188",
+        "MGC-2189",
+        "MGC-2190",
+        "MGC-2191",
+        "MGC-2192",
+        "MGC-2193",
+        "MGC-2194",
+        "MGC-2195"
+      ],
+      "colours": [
+        "Black",
+        "Olive Green",
+        "Light Pink",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "Teal Blue",
+        "White",
+        "Wine"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Organic Polo Plain Tshirt- Black",
+      "productIds": [
+        "MGC-2264",
+        "MGC-2265",
+        "MGC-2266",
+        "MGC-2267"
+      ],
+      "colours": [
+        "Black",
+        "Maroon",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Organic Polo Tshirt- Black with White Tipping",
+      "productIds": [
+        "MGC-2268",
+        "MGC-2269",
+        "MGC-2271",
+        "MGC-2272",
+        "MGC-2273",
+        "MGC-2274"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Maroon",
+        "Navy Blue",
+        "Red",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Pima Collar T-Shirt-Ice Blue with White",
+      "productIds": [
+        "MGC-2312",
+        "MGC-2314",
+        "MGC-2315",
+        "MGC-2317"
+      ],
+      "colours": [
+        "Ice Blue",
+        "Red",
+        "Royal Blue",
+        "Wine"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Pima Oversized Round neck T-Shirt- 240GSM- Black",
+      "productIds": [
+        "MGC-2286",
+        "MGC-2287"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Pima Round neck T-Shirt-Black",
+      "productIds": [
+        "MGC-2180",
+        "MGC-2181",
+        "MGC-2182",
+        "MGC-2183",
+        "MGC-2184",
+        "MGC-2185",
+        "MGC-2186"
+      ],
+      "colours": [
+        "Black",
+        "Ice Blue",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Plain Shirt-Tee-Black",
+      "productIds": [
+        "MGC-2318",
+        "MGC-2322"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues PrimoKnit Polo Tshirt- Black with White Tipping",
+      "productIds": [
+        "MGC-2171",
+        "MGC-2173",
+        "MGC-2174",
+        "MGC-2175",
+        "MGC-2176",
+        "MGC-2177"
+      ],
+      "colours": [
+        "Black",
+        "Maroon",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "Sky Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues PrimoKnit Polo Tshirt- White with Black Tipping",
+      "productIds": [
+        "MGC-2178",
+        "MGC-2179"
+      ],
+      "colours": [
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Greys&Blues Rocky Hoodie with Zip- Black",
+      "productIds": [
+        "MGC-2905",
+        "MGC-2906",
+        "MGC-2908"
+      ],
+      "colours": [
+        "Black",
+        "Olive Green",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Greys&Blues Round Neck Sports Jersey- Full Sleeve",
+      "productIds": [
+        "MGC-2889",
+        "MGC-2886",
+        "MGC-2893",
+        "MGC-2885",
+        "MGC-2883",
+        "MGC-2882",
+        "MGC-2881",
+        "MGC-2878",
+        "MGC-2880",
+        "MGC-2879",
+        "MGC-2896",
+        "MGC-2888",
+        "MGC-2890",
+        "MGC-2884",
+        "MGC-2895",
+        "MGC-2894",
+        "MGC-2887",
+        "MGC-2892"
+      ],
+      "colours": [
+        "Teal Blue",
+        "Black",
+        "Tan",
+        "Sky Blue",
+        "Orange",
+        "Wine",
+        "Teal Green",
+        "Mustard",
+        "Ice Blue",
+        "Light blue",
+        "Red",
+        "Yellow",
+        "Beige",
+        "Navy Blue",
+        "Green",
+        "Black",
+        "Black",
+        "Purple"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Greys&Blues Round Neck Sports Jersey- Half Sleeve",
+      "productIds": [
+        "MGC-2854",
+        "MGC-2857",
+        "MGC-2868",
+        "MGC-2865",
+        "MGC-2858",
+        "MGC-2864",
+        "MGC-2866",
+        "MGC-2863",
+        "MGC-2861",
+        "MGC-2874",
+        "MGC-2856",
+        "MGC-2862",
+        "MGC-2873",
+        "MGC-2869",
+        "MGC-2867",
+        "MGC-2860",
+        "MGC-2872",
+        "MGC-2870",
+        "MGC-2855"
+      ],
+      "colours": [
+        "White",
+        "Mustard",
+        "Black",
+        "Tan",
+        "Beige",
+        "Orange",
+        "Teal Green",
+        "Wine",
+        "Green",
+        "Teal Blue",
+        "Ice Blue",
+        "Red",
+        "Yellow",
+        "Navy Blue",
+        "Sky Blue",
+        "Black",
+        "Black",
+        "Purple",
+        "Light blue"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Greys&Blues Sports Jersey With Collar- Full Sleeve",
+      "productIds": [
+        "MGC-2290",
+        "MGC-2288",
+        "MGC-2299",
+        "MGC-2295",
+        "MGC-2301",
+        "MGC-2298",
+        "MGC-2289",
+        "MGC-2297",
+        "MGC-2292",
+        "MGC-2294",
+        "MGC-2308",
+        "MGC-2291",
+        "MGC-2307",
+        "MGC-2303",
+        "MGC-2296",
+        "MGC-2302",
+        "MGC-2306",
+        "MGC-2300",
+        "MGC-2293"
+      ],
+      "colours": [
+        "Light blue",
+        "White",
+        "Black",
+        "Tan",
+        "Beige",
+        "Sky Blue",
+        "Orange",
+        "Red",
+        "Wine",
+        "Mustard",
+        "Teal Blue",
+        "Ice Blue",
+        "Yellow",
+        "Navy Blue",
+        "Green",
+        "Black",
+        "Black",
+        "Purple",
+        "Teal Green"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Greys&Blues Sports Jersey With Collar- Half Sleeve",
+      "productIds": [
+        "MGC-2250",
+        "MGC-2246",
+        "MGC-2247",
+        "MGC-2245",
+        "MGC-2235",
+        "MGC-2234",
+        "MGC-2233",
+        "MGC-2242",
+        "MGC-2244",
+        "MGC-2243",
+        "MGC-2252",
+        "MGC-2236",
+        "MGC-2249",
+        "MGC-2240",
+        "MGC-2251",
+        "MGC-2239",
+        "MGC-2248",
+        "MGC-2238"
+      ],
+      "colours": [
+        "Teal Blue",
+        "Black",
+        "Beige",
+        "Sky Blue",
+        "Orange",
+        "Teal Green",
+        "Wine",
+        "Mustard",
+        "Ice Blue",
+        "Light blue",
+        "Red",
+        "Tan",
+        "Yellow",
+        "Navy Blue",
+        "Green",
+        "Black",
+        "Black",
+        "Purple"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Hardy Plus Notebook- Black- A5- 70 Sheets",
+      "productIds": [
+        "MGC-0289",
+        "MGC-0290",
+        "MGC-0291"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Helix Pen- Black",
+      "productIds": [
+        "MGC-0097",
+        "MGC-0098",
+        "MGC-0099",
+        "MGC-0100",
+        "MGC-0102"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Orange",
+        "Red",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Hexa Mug- Black- 375ml",
+      "productIds": [
+        "MGC-0691",
+        "MGC-0692"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Hidesign Mens Wallet- Black",
+      "productIds": [
+        "MGC-1579",
+        "MGC-1577"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Houston Card Wallet- Grey with Tan",
+      "productIds": [
+        "MGC-1594",
+        "MGC-1595"
+      ],
+      "colours": [
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/wallets"
+    },
+    {
+      "title": "Hummel Aven Bomber Jacket- Black",
+      "productIds": [
+        "MGC-2930",
+        "MGC-2931"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Hummel Eduk Sweatshirt-Black",
+      "productIds": [
+        "MGC-2344",
+        "MGC-2345"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "excluded",
+      "reason": "At least one variant has only a size-chart image, so product colour/design could not be visually confirmed."
+    },
+    {
+      "title": "Hummel Elan Zipper Jacket- Black",
+      "productIds": [
+        "MGC-2924",
+        "MGC-2925"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "excluded",
+      "reason": "At least one variant has only a size-chart image, so product colour/design could not be visually confirmed."
+    },
+    {
+      "title": "Hummel Ethel Recycle T-Shirt-Black",
+      "productIds": [
+        "MGC-2330",
+        "MGC-2331"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "excluded",
+      "reason": "At least one variant has only a size-chart image, so product colour/design could not be visually confirmed."
+    },
+    {
+      "title": "Hummel Eunice Polo T-shirt-Black with Red",
+      "productIds": [
+        "MGC-2340",
+        "MGC-2342"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "At least one variant has only a size-chart image, so product colour/design could not be visually confirmed."
+    },
+    {
+      "title": "Hummel Genise Poly T-Shirt-Black",
+      "productIds": [
+        "MGC-2323",
+        "MGC-2324"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "excluded",
+      "reason": "At least one variant has only a size-chart image, so product colour/design could not be visually confirmed."
+    },
+    {
+      "title": "Hummel Jaye Polo Poly Tshirt-Black",
+      "productIds": [
+        "MGC-2337",
+        "MGC-2338",
+        "MGC-2339"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/polos-tees"
+    },
+    {
+      "title": "Hummel Odense 15.6” Laptop Sleeve- Navy Blue",
+      "productIds": [
+        "MGC-1764",
+        "MGC-1765"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Hummel Oskar Round Neck T-shirt- 180GSM- Grey",
+      "productIds": [
+        "MGC-2328",
+        "MGC-2329"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Hummel Polo T-shirt-Black",
+      "productIds": [
+        "MGC-2332",
+        "MGC-2333",
+        "MGC-2334",
+        "MGC-2335",
+        "MGC-2336"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Grey",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Hummel Round Neck Cotton T-shirt-Black",
+      "productIds": [
+        "MGC-2325",
+        "MGC-2326",
+        "MGC-2327"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Hummel Venne Sleeveless Bomber Jacket-Black",
+      "productIds": [
+        "MGC-2926",
+        "MGC-2927"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "excluded",
+      "reason": "At least one variant has only a size-chart image, so product colour/design could not be visually confirmed."
+    },
+    {
+      "title": "Hummel Victor Windbreaker Jacket- Black",
+      "productIds": [
+        "MGC-2922",
+        "MGC-2923"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Hummel Winny Jacket- Black",
+      "productIds": [
+        "MGC-2919",
+        "MGC-2920",
+        "MGC-2921"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Sky Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Hydra 2.0 Stainless Steel Mug with Handle (1200ml)- Black- 1200ml",
+      "productIds": [
+        "MGC-0758",
+        "MGC-0759",
+        "MGC-0760",
+        "MGC-0761",
+        "MGC-0762"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Pink",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Indian Terrain Bomber Jackets-Black",
+      "productIds": [
+        "MGC-2934",
+        "MGC-2935"
+      ],
+      "colours": [
+        "Black",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Indian Terrain Classic Solid Crew Neck T-Shirt-Black",
+      "productIds": [
+        "MGC-2346",
+        "MGC-2347",
+        "MGC-2348"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Indian Terrain Full Zipper Lycra Jackets-Black",
+      "productIds": [
+        "MGC-2932",
+        "MGC-2933"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Indian Terrain Jacquard Collar Solid T-Shirt- Teal Blue",
+      "productIds": [
+        "MGC-2349",
+        "MGC-2350",
+        "MGC-2351",
+        "MGC-2352",
+        "MGC-2353",
+        "MGC-2354"
+      ],
+      "colours": [
+        "Teal Blue",
+        "Black",
+        "Maroon",
+        "Red",
+        "Royal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Infused Bottle- Blue- 550ml",
+      "productIds": [
+        "MGC-0515",
+        "MGC-0516"
+      ],
+      "colours": [
+        "Blue",
+        "Silver"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Jack&Jones Austin Hoodie with Zip- Black",
+      "productIds": [
+        "MGC-2944",
+        "MGC-2945"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Jack&Jones Austin Jacket- Black",
+      "productIds": [
+        "MGC-2941",
+        "MGC-2943"
+      ],
+      "colours": [
+        "Black",
+        "Grey Melange"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Jack&Jones Daniel Knit Blazer- Black",
+      "productIds": [
+        "MGC-2814",
+        "MGC-2815"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/formal"
+    },
+    {
+      "title": "Jack&Jones Demian Shirt-Light Blue",
+      "productIds": [
+        "MGC-2378",
+        "MGC-2379",
+        "MGC-2380",
+        "MGC-2381",
+        "MGC-2382"
+      ],
+      "colours": [
+        "Light blue",
+        "Light Grey",
+        "Light Pink",
+        "Purple",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Jack&Jones Icero Round Neck-Black",
+      "productIds": [
+        "MGC-2936",
+        "MGC-2937"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Jack&Jones Interlock Polo-Black",
+      "productIds": [
+        "MGC-2360",
+        "MGC-2361"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Jack&Jones Jacquard Plain Polo T-shirt- Black",
+      "productIds": [
+        "MGC-2370",
+        "MGC-2371"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Jack&Jones Joren Round Neck T-shirt- Black",
+      "productIds": [
+        "MGC-2355",
+        "MGC-2356"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Jack&Jones Madd Polo T-shirt-Black",
+      "productIds": [
+        "MGC-2358",
+        "MGC-2359"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Jack&Jones Plain Polo T-Shirt- Grey",
+      "productIds": [
+        "MGC-2362",
+        "MGC-2363",
+        "MGC-2364",
+        "MGC-2365",
+        "MGC-2366"
+      ],
+      "colours": [
+        "Grey",
+        "Red",
+        "White",
+        "Black",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "JBL Wave Bud Earphone- 32 Hrs- White",
+      "productIds": [
+        "MGC-0959",
+        "MGC-0960",
+        "MGC-0961"
+      ],
+      "colours": [
+        "White",
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "John Players T-shirt - Black",
+      "productIds": [
+        "MGC-2386",
+        "MGC-2388",
+        "MGC-2389",
+        "MGC-2390",
+        "MGC-2391",
+        "MGC-2392",
+        "MGC-2393",
+        "MGC-2394"
+      ],
+      "colours": [
+        "Black",
+        "Mustard",
+        "Navy Blue",
+        "Olive Green",
+        "Wine",
+        "Sky Blue",
+        "Purple",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Junior 5-in-1 Gift Set- Black",
+      "productIds": [
+        "MGC-3729",
+        "MGC-3730",
+        "MGC-3731"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C8/hampers-gifting/gift-sets"
+    },
+    {
+      "title": "Jute Folder- Black",
+      "productIds": [
+        "MGC-1835",
+        "MGC-1836"
+      ],
+      "colours": [
+        "Black",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Klip Metal Gel Pen- Black",
+      "productIds": [
+        "MGC-0054",
+        "MGC-0055",
+        "MGC-0056"
+      ],
+      "colours": [
+        "Black",
+        "Red",
+        "Silver"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Kofy Stainless Steel Travel Mug- Black- 350ml",
+      "productIds": [
+        "MGC-0752",
+        "MGC-0753",
+        "MGC-0754"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Koneto Stainless Steel Vaccum Mug- Black",
+      "productIds": [
+        "MGC-0749",
+        "MGC-0750",
+        "MGC-0751"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Korsa Premium Notebook- Dark Grey- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0307",
+        "MGC-0308",
+        "MGC-0309"
+      ],
+      "colours": [
+        "Dark Grey",
+        "Light Grey",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Kross Bag- Black- 3.08L",
+      "productIds": [
+        "MGC-1872",
+        "MGC-1873"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Lapcare Twinpods 3 5.3V BT Earbuds- Green",
+      "productIds": [
+        "MGC-0969",
+        "MGC-0970"
+      ],
+      "colours": [
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Lavie Mono Betula Large Tote Handbag- Brown",
+      "productIds": [
+        "MGC-1502",
+        "MGC-1503",
+        "MGC-1504"
+      ],
+      "colours": [
+        "Brown",
+        "Off White",
+        "Pink"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/totes"
+    },
+    {
+      "title": "Lavie Mono Ushawu Small Satchel Handbag- Beige",
+      "productIds": [
+        "MGC-1778",
+        "MGC-1779",
+        "MGC-1780"
+      ],
+      "colours": [
+        "Beige",
+        "Brown",
+        "Pink"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Lavie Signature Bahamas Small Leather Satchel Handbag- Beige",
+      "productIds": [
+        "MGC-1794",
+        "MGC-1795",
+        "MGC-1796"
+      ],
+      "colours": [
+        "Beige",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Lavie Signature Detroit Pro Large Womens Tote Bag- Black",
+      "productIds": [
+        "MGC-1499",
+        "MGC-1500",
+        "MGC-1501"
+      ],
+      "colours": [
+        "Black",
+        "Off White",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/totes"
+    },
+    {
+      "title": "Lavie Signature Women's Benton Tote Bag- Beige",
+      "productIds": [
+        "MGC-1505",
+        "MGC-1506",
+        "MGC-1507",
+        "MGC-1508"
+      ],
+      "colours": [
+        "Beige",
+        "Brown",
+        "Pink",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/totes"
+    },
+    {
+      "title": "Lavie Signature Women's Texas Satchel Handbag- Navy Blue",
+      "productIds": [
+        "MGC-1781",
+        "MGC-1782",
+        "MGC-1783"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Lavie Women's Elissa Colourblock Satchel Handbag- Navy Blue",
+      "productIds": [
+        "MGC-1785",
+        "MGC-1786",
+        "MGC-1787"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Off White",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Lavie Women's Miko Cross Body Sling Bag- Black",
+      "productIds": [
+        "MGC-1774",
+        "MGC-1775",
+        "MGC-1776",
+        "MGC-1777"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Wine"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Lavie Women's Mono Ushawu Medium Satchel Handbag- Beige",
+      "productIds": [
+        "MGC-1789",
+        "MGC-1790",
+        "MGC-1791",
+        "MGC-1792",
+        "MGC-1793"
+      ],
+      "colours": [
+        "Beige",
+        "Brown",
+        "Brown",
+        "Pink",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Levi's 100 % Cotton Terry High Neck With Zip Jacket- Black",
+      "productIds": [
+        "MGC-2948",
+        "MGC-2949"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Levi's 100 % Cotton Terry Hoody With Zip- Black",
+      "productIds": [
+        "MGC-2950",
+        "MGC-2951",
+        "MGC-2952"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Maroon"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Levi's 100% Cotton Oxford Shirt- Black",
+      "productIds": [
+        "MGC-2816",
+        "MGC-2817",
+        "MGC-2818"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/formal"
+    },
+    {
+      "title": "Levi's 100% Cotton Polo T-Shirt- Black With White Tipping",
+      "productIds": [
+        "MGC-2406",
+        "MGC-2407",
+        "MGC-2409",
+        "MGC-2410",
+        "MGC-2411"
+      ],
+      "colours": [
+        "Black",
+        "Grey Melange",
+        "Red",
+        "Royal Blue",
+        "Sky Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Levi's 100% Polyester Polo T-Shirt- Navy Blue",
+      "productIds": [
+        "MGC-2414",
+        "MGC-2415",
+        "MGC-2416"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Levi's PC 60 - 40 Polo T-Shirt- Charcoal Grey",
+      "productIds": [
+        "MGC-2417",
+        "MGC-2418",
+        "MGC-2419",
+        "MGC-2420"
+      ],
+      "colours": [
+        "Charcoal Grey",
+        "Maroon",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Levi's Round Neck 100% Cotton T-Shirt- Black",
+      "productIds": [
+        "MGC-2399",
+        "MGC-2400",
+        "MGC-2401",
+        "MGC-2402"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Levi's Round Neck 100% Polyester T-Shirt- Maroon",
+      "productIds": [
+        "MGC-2403",
+        "MGC-2404",
+        "MGC-2405"
+      ],
+      "colours": [
+        "Maroon",
+        "Royal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Levi's Round Neck PC 60 - 40 T-Shirt- Charcoal Grey",
+      "productIds": [
+        "MGC-2395",
+        "MGC-2396",
+        "MGC-2397",
+        "MGC-2398"
+      ],
+      "colours": [
+        "Charcoal Grey",
+        "Green Melange",
+        "Grey",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Lisbon Work Folio Laptop Sleeve- Blue",
+      "productIds": [
+        "MGC-1987",
+        "MGC-1988",
+        "MGC-1989"
+      ],
+      "colours": [
+        "Blue",
+        "Grey",
+        "Khaki"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Magnetic 5-in-1 Gift Set- Black",
+      "productIds": [
+        "MGC-3725",
+        "MGC-3726"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C8/hampers-gifting/gift-sets"
+    },
+    {
+      "title": "Manchester Desk Mat - Black",
+      "productIds": [
+        "MGC-4134",
+        "MGC-4135",
+        "MGC-4136"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/organisers"
+    },
+    {
+      "title": "Manhattan Laptop Sleeve- Black- 15 Inch",
+      "productIds": [
+        "MGC-1969",
+        "MGC-1970"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Marks & Spencer Polo T-shirt Plain- Black",
+      "productIds": [
+        "MGC-2424",
+        "MGC-2425",
+        "MGC-2426",
+        "MGC-2427",
+        "MGC-2428"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Sky Blue",
+        "Teal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Marks & Spencer Polo T-shirt Tipping-Red with Blue",
+      "productIds": [
+        "MGC-2433",
+        "MGC-2434"
+      ],
+      "colours": [
+        "Red",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "Variants have only size-chart images in the source export."
+    },
+    {
+      "title": "Marks & Spencer Round Neck T-shirt-Black",
+      "productIds": [
+        "MGC-2421",
+        "MGC-2422",
+        "MGC-2423"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Mars Laptop Sleeve-Black-14 inch",
+      "productIds": [
+        "MGC-1864",
+        "MGC-1865",
+        "MGC-1866"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Olive Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Mars Pen- Black",
+      "productIds": [
+        "MGC-0064",
+        "MGC-0065",
+        "MGC-0066",
+        "MGC-0067"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Mega Lunch 3 Foodgrade Lunch Box- Red",
+      "productIds": [
+        "MGC-0877",
+        "MGC-0878"
+      ],
+      "colours": [
+        "Red",
+        "Blue"
+      ],
+      "decision": "excluded",
+      "reason": "Images show different component arrangements/designs."
+    },
+    {
+      "title": "Midot Gel Pen- Black",
+      "productIds": [
+        "MGC-0040",
+        "MGC-0041",
+        "MGC-0042",
+        "MGC-0043",
+        "MGC-0044",
+        "MGC-0045"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "Sky Blue",
+        "White",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Milton Atlantis 600 Thermosteel Hot and Cold Water Bottle- Black",
+      "productIds": [
+        "MGC-0462",
+        "MGC-0463",
+        "MGC-0464",
+        "MGC-0465",
+        "MGC-0466"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Orange",
+        "Pink",
+        "Silver"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/tumblers"
+    },
+    {
+      "title": "Milton Savor Lunch Box with Insulated Jacket- Black",
+      "productIds": [
+        "MGC-0843",
+        "MGC-0844",
+        "MGC-0845"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Miss Players T-shirt- Black",
+      "productIds": [
+        "MGC-2437",
+        "MGC-2438",
+        "MGC-2439",
+        "MGC-2440",
+        "MGC-2441",
+        "MGC-2442",
+        "MGC-2443",
+        "MGC-2444",
+        "MGC-2445"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Mustard",
+        "Olive Green",
+        "Pink",
+        "Sky Blue",
+        "Wine",
+        "Purple",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Mivi DuoPods i4 Earpods- Black- 45 Hrs",
+      "productIds": [
+        "MGC-1216",
+        "MGC-1217",
+        "MGC-1218",
+        "MGC-1219"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/desk-tech"
+    },
+    {
+      "title": "Mivi Play Bluetooth Speaker- Orange- 12 Hrs",
+      "productIds": [
+        "MGC-0976",
+        "MGC-0977",
+        "MGC-0978",
+        "MGC-0979"
+      ],
+      "colours": [
+        "Orange",
+        "Sky Blue",
+        "White",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Mont Stainless Steel Mug- Black- 350ml",
+      "productIds": [
+        "MGC-0755",
+        "MGC-0756",
+        "MGC-0757"
+      ],
+      "colours": [
+        "Black",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Monte Carlo Cotton Polo T-shirt- Black",
+      "productIds": [
+        "MGC-2453",
+        "MGC-2454",
+        "MGC-2455",
+        "MGC-2456",
+        "MGC-2457",
+        "MGC-2458"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey",
+        "Grey Melange",
+        "Navy Blue",
+        "Royal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Monte Carlo Fleece Jacket- Black",
+      "productIds": [
+        "MGC-2969",
+        "MGC-2970",
+        "MGC-2971"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Monte Carlo Fleece Winter Hoodie Jacket- Black",
+      "productIds": [
+        "MGC-2972",
+        "MGC-2973"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Monte Carlo Poly Cotton Tipping Polo T-shirt- Black",
+      "productIds": [
+        "MGC-2446",
+        "MGC-2447",
+        "MGC-2448",
+        "MGC-2449",
+        "MGC-2450",
+        "MGC-2451",
+        "MGC-2452"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey",
+        "Grey",
+        "Navy Blue",
+        "Royal Blue",
+        "Teal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "MyPaperclip Binary Series A5 Notebook- 192 Pages- Blue",
+      "productIds": [
+        "MGC-0248",
+        "MGC-0249"
+      ],
+      "colours": [
+        "Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "MyPaperclip Executive Series A5 Notebook- 192 Pages- Black",
+      "productIds": [
+        "MGC-0238",
+        "MGC-0239",
+        "MGC-0240",
+        "MGC-0241"
+      ],
+      "colours": [
+        "Black",
+        "Orange",
+        "Red",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "MyPaperclip Limited Edition Wiro Notebook - XL- 128 Pages- Black",
+      "productIds": [
+        "MGC-0246",
+        "MGC-0247"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "MyPaperclip Play Series A5 Notebook- 192 Pages- Black",
+      "productIds": [
+        "MGC-0242",
+        "MGC-0243",
+        "MGC-0244",
+        "MGC-0245"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "MyPaperclip Signature Series A5 Notebook- 192 Pages- Beige",
+      "productIds": [
+        "MGC-0250",
+        "MGC-0251",
+        "MGC-0252"
+      ],
+      "colours": [
+        "Beige",
+        "Green",
+        "Maroon"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Nano-Dry Golfpolos T- shirt- Dark Grey",
+      "productIds": [
+        "MGC-2693",
+        "MGC-2694",
+        "MGC-2695",
+        "MGC-2696",
+        "MGC-2697",
+        "MGC-2698",
+        "MGC-2699",
+        "MGC-2700",
+        "MGC-2701",
+        "MGC-2702",
+        "MGC-2704",
+        "MGC-2705",
+        "MGC-2706",
+        "MGC-2707",
+        "MGC-2708",
+        "MGC-2709",
+        "MGC-2710",
+        "MGC-2711"
+      ],
+      "colours": [
+        "Dark Grey",
+        "Ice Blue",
+        "Magenta",
+        "Maroon",
+        "Navy Blue",
+        "Olive Green",
+        "Red",
+        "Simens Green",
+        "Wine",
+        "Beige",
+        "Light Grey",
+        "Mustard",
+        "Orange",
+        "Peach",
+        "Royal Blue",
+        "Sky Blue",
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Natura Wheat Fiber Cup- Brown- 400ml",
+      "productIds": [
+        "MGC-0736",
+        "MGC-0737"
+      ],
+      "colours": [
+        "Brown",
+        "Natural Brown"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Nedis Electric Kettle 1.7 Ltr- Black",
+      "productIds": [
+        "MGC-0855",
+        "MGC-0856"
+      ],
+      "colours": [
+        "Black",
+        "Cream"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/coffee"
+    },
+    {
+      "title": "Noise Airwave Max 3 Wireless Headphone-Black",
+      "productIds": [
+        "MGC-0994",
+        "MGC-0995"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Noise Airwave Max 4 Wireless Headphone-Black",
+      "productIds": [
+        "MGC-0996",
+        "MGC-0997"
+      ],
+      "colours": [
+        "Black",
+        "Teal Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Noise Airwave Max 5 Wireless Headphone-Beige",
+      "productIds": [
+        "MGC-0998",
+        "MGC-0999"
+      ],
+      "colours": [
+        "Beige",
+        "Black"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Noise ColorFit Pro 5- Black",
+      "productIds": [
+        "MGC-1228",
+        "MGC-1229",
+        "MGC-1230",
+        "MGC-1231"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Cream",
+        "Rose Gold"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/desk-tech"
+    },
+    {
+      "title": "Noise Master Buds - Sound by Bose- Black",
+      "productIds": [
+        "MGC-1000",
+        "MGC-1001"
+      ],
+      "colours": [
+        "Black",
+        "Silver"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Noise Vs201 Earbuds- Black",
+      "productIds": [
+        "MGC-0991",
+        "MGC-0992"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Numic Canvas Collection 2 Notebook-192pages- Blue",
+      "productIds": [
+        "MGC-0253",
+        "MGC-0254",
+        "MGC-0255",
+        "MGC-0256",
+        "MGC-0257",
+        "MGC-0258",
+        "MGC-0259",
+        "MGC-0260",
+        "MGC-0261",
+        "MGC-0262"
+      ],
+      "colours": [
+        "Blue",
+        "Brown",
+        "Dark Grey",
+        "Green Melange",
+        "Grey",
+        "Light blue",
+        "Orange",
+        "Red",
+        "Peach",
+        "Pink"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Numic Enviro Notebook-A5-160pages-Black",
+      "productIds": [
+        "MGC-0265",
+        "MGC-0266",
+        "MGC-0268",
+        "MGC-0269",
+        "MGC-0270",
+        "MGC-0271"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Light blue",
+        "Light Grey",
+        "Pink",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Numic Generic Planner-A5-160pages-Blue",
+      "productIds": [
+        "MGC-0437",
+        "MGC-0438"
+      ],
+      "colours": [
+        "Blue",
+        "Grey"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Numic WSJ 2.0 - A5 Notepads- Blue",
+      "productIds": [
+        "MGC-0429",
+        "MGC-0430",
+        "MGC-0431",
+        "MGC-0432",
+        "MGC-0433",
+        "MGC-0434",
+        "MGC-0435"
+      ],
+      "colours": [
+        "Blue",
+        "Green",
+        "Orange",
+        "Peach",
+        "Pink",
+        "Purple",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/desk-companions"
+    },
+    {
+      "title": "Oblique Siri Smart Storage Structured Tech Organizer- Black",
+      "productIds": [
+        "MGC-1867",
+        "MGC-1868",
+        "MGC-1869"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Omega Stainless Steel Bottle- Black- 1000Ml",
+      "productIds": [
+        "MGC-0578",
+        "MGC-0579",
+        "MGC-0580"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Ooge Blast Elite- 80 Bluetooth Party Speaker With 6.5” Inches- 80W- Black",
+      "productIds": [
+        "MGC-1013",
+        "MGC-1014"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Ooge Breeze 2000 Portable Fan- Pink",
+      "productIds": [
+        "MGC-1239",
+        "MGC-1240",
+        "MGC-1241"
+      ],
+      "colours": [
+        "Pink",
+        "Purple",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/desk-tech"
+    },
+    {
+      "title": "Ooge Breeze 7000 Portable Fan- Pink",
+      "productIds": [
+        "MGC-1232",
+        "MGC-1233",
+        "MGC-1234"
+      ],
+      "colours": [
+        "Pink",
+        "Purple",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ooge Wavepods 300 Gen 2 TWS- Earbuds- Black",
+      "productIds": [
+        "MGC-1003",
+        "MGC-1004",
+        "MGC-1005"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Purple"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Optima Notebook- Black- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0292",
+        "MGC-0293"
+      ],
+      "colours": [
+        "Black",
+        "Maroon"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pacific Laptop Sleeve- Grey- 15 Inch",
+      "productIds": [
+        "MGC-1980",
+        "MGC-1981",
+        "MGC-1982"
+      ],
+      "colours": [
+        "Grey",
+        "Khaki",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Palo Memory Foam Travel Neck Pillow- Black",
+      "productIds": [
+        "MGC-1907",
+        "MGC-1908",
+        "MGC-1909",
+        "MGC-1910"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Pink"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Parker Beta Standard Ball Pen CT- Silver",
+      "productIds": [
+        "MGC-0074",
+        "MGC-0075"
+      ],
+      "colours": [
+        "Silver",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Pedal with Purpose- Visionbook | A5 | 160 Pages",
+      "productIds": [
+        "MGC-3990",
+        "MGC-3989"
+      ],
+      "colours": [
+        "Maroon",
+        "Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pepe Jeans Berlinn Polo T-shirt- Black with BT",
+      "productIds": [
+        "MGC-2461",
+        "MGC-2462"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/polos-tees"
+    },
+    {
+      "title": "Pepe Jeans Ella Polo Women's T-shirt- Black",
+      "productIds": [
+        "MGC-2463",
+        "MGC-2464",
+        "MGC-2465"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pepe Jeans Ibiza Round Neck T-shirt- Black",
+      "productIds": [
+        "MGC-2459",
+        "MGC-2460"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pepe Jeans Madrid Polo T-shirt- Black",
+      "productIds": [
+        "MGC-2474",
+        "MGC-2475"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pepe Jeans Milano Polo T-shirt- Black",
+      "productIds": [
+        "MGC-2466",
+        "MGC-2467",
+        "MGC-2468",
+        "MGC-2469",
+        "MGC-2470"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Navy Blue",
+        "White",
+        "Wine"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pepe Jeans Organico Polo T-shirt- Black",
+      "productIds": [
+        "MGC-2471",
+        "MGC-2472",
+        "MGC-2473"
+      ],
+      "colours": [
+        "Black",
+        "Light blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pexpo Amaze Hot&Cold Water Bottle- 740ml- Black with Blue",
+      "productIds": [
+        "MGC-0561",
+        "MGC-0563"
+      ],
+      "colours": [
+        "Black",
+        "Pink"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Pexpo Belly SS Water Bottle- 1000ml- Black",
+      "productIds": [
+        "MGC-0547",
+        "MGC-0548",
+        "MGC-0549"
+      ],
+      "colours": [
+        "Black",
+        "Green Melange",
+        "Purple"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Pexpo Belly SS Water Bottle- 750 ml- Black",
+      "productIds": [
+        "MGC-0544",
+        "MGC-0545",
+        "MGC-0546"
+      ],
+      "colours": [
+        "Black",
+        "Green Melange",
+        "Purple"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Pexpo Bravo ThremoSteel Hot&Cold Water Bottle- 500ml- Black",
+      "productIds": [
+        "MGC-0554",
+        "MGC-0555",
+        "MGC-0556",
+        "MGC-0557"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green",
+        "Pink"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Pexpo Bravo ThremoSteel Hot&Cold Water Bottle- 700ml- Black",
+      "productIds": [
+        "MGC-0564",
+        "MGC-0565",
+        "MGC-0566"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Pink"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Pexpo Crown Stainless Steel Water Bottle- 950ml- Black",
+      "productIds": [
+        "MGC-0550",
+        "MGC-0551",
+        "MGC-0552",
+        "MGC-0553"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Pexpo Crypto Art Hot&Cold Water Bottle- 430ml- Black",
+      "productIds": [
+        "MGC-0558",
+        "MGC-0559",
+        "MGC-0560"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "Images show differing artwork treatments; held for design-level review."
+    },
+    {
+      "title": "Pisa Metal Pen- Green",
+      "productIds": [
+        "MGC-0106",
+        "MGC-0107",
+        "MGC-0108",
+        "MGC-0109",
+        "MGC-0110"
+      ],
+      "colours": [
+        "Green",
+        "Orange",
+        "Silver",
+        "White",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Pluto Travel Duffle Bag-Black",
+      "productIds": [
+        "MGC-1877",
+        "MGC-1878",
+        "MGC-1879"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Portronics BUBBLE 2.0 Wireless Keyboard- Black",
+      "productIds": [
+        "MGC-4029",
+        "MGC-4030",
+        "MGC-4031"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Portronics Bubble Dock Wireless Keyboard- Black",
+      "productIds": [
+        "MGC-1141",
+        "MGC-1142"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Portronics Clean G 20 in 1 Multipurpose Device Cleaner- Black",
+      "productIds": [
+        "MGC-1252",
+        "MGC-1253",
+        "MGC-1254"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/desk-tech"
+    },
+    {
+      "title": "Portronics Harmonics Twins S16 Earbuds- Black",
+      "productIds": [
+        "MGC-1019",
+        "MGC-1020",
+        "MGC-1021",
+        "MGC-1022",
+        "MGC-1023"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green",
+        "Light green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Portronics Harmonics Twins S18 Earbuds- Black",
+      "productIds": [
+        "MGC-1015",
+        "MGC-1016"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Portronics Harmonics Twins S3 Earbuds- Black",
+      "productIds": [
+        "MGC-1024",
+        "MGC-1027"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Portronics Harmonics Twins S32 Earbuds- Black",
+      "productIds": [
+        "MGC-1017",
+        "MGC-1018"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Portronics Harmonics Twins S6 Earbuds- Black",
+      "productIds": [
+        "MGC-1033",
+        "MGC-1034"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Portronics Luxcell B Powerbank- Blue",
+      "productIds": [
+        "MGC-1143",
+        "MGC-1145",
+        "MGC-1146"
+      ],
+      "colours": [
+        "Blue",
+        "Grey",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Portronics Luxcell B12 10000 mAh Power Bank- Black",
+      "productIds": [
+        "MGC-1138",
+        "MGC-1139",
+        "MGC-1140"
+      ],
+      "colours": [
+        "Black",
+        "Yellow",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Portronics Luxcell magclick 10K Powerbank- Beige",
+      "productIds": [
+        "MGC-1154",
+        "MGC-1155"
+      ],
+      "colours": [
+        "Beige",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Portronics Luxcell Wireless Mini Powerbank- Black",
+      "productIds": [
+        "MGC-1151",
+        "MGC-1152",
+        "MGC-1153"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Portronics MUFFS M2 Wireless Headphones- Black",
+      "productIds": [
+        "MGC-1028",
+        "MGC-1029"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Portronics Resound 2 15W Bluetooth Speaker- Black",
+      "productIds": [
+        "MGC-1038",
+        "MGC-1040",
+        "MGC-1041"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Portronics Toad 27 Wireless Mouse- Black",
+      "productIds": [
+        "MGC-4022",
+        "MGC-4023"
+      ],
+      "colours": [
+        "Black",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Primo A5 Notebook- Black- A5- 192 Pages",
+      "productIds": [
+        "MGC-0190",
+        "MGC-0191",
+        "MGC-0192",
+        "MGC-0193"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Tan"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Primo Notebook- Black- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0303",
+        "MGC-0304",
+        "MGC-0305",
+        "MGC-0306"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Pro-I Laptop Backpack- Black- 12L",
+      "productIds": [
+        "MGC-1376",
+        "MGC-1377"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Pro-II Laptop Backpack- Black- 17L",
+      "productIds": [
+        "MGC-1378",
+        "MGC-1379"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pro-V Laptop Backpack- Black- 30L",
+      "productIds": [
+        "MGC-1388",
+        "MGC-1389",
+        "MGC-1390"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Proton Pen- Blue",
+      "productIds": [
+        "MGC-0111",
+        "MGC-0112"
+      ],
+      "colours": [
+        "Blue",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Proton Pen- Orange",
+      "productIds": [
+        "MGC-0113",
+        "MGC-0114"
+      ],
+      "colours": [
+        "Orange",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "PU Key Chain- Black",
+      "productIds": [
+        "MGC-4056",
+        "MGC-4057"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Puma Polo Neck - Plain Poly Cotton 220 GSM T-Shirt- Black",
+      "productIds": [
+        "MGC-2484",
+        "MGC-2485",
+        "MGC-2486",
+        "MGC-2487",
+        "MGC-2488"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Puma Polo Neck -Tipping Poly Cotton 220 GSM T-Shirt- Black with White",
+      "productIds": [
+        "MGC-2489",
+        "MGC-2491",
+        "MGC-2492"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Puma Polo Polyester 170 GSM T-Shirt- Black",
+      "productIds": [
+        "MGC-2481",
+        "MGC-2482",
+        "MGC-2483"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Puma Poly Cotton 260 GSM Hoodie- Black",
+      "productIds": [
+        "MGC-2980",
+        "MGC-2981",
+        "MGC-2982"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Puma Poly Cotton 280 GSM Sweat Jacket- Black",
+      "productIds": [
+        "MGC-2978",
+        "MGC-2979"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Puma Round Neck 100% Polyster 160 GSM T-Shirt- Black",
+      "productIds": [
+        "MGC-2476",
+        "MGC-2477",
+        "MGC-2478",
+        "MGC-2479",
+        "MGC-2480"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Pure Gel Pen- Black",
+      "productIds": [
+        "MGC-0027",
+        "MGC-0029",
+        "MGC-0030",
+        "MGC-0031",
+        "MGC-0032",
+        "MGC-0033"
+      ],
+      "colours": [
+        "Black",
+        "Light blue",
+        "Orange",
+        "Red",
+        "White",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Reebok Jacket 100% Polyster- Black",
+      "productIds": [
+        "MGC-2983",
+        "MGC-2984",
+        "MGC-2985"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Reebok Polo T-Shirt - 100% Polyster - Waffle-Black",
+      "productIds": [
+        "MGC-2518",
+        "MGC-2520",
+        "MGC-2521",
+        "MGC-2522"
+      ],
+      "colours": [
+        "Black",
+        "Royal Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Reebok Polo T-Shirt- 100% Cotton- Black",
+      "productIds": [
+        "MGC-2512",
+        "MGC-2513",
+        "MGC-2514",
+        "MGC-2515",
+        "MGC-2516",
+        "MGC-2517"
+      ],
+      "colours": [
+        "Black",
+        "Maroon",
+        "Olive Green",
+        "Simens Green",
+        "White",
+        "Teal Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Reebok Polo T-Shirt- 60% Cotton 40% Poly- Black",
+      "productIds": [
+        "MGC-2505",
+        "MGC-2506",
+        "MGC-2507",
+        "MGC-2508",
+        "MGC-2509",
+        "MGC-2510",
+        "MGC-2511"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Grey",
+        "Navy Blue",
+        "Royal Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Reebok Round Neck T-Shirt - 100% Polyster-Black",
+      "productIds": [
+        "MGC-2495",
+        "MGC-2496",
+        "MGC-2497",
+        "MGC-2498",
+        "MGC-2499"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Siemens Green",
+        "Teal Green",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Reebok Round Neck T-Shirt - Lycra 93% Cotton 7% Spx- Black",
+      "productIds": [
+        "MGC-2500",
+        "MGC-2502",
+        "MGC-2503",
+        "MGC-2504"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Regal Travel Journal- Black- A5",
+      "productIds": [
+        "MGC-0183",
+        "MGC-0184"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/journals"
+    },
+    {
+      "title": "Rico Rechargeable Chopper- 250ml- Black",
+      "productIds": [
+        "MGC-0883",
+        "MGC-0884",
+        "MGC-0885",
+        "MGC-0886"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Pink",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/coffee"
+    },
+    {
+      "title": "Rio Laptop Bag- Beige",
+      "productIds": [
+        "MGC-1854",
+        "MGC-1855",
+        "MGC-1856"
+      ],
+      "colours": [
+        "Beige",
+        "Navy Blue",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Ripple Blender- Blue- 2000mAh",
+      "productIds": [
+        "MGC-0769",
+        "MGC-0770"
+      ],
+      "colours": [
+        "Blue",
+        "Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Roca Notebook- Black- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0321",
+        "MGC-0322",
+        "MGC-0323"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Rocket Gel Ink Pen- Black",
+      "productIds": [
+        "MGC-0035",
+        "MGC-0036",
+        "MGC-0037"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Sally Organizer- Black",
+      "productIds": [
+        "MGC-1860",
+        "MGC-1861"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Salsa laptop Bag-Burgundy-14 inch",
+      "productIds": [
+        "MGC-1885",
+        "MGC-1886"
+      ],
+      "colours": [
+        "Burgundy",
+        "Khakhi"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Scott 6 Degree Polo T-Shirt-Black",
+      "productIds": [
+        "MGC-2592",
+        "MGC-2593",
+        "MGC-2594",
+        "MGC-2595",
+        "MGC-2596",
+        "MGC-2597",
+        "MGC-2598",
+        "MGC-2599",
+        "MGC-2600",
+        "MGC-2601",
+        "MGC-2602"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Grey",
+        "Maroon",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "Sky Blue",
+        "Teal Blue",
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott AWG Fastee Polo T-Shirt- Black",
+      "productIds": [
+        "MGC-2574",
+        "MGC-2575",
+        "MGC-2576",
+        "MGC-2577",
+        "MGC-2578",
+        "MGC-2579",
+        "MGC-2580",
+        "MGC-2581"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey",
+        "Grey Melange",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "Teal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott AWG Giza Polo T-Shirt Teal Blue",
+      "productIds": [
+        "MGC-2603",
+        "MGC-2604",
+        "MGC-2605",
+        "MGC-2606",
+        "MGC-2607",
+        "MGC-2608",
+        "MGC-2609"
+      ],
+      "colours": [
+        "Teal Blue",
+        "Charcoal Grey",
+        "Grey",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott AWG Giza Women's Polo T-shirt- Black",
+      "productIds": [
+        "MGC-2611",
+        "MGC-2612",
+        "MGC-2613",
+        "MGC-2614",
+        "MGC-2615",
+        "MGC-2616",
+        "MGC-2617"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Grey Melange",
+        "Navy Blue",
+        "Red",
+        "Royal Blue",
+        "Teal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott AWG Green Polo New T-Shirt Royal Blue with White Tipping",
+      "productIds": [
+        "MGC-2582",
+        "MGC-2586",
+        "MGC-2588",
+        "MGC-2587",
+        "MGC-2589",
+        "MGC-2591"
+      ],
+      "colours": [
+        "Royal Blue",
+        "Maroon",
+        "Navy Blue",
+        "Navy Blue",
+        "Red",
+        "Dark Grey"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Scott AWG Green Polo New T-Shirt White with Red Tipping",
+      "productIds": [
+        "MGC-2583",
+        "MGC-2584"
+      ],
+      "colours": [
+        "White",
+        "Black"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott AWG Solid Polo T-Shirt- Black",
+      "productIds": [
+        "MGC-2563",
+        "MGC-2564",
+        "MGC-2565",
+        "MGC-2567",
+        "MGC-2568",
+        "MGC-2569",
+        "MGC-2570",
+        "MGC-2571",
+        "MGC-2572",
+        "MGC-2573"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Grey Melange",
+        "Petrol Blue",
+        "Red",
+        "Red Melange",
+        "Royal Blue",
+        "Teal Blue",
+        "White",
+        "White Melange"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott AWG Spectra Jacket- Black",
+      "productIds": [
+        "MGC-2990",
+        "MGC-2991",
+        "MGC-2992"
+      ],
+      "colours": [
+        "Black",
+        "Grey Melange",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Scott AWG tommy Polo T-Shirt- Teal Blue",
+      "productIds": [
+        "MGC-2621",
+        "MGC-2622",
+        "MGC-2623",
+        "MGC-2624",
+        "MGC-2626"
+      ],
+      "colours": [
+        "Teal Blue",
+        "Black",
+        "Dark Grey",
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott AWG Varsity Jacket- Black with White",
+      "productIds": [
+        "MGC-2997",
+        "MGC-2998",
+        "MGC-2999",
+        "MGC-3000",
+        "MGC-3001"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Green",
+        "Navy Blue",
+        "Teal Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Scott Cotton Crop Top T-shirt-Black",
+      "productIds": [
+        "MGC-2532",
+        "MGC-2533",
+        "MGC-2534"
+      ],
+      "colours": [
+        "Black",
+        "Pink",
+        "Sky Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Easy Men's Bio-Wash Round Neck T-shirt - Black",
+      "productIds": [
+        "MGC-2557",
+        "MGC-2558",
+        "MGC-2559",
+        "MGC-2560"
+      ],
+      "colours": [
+        "Black",
+        "Maroon",
+        "Navy Blue",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Formal Shirt- Black",
+      "productIds": [
+        "MGC-2684",
+        "MGC-2685",
+        "MGC-2686",
+        "MGC-2687",
+        "MGC-2688",
+        "MGC-2689"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Light blue",
+        "Pink",
+        "Purple",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Men Over Size T Shirt- Black",
+      "productIds": [
+        "MGC-2819",
+        "MGC-2820"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/formal"
+    },
+    {
+      "title": "Scott Men's Easy Bio-Wash Round Neck T-shirt - Green",
+      "productIds": [
+        "MGC-2561",
+        "MGC-2562"
+      ],
+      "colours": [
+        "Green",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Not Funny Crop Top Tshirt-Black",
+      "productIds": [
+        "MGC-2536",
+        "MGC-2537",
+        "MGC-2538",
+        "MGC-2539",
+        "MGC-2540",
+        "MGC-2541",
+        "MGC-2542",
+        "MGC-2543",
+        "MGC-2544"
+      ],
+      "colours": [
+        "Black",
+        "Green",
+        "Maroon",
+        "Navy Blue",
+        "Pink",
+        "Red",
+        "Royal Blue",
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Polo T-Shirt-Black",
+      "productIds": [
+        "MGC-2628",
+        "MGC-2639",
+        "MGC-2643",
+        "MGC-2653"
+      ],
+      "colours": [
+        "Black",
+        "Grey Melange",
+        "Navy Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Polo T-Shirt-Black with Red Tipping",
+      "productIds": [
+        "MGC-2630",
+        "MGC-2636",
+        "MGC-2655"
+      ],
+      "colours": [
+        "Black",
+        "Cream",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Polo T-Shirt-Black with Royal Blue Tipping",
+      "productIds": [
+        "MGC-2631",
+        "MGC-2656"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Polo T-Shirt-Black with White Tipping",
+      "productIds": [
+        "MGC-2633",
+        "MGC-2635",
+        "MGC-2637",
+        "MGC-2638",
+        "MGC-2641",
+        "MGC-2642",
+        "MGC-2644",
+        "MGC-2645",
+        "MGC-2646",
+        "MGC-2648",
+        "MGC-2649",
+        "MGC-2650",
+        "MGC-2651",
+        "MGC-2652"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Melange",
+        "Green Melange",
+        "Green",
+        "Lime Green",
+        "Maroon",
+        "Navy Blue",
+        "Purple",
+        "Red",
+        "Royal Blue",
+        "Sky Blue",
+        "Teal Blue",
+        "Teal Green",
+        "Turquoise Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Polo T-Shirt-Grey Melange with Black Tipping",
+      "productIds": [
+        "MGC-2640",
+        "MGC-2647",
+        "MGC-2657"
+      ],
+      "colours": [
+        "Grey Melange",
+        "Royal Blue",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Women's Polo T-Shirt- Black",
+      "productIds": [
+        "MGC-2659",
+        "MGC-2680"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Women's Polo T-Shirt- Black with Red Tipping",
+      "productIds": [
+        "MGC-2661",
+        "MGC-2664",
+        "MGC-2681"
+      ],
+      "colours": [
+        "Black",
+        "Cream",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Organic Women's Polo T-Shirt- Black with White Tipping",
+      "productIds": [
+        "MGC-2662",
+        "MGC-2665",
+        "MGC-2666",
+        "MGC-2670",
+        "MGC-2671",
+        "MGC-2672",
+        "MGC-2673",
+        "MGC-2674",
+        "MGC-2676",
+        "MGC-2675",
+        "MGC-2677",
+        "MGC-2678",
+        "MGC-2679"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Green",
+        "Maroon",
+        "Navy Blue",
+        "Purple",
+        "Red",
+        "Royal Blue",
+        "Sky Blue",
+        "Sky Blue",
+        "Teal Blue",
+        "Teal Green",
+        "Turquoise Green"
+      ],
+      "decision": "excluded",
+      "reason": "Duplicate source colour label."
+    },
+    {
+      "title": "Scott Organic Women's Polo T-Shirt- Grey Melange with Black Tipping",
+      "productIds": [
+        "MGC-2667",
+        "MGC-2683"
+      ],
+      "colours": [
+        "Grey Melange",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Shimmer Polo T-Shirt- Navy Blue with White Tipping",
+      "productIds": [
+        "MGC-2555",
+        "MGC-2556"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Smarto Polo T-Shirt- Black with Grey",
+      "productIds": [
+        "MGC-2528",
+        "MGC-2529"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Grey"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Smarto Polo T-Shirt- Red with White",
+      "productIds": [
+        "MGC-2530",
+        "MGC-2531"
+      ],
+      "colours": [
+        "Red",
+        "Royal Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Spark Polo T-Shirt- Pink",
+      "productIds": [
+        "MGC-2618",
+        "MGC-2619",
+        "MGC-2620"
+      ],
+      "colours": [
+        "Pink",
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Scott Thermo Full Sleeve Jacket- Black",
+      "productIds": [
+        "MGC-3002",
+        "MGC-3003",
+        "MGC-3004",
+        "MGC-3005",
+        "MGC-3006"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Navy Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Scott Thermo Sleeveless Jacket- Black",
+      "productIds": [
+        "MGC-2993",
+        "MGC-2994",
+        "MGC-2995",
+        "MGC-2996"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "Scott Young New Polo T-Shirt- Black",
+      "productIds": [
+        "MGC-2545",
+        "MGC-2546",
+        "MGC-2547",
+        "MGC-2548",
+        "MGC-2549",
+        "MGC-2550",
+        "MGC-2551",
+        "MGC-2552",
+        "MGC-2553"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Grey Melange",
+        "Navy Blue",
+        "Navy Melange",
+        "Red",
+        "Red Melange",
+        "Royal Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Sigma Pen- Blue",
+      "productIds": [
+        "MGC-0068",
+        "MGC-0069"
+      ],
+      "colours": [
+        "Blue",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Sigma Stainless Steel Bottle- Black- 750ml",
+      "productIds": [
+        "MGC-0575",
+        "MGC-0576",
+        "MGC-0577"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Signature Black Mug- 350ML",
+      "productIds": [
+        "MGC-0680",
+        "MGC-0648"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "Source-listed price or currency mismatch."
+    },
+    {
+      "title": "Signature Plus Mug- Red-350ml",
+      "productIds": [
+        "MGC-0671",
+        "MGC-0672",
+        "MGC-0673",
+        "MGC-0674"
+      ],
+      "colours": [
+        "Red",
+        "Sky Blue",
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Skittles Laptop Sleeve - Mustard with Navy Blue",
+      "productIds": [
+        "MGC-1874",
+        "MGC-1875"
+      ],
+      "colours": [
+        "Mustard",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Skullcandy Dime Evo Wireless Earbuds- Black",
+      "productIds": [
+        "MGC-1048",
+        "MGC-1049",
+        "MGC-1050",
+        "MGC-1051"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/audio"
+    },
+    {
+      "title": "Slimm Laptop Bag- Dark Grey- 15L",
+      "productIds": [
+        "MGC-2045",
+        "MGC-2046",
+        "MGC-2047"
+      ],
+      "colours": [
+        "Dark Grey",
+        "Light Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Softy Notebook- Black- A5- 170 Pages",
+      "productIds": [
+        "MGC-0272",
+        "MGC-0273"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Softy Notebook- Blue- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0299",
+        "MGC-0300",
+        "MGC-0301",
+        "MGC-0302"
+      ],
+      "colours": [
+        "Blue",
+        "Green",
+        "Orange",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Sony WH-CH520 Wireless Headphone -Black",
+      "productIds": [
+        "MGC-1057",
+        "MGC-1058"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Spool Multi-Functional Charging Essentials with Cable- Black",
+      "productIds": [
+        "MGC-1109",
+        "MGC-1110"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Staple Laptop Backpack-15.6 inch-Black",
+      "productIds": [
+        "MGC-1391",
+        "MGC-1392",
+        "MGC-1393"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Steller Nano-Dry Golfpolo Women's T-shirt- Beige",
+      "productIds": [
+        "MGC-2712",
+        "MGC-2713",
+        "MGC-2715",
+        "MGC-2716",
+        "MGC-2717",
+        "MGC-2718",
+        "MGC-2719",
+        "MGC-2720",
+        "MGC-2721",
+        "MGC-2722",
+        "MGC-2723",
+        "MGC-2724",
+        "MGC-2725",
+        "MGC-2726",
+        "MGC-2727",
+        "MGC-2728",
+        "MGC-2729",
+        "MGC-2730"
+      ],
+      "colours": [
+        "Beige",
+        "Black",
+        "Green Melange",
+        "Ice Blue",
+        "Lavender",
+        "Light Grey",
+        "Magenta",
+        "Maroon",
+        "Mustard",
+        "Navy Blue",
+        "Peach",
+        "Purple",
+        "Red",
+        "Siemens Green",
+        "Teal Blue",
+        "Teal Green",
+        "White",
+        "Wine"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "STL-Structured Polo T-shirt-White",
+      "productIds": [
+        "MGC-2690",
+        "MGC-2691"
+      ],
+      "colours": [
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Stolt Essential Series Camber 2.0 Laptop Backpack- 30L- Blue",
+      "productIds": [
+        "MGC-1438",
+        "MGC-1439",
+        "MGC-1440",
+        "MGC-1441"
+      ],
+      "colours": [
+        "Blue",
+        "Grey",
+        "Navy Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Stolt Essential Series Cowl 2.0 Laptop Backpack-35L- Black",
+      "productIds": [
+        "MGC-1442",
+        "MGC-1443",
+        "MGC-1444",
+        "MGC-1445"
+      ],
+      "colours": [
+        "Black",
+        "Bottle Green",
+        "Navy Blue",
+        "Purple"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Stolt Executive Series Morris Laptop Backpack-35L-Black",
+      "productIds": [
+        "MGC-1446",
+        "MGC-1447",
+        "MGC-1448",
+        "MGC-1449"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Navy Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Stolt Executive Series Ritzy Laptop Backpack-30L-Black",
+      "productIds": [
+        "MGC-1450",
+        "MGC-1451",
+        "MGC-1452"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Stolt Fit Drawstring Backpack-Black",
+      "productIds": [
+        "MGC-1434",
+        "MGC-1435",
+        "MGC-1436",
+        "MGC-1437"
+      ],
+      "colours": [
+        "Black",
+        "Purple",
+        "Red",
+        "Sky Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "Strobe Sheaffer VFM Ballpoint Pen and Small Notebook - 9400 - Silver",
+      "productIds": [
+        "MGC-0089",
+        "MGC-0090"
+      ],
+      "colours": [
+        "Silver",
+        "Black"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Stylo Pen- Black",
+      "productIds": [
+        "MGC-0072",
+        "MGC-0073"
+      ],
+      "colours": [
+        "Black",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Stypen Pen-Black",
+      "productIds": [
+        "MGC-0120",
+        "MGC-0121",
+        "MGC-0122",
+        "MGC-0123"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Surface Soft Touch Pen- Black",
+      "productIds": [
+        "MGC-0038",
+        "MGC-0039"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Swig Coffee Tumbler- Black- 400ml",
+      "productIds": [
+        "MGC-0471",
+        "MGC-0472",
+        "MGC-0473",
+        "MGC-0474"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/tumblers"
+    },
+    {
+      "title": "Swiss Military Dapper HardTop Laptop Overnighter - Navy Blue - 32L",
+      "productIds": [
+        "MGC-1965",
+        "MGC-1966"
+      ],
+      "colours": [
+        "Navy Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Swiss Military Dynamic Men's Round Neck T-Shirt- Black",
+      "productIds": [
+        "MGC-2731",
+        "MGC-2732",
+        "MGC-2733",
+        "MGC-2735",
+        "MGC-2736",
+        "MGC-2737",
+        "MGC-2738",
+        "MGC-2739",
+        "MGC-2740"
+      ],
+      "colours": [
+        "Black",
+        "Charcoal Melange",
+        "Green",
+        "Navy Blue",
+        "Orange",
+        "Red",
+        "Royal Blue",
+        "White",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Swiss Military Elite Men's Polo T-Shirt with Multicolor Tipping- Black",
+      "productIds": [
+        "MGC-2750",
+        "MGC-2752"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Swiss Military Stardust Sling Bag- Black- 4L",
+      "productIds": [
+        "MGC-1950",
+        "MGC-1951",
+        "MGC-1952"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Swiss Military Supreme Men's Polo T-Shirt- Black",
+      "productIds": [
+        "MGC-2741",
+        "MGC-2742",
+        "MGC-2743",
+        "MGC-2744",
+        "MGC-2745",
+        "MGC-2746",
+        "MGC-2747",
+        "MGC-2748"
+      ],
+      "colours": [
+        "Black",
+        "Grey Melange",
+        "Light blue",
+        "Navy Blue",
+        "Red",
+        "Sky Blue",
+        "Turquoise Green",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Tall Sipper Mug- Black- 400ml",
+      "productIds": [
+        "MGC-0567",
+        "MGC-0568",
+        "MGC-0569",
+        "MGC-0570"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Texas Backpack- Black- 19.8L",
+      "productIds": [
+        "MGC-1420",
+        "MGC-1421"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Cosmopolitan Backpack- Black- 22L",
+      "productIds": [
+        "MGC-1370",
+        "MGC-1371",
+        "MGC-1372",
+        "MGC-1373",
+        "MGC-1375"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown",
+        "Green",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Pathfinder Backpack- Black- 25L",
+      "productIds": [
+        "MGC-1342",
+        "MGC-1343",
+        "MGC-1344"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Pupil Notebook- Black- A5- 96 Sheets",
+      "productIds": [
+        "MGC-0203",
+        "MGC-0204"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "The Trailblazer Backpack- Black- 22L",
+      "productIds": [
+        "MGC-1383",
+        "MGC-1384",
+        "MGC-1385",
+        "MGC-1386",
+        "MGC-1387"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Green",
+        "Tan",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Urban Rebel Backpack- Black- 15L",
+      "productIds": [
+        "MGC-1335",
+        "MGC-1336",
+        "MGC-1337",
+        "MGC-1338"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Olive Green",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Voyager Backpack- Black- 27L",
+      "productIds": [
+        "MGC-1367",
+        "MGC-1368",
+        "MGC-1369"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Wanderer Backpack- Black- 22L",
+      "productIds": [
+        "MGC-1346",
+        "MGC-1347",
+        "MGC-1348",
+        "MGC-1349",
+        "MGC-1350"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Olive Green",
+        "Tan",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Wayfarer Backpack- Black- 27L",
+      "productIds": [
+        "MGC-1351",
+        "MGC-1352",
+        "MGC-1353",
+        "MGC-1354"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Brown",
+        "Olive Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/backpacks"
+    },
+    {
+      "title": "The Wunderkind Backpack- Black",
+      "productIds": [
+        "MGC-1380",
+        "MGC-1381",
+        "MGC-1382"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Olive Green"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Thunder Multi Function Desk lamp- Black",
+      "productIds": [
+        "MGC-4143",
+        "MGC-4144"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/organisers"
+    },
+    {
+      "title": "Tokyo Duffle Bag- Grey",
+      "productIds": [
+        "MGC-1998",
+        "MGC-2000"
+      ],
+      "colours": [
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Tornado Multi-Function Desk Lamp With Fan- Black",
+      "productIds": [
+        "MGC-4147",
+        "MGC-4148"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/organisers"
+    },
+    {
+      "title": "Transformer Laptop Sleeve- Black- 0.92L",
+      "productIds": [
+        "MGC-1887",
+        "MGC-1888"
+      ],
+      "colours": [
+        "Black",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Travel Duffle Bag With Shoe Pocket- Black- 40L",
+      "productIds": [
+        "MGC-1724",
+        "MGC-1725"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Tripp Passport Holder- Black",
+      "productIds": [
+        "MGC-1840",
+        "MGC-1841"
+      ],
+      "colours": [
+        "Black",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Trotter Tech Pouch- Black",
+      "productIds": [
+        "MGC-1852",
+        "MGC-1853"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Trusser PU Leather 13.9\" Inches Document Folder- Blue",
+      "productIds": [
+        "MGC-4053",
+        "MGC-4054",
+        "MGC-4055"
+      ],
+      "colours": [
+        "Blue",
+        "Dark Brown",
+        "Peach"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Tube Gel Pen 0.5mm- Black",
+      "productIds": [
+        "MGC-0046",
+        "MGC-0047",
+        "MGC-0048",
+        "MGC-0049",
+        "MGC-0051",
+        "MGC-0052"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Gold",
+        "Grey",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/pens"
+    },
+    {
+      "title": "Tucano Bizip Backpack- Black",
+      "productIds": [
+        "MGC-1470",
+        "MGC-1471"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Turtle Brisbane Shirt- Light Blue",
+      "productIds": [
+        "MGC-2774",
+        "MGC-2775"
+      ],
+      "colours": [
+        "Light blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Turtle Newcastle Shirt- Grey",
+      "productIds": [
+        "MGC-2776",
+        "MGC-2777"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "TurtleTales Eco-friendly Premium Husk Chai Cup- Black- 140ml",
+      "productIds": [
+        "MGC-0719",
+        "MGC-0720",
+        "MGC-0721",
+        "MGC-0722",
+        "MGC-0723",
+        "MGC-0724",
+        "MGC-0725",
+        "MGC-0726"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Dark Brown",
+        "Ice Blue",
+        "Natural Brown",
+        "Peach",
+        "Purple",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "TurtleTales Eco-Friendly Premium Turtle Brew Mug- Black- 200ml",
+      "productIds": [
+        "MGC-0713",
+        "MGC-0714",
+        "MGC-0715",
+        "MGC-0716",
+        "MGC-0717",
+        "MGC-0718"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Natural Brown",
+        "Pastel Green",
+        "Peach",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "Images show different mug forms/handles across the candidate colours."
+    },
+    {
+      "title": "TurtleTales Eco-Friendly Premium Vintage Brew Mug- Beige- 300ml",
+      "productIds": [
+        "MGC-0727",
+        "MGC-0728",
+        "MGC-0729",
+        "MGC-0731",
+        "MGC-0732",
+        "MGC-0733",
+        "MGC-0734",
+        "MGC-0735"
+      ],
+      "colours": [
+        "Beige",
+        "Black",
+        "Brown",
+        "Dark Brown",
+        "Ice Blue",
+        "Pastel Green",
+        "Purple",
+        "White"
+      ],
+      "decision": "excluded",
+      "reason": "Images show different mug forms/handles across the candidate colours."
+    },
+    {
+      "title": "Twyst Sports Bottle- Black- 540ml",
+      "productIds": [
+        "MGC-0590",
+        "MGC-0591"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "UCB Bomber Jacket-Full Sleeve- Black",
+      "productIds": [
+        "MGC-3019",
+        "MGC-3020",
+        "MGC-3021"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "UCB Men's PC POLO T-Shirt- Maroon",
+      "productIds": [
+        "MGC-2779",
+        "MGC-2780",
+        "MGC-2781"
+      ],
+      "colours": [
+        "Maroon",
+        "Yellow",
+        "Grey"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "UCB Women Cotton Lycra Polo T-Shirt with Tipping-Mustard with Blue & White",
+      "productIds": [
+        "MGC-2796",
+        "MGC-2799"
+      ],
+      "colours": [
+        "Mustard",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "UCB Women's PC Polo T-Shirt- Black",
+      "productIds": [
+        "MGC-2783",
+        "MGC-2785",
+        "MGC-2786",
+        "MGC-2787",
+        "MGC-2788"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Maroon",
+        "Royal Blue",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Ultra Color Sports Bottle- Black- 500ml",
+      "productIds": [
+        "MGC-0581",
+        "MGC-0582"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Urban Gear Bamboo Mug- Blue- 350ml",
+      "productIds": [
+        "MGC-0738",
+        "MGC-0739",
+        "MGC-0740"
+      ],
+      "colours": [
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Urban Gear Cube Pro Universal Travel Adaptor 2USB + Type-C- Black",
+      "productIds": [
+        "MGC-1269",
+        "MGC-1270"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/desk-tech"
+    },
+    {
+      "title": "Urban Gear Java Stainless Steel Travel Mug with Handle- Black",
+      "productIds": [
+        "MGC-0745",
+        "MGC-0746"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Urban Gear Opal 3-in-1 Desk Lamp with 15W Wireless Charger & Bluetooth Speaker- Black",
+      "productIds": [
+        "MGC-4145",
+        "MGC-4146"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Urban Gear Techie Compaсt Travel Digital Organizer- Black",
+      "productIds": [
+        "MGC-2023",
+        "MGC-2024",
+        "MGC-2025"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Urban Gear Techie Dual Pouch- Black",
+      "productIds": [
+        "MGC-2038",
+        "MGC-2039",
+        "MGC-2040"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Urban Gear Techie Pouch Travel Digital Organizer- Black",
+      "productIds": [
+        "MGC-2026",
+        "MGC-2027",
+        "MGC-2028"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue"
+      ],
+      "decision": "excluded",
+      "reason": "One or more variants have no source image."
+    },
+    {
+      "title": "Urban Gear Techie Pro Travel Digital Bag Organizer- Black",
+      "productIds": [
+        "MGC-2032",
+        "MGC-2033"
+      ],
+      "colours": [
+        "Black",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Urban Gear Мocca Stainless Steel Travel Mug with Handle- Black",
+      "productIds": [
+        "MGC-0741",
+        "MGC-0742"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Van Heusen 60% cotton and 40% Polyester T shirt- Black",
+      "productIds": [
+        "MGC-2805",
+        "MGC-2806",
+        "MGC-2807",
+        "MGC-2808",
+        "MGC-2810",
+        "MGC-2811",
+        "MGC-2812",
+        "MGC-2813"
+      ],
+      "colours": [
+        "Black",
+        "Dark Grey",
+        "Grey Melange",
+        "Ice Blue",
+        "Maroon",
+        "Navy Blue",
+        "Olive Green",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Van Heusen Dry-Fit T-shirt- Black",
+      "productIds": [
+        "MGC-2800",
+        "MGC-2801",
+        "MGC-2802",
+        "MGC-2803",
+        "MGC-2804"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue",
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Van Heusen Poly Cotton Women's Wrinkle Free Shirt- Sky Blue",
+      "productIds": [
+        "MGC-2823",
+        "MGC-2824"
+      ],
+      "colours": [
+        "Sky Blue",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/formal"
+    },
+    {
+      "title": "Vantora ACE Gaming Backpack- 35L- Blue",
+      "productIds": [
+        "MGC-1480",
+        "MGC-1481"
+      ],
+      "colours": [
+        "Blue",
+        "Red"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Vantora Prime Hydration Backpack- 25L- Beige",
+      "productIds": [
+        "MGC-1484",
+        "MGC-1485",
+        "MGC-1486",
+        "MGC-1487",
+        "MGC-1488",
+        "MGC-1490",
+        "MGC-1491",
+        "MGC-1492"
+      ],
+      "colours": [
+        "Beige",
+        "Black",
+        "Blue",
+        "Grey",
+        "Maroon",
+        "Orange",
+        "Red",
+        "Yellow"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Vantora Switch Slingpack- 15L- Black",
+      "productIds": [
+        "MGC-2053",
+        "MGC-2054",
+        "MGC-2055",
+        "MGC-2056",
+        "MGC-2058",
+        "MGC-2059"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Maroon",
+        "Red",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Vaya Cool Cyan Drynk Pocket Bottle Variant- Orange-250ML",
+      "productIds": [
+        "MGC-0595",
+        "MGC-0596"
+      ],
+      "colours": [
+        "Orange",
+        "Green"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Vaya Drynk Bottle Plain Variant-Blue-900ML",
+      "productIds": [
+        "MGC-0598",
+        "MGC-0599"
+      ],
+      "colours": [
+        "Blue",
+        "Purple"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    },
+    {
+      "title": "Vaya Lunchbox Plain Variant -Green-1000ML",
+      "productIds": [
+        "MGC-0891",
+        "MGC-0892"
+      ],
+      "colours": [
+        "Green",
+        "Purple"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/coffee"
+    },
+    {
+      "title": "Vector Notebook- Black- A5- 196 Pages",
+      "productIds": [
+        "MGC-0310",
+        "MGC-0311",
+        "MGC-0312"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Grey"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Venice Metal Pen- Black",
+      "productIds": [
+        "MGC-0124",
+        "MGC-0125",
+        "MGC-0126",
+        "MGC-0127"
+      ],
+      "colours": [
+        "Black",
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "VeroModa Austin Jacket- Black",
+      "productIds": [
+        "MGC-2938",
+        "MGC-2939"
+      ],
+      "colours": [
+        "Black",
+        "Grey Melange"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C5/apparel-lifestyle/accessories"
+    },
+    {
+      "title": "VeroModa Jacquard Polo- Wine",
+      "productIds": [
+        "MGC-2373",
+        "MGC-2374"
+      ],
+      "colours": [
+        "Wine",
+        "White"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Voila Notebook- Black- A5- 104 Sheets",
+      "productIds": [
+        "MGC-0282",
+        "MGC-0283"
+      ],
+      "colours": [
+        "Black",
+        "Orange"
+      ],
+      "decision": "already-covered-or-overlapping"
+    },
+    {
+      "title": "Weekender Faux Leather Duffle- Black- 35L",
+      "productIds": [
+        "MGC-1719",
+        "MGC-1720",
+        "MGC-1721"
+      ],
+      "colours": [
+        "Black",
+        "Brown",
+        "Tan"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Weekender Laptop Bag- Dark Grey- 18L",
+      "productIds": [
+        "MGC-2051",
+        "MGC-2052"
+      ],
+      "colours": [
+        "Dark Grey",
+        "Navy Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C4/bags-travel/travel"
+    },
+    {
+      "title": "Wonderchef Nutri-blend 500W Juicer Mixer Grinder- Grey",
+      "productIds": [
+        "MGC-0905",
+        "MGC-0906"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/coffee"
+    },
+    {
+      "title": "Wonderchef Plastic Nutri-Cup Portable Blender-300ml-120 Watts- Blue",
+      "productIds": [
+        "MGC-0763",
+        "MGC-0764"
+      ],
+      "colours": [
+        "Blue",
+        "Pink"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/mugs"
+    },
+    {
+      "title": "Writo Notebook- Black- A5- 160 Pages",
+      "productIds": [
+        "MGC-0274",
+        "MGC-0275"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C1/executive-writing/notebooks"
+    },
+    {
+      "title": "Xech Magneto II XL Multifunctional Lamp- Black",
+      "productIds": [
+        "MGC-4072",
+        "MGC-4073"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Xech Magneto Lite Multifunctional Lamp- Black",
+      "productIds": [
+        "MGC-4066",
+        "MGC-4067"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Xech Magneto Multipurpose Portable Light- Black",
+      "productIds": [
+        "MGC-4068",
+        "MGC-4069"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "YoYo Id Card Retractor - Black",
+      "productIds": [
+        "MGC-3848",
+        "MGC-3849"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C9/office-stationery/stationery"
+    },
+    {
+      "title": "Yoyo Pro 3-in-1 Charging Cable- Black- 1200mm",
+      "productIds": [
+        "MGC-1162",
+        "MGC-1163"
+      ],
+      "colours": [
+        "Black",
+        "Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C3/tech-gadgets/chargers"
+    },
+    {
+      "title": "Zen 3-In-1 Drinkware Combo- Black",
+      "productIds": [
+        "MGC-3727",
+        "MGC-3728"
+      ],
+      "colours": [
+        "Black",
+        "White"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C8/hampers-gifting/gift-sets"
+    },
+    {
+      "title": "Zen Sports Bottle- Black- 750ml",
+      "productIds": [
+        "MGC-0592",
+        "MGC-0593",
+        "MGC-0594"
+      ],
+      "colours": [
+        "Black",
+        "White",
+        "Sky Blue"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "categoryPath": "C2/drinkware-barware/bottles"
+    }
+  ],
+  "manualFamilyExtensions": [
+    {
+      "familyCode": "MGC-FAM-063",
+      "productIds": [
+        "MGC-2098",
+        "MGC-2099",
+        "MGC-2100",
+        "MGC-2101",
+        "MGC-2102",
+        "MGC-2103"
+      ],
+      "colours": [
+        "Black",
+        "Grey",
+        "Navy Blue",
+        "Royal Blue",
+        "White",
+        "Yellow"
+      ],
+      "decision": "approved",
+      "imageReviewed": true,
+      "priceMatch": true,
+      "reason": "Manually reviewed title exception: complementary tipping colours vary with shirt colour while master images show the same polo construction; all non-colour specifications and prices match."
+    }
+  ]
+}

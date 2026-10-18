@@ -20,8 +20,9 @@
 import {
   categoryDisplayRank,
   categoryHeroRank,
+  subcategoryDisplayRank,
 } from "./categoryOrder";
-import { getOccasionFacets, getCategoryFacets, getBrandFacets, getBrandingFacets, getColourFacets, getMaterialFacets } from "./facets";
+import { getOccasionFacets, getCategoryFacets, getBrandFacets, getColourFacets, getMaterialFacets } from "./facets";
 import {
   getAllProducts,
   getCataloguePageSize,
@@ -36,6 +37,35 @@ import {
   emptyCatalogueQuery,
 } from "./queryParams";
 import type { CatalogueQuery, CatalogueSort, Product } from "./types";
+import colourFamilies from "./colourFamilies.json";
+import { resolveColourFamily, type ColourFamily } from "./colourVariants";
+import designFamilies from "./designFamilies.json";
+import { resolveDesignFamily, type DesignFamily } from "./designVariants";
+
+const APPROVED_COLOUR_FAMILIES = colourFamilies as ColourFamily[];
+const APPROVED_DESIGN_FAMILIES = designFamilies as unknown as DesignFamily[];
+let resolvedColourFamilyIndex: Map<string, { key: string; code: string; options: Product[] }> | null = null;
+let resolvedDesignFamilyIndex: Map<string, { key: string; code: string; name: string; options: Product[] }> | null = null;
+
+function getResolvedColourFamilyIndex() {
+  if (resolvedColourFamilyIndex) return resolvedColourFamilyIndex;
+  const allProducts = getAllProducts();
+  const byId = new Map(allProducts.map((product) => [product.id, product]));
+  const index = new Map<string, { key: string; code: string; options: Product[] }>();
+  for (const family of APPROVED_COLOUR_FAMILIES) {
+    if (!family.reviewed || !family.imageReviewed) continue;
+    const representative = family.productIds
+      .map((id) => byId.get(id))
+      .find((product): product is Product => product !== undefined);
+    if (!representative) continue;
+    const resolved = resolveColourFamily(representative, allProducts, [family]);
+    if (resolved.length !== family.productIds.length) continue;
+    const options = resolved.map((member) => ({ ...member, colourFamilyCode: family.familyCode }));
+    for (const member of resolved) index.set(member.id, { key: family.familyId, code: family.familyCode, options });
+  }
+  resolvedColourFamilyIndex = index;
+  return index;
+}
 
 export {
   parseCatalogueQuery,
@@ -51,40 +81,75 @@ function priceAmountForSort(product: Product): number {
   return verified ?? Number.POSITIVE_INFINITY;
 }
 
-/** Only combine records that share the product story and price, and differ by colour. */
-function colourFamilyKey(product: Product): string | null {
-  if (product.colours.length !== 1) return null;
-  return [product.name, product.summary, product.brandName, product.subcategorySlug,
-    product.pricing.kind === 'fixed' ? product.pricing.amountInr : 'quote']
-    .map(value => String(value ?? '').trim().toLowerCase()).join('|');
-}
-
 export function getColourVariants(product: Product): Product[] {
-  const key = colourFamilyKey(product);
-  if (!key) return [];
-  const family = getAllProducts().filter(candidate => colourFamilyKey(candidate) === key);
-  if (new Set(family.map(item => item.colours[0].toLowerCase())).size < 2) return [];
-  return family.sort((a,b) => a.colours[0].localeCompare(b.colours[0]));
+  return getResolvedColourFamilyIndex().get(product.id)?.options ?? [];
 }
 
-function collapseColourVariants(products: Product[]): Product[] {
-  const groups = new Map<string, Product[]>();
-  for (const product of products) {
-    const key = colourFamilyKey(product);
-    if (!key) continue;
-    const list = groups.get(key) ?? [];
-    list.push(product);
-    groups.set(key, list);
+function getResolvedDesignFamilyIndex() {
+  if (resolvedDesignFamilyIndex) return resolvedDesignFamilyIndex;
+  const allProducts = getAllProducts();
+  const byId = new Map(allProducts.map((product) => [product.id, product]));
+  const index = new Map<string, { key: string; code: string; name: string; options: Product[] }>();
+  for (const family of APPROVED_DESIGN_FAMILIES) {
+    if (!family.reviewed || !family.imageReviewed) continue;
+    const representative = family.productIds.map((id) => byId.get(id)).find((product): product is Product => product !== undefined);
+    if (!representative) continue;
+    const resolved = resolveDesignFamily(representative, allProducts, [family]);
+    if (resolved.length !== family.productIds.length) continue;
+    for (const member of resolved) index.set(member.id, { key: family.familyId, code: family.familyCode, name: family.familyName, options: resolved });
   }
+  resolvedDesignFamilyIndex = index;
+  return index;
+}
+
+export type ProductVariantFamily = {
+  type: "colour" | "design";
+  code: string;
+  name?: string;
+  optionLabel?: string;
+  options: Product[];
+};
+
+export function getProductVariantFamily(product: Product): ProductVariantFamily | null {
+  const colour = getResolvedColourFamilyIndex().get(product.id);
+  if (colour) return { type: "colour", code: colour.code, options: colour.options };
+  const design = getResolvedDesignFamilyIndex().get(product.id);
+  return design ? { type: "design", code: design.code, name: design.name, optionLabel: design.options[0]?.designFamilyOptionLabel ?? "design", options: design.options } : null;
+}
+
+function collapseProductVariantFamilies(products: Product[]): Product[] {
+  const familyByProduct = getResolvedColourFamilyIndex();
+  const designFamilyByProduct = getResolvedDesignFamilyIndex();
+  const visibleProductIds = new Set(products.map((product) => product.id));
   const seen = new Set<string>();
   return products.flatMap(product => {
-    const key = colourFamilyKey(product);
-    if (!key || seen.has(key)) return key ? [] : [product];
+    const family = familyByProduct.get(product.id);
+    const designFamily = designFamilyByProduct.get(product.id);
+    if (family) {
+      const key = `colour:${family.key}`;
+      if (seen.has(key)) return [];
+      seen.add(key);
+      const visibleOptions = family.options.filter((option) => visibleProductIds.has(option.id));
+      return [{
+        ...product,
+        colourFamilyCode: family.code,
+        colourVariantCount: visibleOptions.length,
+        colourVariantOptions: visibleOptions,
+      }];
+    }
+    if (!designFamily) return [product];
+    const key = `design:${designFamily.key}`;
+    if (seen.has(key)) return [];
     seen.add(key);
-    const family = groups.get(key) ?? [product];
-    const colours = new Set(family.map(item => item.colours[0].toLowerCase()));
-    if (colours.size < 2) return family;
-    return [{...product, colourVariantCount: colours.size}];
+    const visibleOptions = designFamily.options.filter((option) => visibleProductIds.has(option.id));
+    return [{
+      ...product,
+      designFamilyCode: designFamily.code,
+      designFamilyName: designFamily.name,
+      designFamilyOptionLabel: designFamily.options[0]?.designFamilyOptionLabel ?? "design",
+      designVariantCount: visibleOptions.length,
+      designVariantOptions: visibleOptions,
+    }];
   });
 }
 
@@ -94,6 +159,7 @@ function productSearchHaystack(product: Product): string {
     product.summary,
     product.description,
     product.sku,
+    product.catalogueSku,
     product.brandName,
     product.categoryName,
     product.subcategoryName,
@@ -291,12 +357,6 @@ export function filterProducts(
     );
   }
 
-  if (query.brandings.length > 0) {
-    result = result.filter((p) =>
-      query.brandings.some((id) => p.brandingOptions.includes(id)),
-    );
-  }
-
   if (query.colours.length > 0) {
     result = result.filter((p) =>
       query.colours.some((id) => p.colourIds.includes(id)),
@@ -390,6 +450,18 @@ export function sortProducts(
           const scoreDelta = relevanceOf(b) - relevanceOf(a);
           if (scoreDelta !== 0) return scoreDelta;
         }
+        const subcategoryDelta =
+          subcategoryDisplayRank(a.filterCategorySlug, a.subcategorySlug) -
+          subcategoryDisplayRank(b.filterCategorySlug, b.subcategorySlug);
+        if (subcategoryDelta !== 0) return subcategoryDelta;
+        if (!preferRelevance) {
+          const brandDelta = (a.brandName?.trim() || "\uffff").localeCompare(
+            b.brandName?.trim() || "\uffff",
+            undefined,
+            { sensitivity: "base" },
+          );
+          if (brandDelta !== 0) return brandDelta;
+        }
         return a.name.localeCompare(b.name);
       });
     }
@@ -408,7 +480,7 @@ export type CatalogueResultPage = {
 export function queryCatalogue(query: CatalogueQuery): CatalogueResultPage {
   const pageSize = getCataloguePageSize();
   const filtered = filterProducts(getAllProducts(), query);
-  const sorted = collapseColourVariants(sortProducts(filtered, query.sort, query));
+  const sorted = collapseProductVariantFamilies(sortProducts(filtered, query.sort, query));
   const total = sorted.length;
   const totalPages = Math.max(1, Math.ceil(total / pageSize) || 1);
   const page = Math.min(query.page, totalPages);
@@ -428,7 +500,7 @@ export function queryCatalogue(query: CatalogueQuery): CatalogueResultPage {
 /** Disjunctive counts: each group respects all constraints except itself. */
 export function getContextualFacets(query: CatalogueQuery) {
   const products = getAllProducts();
-  function group(key: 'categories' | 'occasions' | 'brands' | 'brandings' | 'colours' | 'materials', definitions: import('./types').CatalogueFacet[], values: (p: Product) => string[]) {
+  function group(key: 'categories' | 'occasions' | 'brands' | 'colours' | 'materials', definitions: import('./types').CatalogueFacet[], values: (p: Product) => string[]) {
     const candidates = filterProducts(products, {...query, [key]: [], ...(key === 'categories' ? {subcategories: []} : {})});
     const counts = new Map<string, number>();
     for (const p of candidates) for (const id of new Set(values(p))) counts.set(id, (counts.get(id) || 0) + 1);
@@ -440,7 +512,6 @@ export function getContextualFacets(query: CatalogueQuery) {
     categories: group('categories', getCategoryFacets(), p => [p.filterCategorySlug]),
     brands: group('brands', getBrandFacets(), p => p.brandName ? [slugifyFacet(p.brandName)] : []),
     occasions: group('occasions', getOccasionFacets(), p => p.occasions),
-    brandings: group('brandings', getBrandingFacets(), p => p.brandingOptions),
     colours: group('colours', getColourFacets(), p => p.colourIds),
     materials: group('materials', getMaterialFacets(), p => p.materialIds),
   };

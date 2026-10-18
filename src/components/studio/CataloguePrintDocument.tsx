@@ -121,8 +121,8 @@ export function CataloguePrintDocument({
                           : ""}
                       </p>
                     ) : null}
-                    {draft.fields.sku && product.sku ? (
-                      <p className="studio-print__meta">SKU {product.sku}</p>
+                    {draft.fields.sku && product.catalogueSku ? (
+                      <p className="studio-print__meta">SKU {product.catalogueSku}</p>
                     ) : null}
                     {draft.fields.summary && product.summary ? (
                       <p className="studio-print__summary">{product.summary}</p>

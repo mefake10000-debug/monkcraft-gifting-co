@@ -1,22 +1,16 @@
 import { NextResponse } from "next/server";
-import {
-  deliverEnquiry,
-  getEnquiryDeliveryConfig,
-} from "@/lib/enquiry/delivery";
-import {
-  getIdempotentEnquiry,
-  setIdempotentEnquiry,
-} from "@/lib/enquiry/idempotency";
 import { checkEnquiryRateLimit } from "@/lib/enquiry/rateLimit";
 import type { EnquiryApiResponse } from "@/lib/enquiry/types";
 import { validateEnquiryPayload } from "@/lib/enquiry/validateServer";
+import { findSalesTriageRunForQuoteRequest, isQuoteStorageConfigured, persistQuoteRequest } from "@/lib/automation/store";
+import { isNotionAgentFeedbackSyncConfigured, isNotionLeadSyncConfigured, syncOneNotionAgentRun, syncOneNotionLead } from "@/lib/automation/notion";
+import { prepareQuoteSupplierChecks } from "@/lib/automation/supplierChecks";
 
 /**
- * Enquiry delivery API.
+ * Quote request intake API.
  *
- * Validates shape, applies spam/rate/idempotency guards, then attempts
- * server-side delivery only when an approved provider is fully configured.
- * Never claims success without provider acknowledgement.
+ * Validates shape, applies spam/rate guards, then persists the request and
+ * outbox event atomically. Notion sync is best-effort and independently retryable.
  *
  * See docs/conversion-enquiry-privacy.md
  */
@@ -47,18 +41,6 @@ export async function POST(request: Request) {
       },
       400,
     );
-  }
-
-  // Replay known submission ids before rate-limit so honest retries / double-clicks
-  // do not burn the budget.
-  if (body && typeof body === "object") {
-    const maybeId = (body as { clientSubmissionId?: unknown }).clientSubmissionId;
-    if (typeof maybeId === "string" && maybeId.trim()) {
-      const prior = getIdempotentEnquiry(maybeId.trim());
-      if (prior) {
-        return json(prior.response, prior.status);
-      }
-    }
   }
 
   const rate = checkEnquiryRateLimit(clientKey(request));
@@ -104,61 +86,73 @@ export async function POST(request: Request) {
 
   const { payload } = validated;
 
-  // Intentionally do not log enquiry contents (contact + programme details).
-  const delivery = await deliverEnquiry(payload);
-
-  if (delivery.delivered) {
-    const response: EnquiryApiResponse = {
-      ok: true,
-      code: "delivered",
-      delivered: true,
-    };
-    if (payload.clientSubmissionId) {
-      setIdempotentEnquiry(payload.clientSubmissionId, response, 200);
-    }
-    return json(response, 200);
+  // No enquiry contents are logged. The database RPC stores the request and
+  // integration outbox event as one transaction, with durable idempotency.
+  const stored = await persistQuoteRequest(payload);
+  if (!stored.ok) {
+    const status = stored.code === "storage_not_configured" ? 503 : stored.code === "submission_conflict" ? 409 : 502;
+    return json({
+      ok: false,
+      code: stored.code,
+      delivered: false,
+      received: false,
+      error: stored.code === "storage_not_configured"
+        ? "Quote requests are not connected yet. Please use the email or WhatsApp option, or try again later."
+        : stored.code === "submission_conflict"
+          ? "This submission ID was already used for a different brief. Refresh the page and submit again."
+          : "We could not safely save your quote request. Nothing was confirmed received; please retry or use another contact option.",
+    }, status);
   }
 
-  const status =
-    delivery.code === "delivery_not_configured"
-      ? 503
-      : delivery.code === "provider_error"
-        ? 502
-        : 500;
+  let notionSyncStatus = stored.notionSyncStatus;
+  let supplierCheckStatus: "prepared" | "needs_mapping" | "pending" | "failed" = "pending";
+  let supplierCheckCount = 0;
+  const supplierPreparation = await prepareQuoteSupplierChecks(stored.requestId);
+  if (supplierPreparation.status === "prepared") {
+    supplierCheckCount = supplierPreparation.checkCount;
+    supplierCheckStatus = supplierPreparation.mappingExceptions > 0 ? "needs_mapping" : "prepared";
+  } else if (supplierPreparation.status === "failed") {
+    supplierCheckStatus = "failed";
+  }
+
+  if (isNotionLeadSyncConfigured()) {
+    const syncResult = await syncOneNotionLead(stored.requestId);
+    if (syncResult === "synced") notionSyncStatus = "synced";
+  }
+
+  // The sales-triage row is created by the quote-request insert trigger. Try
+  // syncing it now for a current Notion control room, but never gate receipt on
+  // Notion; the protected cron retries failures later.
+  if (isNotionAgentFeedbackSyncConfigured()) {
+    try {
+      const runId = await findSalesTriageRunForQuoteRequest(stored.requestId);
+      if (runId) await syncOneNotionAgentRun(runId);
+    } catch { /* The durable request and proposal remain available for retry. */ }
+  }
 
   const response: EnquiryApiResponse = {
-    ok: false,
-    code: delivery.code,
+    ok: true,
+    code: "received",
     delivered: false,
-    error: delivery.error,
-    deliveryConfigured: getEnquiryDeliveryConfig().configured,
+    received: true,
+    requestId: stored.requestId,
+    notionSyncStatus,
+    supplierCheckStatus,
+    supplierCheckCount,
   };
-
-  // Cache provider failures for the same id so double-clicks do not hammer a
-  // broken provider. Do NOT cache delivery_not_configured — once an approved
-  // provider is activated, the same honest clientSubmissionId must be able to
-  // deliver instead of replaying a stale 503 for ~30 minutes.
-  if (
-    payload.clientSubmissionId &&
-    delivery.code !== "delivery_not_configured"
-  ) {
-    setIdempotentEnquiry(payload.clientSubmissionId, response, status);
-  }
-
-  return json(response, status);
+  return json(response, 200);
 }
 
 export async function GET() {
-  const config = getEnquiryDeliveryConfig();
+  const storageConfigured = isQuoteStorageConfigured();
+  const notionConfigured = isNotionLeadSyncConfigured();
   return NextResponse.json({
-    ok: false,
-    code: config.configured ? "ready" : "delivery_not_configured",
-    deliveryConfigured: config.configured,
-    provider: config.provider,
-    // Never expose which specific secrets are missing in production detail —
-    // only a boolean readiness signal for honest UI.
-    message: config.configured
-      ? "POST a validated enquiry body. Delivery is enabled for this environment."
-      : "POST a validated enquiry body. Delivery remains disabled until an approved provider is fully configured.",
+    ok: storageConfigured,
+    code: storageConfigured ? "ready" : "storage_not_configured",
+    storageConfigured,
+    notionConfigured,
+    message: storageConfigured
+      ? "Quote requests are stored durably. Notion sync may be pending until the workspace integration is configured."
+      : "Quote request storage is disabled until the server database is configured.",
   });
 }

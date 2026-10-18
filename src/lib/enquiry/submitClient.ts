@@ -6,6 +6,7 @@ import type {
   EnquiryProgramme,
   EnquirySubmissionPayload,
 } from "@/lib/enquiry/types";
+import { readCampaignAttribution } from "@/lib/marketing/attribution";
 
 export type ClientEnquiryInput = {
   name: string;
@@ -17,6 +18,9 @@ export type ClientEnquiryInput = {
   source?: string;
   programme?: EnquiryProgramme;
   products?: EnquiryProductLine[];
+  contactPreference?: "email" | "phone" | "whatsapp";
+  whatsappUpdatesOptIn?: boolean;
+  marketingEmailOptIn?: boolean;
   /** Stable id for this prepared enquiry — reuse on retry to prevent duplicates. */
   clientSubmissionId: string;
 };
@@ -47,6 +51,10 @@ export async function submitEnquiryOnline(
     },
     programme: input.programme,
     products: input.products,
+    contactPreference: input.contactPreference ?? "email",
+    whatsappUpdatesOptIn: input.whatsappUpdatesOptIn === true,
+    marketingEmailOptIn: input.marketingEmailOptIn === true,
+    attribution: readCampaignAttribution(),
     summary: input.summary,
     message: input.message,
     source: input.source,
@@ -87,9 +95,9 @@ export async function submitEnquiryOnline(
     };
   }
 
-  // Hard rule: never claim success unless server says delivered:true.
-  if (body.delivered !== true) {
-    body = { ...body, delivered: false, ok: false };
+  // Receipt is distinct from downstream delivery or quote approval.
+  if (body.received !== true) {
+    body = { ...body, received: false, delivered: false, ok: false };
   }
 
   return { status: response.status, body };

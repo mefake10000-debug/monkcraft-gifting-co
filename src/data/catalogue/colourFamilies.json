@@ -1,0 +1,5670 @@
+[
+  {
+    "familyId": "mgc-colour-443",
+    "familyCode": "MGC-FAM-443",
+    "productIds": [
+      "MGC-2429",
+      "MGC-2430",
+      "MGC-2431",
+      "MGC-2432",
+      "MGC-2433",
+      "MGC-2434"
+    ],
+    "titleExceptions": [
+      {
+        "productId": "MGC-2429",
+        "reason": "The title identifies the verified red tipping accent; the polo model, material, construction, brand and price match."
+      },
+      {
+        "productId": "MGC-2430",
+        "reason": "The title identifies the verified yellow tipping accent; the polo model, material, construction, brand and price match."
+      },
+      {
+        "productId": "MGC-2431",
+        "reason": "The title identifies the verified white tipping accent; the polo model, material, construction, brand and price match."
+      },
+      {
+        "productId": "MGC-2432",
+        "reason": "The title identifies the navy polo colorway; the polo model, material, construction, brand and price match."
+      },
+      {
+        "productId": "MGC-2433",
+        "reason": "The title identifies the verified blue tipping accent; the polo model, material, construction, brand and price match."
+      },
+      {
+        "productId": "MGC-2434",
+        "reason": "The title identifies the verified blue tipping accent; the polo model, material, construction, brand and price match."
+      }
+    ],
+    "optionLabels": {
+      "MGC-2429": "Black with Red",
+      "MGC-2430": "Blue with Yellow",
+      "MGC-2431": "Ice Blue with White",
+      "MGC-2432": "Navy Blue",
+      "MGC-2433": "Red with Blue",
+      "MGC-2434": "White with Blue"
+    },
+    "sharedImagePath": "media/products/apparel-lifestyle/polos-tees/marks-spencer-polo-t-shirt-tipping-black-with-red/8-angle-2c1885c86620.webp",
+    "sharedImageFileName": "2c1885c86620.webp",
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-001",
+    "familyCode": "MGC-FAM-001",
+    "productIds": [
+      "MGC-0124",
+      "MGC-0125",
+      "MGC-0126",
+      "MGC-0127"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-002",
+    "familyCode": "MGC-FAM-002",
+    "productIds": [
+      "MGC-0261",
+      "MGC-0262"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-003",
+    "familyCode": "MGC-FAM-003",
+    "productIds": [
+      "MGC-0272",
+      "MGC-0273"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-004",
+    "familyCode": "MGC-FAM-004",
+    "productIds": [
+      "MGC-0292",
+      "MGC-0293"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-005",
+    "familyCode": "MGC-FAM-005",
+    "productIds": [
+      "MGC-0321",
+      "MGC-0322",
+      "MGC-0323"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-006",
+    "familyCode": "MGC-FAM-006",
+    "productIds": [
+      "MGC-0324",
+      "MGC-0325"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-007",
+    "familyCode": "MGC-FAM-007",
+    "productIds": [
+      "MGC-0437",
+      "MGC-0438"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-008",
+    "familyCode": "MGC-FAM-008",
+    "productIds": [
+      "MGC-0511",
+      "MGC-0512"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-009",
+    "familyCode": "MGC-FAM-009",
+    "productIds": [
+      "MGC-0515",
+      "MGC-0516"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-010",
+    "familyCode": "MGC-FAM-010",
+    "productIds": [
+      "MGC-0769",
+      "MGC-0770"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-011",
+    "familyCode": "MGC-FAM-011",
+    "productIds": [
+      "MGC-0780",
+      "MGC-0781",
+      "MGC-0782"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-012",
+    "familyCode": "MGC-FAM-012",
+    "productIds": [
+      "MGC-0843",
+      "MGC-0844",
+      "MGC-0845"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-013",
+    "familyCode": "MGC-FAM-013",
+    "productIds": [
+      "MGC-0917",
+      "MGC-0918",
+      "MGC-0919"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-014",
+    "familyCode": "MGC-FAM-014",
+    "productIds": [
+      "MGC-0920",
+      "MGC-0921",
+      "MGC-0922"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-015",
+    "familyCode": "MGC-FAM-015",
+    "productIds": [
+      "MGC-0966",
+      "MGC-0965"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-016",
+    "familyCode": "MGC-FAM-016",
+    "productIds": [
+      "MGC-1057",
+      "MGC-1058"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-017",
+    "familyCode": "MGC-FAM-017",
+    "productIds": [
+      "MGC-1086",
+      "MGC-1087"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-018",
+    "familyCode": "MGC-FAM-018",
+    "productIds": [
+      "MGC-1097",
+      "MGC-1098"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-019",
+    "familyCode": "MGC-FAM-019",
+    "productIds": [
+      "MGC-1138",
+      "MGC-1139"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-020",
+    "familyCode": "MGC-FAM-020",
+    "productIds": [
+      "MGC-1232",
+      "MGC-1233",
+      "MGC-1234"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-021",
+    "familyCode": "MGC-FAM-021",
+    "productIds": [
+      "MGC-1378",
+      "MGC-1379"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-022",
+    "familyCode": "MGC-FAM-022",
+    "productIds": [
+      "MGC-1470",
+      "MGC-1471"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-023",
+    "familyCode": "MGC-FAM-023",
+    "productIds": [
+      "MGC-1480",
+      "MGC-1481"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-024",
+    "familyCode": "MGC-FAM-024",
+    "productIds": [
+      "MGC-1484",
+      "MGC-1485",
+      "MGC-1486",
+      "MGC-1487",
+      "MGC-1488",
+      "MGC-1490",
+      "MGC-1491",
+      "MGC-1492"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-025",
+    "familyCode": "MGC-FAM-025",
+    "productIds": [
+      "MGC-1574",
+      "MGC-1575"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-026",
+    "familyCode": "MGC-FAM-026",
+    "productIds": [
+      "MGC-1628",
+      "MGC-1629"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-027",
+    "familyCode": "MGC-FAM-027",
+    "productIds": [
+      "MGC-1726",
+      "MGC-1727",
+      "MGC-1728"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-028",
+    "familyCode": "MGC-FAM-028",
+    "productIds": [
+      "MGC-1774",
+      "MGC-1775",
+      "MGC-1776",
+      "MGC-1777"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-029",
+    "familyCode": "MGC-FAM-029",
+    "productIds": [
+      "MGC-2121",
+      "MGC-2122"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-030",
+    "familyCode": "MGC-FAM-030",
+    "productIds": [
+      "MGC-2123",
+      "MGC-2124"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-031",
+    "familyCode": "MGC-FAM-031",
+    "productIds": [
+      "MGC-2178",
+      "MGC-2179"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-032",
+    "familyCode": "MGC-FAM-032",
+    "productIds": [
+      "MGC-2555",
+      "MGC-2556",
+      "MGC-2554"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-2554": "Black with Turquoise Blue Tipping",
+      "MGC-2555": "Navy Blue with White Tipping",
+      "MGC-2556": "Royal Blue with White Tipping"
+    }
+  },
+  {
+    "familyId": "mgc-colour-033",
+    "familyCode": "MGC-FAM-033",
+    "productIds": [
+      "MGC-2930",
+      "MGC-2931"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-034",
+    "familyCode": "MGC-FAM-034",
+    "productIds": [
+      "MGC-2948",
+      "MGC-2949"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-035",
+    "familyCode": "MGC-FAM-035",
+    "productIds": [
+      "MGC-3989",
+      "MGC-3990"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-036",
+    "familyCode": "MGC-FAM-036",
+    "productIds": [
+      "MGC-4123",
+      "MGC-4124"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-037",
+    "familyCode": "MGC-FAM-037",
+    "productIds": [
+      "MGC-0054",
+      "MGC-0055",
+      "MGC-0056"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-038",
+    "familyCode": "MGC-FAM-038",
+    "productIds": [
+      "MGC-0203",
+      "MGC-0204"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-039",
+    "familyCode": "MGC-FAM-039",
+    "productIds": [
+      "MGC-0282",
+      "MGC-0283"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-040",
+    "familyCode": "MGC-FAM-040",
+    "productIds": [
+      "MGC-0340",
+      "MGC-0341",
+      "MGC-0342",
+      "MGC-0343"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-041",
+    "familyCode": "MGC-FAM-041",
+    "productIds": [
+      "MGC-0457",
+      "MGC-0458",
+      "MGC-0459"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-042",
+    "familyCode": "MGC-FAM-042",
+    "productIds": [
+      "MGC-0736",
+      "MGC-0737"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-043",
+    "familyCode": "MGC-FAM-043",
+    "productIds": [
+      "MGC-0749",
+      "MGC-0750",
+      "MGC-0751"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-044",
+    "familyCode": "MGC-FAM-044",
+    "productIds": [
+      "MGC-0994",
+      "MGC-0995"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-045",
+    "familyCode": "MGC-FAM-045",
+    "productIds": [
+      "MGC-1000",
+      "MGC-1001"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-046",
+    "familyCode": "MGC-FAM-046",
+    "productIds": [
+      "MGC-1024",
+      "MGC-1027"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-047",
+    "familyCode": "MGC-FAM-047",
+    "productIds": [
+      "MGC-1308",
+      "MGC-1309"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-048",
+    "familyCode": "MGC-FAM-048",
+    "productIds": [
+      "MGC-1380",
+      "MGC-1381",
+      "MGC-1382"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-049",
+    "familyCode": "MGC-FAM-049",
+    "productIds": [
+      "MGC-1860",
+      "MGC-1861"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-050",
+    "familyCode": "MGC-FAM-050",
+    "productIds": [
+      "MGC-1864",
+      "MGC-1865",
+      "MGC-1866"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-051",
+    "familyCode": "MGC-FAM-051",
+    "productIds": [
+      "MGC-1870",
+      "MGC-1871"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-052",
+    "familyCode": "MGC-FAM-052",
+    "productIds": [
+      "MGC-2207",
+      "MGC-2211"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-053",
+    "familyCode": "MGC-FAM-053",
+    "productIds": [
+      "MGC-2375",
+      "MGC-2376"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-054",
+    "familyCode": "MGC-FAM-054",
+    "productIds": [
+      "MGC-2528",
+      "MGC-2529"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-055",
+    "familyCode": "MGC-FAM-055",
+    "productIds": [
+      "MGC-2618",
+      "MGC-2619",
+      "MGC-2620"
+    ],
+    "optionLabels": {
+      "MGC-2618": "Pink",
+      "MGC-2619": "Black",
+      "MGC-2620": "Blue"
+    },
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-057",
+    "familyCode": "MGC-FAM-057",
+    "productIds": [
+      "MGC-2966",
+      "MGC-2967",
+      "MGC-2968"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-058",
+    "familyCode": "MGC-FAM-058",
+    "productIds": [
+      "MGC-4140",
+      "MGC-4141"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-059",
+    "familyCode": "MGC-FAM-059",
+    "productIds": [
+      "MGC-4145",
+      "MGC-4146"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-060",
+    "familyCode": "MGC-FAM-060",
+    "productIds": [
+      "MGC-2092",
+      "MGC-2093",
+      "MGC-2094",
+      "MGC-2095",
+      "MGC-2096",
+      "MGC-2097"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-2097",
+        "reason": "The all-white option omits the redundant white-tipping phrase; source specifications, price and reviewed images confirm the same polo design."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-061",
+    "familyCode": "MGC-FAM-061",
+    "productIds": [
+      "MGC-2112",
+      "MGC-2113",
+      "MGC-2114",
+      "MGC-2115",
+      "MGC-2116",
+      "MGC-2117",
+      "MGC-2118",
+      "MGC-2119"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-062",
+    "familyCode": "MGC-FAM-062",
+    "productIds": [
+      "MGC-2087",
+      "MGC-2088",
+      "MGC-2089",
+      "MGC-2090",
+      "MGC-2091"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-063",
+    "familyCode": "MGC-FAM-063",
+    "productIds": [
+      "MGC-2098",
+      "MGC-2099",
+      "MGC-2100",
+      "MGC-2101",
+      "MGC-2102",
+      "MGC-2103"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-2099",
+        "reason": "The source title includes the variant’s verified tipping colour as well as the shirt colour. Master images show the same Adidas Clima Lite polo construction; source brand, category, specifications, and price match."
+      },
+      {
+        "productId": "MGC-2100",
+        "reason": "The source title includes the variant’s verified tipping colour as well as the shirt colour. Master images show the same Adidas Clima Lite polo construction; source brand, category, specifications, and price match."
+      },
+      {
+        "productId": "MGC-2102",
+        "reason": "The source title includes the variant’s verified tipping colour as well as the shirt colour. Master images show the same Adidas Clima Lite polo construction; source brand, category, specifications, and price match."
+      },
+      {
+        "productId": "MGC-2103",
+        "reason": "The source title includes the variant’s verified tipping colour as well as the shirt colour. Master images show the same Adidas Clima Lite polo construction; source brand, category, specifications, and price match."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-064",
+    "familyCode": "MGC-FAM-064",
+    "productIds": [
+      "MGC-2104",
+      "MGC-2105",
+      "MGC-2106",
+      "MGC-2107",
+      "MGC-2108",
+      "MGC-2109",
+      "MGC-2110",
+      "MGC-2111"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-065",
+    "familyCode": "MGC-FAM-065",
+    "productIds": [
+      "MGC-2154",
+      "MGC-2155",
+      "MGC-2156",
+      "MGC-2157",
+      "MGC-2158",
+      "MGC-2159"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-066",
+    "familyCode": "MGC-FAM-066",
+    "productIds": [
+      "MGC-2160",
+      "MGC-2161",
+      "MGC-2162",
+      "MGC-2163"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-067",
+    "familyCode": "MGC-FAM-067",
+    "productIds": [
+      "MGC-2133",
+      "MGC-2134",
+      "MGC-2132",
+      "MGC-2138"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-2132",
+        "reason": "The source title uses an apostrophe in “Grey’s” while the same brand/model titles omit it; the source Color field and image confirm the Maroon colourway."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-068",
+    "familyCode": "MGC-FAM-068",
+    "productIds": [
+      "MGC-2139",
+      "MGC-2140",
+      "MGC-2141"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-069",
+    "familyCode": "MGC-FAM-069",
+    "productIds": [
+      "MGC-2142",
+      "MGC-2143",
+      "MGC-2145",
+      "MGC-2146",
+      "MGC-2147",
+      "MGC-2148"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-070",
+    "familyCode": "MGC-FAM-070",
+    "productIds": [
+      "MGC-2196",
+      "MGC-2197",
+      "MGC-2198",
+      "MGC-2199",
+      "MGC-2200",
+      "MGC-2201",
+      "MGC-2202",
+      "MGC-2203",
+      "MGC-2204"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-071",
+    "familyCode": "MGC-FAM-071",
+    "productIds": [
+      "MGC-2214",
+      "MGC-2215",
+      "MGC-2216",
+      "MGC-2217",
+      "MGC-2213"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-2213",
+        "reason": "The verified Blue colour also appears inside the source brand text “Greys&Blues”; the product model and remaining title match the family."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-072",
+    "familyCode": "MGC-FAM-072",
+    "productIds": [
+      "MGC-2164",
+      "MGC-2165",
+      "MGC-2169",
+      "MGC-2170"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-073",
+    "familyCode": "MGC-FAM-073",
+    "productIds": [
+      "MGC-2205",
+      "MGC-2208",
+      "MGC-2209",
+      "MGC-2210"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-074",
+    "familyCode": "MGC-FAM-074",
+    "productIds": [
+      "MGC-2219",
+      "MGC-2221",
+      "MGC-2222"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-075",
+    "familyCode": "MGC-FAM-075",
+    "productIds": [
+      "MGC-2224",
+      "MGC-2227",
+      "MGC-2231",
+      "MGC-2232"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-076",
+    "familyCode": "MGC-FAM-076",
+    "productIds": [
+      "MGC-2149",
+      "MGC-2150",
+      "MGC-2151",
+      "MGC-2152"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-077",
+    "familyCode": "MGC-FAM-077",
+    "productIds": [
+      "MGC-2125",
+      "MGC-2126",
+      "MGC-2127",
+      "MGC-2128",
+      "MGC-2129",
+      "MGC-2130",
+      "MGC-2131"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-078",
+    "familyCode": "MGC-FAM-078",
+    "productIds": [
+      "MGC-2187",
+      "MGC-2188",
+      "MGC-2189",
+      "MGC-2190",
+      "MGC-2191",
+      "MGC-2192",
+      "MGC-2193",
+      "MGC-2194",
+      "MGC-2195"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-079",
+    "familyCode": "MGC-FAM-079",
+    "productIds": [
+      "MGC-2264",
+      "MGC-2265",
+      "MGC-2266",
+      "MGC-2267"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-080",
+    "familyCode": "MGC-FAM-080",
+    "productIds": [
+      "MGC-2268",
+      "MGC-2269",
+      "MGC-2271",
+      "MGC-2272",
+      "MGC-2273",
+      "MGC-2274"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-081",
+    "familyCode": "MGC-FAM-081",
+    "productIds": [
+      "MGC-2312",
+      "MGC-2314",
+      "MGC-2315",
+      "MGC-2317"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-082",
+    "familyCode": "MGC-FAM-082",
+    "productIds": [
+      "MGC-2286",
+      "MGC-2287"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-083",
+    "familyCode": "MGC-FAM-083",
+    "productIds": [
+      "MGC-2180",
+      "MGC-2181",
+      "MGC-2182",
+      "MGC-2183",
+      "MGC-2184",
+      "MGC-2185",
+      "MGC-2186"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-084",
+    "familyCode": "MGC-FAM-084",
+    "productIds": [
+      "MGC-2318",
+      "MGC-2322"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-085",
+    "familyCode": "MGC-FAM-085",
+    "productIds": [
+      "MGC-2171",
+      "MGC-2173",
+      "MGC-2174",
+      "MGC-2175",
+      "MGC-2176",
+      "MGC-2177"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-086",
+    "familyCode": "MGC-FAM-086",
+    "productIds": [
+      "MGC-2328",
+      "MGC-2329"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-087",
+    "familyCode": "MGC-FAM-087",
+    "productIds": [
+      "MGC-2332",
+      "MGC-2333",
+      "MGC-2334",
+      "MGC-2335",
+      "MGC-2336"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-088",
+    "familyCode": "MGC-FAM-088",
+    "productIds": [
+      "MGC-2325",
+      "MGC-2326",
+      "MGC-2327"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-089",
+    "familyCode": "MGC-FAM-089",
+    "productIds": [
+      "MGC-2346",
+      "MGC-2347",
+      "MGC-2348"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-090",
+    "familyCode": "MGC-FAM-090",
+    "productIds": [
+      "MGC-2349",
+      "MGC-2350",
+      "MGC-2351",
+      "MGC-2352",
+      "MGC-2353",
+      "MGC-2354"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-091",
+    "familyCode": "MGC-FAM-091",
+    "productIds": [
+      "MGC-2378",
+      "MGC-2379",
+      "MGC-2380",
+      "MGC-2381",
+      "MGC-2382"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-092",
+    "familyCode": "MGC-FAM-092",
+    "productIds": [
+      "MGC-2360",
+      "MGC-2361"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-093",
+    "familyCode": "MGC-FAM-093",
+    "productIds": [
+      "MGC-2370",
+      "MGC-2371"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-094",
+    "familyCode": "MGC-FAM-094",
+    "productIds": [
+      "MGC-2355",
+      "MGC-2356"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-095",
+    "familyCode": "MGC-FAM-095",
+    "productIds": [
+      "MGC-2358",
+      "MGC-2359"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-096",
+    "familyCode": "MGC-FAM-096",
+    "productIds": [
+      "MGC-2362",
+      "MGC-2363",
+      "MGC-2364",
+      "MGC-2365",
+      "MGC-2366"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-097",
+    "familyCode": "MGC-FAM-097",
+    "productIds": [
+      "MGC-2386",
+      "MGC-2388",
+      "MGC-2389",
+      "MGC-2390",
+      "MGC-2391",
+      "MGC-2392",
+      "MGC-2393",
+      "MGC-2394"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-098",
+    "familyCode": "MGC-FAM-098",
+    "productIds": [
+      "MGC-2406",
+      "MGC-2407",
+      "MGC-2409",
+      "MGC-2410",
+      "MGC-2411"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {}
+  },
+  {
+    "familyId": "mgc-colour-099",
+    "familyCode": "MGC-FAM-099",
+    "productIds": [
+      "MGC-2414",
+      "MGC-2415",
+      "MGC-2416"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-100",
+    "familyCode": "MGC-FAM-100",
+    "productIds": [
+      "MGC-2417",
+      "MGC-2418",
+      "MGC-2419",
+      "MGC-2420"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-101",
+    "familyCode": "MGC-FAM-101",
+    "productIds": [
+      "MGC-2399",
+      "MGC-2400",
+      "MGC-2401",
+      "MGC-2402"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-102",
+    "familyCode": "MGC-FAM-102",
+    "productIds": [
+      "MGC-2403",
+      "MGC-2404",
+      "MGC-2405"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-103",
+    "familyCode": "MGC-FAM-103",
+    "productIds": [
+      "MGC-2395",
+      "MGC-2396",
+      "MGC-2397",
+      "MGC-2398"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-104",
+    "familyCode": "MGC-FAM-104",
+    "productIds": [
+      "MGC-2424",
+      "MGC-2425",
+      "MGC-2426",
+      "MGC-2427",
+      "MGC-2428"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-105",
+    "familyCode": "MGC-FAM-105",
+    "productIds": [
+      "MGC-2421",
+      "MGC-2422",
+      "MGC-2423"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-106",
+    "familyCode": "MGC-FAM-106",
+    "productIds": [
+      "MGC-2437",
+      "MGC-2438",
+      "MGC-2439",
+      "MGC-2440",
+      "MGC-2441",
+      "MGC-2442",
+      "MGC-2443",
+      "MGC-2444",
+      "MGC-2445"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-107",
+    "familyCode": "MGC-FAM-107",
+    "productIds": [
+      "MGC-2453",
+      "MGC-2454",
+      "MGC-2455",
+      "MGC-2456",
+      "MGC-2457",
+      "MGC-2458"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-108",
+    "familyCode": "MGC-FAM-108",
+    "productIds": [
+      "MGC-2446",
+      "MGC-2447",
+      "MGC-2448",
+      "MGC-2449",
+      "MGC-2450",
+      "MGC-2451",
+      "MGC-2452"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-109",
+    "familyCode": "MGC-FAM-109",
+    "productIds": [
+      "MGC-2693",
+      "MGC-2694",
+      "MGC-2695",
+      "MGC-2696",
+      "MGC-2697",
+      "MGC-2698",
+      "MGC-2699",
+      "MGC-2700",
+      "MGC-2701",
+      "MGC-2702",
+      "MGC-2704",
+      "MGC-2705",
+      "MGC-2706",
+      "MGC-2707",
+      "MGC-2708",
+      "MGC-2709"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-110",
+    "familyCode": "MGC-FAM-110",
+    "productIds": [
+      "MGC-2463",
+      "MGC-2464",
+      "MGC-2465"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-111",
+    "familyCode": "MGC-FAM-111",
+    "productIds": [
+      "MGC-2459",
+      "MGC-2460"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-112",
+    "familyCode": "MGC-FAM-112",
+    "productIds": [
+      "MGC-2474",
+      "MGC-2475"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-113",
+    "familyCode": "MGC-FAM-113",
+    "productIds": [
+      "MGC-2466",
+      "MGC-2467",
+      "MGC-2468",
+      "MGC-2469",
+      "MGC-2470"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-114",
+    "familyCode": "MGC-FAM-114",
+    "productIds": [
+      "MGC-2471",
+      "MGC-2472",
+      "MGC-2473"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-115",
+    "familyCode": "MGC-FAM-115",
+    "productIds": [
+      "MGC-2484",
+      "MGC-2485",
+      "MGC-2486",
+      "MGC-2487",
+      "MGC-2488"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-116",
+    "familyCode": "MGC-FAM-116",
+    "productIds": [
+      "MGC-2489",
+      "MGC-2490",
+      "MGC-2491",
+      "MGC-2492",
+      "MGC-2493"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-2489": "Black with White Tipping",
+      "MGC-2490": "Grey with Black Tipping",
+      "MGC-2491": "Navy Blue with White Tipping",
+      "MGC-2492": "Red with White Tipping",
+      "MGC-2493": "White with Blue Tipping"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2490",
+        "reason": "The verified title identifies grey fabric with black tipping; the Puma polo model and specifications match the same colour family."
+      },
+      {
+        "productId": "MGC-2493",
+        "reason": "The verified title identifies white fabric with blue tipping; the Puma polo model and specifications match the same colour family."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-117",
+    "familyCode": "MGC-FAM-117",
+    "productIds": [
+      "MGC-2481",
+      "MGC-2482",
+      "MGC-2483"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-118",
+    "familyCode": "MGC-FAM-118",
+    "productIds": [
+      "MGC-2476",
+      "MGC-2477",
+      "MGC-2478",
+      "MGC-2479",
+      "MGC-2480"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-119",
+    "familyCode": "MGC-FAM-119",
+    "productIds": [
+      "MGC-2518",
+      "MGC-2520",
+      "MGC-2521",
+      "MGC-2522",
+      "MGC-2519"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-2519",
+        "reason": "The source title misspells Navy Blue as “Navy Blye”; the source Color field and product image confirm Navy Blue."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-120",
+    "familyCode": "MGC-FAM-120",
+    "productIds": [
+      "MGC-2512",
+      "MGC-2513",
+      "MGC-2514",
+      "MGC-2515",
+      "MGC-2516",
+      "MGC-2517"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-121",
+    "familyCode": "MGC-FAM-121",
+    "productIds": [
+      "MGC-2505",
+      "MGC-2506",
+      "MGC-2507",
+      "MGC-2508",
+      "MGC-2509",
+      "MGC-2510",
+      "MGC-2511"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-122",
+    "familyCode": "MGC-FAM-122",
+    "productIds": [
+      "MGC-2495",
+      "MGC-2496",
+      "MGC-2497",
+      "MGC-2498",
+      "MGC-2499"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-123",
+    "familyCode": "MGC-FAM-123",
+    "productIds": [
+      "MGC-2500",
+      "MGC-2502",
+      "MGC-2503",
+      "MGC-2504",
+      "MGC-2501"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-2501",
+        "reason": "The source title and Color field repeat Dark Grey with a source typo; the image confirms the same Reebok T-shirt in Dark Grey."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-124",
+    "familyCode": "MGC-FAM-124",
+    "productIds": [
+      "MGC-2592",
+      "MGC-2593",
+      "MGC-2594",
+      "MGC-2595",
+      "MGC-2596",
+      "MGC-2597",
+      "MGC-2598",
+      "MGC-2599",
+      "MGC-2600",
+      "MGC-2601",
+      "MGC-2602"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-125",
+    "familyCode": "MGC-FAM-125",
+    "productIds": [
+      "MGC-2574",
+      "MGC-2575",
+      "MGC-2576",
+      "MGC-2577",
+      "MGC-2578",
+      "MGC-2579",
+      "MGC-2580",
+      "MGC-2581"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-126",
+    "familyCode": "MGC-FAM-126",
+    "productIds": [
+      "MGC-2603",
+      "MGC-2604",
+      "MGC-2605",
+      "MGC-2606",
+      "MGC-2607",
+      "MGC-2608",
+      "MGC-2609",
+      "MGC-2610"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-127",
+    "familyCode": "MGC-FAM-127",
+    "productIds": [
+      "MGC-2611",
+      "MGC-2612",
+      "MGC-2613",
+      "MGC-2614",
+      "MGC-2615",
+      "MGC-2616",
+      "MGC-2617"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-129",
+    "familyCode": "MGC-FAM-129",
+    "productIds": [
+      "MGC-2563",
+      "MGC-2564",
+      "MGC-2565",
+      "MGC-2566",
+      "MGC-2567",
+      "MGC-2568",
+      "MGC-2569",
+      "MGC-2570",
+      "MGC-2571",
+      "MGC-2572",
+      "MGC-2573"
+    ],
+    "optionLabels": {
+      "MGC-2566": "Navy Blue"
+    },
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-130",
+    "familyCode": "MGC-FAM-130",
+    "productIds": [
+      "MGC-2621",
+      "MGC-2622",
+      "MGC-2623",
+      "MGC-2624",
+      "MGC-2626"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-131",
+    "familyCode": "MGC-FAM-131",
+    "productIds": [
+      "MGC-2532",
+      "MGC-2533",
+      "MGC-2534",
+      "MGC-2535"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "allowMissingSpecifications": [
+      "Country of Origin"
+    ]
+  },
+  {
+    "familyId": "mgc-colour-132",
+    "familyCode": "MGC-FAM-132",
+    "productIds": [
+      "MGC-2557",
+      "MGC-2558",
+      "MGC-2559",
+      "MGC-2560"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-133",
+    "familyCode": "MGC-FAM-133",
+    "productIds": [
+      "MGC-2684",
+      "MGC-2685",
+      "MGC-2686",
+      "MGC-2687",
+      "MGC-2688",
+      "MGC-2689"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-134",
+    "familyCode": "MGC-FAM-134",
+    "productIds": [
+      "MGC-2561",
+      "MGC-2562"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-135",
+    "familyCode": "MGC-FAM-135",
+    "productIds": [
+      "MGC-2536",
+      "MGC-2537",
+      "MGC-2538",
+      "MGC-2539",
+      "MGC-2540",
+      "MGC-2541",
+      "MGC-2542",
+      "MGC-2544"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-136",
+    "familyCode": "MGC-FAM-136",
+    "productIds": [
+      "MGC-2628",
+      "MGC-2639",
+      "MGC-2643",
+      "MGC-2653"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-137",
+    "familyCode": "MGC-FAM-137",
+    "productIds": [
+      "MGC-2630",
+      "MGC-2636",
+      "MGC-2655"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-138",
+    "familyCode": "MGC-FAM-138",
+    "productIds": [
+      "MGC-2631",
+      "MGC-2656"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-139",
+    "familyCode": "MGC-FAM-139",
+    "productIds": [
+      "MGC-2633",
+      "MGC-2635",
+      "MGC-2637",
+      "MGC-2638",
+      "MGC-2641",
+      "MGC-2642",
+      "MGC-2644",
+      "MGC-2645",
+      "MGC-2646",
+      "MGC-2648",
+      "MGC-2649",
+      "MGC-2650",
+      "MGC-2651",
+      "MGC-2652"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-140",
+    "familyCode": "MGC-FAM-140",
+    "productIds": [
+      "MGC-2640",
+      "MGC-2647",
+      "MGC-2657"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-141",
+    "familyCode": "MGC-FAM-141",
+    "productIds": [
+      "MGC-2659",
+      "MGC-2680"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-142",
+    "familyCode": "MGC-FAM-142",
+    "productIds": [
+      "MGC-2661",
+      "MGC-2664",
+      "MGC-2681"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-143",
+    "familyCode": "MGC-FAM-143",
+    "productIds": [
+      "MGC-2667",
+      "MGC-2683"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-144",
+    "familyCode": "MGC-FAM-144",
+    "productIds": [
+      "MGC-2530",
+      "MGC-2531"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-145",
+    "familyCode": "MGC-FAM-145",
+    "productIds": [
+      "MGC-2545",
+      "MGC-2546",
+      "MGC-2547",
+      "MGC-2548",
+      "MGC-2549",
+      "MGC-2550",
+      "MGC-2551",
+      "MGC-2552",
+      "MGC-2553"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-146",
+    "familyCode": "MGC-FAM-146",
+    "productIds": [
+      "MGC-2712",
+      "MGC-2713",
+      "MGC-2715",
+      "MGC-2716",
+      "MGC-2717",
+      "MGC-2718",
+      "MGC-2719",
+      "MGC-2720",
+      "MGC-2721",
+      "MGC-2722",
+      "MGC-2723",
+      "MGC-2724",
+      "MGC-2725",
+      "MGC-2726",
+      "MGC-2727",
+      "MGC-2728",
+      "MGC-2729",
+      "MGC-2730"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-147",
+    "familyCode": "MGC-FAM-147",
+    "productIds": [
+      "MGC-2690",
+      "MGC-2691"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-148",
+    "familyCode": "MGC-FAM-148",
+    "productIds": [
+      "MGC-2731",
+      "MGC-2732",
+      "MGC-2733",
+      "MGC-2735",
+      "MGC-2736",
+      "MGC-2737",
+      "MGC-2738",
+      "MGC-2739",
+      "MGC-2740"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-149",
+    "familyCode": "MGC-FAM-149",
+    "productIds": [
+      "MGC-2750",
+      "MGC-2752"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-150",
+    "familyCode": "MGC-FAM-150",
+    "productIds": [
+      "MGC-2741",
+      "MGC-2742",
+      "MGC-2743",
+      "MGC-2744",
+      "MGC-2745",
+      "MGC-2746",
+      "MGC-2747",
+      "MGC-2748"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-151",
+    "familyCode": "MGC-FAM-151",
+    "productIds": [
+      "MGC-2774",
+      "MGC-2775"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-152",
+    "familyCode": "MGC-FAM-152",
+    "productIds": [
+      "MGC-2776",
+      "MGC-2777"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-153",
+    "familyCode": "MGC-FAM-153",
+    "productIds": [
+      "MGC-2779",
+      "MGC-2780",
+      "MGC-2781",
+      "MGC-2782"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-154",
+    "familyCode": "MGC-FAM-154",
+    "productIds": [
+      "MGC-2795",
+      "MGC-2796",
+      "MGC-2797",
+      "MGC-2798",
+      "MGC-2799"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-2795": "Grey with White & Red",
+      "MGC-2796": "Mustard with Blue & White",
+      "MGC-2797": "Siemens Green with White & Black",
+      "MGC-2798": "Teal Blue with White & Black",
+      "MGC-2799": "Yellow with Blue & White"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2795",
+        "reason": "The source title specifies this body and tipping colourway; the photos show the same UCB women’s polo model."
+      },
+      {
+        "productId": "MGC-2796",
+        "reason": "The source title specifies this body and tipping colourway; the photos show the same UCB women’s polo model."
+      },
+      {
+        "productId": "MGC-2797",
+        "reason": "The source title specifies this body and tipping colourway; the photos show the same UCB women’s polo model."
+      },
+      {
+        "productId": "MGC-2798",
+        "reason": "The source title specifies this body and tipping colourway; the photos show the same UCB women’s polo model."
+      },
+      {
+        "productId": "MGC-2799",
+        "reason": "The source title specifies this body and tipping colourway; the photos show the same UCB women’s polo model."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-155",
+    "familyCode": "MGC-FAM-155",
+    "productIds": [
+      "MGC-2783",
+      "MGC-2785",
+      "MGC-2786",
+      "MGC-2787",
+      "MGC-2788"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-156",
+    "familyCode": "MGC-FAM-156",
+    "productIds": [
+      "MGC-2805",
+      "MGC-2806",
+      "MGC-2807",
+      "MGC-2808",
+      "MGC-2810",
+      "MGC-2811",
+      "MGC-2812",
+      "MGC-2813"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-157",
+    "familyCode": "MGC-FAM-157",
+    "productIds": [
+      "MGC-2800",
+      "MGC-2801",
+      "MGC-2802",
+      "MGC-2803",
+      "MGC-2804"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-158",
+    "familyCode": "MGC-FAM-158",
+    "productIds": [
+      "MGC-2373",
+      "MGC-2374"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-159",
+    "familyCode": "MGC-FAM-159",
+    "productIds": [
+      "MGC-0084",
+      "MGC-0085"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-160",
+    "familyCode": "MGC-FAM-160",
+    "productIds": [
+      "MGC-0080",
+      "MGC-0082",
+      "MGC-0083"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-161",
+    "familyCode": "MGC-FAM-161",
+    "productIds": [
+      "MGC-2829",
+      "MGC-2830",
+      "MGC-2831"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-162",
+    "familyCode": "MGC-FAM-162",
+    "productIds": [
+      "MGC-1089",
+      "MGC-1090"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-163",
+    "familyCode": "MGC-FAM-163",
+    "productIds": [
+      "MGC-1092",
+      "MGC-1093"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-164",
+    "familyCode": "MGC-FAM-164",
+    "productIds": [
+      "MGC-1094",
+      "MGC-1095",
+      "MGC-1096"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-165",
+    "familyCode": "MGC-FAM-165",
+    "productIds": [
+      "MGC-1084",
+      "MGC-1085"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-166",
+    "familyCode": "MGC-FAM-166",
+    "productIds": [
+      "MGC-1100",
+      "MGC-1101"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-167",
+    "familyCode": "MGC-FAM-167",
+    "productIds": [
+      "MGC-1180",
+      "MGC-1181"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-168",
+    "familyCode": "MGC-FAM-168",
+    "productIds": [
+      "MGC-1281",
+      "MGC-1282",
+      "MGC-1283"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-169",
+    "familyCode": "MGC-FAM-169",
+    "productIds": [
+      "MGC-1284",
+      "MGC-1285",
+      "MGC-1286"
+    ],
+    "optionLabels": {
+      "MGC-1284": "Black",
+      "MGC-1285": "Blue",
+      "MGC-1286": "Grey with Black"
+    },
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-170",
+    "familyCode": "MGC-FAM-170",
+    "productIds": [
+      "MGC-1287",
+      "MGC-1288"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-171",
+    "familyCode": "MGC-FAM-171",
+    "productIds": [
+      "MGC-0600",
+      "MGC-0601",
+      "MGC-0602",
+      "MGC-0603",
+      "MGC-0604"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-172",
+    "familyCode": "MGC-FAM-172",
+    "productIds": [
+      "MGC-0481",
+      "MGC-0482"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-173",
+    "familyCode": "MGC-FAM-173",
+    "productIds": [
+      "MGC-0477",
+      "MGC-0478",
+      "MGC-0479",
+      "MGC-0480"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-174",
+    "familyCode": "MGC-FAM-174",
+    "productIds": [
+      "MGC-1291",
+      "MGC-1292",
+      "MGC-1293"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-175",
+    "familyCode": "MGC-FAM-175",
+    "productIds": [
+      "MGC-1294",
+      "MGC-1295",
+      "MGC-1296",
+      "MGC-1297"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-176",
+    "familyCode": "MGC-FAM-176",
+    "productIds": [
+      "MGC-1299",
+      "MGC-1300",
+      "MGC-1301",
+      "MGC-1302"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-177",
+    "familyCode": "MGC-FAM-177",
+    "productIds": [
+      "MGC-1303",
+      "MGC-1304"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-178",
+    "familyCode": "MGC-FAM-178",
+    "productIds": [
+      "MGC-1730",
+      "MGC-1731"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-179",
+    "familyCode": "MGC-FAM-179",
+    "productIds": [
+      "MGC-0484",
+      "MGC-0485"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-180",
+    "familyCode": "MGC-FAM-180",
+    "productIds": [
+      "MGC-0486",
+      "MGC-0487",
+      "MGC-0488"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-181",
+    "familyCode": "MGC-FAM-181",
+    "productIds": [
+      "MGC-0489",
+      "MGC-0490",
+      "MGC-0491"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-182",
+    "familyCode": "MGC-FAM-182",
+    "productIds": [
+      "MGC-0612",
+      "MGC-0613"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-183",
+    "familyCode": "MGC-FAM-183",
+    "productIds": [
+      "MGC-0618",
+      "MGC-0619",
+      "MGC-0620",
+      "MGC-0621",
+      "MGC-0622"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-184",
+    "familyCode": "MGC-FAM-184",
+    "productIds": [
+      "MGC-0614",
+      "MGC-0615",
+      "MGC-0616",
+      "MGC-0617"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-185",
+    "familyCode": "MGC-FAM-185",
+    "productIds": [
+      "MGC-0605",
+      "MGC-0606",
+      "MGC-0607",
+      "MGC-0608"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-186",
+    "familyCode": "MGC-FAM-186",
+    "productIds": [
+      "MGC-0609",
+      "MGC-0610",
+      "MGC-0611"
+    ],
+    "optionLabels": {
+      "MGC-0609": "Green",
+      "MGC-0610": "Dark Grey",
+      "MGC-0611": "White"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-0610",
+        "reason": "The source title says Grey; the source Color field and reviewed product image identify this option as Dark Grey."
+      }
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-187",
+    "familyCode": "MGC-FAM-187",
+    "productIds": [
+      "MGC-1612",
+      "MGC-1613",
+      "MGC-1614",
+      "MGC-1615"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-188",
+    "familyCode": "MGC-FAM-188",
+    "productIds": [
+      "MGC-1623",
+      "MGC-1624",
+      "MGC-1625"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-189",
+    "familyCode": "MGC-FAM-189",
+    "productIds": [
+      "MGC-1319",
+      "MGC-1320",
+      "MGC-1321",
+      "MGC-1322"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-190",
+    "familyCode": "MGC-FAM-190",
+    "productIds": [
+      "MGC-1495",
+      "MGC-1496"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-191",
+    "familyCode": "MGC-FAM-191",
+    "productIds": [
+      "MGC-1620",
+      "MGC-1621",
+      "MGC-1622"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-192",
+    "familyCode": "MGC-FAM-192",
+    "productIds": [
+      "MGC-1636",
+      "MGC-1637",
+      "MGC-1638"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-193",
+    "familyCode": "MGC-FAM-193",
+    "productIds": [
+      "MGC-1631",
+      "MGC-1632",
+      "MGC-1633",
+      "MGC-1634",
+      "MGC-1635"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-194",
+    "familyCode": "MGC-FAM-194",
+    "productIds": [
+      "MGC-1616",
+      "MGC-1617"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-195",
+    "familyCode": "MGC-FAM-195",
+    "productIds": [
+      "MGC-1618",
+      "MGC-1619"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-196",
+    "familyCode": "MGC-FAM-196",
+    "productIds": [
+      "MGC-1626",
+      "MGC-1627"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-197",
+    "familyCode": "MGC-FAM-197",
+    "productIds": [
+      "MGC-0294",
+      "MGC-0295",
+      "MGC-0296",
+      "MGC-0297"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-198",
+    "familyCode": "MGC-FAM-198",
+    "productIds": [
+      "MGC-3835",
+      "MGC-3836",
+      "MGC-3837",
+      "MGC-3838",
+      "MGC-3839",
+      "MGC-3840",
+      "MGC-3841",
+      "MGC-3842"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-199",
+    "familyCode": "MGC-FAM-199",
+    "productIds": [
+      "MGC-0572",
+      "MGC-0573"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-200",
+    "familyCode": "MGC-FAM-200",
+    "productIds": [
+      "MGC-1071",
+      "MGC-1072",
+      "MGC-1073",
+      "MGC-1074"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-201",
+    "familyCode": "MGC-FAM-201",
+    "productIds": [
+      "MGC-0934",
+      "MGC-0935"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-202",
+    "familyCode": "MGC-FAM-202",
+    "productIds": [
+      "MGC-0936",
+      "MGC-0937"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-203",
+    "familyCode": "MGC-FAM-203",
+    "productIds": [
+      "MGC-0116",
+      "MGC-0117",
+      "MGC-0118"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-204",
+    "familyCode": "MGC-FAM-204",
+    "productIds": [
+      "MGC-1107",
+      "MGC-1108"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-205",
+    "familyCode": "MGC-FAM-205",
+    "productIds": [
+      "MGC-0696",
+      "MGC-0697"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-206",
+    "familyCode": "MGC-FAM-206",
+    "productIds": [
+      "MGC-0313",
+      "MGC-0314",
+      "MGC-0315"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-207",
+    "familyCode": "MGC-FAM-207",
+    "productIds": [
+      "MGC-3816",
+      "MGC-3817"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-208",
+    "familyCode": "MGC-FAM-208",
+    "productIds": [
+      "MGC-0087",
+      "MGC-0088"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-209",
+    "familyCode": "MGC-FAM-209",
+    "productIds": [
+      "MGC-2008",
+      "MGC-2009",
+      "MGC-2010",
+      "MGC-2011"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-210",
+    "familyCode": "MGC-FAM-210",
+    "productIds": [
+      "MGC-0185",
+      "MGC-0186",
+      "MGC-0187"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-211",
+    "familyCode": "MGC-FAM-211",
+    "productIds": [
+      "MGC-0682",
+      "MGC-0683"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-212",
+    "familyCode": "MGC-FAM-212",
+    "productIds": [
+      "MGC-1857",
+      "MGC-1858",
+      "MGC-1859"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-213",
+    "familyCode": "MGC-FAM-213",
+    "productIds": [
+      "MGC-1722",
+      "MGC-1723"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-214",
+    "familyCode": "MGC-FAM-214",
+    "productIds": [
+      "MGC-3843",
+      "MGC-3844",
+      "MGC-3845"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-215",
+    "familyCode": "MGC-FAM-215",
+    "productIds": [
+      "MGC-2958",
+      "MGC-2959",
+      "MGC-2960",
+      "MGC-2961"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-216",
+    "familyCode": "MGC-FAM-216",
+    "productIds": [
+      "MGC-2962",
+      "MGC-2963",
+      "MGC-2964",
+      "MGC-2965"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-217",
+    "familyCode": "MGC-FAM-217",
+    "productIds": [
+      "MGC-1680",
+      "MGC-1682"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-218",
+    "familyCode": "MGC-FAM-218",
+    "productIds": [
+      "MGC-1685",
+      "MGC-1686"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-219",
+    "familyCode": "MGC-FAM-219",
+    "productIds": [
+      "MGC-1889",
+      "MGC-1890",
+      "MGC-1891"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-220",
+    "familyCode": "MGC-FAM-220",
+    "productIds": [
+      "MGC-0279",
+      "MGC-0280",
+      "MGC-0281"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-221",
+    "familyCode": "MGC-FAM-221",
+    "productIds": [
+      "MGC-0585",
+      "MGC-0586",
+      "MGC-0587",
+      "MGC-0588"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-222",
+    "familyCode": "MGC-FAM-222",
+    "productIds": [
+      "MGC-3723",
+      "MGC-3724"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-223",
+    "familyCode": "MGC-FAM-223",
+    "productIds": [
+      "MGC-0507",
+      "MGC-0508",
+      "MGC-0509"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-224",
+    "familyCode": "MGC-FAM-224",
+    "productIds": [
+      "MGC-0635",
+      "MGC-0636",
+      "MGC-0637"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-225",
+    "familyCode": "MGC-FAM-225",
+    "productIds": [
+      "MGC-0638",
+      "MGC-0639",
+      "MGC-0640"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-226",
+    "familyCode": "MGC-FAM-226",
+    "productIds": [
+      "MGC-1689",
+      "MGC-1690",
+      "MGC-1691"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-227",
+    "familyCode": "MGC-FAM-227",
+    "productIds": [
+      "MGC-1569",
+      "MGC-1570",
+      "MGC-1571"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-228",
+    "familyCode": "MGC-FAM-228",
+    "productIds": [
+      "MGC-1694",
+      "MGC-1695"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-229",
+    "familyCode": "MGC-FAM-229",
+    "productIds": [
+      "MGC-1572",
+      "MGC-1573"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-230",
+    "familyCode": "MGC-FAM-230",
+    "productIds": [
+      "MGC-1692",
+      "MGC-1693"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-231",
+    "familyCode": "MGC-FAM-231",
+    "productIds": [
+      "MGC-0188",
+      "MGC-0189"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-232",
+    "familyCode": "MGC-FAM-232",
+    "productIds": [
+      "MGC-0317",
+      "MGC-0318",
+      "MGC-0319"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-233",
+    "familyCode": "MGC-FAM-233",
+    "productIds": [
+      "MGC-4087",
+      "MGC-4088"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-234",
+    "familyCode": "MGC-FAM-234",
+    "productIds": [
+      "MGC-3732",
+      "MGC-3733"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-235",
+    "familyCode": "MGC-FAM-235",
+    "productIds": [
+      "MGC-1738",
+      "MGC-1739",
+      "MGC-1740"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-236",
+    "familyCode": "MGC-FAM-236",
+    "productIds": [
+      "MGC-1903",
+      "MGC-1904"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-237",
+    "familyCode": "MGC-FAM-237",
+    "productIds": [
+      "MGC-1901",
+      "MGC-1902"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-238",
+    "familyCode": "MGC-FAM-238",
+    "productIds": [
+      "MGC-0700",
+      "MGC-0701"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-239",
+    "familyCode": "MGC-FAM-239",
+    "productIds": [
+      "MGC-0128",
+      "MGC-0129",
+      "MGC-0130",
+      "MGC-0131",
+      "MGC-0132",
+      "MGC-0133"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-240",
+    "familyCode": "MGC-FAM-240",
+    "productIds": [
+      "MGC-0686",
+      "MGC-0687",
+      "MGC-0688"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-241",
+    "familyCode": "MGC-FAM-241",
+    "productIds": [
+      "MGC-2035",
+      "MGC-2036",
+      "MGC-2037"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-242",
+    "familyCode": "MGC-FAM-242",
+    "productIds": [
+      "MGC-0771",
+      "MGC-0772"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-243",
+    "familyCode": "MGC-FAM-243",
+    "productIds": [
+      "MGC-0774",
+      "MGC-0775"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-244",
+    "familyCode": "MGC-FAM-244",
+    "productIds": [
+      "MGC-1209",
+      "MGC-1210"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-245",
+    "familyCode": "MGC-FAM-245",
+    "productIds": [
+      "MGC-0015",
+      "MGC-0016",
+      "MGC-0017",
+      "MGC-0018"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-246",
+    "familyCode": "MGC-FAM-246",
+    "productIds": [
+      "MGC-0019",
+      "MGC-0020",
+      "MGC-0021",
+      "MGC-0022"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-247",
+    "familyCode": "MGC-FAM-247",
+    "productIds": [
+      "MGC-4109",
+      "MGC-4110"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-248",
+    "familyCode": "MGC-FAM-248",
+    "productIds": [
+      "MGC-4115",
+      "MGC-4116"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-249",
+    "familyCode": "MGC-FAM-249",
+    "productIds": [
+      "MGC-0513",
+      "MGC-0514"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-250",
+    "familyCode": "MGC-FAM-250",
+    "productIds": [
+      "MGC-4104",
+      "MGC-4105"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-251",
+    "familyCode": "MGC-FAM-251",
+    "productIds": [
+      "MGC-1114",
+      "MGC-1115"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-252",
+    "familyCode": "MGC-FAM-252",
+    "productIds": [
+      "MGC-0517",
+      "MGC-0518"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-253",
+    "familyCode": "MGC-FAM-253",
+    "productIds": [
+      "MGC-0023",
+      "MGC-0024",
+      "MGC-0025",
+      "MGC-0026"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-254",
+    "familyCode": "MGC-FAM-254",
+    "productIds": [
+      "MGC-3813",
+      "MGC-3814"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-255",
+    "familyCode": "MGC-FAM-255",
+    "productIds": [
+      "MGC-0347",
+      "MGC-0348"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-256",
+    "familyCode": "MGC-FAM-256",
+    "productIds": [
+      "MGC-0209",
+      "MGC-0210",
+      "MGC-0211"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-257",
+    "familyCode": "MGC-FAM-257",
+    "productIds": [
+      "MGC-0206",
+      "MGC-0207",
+      "MGC-0208"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-258",
+    "familyCode": "MGC-FAM-258",
+    "productIds": [
+      "MGC-1116",
+      "MGC-1117"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-259",
+    "familyCode": "MGC-FAM-259",
+    "productIds": [
+      "MGC-2954",
+      "MGC-2955",
+      "MGC-2956",
+      "MGC-2957"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-260",
+    "familyCode": "MGC-FAM-260",
+    "productIds": [
+      "MGC-0520",
+      "MGC-0521",
+      "MGC-0522"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-261",
+    "familyCode": "MGC-FAM-261",
+    "productIds": [
+      "MGC-0777",
+      "MGC-0778",
+      "MGC-0779"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-262",
+    "familyCode": "MGC-FAM-262",
+    "productIds": [
+      "MGC-0783",
+      "MGC-0784",
+      "MGC-0785"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-263",
+    "familyCode": "MGC-FAM-263",
+    "productIds": [
+      "MGC-0525",
+      "MGC-0526"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-264",
+    "familyCode": "MGC-FAM-264",
+    "productIds": [
+      "MGC-0276",
+      "MGC-0277",
+      "MGC-0278"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-265",
+    "familyCode": "MGC-FAM-265",
+    "productIds": [
+      "MGC-2851",
+      "MGC-2852",
+      "MGC-2853"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-266",
+    "familyCode": "MGC-FAM-266",
+    "productIds": [
+      "MGC-2901",
+      "MGC-2904"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-267",
+    "familyCode": "MGC-FAM-267",
+    "productIds": [
+      "MGC-2898",
+      "MGC-2900"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-268",
+    "familyCode": "MGC-FAM-268",
+    "productIds": [
+      "MGC-2875",
+      "MGC-2877"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-269",
+    "familyCode": "MGC-FAM-269",
+    "productIds": [
+      "MGC-2905",
+      "MGC-2906",
+      "MGC-2908"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-270",
+    "familyCode": "MGC-FAM-270",
+    "productIds": [
+      "MGC-0289",
+      "MGC-0290",
+      "MGC-0291"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-271",
+    "familyCode": "MGC-FAM-271",
+    "productIds": [
+      "MGC-0097",
+      "MGC-0098",
+      "MGC-0099",
+      "MGC-0100",
+      "MGC-0102"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-272",
+    "familyCode": "MGC-FAM-272",
+    "productIds": [
+      "MGC-0691",
+      "MGC-0692"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-273",
+    "familyCode": "MGC-FAM-273",
+    "productIds": [
+      "MGC-1594",
+      "MGC-1595"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-274",
+    "familyCode": "MGC-FAM-274",
+    "productIds": [
+      "MGC-2337",
+      "MGC-2338",
+      "MGC-2339"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-275",
+    "familyCode": "MGC-FAM-275",
+    "productIds": [
+      "MGC-1764",
+      "MGC-1765"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-276",
+    "familyCode": "MGC-FAM-276",
+    "productIds": [
+      "MGC-2922",
+      "MGC-2923"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-277",
+    "familyCode": "MGC-FAM-277",
+    "productIds": [
+      "MGC-2919",
+      "MGC-2920",
+      "MGC-2921"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-278",
+    "familyCode": "MGC-FAM-278",
+    "productIds": [
+      "MGC-0758",
+      "MGC-0759",
+      "MGC-0760",
+      "MGC-0761",
+      "MGC-0762"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-279",
+    "familyCode": "MGC-FAM-279",
+    "productIds": [
+      "MGC-2934",
+      "MGC-2935"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-280",
+    "familyCode": "MGC-FAM-280",
+    "productIds": [
+      "MGC-2932",
+      "MGC-2933"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-281",
+    "familyCode": "MGC-FAM-281",
+    "productIds": [
+      "MGC-2944",
+      "MGC-2945"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-282",
+    "familyCode": "MGC-FAM-282",
+    "productIds": [
+      "MGC-2814",
+      "MGC-2815"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-283",
+    "familyCode": "MGC-FAM-283",
+    "productIds": [
+      "MGC-2936",
+      "MGC-2937"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-284",
+    "familyCode": "MGC-FAM-284",
+    "productIds": [
+      "MGC-0959",
+      "MGC-0960",
+      "MGC-0961"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-0961",
+        "reason": "Source title compacts “32 Hrs” as “32Hrs”; matching 32-hour specification, price, product type, and reviewed earbud images confirm the same JBL Wave Bud model."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-285",
+    "familyCode": "MGC-FAM-285",
+    "productIds": [
+      "MGC-3729",
+      "MGC-3730",
+      "MGC-3731"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-286",
+    "familyCode": "MGC-FAM-286",
+    "productIds": [
+      "MGC-1835",
+      "MGC-1836"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-287",
+    "familyCode": "MGC-FAM-287",
+    "productIds": [
+      "MGC-0752",
+      "MGC-0753",
+      "MGC-0754"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-288",
+    "familyCode": "MGC-FAM-288",
+    "productIds": [
+      "MGC-0307",
+      "MGC-0308",
+      "MGC-0309"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-289",
+    "familyCode": "MGC-FAM-289",
+    "productIds": [
+      "MGC-1872",
+      "MGC-1873"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-290",
+    "familyCode": "MGC-FAM-290",
+    "productIds": [
+      "MGC-0969",
+      "MGC-0970"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-291",
+    "familyCode": "MGC-FAM-291",
+    "productIds": [
+      "MGC-1502",
+      "MGC-1503",
+      "MGC-1504"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-292",
+    "familyCode": "MGC-FAM-292",
+    "productIds": [
+      "MGC-1778",
+      "MGC-1779",
+      "MGC-1780"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-293",
+    "familyCode": "MGC-FAM-293",
+    "productIds": [
+      "MGC-1794",
+      "MGC-1795",
+      "MGC-1796"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-294",
+    "familyCode": "MGC-FAM-294",
+    "productIds": [
+      "MGC-1499",
+      "MGC-1500",
+      "MGC-1501"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-295",
+    "familyCode": "MGC-FAM-295",
+    "productIds": [
+      "MGC-1505",
+      "MGC-1506",
+      "MGC-1507",
+      "MGC-1508"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-296",
+    "familyCode": "MGC-FAM-296",
+    "productIds": [
+      "MGC-1781",
+      "MGC-1782",
+      "MGC-1783"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-297",
+    "familyCode": "MGC-FAM-297",
+    "productIds": [
+      "MGC-1785",
+      "MGC-1786",
+      "MGC-1787"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-298",
+    "familyCode": "MGC-FAM-298",
+    "productIds": [
+      "MGC-2950",
+      "MGC-2951",
+      "MGC-2952"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-299",
+    "familyCode": "MGC-FAM-299",
+    "productIds": [
+      "MGC-2816",
+      "MGC-2817",
+      "MGC-2818"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-300",
+    "familyCode": "MGC-FAM-300",
+    "productIds": [
+      "MGC-1987",
+      "MGC-1988",
+      "MGC-1989"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-301",
+    "familyCode": "MGC-FAM-301",
+    "productIds": [
+      "MGC-3725",
+      "MGC-3726"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-302",
+    "familyCode": "MGC-FAM-302",
+    "productIds": [
+      "MGC-4134",
+      "MGC-4135",
+      "MGC-4136"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-303",
+    "familyCode": "MGC-FAM-303",
+    "productIds": [
+      "MGC-1969",
+      "MGC-1970"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-304",
+    "familyCode": "MGC-FAM-304",
+    "productIds": [
+      "MGC-0064",
+      "MGC-0065",
+      "MGC-0066",
+      "MGC-0067"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-305",
+    "familyCode": "MGC-FAM-305",
+    "productIds": [
+      "MGC-0040",
+      "MGC-0041",
+      "MGC-0042",
+      "MGC-0043",
+      "MGC-0044",
+      "MGC-0045"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-306",
+    "familyCode": "MGC-FAM-306",
+    "productIds": [
+      "MGC-0462",
+      "MGC-0463",
+      "MGC-0464",
+      "MGC-0465",
+      "MGC-0466"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-307",
+    "familyCode": "MGC-FAM-307",
+    "productIds": [
+      "MGC-1216",
+      "MGC-1217",
+      "MGC-1218",
+      "MGC-1219"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-308",
+    "familyCode": "MGC-FAM-308",
+    "productIds": [
+      "MGC-0976",
+      "MGC-0977",
+      "MGC-0978",
+      "MGC-0979"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-309",
+    "familyCode": "MGC-FAM-309",
+    "productIds": [
+      "MGC-0755",
+      "MGC-0756",
+      "MGC-0757"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-310",
+    "familyCode": "MGC-FAM-310",
+    "productIds": [
+      "MGC-2969",
+      "MGC-2970",
+      "MGC-2971"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-311",
+    "familyCode": "MGC-FAM-311",
+    "productIds": [
+      "MGC-2972",
+      "MGC-2973"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-312",
+    "familyCode": "MGC-FAM-312",
+    "productIds": [
+      "MGC-0248",
+      "MGC-0249"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-313",
+    "familyCode": "MGC-FAM-313",
+    "productIds": [
+      "MGC-0238",
+      "MGC-0239",
+      "MGC-0240",
+      "MGC-0241"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-314",
+    "familyCode": "MGC-FAM-314",
+    "productIds": [
+      "MGC-0246",
+      "MGC-0247"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-315",
+    "familyCode": "MGC-FAM-315",
+    "productIds": [
+      "MGC-0242",
+      "MGC-0243",
+      "MGC-0244",
+      "MGC-0245"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-316",
+    "familyCode": "MGC-FAM-316",
+    "productIds": [
+      "MGC-0250",
+      "MGC-0251",
+      "MGC-0252"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-317",
+    "familyCode": "MGC-FAM-317",
+    "productIds": [
+      "MGC-0855",
+      "MGC-0856"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-318",
+    "familyCode": "MGC-FAM-318",
+    "productIds": [
+      "MGC-0996",
+      "MGC-0997"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-319",
+    "familyCode": "MGC-FAM-319",
+    "productIds": [
+      "MGC-0998",
+      "MGC-0999"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-320",
+    "familyCode": "MGC-FAM-320",
+    "productIds": [
+      "MGC-1228",
+      "MGC-1229",
+      "MGC-1230",
+      "MGC-1231"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-321",
+    "familyCode": "MGC-FAM-321",
+    "productIds": [
+      "MGC-0991",
+      "MGC-0992"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-322",
+    "familyCode": "MGC-FAM-322",
+    "productIds": [
+      "MGC-0265",
+      "MGC-0266",
+      "MGC-0268",
+      "MGC-0269",
+      "MGC-0270",
+      "MGC-0271"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-323",
+    "familyCode": "MGC-FAM-323",
+    "productIds": [
+      "MGC-0429",
+      "MGC-0430",
+      "MGC-0431",
+      "MGC-0432",
+      "MGC-0433",
+      "MGC-0434",
+      "MGC-0435"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-324",
+    "familyCode": "MGC-FAM-324",
+    "productIds": [
+      "MGC-1867",
+      "MGC-1868",
+      "MGC-1869"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-325",
+    "familyCode": "MGC-FAM-325",
+    "productIds": [
+      "MGC-0578",
+      "MGC-0579",
+      "MGC-0580"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-326",
+    "familyCode": "MGC-FAM-326",
+    "productIds": [
+      "MGC-1013",
+      "MGC-1014"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-327",
+    "familyCode": "MGC-FAM-327",
+    "productIds": [
+      "MGC-1239",
+      "MGC-1240",
+      "MGC-1241"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-328",
+    "familyCode": "MGC-FAM-328",
+    "productIds": [
+      "MGC-1003",
+      "MGC-1004",
+      "MGC-1005"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-329",
+    "familyCode": "MGC-FAM-329",
+    "productIds": [
+      "MGC-1980",
+      "MGC-1981",
+      "MGC-1982"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-330",
+    "familyCode": "MGC-FAM-330",
+    "productIds": [
+      "MGC-1907",
+      "MGC-1908",
+      "MGC-1909",
+      "MGC-1910"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-331",
+    "familyCode": "MGC-FAM-331",
+    "productIds": [
+      "MGC-0074",
+      "MGC-0075"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-332",
+    "familyCode": "MGC-FAM-332",
+    "productIds": [
+      "MGC-2461",
+      "MGC-2462"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-333",
+    "familyCode": "MGC-FAM-333",
+    "productIds": [
+      "MGC-0561",
+      "MGC-0563"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-334",
+    "familyCode": "MGC-FAM-334",
+    "productIds": [
+      "MGC-0547",
+      "MGC-0548",
+      "MGC-0549"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-335",
+    "familyCode": "MGC-FAM-335",
+    "productIds": [
+      "MGC-0544",
+      "MGC-0545",
+      "MGC-0546"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-336",
+    "familyCode": "MGC-FAM-336",
+    "productIds": [
+      "MGC-0554",
+      "MGC-0555",
+      "MGC-0556",
+      "MGC-0557"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-337",
+    "familyCode": "MGC-FAM-337",
+    "productIds": [
+      "MGC-0564",
+      "MGC-0565",
+      "MGC-0566"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-338",
+    "familyCode": "MGC-FAM-338",
+    "productIds": [
+      "MGC-0550",
+      "MGC-0551",
+      "MGC-0552",
+      "MGC-0553"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-339",
+    "familyCode": "MGC-FAM-339",
+    "productIds": [
+      "MGC-0106",
+      "MGC-0107",
+      "MGC-0108",
+      "MGC-0109",
+      "MGC-0110"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-340",
+    "familyCode": "MGC-FAM-340",
+    "productIds": [
+      "MGC-1877",
+      "MGC-1878",
+      "MGC-1879"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-341",
+    "familyCode": "MGC-FAM-341",
+    "productIds": [
+      "MGC-4029",
+      "MGC-4030",
+      "MGC-4031"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-342",
+    "familyCode": "MGC-FAM-342",
+    "productIds": [
+      "MGC-1141",
+      "MGC-1142"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-343",
+    "familyCode": "MGC-FAM-343",
+    "productIds": [
+      "MGC-1252",
+      "MGC-1253",
+      "MGC-1254"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-344",
+    "familyCode": "MGC-FAM-344",
+    "productIds": [
+      "MGC-1019",
+      "MGC-1020",
+      "MGC-1021",
+      "MGC-1022",
+      "MGC-1023"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-345",
+    "familyCode": "MGC-FAM-345",
+    "productIds": [
+      "MGC-1015",
+      "MGC-1016"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-346",
+    "familyCode": "MGC-FAM-346",
+    "productIds": [
+      "MGC-1017",
+      "MGC-1018"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-347",
+    "familyCode": "MGC-FAM-347",
+    "productIds": [
+      "MGC-1033",
+      "MGC-1034"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-348",
+    "familyCode": "MGC-FAM-348",
+    "productIds": [
+      "MGC-1143",
+      "MGC-1145",
+      "MGC-1146"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-349",
+    "familyCode": "MGC-FAM-349",
+    "productIds": [
+      "MGC-1154",
+      "MGC-1155"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-350",
+    "familyCode": "MGC-FAM-350",
+    "productIds": [
+      "MGC-1151",
+      "MGC-1152",
+      "MGC-1153"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-351",
+    "familyCode": "MGC-FAM-351",
+    "productIds": [
+      "MGC-1028",
+      "MGC-1029"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-352",
+    "familyCode": "MGC-FAM-352",
+    "productIds": [
+      "MGC-1038",
+      "MGC-1040",
+      "MGC-1041"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-353",
+    "familyCode": "MGC-FAM-353",
+    "productIds": [
+      "MGC-4022",
+      "MGC-4023"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-354",
+    "familyCode": "MGC-FAM-354",
+    "productIds": [
+      "MGC-0303",
+      "MGC-0304",
+      "MGC-0305",
+      "MGC-0306"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-355",
+    "familyCode": "MGC-FAM-355",
+    "productIds": [
+      "MGC-1376",
+      "MGC-1377"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-356",
+    "familyCode": "MGC-FAM-356",
+    "productIds": [
+      "MGC-1388",
+      "MGC-1389",
+      "MGC-1390"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-357",
+    "familyCode": "MGC-FAM-357",
+    "productIds": [
+      "MGC-0111",
+      "MGC-0112"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-358",
+    "familyCode": "MGC-FAM-358",
+    "productIds": [
+      "MGC-0113",
+      "MGC-0114"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-359",
+    "familyCode": "MGC-FAM-359",
+    "productIds": [
+      "MGC-4056",
+      "MGC-4057"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-360",
+    "familyCode": "MGC-FAM-360",
+    "productIds": [
+      "MGC-2980",
+      "MGC-2981",
+      "MGC-2982"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-361",
+    "familyCode": "MGC-FAM-361",
+    "productIds": [
+      "MGC-2978",
+      "MGC-2979"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-362",
+    "familyCode": "MGC-FAM-362",
+    "productIds": [
+      "MGC-0027",
+      "MGC-0029",
+      "MGC-0030",
+      "MGC-0031",
+      "MGC-0032",
+      "MGC-0033"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-363",
+    "familyCode": "MGC-FAM-363",
+    "productIds": [
+      "MGC-2983",
+      "MGC-2984",
+      "MGC-2985"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-364",
+    "familyCode": "MGC-FAM-364",
+    "productIds": [
+      "MGC-0183",
+      "MGC-0184"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-365",
+    "familyCode": "MGC-FAM-365",
+    "productIds": [
+      "MGC-0883",
+      "MGC-0884",
+      "MGC-0885",
+      "MGC-0886"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-366",
+    "familyCode": "MGC-FAM-366",
+    "productIds": [
+      "MGC-1854",
+      "MGC-1855",
+      "MGC-1856"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-367",
+    "familyCode": "MGC-FAM-367",
+    "productIds": [
+      "MGC-0035",
+      "MGC-0036",
+      "MGC-0037"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-368",
+    "familyCode": "MGC-FAM-368",
+    "productIds": [
+      "MGC-1885",
+      "MGC-1886"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-369",
+    "familyCode": "MGC-FAM-369",
+    "productIds": [
+      "MGC-2990",
+      "MGC-2991",
+      "MGC-2992"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-370",
+    "familyCode": "MGC-FAM-370",
+    "productIds": [
+      "MGC-2997",
+      "MGC-2998",
+      "MGC-2999",
+      "MGC-3000",
+      "MGC-3001"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-371",
+    "familyCode": "MGC-FAM-371",
+    "productIds": [
+      "MGC-2819",
+      "MGC-2820"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-372",
+    "familyCode": "MGC-FAM-372",
+    "productIds": [
+      "MGC-3002",
+      "MGC-3003",
+      "MGC-3004",
+      "MGC-3005",
+      "MGC-3006"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-373",
+    "familyCode": "MGC-FAM-373",
+    "productIds": [
+      "MGC-2993",
+      "MGC-2994",
+      "MGC-2995",
+      "MGC-2996"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-374",
+    "familyCode": "MGC-FAM-374",
+    "productIds": [
+      "MGC-0068",
+      "MGC-0069"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-375",
+    "familyCode": "MGC-FAM-375",
+    "productIds": [
+      "MGC-0575",
+      "MGC-0576",
+      "MGC-0577"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-376",
+    "familyCode": "MGC-FAM-376",
+    "productIds": [
+      "MGC-0671",
+      "MGC-0672",
+      "MGC-0673",
+      "MGC-0674"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-377",
+    "familyCode": "MGC-FAM-377",
+    "productIds": [
+      "MGC-1874",
+      "MGC-1875"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-378",
+    "familyCode": "MGC-FAM-378",
+    "productIds": [
+      "MGC-1048",
+      "MGC-1049",
+      "MGC-1050",
+      "MGC-1051"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-379",
+    "familyCode": "MGC-FAM-379",
+    "productIds": [
+      "MGC-2045",
+      "MGC-2046",
+      "MGC-2047"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-380",
+    "familyCode": "MGC-FAM-380",
+    "productIds": [
+      "MGC-0299",
+      "MGC-0300",
+      "MGC-0301",
+      "MGC-0302"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-381",
+    "familyCode": "MGC-FAM-381",
+    "productIds": [
+      "MGC-1109",
+      "MGC-1110"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-382",
+    "familyCode": "MGC-FAM-382",
+    "productIds": [
+      "MGC-1391",
+      "MGC-1392",
+      "MGC-1393"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-383",
+    "familyCode": "MGC-FAM-383",
+    "productIds": [
+      "MGC-1438",
+      "MGC-1439",
+      "MGC-1440",
+      "MGC-1441"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-384",
+    "familyCode": "MGC-FAM-384",
+    "productIds": [
+      "MGC-1442",
+      "MGC-1443",
+      "MGC-1444",
+      "MGC-1445"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-385",
+    "familyCode": "MGC-FAM-385",
+    "productIds": [
+      "MGC-1446",
+      "MGC-1447",
+      "MGC-1448",
+      "MGC-1449"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-386",
+    "familyCode": "MGC-FAM-386",
+    "productIds": [
+      "MGC-1450",
+      "MGC-1451",
+      "MGC-1452"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-387",
+    "familyCode": "MGC-FAM-387",
+    "productIds": [
+      "MGC-1434",
+      "MGC-1435",
+      "MGC-1436",
+      "MGC-1437"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-388",
+    "familyCode": "MGC-FAM-388",
+    "productIds": [
+      "MGC-0089",
+      "MGC-0090"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-389",
+    "familyCode": "MGC-FAM-389",
+    "productIds": [
+      "MGC-0072",
+      "MGC-0073"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-390",
+    "familyCode": "MGC-FAM-390",
+    "productIds": [
+      "MGC-0120",
+      "MGC-0121",
+      "MGC-0122",
+      "MGC-0123"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-391",
+    "familyCode": "MGC-FAM-391",
+    "productIds": [
+      "MGC-0038",
+      "MGC-0039"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-392",
+    "familyCode": "MGC-FAM-392",
+    "productIds": [
+      "MGC-0471",
+      "MGC-0472",
+      "MGC-0473",
+      "MGC-0474"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-393",
+    "familyCode": "MGC-FAM-393",
+    "productIds": [
+      "MGC-1965",
+      "MGC-1966"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-394",
+    "familyCode": "MGC-FAM-394",
+    "productIds": [
+      "MGC-1950",
+      "MGC-1951",
+      "MGC-1952"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-395",
+    "familyCode": "MGC-FAM-395",
+    "productIds": [
+      "MGC-0567",
+      "MGC-0568",
+      "MGC-0569",
+      "MGC-0570"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-396",
+    "familyCode": "MGC-FAM-396",
+    "productIds": [
+      "MGC-1420",
+      "MGC-1421"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-397",
+    "familyCode": "MGC-FAM-397",
+    "productIds": [
+      "MGC-1370",
+      "MGC-1371",
+      "MGC-1372",
+      "MGC-1373",
+      "MGC-1375"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-398",
+    "familyCode": "MGC-FAM-398",
+    "productIds": [
+      "MGC-1342",
+      "MGC-1343",
+      "MGC-1344"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-399",
+    "familyCode": "MGC-FAM-399",
+    "productIds": [
+      "MGC-1383",
+      "MGC-1384",
+      "MGC-1385",
+      "MGC-1386",
+      "MGC-1387"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-400",
+    "familyCode": "MGC-FAM-400",
+    "productIds": [
+      "MGC-1335",
+      "MGC-1336",
+      "MGC-1337",
+      "MGC-1338"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-401",
+    "familyCode": "MGC-FAM-401",
+    "productIds": [
+      "MGC-1367",
+      "MGC-1368",
+      "MGC-1369"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-402",
+    "familyCode": "MGC-FAM-402",
+    "productIds": [
+      "MGC-1346",
+      "MGC-1347",
+      "MGC-1348",
+      "MGC-1349",
+      "MGC-1350"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-403",
+    "familyCode": "MGC-FAM-403",
+    "productIds": [
+      "MGC-1351",
+      "MGC-1352",
+      "MGC-1353",
+      "MGC-1354"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-404",
+    "familyCode": "MGC-FAM-404",
+    "productIds": [
+      "MGC-4143",
+      "MGC-4144"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-405",
+    "familyCode": "MGC-FAM-405",
+    "productIds": [
+      "MGC-1998",
+      "MGC-2000"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-406",
+    "familyCode": "MGC-FAM-406",
+    "productIds": [
+      "MGC-4147",
+      "MGC-4148"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-407",
+    "familyCode": "MGC-FAM-407",
+    "productIds": [
+      "MGC-1887",
+      "MGC-1888"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-408",
+    "familyCode": "MGC-FAM-408",
+    "productIds": [
+      "MGC-1724",
+      "MGC-1725"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-409",
+    "familyCode": "MGC-FAM-409",
+    "productIds": [
+      "MGC-1840",
+      "MGC-1841"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-410",
+    "familyCode": "MGC-FAM-410",
+    "productIds": [
+      "MGC-1852",
+      "MGC-1853"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-411",
+    "familyCode": "MGC-FAM-411",
+    "productIds": [
+      "MGC-4053",
+      "MGC-4054",
+      "MGC-4055"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-412",
+    "familyCode": "MGC-FAM-412",
+    "productIds": [
+      "MGC-0046",
+      "MGC-0047",
+      "MGC-0048",
+      "MGC-0049",
+      "MGC-0051",
+      "MGC-0052"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-413",
+    "familyCode": "MGC-FAM-413",
+    "productIds": [
+      "MGC-0719",
+      "MGC-0720",
+      "MGC-0721",
+      "MGC-0722",
+      "MGC-0723",
+      "MGC-0724",
+      "MGC-0725",
+      "MGC-0726"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-414",
+    "familyCode": "MGC-FAM-414",
+    "productIds": [
+      "MGC-0590",
+      "MGC-0591"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-415",
+    "familyCode": "MGC-FAM-415",
+    "productIds": [
+      "MGC-3019",
+      "MGC-3020",
+      "MGC-3021"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-416",
+    "familyCode": "MGC-FAM-416",
+    "productIds": [
+      "MGC-0581",
+      "MGC-0582"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-417",
+    "familyCode": "MGC-FAM-417",
+    "productIds": [
+      "MGC-0738",
+      "MGC-0739",
+      "MGC-0740"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-418",
+    "familyCode": "MGC-FAM-418",
+    "productIds": [
+      "MGC-1269",
+      "MGC-1270"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-419",
+    "familyCode": "MGC-FAM-419",
+    "productIds": [
+      "MGC-0745",
+      "MGC-0746"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-420",
+    "familyCode": "MGC-FAM-420",
+    "productIds": [
+      "MGC-2023",
+      "MGC-2024",
+      "MGC-2025"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-421",
+    "familyCode": "MGC-FAM-421",
+    "productIds": [
+      "MGC-2038",
+      "MGC-2039",
+      "MGC-2040"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-422",
+    "familyCode": "MGC-FAM-422",
+    "productIds": [
+      "MGC-2032",
+      "MGC-2033"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-423",
+    "familyCode": "MGC-FAM-423",
+    "productIds": [
+      "MGC-0741",
+      "MGC-0742"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-424",
+    "familyCode": "MGC-FAM-424",
+    "productIds": [
+      "MGC-2823",
+      "MGC-2824"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-425",
+    "familyCode": "MGC-FAM-425",
+    "productIds": [
+      "MGC-2053",
+      "MGC-2054",
+      "MGC-2055",
+      "MGC-2056",
+      "MGC-2058",
+      "MGC-2059"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-426",
+    "familyCode": "MGC-FAM-426",
+    "productIds": [
+      "MGC-0595",
+      "MGC-0596"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-427",
+    "familyCode": "MGC-FAM-427",
+    "productIds": [
+      "MGC-0598",
+      "MGC-0599"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-428",
+    "familyCode": "MGC-FAM-428",
+    "productIds": [
+      "MGC-0891",
+      "MGC-0892"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-429",
+    "familyCode": "MGC-FAM-429",
+    "productIds": [
+      "MGC-0310",
+      "MGC-0311",
+      "MGC-0312"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-430",
+    "familyCode": "MGC-FAM-430",
+    "productIds": [
+      "MGC-2938",
+      "MGC-2939"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-431",
+    "familyCode": "MGC-FAM-431",
+    "productIds": [
+      "MGC-1719",
+      "MGC-1720",
+      "MGC-1721"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-432",
+    "familyCode": "MGC-FAM-432",
+    "productIds": [
+      "MGC-2051",
+      "MGC-2052"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-433",
+    "familyCode": "MGC-FAM-433",
+    "productIds": [
+      "MGC-0905",
+      "MGC-0906"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-434",
+    "familyCode": "MGC-FAM-434",
+    "productIds": [
+      "MGC-0763",
+      "MGC-0764"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-435",
+    "familyCode": "MGC-FAM-435",
+    "productIds": [
+      "MGC-0274",
+      "MGC-0275"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-436",
+    "familyCode": "MGC-FAM-436",
+    "productIds": [
+      "MGC-4072",
+      "MGC-4073"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-437",
+    "familyCode": "MGC-FAM-437",
+    "productIds": [
+      "MGC-4066",
+      "MGC-4067"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-438",
+    "familyCode": "MGC-FAM-438",
+    "productIds": [
+      "MGC-4068",
+      "MGC-4069"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-439",
+    "familyCode": "MGC-FAM-439",
+    "productIds": [
+      "MGC-3848",
+      "MGC-3849"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-440",
+    "familyCode": "MGC-FAM-440",
+    "productIds": [
+      "MGC-1162",
+      "MGC-1163"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-441",
+    "familyCode": "MGC-FAM-441",
+    "productIds": [
+      "MGC-3727",
+      "MGC-3728"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-442",
+    "familyCode": "MGC-FAM-442",
+    "productIds": [
+      "MGC-0592",
+      "MGC-0593",
+      "MGC-0594"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-444",
+    "familyCode": "MGC-FAM-444",
+    "productIds": [
+      "MGC-0727",
+      "MGC-0728",
+      "MGC-0729",
+      "MGC-0730",
+      "MGC-0731",
+      "MGC-0732",
+      "MGC-0733",
+      "MGC-0734",
+      "MGC-0735"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-0730": "Cork Brown"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-0730",
+        "reason": "The source calls this shade Natural Brown in specifications and Cork Brown in the title; both fields identify the same 300 ml vintage mug colorway."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-445",
+    "familyCode": "MGC-FAM-445",
+    "productIds": [
+      "MGC-2340",
+      "MGC-2341",
+      "MGC-2342"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "sharedImagePath": "media/products/apparel-lifestyle/polos-tees/hummel-eunice-polo-t-shirt-white-with-red/4-angle-f7529025ee57.webp",
+    "sharedImageFileName": "f7529025ee57.webp",
+    "optionLabels": {
+      "MGC-2340": "Black with Red",
+      "MGC-2341": "Olive Green with Black",
+      "MGC-2342": "White with Red"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2340",
+        "reason": "Eunice model; the colorway and contrast tipping are the only title difference."
+      },
+      {
+        "productId": "MGC-2341",
+        "reason": "Eunice model; the colorway and contrast tipping are the only title difference."
+      },
+      {
+        "productId": "MGC-2342",
+        "reason": "Eunice model; the colorway and contrast tipping are the only title difference."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-446",
+    "familyCode": "MGC-FAM-446",
+    "productIds": [
+      "MGC-2582",
+      "MGC-2583",
+      "MGC-2584",
+      "MGC-2585",
+      "MGC-2586",
+      "MGC-2588",
+      "MGC-2589",
+      "MGC-2590",
+      "MGC-2591"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-2582": "Royal Blue with White Tipping",
+      "MGC-2583": "White with Red Tipping",
+      "MGC-2584": "Black with Red Tipping",
+      "MGC-2585": "Grey with Black Tipping",
+      "MGC-2586": "Maroon with White Tipping",
+      "MGC-2588": "Navy Blue with White Tipping",
+      "MGC-2589": "Red with White Tipping",
+      "MGC-2590": "White with Royal Blue Tipping",
+      "MGC-2591": "Dark Grey with White Tipping"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2582",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2583",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2584",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2585",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2586",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2588",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2589",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2590",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      },
+      {
+        "productId": "MGC-2591",
+        "reason": "Same Scott AWG Green Polo New model; the source title records its verified body and tipping colorway."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-447",
+    "familyCode": "MGC-FAM-447",
+    "productIds": [
+      "MGC-2665",
+      "MGC-2666",
+      "MGC-2669",
+      "MGC-2670",
+      "MGC-2671",
+      "MGC-2672",
+      "MGC-2673",
+      "MGC-2674",
+      "MGC-2676",
+      "MGC-2677",
+      "MGC-2678",
+      "MGC-2679"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-2665": "Dark Grey",
+      "MGC-2666": "Green",
+      "MGC-2669": "Lime Green",
+      "MGC-2670": "Maroon",
+      "MGC-2671": "Navy Blue",
+      "MGC-2672": "Purple",
+      "MGC-2673": "Red",
+      "MGC-2674": "Royal Blue",
+      "MGC-2676": "Sky Blue",
+      "MGC-2677": "Teal Blue",
+      "MGC-2678": "Teal Green",
+      "MGC-2679": "Turquoise Green"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2665",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2666",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2669",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2670",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2671",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2672",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2673",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2674",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2676",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2677",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2678",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2679",
+        "reason": "Same Scott Organic women’s polo model with white tipping; body color is the selectable variant."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-448",
+    "familyCode": "MGC-FAM-448",
+    "productIds": [
+      "MGC-2435",
+      "MGC-2436"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-2435": "Charcoal Grey",
+      "MGC-2436": "Navy Melange"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2436",
+        "reason": "Marks & Spencer sweatshirt range; the two source titles vary only by the verified color names."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-450",
+    "familyCode": "MGC-FAM-450",
+    "productIds": [
+      "MGC-2854",
+      "MGC-2857",
+      "MGC-2868",
+      "MGC-2865",
+      "MGC-2858",
+      "MGC-2859",
+      "MGC-2864",
+      "MGC-2866",
+      "MGC-2863",
+      "MGC-2861",
+      "MGC-2874",
+      "MGC-2856",
+      "MGC-2871",
+      "MGC-2862",
+      "MGC-2873",
+      "MGC-2869",
+      "MGC-2867",
+      "MGC-2870",
+      "MGC-2855"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "optionLabels": {
+      "MGC-2854": "White",
+      "MGC-2857": "Mustard",
+      "MGC-2868": "Black",
+      "MGC-2865": "Tan",
+      "MGC-2858": "Beige",
+      "MGC-2859": "Grey",
+      "MGC-2864": "Orange",
+      "MGC-2866": "Teal Green",
+      "MGC-2863": "Wine",
+      "MGC-2861": "Green",
+      "MGC-2874": "Teal Blue",
+      "MGC-2856": "Ice Blue",
+      "MGC-2871": "Blue",
+      "MGC-2862": "Red",
+      "MGC-2873": "Yellow",
+      "MGC-2869": "Navy Blue",
+      "MGC-2867": "Sky Blue",
+      "MGC-2870": "Purple",
+      "MGC-2855": "Light blue"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2857",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2868",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2865",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2858",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2859",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2864",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2866",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2863",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2861",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2874",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2856",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2871",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2862",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2873",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2869",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2867",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2870",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2855",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-452",
+    "familyCode": "MGC-FAM-452",
+    "productIds": [
+      "MGC-2250",
+      "MGC-2237",
+      "MGC-2246",
+      "MGC-2247",
+      "MGC-2245",
+      "MGC-2235",
+      "MGC-2234",
+      "MGC-2233",
+      "MGC-2242",
+      "MGC-2244",
+      "MGC-2241",
+      "MGC-2243",
+      "MGC-2252",
+      "MGC-2236",
+      "MGC-2249",
+      "MGC-2240",
+      "MGC-2251",
+      "MGC-2238"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "sharedImagePath": "media/products/apparel-lifestyle/polos-tees/greys-blues-sports-jersey-with-collar-half-sleeve-1/3-angle-af38deba05f3.webp",
+    "sharedImageFileName": "3-angle-af38deba05f3.webp",
+    "optionLabels": {
+      "MGC-2250": "Teal Blue",
+      "MGC-2237": "Grey",
+      "MGC-2246": "Black",
+      "MGC-2247": "Beige",
+      "MGC-2245": "Sky Blue",
+      "MGC-2235": "Orange",
+      "MGC-2234": "Teal Green",
+      "MGC-2233": "Wine",
+      "MGC-2242": "Mustard",
+      "MGC-2244": "Ice Blue",
+      "MGC-2241": "Blue",
+      "MGC-2243": "Light blue",
+      "MGC-2252": "Red",
+      "MGC-2236": "Tan",
+      "MGC-2249": "Yellow",
+      "MGC-2240": "Navy Blue",
+      "MGC-2251": "Green",
+      "MGC-2238": "Purple"
+    },
+    "titleExceptions": [
+      {
+        "productId": "MGC-2237",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2246",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2247",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2245",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2235",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2234",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2233",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2242",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2244",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2241",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2243",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2252",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2236",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2249",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2240",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2251",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      },
+      {
+        "productId": "MGC-2238",
+        "reason": "Same Greys & Blues jersey style and sleeve construction; verified body color is the selectable variant."
+      }
+    ]
+  },
+  {
+    "familyId": "mgc-colour-453",
+    "familyCode": "MGC-FAM-453",
+    "productIds": [
+      "MGC-2838",
+      "MGC-2839",
+      "MGC-2840"
+    ],
+    "reviewed": true,
+    "imageReviewed": true
+  },
+  {
+    "familyId": "mgc-colour-454",
+    "familyCode": "MGC-FAM-454",
+    "productIds": [
+      "MGC-2910",
+      "MGC-2911",
+      "MGC-2912",
+      "MGC-2913",
+      "MGC-2914"
+    ],
+    "reviewed": true,
+    "imageReviewed": true,
+    "titleExceptions": [
+      {
+        "productId": "MGC-2911",
+        "reason": "“Grey” also occurs inside the source brand text “Greys&Blues”; the product title, price and image confirm the same Jet-Setter jacket model."
+      }
+    ]
+  }
+]

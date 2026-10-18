@@ -44,7 +44,7 @@ export default async function ComparePage({ searchParams }: ComparePageProps) {
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
-            { label: "Gifts", href: "/gifts" },
+            { label: "Catalogue", href: "/gifts" },
             { label: "Compare" },
           ]}
         />

@@ -161,6 +161,7 @@ export function readBoxDraft(): BoxDraft {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return emptyDraft();
     const parsed = JSON.parse(raw) as Partial<BoxDraft>;
+    const parsedStep: unknown = parsed.step;
     const products = Array.isArray(parsed.products)
       ? parsed.products.filter(isProduct).map((item) => ({
           ...item,
@@ -172,8 +173,9 @@ export function readBoxDraft(): BoxDraft {
         }))
       : [];
     return {
-      // Removed the standalone customisation step; saved drafts begin at products.
-      step: isStep(parsed.step) ? parsed.step : "products",
+      // Older drafts used a separate review step. Carry them forward into the
+      // combined review and request stage without losing their saved choices.
+      step: parsedStep === "review" ? "quote" : isStep(parsedStep) ? parsedStep : "products",
       packaging: normalizePackaging(parsed.packaging),
       products,
       customization: normalizeCustomization(parsed.customization),
@@ -246,9 +248,10 @@ export function programmeUnitTotal(
 /** Supplier MOQs apply across the complete programme, not to each kit. */
 export function boxSupplierMinimumShortfalls(draft: BoxDraft) {
   const boxes = Math.max(MIN_BOXES, draft.customization.numberOfBoxes);
-  return draft.products.filter((item) =>
-    typeof item.minQuantity === "number" && item.minQuantity > 0 &&
-    item.quantityPerBox * boxes < item.minQuantity,
+  return draft.products.filter(
+    (item) =>
+      typeof item.minQuantity === "number" &&
+      item.quantityPerBox * boxes < item.minQuantity,
   );
 }
 
@@ -581,16 +584,12 @@ export function canEnterStep(draft: BoxDraft, step: BoxStep): boolean {
   if (target >= stepIndex("packaging") && draft.products.length === 0) {
     return false;
   }
-  if (target >= stepIndex("review")) {
-    if (draft.customization.numberOfBoxes < MIN_BOXES) return false;
-    if (!draft.packaging) return false;
-  }
   if (target >= stepIndex("quote")) {
-    // Packaging is the final decision before preparing a quotation request.
+    if (draft.customization.numberOfBoxes < MIN_BOXES) return false;
     if (!draft.packaging) return false;
     if (draft.products.length === 0) return false;
     if (boxSupplierMinimumShortfalls(draft).length > 0) return false;
-    return canEnterStep(draft, "review");
+    return true;
   }
   return true;
 }

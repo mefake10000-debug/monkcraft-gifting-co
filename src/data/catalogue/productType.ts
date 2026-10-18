@@ -132,15 +132,15 @@ const EXPORT_DEFAULT_TYPE: Record<string, ProductTypeId> = {
  */
 /** Actual export subcategory slugs (from categories.json / products). */
 const TRUSTED_SUBCATEGORIES: Record<string, Set<string>> = {
-  "drinkware-barware": new Set(["bottles", "mugs", "tumblers"]),
+  "drinkware-barware": new Set(["bottles", "mugs", "tumblers", "coffee"]),
   "apparel-lifestyle": new Set([
     "polos-tees",
     "formal",
     "accessories",
     "scarves-stoles",
   ]),
-  "bags-travel": new Set(["backpacks", "totes", "travel", "wallets"]),
-  "tech-gadgets": new Set(["chargers", "audio", "desk-tech", "wearables"]),
+  "bags-travel": new Set(["backpacks", "totes", "travel", "wallets", "lunch-bags"]),
+  "tech-gadgets": new Set(["chargers", "audio", "desk-tech", "wearables", "home-appliances"]),
   "executive-writing": new Set([
     "pens",
     "notebooks",
@@ -233,6 +233,71 @@ function matchKeywordRules(name: string): RuleMatch | null {
 
   // --- Explicit exclusions / multi-signal combos (order matters) ---
 
+  // Resolve the physical item before its printed theme. "Plant a Tree" and
+  // "Garden" are common artwork names on ordinary coasters, books and pens.
+  if (/\bcoasters?\b/.test(t)) {
+    return { typeId: "drinkware", confidence: "high", ruleId: "kw-product-form-coaster" };
+  }
+  if (/\b(visionbooks?|calendars?|notebooks?|journals?|planners?|diaries|pencils?|pens?)\b/.test(t)) {
+    return { typeId: "desk-writing", confidence: "high", ruleId: "kw-product-form-desk-writing" };
+  }
+
+  // Electric coffee makers and grinders are appliances. Manual presses remain
+  // in drinkware because they are beverage service products.
+  if (/\b(coffee\s?(?:makers?|machines?|grinders?)|espresso\s?(?:makers?|machines?)|electric\s?frothers?)\b/.test(t)) {
+    return { typeId: "tech", confidence: "high", ruleId: "kw-coffee-appliance" };
+  }
+
+  // Food containers belong with lunch bags, not drinkware or stationery.
+  if (/\b(lunch\s?box(?:es)?|lunchbox|tiffin|bento|meal\s?box(?:es)?)\b/.test(t)) {
+    return { typeId: "bags", confidence: "high", ruleId: "kw-lunch-container" };
+  }
+  if (/\b(glasafe.*combo|carry\s?and\s?go\s?combo|eat\s?light\s?combo)\b/.test(t)) {
+    return { typeId: "bags", confidence: "high", ruleId: "kw-meal-kit" };
+  }
+
+  // Coffee preparation and service products are drinkware-adjacent.
+  if (/\b(coffee\s?(?:makers?|machines?|grinders?|frothers?)|espresso|french\s?press|pour[- ]over|mixology|vacuum\s?canister)\b/.test(t)) {
+    return { typeId: "drinkware", confidence: "high", ruleId: "kw-coffee-service" };
+  }
+
+  // Small desk accessories were frequently exported under unrelated types.
+  if (/\b(fridge\s?magnets?|snapdot|pin\s?badges?)\b/.test(t)) {
+    return { typeId: "desk-writing", confidence: "high", ruleId: "kw-desk-accessory" };
+  }
+
+  // Artwork names such as “Plant a Tree” must not override the physical item.
+  if (/\b(canvas\s+)?tote\s+bags?\b/.test(t)) {
+    return { typeId: "bags", confidence: "high", ruleId: "kw-product-form-tote" };
+  }
+  if (/\bpixel\s?pads?\b/.test(t)) {
+    return { typeId: "desk-writing", confidence: "high", ruleId: "kw-product-form-pixelpad" };
+  }
+
+  if (/\b(full\s?body\s?trimmers?|beard\s?trimmers?|groin\s?trimmers?|headshavers?|shavers?)\b/.test(t)) {
+    return { typeId: "wellness-eco", confidence: "high", ruleId: "kw-personal-care" };
+  }
+
+  if (/\b(stress\s?balls?|cork\s?stress)\b/.test(t)) {
+    return { typeId: "wellness-eco", confidence: "high", ruleId: "kw-stress-relief" };
+  }
+
+  if (/\b(baby\s?rattles?|rattle\s?gift\s?set)\b/.test(t)) {
+    return { typeId: "hampers", confidence: "high", ruleId: "kw-baby-gift-set" };
+  }
+
+  if (/\b(tic\s?tac\s?toe|brainvita|game\s?box|desk\s?game)\b/.test(t)) {
+    return { typeId: "desk-writing", confidence: "high", ruleId: "kw-desk-game" };
+  }
+
+  if (/\b(ring\s?lights?|video\s?lights?|string\s?lights?|chain\s?lights?|led\s?lamps?|desk\s?lamps?|desk\s?vacuums?|golden\s?crystal)\b/.test(t)) {
+    return { typeId: "tech", confidence: "high", ruleId: "kw-tech-lighting" };
+  }
+
+  if (/\b(trophy|award|plaque|medal|certificate|memento)\b/.test(t)) {
+    return { typeId: "recognition", confidence: "high", ruleId: "kw-award" };
+  }
+
   // Desk combos that mention tumbler/mug but are lamps / hubs / organisers
   if (
     /\b(lamp|usb\s?hub|wireless\s?charger|mobile\s?stand|power\s?glow|pen\s?zen|podium)\b/.test(
@@ -257,16 +322,16 @@ function matchKeywordRules(name: string): RuleMatch | null {
     return { typeId: "bags", confidence: "high", ruleId: "kw-lunch-bag" };
   }
 
-  // Candles / diyas are never drinkware
+  // Candles and diyas are home / wellness products, never drinkware.
   if (/\b(candle|candles|diya)\b/.test(t)) {
-    return { typeId: "other", confidence: "high", ruleId: "kw-candle-other" };
+    return { typeId: "wellness-eco", confidence: "high", ruleId: "kw-candle-wellness" };
   }
 
   // Plants / grow kits → wellness-eco
   if (
     /\b(plant|grow\s?kit|seed\s?starter|garden|syngonium|sansevieria|money\s?plant|jade\s?plant|bamboo\s?plant|planter|vase)\b/.test(
       t,
-    )
+    ) && !/\bmugs?\b/.test(t)
   ) {
     return {
       typeId: "wellness-eco",
@@ -275,41 +340,28 @@ function matchKeywordRules(name: string): RuleMatch | null {
     };
   }
 
-  // Kitchen appliances / home gadgets wrongly parked in drinkware Coffee
+  // Home appliances wrongly parked in drinkware or office stationery.
   if (
     /\b(air\s?fryer|airfryer|vacuum\s?cleaner|garment\s?steamer|hair\s?dryer|trimmer|shaver|microwave|oven\s?toaster|otg\b|cookware|chopper|sandwich\s?grill|toaster|juicer|mixer\s?grinder|nutri-?blend|nutri\s?mixer|blender|kettle|coffee\s?maker|coffee\s?machine|espresso|french\s?press|milk\s?frother|hand\s?blender|peeler|cook\s?pot|multicooker|steamer|fridge\s?magnet|string\s?light|chain\s?light|led\s|rattle|tic\s?tac\s?toe|stress\s?ball|headshaver|groin\s?trimmer)\b/.test(
       t,
     )
   ) {
-    // True coffee makers stay drinkware-adjacent → other/home (not bottles/mugs)
+    // Coffee makers were handled above as drinkware / coffee preparation.
     if (
       /\b(coffee\s?maker|coffee\s?machine|espresso|french\s?press|milk\s?frother)\b/.test(
         t,
       )
     ) {
-      return {
-        typeId: "other",
-        confidence: "high",
-        ruleId: "kw-coffee-appliance-other",
-      };
+      return { typeId: "drinkware", confidence: "high", ruleId: "kw-coffee-service" };
     }
     if (
-      /\b(blender|kettle|juicer|mixer|chopper|toaster|air\s?fryer|airfryer|oven|microwave|cookware|steamer|vacuum|trimmer|shaver|dryer|purifier)\b/.test(
+      /\b(blender|kettle|juicer|mixer|chopper|toaster|air\s?fryer|airfryer|oven|microwave|cookware|steamer|vacuum|trimmer|shaver|dryer|purifier|peeler)\b/.test(
         t,
       )
     ) {
-      return {
-        typeId: "other",
-        confidence: "high",
-        ruleId: "kw-kitchen-appliance-other",
-      };
+      return { typeId: "tech", confidence: "high", ruleId: "kw-home-appliance" };
     }
     return { typeId: "other", confidence: "high", ruleId: "kw-home-misc-other" };
-  }
-
-  // Lunch boxes / tiffin (not drinkware)
-  if (/\b(lunch\s?box|lunchbox|tiffin|bento|meal\s?box)\b/.test(t)) {
-    return { typeId: "other", confidence: "high", ruleId: "kw-lunchbox-other" };
   }
 
   // --- Strong merchandise types (bags before drinkware to avoid

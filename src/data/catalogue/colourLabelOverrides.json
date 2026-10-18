@@ -1,0 +1,56 @@
+[
+  {
+    "productId": "MGC-3842",
+    "label": "Sky Blue",
+    "sourceField": "title",
+    "reason": "The source title explicitly names Sky Blue and the reviewed product image shows the matching blue lanyard; the source Color specification is blank."
+  },
+  {
+    "productId": "MGC-2838",
+    "label": "Black",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  },
+  {
+    "productId": "MGC-2839",
+    "label": "Blue",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  },
+  {
+    "productId": "MGC-2840",
+    "label": "Purple",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  },
+  {
+    "productId": "MGC-2910",
+    "label": "Black",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  },
+  {
+    "productId": "MGC-2911",
+    "label": "Grey",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  },
+  {
+    "productId": "MGC-2912",
+    "label": "Navy Blue",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  },
+  {
+    "productId": "MGC-2913",
+    "label": "Olive Green",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  },
+  {
+    "productId": "MGC-2914",
+    "label": "Teal Blue",
+    "sourceField": "title",
+    "reason": "The verified source title names this colourway; the source Color field is blank, and the reviewed image confirms the same apparel model."
+  }
+]

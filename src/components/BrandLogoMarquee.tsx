@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
+import { BrandMarqueeControls } from "@/components/BrandMarqueeControls";
 
 export type BrandLogoItem = {
   name: string;
@@ -30,18 +31,21 @@ function BrandLogoMark({
       className="brand-marquee__image"
       src={brand.src!}
       alt={interactive && !brand.href ? brand.name : ""}
-      width={140}
-      height={48}
-      sizes="(max-width: 640px) 64px, 80px"
+      width={480}
+      height={144}
+      sizes="(max-width: 640px) 128px, 160px"
+      quality={100}
+      unoptimized={brand.src?.toLowerCase().endsWith(".svg")}
     />
   );
 
-  if (interactive && brand.href) {
+  if (brand.href) {
     return (
       <Link
         className="brand-marquee__item"
         href={brand.href}
         aria-label={`Browse ${brand.name} gifts`}
+        tabIndex={interactive ? undefined : -1}
       >
         {content}
       </Link>
@@ -109,6 +113,7 @@ export function BrandLogoMarquee({
           )}
         </div>
       </div>
+      {shouldLoop ? <BrandMarqueeControls /> : null}
     </section>
   );
 }

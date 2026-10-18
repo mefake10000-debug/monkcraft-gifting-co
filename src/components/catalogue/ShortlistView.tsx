@@ -10,6 +10,7 @@ import {
   removeFromShortlist,
   setShortlistQuantity,
   shortlistTotalUnits,
+  productMinimumOrderLabel,
   standardProductQuantityFloor,
 } from "@/lib/shortlist";
 
@@ -35,7 +36,7 @@ export function ShortlistView() {
   if (!ready) {
     return (
       <div className="journey-panel" aria-busy="true">
-        <p>Loading your cart…</p>
+          <p>Loading your quote selections…</p>
       </div>
     );
   }
@@ -43,9 +44,9 @@ export function ShortlistView() {
   if (items.length === 0) {
     return (
       <div className="journey-panel journey-panel--empty" role="status">
-        <p className="journey-eyebrow">Cart</p>
-        <h1>Your cart is empty</h1>
-        <p>Add products from the catalogue, set quantities, and send your cart to Monkcraft for price verification and approval.</p>
+        <p className="journey-eyebrow">QUOTE SELECTIONS</p>
+        <h1>No gifts selected yet</h1>
+        <p>Add gifts from the catalogue. Monkcraft confirms bulk pricing and availability in your quote.</p>
         <div className="journey-actions">
           <Link className="journey-btn" href="/gifts">
             Browse catalogue
@@ -69,10 +70,10 @@ export function ShortlistView() {
     <div className="journey-panel">
       <header className="journey-panel__head">
         <div>
-          <p className="journey-eyebrow">Cart</p>
-          <h1>Your cart</h1>
+          <p className="journey-eyebrow">QUOTE SELECTIONS</p>
+          <h1>Your quote selections</h1>
           <p>
-            {items.length} product{items.length === 1 ? "" : "s"} · {units} total units. Review displayed prices and send this cart for verification and approval.
+            {items.length} product{items.length === 1 ? "" : "s"} · {units} total units. Review quantities before requesting a quote.
           </p>
           <p className="cart-price-note">Prices are verified by Monkcraft before order approval. Payment follows the approved quote.</p>
         </div>
@@ -86,14 +87,14 @@ export function ShortlistView() {
             onClick={() => {
               if (
                 window.confirm(
-                  "Clear all cart products? This cannot be undone.",
+                  "Clear all quote selections? This cannot be undone.",
                 )
               ) {
                 clearShortlist();
               }
             }}
           >
-            Clear cart
+            Clear selections
           </button>
         </div>
       </header>
@@ -121,7 +122,7 @@ export function ShortlistView() {
                 <Link href={`/gifts/${item.slug}`}>{item.name}</Link>
               </h2>
               <p className="shortlist-row__price">{item.priceLabel}</p>
-              <p className="shortlist-row__moq">Minimum {standardProductQuantityFloor(item.minQuantity)} pcs</p>
+              <p className="shortlist-row__moq">MOQ {productMinimumOrderLabel(item.minQuantity)}</p>
             </div>
             <div className="shortlist-row__qty">
               <label htmlFor={`qty-${item.id}`}>Quantity (pcs)</label>

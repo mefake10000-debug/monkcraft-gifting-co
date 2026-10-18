@@ -6,6 +6,8 @@ import { SiteHeader } from "@/components/SiteHeader";
 export const metadata = {
   title: "Quote Selections | Monkcraft Gifts",
   description: "Review your product selections and quantities before requesting a bulk quote from Monkcraft.",
+  alternates: { canonical: null },
+  robots: { index: false, follow: false },
 };
 
 export default function ShortlistPage() {

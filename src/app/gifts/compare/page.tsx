@@ -14,6 +14,8 @@ export const metadata = {
   title: "Compare gifts | Monkcraft",
   description:
     "Compare shortlisted Monkcraft gifts side by side — pricing, branding, materials, and dispatch.",
+  alternates: { canonical: null },
+  robots: { index: false, follow: false },
 };
 
 type ComparePageProps = {

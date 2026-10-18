@@ -17,6 +17,7 @@ type ProductCardProps = {
   product: Product;
   shortlisted?: boolean;
   fromBox?: boolean;
+  eagerImage?: boolean;
 };
 
 /**
@@ -39,7 +40,7 @@ function needsRoomyFrame(product: Product): boolean {
   );
 }
 
-export function ProductCard({ product, shortlisted = false, fromBox = false }: ProductCardProps) {
+export function ProductCard({ product, shortlisted = false, fromBox = false, eagerImage = false }: ProductCardProps) {
   const [quickViewOpen, setQuickViewOpen] = useState(false);
   const [quickViewProduct, setQuickViewProduct] = useState(product);
   const [selectedCardProduct, setSelectedCardProduct] = useState(product);
@@ -122,6 +123,7 @@ export function ProductCard({ product, shortlisted = false, fromBox = false }: P
               sizes="(max-width: 639px) 92vw, (max-width: 1279px) 42vw, 28vw"
               className="product-card__image"
               style={{ objectFit: "contain", objectPosition: "center" }}
+              loading={eagerImage ? "eager" : "lazy"}
             />
           </button>
         ) : (

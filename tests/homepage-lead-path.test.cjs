@@ -9,7 +9,7 @@ const read = (relative) => fs.readFileSync(path.join(root, relative), "utf8");
 
 test("homepage has a concise first screen and one clear discovery and enquiry path", () => {
   const page = read("src/app/page.tsx");
-  assert.match(page, /Corporate gifting, made simple\./);
+  assert.match(page, /<RotatingHeroHeadline\s*\/>/);
   assert.match(page, /Explore gifts/);
   assert.match(page, /Plan a gifting programme/);
   assert.doesNotMatch(page, /Build a Box/, "box building is no longer a separate hero destination");

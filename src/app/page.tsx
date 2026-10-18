@@ -4,6 +4,7 @@ import { Consultation } from "@/components/Consultation";
 import { Faq } from "@/components/Faq";
 import { HeroLandingMedia } from "@/components/HeroLandingMedia";
 import { HeroNav } from "@/components/HeroNav";
+import { RotatingHeroHeadline } from "@/components/RotatingHeroHeadline";
 import { SiteFooter } from "@/components/SiteFooter";
 import { WhatWeDo } from "@/components/WhatWeDo";
 import { getHomepagePartnerBrands } from "@/data/partnerBrands";
@@ -29,7 +30,7 @@ export default function Home() {
 
         <div className="hero__copy">
           <div className="hero__copy-inner">
-            <h1 className="hero__title">Corporate gifting, made simple.</h1>
+            <RotatingHeroHeadline />
             <p className="hero__subtitle">
               Gifts, boxes and Company Stores for your team.
             </p>

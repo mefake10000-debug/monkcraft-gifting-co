@@ -15,10 +15,23 @@ import {
 export const instant = false;
 
 export const metadata = {
-  title: "Corporate Gift Catalogue for Indian Teams | Monkcraft",
+  title: "Corporate Gift Catalogue | Monkcraft",
   description:
     "Explore corporate gifts, employee welcome kits, custom merchandise and client hampers for Indian teams. Request a bulk quote with Monkcraft.",
   alternates: { canonical: "/gifts" },
+  openGraph: {
+    type: "website" as const,
+    title: "Corporate Gift Catalogue | Monkcraft",
+    description:
+      "Explore corporate gifts, employee welcome kits, custom merchandise and client hampers for Indian teams.",
+    url: "/gifts",
+  },
+  twitter: {
+    card: "summary_large_image" as const,
+    title: "Corporate Gift Catalogue | Monkcraft",
+    description:
+      "Explore corporate gifts, employee welcome kits, custom merchandise and client hampers for Indian teams.",
+  },
 };
 
 type GiftsPageProps = {

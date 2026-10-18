@@ -7,9 +7,23 @@ import type { StudioMode } from "@/data/catalogue/studioTypes";
 export const instant = false;
 
 export const metadata = {
-  title: "Studio | Monkcraft Gifting Co",
+  title: "Branded Merchandise Studio | Monkcraft",
   description:
-    "Customize branding previews on genuine merchandise or build a white-label client catalogue — Monkcraft Studio.",
+    "Preview branded merchandise on products or prepare a client-ready catalogue with Monkcraft Studio.",
+  alternates: { canonical: "/studio" },
+  openGraph: {
+    type: "website" as const,
+    title: "Branded Merchandise Studio | Monkcraft",
+    description:
+      "Preview branded merchandise on products or prepare a client-ready catalogue with Monkcraft Studio.",
+    url: "/studio",
+  },
+  twitter: {
+    card: "summary_large_image" as const,
+    title: "Branded Merchandise Studio | Monkcraft",
+    description:
+      "Preview branded merchandise on products or prepare a client-ready catalogue with Monkcraft Studio.",
+  },
 };
 
 type StudioPageProps = {

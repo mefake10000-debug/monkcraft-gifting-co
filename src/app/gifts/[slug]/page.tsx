@@ -11,6 +11,7 @@ import {
   getRelatedProducts,
 } from "@/data/catalogue/products";
 import { getProductVariantFamily } from "@/data/catalogue/query";
+import { truncateMetaDescription } from "@/lib/seoText";
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
@@ -35,9 +36,20 @@ export async function generateMetadata({ params }: ProductPageProps) {
   }
   return {
     title: `${product.name} | Corporate Gift Catalogue | Monkcraft`,
-    description: [product.name, product.summary].join(". ").slice(0, 160),
+    description: truncateMetaDescription([product.name, product.summary].join(". ")),
     alternates: { canonical: `/gifts/${product.slug}` },
-    openGraph: { title: product.name, description: product.summary, images: product.images[0] ? [product.images[0].src] : undefined },
+    openGraph: {
+      title: product.name,
+      description: product.summary,
+      url: `/gifts/${product.slug}`,
+      images: product.images[0] ? [product.images[0].src] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.name} | Monkcraft`,
+      description: product.summary,
+      images: product.images[0] ? [product.images[0].src] : undefined,
+    },
   };
 }
 

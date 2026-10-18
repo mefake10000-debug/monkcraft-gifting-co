@@ -4,7 +4,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://monkcraft-gifting-c
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: "*", allow: "/", disallow: ["/api/", "/gifts/brief", "/gifts/compare"] },
+    rules: { userAgent: "*", allow: "/", disallow: ["/api/"] },
     sitemap: `${siteUrl}/sitemap.xml`,
   };
 }

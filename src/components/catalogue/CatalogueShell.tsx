@@ -76,7 +76,7 @@ export function CatalogueShell(props:CatalogueShellProps) {
     {query.shortlistedOnly&&<button onClick={()=>commit({shortlistedOnly:false,shortlistIds:[]})}>Shortlisted ×</button>}
     <button className="browse-clear" onClick={clearDesktopFilters}>Clear all</button>
    </div>}
-   {props.products.length?<ul className="catalogue-grid">{props.products.map((product,index)=><li key={product.id} id={`gift-${product.id}`} data-product-id={product.id} tabIndex={index===0?-1:undefined} ref={index===0?firstResultRef:undefined}><ProductCard product={product} shortlisted={shortlistIds.includes(product.id)} fromBox={props.fromBox}/></li>)}</ul>:<CatalogueEmpty hasActiveFilters={activeCount>0} onClearHref={hrefFor(emptyCatalogueQuery())}/>}
+   {props.products.length?<ul className="catalogue-grid">{props.products.map((product,index)=><li key={product.id} id={`gift-${product.id}`} data-product-id={product.id} tabIndex={index===0?-1:undefined} ref={index===0?firstResultRef:undefined}><ProductCard product={product} shortlisted={shortlistIds.includes(product.id)} fromBox={props.fromBox} eagerImage={index<2}/></li>)}</ul>:<CatalogueEmpty hasActiveFilters={activeCount>0} onClearHref={hrefFor(emptyCatalogueQuery())}/>}
    {props.totalPages>1&&<nav className="catalogue-pagination" aria-label="Catalogue pages">
     <button type="button" aria-label="Previous page" disabled={props.page<=1||pending} onClick={()=>commit({page:props.page-1},true)}>Previous</button>
     <div className="catalogue-pagination__numbers" role="group" aria-label="Choose a page">

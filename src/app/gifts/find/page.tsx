@@ -8,9 +8,23 @@ import {
 } from "@/data/catalogue/facets";
 
 export const metadata = {
-  title: "Smart Gift Finder | Monkcraft Gifts",
+  title: "Corporate Gift Finder | Monkcraft",
   description:
     "Describe your corporate gifting needs and get verified catalogue recommendations — occasion, budget, branding, and more.",
+  alternates: { canonical: "/gifts/find" },
+  openGraph: {
+    type: "website" as const,
+    title: "Corporate Gift Finder | Monkcraft",
+    description:
+      "Find corporate gift ideas by occasion, budget and product type from the Monkcraft catalogue.",
+    url: "/gifts/find",
+  },
+  twitter: {
+    card: "summary_large_image" as const,
+    title: "Corporate Gift Finder | Monkcraft",
+    description:
+      "Find corporate gift ideas by occasion, budget and product type from the Monkcraft catalogue.",
+  },
 };
 
 export default function GiftFinderPage() {

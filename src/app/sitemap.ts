@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${siteUrl}/gifts/${product.slug}`,
     changeFrequency: "monthly" as const,
     priority: 0.6,
+    images: product.images.map((image) => new URL(image.src, siteUrl).toString()),
   }));
   const pages = ["", "/gifts", "/gifts/find", "/gifts/box", "/studio", "/company-stores"].map((path) => ({
     url: `${siteUrl}${path}`,

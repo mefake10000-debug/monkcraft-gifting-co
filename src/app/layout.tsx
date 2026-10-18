@@ -21,17 +21,17 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://monkcraft-gifting-co.vercel.app"),
-  title: "Monkcraft Gifting Co | Corporate Gifting for Modern Indian Teams",
+  title: "Corporate Gifting for Teams | Monkcraft",
   description:
-    "Premium corporate gifting, custom-branded merchandise, kits & fulfilment, and company stores — curated for modern Indian teams.",
+    "Explore corporate gifts, welcome kits, branded merchandise and Company Stores for Indian teams.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: "/",
     siteName: "Monkcraft Gifting Co",
-    title: "Monkcraft Gifting Co | Corporate Gifting for Modern Indian Teams",
+    title: "Corporate Gifting for Teams | Monkcraft",
     description:
-      "Premium corporate gifting, custom-branded merchandise, kits & fulfilment, and company stores — curated for modern Indian teams.",
+      "Explore corporate gifts, welcome kits, branded merchandise and Company Stores for Indian teams.",
     images: [
       {
         url: "/hero/monkcraft-hero-landing-poster.jpg",
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Monkcraft Gifting Co | Corporate Gifting for Modern Indian Teams",
+    title: "Corporate Gifting for Teams | Monkcraft",
     description:
-      "Premium corporate gifting, custom-branded merchandise, kits & fulfilment, and company stores — curated for modern Indian teams.",
+      "Explore corporate gifts, welcome kits, branded merchandise and Company Stores for Indian teams.",
     images: ["/hero/monkcraft-hero-landing-poster.jpg"],
   },
 };

@@ -7,6 +7,8 @@ export const metadata = {
   title: "My Gifting Brief | Monkcraft Gifts",
   description:
     "Bring your selected gifts, quantities, branding and delivery needs into one quote request for Monkcraft. Review it before sending; preparing a brief does not place an order.",
+  alternates: { canonical: null },
+  robots: { index: false, follow: false },
 };
 
 export default function BriefPage() {

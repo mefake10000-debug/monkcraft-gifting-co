@@ -4,9 +4,23 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
 export const metadata = {
-  title: "Build a Box | Monkcraft Gifts",
+  title: "Build a Corporate Gift Box | Monkcraft",
   description:
     "Assemble a Monkcraft corporate gift box from the live catalogue, capture branding needs, and prepare a quotation request.",
+  alternates: { canonical: "/gifts/box" },
+  openGraph: {
+    type: "website" as const,
+    title: "Build a Corporate Gift Box | Monkcraft",
+    description:
+      "Choose gifts and packaging for a corporate gift box, then prepare a quote request with Monkcraft.",
+    url: "/gifts/box",
+  },
+  twitter: {
+    card: "summary_large_image" as const,
+    title: "Build a Corporate Gift Box | Monkcraft",
+    description:
+      "Choose gifts and packaging for a corporate gift box, then prepare a quote request with Monkcraft.",
+  },
 };
 
 export default function BuildABoxPage() {

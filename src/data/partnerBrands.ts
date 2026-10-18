@@ -102,6 +102,7 @@ export function getHomepagePartnerBrands(): BrandLogoItem[] {
       return {
         name: brand.name,
         src: getMarqueeLogoSrc(originalSrc),
+        ...(brand.slug === "bombay-shaving-company" || brand.slug === "kent" ? { darkOnLight: true } : {}),
         ...(extractedLogo ? { source: "hustlemad" as const } : {}),
         href: `/gifts?brand=${encodeURIComponent(brand.slug)}`,
         productCount: brand.productCount,

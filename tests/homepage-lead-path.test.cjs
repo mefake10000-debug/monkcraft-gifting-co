@@ -72,11 +72,18 @@ test("homepage service heading matches the three visible service paths", () => {
   assert.doesNotMatch(services, /One partner\. Four ways to gift\./);
 });
 
-test("logo marquee provides a visible, labelled pause and resume control", () => {
+test("logo marquee runs without a visible pause control", () => {
   const marquee = read("src/components/BrandLogoMarquee.tsx");
-  assert.match(marquee, /BrandMarqueeControls/);
-  assert.match(read("src/components/BrandMarqueeControls.tsx"), /Pause logo movement/);
-  assert.match(read("src/components/BrandMarqueeControls.tsx"), /Resume logo movement/);
+  assert.doesNotMatch(marquee, /BrandMarqueeControls/);
+  assert.doesNotMatch(marquee, /brand-marquee__controls/);
+});
+
+test("single-image service cards reserve height for their existing artwork", () => {
+  const css = read("src/app/globals.css");
+  const services = read("src/components/WhatWeDo.tsx");
+  assert.match(css, /\.what-we-do__poster-frame:not\(\.what-we-do__poster-frame--pair\)\s+\.what-we-do__poster-image\s*\{[^}]*position:\s*absolute;[^}]*inset:\s*0;/);
+  assert.match(services, /width=\{1920\}[\s\S]*?height=\{1071\}/);
+  assert.doesNotMatch(services, /<Image[\s\S]*?fill/);
 });
 
 test("catalogue exposes supported sort choices as a labelled URL-backed control", () => {

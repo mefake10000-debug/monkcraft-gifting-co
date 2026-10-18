@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import { BrandMarqueeControls } from "@/components/BrandMarqueeControls";
+import { buildBrandMarqueeSequence } from "@/lib/brandMarqueeSequence";
 
 export type BrandLogoItem = {
   name: string;
@@ -9,6 +9,8 @@ export type BrandLogoItem = {
   src?: string;
   href?: string;
   source?: "hustlemad";
+  /** Source artwork is white-only and needs a black treatment on light backgrounds. */
+  darkOnLight?: boolean;
 };
 
 export type BrandLogoMarqueeProps = {
@@ -21,14 +23,17 @@ export type BrandLogoMarqueeProps = {
 function BrandLogoMark({
   brand,
   interactive = true,
+  decorative = false,
 }: {
   brand: BrandLogoItem;
   /** Set false for the duplicated loop track (aria-hidden, non-focusable) */
   interactive?: boolean;
+  /** Extra Monkcraft mark in the visual loop, hidden from assistive technology. */
+  decorative?: boolean;
 }) {
   const content = (
     <Image
-      className="brand-marquee__image"
+      className={`brand-marquee__image${brand.darkOnLight ? " brand-marquee__image--dark-on-light" : ""}`}
       src={brand.src!}
       alt={interactive && !brand.href ? brand.name : ""}
       width={480}
@@ -38,6 +43,14 @@ function BrandLogoMark({
       unoptimized={brand.src?.toLowerCase().endsWith(".svg")}
     />
   );
+
+  if (decorative) {
+    return (
+      <span className="brand-marquee__item" aria-hidden="true">
+        {content}
+      </span>
+    );
+  }
 
   if (brand.href) {
     return (
@@ -82,8 +95,9 @@ export function BrandLogoMarquee({
   ]
     .filter(Boolean)
     .join(" ");
+  const trackBrands = buildBrandMarqueeSequence(logoBrands);
   const trackStyle = {
-    "--brand-marquee-duration": `${Math.max(42, logoBrands.length * 2.2)}s`,
+    "--brand-marquee-duration": `${Math.max(42, trackBrands.length * 2.2)}s`,
   } as CSSProperties;
   const shouldLoop = logoBrands.length >= 8;
 
@@ -92,19 +106,20 @@ export function BrandLogoMarquee({
       <div className="brand-marquee__viewport">
         <div className={`brand-marquee__track${shouldLoop ? "" : " brand-marquee__track--static"}`} style={trackStyle}>
           <div className="brand-marquee__group">
-            {logoBrands.map((brand) => (
+            {trackBrands.map(({ brand, decorative }, index) => (
               <BrandLogoMark
-                key={`a-${brand.name}-${brand.src ?? "name"}`}
+                key={`a-${index}-${brand.name}-${brand.src ?? "name"}`}
                 brand={brand}
+                decorative={decorative}
               />
             ))}
           </div>
           {/* Duplicate for seamless loop; hidden from AT */}
           {shouldLoop && (
             <div className="brand-marquee__group" aria-hidden="true">
-              {logoBrands.map((brand) => (
+              {trackBrands.map(({ brand }, index) => (
                 <BrandLogoMark
-                  key={`b-${brand.name}-${brand.src ?? "name"}`}
+                  key={`b-${index}-${brand.name}-${brand.src ?? "name"}`}
                   brand={brand}
                   interactive={false}
                 />
@@ -113,7 +128,6 @@ export function BrandLogoMarquee({
           )}
         </div>
       </div>
-      {shouldLoop ? <BrandMarqueeControls /> : null}
     </section>
   );
 }

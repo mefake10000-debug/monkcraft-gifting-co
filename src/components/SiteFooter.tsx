@@ -27,9 +27,9 @@ export function SiteFooter() {
             <Image
               src="/brand/Monkcraft-White-Horizontal.png"
               alt="Monkcraft"
-              width={200}
-              height={36}
-              style={{ width: "auto", height: "auto", maxHeight: "2.25rem" }}
+              width={545}
+              height={145}
+              style={{ width: "auto", height: "2.25rem" }}
             />
           </Link>
           <p className="site-footer__tagline">

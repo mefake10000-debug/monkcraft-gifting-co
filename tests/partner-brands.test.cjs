@@ -61,6 +61,9 @@ test('homepage brand row starts with Monkcraft and omits the requested brands', 
   const { getHomepagePartnerBrands } = require('../src/data/partnerBrands.ts');
   const brands = getHomepagePartnerBrands();
   assert.equal(brands[0]?.name, 'Monkcraft');
+  for (const name of ['Bombay Shaving Company', 'Kent']) {
+    assert.equal(brands.find((brand) => brand.name === name)?.darkOnLight, true, `${name} white mark needs a dark version on the cream strip`);
+  }
   for (const [name, src] of [
     ['Adidas', '/brands/adidas-logo.svg'],
     ['Reebok', '/brands/reebok-logo.svg'],
@@ -72,6 +75,14 @@ test('homepage brand row starts with Monkcraft and omits the requested brands', 
   const normalize = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const removed = new Set(['Fuzo', 'Oblique', 'Power Plus', 'Bioq', 'Offikraft', 'Stolt', 'Stellers', 'Ooge', '3S'].map(normalize));
   assert.deepEqual(brands.filter((brand) => removed.has(normalize(brand.name))).map((brand) => brand.name), []);
+});
+
+test('homepage logo strip blends into adjacent homepage sections and darkens white-only marks', () => {
+  const css = fs.readFileSync(path.join(process.cwd(), 'src', 'app', 'globals.css'), 'utf8');
+  const homeStrip = css.match(/\.brand-marquee--home\s*\{([^}]*)\}/)?.[1] || '';
+  assert.match(homeStrip, /linear-gradient\(/);
+  assert.doesNotMatch(homeStrip, /border-block/);
+  assert.match(css, /\.brand-marquee__image--dark-on-light\s*\{[^}]*filter:\s*brightness\(0\)\s*;/);
 });
 
 test('brand marquee keeps Monkcraft fully visible at the right on its opening frame and scrolls left', () => {

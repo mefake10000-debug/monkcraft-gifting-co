@@ -102,9 +102,10 @@ export function WhatWeDo() {
                     <Image
                       src={image.src}
                       alt={image.alt}
-                      fill
+                      width={1920}
+                      height={1071}
                       sizes="(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 560px"
-                      style={{ objectFit: "contain", objectPosition: "center" }}
+                      style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                     />
                   </div>
                 ))}

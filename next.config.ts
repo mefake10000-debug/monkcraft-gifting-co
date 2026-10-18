@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   allowedDevOrigins: ["127.0.0.1"],
   images: {
-    qualities: [75, 100],
+    qualities: [75, 92, 100],
   },
   turbopack: {
     root: process.cwd(),

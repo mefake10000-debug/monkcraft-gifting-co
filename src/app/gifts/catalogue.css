@@ -1831,8 +1831,8 @@
   font-family: var(--font-ui);
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  text-transform: none;
   color: var(--mc-royal-purple);
 }
 

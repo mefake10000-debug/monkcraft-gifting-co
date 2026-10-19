@@ -45,8 +45,8 @@ export function ShortlistView() {
     return (
       <div className="journey-panel journey-panel--empty" role="status">
         <p className="journey-eyebrow">QUOTE SELECTIONS</p>
-        <h1>No gifts selected yet</h1>
-        <p>Add gifts from the catalogue. Monkcraft confirms bulk pricing and availability in your quote.</p>
+        <h1>Your next good gift starts here.</h1>
+        <p>Browse the catalogue and add your picks. We’ll confirm bulk pricing and availability in your quote.</p>
         <div className="journey-actions">
           <Link className="journey-btn" href="/gifts">
             Browse catalogue
@@ -71,15 +71,15 @@ export function ShortlistView() {
       <header className="journey-panel__head">
         <div>
           <p className="journey-eyebrow">QUOTE SELECTIONS</p>
-          <h1>Your quote selections</h1>
+          <h1>Your picks. Nearly there.</h1>
           <p>
             {items.length} product{items.length === 1 ? "" : "s"} · {units} total units. Review quantities before requesting a quote.
           </p>
-          <p className="cart-price-note">Prices are verified by Monkcraft before order approval. Payment follows the approved quote.</p>
+          <p className="cart-price-note">We’ll confirm the prices before you approve. Payment comes after the agreed quote.</p>
         </div>
         <div className="journey-actions">
           <Link className="journey-btn" href="/gifts/brief">
-            Continue to price verification
+            Review quote request
           </Link>
           <button
             type="button"

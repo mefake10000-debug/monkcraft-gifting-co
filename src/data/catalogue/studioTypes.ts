@@ -2,7 +2,7 @@
  * Monkcraft Studio draft shapes — local browser only until storage ships.
  */
 
-export type StudioMode = "customize" | "catalogue";
+export type StudioMode = "customize" | "catalogue" | "swag";
 
 export type StudioLogoAsset = {
   fileName: string;
@@ -78,6 +78,7 @@ export type StudioProductSummary = {
   catalogueSku?: string;
   sku: string;
   name: string;
+  brandName?: string;
   summary: string;
   imageSrc?: string;
   imageAlt?: string;

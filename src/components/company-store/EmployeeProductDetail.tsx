@@ -5,10 +5,12 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { StudioProductSummary } from "@/data/catalogue/studioTypes";
-import { companyStoreQuantityFloor } from "@/lib/shortlist";
 import type { StoreVariantSelection } from "@/data/companyStore/types";
 import { StoreDemoBanner } from "@/components/company-store/StoreDemoBanner";
-import { addStoreOrderLine } from "@/lib/companyStore/orderDraft";
+import {
+  addStoreOrderLine,
+  MIN_EMPLOYEE_REDEMPTION_QUANTITY,
+} from "@/lib/companyStore/orderDraft";
 import { useStoreDraft } from "@/lib/companyStore/useStoreDraft";
 import {
   displayAttributes,
@@ -56,7 +58,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
         setProduct(found);
         setMissing(false);
         setNotInStore(false);
-        const min = companyStoreQuantityFloor(found.minQuantity);
+        const min = MIN_EMPLOYEE_REDEMPTION_QUANTITY;
         setQuantity(min);
       } catch {
         if (!cancelled) setMissing(true);
@@ -165,7 +167,7 @@ export function EmployeeProductDetail({ slug }: { slug: string }) {
 
   const selectable = extractProductVariants(product);
   const attrs = displayAttributes(product.attributes).slice(0, 8);
-  const minQty = companyStoreQuantityFloor(product.minQuantity);
+  const minQty = MIN_EMPLOYEE_REDEMPTION_QUANTITY;
   const selectedColour = variants.find((variant) =>
     /^(colour|color)$/i.test(variant.label),
   )?.value;

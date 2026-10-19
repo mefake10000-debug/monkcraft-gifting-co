@@ -610,10 +610,10 @@ export function buildQuotationPrepText({
   };
 
   const lines = [
-    "Monkcraft gifting brief / quotation preparation",
+    "Monkcraft gifting plan · quote request",
     "==============================================",
     "",
-    "Programme context",
+    "The gifting plan",
     `Occasion: ${brief.occasion || "—"}`,
     `Audience / recipient group: ${brief.audience || "—"}`,
     `Total recipients / quantity: ${brief.recipientCount || "—"}`,
@@ -625,11 +625,11 @@ export function buildQuotationPrepText({
     `Delivery city/region / multi-address notes: ${brief.deliveryLocation || "—"}`,
     `Additional notes: ${brief.notes || "—"}`,
     "",
-    "Selected catalogue products (shortlist)",
+    "Your gift picks",
   ];
 
   if (products.length === 0) {
-    lines.push("— none shortlisted —");
+    lines.push("— no gifts selected yet —");
   } else {
     for (const item of products) {
       const priceNote = item.priceLabel?.trim()
@@ -646,7 +646,7 @@ export function buildQuotationPrepText({
 
   const box = brief.sources.box;
   if (box) {
-    lines.push("", "Build a Box configuration");
+    lines.push("", "Your box lineup");
     lines.push(`Packaging: ${box.packagingSummary || "—"}`);
     lines.push(`Number of complete gift boxes: ${box.numberOfBoxes}`);
     lines.push(`Company (box draft): ${box.companyName || "—"}`);
@@ -674,7 +674,7 @@ export function buildQuotationPrepText({
 
   const branding = brief.sources.studioBranding;
   if (branding) {
-    lines.push("", "Studio — product branding mockup (conceptual)");
+    lines.push("", "Your branding preview · concept only");
     lines.push(
       branding.productName
         ? `Product: ${branding.productName}` +
@@ -705,7 +705,7 @@ export function buildQuotationPrepText({
 
   const catalogue = brief.sources.studioCatalogue;
   if (catalogue) {
-    lines.push("", "Studio — white-label catalogue draft");
+    lines.push("", "Your client catalogue draft");
     lines.push(`Title: ${catalogue.title || "—"}`);
     lines.push(`Prepared for / reseller: ${catalogue.companyName || "—"}`);
     lines.push(`Pricing display mode: ${catalogue.pricingMode || "—"}`);
@@ -725,7 +725,7 @@ export function buildQuotationPrepText({
 
   const store = brief.sources.companyStore;
   if (store) {
-    lines.push("", "Company Store proposal (draft configurator)");
+    lines.push("", "Your Company Store proposal · demo draft");
     lines.push(`Company: ${store.companyName || "—"}`);
     lines.push(`Proposed store: ${store.storeName || "—"}`);
     lines.push(`Merchandise selected: ${store.productCount} catalogue product(s)`);
@@ -737,7 +737,7 @@ export function buildQuotationPrepText({
 
   lines.push(
     "",
-    "Price & fulfilment notes",
+    "Quote details to confirm",
     "Catalogue price labels above are verified where shown; many items remain quote-on-request.",
     "Quantity discounts, taxes/GST, shipping, packaging, and customisation charges require confirmation.",
     "Desired delivery dates are requests only — not a confirmed commitment.",
@@ -752,16 +752,16 @@ export function buildQuotationPrepText({
     `Email: ${c.email || "—"}`,
     `Phone: ${c.phone || "—"}`,
     "",
-    "Delivery limitation: Online inbox routing is not connected yet.",
-    "Copy this brief and share it with Monkcraft via email, WhatsApp, or consultation once those channels are configured — or use the homepage contact form.",
-    "Do not treat this screen as a submitted quotation or confirmed order.",
+    "Prepared only. Choose a contact option to send this request.",
+    "Share your plan with Monkcraft by email, WhatsApp or the enquiry form.",
+    "We’ll confirm the details with you before you order.",
   );
 
   return lines.join("\n");
 }
 
 export function buildMailtoHref(prepText: string, contactEmail?: string): string {
-  const subject = encodeURIComponent("Monkcraft gifting quotation request");
+  const subject = encodeURIComponent("Monkcraft gifting quote request");
   // Keep mailto under practical length limits; full text stays on Copy
   const limit = 1800;
   const truncated =
@@ -802,7 +802,7 @@ export function buildBriefWhatsAppMessage(
 
   // Lazy import avoided — keep string assembly local to brief for tree simplicity
   const parts = [
-    "Hi Monkcraft — I'd like help with a corporate gifting programme.",
+    "Hi Monkcraft! I’d love some help with our corporate gifting.",
     c.company?.trim() ? `Company: ${c.company.trim()}` : "",
     brief.occasion.trim() ? `Occasion: ${brief.occasion.trim()}` : "",
     productLines.length

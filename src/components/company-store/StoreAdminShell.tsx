@@ -17,6 +17,7 @@ import type {
   CompanyStoreDraft,
   StoreCategory,
 } from "@/data/companyStore/types";
+import { STORE_WELCOME_PRESETS } from "@/data/companyStore/types";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { StoreDemoBanner } from "@/components/company-store/StoreDemoBanner";
 import {
@@ -35,7 +36,9 @@ import {
 import { syncCompanyStoreDraftToBrief } from "@/lib/companyStore/briefSync";
 import {
   buildCompanyStoreEnquiryText,
+  buildCompanyStoreWhatsAppMessage,
 } from "@/lib/companyStore/enquiry";
+import { buildWhatsAppHref } from "@/lib/whatsapp";
 import {
   clearStoreOrderRequests,
   readStoreOrderRequests,
@@ -199,7 +202,7 @@ export function StoreAdminShell({ embedded = false }: { embedded?: boolean } = {
               </p>
             ) : null}
             {embedded ? <h2>Build your company store</h2> : <h1>Build your company store</h1>}
-            <p>Choose gifts, set access and delivery, then preview the store.</p>
+            <p>Your look, your gift edit, your programme rules. Then show the team view.</p>
           </div>
           {!embedded ? (
             <Link
@@ -220,7 +223,7 @@ export function StoreAdminShell({ embedded = false }: { embedded?: boolean } = {
         </div>
         <details className="cs-admin__summary">
           <summary>
-            <strong>Proposal at a glance</strong>
+            <strong>Your store at a glance</strong>
             <span>{draft.identity.companyName || "Add company name"} · {draft.productIds.length} gift{draft.productIds.length === 1 ? "" : "s"}</span>
           </summary>
           <DraftSidebar draft={draft} view={view} onNavigate={setView} />
@@ -429,10 +432,8 @@ function BrandingPanel() {
               value={draft.identity.welcomeMessage}
               onChange={(event) => updateIdentity("welcomeMessage", event.target.value)}
             >
-              <option value="Browse the gifts selected for your team.">Browse your selected gifts</option>
-              <option value="Choose a gift as a thank-you for your work.">A thank-you for your team</option>
-              <option value="Choose a gift selected to welcome you to the team.">Welcome to the team</option>
-              <option value="Choose a gift to mark this milestone.">Celebrate a milestone</option>
+              {!STORE_WELCOME_PRESETS.some((preset) => preset.value === draft.identity.welcomeMessage) ? <option value={draft.identity.welcomeMessage}>Your saved welcome message</option> : null}
+              {STORE_WELCOME_PRESETS.map((preset) => <option key={preset.value} value={preset.value}>{preset.label}</option>)}
             </select>
           </div>
           <div className="cs-field">
@@ -921,7 +922,7 @@ function RulesPanel() {
   function onSave(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     saveRules(event.currentTarget);
-    setStatus("Draft rules saved in this browser. These rules are not enforced.");
+    setStatus("Saved for this demo. Live rules are agreed before launch.");
   }
 
   const o = draft.rules.ordering;
@@ -1011,7 +1012,7 @@ function RulesPanel() {
             defaultValue={o.allowanceCapInr ?? ""}
             placeholder="Only used when allowance cap is selected"
           />
-          <p className="cs-field__hint">This is a rupee estimate for discussion. It is not a wallet balance or an employee credit ledger.</p>
+          <p className="cs-field__hint">Preview allowance only. Live credits are agreed before launch.</p>
         </div>
         <div className="cs-field">
           <label className="cs-check">
@@ -1026,7 +1027,7 @@ function RulesPanel() {
         </div>
         </section>
         <section className="cs-decision-group" aria-labelledby={`${formId}-delivery-heading`}>
-        <div className="cs-decision-group__intro"><h3 id={`${formId}-delivery-heading`}>3. Delivery plan</h3><p>Choose a likely fulfilment route; confirm locations and shipping details with Monkcraft.</p></div>
+        <div className="cs-decision-group__intro"><h3 id={`${formId}-delivery-heading`}>3. Delivery plan</h3><p>Choose where the gifts should go. We’ll confirm locations and shipping together.</p></div>
         <div className="cs-field">
           <label htmlFor={`${formId}-delivery`}>Delivery preference</label>
           <select
@@ -1077,7 +1078,7 @@ function PreviewPanel({ draft, previewUrl, summaryHref }: { draft: CompanyStoreD
     <div>
       <p className="cs-panel-step">STEP 4 · MANAGER PRESENTATION</p>
       <h2>Present the store</h2>
-      <p className="cs-panel-lede">Review the proposal, then show the employee storefront.</p>
+      <p className="cs-panel-lede">Check your setup, then give the team view its moment.</p>
       <div className="cs-presentation-heading"><div><h3>{title}</h3><p>{draft.productIds.length} selected gifts · {draft.identity.companyName || "Company name to add"}</p></div></div>
       <div className="cs-device-toggle" role="group" aria-label="Preview width">
         <button
@@ -1208,6 +1209,7 @@ function SummaryPanel({ draft }: { draft: CompanyStoreDraft }) {
   const [error, setError] = useState("");
   const [showCopy, setShowCopy] = useState(false);
   const text = useMemo(() => buildCompanyStoreEnquiryText(draft), [draft]);
+  const whatsappHref = buildWhatsAppHref(buildCompanyStoreWhatsAppMessage(draft));
   const orderedCategories = draft.categories.filter((category) => category.productIds.length > 0);
   const deliveryLabels: Record<string, string> = { undecided: "To be discussed", office: "Central office", home: "Employee home", either: "Office or home" };
 
@@ -1224,8 +1226,8 @@ function SummaryPanel({ draft }: { draft: CompanyStoreDraft }) {
 
   return (
     <div>
-      <h2>Proposal overview</h2>
-      <p className="cs-panel-lede">Review the draft and copy its brief to discuss with Monkcraft.</p>
+      <h2>Your store at a glance</h2>
+      <p className="cs-panel-lede">Like the plan? Copy the brief and talk through the next steps with us.</p>
       <div className="cs-summary-grid">
         <section className="cs-summary-card cs-summary-card--identity">
           <span className="cs-summary-card__eyebrow">Store identity</span>
@@ -1263,9 +1265,15 @@ function SummaryPanel({ draft }: { draft: CompanyStoreDraft }) {
         <button type="button" className="cs-btn cs-btn--primary" onClick={copy}>
           {copied ? "Enquiry brief copied" : "Copy enquiry brief"}
         </button>
-        <Link className="cs-btn cs-btn--secondary" href="/?interest=company-store#enquire">
-          Discuss this proposal
-        </Link>
+        {whatsappHref ? (
+          <a className="cs-btn cs-btn--secondary" href={whatsappHref} target="_blank" rel="noopener noreferrer">
+            Discuss this store on WhatsApp
+          </a>
+        ) : (
+          <Link className="cs-btn cs-btn--secondary" href="/?interest=company-store#enquire">
+            Discuss this proposal
+          </Link>
+        )}
         <button
           type="button"
           className="cs-btn cs-btn--ghost"
@@ -1283,9 +1291,8 @@ function SummaryPanel({ draft }: { draft: CompanyStoreDraft }) {
         </button>
       </div>
       <p className="cs-note" style={{ marginTop: "1rem" }}>
-        Production still needs: authenticated multi-company isolation, admin
-        permissions, live catalogues/allowances, order ingestion, fulfilment,
-        and reporting. This UI does not provide those.
+        This is your demo proposal. We’ll agree sign-in, credits, stock, delivery and reporting before the store goes live.
+        {whatsappHref ? " The WhatsApp button opens a draft with your setup details for you to review and send." : ""}
       </p>
     </div>
   );

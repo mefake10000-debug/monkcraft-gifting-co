@@ -327,19 +327,15 @@ const ORIGIN_COUNTRIES = [
 ].join("|");
 
 const COUNTRY_OF_ORIGIN_PATTERN = new RegExp(
-  `\\(?\\s*\\bcountry\\s+of\\s+origin\\s*(?:[:=–—-]\\s*)?(?:${ORIGIN_COUNTRIES})\\s*\\)?`,
+  `(^|\\s)\\(?\\s*\\bcountry\\s+of\\s+origin\\s*(?:[:=–—-]\\s*)?(?:${ORIGIN_COUNTRIES})\\s*\\)?(?=[\\s.,;:!?]|$)`,
   "gi",
 );
 
 /** Remove supplier origin labels from buyer-facing copy without changing source files. */
 function removeCountryOfOrigin(text: string): string {
-  return text
-    .replace(COUNTRY_OF_ORIGIN_PATTERN, " ")
-    .replace(/\(\s*\)|\[\s*\]/g, " ")
-    .replace(/\s+([,.;:!?])/g, "$1")
-    .replace(/([.;])\s*[.;]+/g, "$1")
-    .replace(/\s{2,}/g, " ")
-    .trim();
+  const withoutOrigin = text.replace(COUNTRY_OF_ORIGIN_PATTERN, "");
+  if (withoutOrigin === text) return text;
+  return withoutOrigin.trim();
 }
 
 function mapAttributes(product: ExportProduct): { label: string; value: string }[] {

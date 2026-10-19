@@ -96,7 +96,7 @@ function appendLinkedSelections(
   if (shortlist.length > 0 || boxHasContent) {
     lines.push(
       "",
-      "Full programme details also live in My Gifting Brief (/gifts/brief).",
+      "Full programme details also live in My Brief (/gifts/brief).",
     );
   }
 
@@ -147,7 +147,7 @@ function buildEnquiry(input: {
 
   lines.push(
     "",
-    "Note: This text is a prepared enquiry — not a submitted quotation. Online inbox delivery only succeeds when Monkcraft confirms server configuration.",
+    "Prepared enquiry only. Choose a contact option to send it; we’ll confirm prices and delivery after review.",
   );
 
   return { text: lines.join("\n"), products };
@@ -333,18 +333,18 @@ function ConsultationForm({
           <h2 id="consultation-heading" className="consultation__heading">
             {isCompanyStore ? (
               <>
-                Plan a Company Store.
+                Your team store starts here.
               </>
             ) : (
               <>
-                Let&apos;s plan your gifting.
+                Let&apos;s make their day.
               </>
             )}
           </h2>
           <p className="consultation__lede">
             {isCompanyStore
-              ? "Share the basics. This prepares an enquiry; a live store is not provisioned here."
-              : "Your selected gifts stay in the brief. Add any other details only if you have them."}
+              ? "Tell us about your team. We’ll help plan the store; launching it comes after your proposal is agreed."
+              : "Got a plan? Great. Just a starting point? That works too. Your gift picks are already in My Brief."}
           </p>
           {selectedCategory || productSlug || isCompanyStore ? (
             <p className="consultation__selected" role="status">
@@ -396,7 +396,7 @@ function ConsultationForm({
             )}
           </div>
           <p className="consultation__note">
-            Review your details before sending. Monkcraft confirms pricing, availability and delivery after review.
+            Your picks, our next conversation. We confirm prices, availability and delivery with you.
           </p>
         </Reveal>
 

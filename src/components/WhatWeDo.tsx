@@ -10,7 +10,7 @@ import { BOX_CATALOGUE_HREF } from "@/lib/nav";
 const services = [
   {
     id: "corporate-gifting",
-    title: "Catalogue & gift boxes",
+    title: "For your people. From your brand.",
     tone: "lilac",
     images: [
       {
@@ -24,20 +24,8 @@ const services = [
     ],
   },
   {
-    id: "custom-merchandise",
-    title: "Studio & branded merchandise",
-    tone: "mint",
-    images: [
-      {
-        src: "/marketing/what-we-do/custom-merchandise-v3.jpg",
-        alt: "Branded merchandise — hoodie, bottle, power bank, and tote",
-      },
-    ],
-    links: [{ href: "/studio", cta: "Explore Studio" }],
-  },
-  {
     id: "company-stores",
-    title: "Company Stores",
+    title: "Your team’s own gift store",
     tone: "apricot",
     images: [
       {
@@ -46,6 +34,18 @@ const services = [
       },
     ],
     links: [{ href: "/company-stores", cta: "Explore Company Stores" }],
+  },
+  {
+    id: "custom-merchandise",
+    title: "Swag that feels like you",
+    tone: "mint",
+    images: [
+      {
+        src: "/marketing/what-we-do/custom-merchandise-v3.jpg",
+        alt: "Custom merchandise studio illustration with a backpack, jacket and mug",
+      },
+    ],
+    links: [{ href: "/studio?mode=swag", cta: "Build your company swag" }],
   },
 ] as const;
 
@@ -63,10 +63,10 @@ export function WhatWeDo() {
         >
           <p className="what-we-do__eyebrow">Our services</p>
           <h2 id="what-we-do-heading" className="what-we-do__heading">
-            One partner. Three ways to gift.
+            Gifts, made more you.
           </h2>
           <p className="what-we-do__lede">
-            Gifts and boxes, branded merchandise, and Company Stores.
+            Gifts, swag and team stores. All with your kind of energy.
           </p>
         </Reveal>
         <BrandVideoBand
@@ -92,7 +92,7 @@ export function WhatWeDo() {
               id={service.id === "company-stores" ? "company-stores" : undefined}
               className={`what-we-do__poster what-we-do__poster--${service.tone}`}
             >
-              <div className={`what-we-do__poster-frame${service.images.length > 1 ? " what-we-do__poster-frame--pair" : ""}`}>
+              <div className={`what-we-do__poster-frame${service.images.length > 1 ? " what-we-do__poster-frame--pair" : ""}${service.id === "custom-merchandise" ? " what-we-do__poster-frame--merch" : ""}`}>
                 {service.images.map((image) => (
                   <div className="what-we-do__poster-image" key={image.src}>
                     <Image
@@ -101,7 +101,7 @@ export function WhatWeDo() {
                       width={1920}
                       height={1071}
                       sizes="(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 560px"
-                      style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
+                      style={{ width: "100%", height: "100%", objectFit: service.id === "custom-merchandise" ? "cover" : "contain", objectPosition: "center bottom" }}
                     />
                   </div>
                 ))}

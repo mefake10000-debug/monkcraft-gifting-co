@@ -213,8 +213,8 @@ export function CatalogueBuilder({
 
       {step === "select" ? (
         <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-select">
-          <h2 id="cat-select">Select products</h2>
-          <p>Search the catalogue or import your quote selections.</p>
+          <h2 id="cat-select">Pick the good stuff</h2>
+          <p>Find gifts in the catalogue or bring over your quote picks.</p>
           {orderedProducts.length === 0 ? (
             <p className="studio-empty-guide" role="status">Add at least one product to continue.</p>
           ) : null}
@@ -342,7 +342,7 @@ export function CatalogueBuilder({
         <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-brand">
           <h2 id="cat-brand">Add your brand</h2>
           <p>
-            The catalogue uses the name you enter. It does not claim Monkcraft affiliation unless you include it.
+            Give the catalogue your name, logo and look. Every page uses the branding you choose.
           </p>
           <div className="studio-form-grid">
             <label className="studio-field">
@@ -354,7 +354,7 @@ export function CatalogueBuilder({
               />
             </label>
             <label className="studio-field">
-              <span>Company / reseller name</span>
+              <span>Company name</span>
               <input
                 type="text"
                 value={draft.companyName}
@@ -476,7 +476,7 @@ export function CatalogueBuilder({
 
       {step === "fields" ? (
         <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-fields">
-          <h2 id="cat-fields">Choose details</h2>
+          <h2 id="cat-fields">Keep the details that matter</h2>
           <p>Select which product details and prices appear.</p>
           <fieldset className="studio-fieldset">
             <legend>Visible fields</legend>
@@ -572,7 +572,7 @@ export function CatalogueBuilder({
 
       {step === "preview" ? (
         <section ref={stepPanelRef} className="studio-catalogue__section" aria-labelledby="cat-preview">
-          <h2 id="cat-preview">Preview your catalogue</h2>
+          <h2 id="cat-preview">Give it one last look</h2>
           <p>
             Choose <strong>Print / Save as PDF</strong> to export this document from your browser.
           </p>
@@ -631,7 +631,7 @@ export function CatalogueBuilder({
             onClick={() => {
               if (
                 window.confirm(
-                  "Clear the white-label catalogue draft? Shortlist and box drafts are kept.",
+                  "Clear this client catalogue draft? Quote selections and box drafts stay saved.",
                 )
               ) {
                 clearCatalogueDraft();

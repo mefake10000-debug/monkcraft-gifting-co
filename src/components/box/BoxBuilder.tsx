@@ -365,7 +365,7 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
   if (!draft) {
     return (
       <div className="journey-panel" aria-busy="true">
-        <p>Loading your gift box draft…</p>
+        <p>Getting your box ready…</p>
       </div>
     );
   }
@@ -510,7 +510,7 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
       <header className="box-builder__head">
         <div>
           <p className="journey-eyebrow">Build a Box</p>
-          <h1>Build a gift box</h1>
+          <h1>Good gifts. One great box.</h1>
           <p className="box-builder__meta" aria-live="polite">
             {draftMeta}
             <span className="box-builder__save">
@@ -551,7 +551,7 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
             >
               <header className="box-section__intro">
                 <h2 id="box-packaging-heading">Choose packaging</h2>
-                <p>Choose a style or ask us to recommend one. Final fit and price are confirmed in your quote.</p>
+                <p>Give your gifts a good first impression. Pick a style or let us recommend one; fit and price are confirmed in your quote.</p>
               </header>
 
               <ul className="box-packaging-grid">
@@ -679,9 +679,9 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
                   <div className="box-ready-combos__head">
                     <div>
                       <p className="journey-eyebrow">A quicker start</p>
-                      <h3 id="box-ready-combos-heading">Ready-made combinations</h3>
+                      <h3 id="box-ready-combos-heading">Start with a good combo</h3>
                     </div>
-                    <p>Choose a starting set, then change any gift or packaging.</p>
+                    <p>Pick a starting lineup. Swap any gift or packaging to make it yours.</p>
                   </div>
                   <div className="box-ready-combos__grid">
                     {combos.map((combo) => (
@@ -713,7 +713,7 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
                       </article>
                     ))}
                   </div>
-                  <p className="box-ready-combos__note">Draft suggestions using catalogue products. We confirm packaging fit, availability, branding and final price in your quote.</p>
+                  <p className="box-ready-combos__note">Real catalogue picks, ready to remix. We confirm packaging fit, availability, branding and price in your quote.</p>
                   <p className="box-ready-combos__status" role="status" aria-live="polite">{comboStatus}</p>
                 </section>
               ) : null}
@@ -989,8 +989,8 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
               aria-labelledby="box-quote-heading"
             >
               <header className="box-section__intro">
-                <h2 id="box-quote-heading">Review &amp; request</h2>
-                <p>Check your gifts and packaging, then prepare a quote request.</p>
+                <h2 id="box-quote-heading">Your box, one last look</h2>
+                <p>Happy with the lineup? Check the details and prepare your quote request.</p>
               </header>
 
               <section className="box-final-review" aria-label="Gift box summary">
@@ -1026,7 +1026,7 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
                 <div className="box-price-callout" role="note">
                   <h3>Price guidance</h3>
                   {estimate && estimate.pricedLineCount > 0 && estimate.pricedSubtotalInr !== null ? (
-                    <p>Catalogue reference subtotal: <strong>{formatInr(estimate.pricedSubtotalInr)}</strong></p>
+                    <p>Product price guide: <strong>{formatInr(estimate.pricedSubtotalInr)}</strong></p>
                   ) : <p>Product prices are confirmed in your quote.</p>}
                   {estimate && estimate.unpricedLineCount > 0 ? <p>{estimate.unpricedLineCount} product line{estimate.unpricedLineCount === 1 ? " is" : "s are"} quote-on-request.</p> : null}
                   <p>Catalogue prices are estimates. Packaging, branding, assembly, delivery, taxes and volume pricing are confirmed in your quote.</p>
@@ -1111,7 +1111,7 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
                 </div>
               ) : (
                 <form className="brief-form" onSubmit={onPrepareQuote}>
-                  <p className="box-quote-prep">All details are optional. Preparing creates a draft in My Brief; choose a channel to send it.</p>
+                  <p className="box-quote-prep">Add what you know. We’ll save a request in My Brief for you to review and send.</p>
                   <fieldset className="brief-form__contact">
                     <legend>About this order (optional)</legend>
                     <div className="brief-form__grid">
@@ -1208,7 +1208,7 @@ export function BoxBuilder({ combos }: { combos: ReadyBoxCombo[] }) {
                   <StepFooter
                     back={{ onClick: () => setBoxStep("packaging") }}
                     primary={{
-                      label: "Prepare quotation request",
+                      label: "Prepare quote request",
                       type: "submit",
                     }}
                     secondary={

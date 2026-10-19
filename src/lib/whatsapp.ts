@@ -34,7 +34,7 @@ export function buildWhatsAppPrefillMessage(input: WhatsAppPrefillInput): string
       : "";
 
   const parts = [
-    "Hi Monkcraft — I'd like help with a corporate gifting programme.",
+    "Hi Monkcraft! I’d love some help with our corporate gifting.",
     input.company?.trim() ? `Company: ${input.company.trim()}` : "",
     input.occasion?.trim() ? `Occasion: ${input.occasion.trim()}` : "",
     products ? `Products: ${products}` : "",

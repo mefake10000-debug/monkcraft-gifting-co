@@ -1,6 +1,7 @@
 import type { Product } from "@/data/catalogue/types";
 import type { StudioProductSummary } from "@/data/catalogue/studioTypes";
 import { formatPricing } from "@/lib/pricing";
+import { buyerProductIntro } from "@/lib/productVoice";
 
 export function toStudioProductSummary(product: Product): StudioProductSummary {
   const image = product.images[0];
@@ -10,7 +11,8 @@ export function toStudioProductSummary(product: Product): StudioProductSummary {
     catalogueSku: product.catalogueSku,
     sku: product.sku,
     name: product.name,
-    summary: product.summary,
+    brandName: product.brandName,
+    summary: buyerProductIntro(product.summary, product.name, product.filterCategorySlug || product.categorySlug),
     imageSrc: image?.src,
     imageAlt: image?.alt,
     imageVariants: product.colourOptions?.flatMap(({ label, imageIndex }) => {

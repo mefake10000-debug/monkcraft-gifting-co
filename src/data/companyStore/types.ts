@@ -144,12 +144,19 @@ export type CompanyStoreFutureCapabilities =
 
 export const DEFAULT_ACCENT = "#662F90";
 
+export const STORE_WELCOME_PRESETS = [
+  { label: "A little team love", value: "A little team love. Pick something that feels like you." },
+  { label: "A well-earned thank-you", value: "Good work deserves good gifts. Pick your thank-you." },
+  { label: "A proper first-day welcome", value: "New team. Fresh start. Pick your welcome gift." },
+  { label: "Celebrate a big win", value: "Big moment. Well earned. Find your milestone gift." },
+] as const;
+
 export function emptyStoreIdentity(): CompanyStoreIdentity {
   return {
     companyName: "",
     storeName: "",
     storeTitle: "",
-    welcomeMessage: "Browse the gifts selected for your team.",
+    welcomeMessage: STORE_WELCOME_PRESETS[0].value,
     accentColor: DEFAULT_ACCENT,
     logo: null,
   };

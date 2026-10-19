@@ -32,8 +32,8 @@ test("catalogue title, guidance and price note stay grouped beside the Build a B
   const copy = html.match(/<div class="browse-intro__copy">([\s\S]*?)<\/div>/)?.[1] ?? "";
 
   assert.match(copy, /<h1[^>]*>Gifts worth giving\.<\/h1>/);
-  assert.match(copy, /Find something thoughtful/);
-  assert.match(copy, /Prices are indicative/);
+  assert.match(copy, /Find their next favourite/);
+  assert.match(copy, /Prices are a guide/);
   assert.match(html, /<a[^>]*class="browse-intro__box-cta"/);
   assert.ok(html.indexOf("browse-intro__copy") < html.indexOf("browse-intro__box-cta"));
 });

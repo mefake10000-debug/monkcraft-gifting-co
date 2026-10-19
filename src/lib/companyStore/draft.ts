@@ -6,6 +6,7 @@ import {
   emptyCompanyStoreDraft,
   emptyStoreIdentity,
   emptyStoreRules,
+  STORE_WELCOME_PRESETS,
   type CompanyStoreDraft,
   type CompanyStoreIdentity,
   type CompanyStoreRules,
@@ -49,13 +50,17 @@ function normalizeIdentity(value: unknown): CompanyStoreIdentity {
   const savedWelcome = String(raw.welcomeMessage ?? fallback.welcomeMessage);
   const welcomeMessage = {
     "Welcome to your company merchandise store. Browse approved items and prepare a draft order request.":
-      "Browse the gifts selected for your team.",
+      STORE_WELCOME_PRESETS[0].value,
     "Choose a gift from this collection as a thank-you for all you do.":
-      "Choose a gift as a thank-you for your work.",
+      STORE_WELCOME_PRESETS[1].value,
     "Pick a welcome gift selected for your first days with the team.":
-      "Choose a gift selected to welcome you to the team.",
+      STORE_WELCOME_PRESETS[2].value,
     "Celebrate the milestone with a gift chosen for you.":
-      "Choose a gift to mark this milestone.",
+      STORE_WELCOME_PRESETS[3].value,
+    "Browse the gifts selected for your team.": STORE_WELCOME_PRESETS[0].value,
+    "Choose a gift as a thank-you for your work.": STORE_WELCOME_PRESETS[1].value,
+    "Choose a gift selected to welcome you to the team.": STORE_WELCOME_PRESETS[2].value,
+    "Choose a gift to mark this milestone.": STORE_WELCOME_PRESETS[3].value,
   }[savedWelcome] ?? savedWelcome;
   return {
     companyName: String(raw.companyName ?? ""),

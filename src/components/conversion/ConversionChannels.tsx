@@ -72,7 +72,6 @@ export function ConversionChannels({
     createEnquirySubmissionId(),
   );
   const [requestId, setRequestId] = useState("");
-  const [notionSyncPending, setNotionSyncPending] = useState(false);
   const [contactPreference, setContactPreference] = useState<"email" | "phone" | "whatsapp">("email");
   const [whatsappUpdatesOptIn, setWhatsappUpdatesOptIn] = useState(false);
   const [marketingEmailOptIn, setMarketingEmailOptIn] = useState(false);
@@ -177,7 +176,6 @@ export function ConversionChannels({
 
     if (body.received === true) {
       setRequestId(body.requestId || "");
-      setNotionSyncPending(body.notionSyncStatus !== "synced");
       setSubmitState("received");
       return;
     }
@@ -218,20 +216,17 @@ export function ConversionChannels({
       <p className="conversion-channels__status" role="status">
         {submitState === "received" ? (
           <>
-            Your quote request was saved. {requestId ? `Reference: ${requestId}. ` : ""}
-            Our team will review it before confirming pricing, stock, or delivery.
-            {notionSyncPending ? " The internal workspace sync is queued for retry." : ""}
+            Your quote request is saved. {requestId ? `Reference: ${requestId}. ` : ""}
+            We’ll review your picks and confirm prices, availability and delivery with you.
           </>
         ) : storageReady ? (
           <>
-            Submit this brief to save it as a quote request. The team will confirm pricing,
-            supplier availability, and delivery after review. Email or WhatsApp links
-            remain available if you prefer to contact us yourself.
+            Ready? Send your brief for a quote, or share it by email or WhatsApp.
+            We’ll confirm prices, availability and delivery with you.
           </>
         ) : channels.hasLiveChannel ? (
           <>
-            Online quote request storage is not connected yet. The brief remains in this
-            browser until you submit through a contact channel yourself.
+            Your brief is ready. Share it by email or WhatsApp; online submission is unavailable.
           </>
         ) : (
           <>Monkcraft contact channels are being connected. Your quote stays saved in this browser; copy the complete summary to share it.</>
@@ -357,8 +352,7 @@ export function ConversionChannels({
             Review before opening WhatsApp
           </h3>
           <p className="conversion-channels__whatsapp-note">
-            Opening WhatsApp does not send or deliver a message. Check the draft
-            below, then continue in WhatsApp and tap send yourself.
+            Check your message below. It opens as a draft in WhatsApp; tap Send there when you’re ready.
             {whatsappWasTruncated
               ? " This preview is shortened to fit WhatsApp; use “Copy complete quote” above for the full product list and details."
               : ""}

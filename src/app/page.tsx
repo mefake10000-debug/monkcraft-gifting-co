@@ -31,16 +31,17 @@ export default function Home() {
 
         <div className="hero__copy">
           <div className="hero__copy-inner">
+            <p className="hero__eyebrow">Monkcraft · Corporate gifting</p>
             <RotatingHeroHeadline />
             <p className="hero__subtitle">
-              Browse gifts, build a gift box or explore Company Stores.
+              Pick a gift, build a box or make your own swag.
             </p>
             <div className="hero__actions">
               <Link className="hero__btn hero__btn--primary" href="/gifts">
-                Explore the catalogue
+                Browse gifts
               </Link>
-              <Link className="hero__btn hero__btn--secondary" href="#enquire">
-                Plan a gifting programme
+              <Link className="hero__btn hero__btn--secondary" href="/gifts/box">
+                Build a Box
               </Link>
             </div>
           </div>

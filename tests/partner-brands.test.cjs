@@ -15,7 +15,7 @@ require.extensions['.ts'] = (mod, file) => mod._compile(ts.transpileModule(fs.re
   compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020, esModuleInterop: true },
 }).outputText, file);
 
-test('verified missing brand logos link to the existing catalogue records', () => {
+test('homepage brand list stays curated while excluded brands remain searchable in the catalogue', () => {
   const { getHomepagePartnerBrands, resolveBrandLogoSrc } = require('../src/data/partnerBrands.ts');
   const brands = getHomepagePartnerBrands();
 
@@ -27,24 +27,24 @@ test('verified missing brand logos link to the existing catalogue records', () =
     assert.equal(resolveBrandLogoSrc(slug), `/brands/${asset}`);
     assert.ok(fs.existsSync(path.join(process.cwd(), 'public', 'brands', asset)), `${asset} should exist`);
     const item = brands.find((brand) => brand.name === name);
-    if (slug === 'ooge') {
-      assert.equal(item, undefined, 'Ooge should remain catalogued but be omitted from the homepage brand row');
-    } else {
+    if (slug === 'shopnooe') {
       assert.ok(item, `${name} should appear in the homepage brand row`);
       assert.equal(item.href, `/gifts?brand=${slug}`);
       assert.ok(fs.existsSync(path.join(process.cwd(), 'public', item.src.slice(1))), `${name} homepage image ${item.src} should exist`);
+    } else {
+      assert.equal(item, undefined, `${name} stays out of the homepage brand row by request`);
     }
   }
 
   const products = require('../src/data/catalogue/products.ts').getAllProducts();
-  for (const slug of ['greys-blues', 'scott', 'shopnooe', 'ooge']) {
+  for (const slug of ['greys-blues', 'scott', 'shopnooe', 'ooge', 'urban-gear', 'portronics']) {
     const normalize = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     assert.ok(products.filter((product) => normalize(product.brandName) === normalize(slug)).length >= 5, `${slug} needs at least five real products`);
   }
 
   const { queryCatalogue } = require('../src/data/catalogue/query.ts');
   const { emptyCatalogueQuery } = require('../src/data/catalogue/queryParams.ts');
-  for (const [name, slug] of [['Greys & Blues', 'greys-blues'], ['Scott', 'scott'], ['ShopNooe', 'shopnooe'], ['Ooge', 'ooge']]) {
+  for (const [name, slug] of [['Greys & Blues', 'greys-blues'], ['Scott', 'scott'], ['ShopNooe', 'shopnooe'], ['Ooge', 'ooge'], ['Urban Gear', 'urban-gear'], ['Portronics', 'portronics']]) {
     assert.ok(queryCatalogue({ ...emptyCatalogueQuery(), brands: [slug] }).total >= 5, `${name} link should surface at least five catalogue products`);
   }
 });
@@ -92,7 +92,7 @@ test('brand marquee keeps Monkcraft fully visible at the right on its opening fr
   const viewport = css.match(/\.brand-marquee__viewport\s*\{([\s\S]*?)\n\}/)?.[1] || '';
   assert.doesNotMatch(group, /flex-direction:\s*row-reverse/);
   assert.match(keyframes, /from\s*\{[\s\S]*?100vw\s*-\s*var\(--brand-marquee-item-width/);
-  assert.match(keyframes, /to\s*\{[\s\S]*?100vw\s*-\s*var\(--brand-marquee-item-width[\s\S]*?-\s*50%/);
+  assert.match(keyframes, /to\s*\{[\s\S]*?100vw\s*-\s*var\(--brand-marquee-item-width[\s\S]*?-\s*100%/);
   assert.match(viewport, /mask-image:\s*linear-gradient\(\s*90deg,\s*transparent 0%,\s*#000 8%,\s*#000 100%\s*\)/);
 });
 

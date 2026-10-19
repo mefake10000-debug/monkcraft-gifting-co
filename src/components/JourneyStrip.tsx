@@ -19,7 +19,7 @@ const steps = [
   {
     n: "03",
     title: "Quote",
-    text: "Share your selections. We’ll confirm details before an order.",
+    text: "Share your picks. We’ll confirm the details before you order.",
     href: "/gifts/brief",
     cta: "Open My Brief",
   },
@@ -33,7 +33,7 @@ export function JourneyStrip() {
         <Reveal as="header" className="journey-strip__intro">
           <p className="journey-strip__eyebrow">How it works</p>
           <h2 id="journey-strip-heading" className="journey-strip__heading">
-            From first idea to quote.
+            From “that’s the one” to a plan.
           </h2>
           <p className="journey-strip__lede">
             Browse, build your selection, then request a quote.

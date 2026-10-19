@@ -90,11 +90,12 @@ test('Company Stores offers one responsive Company Store film before the illustr
   assert.ok(firstPosterIndex > briefIndex, 'the brief leads into the illustrated walkthrough');
 });
 
-test('Company Store demo limitations stay accurate without a heavy warning banner', () => {
+test('Company Store demo explains draft behavior and live-system limits in concise language', () => {
   const banner = fs.readFileSync(path.join(root, 'src/components/company-store/StoreDemoBanner.tsx'), 'utf8');
-  assert.match(banner, /Changes stay in this browser/);
-  assert.match(banner, /<details/);
-  assert.match(banner, /Authentication, payments, inventory holds, and order submission are not connected/);
+  assert.match(banner, /Your draft stays in this browser/);
+  assert.match(banner, /No live orders are created/);
+  assert.match(banner, /Employee sign-in/);
+  assert.match(banner, /Live credits, stock and order processing/);
   assert.doesNotMatch(banner, /DEMO \/ NOT LIVE/);
 });
 
@@ -123,7 +124,8 @@ test('Company Stores opens the manager demo before the long overview media', () 
   const React = require('react');
   const { renderToStaticMarkup } = require('react-dom/server');
   const html = renderToStaticMarkup(React.createElement(StoreAdminShell, { embedded: true }));
-  assert.ok(html.includes('href="/?interest=company-store#enquire"'), 'one direct programme contact route is present');
+  assert.ok(elements.some(element => element.props.href === '/?interest=company-store#enquire'), 'the landing page offers one direct programme contact route');
+  assert.ok(!html.includes('href="/?interest=company-store#enquire"'), 'embedded setup stays focused on the manager demo');
   assert.ok(!elements.some(element => element.type === 'h2' && textContent(element) === 'How a Company Store works'));
   assert.ok(!elements.some(element => element.type === 'h2' && textContent(element) === 'From interest to proposal'));
 });
@@ -156,10 +158,10 @@ test('Gifts is one primary destination; Build a Box is launched from the catalog
 test('manager setup progress separates three decisions from the employee presentation step', () => {
   const React = require('react');
   const { renderToStaticMarkup } = require('react-dom/server');
-  mockView = 'branding';
+  mockView = 'preview';
   const html = renderToStaticMarkup(React.createElement(StoreAdminShell));
-  assert.match(html, /Setup choices: 0 of 3/);
-  assert.match(html, /Then present the employee view/);
+  assert.match(html, /Setup progress · 0 of 3/);
+  assert.match(html, /Check your setup, then give the team view its moment/);
   assert.match(html, /Add company name · 0 gifts/);
   assert.doesNotMatch(html, /Start fresh demo/);
 });
@@ -293,13 +295,13 @@ test('manager demo keeps proposal details available in a collapsed summary outsi
   mockView = 'preview';
   const html = renderToStaticMarkup(React.createElement(StoreAdminShell));
   const detailsIndex = html.indexOf('class="cs-admin__summary"');
-  const summaryIndex = html.indexOf('Proposal at a glance', detailsIndex);
+  const summaryIndex = html.indexOf('Your store at a glance', detailsIndex);
   const formIndex = html.indexOf('class="cs-admin__panel"');
   assert.ok(detailsIndex >= 0, 'proposal summary remains available as a disclosure');
   assert.ok(summaryIndex > detailsIndex && summaryIndex < formIndex, 'summary sits above the setup form');
   assert.ok(!html.slice(detailsIndex, formIndex).includes('<details class="cs-admin__summary" open'), 'summary starts collapsed');
   assert.match(html, /aria-label="Company Store proposal steps"/);
-  assert.match(html, /Open employee storefront for presentation/);
+  assert.match(html, /Open employee preview/);
   mockView = 'branding';
   const companyHtml = renderToStaticMarkup(React.createElement(StoreAdminShell));
   assert.match(companyHtml, /Continue to gifts/);

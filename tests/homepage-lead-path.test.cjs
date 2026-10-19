@@ -10,32 +10,32 @@ const read = (relative) => fs.readFileSync(path.join(root, relative), "utf8");
 test("homepage has a concise first screen and one clear discovery and enquiry path", () => {
   const page = read("src/app/page.tsx");
   assert.match(page, /<RotatingHeroHeadline\s*\/>/);
-  assert.match(page, /Explore gifts/);
-  assert.match(page, /Plan a gifting programme/);
-  assert.doesNotMatch(page, /Build a Box/, "box building is no longer a separate hero destination");
+  assert.match(page, /Browse gifts/);
+  assert.match(page, /<Consultation\s*\/>/);
+  assert.match(page, /href="\/gifts\/box"[\s\S]*?Build a Box/);
   assert.match(page, /href="\/gifts"/);
-  assert.match(page, /href="#enquire"/);
   assert.match(page, /<HeroLandingMedia\s*\/>/);
   assert.match(page, /<BrandLogoMarquee/);
 });
 
 test("homepage service choices group catalogue and box building without dropping original images", () => {
   const services = read("src/components/WhatWeDo.tsx");
-  assert.match(services, /Catalogue & gift boxes/);
-  assert.match(services, /Studio & branded merchandise/);
+  assert.match(services, /For your people\. From your brand\./);
+  assert.match(services, /Swag that feels like you/);
   assert.match(services, /Company Stores/);
   assert.match(services, /Explore the catalogue/);
   assert.match(services, /Build a gift box/);
+  assert.match(services, /Build your company swag/);
   assert.doesNotMatch(services, /title: "Kits & Fulfilment"/);
   for (const asset of [
     "/marketing/what-we-do/corporate-gifting-v3.jpg",
-    "/marketing/what-we-do/kits-fulfilment-v3.jpg",
     "/marketing/what-we-do/custom-merchandise-v3.jpg",
     "/marketing/what-we-do/company-stores-v3.jpg",
   ]) {
     assert.ok(services.includes(asset), `${asset} stays in the homepage`);
     assert.ok(fs.existsSync(path.join(root, "public", asset)));
   }
+  assert.doesNotMatch(services, /kits-fulfilment-v3\.jpg/);
 });
 
 test("homepage enquiry accepts a brief without forcing free-text notes", () => {
@@ -55,7 +55,7 @@ test("the shared header exposes the quote brief in desktop and mobile navigation
   assert.match(header, /className="site-header__cta site-header__brief-link"/);
   assert.match(header, /My Brief/);
   assert.match(header, /Quote selections/);
-  assert.match(header, /className="clean-mobile-nav"[\s\S]*?My Gifting Brief/);
+  assert.match(header, /className="clean-mobile-nav"[\s\S]*?My Brief/);
   assert.match(css, /\.site-header__brief-link\s*\{[\s\S]*?display:\s*inline-flex/);
   assert.match(css, /@media\s*\(max-width:\s*899px\)[\s\S]*?\.site-header__brief-link/);
 });
@@ -68,8 +68,8 @@ test("Gift Finder stays available below the primary header, not in the top help 
 
 test("homepage service heading matches the three visible service paths", () => {
   const services = read("src/components/WhatWeDo.tsx");
-  assert.match(services, /One partner\. Three ways to gift\./);
-  assert.doesNotMatch(services, /One partner\. Four ways to gift\./);
+  assert.match(services, /Gifts, made more you\./);
+  assert.match(services, /Gifts, swag and team stores\. All with your kind of energy\./);
 });
 
 test("logo marquee runs without a visible pause control", () => {

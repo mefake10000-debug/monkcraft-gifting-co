@@ -17,9 +17,9 @@ export type ReadyBoxCombo = {
 const comboSpecs = [
   {
     id: "welcome-essentials",
-    name: "Welcome essentials",
+    name: "The First-Day Goodie Box",
     occasion: "Employee onboarding",
-    description: "A useful first-day set for new team members.",
+    description: "Pen, diary, bottle. A thoughtful hello for the newest name on the team.",
     productIds: ["MGC-0076", "MGC-0180", "MGC-0492"],
     productLabels: ["Parker Jotter pen", "Tree Free A5 diary", "Borosil 750 ml bottle"],
     packagingId: "MGC-3299",
@@ -27,9 +27,9 @@ const comboSpecs = [
   },
   {
     id: "recognition-moment",
-    name: "Recognition moment",
+    name: "The Well-Earned Wow",
     occasion: "Employee recognition",
-    description: "A small thank-you with something to use and something to enjoy.",
+    description: "Notebook, mug and chocolates. A little desk love for a big team win.",
     productIds: ["MGC-0190", "MGC-0728", "MGC-3223"],
     productLabels: ["Primo A5 notebook", "Turtle Tales 300 ml mug", "Ferrero Rocher chocolates"],
     packagingId: "MGC-3296",
@@ -37,13 +37,23 @@ const comboSpecs = [
   },
   {
     id: "workday-favourites",
-    name: "Workday favourites",
+    name: "The Desk-Day Upgrade",
     occasion: "Team gifting",
-    description: "Practical pieces for the desk and the daily coffee break.",
+    description: "Notebook, phone stand and mug. A fresh edit for their everyday desk setup.",
     productIds: ["MGC-4171", "MGC-1180", "MGC-0713"],
     productLabels: ["Fluct A5 notebook", "Ambrane mobile stand", "Turtle Tales 200 ml mug"],
     packagingId: "MGC-3297",
     packagingLabel: "Black corrugated gift box",
+  },
+  {
+    id: "offsite-power-up",
+    name: "The Offsite Power-Up",
+    occasion: "Offsites & events",
+    description: "A power bank, bottle and Parker pen. Ready for the commute, the conference and everything between.",
+    productIds: ["MGC-1148", "MGC-0492", "MGC-0076"],
+    productLabels: ["Portronics Ampbox power bank", "Borosil 750 ml bottle", "Parker Jotter pen"],
+    packagingId: "tote-bag",
+    packagingLabel: "Reusable canvas tote",
   },
 ] as const;
 
@@ -51,9 +61,8 @@ const comboSpecs = [
 export function getReadyBoxCombos(): ReadyBoxCombo[] {
   return comboSpecs.flatMap((spec) => {
     const packaging = getPackagingById(spec.packagingId);
-    const packagingProduct = getProductById(spec.packagingId);
     const records = spec.productIds.map((id) => getProductById(id));
-    if (!packaging?.imageSrc || !packagingProduct?.images[0] || packagingProduct.availabilityStatus === "OUT" || records.some((product) => !product?.images[0] || product.availabilityStatus === "OUT")) {
+    if (!packaging?.imageSrc || records.some((product) => !product?.images[0] || product.availabilityStatus === "OUT")) {
       return [];
     }
 

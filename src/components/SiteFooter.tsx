@@ -33,7 +33,7 @@ export function SiteFooter() {
             />
           </Link>
           <p className="site-footer__tagline">
-            Premium corporate gifting for modern Indian teams.
+            Thoughtful gifts. Team spirit. A little Monkcraft.
           </p>
         </Reveal>
 
@@ -48,16 +48,16 @@ export function SiteFooter() {
         </Reveal>
 
         <Reveal variant="fade" delayMs={160} className="site-footer__cta">
-          <p className="site-footer__cta-label">Ready to plan a programme?</p>
+          <p className="site-footer__cta-label">Got a gifting moment?</p>
           <Link className="site-footer__button" href="/gifts/brief">
             Open My Brief
           </Link>
           <Link className="site-footer__button site-footer__button--ghost" href="/#enquire">
             Talk to Monkcraft
           </Link>
-          <p className="site-footer__legal">Questions about a quote? Contact Monkcraft directly.</p>
+          <p className="site-footer__legal">Big plan or quick question? We’re here.</p>
           {channels.enquiryEmail ? <a href={`mailto:${channels.enquiryEmail}`}>{channels.enquiryEmail}</a> : null}
-          {channels.whatsappE164 ? <a href={buildWhatsAppHref("Hello Monkcraft, I have a question about corporate gifting.", channels.whatsappE164) ?? undefined} target="_blank" rel="noopener noreferrer">WhatsApp +91 74832 21188</a> : null}
+          {channels.whatsappE164 ? <a href={buildWhatsAppHref("Hello Monkcraft, I have a question about corporate gifting.", channels.whatsappE164) ?? undefined} target="_blank" rel="noopener noreferrer">WhatsApp the team</a> : null}
         </Reveal>
       </div>
     </footer>

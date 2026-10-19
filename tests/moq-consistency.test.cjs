@@ -28,36 +28,37 @@ beforeEach(() => {
   global.window = { localStorage, dispatchEvent: events.dispatchEvent.bind(events), addEventListener: events.addEventListener.bind(events), removeEventListener: events.removeEventListener.bind(events) };
 });
 
-test('stored company order quantities are normalized before the first read', () => {
+test('stored employee redemption quantities are normalized before the first read', () => {
   localStorage.setItem(orderKey, JSON.stringify(draft([line(1), { ...line(7.8), productId: 'gift-b' }])));
-  assert.deepEqual(orders.readStoreOrderDraft().lines.map((item) => item.quantity), [5, 7]);
+  assert.deepEqual(orders.readStoreOrderDraft().lines.map((item) => item.quantity), [1, 7]);
 });
 
-test('writing company order drafts persists at least five whole units per line', () => {
+test('writing employee redemption drafts persists at least one whole unit per line', () => {
   orders.writeStoreOrderDraft(draft([line(2), { ...line(6.8), productId: 'gift-b' }]));
-  assert.deepEqual(JSON.parse(localStorage.getItem(orderKey)).lines.map((item) => item.quantity), [5, 6]);
+  assert.deepEqual(JSON.parse(localStorage.getItem(orderKey)).lines.map((item) => item.quantity), [2, 6]);
 });
 
-test('adding a company order line starts and increments by at least five units', () => {
-  assert.equal(orders.addStoreOrderLine(line(1)).lines[0].quantity, 5);
-  assert.equal(orders.addStoreOrderLine(line(1)).lines[0].quantity, 10);
+test('adding an employee redemption line starts and increments by one unit', () => {
+  assert.equal(orders.addStoreOrderLine(line(1)).lines[0].quantity, 1);
+  assert.equal(orders.addStoreOrderLine(line(1)).lines[0].quantity, 2);
 });
 
 for (const quantity of [4, 1, 0, -1, Number.NaN, Number.POSITIVE_INFINITY]) {
-  test(`editing company order quantity ${quantity} retains its line at MOQ five`, () => {
+  test(`editing employee redemption quantity ${quantity} clamps to a valid minimum of one`, () => {
     orders.writeStoreOrderDraft(draft([line(7)]));
     const result = orders.setStoreOrderQuantity('gift-a', [], quantity);
     assert.equal(result.lines.length, 1);
-    assert.equal(result.lines[0].quantity, 5);
-    assert.equal(JSON.parse(localStorage.getItem(orderKey)).lines[0].quantity, 5);
+    const expected = Number.isFinite(quantity) ? Math.max(1, Math.floor(quantity)) : 1;
+    assert.equal(result.lines[0].quantity, expected);
+    assert.equal(JSON.parse(localStorage.getItem(orderKey)).lines[0].quantity, expected);
   });
 }
 
 test('explicit order removal removes only the chosen product variant', () => {
   const red = [{ label: 'Colour', value: 'Red' }];
   const blue = [{ label: 'Colour', value: 'Blue' }];
-  orders.writeStoreOrderDraft(draft([line(5, red), line(5, blue)]));
-  assert.deepEqual(orders.removeStoreOrderLine('gift-a', red).lines, [line(5, blue)]);
+  orders.writeStoreOrderDraft(draft([line(1, red), line(1, blue)]));
+  assert.deepEqual(orders.removeStoreOrderLine('gift-a', red).lines, [line(1, blue)]);
 });
 
 test('V1 shortlist migration restores a quote-ready quantity when source MOQ is unknown', () => {
@@ -117,15 +118,15 @@ async function storefront(showcase) {
 }
 
 for (const showcase of [false, true]) {
-  test(`${showcase ? 'showcase' : 'configured'} storefront disables decrement at MOQ and keeps explicit removal`, async () => {
-    localStorage.setItem(showcase ? showcaseKey : orderKey, JSON.stringify(showcase ? [line(5)] : draft([line(5)])));
+  test(`${showcase ? 'showcase' : 'configured'} storefront disables decrement at one gift and keeps explicit removal`, async () => {
+    localStorage.setItem(showcase ? showcaseKey : orderKey, JSON.stringify(showcase ? [line(1)] : draft([line(1)])));
     const view = await storefront(showcase);
     const decrease = view.find(view.render(), (node) => node.props?.['aria-label'] === 'Decrease Gift A');
     assert.equal(decrease.props.disabled, true);
     decrease.props.onClick();
     const tree = view.render();
     const quantity = view.find(tree, (node) => node.props?.className === 'cs-cart__qty');
-    assert.equal(quantity.props.children[1].props.children, 5);
+    assert.equal(quantity.props.children[1].props.children, 1);
     const remove = view.find(tree, (node) => node.type === 'button' && node.props.children === 'Remove');
     remove.props.onClick();
     if (!showcase) view.effect(0);
@@ -137,12 +138,12 @@ test('showcase cart normalizes a restored legacy quantity before displaying it',
   localStorage.setItem(showcaseKey, JSON.stringify([line(1)]));
   const view = await storefront(true);
   const quantity = view.find(view.render(), (node) => node.props?.className === 'cs-cart__qty');
-  assert.equal(quantity.props.children[1].props.children, 5);
+  assert.equal(quantity.props.children[1].props.children, 1);
 });
 
 test('showcase quantity controls change only the selected color variant', async () => {
-  const red = line(6, [{ label: 'Colour', value: 'Red' }]);
-  const blue = line(8, [{ label: 'Colour', value: 'Blue' }]);
+  const red = line(2, [{ label: 'Colour', value: 'Red' }]);
+  const blue = line(3, [{ label: 'Colour', value: 'Blue' }]);
   localStorage.setItem(showcaseKey, JSON.stringify([red, blue]));
   const view = await storefront(true);
   const decrease = view.find(view.render(), (node) => node.props?.['aria-label'] === 'Decrease Gift A');
@@ -155,5 +156,5 @@ test('showcase quantity controls change only the selected color variant', async 
     visit(node.props?.children);
   };
   visit(view.render());
-  assert.deepEqual(quantities, [5, 8]);
+  assert.deepEqual(quantities, [1, 3]);
 });

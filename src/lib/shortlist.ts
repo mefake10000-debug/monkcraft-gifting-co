@@ -13,11 +13,6 @@ export function standardProductQuantityFloor(minQuantity?: number): number {
     : 1;
 }
 
-/** Company Store order lines have their own five-unit minimum, independent of supplier MOQ. */
-export function companyStoreQuantityFloor(minQuantity?: number): number {
-  return Math.max(5, standardProductQuantityFloor(minQuantity));
-}
-
 export function productMinimumOrderLabel(minQuantity?: number): string {
   return Number.isFinite(minQuantity) && (minQuantity ?? 0) > 0
     ? Math.ceil(minQuantity!).toLocaleString("en-IN") + " pcs"

@@ -107,8 +107,7 @@ export function CompareView({ products }: CompareViewProps) {
             {items.length} product{items.length === 1 ? "" : "s"} side by side
           </h1>
           <p>
-            Only verified details from the catalogue are shown. Add up to four
-            products to compare branding, timeline, and pricing.
+            Down to a few favourites? Compare up to four gifts using the catalogue details below.
           </p>
         </div>
         <div className="journey-actions">

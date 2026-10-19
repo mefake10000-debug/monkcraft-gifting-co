@@ -501,7 +501,7 @@ export function syncBoxDraftToBrief(draft: BoxDraft) {
 export function buildBoxQuotationPrepText(draft: BoxDraft): string {
   const estimate = estimateBoxPricing(draft);
   const lines = [
-    "Monkcraft Build a Box — quotation preparation",
+    "Monkcraft Build a Box · your gifting plan",
     "=============================================",
     "",
     "Packaging",
@@ -550,7 +550,7 @@ export function buildBoxQuotationPrepText(draft: BoxDraft): string {
   lines.push("", "Price notes");
   if (estimate.pricedLineCount > 0 && estimate.pricedSubtotalInr !== null) {
     lines.push(
-      `Verified catalogue line estimate (products only): ${formatInr(estimate.pricedSubtotalInr)}` +
+      `Catalogue price guide (products only): ${formatInr(estimate.pricedSubtotalInr)}` +
         (estimate.allLinesPriced
           ? " — all selected products have catalogue unit prices"
           : ` — covers ${estimate.pricedLineCount} priced line(s); ${estimate.unpricedLineCount} line(s) still quote-on-request`),
@@ -568,7 +568,7 @@ export function buildBoxQuotationPrepText(draft: BoxDraft): string {
     `Email: ${draft.contact.email || "—"}`,
     `Phone: ${draft.contact.phone || "—"}`,
     "",
-    "Note: Inbox routing is not connected yet. Please send this brief to Monkcraft via your usual channel or the homepage contact form.",
+    "Your box plan is ready to share. Choose a contact option to send it to Monkcraft.",
   );
 
   return lines.join("\n");

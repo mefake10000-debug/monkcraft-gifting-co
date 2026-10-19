@@ -48,9 +48,9 @@ export default function CompanyStoresLandingPage() {
         />
         <header className="cs-company-landing__hero">
           <div className="cs-company-landing__copy">
-            <h1 className="cs-landing__title">A company store for your team.</h1>
+            <h1 className="cs-landing__title">Your team. Your company store.</h1>
             <p className="cs-landing__lede">
-              Your company chooses the gifts and sets the credits. Employees choose what suits them.
+              Pick the gifts. Set the credits. Let your people choose. Explore how it works in the demo below.
             </p>
             <div className="cs-landing__actions cs-company-landing__actions">
               <Link className="cs-btn cs-btn--primary" href="#company-demo">Open company demo</Link>
@@ -74,7 +74,7 @@ export default function CompanyStoresLandingPage() {
         </section>
 
         <section className="cs-company-overview cs-company-landing__showcase" aria-labelledby="cs-company-overview-heading">
-          <h2 id="cs-company-overview-heading" className="cs-section__title">A company store, made simple</h2>
+          <h2 id="cs-company-overview-heading" className="cs-section__title">Your brand. Their kind of gifts.</h2>
           <BrandVideoBand
             id="company-store-brief"
             title="See the Company Store experience"

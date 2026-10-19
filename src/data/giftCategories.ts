@@ -88,8 +88,8 @@ export const giftCategories: GiftCategory[] = [
     title: "Custom Merchandise",
     tone: "rose",
     image: {
-      src: "/categories/custom-merchandise-v3.jpg",
-      alt: "Custom merchandise studio with backpack, jacket, and mug",
+      src: "/marketing/what-we-do/custom-merchandise-v3.jpg",
+      alt: "Custom merchandise studio illustration with a backpack, jacket and mug",
     },
     cataloguePath: "/gifts?category=apparel-lifestyle,bags-travel,drinkware-barware",
   },

@@ -10,6 +10,18 @@ import {
 } from "react";
 import type { BrandingTransform } from "@/data/catalogue/studioTypes";
 
+export function focusBrandingTarget(
+  id: string,
+  root: Pick<Document, "getElementById" | "defaultView"> = document,
+): boolean {
+  const target = root.getElementById(id);
+  if (!target) return false;
+  const reduceMotion = root.defaultView?.matchMedia("(prefers-reduced-motion: reduce)").matches ?? false;
+  target.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+  target.focus({ preventScroll: true });
+  return true;
+}
+
 type BrandingCanvasProps = {
   productImageSrc?: string;
   productImageAlt?: string;
@@ -147,6 +159,7 @@ export function BrandingCanvas({
 
         {logoDataUrl ? (
           <div
+            id="studio-logo-position"
             className="studio-canvas__logo"
             role="slider"
             tabIndex={0}

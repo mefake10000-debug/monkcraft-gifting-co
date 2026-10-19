@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs><linearGradient id="cover" x1="138" y1="99" x2="449" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#37373a"/><stop offset="1" stop-color="#111113"/></linearGradient><filter id="shadow" x="80" y="52" width="440" height="390" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="16"/></filter></defs>
+  <ellipse cx="305" cy="370" rx="172" ry="28" fill="#202024" opacity=".18" filter="url(#shadow)"/>
+  <path d="m155 100 260-24 53 260-260 35-53-271Z" fill="#d7d7d5"/>
+  <path d="m132 84 260-24 53 260-260 35-53-271Z" fill="url(#cover)"/>
+  <path d="m392 60 28 3 53 260-28-3-53-260Z" fill="#555559"/>
+  <path d="m162 117 205-19" stroke="#737377" stroke-width="3" opacity=".55"/>
+  <path d="m193 357 213-29" stroke="#09090a" stroke-width="5" opacity=".28"/>
+</svg>

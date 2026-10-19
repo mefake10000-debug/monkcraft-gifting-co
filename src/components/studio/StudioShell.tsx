@@ -7,12 +7,14 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import type { StudioMode } from "@/data/catalogue/studioTypes";
 import { BrandingEditor } from "./BrandingEditor";
 import { CatalogueBuilder } from "./CatalogueBuilder";
+import { SwagStarter } from "./SwagStarter";
 
 type StudioShellProps = {
   initialMode: StudioMode;
   productSlug?: string;
   from?: string;
   seedFromShortlist?: boolean;
+  seedMonkcraftLogo?: boolean;
 };
 
 function returnTarget(
@@ -32,7 +34,10 @@ function returnTarget(
         label: "Back to product",
       };
     }
-    return { href: "/gifts", label: "Back to catalog" };
+    return { href: "/gifts", label: "Back to catalogue" };
+  }
+  if (from === "swag") {
+    return { href: "/studio?mode=swag", label: "Back to company swag" };
   }
   return null;
 }
@@ -42,6 +47,7 @@ export function StudioShell({
   productSlug,
   from,
   seedFromShortlist = false,
+  seedMonkcraftLogo = false,
 }: StudioShellProps) {
   const router = useRouter();
   // Mode is URL-driven; local mirror only updates via intentional switcher actions.
@@ -53,6 +59,7 @@ export function StudioShell({
       if (next === "customize" && productSlug) {
         params.set("product", productSlug);
       }
+      if (next === "customize" && seedMonkcraftLogo) params.set("logo", "monkcraft");
       if (from) params.set("from", from);
       if (next === "catalogue" && seedFromShortlist) {
         params.set("fromShortlist", "1");
@@ -70,18 +77,20 @@ export function StudioShell({
           { label: "Studio" },
           {
             label:
-              mode === "customize" ? "Customize a product" : "Build a catalogue",
+              mode === "customize" ? "Make it yours" : mode === "swag" ? "Company swag" : "Share a catalogue",
           },
         ]}
       />
       <header className="studio-shell__header">
         <div className="studio-shell__intro">
           <p className="studio-shell__eyebrow">Monkcraft Studio</p>
-          <h1>{mode === "customize" ? "Product branding" : "Client catalogue"}</h1>
+          <h1>{mode === "customize" ? "Make it yours." : mode === "swag" ? "Build your company swag." : "Good picks. Ready to share."}</h1>
           <p className="studio-shell__lede">
             {mode === "customize"
-              ? "Preview your logo on a product."
-              : "Select gifts and prepare a shareable catalogue."}
+              ? "Pick a real product, add your mark and save the preview."
+              : mode === "swag"
+                ? "Black, white and full of possibility. Pick a concept and make it your team’s thing."
+                : "Your gift picks, your branding, one client-ready catalogue."}
           </p>
         </div>
 
@@ -114,13 +123,19 @@ export function StudioShell({
           >
             Client catalogue
           </button>
+          <button
+            type="button"
+            aria-pressed={mode === "swag"}
+            className={mode === "swag" ? "studio-switcher__tab studio-switcher__tab--active" : "studio-switcher__tab"}
+            onClick={() => switchMode("swag")}
+          >
+            Company swag
+          </button>
         </div>
-        <p className="studio-shell__save-note">Drafts save in this browser.</p>
-
         <nav className="studio-shell__links" aria-label="Studio related journeys">
           {back ? <Link href={back.href}>{back.label}</Link> : null}
-          <BackToResults label="Browse catalogue" />
-          <Link href="/gifts/shortlist">Review quote selections</Link>
+          <BackToResults label="Browse products" />
+          <Link href="/gifts/shortlist">My quote</Link>
 
         </nav>
       </header>
@@ -128,16 +143,18 @@ export function StudioShell({
       <div
         className="studio-shell__body"
         role="region"
-        aria-label={
-          mode === "customize" ? "Customize a Product" : "Build a Catalogue"
-        }
+        aria-label={mode === "customize" ? "Make a product preview" : mode === "swag" ? "Build company swag" : "Make a gift list"}
       >
         {mode === "customize" ? (
           <BrandingEditor
             initialProductSlug={productSlug}
             returnHref={back?.href}
             returnLabel={back?.label}
+            seedMonkcraftLogo={seedMonkcraftLogo}
+            hidePrice={from === "swag"}
           />
+        ) : mode === "swag" ? (
+          <SwagStarter />
         ) : (
           <CatalogueBuilder seedFromShortlist={seedFromShortlist} />
         )}

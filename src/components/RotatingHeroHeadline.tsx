@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 const phrases = [
-  "for new starters.",
-  "for teams.",
-  "for clients.",
+  "For team wins.",
+  "For first-day buzz.",
+  "For clients who get it.",
 ];
 
 export function RotatingHeroHeadline() {
@@ -23,15 +23,15 @@ export function RotatingHeroHeadline() {
 
   return (
     <h1 className="hero__title">
-      <span className="sr-only">
-        Corporate gifting for new starters, teams and clients.
+      <span className="visually-hidden">
+        Corporate gifts for team wins, new joiners and client thank-yous.
       </span>
       <span className="hero__title-visual" aria-hidden="true">
-        <span>Corporate gifting</span>
+        <span>Good gifts.</span>
         <span className="hero__rotator">
           {phrases.map((phrase, index) => (
             <span
-              className={`hero__rotator-word${activePhrase === index ? " hero__rotator-word--active" : ""}`}
+              className={`hero__rotator-word hero__rotator-word--${index}${activePhrase === index ? " hero__rotator-word--active" : ""}`}
               key={phrase}
             >
               {phrase}

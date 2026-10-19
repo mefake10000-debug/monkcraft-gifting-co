@@ -12,6 +12,7 @@ import {
 } from "@/data/catalogue/products";
 import { getProductVariantFamily } from "@/data/catalogue/query";
 import { truncateMetaDescription } from "@/lib/seoText";
+import { buyerProductIntro } from "@/lib/productVoice";
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
@@ -34,20 +35,21 @@ export async function generateMetadata({ params }: ProductPageProps) {
   if (!product) {
     return { title: "Product not found | Monkcraft" };
   }
+  const intro = buyerProductIntro(product.summary, product.name, product.filterCategorySlug || product.categorySlug);
   return {
     title: `${product.name} | Corporate Gift Catalogue | Monkcraft`,
-    description: truncateMetaDescription([product.name, product.summary].join(". ")),
+    description: truncateMetaDescription([product.name, intro].join(". ")),
     alternates: { canonical: `/gifts/${product.slug}` },
     openGraph: {
       title: product.name,
-      description: product.summary,
+      description: intro,
       url: `/gifts/${product.slug}`,
       images: product.images[0] ? [product.images[0].src] : undefined,
     },
     twitter: {
       card: "summary_large_image",
       title: `${product.name} | Monkcraft`,
-      description: product.summary,
+      description: intro,
       images: product.images[0] ? [product.images[0].src] : undefined,
     },
   };
@@ -61,7 +63,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
   const jsonLd = {
     '@context': 'https://schema.org', '@type': 'Product',
     name: product.name, sku: product.catalogueSku,
-    description: product.description || product.summary,
+    description: buyerProductIntro(product.summary, product.name, product.filterCategorySlug || product.categorySlug),
     ...(product.brandName ? {brand: {'@type':'Brand', name:product.brandName}} : {}),
     ...(product.images.length ? {image: product.images.map(image => new URL(image.src, siteUrl).toString())} : {}),
     url: `${siteUrl}/gifts/${product.slug}`,
@@ -102,7 +104,7 @@ async function ProductDetailBody({
           className="product-detail__related"
           aria-labelledby="related-heading"
         >
-          <h2 id="related-heading">Related gifts</h2>
+          <h2 id="related-heading">More good finds</h2>
           <ul className="related-gifts">
             {related.map((item) => {
               const image = item.images[0];

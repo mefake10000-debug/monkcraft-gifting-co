@@ -288,20 +288,19 @@ export function SmartGiftFinder({
       <header className="finder__header">
         <p className="finder__eyebrow">Smart Gift Finder</p>
         <h1 id="finder-heading" className="finder__title">
-          Find gifts for your team
+          Find their kind of gift.
         </h1>
         <p className="finder__lede">
-          Choose an occasion, recipients and budget. We&apos;ll match your needs
-          to catalogue products. Your answers save in this browser.
+          Tell us the moment, the people and the budget. We’ll find catalogue matches. Your answers stay in this browser.
         </p>
       </header>
 
       <div className="finder__layout">
         <aside className="finder__summary" aria-label="What we understood">
-          <h2 className="finder__summary-title">Your requirements</h2>
+          <h2 className="finder__summary-title">Your gifting plan</h2>
           {lines.length === 0 ? (
             <p className="finder__summary-empty">
-              Nothing captured yet — answer a few questions to start.
+              A few details here, better gift ideas next.
             </p>
           ) : (
             <ul className="finder__summary-list">
@@ -316,7 +315,7 @@ export function SmartGiftFinder({
               className="journey-btn journey-btn--ghost finder__summary-edit"
               onClick={() => setPhase("describe")}
             >
-              Edit requirements
+              Edit your plan
             </button>
           ) : null}
           {giftFinderHasRequirements(draft) ? (
@@ -331,7 +330,7 @@ export function SmartGiftFinder({
                 setOptionalOverride(null);
               }}
             >
-              Clear finder draft
+              Start a fresh search
             </button>
           ) : null}
         </aside>
@@ -342,7 +341,7 @@ export function SmartGiftFinder({
               <fieldset className="finder__fieldset">
                 <legend>What&apos;s the occasion?</legend>
                 <p className="finder__hint">
-                  Only occasions with verified catalogue matches are listed.
+                  Choose the moment you’re planning for.
                 </p>
                 <div className="finder__chips" role="group" aria-label="Occasions">
                   {occasions.map((occ) => {
@@ -642,24 +641,22 @@ export function SmartGiftFinder({
                   <span className="finder__stat-value">
                     {result.meta.alternativeCount}
                   </span>
-                  <span className="finder__stat-label">Near alternatives</span>
+                  <span className="finder__stat-label">Worth a look</span>
                 </div>
                 <div className="finder__stat">
                   <span className="finder__stat-value">
                     {result.meta.budgetApplied ? "Yes" : "No"}
                   </span>
-                  <span className="finder__stat-label">Budget filter applied</span>
+                  <span className="finder__stat-label">Budget used</span>
                 </div>
               </div>
 
               {result.matches.length === 0 &&
               result.alternatives.length === 0 ? (
                 <div className="finder__empty">
-                  <h2>No verified matches</h2>
+                  <h2>No matches this time</h2>
                   <p>
-                    We could not find catalogue products that honestly fit these
-                    constraints. Try broadening budget or occasion, or talk to
-                    Monkcraft.
+                    A wider budget or fewer filters could open up more options. Try another search, or share your plan with us.
                   </p>
                   <div className="finder__actions">
                     <button
@@ -673,7 +670,7 @@ export function SmartGiftFinder({
                       className="journey-btn journey-btn--ghost"
                       href="/gifts/brief"
                     >
-                      Prepare a quotation brief
+                      Open My Brief
                     </Link>
                     {getContactChannels().hasBookingUrl ? (
                       <a
@@ -713,10 +710,9 @@ export function SmartGiftFinder({
 
               {result.alternatives.length > 0 ? (
                 <div className="finder__result-block">
-                  <h2>Near alternatives ({result.alternatives.length})</h2>
+                  <h2>Worth a look ({result.alternatives.length})</h2>
                   <p className="finder__hint">
-                    Partial fits — labelled clearly. Your original requirements
-                    are unchanged.
+                    These fit part of your plan. Check each note to see where they differ.
                   </p>
                   <div className="finder__match-grid">
                     {result.alternatives.map((match) => (
@@ -731,13 +727,12 @@ export function SmartGiftFinder({
               ) : null}
 
               <div className="finder__next">
-                <h2>Next steps</h2>
+                <h2>Found a favourite?</h2>
                 <p>
-                  Add products to your cart or Build a Box, then open My
-                  Gifting Brief for quotation prep.
+                  Add your picks to a quote or Build a Box, then review everything in My Brief.
                   {briefSynced
-                    ? " Requirements are merged into your gifting brief."
-                    : " Brief is out of date — save requirements or edit fields above to sync."}
+                    ? " Your gifting plan is saved in My Brief."
+                    : " Save your latest plan to keep My Brief up to date."}
                 </p>
                 <div className="finder__actions">
                   <button
@@ -750,10 +745,10 @@ export function SmartGiftFinder({
                       setBriefSynced(true);
                     }}
                   >
-                    Save requirements to brief
+                    Save plan to My Brief
                   </button>
                   <Link className="journey-btn" href="/gifts/brief">
-                    Open My Gifting Brief
+                    Open My Brief
                   </Link>
                   <Link
                     className="journey-btn journey-btn--ghost"
@@ -765,7 +760,7 @@ export function SmartGiftFinder({
                     className="journey-btn journey-btn--ghost"
                     href="/gifts/shortlist"
                   >
-                    View cart
+                    Review quote selections
                   </Link>
                   <Link
                     className="journey-btn journey-btn--ghost"

@@ -14,6 +14,9 @@ const source = require('../src/data/catalogue/export/products.json').products;
 const reviewedDescriptions = new Map(require('../src/data/catalogue/editorial/product-descriptions.json')
   .filter((entry) => entry.reviewed === true)
   .map((entry) => [entry.productId, entry.description]));
+const countryOriginDescription = (description = '') => description
+  .replace(/(^|\s)\(?\s*country\s+of\s+origin\s*(?:[:=–—-]\s*)?(?:People['’]s Republic of China|United Arab Emirates|United Kingdom|United Kingedom|Saudi Arabia|South Africa|South Korea|New Zealand|Netherlands|Switzerland|Germany|Ireland|Belgium|Poland|Turkey|France|Italy|India|China|USA|UK)\s*\)?(?=[\s.,;:!?]|$)/gi, '')
+  .trim();
 
 function publicImagePath(path) {
   if (path.startsWith('media/')) return `/catalogue-media/${path.slice(6)}`;
@@ -32,8 +35,8 @@ test('all source products remain discoverable with original identity and product
     assert.equal(product.sku, record.sku);
     assert.equal(product.catalogueSku, record.sku);
     assert.equal(product.name, record.title);
-    assert.equal(product.description, record.description?.trim() || undefined);
-    assert.equal(product.summary, reviewedDescriptions.get(record.sku) || (record.shortDescription || record.description || '').trim() || record.title);
+    assert.equal(product.description, countryOriginDescription(record.description) || undefined);
+    assert.equal(product.summary, countryOriginDescription(reviewedDescriptions.get(record.sku) || (record.shortDescription || record.description || '').trim()) || record.title);
     const sourcePrice = record.pricing?.amount;
     if (Number.isFinite(sourcePrice) && sourcePrice > 0) {
       assert.equal(product.pricing.kind, 'fixed', `${record.sku} keeps its verified price`);
@@ -52,6 +55,17 @@ test('all source products remain discoverable with original identity and product
     assert.equal(product.minQuantity, [record.availability?.moq, record.availability?.minimumOrderQuantity]
       .find((minimum) => typeof minimum === 'number' && Number.isFinite(minimum) && minimum > 0));
   }
+});
+
+test('removing a country-of-origin label leaves neighboring product copy unchanged', () => {
+  const sourceProduct = source.find((record) => record.sku === 'MGC-2827');
+  const product = getAllProducts().find((record) => record.id === 'MGC-2827');
+  assert.ok(sourceProduct && product);
+  assert.match(sourceProduct.description, /Road , Amritsar/);
+  assert.equal(
+    product.description,
+    sourceProduct.description.replace(/ Country of Origin - India/, ''),
+  );
 });
 
 test('MGC-1422 uses the exact manufacturer-confirmed blue 14L Karbon photo without changing its source record', () => {

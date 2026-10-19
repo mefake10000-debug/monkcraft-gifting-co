@@ -26,7 +26,7 @@ test("Build a Box stays separate from the main catalogue and preserves exact pro
   assert.match(boxBuilder, /box-catalogue-picker/);
   assert.doesNotMatch(boxBuilder, /catalogue:\s*ReactNode|\{catalogue\}/);
   assert.doesNotMatch(boxPage, /CatalogueShell|queryCatalogue/);
-  assert.match(boxPage, /<BoxBuilder\s*\/>/);
+  assert.match(boxPage, /<BoxBuilder\s+combos=\{getReadyBoxCombos\(\)\}\s*\/>/);
   assert.match(card, /boxSnapshot\s*=\s*productToBoxSnapshot\(activeCardProduct\)/);
   assert.match(card, /AddToBoxButton snapshot=\{boxSnapshot\}/);
 });
@@ -65,7 +65,7 @@ test("Build a Box owns its product search and paging without embedding the catal
   assert.match(boxBuilder, /addToBox\(\{/);
   assert.match(boxBuilder, /function onStartOver\(\)[\s\S]*clearBoxDraft\(\)/);
   assert.doesNotMatch(boxBuilder, /router\.(push|replace)\([^)]*gifts/);
-  assert.match(boxPage, /<BoxBuilder\s*\/>/);
+  assert.match(boxPage, /<BoxBuilder\s+combos=\{getReadyBoxCombos\(\)\}\s*\/>/);
   assert.doesNotMatch(boxPage, /CatalogueShell/);
 });
 
@@ -107,4 +107,13 @@ test("the catalogue keeps its original stylesheet and links to the separate buil
   assert.doesNotMatch(layout, /catalogue-v2\.css/);
   assert.equal(nav.BOX_CATALOGUE_HREF, "/gifts/box");
   assert.match(intro, /href=\{BOX_CATALOGUE_HREF\}/);
+});
+
+test("ready box combos only suggest exact live catalogue items and a named packaging route", () => {
+  const { getReadyBoxCombos } = require("../src/data/catalogue/readyBoxCombos.ts");
+  const combo = getReadyBoxCombos().find((entry) => entry.id === "offsite-power-up");
+  assert.ok(combo, "the offsite starter lineup is shown when its source items are available");
+  assert.deepEqual(combo.products.map((product) => product.id), ["MGC-1148", "MGC-0492", "MGC-0076"]);
+  assert.equal(combo.packaging.id, "tote-bag");
+  assert.match(combo.description, /power bank.*bottle.*pen/i);
 });

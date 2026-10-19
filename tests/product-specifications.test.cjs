@@ -39,7 +39,7 @@ test('public catalogue specifications preserve product facts and exclude source/
   }
 });
 
-test('specification filtering handles metadata label variants and embedded links while preserving facts and internal data', (t) => {
+test('specification filtering hides country of origin, import metadata and embedded links while preserving buyer facts', (t) => {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'monkcraft-specifications-'));
   const previousExportPath = process.env.MONKCRAFT_EXPORT_DATA;
   t.after(() => {
@@ -90,7 +90,6 @@ test('specification filtering handles metadata label variants and embedded links
 
   const [product] = getAllProducts();
   assert.deepEqual(product.attributes, [
-    { label: 'country_of_origin', value: 'India' },
     { label: 'Customization Type', value: 'Screen printing' },
     { label: 'Dispatch Timeline', value: '7 to 10 working days' },
     { label: 'Provenance', value: 'Supplier export' },
@@ -98,6 +97,7 @@ test('specification filtering handles metadata label variants and embedded links
     { label: 'Dimensions', value: '20 × 8 cm' },
     { label: 'Capacity in Ltrs', value: '0.75L' },
   ]);
+  assert.equal(product.attributes.some(({ label }) => /country of origin/i.test(label)), false, 'country of origin stays out of buyer-facing product details');
   assert.equal(product.attributes.some(({ label }) => label === 'Stock Availability'), false, 'undated numeric stock is not presented as live inventory');
   const storedExport = JSON.parse(fs.readFileSync(file, 'utf8'));
   assert.equal(storedExport.products[0].specifications['Stock Availability'], '100', 'the source export remains unchanged');

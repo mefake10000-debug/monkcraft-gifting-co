@@ -24,11 +24,13 @@ import {
   exportBrandingPreviewPng,
 } from "@/lib/studio/exportPreview";
 import { fetchStudioProducts } from "@/lib/studio/fetchProducts";
+import { getContactChannels } from "@/lib/contactConfig";
+import { buildWhatsAppHref, buildWhatsAppPrefillMessage } from "@/lib/whatsapp";
 import {
   logoNeedsReattach,
   readStudioLogoAsAsset,
 } from "@/lib/studio/logo";
-import { BrandingCanvas } from "./BrandingCanvas";
+import { BrandingCanvas, focusBrandingTarget } from "./BrandingCanvas";
 import { ProductPicker } from "./ProductPicker";
 
 type BrandingEditorProps = {
@@ -36,6 +38,8 @@ type BrandingEditorProps = {
   returnHref?: string;
   returnLabel?: string;
   onDirtyChange?: (dirty: boolean) => void;
+  seedMonkcraftLogo?: boolean;
+  hidePrice?: boolean;
 };
 
 type HistoryEntry = {
@@ -46,23 +50,43 @@ type HistoryEntry = {
   logoFileName?: string;
 };
 
+async function loadMonkcraftLogoAsset(variant: "Black" | "White") {
+  const fileName = `Monkcraft-${variant}-Logomark.png`;
+  const response = await fetch(`/brand/${fileName}`);
+  if (!response.ok) throw new Error("The Monkcraft logo could not be loaded. Please try again.");
+  const blob = await response.blob();
+  if (blob.size > 400 * 1024) throw new Error("The Monkcraft logo is too large for this browser draft.");
+  const dataUrl = await new Promise<string>((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => typeof reader.result === "string" ? resolve(reader.result) : reject(new Error("Could not read the Monkcraft logo."));
+    reader.onerror = () => reject(new Error("Could not read the Monkcraft logo."));
+    reader.readAsDataURL(blob);
+  });
+  return { fileName, fileType: "image/png", fileSize: blob.size, dataUrl };
+}
+
 export function BrandingEditor({
   initialProductSlug,
   returnHref,
   returnLabel,
   onDirtyChange,
+  seedMonkcraftLogo = false,
+  hidePrice = false,
 }: BrandingEditorProps) {
   const fileInputId = useId();
   const [draft, setDraft] = useState<BrandingDraft | null>(null);
   const [product, setProduct] = useState<StudioProductSummary | null>(null);
+  const [activeImage, setActiveImage] = useState<{ productId: string; src: string; alt: string } | null>(null);
   const [loadError, setLoadError] = useState("");
   const [uploadError, setUploadError] = useState("");
   const [exportError, setExportError] = useState("");
   const [exportBusy, setExportBusy] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [brandLogoBusy, setBrandLogoBusy] = useState(false);
   const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [future, setFuture] = useState<HistoryEntry[]>([]);
   const seededSlug = useRef<string | null>(null);
+  const seededLogoSlug = useRef<string | null>(null);
 
   const syncDraft = useCallback((next: BrandingDraft) => {
     setDraft(next);
@@ -103,6 +127,7 @@ export function BrandingEditor({
         if (cancelled) return;
         const found = products[0] ?? null;
         setProduct(found);
+        setActiveImage(null);
         if (
           found &&
           initialProductSlug &&
@@ -115,6 +140,23 @@ export function BrandingEditor({
           });
           syncDraft(next);
         }
+        if (found && seedMonkcraftLogo && seededLogoSlug.current !== found.slug) {
+          seededLogoSlug.current = found.slug;
+          if (!readBrandingDraft().logo) {
+            try {
+              const logo = await loadMonkcraftLogoAsset("Black");
+              if (cancelled || readBrandingDraft().logo) return;
+              const next = patchBrandingDraft({
+                productId: found.id,
+                productSlug: found.slug,
+                logo,
+              });
+              syncDraft(next);
+            } catch (err) {
+              if (!cancelled) setUploadError(err instanceof Error ? err.message : "Could not load the Monkcraft icon.");
+            }
+          }
+        }
       } catch (err) {
         if (!cancelled) {
           setLoadError(
@@ -126,7 +168,7 @@ export function BrandingEditor({
     return () => {
       cancelled = true;
     };
-  }, [draft?.productId, draft?.productSlug, initialProductSlug, syncDraft]);
+  }, [draft?.productId, draft?.productSlug, initialProductSlug, seedMonkcraftLogo, syncDraft]);
 
   function pushHistory(from: BrandingDraft) {
     setHistory((prev) => [
@@ -213,6 +255,25 @@ export function BrandingEditor({
     }
   }
 
+  async function applyMonkcraftLogo(variant: "Black" | "White" = "Black") {
+    setUploadError("");
+    setBrandLogoBusy(true);
+    try {
+      const logo = await loadMonkcraftLogoAsset(variant);
+      applyPatch({
+        logo,
+      });
+    } catch (err) {
+      setUploadError(err instanceof Error ? err.message : "Could not use the Monkcraft logo.");
+    } finally {
+      setBrandLogoBusy(false);
+    }
+  }
+
+  function jumpToControl(id: string) {
+    focusBrandingTarget(id);
+  }
+
   async function handleExport() {
     setExportError("");
     if (!product?.imageSrc) {
@@ -227,8 +288,11 @@ export function BrandingEditor({
     }
     setExportBusy(true);
     try {
+      const productImageSrc = product && activeImage?.productId === product.id
+        ? activeImage.src
+        : product.imageSrc;
       const { blob, fileName } = await exportBrandingPreviewPng({
-        productImageSrc: product.imageSrc,
+        productImageSrc,
         logoDataUrl: draft?.logo?.dataUrl,
         transform: draft?.transform ?? DEFAULT_BRANDING_TRANSFORM,
         text: draft?.textEnabled ? draft.text : undefined,
@@ -271,13 +335,29 @@ export function BrandingEditor({
   }
 
   const needsLogo = logoNeedsReattach(draft.logo);
+  const previewImage = product && activeImage?.productId === product.id
+    ? { src: activeImage.src, alt: activeImage.alt }
+    : { src: product?.imageSrc, alt: product?.imageAlt || product?.name || "" };
+  const channels = getContactChannels();
+  const selectedVariant = product?.imageVariants?.find((variant) => variant.imageSrc === previewImage.src);
+  const whatsappHref = channels.hasWhatsApp
+    ? buildWhatsAppHref(buildWhatsAppPrefillMessage({
+        occasion: "Company swag",
+        productLines: product ? [{ name: product.name, id: product.catalogueSku || product.sku }] : [],
+        branding: draft.logo ? "Logo preview prepared; please confirm production method." : "Please advise on branding options.",
+        notes: [
+          selectedVariant ? `Selected colour: ${selectedVariant.label}.` : "",
+          "Please confirm actual price, MOQ, availability and print area before production.",
+        ].filter(Boolean).join(" "),
+      }), channels.whatsappE164)
+    : null;
 
   return (
     <div className="studio-editor">
       <div className="studio-editor__preview">
         <BrandingCanvas
-          productImageSrc={product?.imageSrc}
-          productImageAlt={product?.imageAlt || product?.name || ""}
+          productImageSrc={previewImage.src}
+          productImageAlt={previewImage.alt}
           logoDataUrl={draft.logo?.dataUrl}
           transform={draft.transform}
           text={draft.text}
@@ -317,7 +397,28 @@ export function BrandingEditor({
                 {product.categoryName}
                 {product.catalogueSku ? ` · SKU ${product.catalogueSku}` : ""}
               </p>
-              <p className="studio-selected-product__price">{product.priceLabel}</p>
+              {product.imageVariants && product.imageVariants.length > 1 ? (
+                <fieldset className="studio-colour-picker">
+                  <legend>Product colour</legend>
+                  <div>
+                    {product.imageVariants.map((variant) => {
+                      const selected = previewImage.src === variant.imageSrc;
+                      return (
+                        <button
+                          key={`${product.id}-${variant.imageSrc}`}
+                          type="button"
+                          aria-pressed={selected}
+                          className={selected ? "studio-colour-picker__option studio-colour-picker__option--active" : "studio-colour-picker__option"}
+                          onClick={() => setActiveImage({ productId: product.id, src: variant.imageSrc, alt: variant.imageAlt || `${product.name} — ${variant.label}` })}
+                        >
+                          {variant.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </fieldset>
+              ) : null}
+              {!hidePrice ? <p className="studio-selected-product__price">{product.priceLabel}</p> : null}
               {product.customization ? (
                 <p className="studio-selected-product__branding">
                   Catalogue branding note: {product.customization}
@@ -359,7 +460,16 @@ export function BrandingEditor({
         </section>
 
         <section className="studio-tool-block" aria-labelledby="studio-logo-heading">
-          <h2 id="studio-logo-heading">2. Logo</h2>
+          <h2 id="studio-logo-heading" tabIndex={-1}>2. Logo</h2>
+          <div className="studio-inline-actions studio-brand-icon-actions">
+            <button type="button" className="journey-btn journey-btn--ghost" disabled={brandLogoBusy} onClick={() => void applyMonkcraftLogo("Black")}>
+              {brandLogoBusy ? "Loading mark…" : "Use Monkcraft black icon"}
+            </button>
+            <button type="button" className="journey-btn journey-btn--ghost" disabled={brandLogoBusy} onClick={() => void applyMonkcraftLogo("White")}>
+              Use white icon
+            </button>
+          </div>
+          <p className="studio-hint">Official Monkcraft mark · black or white PNG, ready to place.</p>
           <label className="studio-file studio-file--primary" htmlFor={fileInputId}>
             <span>{draft.logo ? "Replace logo" : "Upload logo"}</span>
             <input
@@ -405,13 +515,13 @@ export function BrandingEditor({
         </section>
 
         <section className="studio-tool-block studio-tool-block--compact" aria-labelledby="studio-adjust-heading">
-          <h2 id="studio-adjust-heading">3. Adjust your logo</h2>
-          <p className="studio-tool-intro">Position your logo on the product preview. This is a visual guide; the Monkcraft team will confirm print area and production method.</p>
-          <div className="studio-branding-options" aria-label="Branding options">
-            <span><b aria-hidden="true">↔</b><strong>Placement</strong><small>Drag the logo on the preview or nudge it with your keyboard.</small></span>
-            <span><b aria-hidden="true">◉</b><strong>Scale & angle</strong><small>Fine-tune size and rotation with the controls below.</small></span>
-            <span><b aria-hidden="true">Aa</b><strong>Personalisation</strong><small>Add a short name, message or event detail.</small></span>
-            <span><b aria-hidden="true">↶</b><strong>Try it safely</strong><small>Undo, redo or reset whenever you like.</small></span>
+          <h2 id="studio-adjust-heading">3. Give it your look</h2>
+          <p className="studio-tool-intro">Place it on the preview, then fine-tune below.</p>
+          <div className="studio-branding-options" aria-label="Jump to a branding control">
+            <button className="studio-branding-options__shortcut" type="button" onClick={() => jumpToControl(draft.logo?.dataUrl ? "studio-logo-position" : fileInputId)}><b aria-hidden="true">↔</b><span>Place</span></button>
+            <button className="studio-branding-options__shortcut" type="button" onClick={() => jumpToControl("studio-logo-size")}><b aria-hidden="true">◉</b><span>Size & angle</span></button>
+            <button className="studio-branding-options__shortcut" type="button" onClick={() => jumpToControl("studio-personalisation")}><b aria-hidden="true">Aa</b><span>Add text</span></button>
+            <button className="studio-branding-options__shortcut" type="button" onClick={() => jumpToControl("studio-undo-control")}><b aria-hidden="true">↶</b><span>Undo & redo</span></button>
           </div>
           <label className="studio-range">
             <span className="studio-range__label">
@@ -421,6 +531,7 @@ export function BrandingEditor({
               </span>
             </span>
             <input
+              id="studio-logo-size"
               type="range"
               min={0.08}
               max={0.7}
@@ -444,6 +555,7 @@ export function BrandingEditor({
               </span>
             </span>
             <input
+              id="studio-logo-rotation"
               type="range"
               min={-180}
               max={180}
@@ -461,6 +573,7 @@ export function BrandingEditor({
           </label>
           <label className="studio-check">
             <input
+              id="studio-personalisation"
               type="checkbox"
               checked={draft.textEnabled}
               onChange={(event) =>
@@ -483,6 +596,7 @@ export function BrandingEditor({
           ) : null}
           <div className="studio-inline-actions">
             <button
+              id="studio-reset-control"
               type="button"
               className="journey-btn journey-btn--ghost"
               onClick={() =>
@@ -492,6 +606,7 @@ export function BrandingEditor({
               Reset position
             </button>
             <button
+              id="studio-undo-control"
               type="button"
               className="journey-btn journey-btn--ghost"
               disabled={history.length === 0}
@@ -514,7 +629,7 @@ export function BrandingEditor({
         </section>
 
         <section className="studio-tool-block" aria-labelledby="studio-export-heading">
-          <h2 id="studio-export-heading">4. Export & enquiry</h2>
+          <h2 id="studio-export-heading">4. Save it. Share it.</h2>
           <div className="studio-export-actions">
             <button
               type="button"
@@ -541,9 +656,15 @@ export function BrandingEditor({
             <Link className="journey-btn journey-btn--outline" href="/gifts/brief">
               Open My Brief
             </Link>
-            <Link className="journey-btn journey-btn--ghost" href="/#enquire">
-              Talk to Monkcraft
-            </Link>
+            {whatsappHref ? (
+              <a className="journey-btn journey-btn--ghost" href={whatsappHref} target="_blank" rel="noopener noreferrer">
+                WhatsApp this idea
+              </a>
+            ) : (
+              <Link className="journey-btn journey-btn--ghost" href="/#enquire">
+                Message Monkcraft
+              </Link>
+            )}
           </div>
           {exportError ? (
             <p className="studio-error" role="alert">

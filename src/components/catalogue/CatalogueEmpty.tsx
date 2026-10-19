@@ -12,16 +12,16 @@ export function CatalogueEmpty({
 }: CatalogueEmptyProps) {
   return (
     <div className="catalogue-empty" role="status">
-      <p className="catalogue-empty__eyebrow">Catalogue status</p>
+      <p className="catalogue-empty__eyebrow">Let’s find your match</p>
       <h2 className="catalogue-empty__title">
         {hasActiveFilters
-          ? "No matching products"
-          : "No products to show"}
+          ? "No matches this time"
+          : "The gifts aren’t loading"}
       </h2>
       <p className="catalogue-empty__text">
         {hasActiveFilters
-          ? "No verified products match this combination. Clear filters or start a consultation with your brief."
-          : "The catalogue could not load products from the export. Check that the website-export data symlink is available, or start a consultation."}
+          ? "Try fewer filters or a different search. Gift Finder can help you find a starting point."
+          : "Refresh the page to try again, or tell us what you’re looking for and we’ll help."}
       </p>
 
       <div className="catalogue-empty__actions">
@@ -34,12 +34,12 @@ export function CatalogueEmpty({
           Try Gift Finder
         </Link>
         <Link className="mc-btn mc-btn--subtle mc-btn--small" href="/#enquire">
-          Start a consultation
+          Talk gifting with us
         </Link>
       </div>
 
       <div className="catalogue-empty__ideas">
-        <p className="catalogue-empty__ideas-label">Browse by gifting moment</p>
+        <p className="catalogue-empty__ideas-label">Start with the moment</p>
         <ul>
           {giftCategories.map((category) => (
             <li key={category.id}>

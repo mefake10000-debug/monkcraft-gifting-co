@@ -18,6 +18,7 @@ export function buildCompanyStoreEnquiryText(draft: CompanyStoreDraft): string {
     identity.welcomeMessage || "—",
     "",
     `Merchandise selected: ${productIds.length} catalogue product(s)`,
+    `Selected catalogue IDs: ${productIds.join(", ") || "none yet"}`,
   ];
 
   if (categories.length > 0) {
@@ -58,10 +59,25 @@ export function buildCompanyStoreEnquiryText(draft: CompanyStoreDraft): string {
     "",
     "This message was prepared from the Company Stores demo configurator.",
     "It is a proposal draft — not a provisioned live store.",
-    "Inbox routing is not connected yet; please send via your usual channel.",
+    "Please confirm pricing, access, credits and fulfilment before launch.",
   );
 
   return lines.join("\n");
+}
+
+/** Compact handoff that carries actual draft choices; the customer sends it in WhatsApp. */
+export function buildCompanyStoreWhatsAppMessage(draft: CompanyStoreDraft): string {
+  const selected = draft.productIds.slice(0, 8);
+  const remaining = draft.productIds.length - selected.length;
+  return [
+    "Hi Monkcraft! Let’s plan a Company Store for our team.",
+    `Company: ${draft.identity.companyName.trim() || "to discuss"}`,
+    `Store: ${draft.identity.storeName.trim() || "to name together"}`,
+    `Selected gifts: ${draft.productIds.length}`,
+    selected.length ? `Catalogue IDs: ${selected.join(", ")}${remaining > 0 ? ` (+${remaining} more in the full brief)` : ""}` : "Gift selection: I’d like your help.",
+    `Draft rules: ${buildCompanyStoreRulesLabel(draft)}`,
+    "This is a demo proposal. Please help confirm the plan, pricing and launch details.",
+  ].join("\n");
 }
 
 export function buildCompanyStoreRulesLabel(draft: CompanyStoreDraft): string {

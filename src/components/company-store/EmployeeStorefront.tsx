@@ -18,13 +18,13 @@ import {
   STORE_ORDER_EVENT,
   storeOrderEstimatedTotal,
   writeStoreOrderDraft,
+  addStoreOrderLine,
+  MIN_EMPLOYEE_REDEMPTION_QUANTITY,
 } from "@/lib/companyStore/orderDraft";
 import { useStoreDraft } from "@/lib/companyStore/useStoreDraft";
 import { fetchStudioProducts } from "@/lib/studio/fetchProducts";
 import { formatInrAmount } from "@/lib/pricing";
-import { companyStoreQuantityFloor } from "@/lib/shortlist";
 import { extractSelectableVariants } from "@/lib/companyStore/variants";
-import { addStoreOrderLine } from "@/lib/companyStore/orderDraft";
 
 function orderLineIdentity(productId: string, variants: { label: string; value: string }[]) {
   const variantKey = variants
@@ -280,7 +280,7 @@ export function EmployeeStorefront() {
       imageSrc: product.imageSrc,
       priceLabel: product.priceLabel,
       amountInr: product.amountInr,
-      quantity: companyStoreQuantityFloor(product.minQuantity),
+      quantity: MIN_EMPLOYEE_REDEMPTION_QUANTITY,
       variants: [],
     };
     if (showcase) {
@@ -350,7 +350,7 @@ export function EmployeeStorefront() {
 
       {storefrontDraft.productIds.length === 0 ? (
         <div className="cs-empty" style={{ margin: "1.5rem 1.15rem" }}>
-          <h3>No merchandise in this draft store</h3>
+          <h3>Your gift edit starts here.</h3>
           {embedded ? <p className="cs-field__hint">Choose gifts in the Gifts step to preview this store.</p> : <p>
             Add products in the configurator before employees can browse a
             collection here.
@@ -452,7 +452,7 @@ export function EmployeeStorefront() {
 
             {activeOrder.lines.length === 0 ? (
               <p className="cs-field__hint">
-                Your draft cart is empty. Open a product to add items.
+                Something catch your eye? Open a gift and add it to your bag.
               </p>
             ) : (
               <ul className="cs-cart__list">
@@ -476,9 +476,9 @@ export function EmployeeStorefront() {
                       <button
                         type="button"
                         aria-label={`Decrease ${line.name}`}
-                        disabled={line.quantity <= companyStoreQuantityFloor()}
+                        disabled={line.quantity <= MIN_EMPLOYEE_REDEMPTION_QUANTITY}
                         onClick={() => showcase
-                          ? setShowcaseOrder({ ...activeOrder, lines: activeOrder.lines.map((item) => orderLineIdentity(item.productId, item.variants) === orderLineIdentity(line.productId, line.variants) ? { ...item, quantity: Math.max(companyStoreQuantityFloor(), item.quantity - 1) } : item) })
+                          ? setShowcaseOrder({ ...activeOrder, lines: activeOrder.lines.map((item) => orderLineIdentity(item.productId, item.variants) === orderLineIdentity(line.productId, line.variants) ? { ...item, quantity: Math.max(MIN_EMPLOYEE_REDEMPTION_QUANTITY, item.quantity - 1) } : item) })
                           : setStoreOrderQuantity(
                             line.productId,
                             line.variants,

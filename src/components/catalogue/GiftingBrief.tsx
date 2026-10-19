@@ -341,7 +341,7 @@ export function GiftingBrief() {
         <div>
           <p className="journey-eyebrow">Bulk quote</p>
           <h1>Request a quote</h1>
-          <p>Check your products and quantities, then share the details you know. Monkcraft will review your request and confirm pricing before you order.</p>
+          <p>Good picks. Let’s shape the plan. Check quantities and share what you know; we’ll confirm prices before you order.</p>
         </div>
         <div className="journey-actions">
           <Link className="journey-btn journey-btn--ghost" href="/gifts">
@@ -465,8 +465,8 @@ export function GiftingBrief() {
 
       {hasLinkedSetup ? <section id="brief-linked" className="brief-section" aria-labelledby="brief-linked-heading">
         <div className="brief-section__head">
-          <h2 id="brief-linked-heading">Linked configurations</h2>
-          <p>Live drafts from other Monkcraft tools — included when you prepare a quote.</p>
+          <h2 id="brief-linked-heading">The rest of your plan</h2>
+          <p>Your box, branding and store drafts join this request when you prepare it.</p>
         </div>
         <ul className="brief-links">
           <li className="brief-link-card">
@@ -517,7 +517,7 @@ export function GiftingBrief() {
 
           <li className="brief-link-card">
             <div>
-              <h3>White-label catalogue</h3>
+              <h3>Client catalogue</h3>
               {snapshot.hasCatalogueContent ? (
                 <p>
                   {snapshot.catalogue.title || "Untitled draft"}
@@ -526,7 +526,7 @@ export function GiftingBrief() {
                   {snapshot.catalogue.productIds.length === 1 ? "" : "s"}
                 </p>
               ) : (
-                <p>No reseller catalogue draft yet.</p>
+                <p>No client catalogue yet. Build one in Studio when you’re ready.</p>
               )}
             </div>
             {snapshot.studioRouteAvailable ? (
@@ -685,7 +685,7 @@ export function GiftingBrief() {
               rows={3}
               value={brief.notes}
               onChange={(event) => updateField("notes", event.target.value)}
-              placeholder="Anything else the team should know"
+              placeholder="Any finishing touches we should know about?"
             />
           </label>
           </details>

@@ -8,6 +8,41 @@ require.extensions['.ts']=(mod,file)=>mod._compile(ts.transpileModule(fs.readFil
 const query=require('../src/data/catalogue/query.ts');
 const {emptyCatalogueQuery}=require('../src/data/catalogue/queryParams.ts');
 const {getAllProducts}=require('../src/data/catalogue/products.ts');
+test('buyer copy replaces the exact imported delivery boilerplate without mutating source descriptions or product facts',()=>{
+ const {buyerProductIntro}=require('../src/lib/productVoice.ts');
+ const {toStudioProductSummary}=require('../src/lib/studio/productSummary.ts');
+ const product=getAllProducts().find(product=>product.id==='MGC-0440');
+ const source=product.summary;
+ const intro=buyerProductIntro(source,product.name,product.filterCategorySlug);
+ assert.notEqual(intro,source);
+ assert.doesNotMatch(intro,/pan-India|volume pricing|personalise with your logo/i);
+ assert.equal(product.summary,source);
+ assert.equal(toStudioProductSummary(product).summary,intro);
+ const factual='A 750 ml bottle. Material: stainless steel; hand wash only.';
+ assert.equal(buyerProductIntro(factual,'Example Bottle','drinkware-barware'),factual);
+ const mixed=`Please confirm delivery. ${source}`;
+ assert.equal(buyerProductIntro(mixed,product.name,product.filterCategorySlug),mixed,'partial matches preserve genuine source text');
+});
+test('Company Store WhatsApp draft retains company, chosen products, credits and delivery without claiming a launch',()=>{
+ const {emptyCompanyStoreDraft}=require('../src/data/companyStore/types.ts');
+ const {buildCompanyStoreEnquiryText,buildCompanyStoreWhatsAppMessage}=require('../src/lib/companyStore/enquiry.ts');
+ const {buildWhatsAppHref}=require('../src/lib/whatsapp.ts');
+ const draft=emptyCompanyStoreDraft();
+ draft.identity.companyName='Example & Co';
+ draft.identity.storeName='Team Edit';
+ draft.productIds=Array.from({length:10},(_,i)=>`MGC-${i+1}`);
+ draft.rules.ordering.allowanceMode='allowance-cap';
+ draft.rules.ordering.allowanceCapInr=1500;
+ draft.rules.ordering.deliveryPreference='home';
+ draft.rules.ordering.requireApproval=true;
+ const message=buildCompanyStoreWhatsAppMessage(draft);
+ const href=buildWhatsAppHref(message,'+919876543210');
+ assert.equal(new URL(href).searchParams.get('text'),message);
+ for(const value of ['Example & Co','Team Edit','Selected gifts: 10','MGC-8','+2 more','1,500','Delivery: home','Approval required','demo proposal']) assert.ok(message.includes(value),value);
+ assert.ok(buildCompanyStoreEnquiryText(draft).includes('MGC-10'),'the full brief retains every selected catalogue ID');
+ assert.equal(buildWhatsAppHref(message,''),null,'no fabricated WhatsApp destination when a number is missing');
+});
+const stripCountryOrigin=value=>value?.replace(/(^|\s)\(?\s*country\s+of\s+origin\s*(?:[:=–—-]\s*)?(?:People['’]s Republic of China|United Arab Emirates|United Kingdom|United Kingedom|Saudi Arabia|South Africa|South Korea|New Zealand|Netherlands|Switzerland|Germany|Ireland|Belgium|Poland|Turkey|France|Italy|India|China|USA|UK)\s*\)?(?=[\s.,;:!?]|$)/gi,'').trim();
 beforeEach(()=>{const memory=new Map();const storage={getItem:k=>memory.get(k)??null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)};global.window={localStorage:storage,sessionStorage:storage,dispatchEvent:()=>{}};global.CustomEvent=class{constructor(type){this.type=type}};});
 test('facet counts respect other groups but exclude their own selection',()=>{
  assert.equal(typeof query.getContextualFacets,'function');
@@ -297,8 +332,8 @@ test('catalogue records keep every source product, description and image referen
   const product=products.find(item=>item.id===sourceProduct.sku);
   assert.ok(product,'source product '+sourceProduct.sku+' remains in the catalogue');
   assert.equal(product.name,sourceProduct.title);
-  assert.equal(product.summary,reviewedDescriptions.get(sourceProduct.sku)||(sourceProduct.shortDescription||sourceProduct.description||'').trim()||sourceProduct.title);
-  assert.equal(product.description,sourceProduct.description?.trim()||undefined);
+  assert.equal(product.summary,stripCountryOrigin(reviewedDescriptions.get(sourceProduct.sku)||(sourceProduct.shortDescription||sourceProduct.description||'').trim())||sourceProduct.title);
+  assert.equal(product.description,stripCountryOrigin(sourceProduct.description)||undefined);
   const expectedImages=(sourceProduct.images||[]).map(image=>({
    src:image.path.startsWith('media/')?'/catalogue-media/'+image.path.slice(6):image.path.startsWith('/')?image.path:'/catalogue-media/'+(image.path.startsWith('./')?image.path.slice(2):image.path),
   }));
@@ -353,7 +388,7 @@ test('homepage services section keeps the brand film alongside its service choic
  assert.match(section,/BrandVideoBand/);
  assert.match(section,/monkcraft-what-we-do-mobile\.mp4/);
  assert.match(section,/monkcraft-what-we-do-desktop\.mp4/);
- assert.match(section,/Catalogue & gift boxes/);
+ assert.match(section,/Gifts, made more you\./);
  assert.match(section,/Build a gift box/);
 });
 test('header gives catalog search a compact, accessible search icon',()=>{
@@ -363,7 +398,7 @@ test('header gives catalog search a compact, accessible search icon',()=>{
  assert.match(header,/<svg/);
  assert.match(header,/site-header__brief-link/);
  assert.match(header,/My Brief/);
- assert.match(header,/Open My Gifting Brief/);
+ assert.match(header,/Open My Brief/);
  assert.match(header,/Open quote selections/);
 });
 test('saved-gift star sits in the product action row, outside product imagery',()=>{
@@ -378,9 +413,9 @@ test('catalogue quote actions name saved items and keep Build a Box as a separat
  assert.match(button,/Add to quote/);
  assert.match(button,/In quote/);
  assert.doesNotMatch(button,/to cart|In cart/i);
- assert.match(intro,/Prices are indicative/);
+ assert.match(intro,/Prices are a guide/);
  assert.match(intro,/Build a Box/);
- assert.match(intro,/Bulk pricing and availability are confirmed with your quote/);
+ assert.match(intro,/We confirm bulk pricing and availability in your quote/);
  assert.match(intro,/BOX_CATALOGUE_HREF/);
 });
 test('box-context catalogue cards can add a selected product without opening details',()=>{

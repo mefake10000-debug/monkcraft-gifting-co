@@ -30,7 +30,7 @@ export function GiftIdeas() {
         <Reveal as="header" className="gift-ideas__intro">
           <p className="gift-ideas__eyebrow">Shop by occasion</p>
           <h2 id="gift-ideas-heading" className="gift-ideas__heading">
-            Choose a gifting moment.
+            Big moment? Good gifts.
           </h2>
         </Reveal>
 
@@ -73,7 +73,8 @@ export function GiftIdeas() {
                                 width={1920}
                                 height={1071}
                                 sizes="(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 560px"
-                                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
+                                className="gift-ideas__image"
+                                style={{ width: "100%", height: "100%" }}
                               />
                             ) : (
                               <span className="gift-ideas__media-placeholder">Image coming soon</span>
@@ -81,14 +82,14 @@ export function GiftIdeas() {
                           </div>
                         </div>
                         <div className="what-we-do__poster-action">
-                          <h4 className="visually-hidden">{category.title}</h4>
+                          <h4 className="gift-ideas__card-title">{category.title}</h4>
                           <div className="what-we-do__poster-links">
                             <Link
                               className="what-we-do__link"
                               href={catalogueHref}
                               aria-label={`View ${category.title} gifts`}
                             >
-                              View gifts
+                              Find gifts
                             </Link>
                           </div>
                         </div>
@@ -101,12 +102,15 @@ export function GiftIdeas() {
           })}
         </div>
 
-        <Link className="gift-ideas__customize" href="/studio" aria-label="Start customising your company swag in Studio">
-          <span>
-            <span className="gift-ideas__eyebrow">Make it yours</span>
-            <strong>Customise your company swag</strong>
+        <Link className="gift-ideas__customize" href="/studio?mode=swag" aria-label="Build your company swag">
+          <span className="gift-ideas__customize-image" aria-hidden="true">
+            <Image src="/marketing/what-we-do/custom-merchandise-v3.jpg" alt="" fill sizes="(max-width: 720px) 100vw, 360px" />
           </span>
-          <span className="gift-ideas__customize-action">Start customising <span aria-hidden="true">→</span></span>
+          <span className="gift-ideas__customize-copy">
+            <span className="gift-ideas__eyebrow">Make it yours</span>
+            <strong>Build your company swag</strong>
+            <span className="gift-ideas__customize-action">Create your lineup <span aria-hidden="true">→</span></span>
+          </span>
         </Link>
       </div>
     </section>

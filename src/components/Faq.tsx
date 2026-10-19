@@ -6,27 +6,27 @@ import { Reveal } from "@/components/Reveal";
 const faqs = [
   {
     q: "Who is Monkcraft for?",
-    a: "For Indian HR, founder, marketing and operations teams planning gifts, branded merchandise, kits or employee stores.",
+    a: "For the people making team moments happen: HR, founders, marketing and operations teams across India.",
   },
   {
-    q: "Can you help if we don’t know the exact products yet?",
-    a: "Yes. Share the occasion, quantity, branding needs, timeline and budget. We’ll suggest options and refine a quote with you.",
+    q: "Great occasion. No gift idea yet?",
+    a: "That’s a good place to start. Tell us who it’s for, your budget and when you need it. We’ll work through the options with you.",
   },
   {
     q: "Do you support custom branding?",
-    a: "Yes. Branding methods and lead times depend on the products selected.",
+    a: "Yes. Bring your logo; we’ll confirm the branding options and lead time for your chosen gifts.",
   },
   {
     q: "Can you fulfil across multiple cities?",
     a: "Share the cities and quantities in your enquiry so we can plan delivery with you.",
   },
   {
-    q: "Is there a full online catalogue yet?",
-    a: "Yes. Browse thousands of products, set quantities and request a quote; Monkcraft confirms pricing and availability. Studio previews branding and builds client catalogues. Company Stores has a configurator and employee preview, but it is not a live commerce platform.",
+    q: "How do I go from “love it” to a quote?",
+    a: "Browse the catalogue, add your picks to My Brief and request a quote. We confirm prices, availability, branding and delivery before you order.",
   },
   {
     q: "How do Company Stores work?",
-    a: "A Company Store is a branded gift collection for employees, separate from the public catalogue. Configure a sample, then agree access, credits, order review and delivery with Monkcraft. The demo does not create accounts, deduct live credits or place orders.",
+    a: "Your brand, your gift collection, their choice. Try the demo to explore the setup and employee view. Access, credits and delivery are agreed with us before launch; the demo creates no live accounts or orders.",
   },
 ] as const;
 
@@ -40,11 +40,10 @@ export function Faq() {
         <Reveal as="header" className="faq__intro">
           <p className="faq__eyebrow">FAQ</p>
           <h2 id="faq-heading" className="faq__heading">
-            Questions teams usually ask
+            Good questions. Straight answers.
           </h2>
           <p className="faq__lede">
-            Straight answers for corporate gifting decisions — without invented
-            claims or placeholder metrics.
+            A few things to know before the good gifting begins.
           </p>
         </Reveal>
 

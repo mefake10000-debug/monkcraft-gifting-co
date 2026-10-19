@@ -1,5 +1,7 @@
 "use client";
 
+import { buyerProductIntro } from "@/lib/productVoice";
+
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -218,7 +220,7 @@ export function ProductCard({ product, shortlisted = false, fromBox = false, eag
               <p className="product-card__type">{typeLabel}{activeQuickViewProduct.brandName ? ` · ${activeQuickViewProduct.brandName}` : ""}</p>
               <h2 id={`quickview-${product.id}`}>{activeQuickViewProduct.name}</h2>
               {activeQuickViewProduct.catalogueSku ? <p className="product-detail__sku">SKU {activeQuickViewProduct.catalogueSku}</p> : null}
-              <p className="product-detail__summary">{activeQuickViewProduct.summary}</p>
+              <p className="product-detail__summary">{buyerProductIntro(activeQuickViewProduct.summary, activeQuickViewProduct.name, activeQuickViewProduct.filterCategorySlug || activeQuickViewProduct.categorySlug)}</p>
               <p className="product-quickview__price">{quickPrice ?? "Quote on request"}{activeQuickViewProduct.pricing.kind === "fixed" && formatGstBasis(activeQuickViewProduct.pricing.gstBasis) ? ` · ${formatGstBasis(activeQuickViewProduct.pricing.gstBasis)}` : ""}</p>
               <ul className="product-quickview__facts">
                 <li><strong>Minimum order quantity:</strong> {productMinimumOrderLabel(activeQuickViewProduct.minQuantity)}</li>
@@ -226,14 +228,14 @@ export function ProductCard({ product, shortlisted = false, fromBox = false, eag
                 {activeQuickViewProduct.materials.length ? <li><strong>Material:</strong> {activeQuickViewProduct.materials.join(", ")}</li> : null}
                 {activeQuickViewProduct.colours.length ? <li><strong>Colour:</strong> {activeQuickViewProduct.colours.join(", ")}</li> : null}
               </ul>
-              {activeQuickViewProduct.description?.trim() && activeQuickViewProduct.description.trim().toLowerCase() !== activeQuickViewProduct.summary.trim().toLowerCase() ? <details className="product-quickview__disclosure" open><summary>About this product</summary><p>{activeQuickViewProduct.description}</p></details> : null}
+              {activeQuickViewProduct.description?.trim() && buyerProductIntro(activeQuickViewProduct.description, activeQuickViewProduct.name, activeQuickViewProduct.filterCategorySlug) === activeQuickViewProduct.description && activeQuickViewProduct.description.trim().toLowerCase() !== activeQuickViewProduct.summary.trim().toLowerCase() ? <details className="product-quickview__disclosure" open><summary>Meet the product</summary><p>{activeQuickViewProduct.description}</p></details> : null}
               {activeQuickViewProduct.attributes.length ? <details className="product-quickview__disclosure" open><summary>Specifications</summary><dl>{activeQuickViewProduct.attributes.map((attribute) => <div key={`${attribute.label}-${attribute.value}`}><dt>{attribute.label}</dt><dd>{attribute.value}</dd></div>)}</dl></details> : null}
               {activeQuickViewProduct.customization ? <details className="product-quickview__disclosure"><summary>Branding options</summary><p>{activeQuickViewProduct.customization}</p></details> : null}
               <div className="product-quickview__actions">
                 <ShortlistButton snapshot={quickSnapshot} />
                 <FavouriteButton id={activeQuickViewProduct.id} name={activeQuickViewProduct.name} />
                 <AddToBoxButton snapshot={quickBoxSnapshot} variant="detail" />
-                <Link className="product-card__detail" href={`/studio?mode=customize&product=${encodeURIComponent(activeQuickViewProduct.slug)}&from=product`}>Customize in Studio</Link>
+                <Link className="product-card__detail" href={`/studio?mode=customize&product=${encodeURIComponent(activeQuickViewProduct.slug)}&from=product`}>Make it yours in Studio</Link>
               </div>
               <p className="product-quickview__hint">Add it to your box and keep browsing. Your selection stays saved.</p>
             </div>

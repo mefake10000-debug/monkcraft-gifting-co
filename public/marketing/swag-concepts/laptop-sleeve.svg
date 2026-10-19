@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs><linearGradient id="sleeve" x1="132" y1="131" x2="466" y2="343" gradientUnits="userSpaceOnUse"><stop stop-color="#55555a"/><stop offset="1" stop-color="#18181a"/></linearGradient><filter id="shadow" x="48" y="82" width="500" height="345" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="17"/></filter></defs>
+  <ellipse cx="300" cy="359" rx="205" ry="30" fill="#202024" opacity=".2" filter="url(#shadow)"/>
+  <path d="m123 150 307-34c15-2 29 9 31 24l22 177c2 15-9 29-24 31l-307 34c-15 2-29-9-31-24l-22-177c-2-15 9-29 24-31Z" fill="url(#sleeve)"/>
+  <path d="m130 168 303-33 20 164-303 34-20-165Z" stroke="#858589" stroke-width="4" opacity=".56"/>
+  <path d="m153 337 305-34" stroke="#09090a" stroke-width="8" opacity=".38"/>
+  <path d="m181 148 6 41m215-65 5 41" stroke="#77777b" stroke-width="4"/>
+</svg>

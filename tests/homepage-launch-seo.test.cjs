@@ -10,17 +10,19 @@ const read = (relative) => {
   return fs.existsSync(file) ? fs.readFileSync(file, "utf8") : "";
 };
 
-test("homepage presents one accessible corporate-gifting heading with a restrained rotating phrase", () => {
+test("homepage presents one accessible corporate-gifting heading with a short rotating brand phrase", () => {
   const page = read("src/app/page.tsx");
   const headline = read("src/components/RotatingHeroHeadline.tsx");
   const css = read("src/app/globals.css");
 
   assert.match(page, /<RotatingHeroHeadline\s*\/>/);
-  assert.match(headline, /Corporate gifting for new starters, team milestones and client gifts\./);
-  assert.match(headline, /new starters\./);
-  assert.match(headline, /team milestones\./);
-  assert.match(headline, /client gifts\./);
+  assert.match(headline, /Corporate gifts for team wins, new joiners and client thank-yous\./);
+  assert.match(headline, /For team wins\./);
+  assert.match(headline, /For first-day buzz\./);
+  assert.match(headline, /For clients who get it\./);
   assert.match(headline, /aria-hidden="true"/);
+  assert.match(headline, /className="visually-hidden"/);
+  assert.match(css, /\.visually-hidden\s*\{[^}]*position:\s*absolute;[^}]*width:\s*1px;[^}]*height:\s*1px;/);
   assert.match(headline, /prefers-reduced-motion/);
   assert.match(css, /\.hero__rotator-word--active/);
   assert.match(css, /@media\s*\(prefers-reduced-motion:\s*reduce\)[\s\S]*?\.hero__rotator-word/);

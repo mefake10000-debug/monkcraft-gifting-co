@@ -5,10 +5,10 @@ import type {
   StoreOrderLine,
   StoreOrderRequest,
 } from "@/data/companyStore/types";
-import { companyStoreQuantityFloor } from "@/lib/shortlist";
 
 const ORDER_KEY = "monkcraft-company-store-order-v1";
 const REQUESTS_KEY = "monkcraft-company-store-requests-v1";
+export const MIN_EMPLOYEE_REDEMPTION_QUANTITY = 1;
 export const STORE_ORDER_EVENT = "monkcraft:company-store-order";
 export const STORE_REQUESTS_EVENT = "monkcraft:company-store-requests";
 
@@ -39,8 +39,12 @@ function isLine(value: unknown): value is StoreOrderLine {
 }
 
 function normalizeQuantity(quantity: number): number {
-  const minimum = companyStoreQuantityFloor();
-  return Math.max(minimum, Number.isFinite(quantity) ? Math.floor(quantity) : minimum);
+  return Math.max(
+    MIN_EMPLOYEE_REDEMPTION_QUANTITY,
+    Number.isFinite(quantity)
+      ? Math.floor(quantity)
+      : MIN_EMPLOYEE_REDEMPTION_QUANTITY,
+  );
 }
 
 export function normalizeStoreOrderLines(value: unknown): StoreOrderLine[] {

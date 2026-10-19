@@ -10,21 +10,21 @@ export function StoreDemoBanner({
   const content = context === "employee"
     ? {
         label: "Employee store preview",
-        title: "Preview the employee shopping experience",
-        description: "Browse approved gifts and see how a request would look for your team.",
+        title: "Take the team view for a spin.",
+        description: "Browse the selected gifts and try a sample request.",
         note: "Preview only. Nothing is sent to a live store.",
       }
     : context === "preview"
       ? {
           label: "Company Store preview",
-          title: "Review your proposed company store",
+          title: "Your store, ready for a first look.",
           description: "Check the selected gifts, store identity and employee experience.",
           note: "This is a preview. No live orders are created.",
         }
       : {
           label: "Interactive company demo",
-          title: "Set up a store and preview the team experience",
-          description: "Choose gifts, set programme rules and see the employee storefront.",
+          title: "Your team store starts here.",
+          description: "Give it your brand, pick the gifts and explore the team view.",
           note: "Your draft stays in this browser. No live orders are created.",
         };
 

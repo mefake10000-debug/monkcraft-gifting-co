@@ -6,9 +6,9 @@ export function CatalogueIntro() {
     <section className="browse-intro" aria-labelledby="catalogue-heading">
       <div className="browse-intro__copy">
         <h1 id="catalogue-heading">Gifts worth giving.</h1>
-        <p>Find something thoughtful for your team, clients, or next occasion.</p>
+        <p>For first days, big wins and a proper thank-you. Find their next favourite.</p>
         <p className="browse-intro__price-note">
-          Prices are indicative. Bulk pricing and availability are confirmed with your quote.
+          Prices are a guide. We confirm bulk pricing and availability in your quote.
         </p>
       </div>
       <Link className="browse-intro__box-cta" href={BOX_CATALOGUE_HREF}>

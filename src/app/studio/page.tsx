@@ -40,8 +40,11 @@ function first(
 export default async function StudioPage({ searchParams }: StudioPageProps) {
   const params = await searchParams;
   const modeParam = first(params.mode);
-  const mode: StudioMode =
-    modeParam === "catalogue" ? "catalogue" : "customize";
+  const mode: StudioMode = modeParam === "swag"
+    ? "swag"
+    : modeParam === "catalogue"
+      ? "catalogue"
+      : "customize";
   const productSlug = first(params.product);
   const from = first(params.from);
   const seedFromShortlist =
@@ -59,6 +62,7 @@ export default async function StudioPage({ searchParams }: StudioPageProps) {
           productSlug={productSlug}
           from={from}
           seedFromShortlist={seedFromShortlist}
+          seedMonkcraftLogo={first(params.logo) === "monkcraft"}
         />
       </div>
       <SiteFooter />

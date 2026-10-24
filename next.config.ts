@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1"],
   images: {
     qualities: [75, 92, 100],
+    loader: "custom",
+    loaderFile: "./src/lib/imageLoader.ts",
   },
   turbopack: {
     root: process.cwd(),

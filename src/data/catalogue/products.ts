@@ -150,7 +150,7 @@ function normalizeCustomization(raw: string | null | undefined): string | undefi
   return cleaned;
 }
 
-function toPublicImagePath(exportPath: string): string | null {
+function toLocalImagePath(exportPath: string): string | null {
   const pathValue = exportPath.trim();
   // Product photography must be served by Monkcraft. Ignore remote URLs and
   // protocol-relative paths even if a future export starts including them.
@@ -166,6 +166,23 @@ function toPublicImagePath(exportPath: string): string | null {
       : null;
   }
   return `/catalogue-media/${pathValue.replace(/^\.\//, "")}`;
+}
+
+/**
+ * Where product photos are served from. Unset keeps the site's own
+ * /catalogue-media folder; set MONKCRAFT_MEDIA_BASE_URL to a storage host that
+ * holds the same catalogue-media/... layout.
+ */
+function mediaBaseUrl(): string {
+  return (process.env.MONKCRAFT_MEDIA_BASE_URL ?? "").trim().replace(/\/+$/, "");
+}
+
+function toPublicImagePath(exportPath: string): string | null {
+  const local = toLocalImagePath(exportPath);
+  const prefix = "/catalogue-media/";
+  if (!local || !local.startsWith(prefix)) return local;
+  const base = mediaBaseUrl();
+  return base ? `${base}${local}` : local;
 }
 
 function mapImageRole(role?: string): ProductImageRole {

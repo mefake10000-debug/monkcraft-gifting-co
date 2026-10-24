@@ -32,26 +32,27 @@ Products without photos in the product list: MGC-2027 Techie Pouch (Grey), MGC-2
 
 No product information, prices or pages were changed.
 
-## 5. What is still to do (status: waiting for a decision)
+## 5. Where the photos now live
+The photos are stored on **Cloudinary** (a free image-hosting service; free plan, no card).
+
+- Address of the photo library: `https://res.cloudinary.com/jvc1ihc6/image/upload`
+- All **21,995** photos the website uses were uploaded. None failed. A check of 200 random photos found all 200 live, and a local copy of the site showed every photo on a catalogue page (163) and a product page (7) loading from Cloudinary.
+- Cloudinary's free plan gives 25 "credits" a month. Storing the photos uses under 1. Visitors downloading photos use the rest at about 1 credit per 1 GB (roughly 800,000 photo downloads a month). Browsers keep photos for 30 days, so repeat visits don't count again. Nothing is ever charged on the free plan.
+
+The upload tool is `scripts/upload-media-to-cloudinary.mjs`. It reads the Cloudinary login from a private file on the computer (not in the project) and is safe to run again.
+
+## 6. What is still to do
 | Step | Status |
 |---|---|
 | Code change written and tested on the branch `fix/product-images` | Done |
-| Choose where to store the photos | **Needs your decision** (see section 6) |
-| Upload the 21,994 photos to that place | Not started |
-| Set the setting on Vercel and publish to the **staging** test site | Not started |
+| Next.js security upgrade (16.4.0 to 16.4.3) | Done |
+| Photos uploaded to Cloudinary and checked | Done |
+| Tell Vercel where the photos are (the setting `MONKCRAFT_MEDIA_BASE_URL`, for Production and Preview) | Not started |
+| Create `main` and `staging` branches and publish the fix to the **staging** test site | Not started |
 | You check the staging site | You |
 | You publish to the live site | You |
-
-## 6. The decision: where to store the photos
-Vercel Blob (the choice you made) has a catch we found in Vercel's own price page: the free plan allows only **2,000 uploads per month**, and we need to upload 21,994. If the limit is passed, Blob is **switched off for 30 days**, which would take the photos down again. So the free plan cannot hold these photos.
-
-| Option | Cost | Notes |
-|---|---|---|
-| **A. Vercel Pro plan + Blob** | about US$20 a month | Uploading and storing these photos costs well under US$1 of that. Also removes the picture-resizing limit, and the Hobby plan is meant for personal, non-commercial projects only, so a business site belongs on Pro. |
-| **B. Cloudflare R2 (free)** | free up to 10 GB | Needs a new Cloudflare account (they may ask for a card). Photos load free of charge. A bit more setup. |
-
-Our recommendation: **A** if you are happy to pay, otherwise **B**.
 
 ## 7. How to undo this
 - The change lives on its own branch. Deleting the branch, or not publishing it, leaves the live site exactly as it is today.
 - Clearing the `MONKCRAFT_MEDIA_BASE_URL` setting on Vercel makes the site go back to looking for photos on itself.
+- When everything is finished, delete the private login file and the upload key in Cloudinary.
